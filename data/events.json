@@ -1,0 +1,95 @@
+[
+  {
+    "day": "15",
+    "mon": "MAY",
+    "yr": "2026",
+    "name": "A State of Trance 1150",
+    "venue": "Ziggo Dome — Amsterdam, NL",
+    "time": "20:00 CET",
+    "capacity": "17,000",
+    "artists": [
+      "Armin van Buuren",
+      "Andrew Rayel",
+      "Cosmic Gate",
+      "Nifra"
+    ],
+    "status": "on-sale"
+  },
+  {
+    "day": "21",
+    "mon": "JUN",
+    "yr": "2026",
+    "name": "Transmission Prague 2026",
+    "venue": "O2 Arena — Prague, CZ",
+    "time": "20:00 CEST",
+    "capacity": "20,000",
+    "artists": [
+      "Giuseppe Ottaviani",
+      "Paul van Dyk",
+      "Aly & Fila",
+      "Simon Patterson"
+    ],
+    "status": "on-sale"
+  },
+  {
+    "day": "04",
+    "mon": "JUL",
+    "yr": "2026",
+    "name": "Dreamstate Europe",
+    "venue": "Amnesia — Ibiza, ES",
+    "time": "23:00 CEST",
+    "capacity": "5,000",
+    "artists": [
+      "Ferry Corsten",
+      "Above & Beyond",
+      "Infected Mushroom"
+    ],
+    "status": "soon"
+  },
+  {
+    "day": "02",
+    "mon": "AUG",
+    "yr": "2026",
+    "name": "ASOT at Tomorrowland",
+    "venue": "Tomorrowland — Boom, BE",
+    "time": "22:00 CEST",
+    "capacity": "30,000",
+    "artists": [
+      "Armin van Buuren",
+      "Paul van Dyk",
+      "Tiësto"
+    ],
+    "status": "on-sale"
+  },
+  {
+    "day": "18",
+    "mon": "OCT",
+    "yr": "2026",
+    "name": "Dreamstate SoCal 2026",
+    "venue": "NOS Events Center — LA, USA",
+    "time": "18:00 PST",
+    "capacity": "15,000",
+    "artists": [
+      "Aly & Fila",
+      "Above & Beyond",
+      "Ferry Corsten",
+      "Nifra"
+    ],
+    "status": "soon"
+  },
+  {
+    "day": "28",
+    "mon": "NOV",
+    "yr": "2025",
+    "name": "ASOT 1100",
+    "venue": "Jaarbeurs — Utrecht, NL",
+    "time": "20:00 CET",
+    "capacity": "12,000",
+    "artists": [
+      "Armin van Buuren",
+      "Andrew Rayel",
+      "Giuseppe Ottaviani"
+    ],
+    "status": "past"
+  }
+]

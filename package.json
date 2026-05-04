@@ -1,0 +1,32 @@
+{
+  "name": "trance-nexus",
+  "version": "1.0.0",
+  "description": "Trance Music Information Portal",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "scrape": "node scrapers/update-all.js",
+    "scrape:radio": "node scrapers/scrape-radio.js",
+    "scrape:setlists": "node scrapers/scrape-setlists.js",
+    "scrape:events": "node scrapers/scrape-events.js",
+    "schedule": "node scrapers/scheduler.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0",
+    "next": "^15.0.0",
+    "node-cron": "^3.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.5.0",
+    "eslint": "^8.0.0",
+    "eslint-config-next": "^15.0.0",
+    "postcss": "^8.4.0",
+    "tailwindcss": "^3.4.0"
+  }
+}

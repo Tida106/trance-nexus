@@ -1,0 +1,59 @@
+name: Update Trance Data
+
+on:
+  schedule:
+    # 毎日 03:00 UTC に実行
+    - cron: '0 3 * * *'
+  # 手動実行ボタン
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run scrapers
+        run: npm run scrape
+        continue-on-error: true
+
+      - name: Check for changes
+        id: check_changes
+        run: |
+          if git diff --quiet data/; then
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          else
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit and push updated data
+        if: steps.check_changes.outputs.has_changes == 'true'
+        run: |
+          git config user.name "trance-nexus-bot"
+          git config user.email "bot@trance-nexus.local"
+          git add data/
+          git commit -m "chore: auto-update data $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
+          git push
+
+      - name: Notify on success
+        if: success()
+        run: echo "✅ Data update completed successfully at $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
+
+      - name: Notify on failure
+        if: failure()
+        run: echo "⚠️ Data update completed with errors, but existing data was preserved"

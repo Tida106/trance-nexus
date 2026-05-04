@@ -1,0 +1,138 @@
+[
+  {
+    "name": "A State of Trance",
+    "dj": "Armin van Buuren",
+    "num": "SHOW #001",
+    "live": true,
+    "freq": "weekly",
+    "genre": "Uplifting / Progressive",
+    "listeners": "40M+",
+    "sched": [
+      {
+        "day": "FRI",
+        "time": "21:00 CET",
+        "ep": "毎週"
+      }
+    ],
+    "desc": "世界最大のトランスラジオ。毎週金曜21時(CET)放送、全100カ国以上。"
+  },
+  {
+    "name": "Future Sound Of Egypt",
+    "dj": "Aly & Fila",
+    "num": "SHOW #002",
+    "live": false,
+    "freq": "biweekly",
+    "genre": "Uplifting / Egyptian",
+    "listeners": "5M+",
+    "sched": [
+      {
+        "day": "MON",
+        "time": "20:00 CET",
+        "ep": "隔週"
+      }
+    ],
+    "desc": "エジプト・カイロ発。アップリフティングの旗手による隔週放送。"
+  },
+  {
+    "name": "Open Up",
+    "dj": "Simon Patterson",
+    "num": "SHOW #003",
+    "live": false,
+    "freq": "monthly",
+    "genre": "Tech Trance",
+    "listeners": "2M+",
+    "sched": [
+      {
+        "day": "WED",
+        "time": "19:00 GMT",
+        "ep": "毎月"
+      }
+    ],
+    "desc": "テックトランスに特化した月イチ番組。ハードエッジなセット中心。"
+  },
+  {
+    "name": "Group Therapy Radio",
+    "dj": "Above & Beyond",
+    "num": "SHOW #004",
+    "live": false,
+    "freq": "weekly",
+    "genre": "Uplifting / Vocal",
+    "listeners": "10M+",
+    "sched": [
+      {
+        "day": "FRI",
+        "time": "18:00 EST",
+        "ep": "毎週"
+      }
+    ],
+    "desc": "Anjunadeepsを率いるA&Bによるグループセラピーラジオ。"
+  },
+  {
+    "name": "The Untold",
+    "dj": "Giuseppe Ottaviani",
+    "num": "SHOW #005",
+    "live": false,
+    "freq": "monthly",
+    "genre": "Uplifting",
+    "listeners": "1.5M+",
+    "sched": [
+      {
+        "day": "THU",
+        "time": "20:00 CET",
+        "ep": "毎月"
+      }
+    ],
+    "desc": "ジュゼッペのライブ感溢れるアップリフティングミックスを毎月。"
+  },
+  {
+    "name": "Find Your Harmony",
+    "dj": "Andrew Rayel",
+    "num": "SHOW #006",
+    "live": false,
+    "freq": "monthly",
+    "genre": "Uplifting / Epic",
+    "listeners": "3M+",
+    "sched": [
+      {
+        "day": "TUE",
+        "time": "21:00 EET",
+        "ep": "毎月"
+      }
+    ],
+    "desc": "エピックかつエモーショナルなサウンドが詰まった月刊ショー。"
+  },
+  {
+    "name": "Analog Garden",
+    "dj": "Ferry Corsten",
+    "num": "SHOW #007",
+    "live": false,
+    "freq": "biweekly",
+    "genre": "Tech Trance",
+    "listeners": "2M+",
+    "sched": [
+      {
+        "day": "SAT",
+        "time": "20:00 CET",
+        "ep": "隔週"
+      }
+    ],
+    "desc": "フェリー・コルステンによるテックトランスセット特化の隔週番組。"
+  },
+  {
+    "name": "Vonyc Sessions",
+    "dj": "Paul van Dyk",
+    "num": "SHOW #008",
+    "live": true,
+    "freq": "weekly",
+    "genre": "Progressive / Uplifting",
+    "listeners": "6M+",
+    "sched": [
+      {
+        "day": "FRI",
+        "time": "19:00 CET",
+        "ep": "毎週"
+      }
+    ],
+    "desc": "ポール・ヴァン・ダイクによる毎週金曜のプログレッシブセッション。"
+  }
+]

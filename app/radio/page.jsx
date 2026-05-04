@@ -1,0 +1,149 @@
+'use client';
+
+import Navigation from '@/components/Navigation';
+import Footer from '@/components/Footer';
+import { useState } from 'react';
+import radio from '@/data/radio.json';
+
+export default function RadioPage() {
+  const [selectedTab, setSelectedTab] = useState('all');
+
+  const filteredRadio = selectedTab === 'all'
+    ? radio
+    : radio.filter(r => r.freq === selectedTab);
+
+  return (
+    <>
+      <Navigation />
+      <main className="relative z-10 min-h-screen pt-[60px] pb-20 px-12">
+        <div className="max-w-7xl mx-auto">
+          <div className="py-12">
+            <span className="font-bebas text-xs tracking-widest text-accent-red block mb-2">
+              {/* 02 — RADIO SHOWS */}
+            </span>
+            <h1 className="font-bebas text-5xl tracking-wider text-white mb-2">
+              ラジオ番組 <span className="text-accent-orange">スケジュール</span>
+            </h1>
+            <div className="w-20 h-1 bg-gradient-to-r from-accent-red via-accent-orange to-transparent" />
+          </div>
+
+          {/* Hero Card - ASOT */}
+          <div className="bg-dark-bg2/80 border border-accent-orange/25 rounded-sm p-10 grid grid-cols-1 lg:grid-cols-2 gap-10 items-center mb-12 relative overflow-hidden">
+            <div className="absolute -right-20 -top-20 w-60 h-60 bg-gradient-radial from-accent-orange/10 to-transparent rounded-full pointer-events-none" />
+            
+            <div>
+              <div className="flex items-center gap-2 font-bebas text-xs tracking-widest text-accent-amber mb-3">
+                <span>★</span> FLAGSHIP SHOW OF THE YEAR
+              </div>
+              <h2 className="font-bebas text-4xl tracking-widest text-white mb-2">
+                A State of <span className="text-accent-orange">Trance</span>
+              </h2>
+              <p className="text-text-light/55 text-sm leading-relaxed mb-4">
+                Armin van Buurenが主宰するトランス界最大のラジオ番組。毎週金曜21時(CET)放送、全世界100カ国以上・累計リスナー4000万人超。エピソード1000回を超えた伝説的番組。
+              </p>
+              <div className="flex gap-2 flex-wrap mb-4">
+                <span className="text-xs tracking-widest px-3 py-1 rounded border border-accent-orange/30 bg-accent-orange/5 text-accent-orange">
+                  UPLIFTING
+                </span>
+                <span className="text-xs tracking-widest px-3 py-1 rounded border border-accent-amber/30 bg-accent-amber/5 text-accent-amber">
+                  PROGRESSIVE
+                </span>
+                <span className="text-xs tracking-widest px-3 py-1 rounded border border-accent-red/30 bg-accent-red/5 text-accent-red">
+                  EP 1000+
+                </span>
+              </div>
+              <button className="font-bebas text-xs tracking-widest px-4 py-2 border border-accent-orange/30 text-accent-orange hover:bg-accent-orange/10 transition-all rounded">
+                ▶ OFFICIAL SITE
+              </button>
+            </div>
+
+            <div className="flex items-end justify-end h-20 gap-1">
+              {[35, 75, 50, 90, 60, 40, 80, 55, 70, 45].map((height, i) => (
+                <div
+                  key={i}
+                  className="w-2 rounded-t bg-gradient-to-t from-accent-fire via-accent-orange to-accent-amber opacity-85 animate-pulse"
+                  style={{
+                    height: `${height}%`,
+                    animationDelay: `${i * 0.08}s`,
+                  }}
+                />
+              ))}
+            </div>
+          </div>
+
+          {/* Tabs */}
+          <div className="flex border-b border-orange-900/20 mb-8">
+            {['all', 'weekly', 'biweekly', 'monthly'].map((tab) => (
+              <button
+                key={tab}
+                onClick={() => setSelectedTab(tab)}
+                className={`font-bebas text-sm tracking-widest px-6 py-2 relative transition-colors ${
+                  selectedTab === tab
+                    ? 'text-accent-orange'
+                    : 'text-text-muted hover:text-text-light'
+                }`}
+              >
+                {tab.toUpperCase()}
+                {selectedTab === tab && (
+                  <div className="absolute bottom-0 left-0 right-0 h-0.5 bg-accent-orange" />
+                )}
+              </button>
+            ))}
+          </div>
+
+          {/* Radio Grid */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
+            {filteredRadio.map((show, i) => (
+              <div
+                key={i}
+                className="bg-dark-bg2/80 border border-accent-orange/10 rounded-sm p-5 relative hover:border-accent-orange/40 hover:shadow-lg hover:translate-y-[-4px] transition-all"
+              >
+                {show.live && (
+                  <div className="absolute top-3 right-3 flex items-center gap-2 bg-accent-red/20 border border-accent-red/50 text-accent-red px-2 py-1 rounded text-xs tracking-widest font-bebas">
+                    <div className="w-1 h-1 rounded-full bg-accent-red animate-pulse" />
+                    LIVE NOW
+                  </div>
+                )}
+
+                <div className="font-bebas text-xs tracking-widest text-accent-red mb-1">
+                  {show.num}
+                </div>
+                <h3 className="font-bebas text-2xl tracking-widest text-white mb-1">
+                  {show.name}
+                </h3>
+                <div className="text-accent-orange text-sm tracking-widest mb-3">
+                  by {show.dj}
+                </div>
+
+                <div className="flex gap-3 flex-wrap text-xs text-text-muted mb-3">
+                  <div>🎵 {show.genre}</div>
+                  <div>👥 {show.listeners}</div>
+                  <div>📅 {show.freq}</div>
+                </div>
+
+                <p className="text-sm text-text-light/50 leading-relaxed mb-3">
+                  {show.desc}
+                </p>
+
+                <div className="border-t border-white/5 pt-3 flex flex-col gap-1 text-xs">
+                  {show.sched.map((s, j) => (
+                    <div key={j} className="flex justify-between items-center">
+                      <span className="font-bebas text-accent-orange tracking-widest">{s.day}</span>
+                      <span className="text-text-light/65 font-mono">{s.time}</span>
+                      <span className="text-text-muted">{s.ep}</span>
+                    </div>
+                  ))}
+                </div>
+
+                <button className="font-bebas text-xs tracking-widest mt-3 px-4 py-2 border border-accent-orange/30 text-accent-orange hover:bg-accent-orange/10 transition-all rounded">
+                  ▶ LISTEN / ARCHIVE
+                </button>
+              </div>
+            ))}
+          </div>
+        </div>
+      </main>
+      <Footer />
+    </>
+  );
+}

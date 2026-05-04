@@ -1,0 +1,134 @@
+[
+  {
+    "name": "Armin van Buuren",
+    "flag": "🇳🇱",
+    "emoji": "🌊",
+    "genre": "UPLIFTING",
+    "sub": "Uplifting / Progressive",
+    "bio": "DJ Mag #1を5度受賞。ASOTの主宰者として知られるオランダの伝説。",
+    "tags": ["UPLIFTING", "PROGRESSIVE", "LEGEND"],
+    "banner": "b-uplifting",
+    "links": ["WEBSITE", "MIXCLOUD"]
+  },
+  {
+    "name": "Ferry Corsten",
+    "flag": "🇳🇱",
+    "emoji": "⚡",
+    "genre": "TECH",
+    "sub": "Tech Trance / Hard",
+    "bio": "System F名義のクラシックで知られるオランダのベテラン。テックトランスの重鎮。",
+    "tags": ["TECH", "HARD"],
+    "banner": "b-tech",
+    "links": ["WEBSITE", "SOUNDCLOUD"]
+  },
+  {
+    "name": "Paul van Dyk",
+    "flag": "🇩🇪",
+    "emoji": "🏛",
+    "genre": "PROGRESSIVE",
+    "sub": "Progressive / Uplifting",
+    "bio": "ベルリン出身。哲学的メッセージとトランスを融合させる先駆者。",
+    "tags": ["PROGRESSIVE", "UPLIFTING"],
+    "banner": "b-progressive",
+    "links": ["WEBSITE", "MIXCLOUD"]
+  },
+  {
+    "name": "Tiësto",
+    "flag": "🇳🇱",
+    "emoji": "🔮",
+    "genre": "PROGRESSIVE",
+    "sub": "Progressive Trance",
+    "bio": "2000年代最大のDJ。プログレッシブトランスの原点を作り上げた巨匠。",
+    "tags": ["PROGRESSIVE", "ICONIC"],
+    "banner": "b-progressive",
+    "links": ["WEBSITE"]
+  },
+  {
+    "name": "Above & Beyond",
+    "flag": "🇬🇧",
+    "emoji": "🌌",
+    "genre": "VOCAL",
+    "sub": "Uplifting / Vocal",
+    "bio": "Anjunadeep/Anjunabeatsを主宰するイギリスのトリオ。感情的なサウンドが特徴。",
+    "tags": ["UPLIFTING", "VOCAL", "TRIO"],
+    "banner": "b-vocal",
+    "links": ["WEBSITE", "MIXCLOUD"]
+  },
+  {
+    "name": "Aly & Fila",
+    "flag": "🇪🇬",
+    "emoji": "🌙",
+    "genre": "UPLIFTING",
+    "sub": "Uplifting / Egyptian",
+    "bio": "エジプト出身。FSOOEホスト。中東旋律とアップリフティングを融合した独自スタイル。",
+    "tags": ["UPLIFTING", "EGYPT"],
+    "banner": "b-uplifting",
+    "links": ["WEBSITE"]
+  },
+  {
+    "name": "Simon Patterson",
+    "flag": "🇬🇧",
+    "emoji": "🔬",
+    "genre": "TECH",
+    "sub": "Tech / Hard Trance",
+    "bio": "Open Upホスト。ハードエッジなテックトランスで知られる英国プロデューサー。",
+    "tags": ["TECH", "HARD"],
+    "banner": "b-tech",
+    "links": ["WEBSITE", "SOUNDCLOUD"]
+  },
+  {
+    "name": "Infected Mushroom",
+    "flag": "🇮🇱",
+    "emoji": "🍄",
+    "genre": "PSYTRANCE",
+    "sub": "Psy / Prog Psy",
+    "bio": "イスラエル発。サイケデリックとライブ演奏を組み合わせた独自の世界観。",
+    "tags": ["PSYTRANCE", "PROG PSY"],
+    "banner": "b-psytrance",
+    "links": ["WEBSITE"]
+  },
+  {
+    "name": "Giuseppe Ottaviani",
+    "flag": "🇮🇹",
+    "emoji": "🎹",
+    "genre": "UPLIFTING",
+    "sub": "Uplifting / Live",
+    "bio": "BoC名義でも活動したイタリア人。ライブ演奏の圧倒的なパフォーマンスが魅力。",
+    "tags": ["UPLIFTING", "LIVE"],
+    "banner": "b-uplifting",
+    "links": ["WEBSITE", "MIXCLOUD"]
+  },
+  {
+    "name": "Andrew Rayel",
+    "flag": "🇲🇩",
+    "emoji": "⭐",
+    "genre": "EPIC",
+    "sub": "Uplifting / Epic",
+    "bio": "モルドバ出身のライジングスター。壮大でエピックなサウンドスケープを構築。",
+    "tags": ["EPIC", "UPLIFTING"],
+    "banner": "b-epic",
+    "links": ["WEBSITE"]
+  },
+  {
+    "name": "Cosmic Gate",
+    "flag": "🇩🇪",
+    "emoji": "🌠",
+    "genre": "PROGRESSIVE",
+    "sub": "Progressive / Tech",
+    "bio": "ドイツのデュオ。タイトなビートと浮遊感あるシンセが融合したプログレッシブ。",
+    "tags": ["PROGRESSIVE", "TECH"],
+    "banner": "b-progressive",
+    "links": ["WEBSITE", "SOUNDCLOUD"]
+  },
+  {
+    "name": "Nifra",
+    "flag": "🇸🇰",
+    "emoji": "💎",
+    "genre": "VOCAL",
+    "sub": "Uplifting / Vocal",
+    "bio": "スロバキア出身の女性DJ・プロデューサー。アップリフティングのライジングスター。",
+    "tags": ["VOCAL", "UPLIFTING"],
+    "banner": "b-vocal",
+    "links": ["WEBSITE"]
+  }
+]
