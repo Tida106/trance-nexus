@@ -1,15 +1,13 @@
 import { genres } from './genres';
 import { production } from './production';
 import { djs } from './djs';
-
-// Future batches:
-// import { culture } from './culture';
+import { culture } from './culture';
 
 export const glossary = [
   ...genres,
   ...production,
   ...djs,
-  // ...culture,
+  ...culture,
 ];
 
 export const glossarySlugs = glossary.map((g) => g.slug);
