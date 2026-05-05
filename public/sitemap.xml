@@ -397,4 +397,49 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/artists/markus-schulz"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/artists/markus-schulz"/>
   </url>
+  <url>
+    <loc>https://trance-nexus.com/artists/dash-berlin</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/artists/dash-berlin"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/artists/dash-berlin"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/artists/dash-berlin"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/artists/bryan-kearney</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/artists/bryan-kearney"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/artists/bryan-kearney"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/artists/bryan-kearney"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/artists/john-ocallaghan</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/artists/john-ocallaghan"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/artists/john-ocallaghan"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/artists/john-ocallaghan"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/artists/sean-tyas</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/artists/sean-tyas"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/artists/sean-tyas"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/artists/sean-tyas"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/artists/simon-patterson</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/artists/simon-patterson"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/artists/simon-patterson"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/artists/simon-patterson"/>
+  </url>
 </urlset>
