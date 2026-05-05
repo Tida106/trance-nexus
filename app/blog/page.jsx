@@ -16,5 +16,27 @@ export default function BlogPage() {
     ja: { title: ja.title, description: ja.description, excerpt: ja.excerpt },
   }));
 
-  return <BlogListing listings={listings} />;
+  const blogSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Blog',
+    name: 'TRANCE NEXUS Blog',
+    description: 'In-depth articles about trance music: history, subgenres, artists, festivals, and cultural analysis',
+    url: 'https://trance-nexus.com/blog',
+    inLanguage: ['en', 'ja'],
+    publisher: {
+      '@type': 'Organization',
+      name: 'TRANCE NEXUS',
+      url: 'https://trance-nexus.com',
+    },
+  };
+
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(blogSchema) }}
+      />
+      <BlogListing listings={listings} />
+    </>
+  );
 }

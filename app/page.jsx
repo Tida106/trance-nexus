@@ -15,8 +15,30 @@ export default function Home() {
     { value: '30', label: t('home.stats.events') },
   ];
 
+  const websiteSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: 'TRANCE NEXUS',
+    alternateName: 'トランスネクサス',
+    url: 'https://trance-nexus.com',
+    description: 'Comprehensive trance music portal covering artists, radio shows, setlists, and events worldwide',
+    inLanguage: ['en', 'ja'],
+    potentialAction: {
+      '@type': 'SearchAction',
+      target: {
+        '@type': 'EntryPoint',
+        urlTemplate: 'https://trance-nexus.com/artists?q={search_term_string}',
+      },
+      'query-input': 'required name=search_term_string',
+    },
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
+      />
       <Navigation />
       
       {/* HERO */}

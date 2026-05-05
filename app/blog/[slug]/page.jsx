@@ -26,5 +26,40 @@ export default async function BlogPostPage({ params }) {
   const { slug } = await params;
   const post = posts.find((p) => p.slug === slug);
   if (!post) notFound();
-  return <BlogPost post={post} />;
+
+  const articleSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BlogPosting',
+    headline: post.en.title,
+    description: post.en.description,
+    keywords: post.tags.join(', '),
+    url: `https://trance-nexus.com/blog/${post.slug}`,
+    datePublished: post.date,
+    dateModified: post.date,
+    inLanguage: ['en', 'ja'],
+    author: {
+      '@type': 'Organization',
+      name: 'TRANCE NEXUS',
+      url: 'https://trance-nexus.com',
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: 'TRANCE NEXUS',
+      url: 'https://trance-nexus.com',
+    },
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': `https://trance-nexus.com/blog/${post.slug}`,
+    },
+  };
+
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
+      <BlogPost post={post} />
+    </>
+  );
 }

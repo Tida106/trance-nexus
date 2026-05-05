@@ -10,8 +10,29 @@ export default function ContactPage() {
   const { language } = useTranslation();
   const isJA = language === 'ja';
 
+  const contactSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'ContactPage',
+    name: isJA ? 'お問い合わせ | TRANCE NEXUS' : 'Contact | TRANCE NEXUS',
+    description: isJA
+      ? 'TRANCE NEXUSへのお問い合わせ、掲載依頼、アフィリエイト連携のご提案'
+      : 'Contact TRANCE NEXUS for inquiries, listing requests, and affiliate partnerships',
+    url: 'https://trance-nexus.com/contact',
+    inLanguage: ['en', 'ja'],
+    mainEntity: {
+      '@type': 'Organization',
+      name: 'TRANCE NEXUS',
+      url: 'https://trance-nexus.com',
+      email: CONTACT_EMAIL,
+    },
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(contactSchema) }}
+      />
       <Navigation />
       <main className="relative z-10 min-h-screen pt-[60px] pb-20 px-12">
         <div className="max-w-2xl mx-auto">
