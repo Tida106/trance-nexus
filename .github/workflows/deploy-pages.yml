@@ -31,16 +31,17 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Generate sitemap + IndexNow ping
-        run: node scripts/generate-sitemap.js
-        env:
-          INDEXNOW_KEY: ${{ secrets.INDEXNOW_KEY }}
-
-      - name: Build static export
-        run: next build
-
+      # Must run before build so base_path output is available
       - name: Setup Pages
+        id: pages
         uses: actions/configure-pages@v5
+
+      # npm run build triggers prebuild (sitemap) then next build
+      - name: Build static export
+        run: npm run build
+        env:
+          BASE_PATH: ${{ steps.pages.outputs.base_path }}
+          INDEXNOW_KEY: ${{ secrets.INDEXNOW_KEY }}
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
