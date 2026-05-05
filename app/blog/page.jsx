@@ -1,5 +1,5 @@
 import BlogListing from '@/components/BlogListing';
-import { posts } from '@/data/blog/posts';
+import { posts } from '@/data/blog/index';
 
 export const metadata = {
   title: 'Blog | TRANCE NEXUS',

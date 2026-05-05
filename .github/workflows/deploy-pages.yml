@@ -42,6 +42,7 @@ jobs:
         env:
           BASE_PATH: ${{ steps.pages.outputs.base_path }}
           INDEXNOW_KEY: ${{ secrets.INDEXNOW_KEY }}
+          NODE_OPTIONS: --max-old-space-size=4096
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

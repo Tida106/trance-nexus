@@ -28,6 +28,24 @@ const ARTICLES = [
   { slug: 'trance-vs-house-vs-techno',           title: 'Trance vs House vs Techno: Understanding the Differences' },
   { slug: 'role-of-vocals-in-trance-music',      title: 'The Role of Vocals in Trance Music' },
   { slug: 'why-trance-music-endures',            title: 'Why Trance Music Endures: A Cultural Analysis' },
+  // Batch 1: DJ Gear & Technique
+  { slug: 'pioneer-dj-vs-denon-dj-for-trance',        title: 'Pioneer DJ vs Denon DJ: Which is Better for Trance?' },
+  { slug: 'best-headphones-for-trance-djing-2026',     title: 'Best Headphones for Trance DJing in 2026' },
+  { slug: 'essential-vst-plugins-trance-production',   title: 'Essential VST Plugins for Trance Production' },
+  { slug: 'how-to-mix-trance-beatmatching-phrasing',  title: 'How to Mix Trance: Beatmatching and Phrasing' },
+  { slug: 'art-of-trance-buildup-production-secrets',  title: 'The Art of the Trance Buildup: Production Secrets' },
+  // Batch 2: Artist Profiles
+  { slug: 'armin-van-buuren-king-of-trance',           title: 'Armin van Buuren: The King of Trance' },
+  { slug: 'above-beyond-anjuna-empire',                title: 'Above & Beyond and the Anjuna Empire' },
+  { slug: 'paul-van-dyk-pioneer-of-trance',            title: 'Paul van Dyk: Pioneer of the Trance Sound' },
+  { slug: 'tiesto-evolution-trance-to-edm',            title: "Tiësto: From Trance God to EDM Superstar" },
+  { slug: 'ferry-corsten-three-decades-of-trance',     title: 'Ferry Corsten: Three Decades of Innovation' },
+  // Batch 3: Scene & Culture
+  { slug: 'best-trance-clubs-in-europe',               title: 'The Best Trance Clubs in Europe' },
+  { slug: 'a-state-of-trance-show-that-changed-everything', title: 'A State of Trance: The Show That Changed Everything' },
+  { slug: 'tomorrowland-trance-stage',                 title: "Tomorrowland's Trance Stage: A Sacred Ground" },
+  { slug: 'ibiza-and-trance-love-story',               title: 'Ibiza and Trance: A Love Story' },
+  { slug: 'underground-trance-scene',                  title: 'The Underground Trance Scene You Need to Know' },
 ];
 
 function esc(str) {

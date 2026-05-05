@@ -22,6 +22,21 @@ const PAGES = [
   { url: '/blog/trance-vs-house-vs-techno',           changefreq: 'monthly', priority: '0.6' },
   { url: '/blog/role-of-vocals-in-trance-music',      changefreq: 'monthly', priority: '0.6' },
   { url: '/blog/why-trance-music-endures',            changefreq: 'monthly', priority: '0.6' },
+  { url: '/blog/pioneer-dj-vs-denon-dj-for-trance',        changefreq: 'monthly', priority: '0.6' },
+  { url: '/blog/best-headphones-for-trance-djing-2026',     changefreq: 'monthly', priority: '0.6' },
+  { url: '/blog/essential-vst-plugins-trance-production',   changefreq: 'monthly', priority: '0.6' },
+  { url: '/blog/how-to-mix-trance-beatmatching-phrasing',  changefreq: 'monthly', priority: '0.6' },
+  { url: '/blog/art-of-trance-buildup-production-secrets',  changefreq: 'monthly', priority: '0.6' },
+  { url: '/blog/armin-van-buuren-king-of-trance',           changefreq: 'monthly', priority: '0.6' },
+  { url: '/blog/above-beyond-anjuna-empire',                changefreq: 'monthly', priority: '0.6' },
+  { url: '/blog/paul-van-dyk-pioneer-of-trance',            changefreq: 'monthly', priority: '0.6' },
+  { url: '/blog/tiesto-evolution-trance-to-edm',            changefreq: 'monthly', priority: '0.6' },
+  { url: '/blog/ferry-corsten-three-decades-of-trance',     changefreq: 'monthly', priority: '0.6' },
+  { url: '/blog/best-trance-clubs-in-europe',               changefreq: 'monthly', priority: '0.6' },
+  { url: '/blog/a-state-of-trance-show-that-changed-everything', changefreq: 'monthly', priority: '0.6' },
+  { url: '/blog/tomorrowland-trance-stage',                 changefreq: 'monthly', priority: '0.6' },
+  { url: '/blog/ibiza-and-trance-love-story',               changefreq: 'monthly', priority: '0.6' },
+  { url: '/blog/underground-trance-scene',                  changefreq: 'monthly', priority: '0.6' },
 ];
 
 function buildSitemap() {

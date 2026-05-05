@@ -1,6 +1,6 @@
 import { notFound } from 'next/navigation';
 import BlogPost from '@/components/BlogPost';
-import { posts } from '@/data/blog/posts';
+import { posts } from '@/data/blog/index';
 
 export function generateStaticParams() {
   return posts.map((post) => ({ slug: post.slug }));
