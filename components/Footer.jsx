@@ -36,6 +36,18 @@ export default function Footer() {
           {isJA ? 'ブログ' : 'Blog'}
         </Link>
         <Link
+          href="/category"
+          className="text-xs tracking-widest text-text-muted hover:text-accent-orange transition-colors"
+        >
+          {isJA ? 'カテゴリ' : 'Categories'}
+        </Link>
+        <Link
+          href="/tag"
+          className="text-xs tracking-widest text-text-muted hover:text-accent-orange transition-colors"
+        >
+          {isJA ? 'タグ' : 'Tags'}
+        </Link>
+        <Link
           href="/glossary"
           className="text-xs tracking-widest text-text-muted hover:text-accent-orange transition-colors"
         >

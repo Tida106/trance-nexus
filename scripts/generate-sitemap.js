@@ -37,6 +37,38 @@ const LABEL_PAGES = collectSlugs('labels').map((slug) => ({
   priority: '0.7',
 }));
 
+// Categories + tags are keyed by `id:` not `slug:` — extract those by reading the relevant files directly.
+function collectIdsFrom(relPath) {
+  const filePath = path.join(__dirname, '..', relPath);
+  if (!fs.existsSync(filePath)) return [];
+  const content = fs.readFileSync(filePath, 'utf8');
+  const ids = [];
+  const re = /id:\s*['"]([a-z0-9-]+)['"]/g;
+  let m;
+  while ((m = re.exec(content)) !== null) ids.push(m[1]);
+  // De-dupe (the file also lists TAG_GROUPS which use id:'subgenre' etc — but those don't get pages,
+  // so de-dupe via Set is enough; sitemap will only generate the ones that resolve to real pages.
+  // The collision list is small and routes for missing ids would 404, but generateStaticParams
+  // controls what's actually built — sitemap is best-effort listing.
+  return Array.from(new Set(ids));
+}
+
+const CATEGORY_PAGES = collectIdsFrom('data/blog/categories.js').map((id) => ({
+  url: `/category/${id}`,
+  changefreq: 'weekly',
+  priority: '0.6',
+}));
+
+// tags.js contains both per-tag entries and the TAG_GROUPS metadata; filter against the actual
+// tag id set by reading tags.js once and dropping any group ids that aren't real tags.
+const TAG_FILE = path.join(__dirname, '..', 'data/blog/tags.js');
+const TAG_GROUP_IDS = new Set(['subgenre', 'artist', 'place', 'tool', 'era']);
+const TAG_PAGES = fs.existsSync(TAG_FILE)
+  ? collectIdsFrom('data/blog/tags.js')
+      .filter((id) => !TAG_GROUP_IDS.has(id))
+      .map((id) => ({ url: `/tag/${id}`, changefreq: 'weekly', priority: '0.5' }))
+  : [];
+
 const PAGES = [
   { url: '/',          changefreq: 'daily',  priority: '1.0' },
   { url: '/radio',     changefreq: 'daily',  priority: '0.9' },
@@ -44,6 +76,8 @@ const PAGES = [
   { url: '/artists',   changefreq: 'weekly', priority: '0.8' },
   { url: '/labels',    changefreq: 'weekly', priority: '0.8' },
   { url: '/glossary',  changefreq: 'weekly', priority: '0.7' },
+  { url: '/category',  changefreq: 'weekly', priority: '0.6' },
+  { url: '/tag',       changefreq: 'weekly', priority: '0.5' },
   { url: '/setlists',  changefreq: 'weekly', priority: '0.7' },
   { url: '/about',    changefreq: 'monthly', priority: '0.5' },
   { url: '/privacy',  changefreq: 'monthly', priority: '0.3' },
@@ -78,6 +112,8 @@ const PAGES = [
   ...ARTIST_PAGES,
   ...LABEL_PAGES,
   ...GLOSSARY_PAGES,
+  ...CATEGORY_PAGES,
+  ...TAG_PAGES,
 ];
 
 function buildSitemap() {

@@ -56,6 +56,24 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/glossary"/>
   </url>
   <url>
+    <loc>https://trance-nexus.com/category</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/category"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/category"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/category"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/tag</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/tag"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/tag"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/tag"/>
+  </url>
+  <url>
     <loc>https://trance-nexus.com/setlists</loc>
     <lastmod>2026-05-05</lastmod>
     <changefreq>weekly</changefreq>
@@ -1053,5 +1071,248 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/glossary/edit-remix-bootleg"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/glossary/edit-remix-bootleg"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/glossary/edit-remix-bootleg"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/category/history</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/category/history"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/category/history"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/category/history"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/category/subgenres</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/category/subgenres"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/category/subgenres"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/category/subgenres"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/category/artists</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/category/artists"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/category/artists"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/category/artists"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/category/production</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/category/production"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/category/production"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/category/production"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/category/events</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/category/events"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/category/events"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/category/events"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/category/labels</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/category/labels"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/category/labels"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/category/labels"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/tag/uplifting</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/tag/uplifting"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/tag/uplifting"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/tag/uplifting"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/tag/progressive</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/tag/progressive"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/tag/progressive"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/tag/progressive"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/tag/psytrance</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/tag/psytrance"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/tag/psytrance"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/tag/psytrance"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/tag/vocal</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/tag/vocal"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/tag/vocal"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/tag/vocal"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/tag/hard-trance</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/tag/hard-trance"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/tag/hard-trance"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/tag/hard-trance"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/tag/goa</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/tag/goa"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/tag/goa"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/tag/goa"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/tag/armin-van-buuren</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/tag/armin-van-buuren"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/tag/armin-van-buuren"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/tag/armin-van-buuren"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/tag/tiesto</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/tag/tiesto"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/tag/tiesto"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/tag/tiesto"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/tag/paul-van-dyk</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/tag/paul-van-dyk"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/tag/paul-van-dyk"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/tag/paul-van-dyk"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/tag/above-and-beyond</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/tag/above-and-beyond"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/tag/above-and-beyond"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/tag/above-and-beyond"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/tag/ferry-corsten</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/tag/ferry-corsten"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/tag/ferry-corsten"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/tag/ferry-corsten"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/tag/ibiza</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/tag/ibiza"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/tag/ibiza"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/tag/ibiza"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/tag/tomorrowland</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/tag/tomorrowland"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/tag/tomorrowland"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/tag/tomorrowland"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/tag/asot</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/tag/asot"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/tag/asot"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/tag/asot"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/tag/dj-equipment</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/tag/dj-equipment"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/tag/dj-equipment"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/tag/dj-equipment"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/tag/production-tips</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/tag/production-tips"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/tag/production-tips"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/tag/production-tips"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/tag/vst</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/tag/vst"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/tag/vst"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/tag/vst"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/tag/90s</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/tag/90s"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/tag/90s"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/tag/90s"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/tag/2000s</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/tag/2000s"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/tag/2000s"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/tag/2000s"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/tag/2010s</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/tag/2010s"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/tag/2010s"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/tag/2010s"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/tag/2020s</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/tag/2020s"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/tag/2020s"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/tag/2020s"/>
   </url>
 </urlset>

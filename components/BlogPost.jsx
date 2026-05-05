@@ -6,6 +6,10 @@ import Footer from './Footer';
 import Breadcrumb from './Breadcrumb';
 import GlossaryReferences from './GlossaryReferences';
 import { useTranslation } from '@/lib/useTranslation';
+import {
+  getCategoryForPost,
+  getTagsForPost,
+} from '@/data/blog/classification';
 
 // Lightweight card for related / prev-next articles
 function ArticleCard({ post, isJA }) {
@@ -62,16 +66,31 @@ export default function BlogPost({ post, prevPost, nextPost, related }) {
 
           {/* Header */}
           <header className="mb-10">
-            <div className="flex gap-2 flex-wrap mb-4">
-              {post.tags.map((tag) => (
-                <span
-                  key={tag}
-                  className="text-xs tracking-widest px-2 py-0.5 rounded border border-accent-orange/30 bg-accent-orange/5 text-accent-orange"
-                >
-                  {tag}
-                </span>
-              ))}
-            </div>
+            {(() => {
+              const category = getCategoryForPost(post.slug);
+              const taxonomyTags = getTagsForPost(post.slug);
+              return (
+                <div className="flex gap-2 flex-wrap mb-4 items-center">
+                  {category && (
+                    <Link
+                      href={`/category/${category.id}`}
+                      className="text-xs tracking-widest font-bebas px-2.5 py-1 rounded bg-accent-orange/20 border border-accent-orange text-accent-orange hover:bg-accent-orange/30 transition-all"
+                    >
+                      {category.emoji} {isJA ? category.name.ja : category.name.en}
+                    </Link>
+                  )}
+                  {taxonomyTags.map((t) => (
+                    <Link
+                      key={t.id}
+                      href={`/tag/${t.id}`}
+                      className="text-xs tracking-widest px-2 py-0.5 rounded border border-accent-orange/30 bg-accent-orange/5 text-accent-orange hover:bg-accent-orange/15 transition-all"
+                    >
+                      #{isJA ? t.name.ja : t.name.en}
+                    </Link>
+                  ))}
+                </div>
+              );
+            })()}
 
             <h1 className="font-bebas text-4xl md:text-5xl tracking-wider text-white mb-4 leading-tight">
               {content.title}
