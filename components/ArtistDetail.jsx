@@ -6,6 +6,8 @@ import Footer from './Footer';
 import Breadcrumb from './Breadcrumb';
 import { useTranslation } from '@/lib/useTranslation';
 import { findLabelByName } from '@/data/labels/index';
+import MusicEmbed from './MusicEmbed';
+import { spotifyArtistIdFromUrl } from '@/lib/embeds';
 
 function LabelLinks({ labels }) {
   if (!labels || labels.length === 0) return null;
@@ -207,6 +209,56 @@ export default function ArtistDetail({ artist, related, mentioned }) {
               {style}
             </div>
           </section>
+
+          {/* Listen — Spotify artist embed (top tracks selected by Spotify) */}
+          {(() => {
+            const spArtistId = spotifyArtistIdFromUrl(artist.links?.spotify);
+            if (!spArtistId) return null;
+            return (
+              <section className="mb-12">
+                <h2 className="font-bebas text-3xl tracking-widest text-white mb-4">
+                  {isJA ? '聴く' : 'Listen'}
+                </h2>
+                <div className="w-16 h-0.5 bg-gradient-to-r from-accent-red via-accent-orange to-transparent mb-6" />
+                <MusicEmbed
+                  platform="spotify"
+                  id={`artist:${spArtistId}`}
+                  label={
+                    isJA
+                      ? `${artist.name} — Spotify人気曲`
+                      : `${artist.name} — top tracks on Spotify`
+                  }
+                  title={`Spotify player for ${artist.name}`}
+                />
+                <div className="mt-3 flex gap-2 flex-wrap">
+                  <a
+                    href={links.beatport}
+                    target="_blank"
+                    rel="noopener noreferrer sponsored"
+                    className="text-xs tracking-widest font-bebas px-3 py-2 rounded border border-accent-orange/30 text-accent-orange hover:bg-accent-orange/10 transition-all"
+                  >
+                    🛒 {isJA ? 'Beatportで購入' : 'Buy on Beatport'}
+                  </a>
+                  <a
+                    href={`https://music.apple.com/search?term=${encodeURIComponent(artist.name)}`}
+                    target="_blank"
+                    rel="noopener noreferrer sponsored"
+                    className="text-xs tracking-widest font-bebas px-3 py-2 rounded border border-accent-orange/30 text-accent-orange hover:bg-accent-orange/10 transition-all"
+                  >
+                    🍎 Apple Music
+                  </a>
+                  <a
+                    href={`https://www.youtube.com/results?search_query=${encodeURIComponent(artist.name)}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-xs tracking-widest font-bebas px-3 py-2 rounded border border-accent-orange/30 text-accent-orange hover:bg-accent-orange/10 transition-all"
+                  >
+                    ▶ YouTube
+                  </a>
+                </div>
+              </section>
+            );
+          })()}
 
           {/* Top works */}
           {artist.topWorks?.length > 0 && (

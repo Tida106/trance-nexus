@@ -10,6 +10,8 @@ import {
   getCategoryForPost,
   getTagsForPost,
 } from '@/data/blog/classification';
+import { getEmbedsForSlug } from '@/data/blog/embeds';
+import MusicEmbed from './MusicEmbed';
 
 // Lightweight card for related / prev-next articles
 function ArticleCard({ post, isJA }) {
@@ -121,6 +123,24 @@ export default function BlogPost({ post, prevPost, nextPost, related }) {
               </section>
             ))}
           </article>
+
+          {(() => {
+            const embeds = getEmbedsForSlug(post.slug);
+            if (embeds.length === 0) return null;
+            return (
+              <section className="mt-12 pt-8 border-t border-orange-900/20">
+                <h2 className="font-bebas text-2xl tracking-widest text-accent-orange mb-2">
+                  {isJA ? '関連楽曲' : 'Featured Tracks'}
+                </h2>
+                <div className="w-12 h-0.5 bg-gradient-to-r from-accent-red to-accent-orange mb-5" />
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  {embeds.map((e, i) => (
+                    <MusicEmbed key={i} {...e} />
+                  ))}
+                </div>
+              </section>
+            );
+          })()}
 
           <GlossaryReferences
             text={[

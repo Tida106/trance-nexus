@@ -5,6 +5,11 @@ import Navigation from './Navigation';
 import Footer from './Footer';
 import Breadcrumb from './Breadcrumb';
 import { useTranslation } from '@/lib/useTranslation';
+import MusicEmbed from './MusicEmbed';
+import {
+  spotifyArtistIdFromUrl,
+  spotifyPlaylistIdFromUrl,
+} from '@/lib/embeds';
 
 function buildLinks(label) {
   const enc = encodeURIComponent(label.name);
@@ -166,6 +171,51 @@ export default function LabelDetail({ label, related, signedArtists, posts }) {
               {bio}
             </div>
           </section>
+
+          {/* Listen — embed if the label data exposes an embeddable Spotify
+              entity. Most labels in our data point to /user/<name> URLs which
+              don't have an embed equivalent; the data layer can supply
+              `spotifyEmbedId` (e.g. 'playlist:37i9...' or 'artist:...') to
+              opt into a player. */}
+          {(() => {
+            const explicit = label.spotifyEmbedId;
+            const playlistId = spotifyPlaylistIdFromUrl(label.links?.spotify);
+            const artistId = spotifyArtistIdFromUrl(label.links?.spotify);
+            const id = explicit
+              ? explicit
+              : playlistId
+              ? `playlist:${playlistId}`
+              : artistId
+              ? `artist:${artistId}`
+              : null;
+            if (!id) return null;
+            return (
+              <section className="mb-12">
+                <h2 className="font-bebas text-3xl tracking-widest text-white mb-4">
+                  {isJA ? '聴く' : 'Listen'}
+                </h2>
+                <div className="w-16 h-0.5 bg-gradient-to-r from-accent-red via-accent-orange to-transparent mb-6" />
+                <MusicEmbed
+                  platform="spotify"
+                  id={id}
+                  label={
+                    isJA ? `${label.name} on Spotify` : `${label.name} on Spotify`
+                  }
+                  title={`Spotify player for ${label.name}`}
+                />
+                <div className="mt-3 flex gap-2 flex-wrap">
+                  <a
+                    href={links.beatport}
+                    target="_blank"
+                    rel="noopener noreferrer sponsored"
+                    className="text-xs tracking-widest font-bebas px-3 py-2 rounded border border-accent-orange/30 text-accent-orange hover:bg-accent-orange/10 transition-all"
+                  >
+                    🛒 {isJA ? 'Beatportで購入' : 'Buy on Beatport'}
+                  </a>
+                </div>
+              </section>
+            );
+          })()}
 
           {/* Notable releases */}
           {label.topReleases?.length > 0 && (

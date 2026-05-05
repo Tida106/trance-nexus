@@ -88,9 +88,18 @@ function TermsEN() {
         <h2 className="font-bebas text-xl tracking-widest text-accent-orange mb-3">6. Third-Party Services & Links</h2>
         <p>
           The Site links to and embeds content from third-party services including Beatport, Resident
-          Advisor, Spotify, SoundCloud, 1001Tracklists, Google AdSense, and Google Analytics. We are
-          not responsible for the content, availability, accuracy, or practices of any third-party
-          site or service. Your use of those services is governed by their respective terms.
+          Advisor, Spotify, Apple Music, SoundCloud, YouTube, 1001Tracklists, Google AdSense, and
+          Google Analytics. We are not responsible for the content, availability, accuracy, or
+          practices of any third-party site or service. Your use of those services is governed by
+          their respective terms.
+        </p>
+        <p className="mt-2">
+          <strong className="text-text-light">Embedded media.</strong> The Site uses official iframe
+          embeds provided by music platforms to surface tracks, artist pages, and playlists. All
+          rights to the embedded recordings and underlying compositions remain with the artists,
+          rights-holders, and the platforms that host them. The Site does not host, mirror, or
+          re-upload any audio or video content; embeds stream directly from the originating
+          platform. Playback availability, content windows, and DRM are determined by the platform.
         </p>
       </section>
 
@@ -218,7 +227,10 @@ function TermsJA() {
       <section>
         <h2 className="font-bebas text-xl tracking-widest text-accent-orange mb-3">6. 第三者サービス・リンク</h2>
         <p>
-          当サイトはBeatport、Resident Advisor、Spotify、SoundCloud、1001Tracklists、Google AdSense、Google Analyticsなど第三者サービスへのリンクおよびそれらのコンテンツの埋め込みを行います。第三者サイト・サービスのコンテンツ、可用性、正確性、運用について当サイトは一切の責任を負いません。利用者によるそれらの利用は、各サービスの規約に従います。
+          当サイトはBeatport、Resident Advisor、Spotify、Apple Music、SoundCloud、YouTube、1001Tracklists、Google AdSense、Google Analyticsなど第三者サービスへのリンクおよびそれらのコンテンツの埋め込みを行います。第三者サイト・サービスのコンテンツ、可用性、正確性、運用について当サイトは一切の責任を負いません。利用者によるそれらの利用は、各サービスの規約に従います。
+        </p>
+        <p className="mt-2">
+          <strong className="text-text-light">埋め込みコンテンツについて。</strong>当サイトは音楽プラットフォーム公式のiframe埋め込み機能を用いて、楽曲・アーティストページ・プレイリストを表示します。埋め込まれた録音物および原著作物に関する一切の権利は、各アーティスト、権利者、ホストプラットフォームに帰属します。当サイトは音声・映像コンテンツのホスティング、ミラーリング、再アップロードを行いません。埋め込みコンテンツは元のプラットフォームから直接ストリーミング再生されます。再生可否、配信期間、DRMは各プラットフォームが決定します。
         </p>
       </section>
 
