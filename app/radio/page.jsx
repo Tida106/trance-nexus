@@ -38,22 +38,26 @@ export default function RadioPage() {
                 A State of <span className="text-accent-orange">Trance</span>
               </h2>
               <p className="text-text-light/55 text-sm leading-relaxed mb-4">
-                Armin van Buurenが主宰するトランス界最大のラジオ番組。毎週金曜21時(CET)放送、全世界100カ国以上・累計リスナー4000万人超。エピソード1000回を超えた伝説的番組。
+                {t('radio.asotDesc')}
               </p>
               <div className="flex gap-2 flex-wrap mb-4">
-                <span className="text-xs tracking-widest px-3 py-1 rounded border border-accent-orange/30 bg-accent-orange/5 text-accent-orange">
-                  UPLIFTING
-                </span>
-                <span className="text-xs tracking-widest px-3 py-1 rounded border border-accent-amber/30 bg-accent-amber/5 text-accent-amber">
-                  PROGRESSIVE
-                </span>
-                <span className="text-xs tracking-widest px-3 py-1 rounded border border-accent-red/30 bg-accent-red/5 text-accent-red">
-                  EP 1000+
-                </span>
+                {['border-accent-orange/30 bg-accent-orange/5 text-accent-orange',
+                  'border-accent-amber/30 bg-accent-amber/5 text-accent-amber',
+                  'border-accent-red/30 bg-accent-red/5 text-accent-red',
+                ].map((cls, idx) => (
+                  <span key={idx} className={`text-xs tracking-widest px-3 py-1 rounded border ${cls}`}>
+                    {t('radio.asotTags')[idx]}
+                  </span>
+                ))}
               </div>
-              <button className="font-bebas text-xs tracking-widest px-4 py-2 border border-accent-orange/30 text-accent-orange hover:bg-accent-orange/10 transition-all rounded">
-                ▶ OFFICIAL SITE
-              </button>
+              <a
+                href="https://www.astateoftrance.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block font-bebas text-xs tracking-widest px-4 py-2 border border-accent-orange/30 text-accent-orange hover:bg-accent-orange/10 transition-all rounded"
+              >
+                ▶ {t('radio.officialSite')}
+              </a>
             </div>
 
             <div className="flex items-end justify-end h-20 gap-1">
@@ -142,7 +146,7 @@ export default function RadioPage() {
                 </div>
 
                 <button className="font-bebas text-xs tracking-widest mt-3 px-4 py-2 border border-accent-orange/30 text-accent-orange hover:bg-accent-orange/10 transition-all rounded">
-                  ▶ LISTEN / ARCHIVE
+                  ▶ {t('radio.listen')}
                 </button>
               </div>
             ))}

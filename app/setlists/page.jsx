@@ -127,8 +127,8 @@ export default function SetlistsPage() {
 
                   {expandedTracks[i] && (
                     <div className="mt-3 pt-3 border-t border-orange-900/10 text-xs text-text-muted">
-                      <p>（追加トラック {setlist.more}件分を表示中）</p>
-                      <p>完全なセットリストは1001tracklists.comで確認してください</p>
+                      <p>（{t('setlists.expandedNote')} {setlist.more}）</p>
+                      <p>{t('setlists.viewFull')}</p>
                     </div>
                   )}
                 </div>
@@ -138,7 +138,7 @@ export default function SetlistsPage() {
 
           {filteredSetlists.length === 0 && (
             <div className="text-center py-12">
-              <p className="text-text-muted text-lg">該当するセットリストはありません</p>
+              <p className="text-text-muted text-lg">{t('setlists.noResults')}</p>
             </div>
           )}
         </div>

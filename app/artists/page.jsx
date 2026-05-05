@@ -33,10 +33,17 @@ export default function ArtistsPage() {
 
   const genres = ['ALL', 'UPLIFTING', 'PROGRESSIVE', 'PSYTRANCE', 'TECH', 'VOCAL', 'EPIC'];
 
-  // Generate Beatport affiliate link
+  // Generate Beatport affiliate link (Impact network)
+  // Set NEXT_PUBLIC_BEATPORT_CAMPAIGN_ID and NEXT_PUBLIC_BEATPORT_PUBLISHER_ID in .env.local
   const getBeatportLink = (artistName) => {
     const query = encodeURIComponent(artistName);
-    return `https://www.beatport.com/search?q=${query}`;
+    const destUrl = `https://www.beatport.com/search?q=${query}`;
+    const campaignId = process.env.NEXT_PUBLIC_BEATPORT_CAMPAIGN_ID;
+    const publisherId = process.env.NEXT_PUBLIC_BEATPORT_PUBLISHER_ID;
+    if (campaignId && publisherId) {
+      return `https://www.tkqlhce.com/click-${campaignId}-${publisherId}?url=${encodeURIComponent(destUrl)}`;
+    }
+    return destUrl;
   };
 
   return (

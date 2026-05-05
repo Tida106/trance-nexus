@@ -44,6 +44,12 @@ jobs:
           X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
         continue-on-error: true
 
+      - name: Ping search engines (IndexNow)
+        run: node scripts/generate-sitemap.js
+        env:
+          INDEXNOW_KEY: ${{ secrets.INDEXNOW_KEY }}
+        continue-on-error: true
+
       - name: Check for changes
         id: check_changes
         run: |
