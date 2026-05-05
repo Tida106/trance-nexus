@@ -5,13 +5,16 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "prebuild": "node scripts/generate-sitemap.js",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "sitemap": "node scripts/generate-sitemap.js",
     "scrape": "node scrapers/update-all.js",
     "scrape:radio": "node scrapers/scrape-radio.js",
     "scrape:setlists": "node scrapers/scrape-setlists.js",
     "scrape:events": "node scrapers/scrape-events.js",
+    "post:x": "node scrapers/post-x.js",
     "schedule": "node scrapers/scheduler.js"
   },
   "dependencies": {
@@ -20,7 +23,8 @@
     "next": "^15.0.0",
     "node-cron": "^3.0.0",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "twitter-api-v2": "^1.29.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.5.0",

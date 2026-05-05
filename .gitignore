@@ -39,3 +39,6 @@ next-env.d.ts
 
 # data backups
 /data/backup/
+
+# Claude Code
+.claude/

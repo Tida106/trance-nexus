@@ -5,6 +5,7 @@ async function runScrapers() {
     { name: 'Radio Shows', script: 'scrapers/scrape-radio.js' },
     { name: 'Setlists', script: 'scrapers/scrape-setlists.js' },
     { name: 'Events', script: 'scrapers/scrape-events.js' },
+    { name: 'X Auto-post', script: 'scrapers/post-x.js' },
   ];
 
   console.log('\n');

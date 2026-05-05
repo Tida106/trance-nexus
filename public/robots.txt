@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://trance-nexus.com/sitemap.xml
