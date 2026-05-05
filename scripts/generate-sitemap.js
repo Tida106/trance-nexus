@@ -4,9 +4,9 @@ const axios = require('axios');
 
 const SITE_URL = 'https://trance-nexus.com';
 
-// Extract artist slugs from data/artists/*.js by regex (avoids ESM/CJS interop)
-function collectArtistSlugs() {
-  const dir = path.join(__dirname, '..', 'data', 'artists');
+// Extract slugs from data/<dir>/*.js by regex (avoids ESM/CJS interop)
+function collectSlugs(subdir) {
+  const dir = path.join(__dirname, '..', 'data', subdir);
   if (!fs.existsSync(dir)) return [];
   const slugs = [];
   for (const file of fs.readdirSync(dir)) {
@@ -19,10 +19,16 @@ function collectArtistSlugs() {
   return slugs;
 }
 
-const ARTIST_PAGES = collectArtistSlugs().map((slug) => ({
+const ARTIST_PAGES = collectSlugs('artists').map((slug) => ({
   url: `/artists/${slug}`,
   changefreq: 'monthly',
   priority: '0.7',
+}));
+
+const GLOSSARY_PAGES = collectSlugs('glossary').map((slug) => ({
+  url: `/glossary/${slug}`,
+  changefreq: 'monthly',
+  priority: '0.5',
 }));
 
 const PAGES = [
@@ -30,6 +36,7 @@ const PAGES = [
   { url: '/radio',     changefreq: 'daily',  priority: '0.9' },
   { url: '/events',    changefreq: 'daily',  priority: '0.9' },
   { url: '/artists',   changefreq: 'weekly', priority: '0.8' },
+  { url: '/glossary',  changefreq: 'weekly', priority: '0.7' },
   { url: '/setlists',  changefreq: 'weekly', priority: '0.7' },
   { url: '/about',    changefreq: 'monthly', priority: '0.5' },
   { url: '/privacy',  changefreq: 'monthly', priority: '0.3' },
@@ -61,6 +68,7 @@ const PAGES = [
   { url: '/blog/ibiza-and-trance-love-story',               changefreq: 'monthly', priority: '0.6' },
   { url: '/blog/underground-trance-scene',                  changefreq: 'monthly', priority: '0.6' },
   ...ARTIST_PAGES,
+  ...GLOSSARY_PAGES,
 ];
 
 function buildSitemap() {

@@ -38,6 +38,15 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/artists"/>
   </url>
   <url>
+    <loc>https://trance-nexus.com/glossary</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/glossary"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/glossary"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/glossary"/>
+  </url>
+  <url>
     <loc>https://trance-nexus.com/setlists</loc>
     <lastmod>2026-05-05</lastmod>
     <changefreq>weekly</changefreq>
@@ -486,5 +495,95 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/artists/simon-patterson"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/artists/simon-patterson"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/artists/simon-patterson"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/glossary/trance</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/glossary/trance"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/glossary/trance"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/glossary/trance"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/glossary/uplifting-trance</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/glossary/uplifting-trance"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/glossary/uplifting-trance"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/glossary/uplifting-trance"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/glossary/progressive-trance</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/glossary/progressive-trance"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/glossary/progressive-trance"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/glossary/progressive-trance"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/glossary/psytrance</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/glossary/psytrance"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/glossary/psytrance"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/glossary/psytrance"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/glossary/vocal-trance</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/glossary/vocal-trance"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/glossary/vocal-trance"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/glossary/vocal-trance"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/glossary/hard-trance</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/glossary/hard-trance"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/glossary/hard-trance"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/glossary/hard-trance"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/glossary/goa-trance</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/glossary/goa-trance"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/glossary/goa-trance"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/glossary/goa-trance"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/glossary/tech-trance</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/glossary/tech-trance"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/glossary/tech-trance"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/glossary/tech-trance"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/glossary/acid-trance</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/glossary/acid-trance"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/glossary/acid-trance"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/glossary/acid-trance"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/glossary/dream-trance</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/glossary/dream-trance"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/glossary/dream-trance"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/glossary/dream-trance"/>
   </url>
 </urlset>

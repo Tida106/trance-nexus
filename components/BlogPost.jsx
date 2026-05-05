@@ -4,6 +4,7 @@ import Link from 'next/link';
 import Navigation from './Navigation';
 import Footer from './Footer';
 import Breadcrumb from './Breadcrumb';
+import GlossaryReferences from './GlossaryReferences';
 import { useTranslation } from '@/lib/useTranslation';
 
 // Lightweight card for related / prev-next articles
@@ -101,6 +102,17 @@ export default function BlogPost({ post, prevPost, nextPost, related }) {
               </section>
             ))}
           </article>
+
+          <GlossaryReferences
+            text={[
+              post.en.title,
+              post.ja.title,
+              post.en.description,
+              post.ja.description,
+              ...post.en.content.map((s) => s.heading + ' ' + s.body),
+              ...post.ja.content.map((s) => s.heading + ' ' + s.body),
+            ].join(' ')}
+          />
 
           {/* Prev / Next navigation */}
           <nav

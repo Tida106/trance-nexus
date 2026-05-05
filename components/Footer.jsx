@@ -30,6 +30,12 @@ export default function Footer() {
           {isJA ? 'ブログ' : 'Blog'}
         </Link>
         <Link
+          href="/glossary"
+          className="text-xs tracking-widest text-text-muted hover:text-accent-orange transition-colors"
+        >
+          {isJA ? '用語集' : 'Glossary'}
+        </Link>
+        <Link
           href="/about"
           className="text-xs tracking-widest text-text-muted hover:text-accent-orange transition-colors"
         >
