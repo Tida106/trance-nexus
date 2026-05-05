@@ -47,6 +47,7 @@ const PAGES = [
   { url: '/setlists',  changefreq: 'weekly', priority: '0.7' },
   { url: '/about',    changefreq: 'monthly', priority: '0.5' },
   { url: '/privacy',  changefreq: 'monthly', priority: '0.3' },
+  { url: '/terms',    changefreq: 'monthly', priority: '0.3' },
   { url: '/contact',  changefreq: 'monthly', priority: '0.3' },
   { url: '/blog',     changefreq: 'weekly',  priority: '0.8' },
   { url: '/blog/history-of-trance-music',              changefreq: 'monthly', priority: '0.6' },

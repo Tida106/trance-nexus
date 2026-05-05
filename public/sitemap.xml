@@ -83,6 +83,15 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/privacy"/>
   </url>
   <url>
+    <loc>https://trance-nexus.com/terms</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/terms"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/terms"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/terms"/>
+  </url>
+  <url>
     <loc>https://trance-nexus.com/contact</loc>
     <lastmod>2026-05-05</lastmod>
     <changefreq>monthly</changefreq>

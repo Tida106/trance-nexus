@@ -54,6 +54,12 @@ export default function Footer() {
           {isJA ? 'プライバシーポリシー' : 'Privacy Policy'}
         </Link>
         <Link
+          href="/terms"
+          className="text-xs tracking-widest text-text-muted hover:text-accent-orange transition-colors"
+        >
+          {isJA ? '利用規約' : 'Terms'}
+        </Link>
+        <Link
           href="/contact"
           className="text-xs tracking-widest text-text-muted hover:text-accent-orange transition-colors"
         >
