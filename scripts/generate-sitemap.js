@@ -9,6 +9,8 @@ const PAGES = [
   { url: '/events',    changefreq: 'daily',  priority: '0.9' },
   { url: '/artists',   changefreq: 'weekly', priority: '0.8' },
   { url: '/setlists',  changefreq: 'weekly', priority: '0.7' },
+  { url: '/privacy',  changefreq: 'monthly', priority: '0.3' },
+  { url: '/contact',  changefreq: 'monthly', priority: '0.3' },
 ];
 
 function buildSitemap() {

@@ -1,9 +1,11 @@
 'use client';
 
+import Link from 'next/link';
 import { useTranslation } from '@/lib/useTranslation';
 
 export default function Footer() {
-  const { t } = useTranslation();
+  const { t, language } = useTranslation();
+  const isJA = language === 'ja';
 
   return (
     <footer className="relative z-10 bg-black/98 border-t-2 border-accent-orange py-10 px-12 flex flex-col items-center gap-3">
@@ -14,6 +16,20 @@ export default function Footer() {
         {t('footer.copyright')}<br />
         {t('footer.affiliates')}
       </p>
+      <div className="flex gap-6 mt-1">
+        <Link
+          href="/privacy"
+          className="text-xs tracking-widest text-text-muted hover:text-accent-orange transition-colors"
+        >
+          {isJA ? 'プライバシーポリシー' : 'Privacy Policy'}
+        </Link>
+        <Link
+          href="/contact"
+          className="text-xs tracking-widest text-text-muted hover:text-accent-orange transition-colors"
+        >
+          {isJA ? 'お問い合わせ' : 'Contact'}
+        </Link>
+      </div>
     </footer>
   );
 }
