@@ -641,6 +641,51 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/labels/wao138"/>
   </url>
   <url>
+    <loc>https://trance-nexus.com/labels/iboga-records</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/labels/iboga-records"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/labels/iboga-records"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/labels/iboga-records"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/labels/nano-records</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/labels/nano-records"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/labels/nano-records"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/labels/nano-records"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/labels/tip-records</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/labels/tip-records"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/labels/tip-records"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/labels/tip-records"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/labels/damaged-records</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/labels/damaged-records"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/labels/damaged-records"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/labels/damaged-records"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/labels/grotesque-music</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/labels/grotesque-music"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/labels/grotesque-music"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/labels/grotesque-music"/>
+  </url>
+  <url>
     <loc>https://trance-nexus.com/glossary/asot</loc>
     <lastmod>2026-05-05</lastmod>
     <changefreq>monthly</changefreq>

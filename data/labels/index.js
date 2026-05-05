@@ -1,16 +1,14 @@
 import { majors } from './majors';
 import { classics } from './classics';
 import { modern } from './modern';
+import { psy } from './psy';
 import { artists } from '@/data/artists/index';
-
-// Future batches:
-// import { psy } from './psy';
 
 export const labels = [
   ...majors,
   ...classics,
   ...modern,
-  // ...psy,
+  ...psy,
 ];
 
 export const labelSlugs = labels.map((l) => l.slug);
