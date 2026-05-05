@@ -101,6 +101,24 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/privacy"/>
   </url>
   <url>
+    <loc>https://trance-nexus.com/cookies</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/cookies"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/cookies"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/cookies"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/dmca</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/dmca"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/dmca"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/dmca"/>
+  </url>
+  <url>
     <loc>https://trance-nexus.com/terms</loc>
     <lastmod>2026-05-05</lastmod>
     <changefreq>monthly</changefreq>

@@ -3,6 +3,7 @@
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
 import Breadcrumb from '@/components/Breadcrumb';
+import Link from 'next/link';
 import { useTranslation } from '@/lib/useTranslation';
 
 const PRIVACY_BREADCRUMB = [
@@ -44,6 +45,14 @@ function PrivacyEN() {
              className="text-accent-orange hover:underline">
             Google&apos;s Privacy Policy
           </a>.
+        </p>
+        <p className="mt-2">
+          For a full breakdown of every cookie type the site uses (essential, analytics, advertising,
+          and affiliate), the third parties involved, and how to manage them in your browser, see
+          our dedicated{' '}
+          <Link href="/cookies" className="text-accent-orange hover:underline">
+            Cookie Policy
+          </Link>.
         </p>
       </section>
 
@@ -142,6 +151,13 @@ function PrivacyJA() {
             プライバシーポリシー
           </a>
           に従って処理されます。
+        </p>
+        <p className="mt-2">
+          当サイトが使用するすべてのCookie（必須・分析・広告・アフィリエイト）の種類、関係する第三者、ブラウザでの管理方法の詳細は、専用の
+          <Link href="/cookies" className="text-accent-orange hover:underline mx-1">
+            Cookieポリシー
+          </Link>
+          をご参照ください。
         </p>
       </section>
 
