@@ -10,6 +10,7 @@ export async function generateMetadata({ params }) {
   const { slug } = await params;
   const post = posts.find((p) => p.slug === slug);
   if (!post) return {};
+  const ogImage = { url: `/og/blog/${slug}.png`, width: 1200, height: 630, alt: post.en.title };
   return {
     title: `${post.en.title} | TRANCE NEXUS`,
     description: post.en.description,
@@ -18,6 +19,15 @@ export async function generateMetadata({ params }) {
       description: post.en.description,
       type: 'article',
       publishedTime: post.date,
+      locale: 'en_US',
+      alternateLocale: ['ja_JP'],
+      images: [ogImage],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: post.en.title,
+      description: post.en.description,
+      images: [`/og/blog/${slug}.png`],
     },
   };
 }

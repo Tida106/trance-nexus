@@ -4,7 +4,20 @@ import Script from 'next/script';
 
 export const metadata = {
   title: 'TRANCE NEXUS — Trance Music Portal',
-  description: 'アーティスト・ラジオ番組・セットリスト・フェス情報を網羅した日本最大のトランスミュージックポータル',
+  description: 'Comprehensive trance music portal covering artists, radio shows, setlists, and events worldwide — 日本最大のトランスミュージックポータル',
+  metadataBase: new URL('https://trance-nexus.com'),
+  openGraph: {
+    type: 'website',
+    siteName: 'TRANCE NEXUS',
+    locale: 'en_US',
+    alternateLocale: ['ja_JP'],
+    images: [{ url: '/og-default.png', width: 1200, height: 630, alt: 'TRANCE NEXUS — Trance Music Portal' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    site: '@trancenexus',
+    images: ['/og-default.png'],
+  },
 };
 
 export const viewport = {

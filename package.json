@@ -5,10 +5,11 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "prebuild": "node scripts/generate-sitemap.js",
+    "prebuild": "node scripts/generate-og-images.js && node scripts/generate-sitemap.js",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "og": "node scripts/generate-og-images.js",
     "sitemap": "node scripts/generate-sitemap.js",
     "scrape": "node scrapers/update-all.js",
     "scrape:radio": "node scrapers/scrape-radio.js",
@@ -31,6 +32,7 @@
     "eslint": "^8.0.0",
     "eslint-config-next": "^15.0.0",
     "postcss": "^8.4.0",
+    "sharp": "^0.33.0",
     "tailwindcss": "^3.4.0"
   }
 }
