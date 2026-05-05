@@ -596,6 +596,51 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/labels/ultra-music"/>
   </url>
   <url>
+    <loc>https://trance-nexus.com/labels/anjunadeep</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/labels/anjunadeep"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/labels/anjunadeep"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/labels/anjunadeep"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/labels/enhanced-music</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/labels/enhanced-music"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/labels/enhanced-music"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/labels/enhanced-music"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/labels/pure-trance-recordings</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/labels/pure-trance-recordings"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/labels/pure-trance-recordings"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/labels/pure-trance-recordings"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/labels/outburst-records</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/labels/outburst-records"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/labels/outburst-records"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/labels/outburst-records"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/labels/wao138</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/labels/wao138"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/labels/wao138"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/labels/wao138"/>
+  </url>
+  <url>
     <loc>https://trance-nexus.com/glossary/asot</loc>
     <lastmod>2026-05-05</lastmod>
     <changefreq>monthly</changefreq>
