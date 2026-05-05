@@ -120,3 +120,23 @@ body::before {
     opacity: 0.3;
   }
 }
+
+/* Artist genre banners — used on /artists cards and detail hero */
+.b-uplifting {
+  background: linear-gradient(135deg, #ff6a00 0%, #ffb400 60%, #ff3c00 100%);
+}
+.b-progressive {
+  background: linear-gradient(135deg, #2a1466 0%, #ff6a00 100%);
+}
+.b-tech {
+  background: linear-gradient(135deg, #1a0a00 0%, #e5001c 70%, #ff3c00 100%);
+}
+.b-vocal {
+  background: linear-gradient(135deg, #4a1a55 0%, #e5001c 50%, #ff6a00 100%);
+}
+.b-psytrance {
+  background: linear-gradient(135deg, #003a2f 0%, #ff6a00 60%, #ffb400 100%);
+}
+.b-epic {
+  background: linear-gradient(135deg, #0a0a3a 0%, #ff3c00 60%, #ffb400 100%);
+}

@@ -1,7 +1,29 @@
 const fs = require('fs');
+const path = require('path');
 const axios = require('axios');
 
 const SITE_URL = 'https://trance-nexus.com';
+
+// Extract artist slugs from data/artists/*.js by regex (avoids ESM/CJS interop)
+function collectArtistSlugs() {
+  const dir = path.join(__dirname, '..', 'data', 'artists');
+  if (!fs.existsSync(dir)) return [];
+  const slugs = [];
+  for (const file of fs.readdirSync(dir)) {
+    if (!file.endsWith('.js') || file === 'index.js') continue;
+    const content = fs.readFileSync(path.join(dir, file), 'utf8');
+    const re = /slug:\s*['"]([a-z0-9-]+)['"]/g;
+    let m;
+    while ((m = re.exec(content)) !== null) slugs.push(m[1]);
+  }
+  return slugs;
+}
+
+const ARTIST_PAGES = collectArtistSlugs().map((slug) => ({
+  url: `/artists/${slug}`,
+  changefreq: 'monthly',
+  priority: '0.7',
+}));
 
 const PAGES = [
   { url: '/',          changefreq: 'daily',  priority: '1.0' },
@@ -38,6 +60,7 @@ const PAGES = [
   { url: '/blog/tomorrowland-trance-stage',                 changefreq: 'monthly', priority: '0.6' },
   { url: '/blog/ibiza-and-trance-love-story',               changefreq: 'monthly', priority: '0.6' },
   { url: '/blog/underground-trance-scene',                  changefreq: 'monthly', priority: '0.6' },
+  ...ARTIST_PAGES,
 ];
 
 function buildSitemap() {

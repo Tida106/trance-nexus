@@ -5,6 +5,8 @@ import Footer from '@/components/Footer';
 import Link from 'next/link';
 import { useTranslation } from '@/lib/useTranslation';
 import { listing } from '@/data/blog/listing';
+import { artists } from '@/data/artists/index';
+import ArtistCard from '@/components/ArtistCard';
 
 export default function Home() {
   const { t } = useTranslation();
@@ -86,7 +88,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ARTISTS SECTION */}
+      {/* ARTISTS SECTION — Featured Artists (5) */}
       <section id="artist" className="relative z-10 py-24 px-12 bg-dark-bg2/50">
         <div className="max-w-7xl mx-auto">
           <div className="mb-12">
@@ -95,6 +97,14 @@ export default function Home() {
             </h2>
             <div className="w-20 h-1 bg-gradient-to-r from-accent-red via-accent-orange to-transparent" />
           </div>
+
+          {artists.length > 0 && (
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mb-10">
+              {artists.slice(0, 5).map((a) => (
+                <ArtistCard key={a.slug} artist={a} />
+              ))}
+            </div>
+          )}
 
           <div className="mb-8">
             <Link

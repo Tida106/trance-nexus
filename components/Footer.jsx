@@ -18,6 +18,12 @@ export default function Footer() {
       </p>
       <div className="flex gap-6 mt-1 flex-wrap justify-center">
         <Link
+          href="/artists"
+          className="text-xs tracking-widest text-text-muted hover:text-accent-orange transition-colors"
+        >
+          {isJA ? 'アーティスト' : 'Artists'}
+        </Link>
+        <Link
           href="/blog"
           className="text-xs tracking-widest text-text-muted hover:text-accent-orange transition-colors"
         >

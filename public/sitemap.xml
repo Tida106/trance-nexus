@@ -307,4 +307,49 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/blog/underground-trance-scene"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/blog/underground-trance-scene"/>
   </url>
+  <url>
+    <loc>https://trance-nexus.com/artists/armin-van-buuren</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/artists/armin-van-buuren"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/artists/armin-van-buuren"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/artists/armin-van-buuren"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/artists/tiesto</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/artists/tiesto"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/artists/tiesto"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/artists/tiesto"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/artists/paul-van-dyk</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/artists/paul-van-dyk"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/artists/paul-van-dyk"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/artists/paul-van-dyk"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/artists/ferry-corsten</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/artists/ferry-corsten"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/artists/ferry-corsten"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/artists/ferry-corsten"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/artists/above-and-beyond</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/artists/above-and-beyond"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/artists/above-and-beyond"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/artists/above-and-beyond"/>
+  </url>
 </urlset>
