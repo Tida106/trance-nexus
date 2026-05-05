@@ -3,9 +3,11 @@
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
 import { useState, useEffect } from 'react';
+import { useTranslation } from '@/lib/useTranslation';
 import setlists from '@/data/setlists.json';
 
 export default function SetlistsPage() {
+  const { t } = useTranslation();
   const [filteredSetlists, setFilteredSetlists] = useState(setlists);
   const [searchQuery, setSearchQuery] = useState('');
   const [expandedTracks, setExpandedTracks] = useState({});
@@ -37,11 +39,8 @@ export default function SetlistsPage() {
       <main className="relative z-10 min-h-screen pt-[60px] pb-20 px-12">
         <div className="max-w-7xl mx-auto">
           <div className="py-12">
-            <span className="font-bebas text-xs tracking-widest text-accent-red block mb-2">
-              {/* 03 — SETLISTS & MIXES */}
-            </span>
             <h1 className="font-bebas text-5xl tracking-wider text-white mb-2">
-              セットリスト <span className="text-accent-orange">・ミックス</span>
+              {t('setlists.title')}
             </h1>
             <div className="w-20 h-1 bg-gradient-to-r from-accent-red via-accent-orange to-transparent" />
           </div>
@@ -51,7 +50,7 @@ export default function SetlistsPage() {
             <div className="flex border border-orange-900/30 rounded overflow-hidden max-w-sm">
               <input
                 type="text"
-                placeholder="アーティスト・イベント名で検索..."
+                placeholder={t('setlists.search')}
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
                 className="flex-1 bg-dark-bg2/80 border-none px-4 py-2 text-text-light font-barlow text-sm placeholder-text-muted outline-none"
@@ -86,7 +85,7 @@ export default function SetlistsPage() {
                         : 'bg-accent-orange/10 border-accent-orange/30 text-accent-orange'
                     }`}
                   >
-                    {setlist.type === 'live' ? 'LIVE SET' : 'RECORDED'}
+                    {setlist.type === 'live' ? t('setlists.live') : t('setlists.recorded')}
                   </span>
                 </div>
 
@@ -123,7 +122,7 @@ export default function SetlistsPage() {
                     onClick={() => toggleExpand(i)}
                     className="text-xs text-text-muted hover:text-accent-orange transition-colors cursor-pointer flex items-center gap-2 mt-2"
                   >
-                    {expandedTracks[i] ? '▲' : '▼'} {expandedTracks[i] ? '詳細を閉じる' : `さらに${setlist.more}トラック表示`}
+                    {expandedTracks[i] ? '▲' : '▼'} {t('setlists.showMore')} {setlist.more} {t('setlists.tracks')}
                   </button>
 
                   {expandedTracks[i] && (

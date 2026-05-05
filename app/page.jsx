@@ -3,15 +3,17 @@
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
 import Link from 'next/link';
-import { useState } from 'react';
+import { useTranslation } from '@/lib/useTranslation';
 
 export default function Home() {
-  const [stats] = useState([
-    { value: '140+', label: 'Artists' },
-    { value: '52', label: 'Radio Shows' },
-    { value: '800+', label: 'Setlists' },
-    { value: '30', label: 'Events' },
-  ]);
+  const { t } = useTranslation();
+
+  const stats = [
+    { value: '140+', label: t('home.stats.artists') },
+    { value: '52', label: t('home.stats.radio') },
+    { value: '800+', label: t('home.stats.setlists') },
+    { value: '30', label: t('home.stats.events') },
+  ];
 
   return (
     <>
@@ -23,8 +25,7 @@ export default function Home() {
         
         <div className="relative z-10 px-10">
           <div className="font-bebas text-sm tracking-widest text-accent-orange mb-4 animate-in fade-in duration-700">
-            {/* TRANCE MUSIC PORTAL — JAPAN & WORLDWIDE */}
-            TRANCE MUSIC PORTAL — JAPAN &amp; WORLDWIDE
+            {t('home.tagline')}
           </div>
           
           <h1 className="font-bebas text-8xl tracking-wider mb-2 animate-in fade-in slide-in-from-bottom-10 duration-700 delay-100">
@@ -32,14 +33,14 @@ export default function Home() {
               TRANCE NEXUS
             </span>
             <div className="text-4xl tracking-widest text-accent-red drop-shadow-lg mt-2">
-              トランスミュージック情報局
+              {t('home.subtitle')}
             </div>
           </h1>
           
           <div className="w-20 h-1 bg-gradient-to-r from-transparent via-accent-orange to-transparent mx-auto my-6" />
           
           <p className="text-xl tracking-wide text-text-light/60 max-w-2xl mx-auto mb-12 animate-in fade-in slide-in-from-bottom-10 duration-700 delay-200">
-            アーティスト・ラジオ番組・セットリスト・フェス情報を網羅した日本最大のトランスミュージックポータル
+            {t('home.description')}
           </p>
           
           <div className="flex gap-12 justify-center mb-12 animate-in fade-in slide-in-from-bottom-10 duration-700 delay-300">
@@ -56,7 +57,7 @@ export default function Home() {
           </div>
           
           <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-text-muted text-xs tracking-widest animate-bounce">
-            SCROLL
+            {t('home.scroll')}
             <div className="text-lg text-accent-orange">▼</div>
           </div>
         </div>
@@ -66,11 +67,8 @@ export default function Home() {
       <section id="artist" className="relative z-10 py-24 px-12 bg-dark-bg2/50">
         <div className="max-w-7xl mx-auto">
           <div className="mb-12">
-            <span className="font-bebas text-xs tracking-widest text-accent-red block mb-2">
-              {/* 01 — ARTISTS DATABASE */}
-            </span>
             <h2 className="font-bebas text-5xl tracking-wider text-white mb-2">
-              アーティスト <span className="text-accent-orange">一覧</span>
+              {t('artists.title')}
             </h2>
             <div className="w-20 h-1 bg-gradient-to-r from-accent-red via-accent-orange to-transparent" />
           </div>
@@ -80,7 +78,7 @@ export default function Home() {
               href="/artists"
               className="inline-block font-bebas text-sm tracking-widest px-6 py-3 border border-accent-orange/30 text-accent-orange hover:bg-accent-orange/10 hover:shadow-lg transition-all rounded"
             >
-              🎯 ALL ARTISTS →
+              🎯 {t('home.sections.artists')} →
             </Link>
           </div>
         </div>
@@ -90,11 +88,8 @@ export default function Home() {
       <section id="radio" className="relative z-10 py-24 px-12">
         <div className="max-w-7xl mx-auto">
           <div className="mb-12">
-            <span className="font-bebas text-xs tracking-widest text-accent-red block mb-2">
-              {/* 02 — RADIO SHOWS */}
-            </span>
             <h2 className="font-bebas text-5xl tracking-wider text-white mb-2">
-              ラジオ番組 <span className="text-accent-orange">スケジュール</span>
+              {t('radio.title')}
             </h2>
             <div className="w-20 h-1 bg-gradient-to-r from-accent-red via-accent-orange to-transparent" />
           </div>
@@ -104,7 +99,7 @@ export default function Home() {
               href="/radio"
               className="inline-block font-bebas text-sm tracking-widest px-6 py-3 border border-accent-orange/30 text-accent-orange hover:bg-accent-orange/10 hover:shadow-lg transition-all rounded"
             >
-              📻 ALL SHOWS →
+              📻 {t('home.sections.radio')} →
             </Link>
           </div>
         </div>
@@ -114,11 +109,8 @@ export default function Home() {
       <section id="setlist" className="relative z-10 py-24 px-12 bg-dark-bg2/50">
         <div className="max-w-7xl mx-auto">
           <div className="mb-12">
-            <span className="font-bebas text-xs tracking-widest text-accent-red block mb-2">
-              {/* 03 — SETLISTS & MIXES */}
-            </span>
             <h2 className="font-bebas text-5xl tracking-wider text-white mb-2">
-              セットリスト <span className="text-accent-orange">・ミックス</span>
+              {t('setlists.title')}
             </h2>
             <div className="w-20 h-1 bg-gradient-to-r from-accent-red via-accent-orange to-transparent" />
           </div>
@@ -128,7 +120,7 @@ export default function Home() {
               href="/setlists"
               className="inline-block font-bebas text-sm tracking-widest px-6 py-3 border border-accent-orange/30 text-accent-orange hover:bg-accent-orange/10 hover:shadow-lg transition-all rounded"
             >
-              🎵 ALL SETLISTS →
+              🎵 {t('home.sections.setlists')} →
             </Link>
           </div>
         </div>
@@ -138,11 +130,8 @@ export default function Home() {
       <section id="events" className="relative z-10 py-24 px-12">
         <div className="max-w-7xl mx-auto">
           <div className="mb-12">
-            <span className="font-bebas text-xs tracking-widest text-accent-red block mb-2">
-              {/* 04 — EVENTS & FESTIVALS */}
-            </span>
             <h2 className="font-bebas text-5xl tracking-wider text-white mb-2">
-              イベント <span className="text-accent-orange">・フェス情報</span>
+              {t('events.title')}
             </h2>
             <div className="w-20 h-1 bg-gradient-to-r from-accent-red via-accent-orange to-transparent" />
           </div>
@@ -152,7 +141,7 @@ export default function Home() {
               href="/events"
               className="inline-block font-bebas text-sm tracking-widest px-6 py-3 border border-accent-orange/30 text-accent-orange hover:bg-accent-orange/10 hover:shadow-lg transition-all rounded"
             >
-              🎉 ALL EVENTS →
+              🎉 {t('home.sections.events')} →
             </Link>
           </div>
         </div>

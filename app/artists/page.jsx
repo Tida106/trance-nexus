@@ -3,9 +3,11 @@
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
 import { useState, useEffect } from 'react';
+import { useTranslation } from '@/lib/useTranslation';
 import artists from '@/data/artists.json';
 
 export default function ArtistsPage() {
+  const { t } = useTranslation();
   const [filteredArtists, setFilteredArtists] = useState(artists);
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedGenre, setSelectedGenre] = useState('ALL');
@@ -31,17 +33,20 @@ export default function ArtistsPage() {
 
   const genres = ['ALL', 'UPLIFTING', 'PROGRESSIVE', 'PSYTRANCE', 'TECH', 'VOCAL', 'EPIC'];
 
+  // Generate Beatport affiliate link
+  const getBeatportLink = (artistName) => {
+    const query = encodeURIComponent(artistName);
+    return `https://www.beatport.com/search?q=${query}`;
+  };
+
   return (
     <>
       <Navigation />
       <main className="relative z-10 min-h-screen pt-[60px] pb-20 px-12">
         <div className="max-w-7xl mx-auto">
           <div className="py-12">
-            <span className="font-bebas text-xs tracking-widest text-accent-red block mb-2">
-              {/* 01 — ARTISTS DATABASE */}
-            </span>
             <h1 className="font-bebas text-5xl tracking-wider text-white mb-2">
-              アーティスト <span className="text-accent-orange">一覧</span>
+              {t('artists.title')}
             </h1>
             <div className="w-20 h-1 bg-gradient-to-r from-accent-red via-accent-orange to-transparent" />
           </div>
@@ -51,7 +56,7 @@ export default function ArtistsPage() {
             <div className="flex border border-orange-900/30 rounded overflow-hidden">
               <input
                 type="text"
-                placeholder="アーティスト名で検索..."
+                placeholder={t('artists.search')}
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
                 className="flex-1 bg-dark-bg2/80 border-none px-4 py-2 text-text-light font-barlow text-sm placeholder-text-muted outline-none"
@@ -75,6 +80,14 @@ export default function ArtistsPage() {
                   {genre}
                 </button>
               ))}
+            </div>
+          </div>
+
+          {/* AdSense ad slot 1 */}
+          <div className="mb-8 p-4 bg-dark-bg2/50 border border-orange-900/20 rounded text-center">
+            <div id="ad-slot-1" className="min-h-[90px] flex items-center justify-center">
+              {/* Google AdSense will be inserted here */}
+              <p className="text-text-muted text-sm">Advertisement</p>
             </div>
           </div>
 
@@ -123,6 +136,14 @@ export default function ArtistsPage() {
                   </div>
 
                   <div className="flex gap-2">
+                    <a
+                      href={getBeatportLink(artist.name)}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-xs tracking-widest px-3 py-1 rounded border border-accent-orange/30 text-accent-orange hover:bg-accent-orange/10 transition-all"
+                    >
+                      🎵 BEATPORT
+                    </a>
                     {artist.links.map((link, j) => (
                       <a
                         key={j}
@@ -140,7 +161,7 @@ export default function ArtistsPage() {
 
           {filteredArtists.length === 0 && (
             <div className="text-center py-12">
-              <p className="text-text-muted text-lg">該当するアーティストはありません</p>
+              <p className="text-text-muted text-lg">{t('artists.noResults')}</p>
             </div>
           )}
         </div>

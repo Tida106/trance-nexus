@@ -2,20 +2,29 @@
 
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
+import { useTranslation } from '@/lib/useTranslation';
 import events from '@/data/events.json';
 
 export default function EventsPage() {
+  const { t } = useTranslation();
+
   const sortedEvents = [...events].sort((a, b) => {
     const dateA = new Date(`${a.yr}-${new Date(`${a.mon} 1`).getMonth() + 1}-${a.day}`);
     const dateB = new Date(`${b.yr}-${new Date(`${b.mon} 1`).getMonth() + 1}-${b.day}`);
     return dateA - dateB;
   });
 
+  // Generate Resident Advisor link
+  const getRALink = (eventName) => {
+    const query = encodeURIComponent(eventName);
+    return `https://www.residentadvisor.net/events?q=${query}`;
+  };
+
   const getStatusInfo = (status) => {
     const statusMap = {
-      'on-sale': { bg: 'bg-accent-orange/15', border: 'border-accent-orange/40', text: 'text-accent-orange', label: 'ON SALE' },
-      'soon': { bg: 'bg-accent-amber/10', border: 'border-accent-amber/30', text: 'text-accent-amber', label: 'COMING SOON' },
-      'past': { bg: 'bg-gray-900/10', border: 'border-gray-700/20', text: 'text-gray-600', label: 'ENDED' },
+      'on-sale': { bg: 'bg-accent-orange/15', border: 'border-accent-orange/40', text: 'text-accent-orange', label: t('events.onSale') },
+      'soon': { bg: 'bg-accent-amber/10', border: 'border-accent-amber/30', text: 'text-accent-amber', label: t('events.coming') },
+      'past': { bg: 'bg-gray-900/10', border: 'border-gray-700/20', text: 'text-gray-600', label: t('events.ended') },
     };
     return statusMap[status] || statusMap['past'];
   };
@@ -26,13 +35,17 @@ export default function EventsPage() {
       <main className="relative z-10 min-h-screen pt-[60px] pb-20 px-12">
         <div className="max-w-7xl mx-auto">
           <div className="py-12">
-            <span className="font-bebas text-xs tracking-widest text-accent-red block mb-2">
-              {/* 04 — EVENTS & FESTIVALS */}
-            </span>
             <h1 className="font-bebas text-5xl tracking-wider text-white mb-2">
-              イベント <span className="text-accent-orange">・フェス情報</span>
+              {t('events.title')}
             </h1>
             <div className="w-20 h-1 bg-gradient-to-r from-accent-red via-accent-orange to-transparent" />
+          </div>
+
+          {/* AdSense ad slot 3 */}
+          <div className="mb-8 p-4 bg-dark-bg2/50 border border-orange-900/20 rounded text-center">
+            <div id="ad-slot-3" className="min-h-[90px] flex items-center justify-center">
+              <p className="text-text-muted text-sm">Advertisement</p>
+            </div>
           </div>
 
           {/* Events List */}
@@ -70,7 +83,7 @@ export default function EventsPage() {
                     </div>
                     <div className="flex gap-4 flex-wrap text-xs text-text-muted mb-2">
                       <div>🕐 {event.time}</div>
-                      <div>👥 CAP: {event.capacity}</div>
+                      <div>👥 {t('events.capacity')}: {event.capacity}</div>
                     </div>
                     <div className="flex gap-2 flex-wrap">
                       {event.artists.map((artist, j) => (
@@ -91,9 +104,14 @@ export default function EventsPage() {
                     </div>
                     {event.status !== 'past' && (
                       <div>
-                        <button className="font-bebas text-xs tracking-widest px-4 py-2 border border-accent-orange/30 text-accent-orange hover:bg-accent-orange/10 transition-all rounded">
-                          TICKETS →
-                        </button>
+                        <a
+                          href={getRALink(event.name)}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="inline-block font-bebas text-xs tracking-widest px-4 py-2 border border-accent-orange/30 text-accent-orange hover:bg-accent-orange/10 transition-all rounded"
+                        >
+                          {t('events.tickets')}
+                        </a>
                       </div>
                     )}
                   </div>

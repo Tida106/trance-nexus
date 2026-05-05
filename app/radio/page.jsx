@@ -3,9 +3,11 @@
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
 import { useState } from 'react';
+import { useTranslation } from '@/lib/useTranslation';
 import radio from '@/data/radio.json';
 
 export default function RadioPage() {
+  const { t } = useTranslation();
   const [selectedTab, setSelectedTab] = useState('all');
 
   const filteredRadio = selectedTab === 'all'
@@ -18,11 +20,8 @@ export default function RadioPage() {
       <main className="relative z-10 min-h-screen pt-[60px] pb-20 px-12">
         <div className="max-w-7xl mx-auto">
           <div className="py-12">
-            <span className="font-bebas text-xs tracking-widest text-accent-red block mb-2">
-              {/* 02 — RADIO SHOWS */}
-            </span>
             <h1 className="font-bebas text-5xl tracking-wider text-white mb-2">
-              ラジオ番組 <span className="text-accent-orange">スケジュール</span>
+              {t('radio.title')}
             </h1>
             <div className="w-20 h-1 bg-gradient-to-r from-accent-red via-accent-orange to-transparent" />
           </div>
@@ -33,7 +32,7 @@ export default function RadioPage() {
             
             <div>
               <div className="flex items-center gap-2 font-bebas text-xs tracking-widest text-accent-amber mb-3">
-                <span>★</span> FLAGSHIP SHOW OF THE YEAR
+                <span>★</span> {t('radio.featured')}
               </div>
               <h2 className="font-bebas text-4xl tracking-widest text-white mb-2">
                 A State of <span className="text-accent-orange">Trance</span>
@@ -71,6 +70,13 @@ export default function RadioPage() {
             </div>
           </div>
 
+          {/* AdSense ad slot 2 */}
+          <div className="mb-8 p-4 bg-dark-bg2/50 border border-orange-900/20 rounded text-center">
+            <div id="ad-slot-2" className="min-h-[90px] flex items-center justify-center">
+              <p className="text-text-muted text-sm">Advertisement</p>
+            </div>
+          </div>
+
           {/* Tabs */}
           <div className="flex border-b border-orange-900/20 mb-8">
             {['all', 'weekly', 'biweekly', 'monthly'].map((tab) => (
@@ -83,7 +89,7 @@ export default function RadioPage() {
                     : 'text-text-muted hover:text-text-light'
                 }`}
               >
-                {tab.toUpperCase()}
+                {t(`radio.tabs.${tab}`)}
                 {selectedTab === tab && (
                   <div className="absolute bottom-0 left-0 right-0 h-0.5 bg-accent-orange" />
                 )}
@@ -101,7 +107,7 @@ export default function RadioPage() {
                 {show.live && (
                   <div className="absolute top-3 right-3 flex items-center gap-2 bg-accent-red/20 border border-accent-red/50 text-accent-red px-2 py-1 rounded text-xs tracking-widest font-bebas">
                     <div className="w-1 h-1 rounded-full bg-accent-red animate-pulse" />
-                    LIVE NOW
+                    {t('radio.live')}
                   </div>
                 )}
 
@@ -117,7 +123,7 @@ export default function RadioPage() {
 
                 <div className="flex gap-3 flex-wrap text-xs text-text-muted mb-3">
                   <div>🎵 {show.genre}</div>
-                  <div>👥 {show.listeners}</div>
+                  <div>👥 {show.listeners} {t('radio.listeners')}</div>
                   <div>📅 {show.freq}</div>
                 </div>
 
