@@ -14,16 +14,8 @@ export default function EventsPage() {
     return dateA - dateB;
   });
 
-  // Generate Resident Advisor affiliate link (Awin network)
-  // Set NEXT_PUBLIC_RA_AWIN_ID in .env.local to activate affiliate tracking
-  const getRALink = (eventName) => {
-    const raUrl = `https://www.residentadvisor.net/events?q=${encodeURIComponent(eventName)}&type=event`;
-    const awinId = process.env.NEXT_PUBLIC_RA_AWIN_ID;
-    if (awinId) {
-      return `https://www.awin1.com/cread.php?awinid=${awinId}&clickref=trance-nexus&p=${encodeURIComponent(raUrl)}`;
-    }
-    return raUrl;
-  };
+  const getRALink = (eventName) =>
+    `https://www.residentadvisor.net/events?q=${encodeURIComponent(eventName)}&type=event`;
 
   const getStatusInfo = (status) => {
     const statusMap = {
