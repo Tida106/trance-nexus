@@ -506,6 +506,51 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/artists/simon-patterson"/>
   </url>
   <url>
+    <loc>https://trance-nexus.com/labels/vandit-records</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/labels/vandit-records"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/labels/vandit-records"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/labels/vandit-records"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/labels/flashover-recordings</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/labels/flashover-recordings"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/labels/flashover-recordings"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/labels/flashover-recordings"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/labels/coldharbour-recordings</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/labels/coldharbour-recordings"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/labels/coldharbour-recordings"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/labels/coldharbour-recordings"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/labels/fsoe</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/labels/fsoe"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/labels/fsoe"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/labels/fsoe"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/labels/subculture</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/labels/subculture"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/labels/subculture"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/labels/subculture"/>
+  </url>
+  <url>
     <loc>https://trance-nexus.com/labels/armada-music</loc>
     <lastmod>2026-05-05</lastmod>
     <changefreq>monthly</changefreq>

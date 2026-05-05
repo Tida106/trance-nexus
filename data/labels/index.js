@@ -1,14 +1,14 @@
 import { majors } from './majors';
+import { classics } from './classics';
 import { artists } from '@/data/artists/index';
 
 // Future batches:
-// import { classics } from './classics';
 // import { modern } from './modern';
 // import { psy } from './psy';
 
 export const labels = [
   ...majors,
-  // ...classics,
+  ...classics,
   // ...modern,
   // ...psy,
 ];
