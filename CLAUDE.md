@@ -6,6 +6,21 @@
 
 ---
 
+## デプロイ先
+
+**GitHub Pages**にデプロイされている（Vercelではない）。
+
+- 公開URL: **https://tida106.github.io/trance-nexus/**
+- リポジトリ: `Tida106/trance-nexus`
+- ビルド: Next.js の static export（`out/` ディレクトリ）を Pages が配信
+- パスは `/trance-nexus/<route>` の形（basePath 付き）
+
+ライブ確認が必要なときは上記URLを使用すること。
+`trance-nexus.com`（DNS未設定）や `trance-nexus.vercel.app`（DEPLOYMENT_NOT_FOUND）は使わない。
+push後はPagesの再ビルドに1〜2分かかる場合がある。
+
+---
+
 ## ディレクトリ構成（目標）
 
 ```
