@@ -4,6 +4,7 @@ import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
 import Link from 'next/link';
 import { useTranslation } from '@/lib/useTranslation';
+import { listing } from '@/data/blog/listing';
 
 export default function Home() {
   const { t } = useTranslation();
@@ -169,23 +170,57 @@ export default function Home() {
         </div>
       </section>
 
-      {/* BLOG SECTION */}
+      {/* BLOG SECTION — latest 5 articles */}
       <section id="blog" className="relative z-10 py-24 px-12 bg-dark-bg2/50">
         <div className="max-w-7xl mx-auto">
-          <div className="mb-12">
+          <div className="mb-10">
             <h2 className="font-bebas text-5xl tracking-wider text-white mb-2">
               {t('blog.title')}
             </h2>
             <div className="w-20 h-1 bg-gradient-to-r from-accent-red via-accent-orange to-transparent" />
           </div>
-          <div className="mb-8">
-            <Link
-              href="/blog"
-              className="inline-block font-bebas text-sm tracking-widest px-6 py-3 border border-accent-orange/30 text-accent-orange hover:bg-accent-orange/10 hover:shadow-lg transition-all rounded"
-            >
-              ✍️ {t('blog.cta')} →
-            </Link>
+
+          {/* Latest 5 article cards */}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mb-10">
+            {listing.slice(0, 5).map((post) => {
+              const isJA = t('nav.artists') === 'アーティスト';
+              const c = isJA ? post.ja : post.en;
+              return (
+                <Link
+                  key={post.slug}
+                  href={`/blog/${post.slug}`}
+                  className="group bg-dark-bg2/80 border border-orange-900/20 rounded-sm overflow-hidden hover:border-accent-orange/50 hover:translate-y-[-4px] hover:shadow-xl transition-all block"
+                >
+                  <div className="h-1.5 bg-gradient-to-r from-accent-red via-accent-orange to-accent-amber" />
+                  <div className="p-5">
+                    <div className="flex gap-1.5 flex-wrap mb-2">
+                      {post.tags.slice(0, 2).map(tag => (
+                        <span key={tag} className="text-xs tracking-widest px-1.5 py-0.5 rounded border border-accent-orange/25 bg-accent-orange/5 text-accent-orange">
+                          {tag}
+                        </span>
+                      ))}
+                    </div>
+                    <h3 className="font-bebas text-lg tracking-widest text-white mb-2 leading-tight group-hover:text-accent-orange transition-colors line-clamp-2">
+                      {c.title}
+                    </h3>
+                    <p className="text-xs text-text-light/50 leading-relaxed mb-3 line-clamp-2">
+                      {c.excerpt}
+                    </p>
+                    <div className="text-xs text-text-muted tracking-widest">
+                      {post.date} · {post.readTime} {isJA ? '分' : 'min read'}
+                    </div>
+                  </div>
+                </Link>
+              );
+            })}
           </div>
+
+          <Link
+            href="/blog"
+            className="inline-block font-bebas text-sm tracking-widest px-6 py-3 border border-accent-orange/30 text-accent-orange hover:bg-accent-orange/10 hover:shadow-lg transition-all rounded"
+          >
+            ✍️ {t('blog.cta')} →
+          </Link>
         </div>
       </section>
 

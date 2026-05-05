@@ -3,7 +3,13 @@
 import Link from 'next/link';
 import Navigation from './Navigation';
 import Footer from './Footer';
+import Breadcrumb from './Breadcrumb';
 import { useTranslation } from '@/lib/useTranslation';
+
+const BLOG_BREADCRUMB = [
+  { label: { en: 'Home', ja: 'ホーム' }, href: '/' },
+  { label: { en: 'Blog', ja: 'ブログ' }, href: '/blog' },
+];
 
 export default function BlogListing({ listings }) {
   const { language } = useTranslation();
@@ -15,6 +21,9 @@ export default function BlogListing({ listings }) {
       <main className="relative z-10 min-h-screen pt-[60px] pb-20 px-12">
         <div className="max-w-7xl mx-auto">
           <div className="py-12">
+            <div className="mb-4">
+              <Breadcrumb items={BLOG_BREADCRUMB} />
+            </div>
             <h1 className="font-bebas text-5xl tracking-wider text-white mb-2">
               {isJA ? 'ブログ' : 'Blog'}
             </h1>

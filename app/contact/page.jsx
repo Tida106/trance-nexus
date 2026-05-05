@@ -2,7 +2,13 @@
 
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
+import Breadcrumb from '@/components/Breadcrumb';
 import { useTranslation } from '@/lib/useTranslation';
+
+const CONTACT_BREADCRUMB = [
+  { label: { en: 'Home', ja: 'ホーム' }, href: '/' },
+  { label: { en: 'Contact', ja: 'お問い合わせ' }, href: '/contact' },
+];
 
 const CONTACT_EMAIL = 'hello.sacredjapan@gmail.com';
 
@@ -37,6 +43,9 @@ export default function ContactPage() {
       <main className="relative z-10 min-h-screen pt-[60px] pb-20 px-12">
         <div className="max-w-2xl mx-auto">
           <div className="py-12">
+            <div className="mb-4">
+              <Breadcrumb items={CONTACT_BREADCRUMB} />
+            </div>
             <h1 className="font-bebas text-5xl tracking-wider text-white mb-2">
               {isJA ? 'お問い合わせ' : 'Contact'}
             </h1>

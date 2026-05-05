@@ -2,7 +2,13 @@
 
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
+import Breadcrumb from '@/components/Breadcrumb';
 import { useTranslation } from '@/lib/useTranslation';
+
+const PRIVACY_BREADCRUMB = [
+  { label: { en: 'Home', ja: 'ホーム' }, href: '/' },
+  { label: { en: 'Privacy Policy', ja: 'プライバシーポリシー' }, href: '/privacy' },
+];
 
 const CONTACT_EMAIL = 'hello.sacredjapan@gmail.com';
 const LAST_UPDATED = '2026-05-05';
@@ -207,6 +213,9 @@ export default function PrivacyPage() {
       <main className="relative z-10 min-h-screen pt-[60px] pb-20 px-12">
         <div className="max-w-3xl mx-auto">
           <div className="py-12">
+            <div className="mb-4">
+              <Breadcrumb items={PRIVACY_BREADCRUMB} />
+            </div>
             <h1 className="font-bebas text-5xl tracking-wider text-white mb-2">
               {isJA ? 'プライバシーポリシー' : 'Privacy Policy'}
             </h1>

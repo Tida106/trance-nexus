@@ -32,10 +32,37 @@ export async function generateMetadata({ params }) {
   };
 }
 
+// Lightweight shape passed to client component (no full body content for siblings)
+function slim(p) {
+  return {
+    slug: p.slug,
+    date: p.date,
+    readTime: p.readTime,
+    tags: p.tags,
+    en: { title: p.en.title, excerpt: p.en.excerpt },
+    ja: { title: p.ja.title, excerpt: p.ja.excerpt },
+  };
+}
+
 export default async function BlogPostPage({ params }) {
   const { slug } = await params;
   const post = posts.find((p) => p.slug === slug);
   if (!post) notFound();
+
+  const idx = posts.findIndex((p) => p.slug === slug);
+
+  // Prev / Next by array order (posts are in chronological order, oldest first)
+  const prevPost = idx > 0 ? slim(posts[idx - 1]) : null;
+  const nextPost = idx < posts.length - 1 ? slim(posts[idx + 1]) : null;
+
+  // Related: same tags first, then fill from others, exclude current, limit 3
+  const sameTag = posts.filter(
+    (p) => p.slug !== slug && p.tags.some((t) => post.tags.includes(t))
+  );
+  const others = posts.filter(
+    (p) => p.slug !== slug && !sameTag.find((r) => r.slug === p.slug)
+  );
+  const related = [...sameTag, ...others].slice(0, 3).map(slim);
 
   const articleSchema = {
     '@context': 'https://schema.org',
@@ -69,7 +96,12 @@ export default async function BlogPostPage({ params }) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
       />
-      <BlogPost post={post} />
+      <BlogPost
+        post={post}
+        prevPost={prevPost}
+        nextPost={nextPost}
+        related={related}
+      />
     </>
   );
 }
