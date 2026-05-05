@@ -352,4 +352,49 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/artists/above-and-beyond"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/artists/above-and-beyond"/>
   </url>
+  <url>
+    <loc>https://trance-nexus.com/artists/andrew-rayel</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/artists/andrew-rayel"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/artists/andrew-rayel"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/artists/andrew-rayel"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/artists/aly-and-fila</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/artists/aly-and-fila"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/artists/aly-and-fila"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/artists/aly-and-fila"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/artists/gareth-emery</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/artists/gareth-emery"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/artists/gareth-emery"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/artists/gareth-emery"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/artists/cosmic-gate</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/artists/cosmic-gate"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/artists/cosmic-gate"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/artists/cosmic-gate"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/artists/markus-schulz</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/artists/markus-schulz"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/artists/markus-schulz"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/artists/markus-schulz"/>
+  </url>
 </urlset>
