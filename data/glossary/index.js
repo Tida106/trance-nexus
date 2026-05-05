@@ -1,14 +1,14 @@
 import { genres } from './genres';
 import { production } from './production';
+import { djs } from './djs';
 
 // Future batches:
-// import { djs } from './djs';
 // import { culture } from './culture';
 
 export const glossary = [
   ...genres,
   ...production,
-  // ...djs,
+  ...djs,
   // ...culture,
 ];
 

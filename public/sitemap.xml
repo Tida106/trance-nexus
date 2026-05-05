@@ -497,6 +497,96 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/artists/simon-patterson"/>
   </url>
   <url>
+    <loc>https://trance-nexus.com/glossary/beatmatching</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/glossary/beatmatching"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/glossary/beatmatching"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/glossary/beatmatching"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/glossary/phrasing</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/glossary/phrasing"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/glossary/phrasing"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/glossary/phrasing"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/glossary/mashup</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/glossary/mashup"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/glossary/mashup"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/glossary/mashup"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/glossary/track-id</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/glossary/track-id"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/glossary/track-id"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/glossary/track-id"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/glossary/id</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/glossary/id"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/glossary/id"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/glossary/id"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/glossary/set</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/glossary/set"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/glossary/set"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/glossary/set"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/glossary/tracklist</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/glossary/tracklist"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/glossary/tracklist"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/glossary/tracklist"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/glossary/b2b</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/glossary/b2b"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/glossary/b2b"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/glossary/b2b"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/glossary/closing-set</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/glossary/closing-set"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/glossary/closing-set"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/glossary/closing-set"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/glossary/warmup</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/glossary/warmup"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/glossary/warmup"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/glossary/warmup"/>
+  </url>
+  <url>
     <loc>https://trance-nexus.com/glossary/trance</loc>
     <lastmod>2026-05-05</lastmod>
     <changefreq>monthly</changefreq>
