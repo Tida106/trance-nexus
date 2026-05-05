@@ -2,7 +2,7 @@ import { majors } from './majors';
 import { classics } from './classics';
 import { modern } from './modern';
 import { psy } from './psy';
-import { artists } from '@/data/artists/index';
+import { artists } from '../artists/index.js';
 
 export const labels = [
   ...majors,

@@ -1,6 +1,7 @@
 'use client';
 
 import { useTranslation } from '@/lib/useTranslation';
+import SearchTrigger from './SearchTrigger';
 
 export default function Navigation() {
   const { t, language, switchLanguage } = useTranslation();
@@ -26,6 +27,7 @@ export default function Navigation() {
             <span className="absolute bottom-0 left-0 right-0 h-0.5 bg-accent-orange scale-x-0 group-hover:scale-x-100 transition-transform origin-left"></span>
           </a>
         ))}
+        <SearchTrigger />
         <div className="border-l border-orange-900/20 px-5 h-[60px] leading-[60px] flex gap-2">
           <button
             onClick={() => switchLanguage('en')}

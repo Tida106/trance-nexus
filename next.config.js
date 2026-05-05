@@ -9,6 +9,12 @@ const nextConfig = {
   // '' for custom domains). Required so assets resolve correctly on GitHub Pages.
   basePath: process.env.BASE_PATH ?? '',
   assetPrefix: process.env.BASE_PATH ?? '',
+  // Surface the basePath to client code so fetch('/search-index.json') etc.
+  // can prefix it correctly. Next's <Link>/<Image> handle this automatically;
+  // raw fetch/script src does not.
+  env: {
+    NEXT_PUBLIC_BASE_PATH: process.env.BASE_PATH ?? '',
+  },
 };
 
 module.exports = nextConfig;
