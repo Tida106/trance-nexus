@@ -16,6 +16,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="ja">
       <head>
+        <meta name="impact-site-verification" value="b4ca228b-ba5d-49e0-8cc4-dce3ddc1a7d9" />
         <Script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-YOUR_ADSENSE_ID"
