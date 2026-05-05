@@ -47,6 +47,15 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/setlists"/>
   </url>
   <url>
+    <loc>https://trance-nexus.com/about</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/about"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/about"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/about"/>
+  </url>
+  <url>
     <loc>https://trance-nexus.com/privacy</loc>
     <lastmod>2026-05-05</lastmod>
     <changefreq>monthly</changefreq>

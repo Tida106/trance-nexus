@@ -16,12 +16,18 @@ export default function Footer() {
         {t('footer.copyright')}<br />
         {t('footer.affiliates')}
       </p>
-      <div className="flex gap-6 mt-1">
+      <div className="flex gap-6 mt-1 flex-wrap justify-center">
         <Link
           href="/blog"
           className="text-xs tracking-widest text-text-muted hover:text-accent-orange transition-colors"
         >
           {isJA ? 'ブログ' : 'Blog'}
+        </Link>
+        <Link
+          href="/about"
+          className="text-xs tracking-widest text-text-muted hover:text-accent-orange transition-colors"
+        >
+          {isJA ? '運営者情報' : 'About'}
         </Link>
         <Link
           href="/privacy"
