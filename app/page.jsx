@@ -6,7 +6,9 @@ import Link from 'next/link';
 import { useTranslation } from '@/lib/useTranslation';
 import { listing } from '@/data/blog/listing';
 import { artists } from '@/data/artists/index';
+import { labels } from '@/data/labels/index';
 import ArtistCard from '@/components/ArtistCard';
+import LabelCard from '@/components/LabelCard';
 
 export default function Home() {
   const { t } = useTranslation();
@@ -112,6 +114,35 @@ export default function Home() {
               className="inline-block font-bebas text-sm tracking-widest px-6 py-3 border border-accent-orange/30 text-accent-orange hover:bg-accent-orange/10 hover:shadow-lg transition-all rounded"
             >
               🎯 {t('home.sections.artists')} →
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* LABELS SECTION — Featured Labels */}
+      <section id="labels" className="relative z-10 py-24 px-12">
+        <div className="max-w-7xl mx-auto">
+          <div className="mb-12">
+            <h2 className="font-bebas text-5xl tracking-wider text-white mb-2">
+              {t('nav.artists') === 'アーティスト' ? 'レーベル' : 'LABELS'}
+            </h2>
+            <div className="w-20 h-1 bg-gradient-to-r from-accent-red via-accent-orange to-transparent" />
+          </div>
+
+          {labels.length > 0 && (
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mb-10">
+              {labels.slice(0, 5).map((l) => (
+                <LabelCard key={l.slug} label={l} />
+              ))}
+            </div>
+          )}
+
+          <div className="mb-8">
+            <Link
+              href="/labels"
+              className="inline-block font-bebas text-sm tracking-widest px-6 py-3 border border-accent-orange/30 text-accent-orange hover:bg-accent-orange/10 hover:shadow-lg transition-all rounded"
+            >
+              💿 {t('nav.artists') === 'アーティスト' ? 'すべてのレーベル' : 'ALL LABELS'} →
             </Link>
           </div>
         </div>

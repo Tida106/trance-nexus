@@ -38,6 +38,15 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/artists"/>
   </url>
   <url>
+    <loc>https://trance-nexus.com/labels</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/labels"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/labels"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/labels"/>
+  </url>
+  <url>
     <loc>https://trance-nexus.com/glossary</loc>
     <lastmod>2026-05-05</lastmod>
     <changefreq>weekly</changefreq>
@@ -495,6 +504,51 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/artists/simon-patterson"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/artists/simon-patterson"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/artists/simon-patterson"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/labels/armada-music</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/labels/armada-music"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/labels/armada-music"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/labels/armada-music"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/labels/anjunabeats</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/labels/anjunabeats"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/labels/anjunabeats"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/labels/anjunabeats"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/labels/black-hole-recordings</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/labels/black-hole-recordings"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/labels/black-hole-recordings"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/labels/black-hole-recordings"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/labels/spinnin-records</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/labels/spinnin-records"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/labels/spinnin-records"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/labels/spinnin-records"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/labels/ultra-music</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/labels/ultra-music"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/labels/ultra-music"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/labels/ultra-music"/>
   </url>
   <url>
     <loc>https://trance-nexus.com/glossary/asot</loc>

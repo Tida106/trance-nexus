@@ -31,11 +31,18 @@ const GLOSSARY_PAGES = collectSlugs('glossary').map((slug) => ({
   priority: '0.5',
 }));
 
+const LABEL_PAGES = collectSlugs('labels').map((slug) => ({
+  url: `/labels/${slug}`,
+  changefreq: 'monthly',
+  priority: '0.7',
+}));
+
 const PAGES = [
   { url: '/',          changefreq: 'daily',  priority: '1.0' },
   { url: '/radio',     changefreq: 'daily',  priority: '0.9' },
   { url: '/events',    changefreq: 'daily',  priority: '0.9' },
   { url: '/artists',   changefreq: 'weekly', priority: '0.8' },
+  { url: '/labels',    changefreq: 'weekly', priority: '0.8' },
   { url: '/glossary',  changefreq: 'weekly', priority: '0.7' },
   { url: '/setlists',  changefreq: 'weekly', priority: '0.7' },
   { url: '/about',    changefreq: 'monthly', priority: '0.5' },
@@ -68,6 +75,7 @@ const PAGES = [
   { url: '/blog/ibiza-and-trance-love-story',               changefreq: 'monthly', priority: '0.6' },
   { url: '/blog/underground-trance-scene',                  changefreq: 'monthly', priority: '0.6' },
   ...ARTIST_PAGES,
+  ...LABEL_PAGES,
   ...GLOSSARY_PAGES,
 ];
 

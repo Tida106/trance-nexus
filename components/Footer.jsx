@@ -24,6 +24,12 @@ export default function Footer() {
           {isJA ? 'アーティスト' : 'Artists'}
         </Link>
         <Link
+          href="/labels"
+          className="text-xs tracking-widest text-text-muted hover:text-accent-orange transition-colors"
+        >
+          {isJA ? 'レーベル' : 'Labels'}
+        </Link>
+        <Link
           href="/blog"
           className="text-xs tracking-widest text-text-muted hover:text-accent-orange transition-colors"
         >
