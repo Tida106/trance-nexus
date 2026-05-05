@@ -147,6 +147,26 @@ export default function Home() {
         </div>
       </section>
 
+      {/* BLOG SECTION */}
+      <section id="blog" className="relative z-10 py-24 px-12 bg-dark-bg2/50">
+        <div className="max-w-7xl mx-auto">
+          <div className="mb-12">
+            <h2 className="font-bebas text-5xl tracking-wider text-white mb-2">
+              {t('blog.title')}
+            </h2>
+            <div className="w-20 h-1 bg-gradient-to-r from-accent-red via-accent-orange to-transparent" />
+          </div>
+          <div className="mb-8">
+            <Link
+              href="/blog"
+              className="inline-block font-bebas text-sm tracking-widest px-6 py-3 border border-accent-orange/30 text-accent-orange hover:bg-accent-orange/10 hover:shadow-lg transition-all rounded"
+            >
+              ✍️ {t('blog.cta')} →
+            </Link>
+          </div>
+        </div>
+      </section>
+
       <Footer />
     </>
   );

@@ -11,6 +11,17 @@ const PAGES = [
   { url: '/setlists',  changefreq: 'weekly', priority: '0.7' },
   { url: '/privacy',  changefreq: 'monthly', priority: '0.3' },
   { url: '/contact',  changefreq: 'monthly', priority: '0.3' },
+  { url: '/blog',     changefreq: 'weekly',  priority: '0.8' },
+  { url: '/blog/history-of-trance-music',              changefreq: 'monthly', priority: '0.6' },
+  { url: '/blog/top-10-trance-subgenres-explained',    changefreq: 'monthly', priority: '0.6' },
+  { url: '/blog/essential-trance-labels-2026',         changefreq: 'monthly', priority: '0.6' },
+  { url: '/blog/best-trance-festivals-worldwide',      changefreq: 'monthly', priority: '0.6' },
+  { url: '/blog/how-to-dj-trance-beginners-guide',    changefreq: 'monthly', priority: '0.6' },
+  { url: '/blog/iconic-trance-anthems-that-defined-an-era', changefreq: 'monthly', priority: '0.6' },
+  { url: '/blog/rise-of-psytrance-goa-to-modern-day', changefreq: 'monthly', priority: '0.6' },
+  { url: '/blog/trance-vs-house-vs-techno',           changefreq: 'monthly', priority: '0.6' },
+  { url: '/blog/role-of-vocals-in-trance-music',      changefreq: 'monthly', priority: '0.6' },
+  { url: '/blog/why-trance-music-endures',            changefreq: 'monthly', priority: '0.6' },
 ];
 
 function buildSitemap() {

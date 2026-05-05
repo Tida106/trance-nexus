@@ -18,6 +18,12 @@ export default function Footer() {
       </p>
       <div className="flex gap-6 mt-1">
         <Link
+          href="/blog"
+          className="text-xs tracking-widest text-text-muted hover:text-accent-orange transition-colors"
+        >
+          {isJA ? 'ブログ' : 'Blog'}
+        </Link>
+        <Link
           href="/privacy"
           className="text-xs tracking-widest text-text-muted hover:text-accent-orange transition-colors"
         >
