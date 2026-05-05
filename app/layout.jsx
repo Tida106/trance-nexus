@@ -1,6 +1,7 @@
 import './globals.css';
 import { LanguageProvider } from '@/lib/useTranslation';
 import Script from 'next/script';
+import CookieBanner from '@/components/CookieBanner';
 
 export const metadata = {
   title: 'TRANCE NEXUS — Trance Music Portal',
@@ -29,7 +30,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="ja">
       <head>
+        {/* Google Search Console — replace content value after verifying ownership */}
+        {/* <meta name="google-site-verification" content="YOUR_VERIFICATION_CODE_HERE" /> */}
+
         <meta name="impact-site-verification" value="93a31d8c-4695-4c90-a524-505fd48b6968" />
+
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -44,6 +49,7 @@ export default function RootLayout({ children }) {
             }),
           }}
         />
+
         <Script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4224563062633828"
@@ -55,6 +61,7 @@ export default function RootLayout({ children }) {
       <body className="bg-dark-bg text-text-light">
         <LanguageProvider>
           {children}
+          <CookieBanner />
         </LanguageProvider>
       </body>
     </html>

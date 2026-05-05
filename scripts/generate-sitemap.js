@@ -26,15 +26,22 @@ const PAGES = [
 
 function buildSitemap() {
   const lastmod = new Date().toISOString().split('T')[0];
-  const urls = PAGES.map(p => `  <url>
-    <loc>${SITE_URL}${p.url}</loc>
+  const urls = PAGES.map(p => {
+    const abs = `${SITE_URL}${p.url}`;
+    return `  <url>
+    <loc>${abs}</loc>
     <lastmod>${lastmod}</lastmod>
     <changefreq>${p.changefreq}</changefreq>
     <priority>${p.priority}</priority>
-  </url>`).join('\n');
+    <xhtml:link rel="alternate" hreflang="x-default" href="${abs}"/>
+    <xhtml:link rel="alternate" hreflang="en" href="${abs}"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="${abs}"/>
+  </url>`;
+  }).join('\n');
 
   return `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
 ${urls}
 </urlset>`;
 }
@@ -42,6 +49,7 @@ ${urls}
 function buildRobotsTxt() {
   return `User-agent: *
 Allow: /
+Disallow: /api/
 
 Sitemap: ${SITE_URL}/sitemap.xml
 `;

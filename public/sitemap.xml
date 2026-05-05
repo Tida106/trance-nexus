@@ -1,111 +1,166 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://trance-nexus.com/</loc>
     <lastmod>2026-05-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/"/>
   </url>
   <url>
     <loc>https://trance-nexus.com/radio</loc>
     <lastmod>2026-05-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/radio"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/radio"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/radio"/>
   </url>
   <url>
     <loc>https://trance-nexus.com/events</loc>
     <lastmod>2026-05-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/events"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/events"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/events"/>
   </url>
   <url>
     <loc>https://trance-nexus.com/artists</loc>
     <lastmod>2026-05-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/artists"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/artists"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/artists"/>
   </url>
   <url>
     <loc>https://trance-nexus.com/setlists</loc>
     <lastmod>2026-05-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/setlists"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/setlists"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/setlists"/>
   </url>
   <url>
     <loc>https://trance-nexus.com/privacy</loc>
     <lastmod>2026-05-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/privacy"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/privacy"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/privacy"/>
   </url>
   <url>
     <loc>https://trance-nexus.com/contact</loc>
     <lastmod>2026-05-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/contact"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/contact"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/contact"/>
   </url>
   <url>
     <loc>https://trance-nexus.com/blog</loc>
     <lastmod>2026-05-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/blog"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/blog"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/blog"/>
   </url>
   <url>
     <loc>https://trance-nexus.com/blog/history-of-trance-music</loc>
     <lastmod>2026-05-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/blog/history-of-trance-music"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/blog/history-of-trance-music"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/blog/history-of-trance-music"/>
   </url>
   <url>
     <loc>https://trance-nexus.com/blog/top-10-trance-subgenres-explained</loc>
     <lastmod>2026-05-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/blog/top-10-trance-subgenres-explained"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/blog/top-10-trance-subgenres-explained"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/blog/top-10-trance-subgenres-explained"/>
   </url>
   <url>
     <loc>https://trance-nexus.com/blog/essential-trance-labels-2026</loc>
     <lastmod>2026-05-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/blog/essential-trance-labels-2026"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/blog/essential-trance-labels-2026"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/blog/essential-trance-labels-2026"/>
   </url>
   <url>
     <loc>https://trance-nexus.com/blog/best-trance-festivals-worldwide</loc>
     <lastmod>2026-05-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/blog/best-trance-festivals-worldwide"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/blog/best-trance-festivals-worldwide"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/blog/best-trance-festivals-worldwide"/>
   </url>
   <url>
     <loc>https://trance-nexus.com/blog/how-to-dj-trance-beginners-guide</loc>
     <lastmod>2026-05-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/blog/how-to-dj-trance-beginners-guide"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/blog/how-to-dj-trance-beginners-guide"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/blog/how-to-dj-trance-beginners-guide"/>
   </url>
   <url>
     <loc>https://trance-nexus.com/blog/iconic-trance-anthems-that-defined-an-era</loc>
     <lastmod>2026-05-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/blog/iconic-trance-anthems-that-defined-an-era"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/blog/iconic-trance-anthems-that-defined-an-era"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/blog/iconic-trance-anthems-that-defined-an-era"/>
   </url>
   <url>
     <loc>https://trance-nexus.com/blog/rise-of-psytrance-goa-to-modern-day</loc>
     <lastmod>2026-05-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/blog/rise-of-psytrance-goa-to-modern-day"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/blog/rise-of-psytrance-goa-to-modern-day"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/blog/rise-of-psytrance-goa-to-modern-day"/>
   </url>
   <url>
     <loc>https://trance-nexus.com/blog/trance-vs-house-vs-techno</loc>
     <lastmod>2026-05-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/blog/trance-vs-house-vs-techno"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/blog/trance-vs-house-vs-techno"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/blog/trance-vs-house-vs-techno"/>
   </url>
   <url>
     <loc>https://trance-nexus.com/blog/role-of-vocals-in-trance-music</loc>
     <lastmod>2026-05-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/blog/role-of-vocals-in-trance-music"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/blog/role-of-vocals-in-trance-music"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/blog/role-of-vocals-in-trance-music"/>
   </url>
   <url>
     <loc>https://trance-nexus.com/blog/why-trance-music-endures</loc>
     <lastmod>2026-05-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/blog/why-trance-music-endures"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/blog/why-trance-music-endures"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/blog/why-trance-music-endures"/>
   </url>
 </urlset>
