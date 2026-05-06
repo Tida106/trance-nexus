@@ -148,6 +148,27 @@ export const classification = {
     category: 'artists',
     tags: ['progressive', 'vocal', '2020s'],
   },
+  // Batch 6: cinema, spirituality, meditation, documentaries, influence
+  'trance-music-films-tv-memorable-moments': {
+    category: 'history',
+    tags: ['2000s', '2010s', '2020s'],
+  },
+  'spirituality-of-trance-why-it-hits-different': {
+    category: 'history',
+    tags: ['uplifting', 'progressive', 'goa'],
+  },
+  'trance-meditation-music-mind-expansion': {
+    category: 'subgenres',
+    tags: ['progressive', 'uplifting'],
+  },
+  'trance-documentary-watchlist': {
+    category: 'history',
+    tags: ['90s', '2000s', '2010s'],
+  },
+  'trance-influence-other-genres': {
+    category: 'history',
+    tags: ['progressive', '2000s', '2010s', '2020s'],
+  },
 };
 
 export function getCategoryForPost(slug) {

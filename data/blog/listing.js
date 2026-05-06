@@ -1,6 +1,22 @@
 // Lightweight listing data — no article body content.
 // Newest first. Keep in sync with data/blog/posts.js when adding articles.
 export const listing = [
+  // Batch 6: Cinema, spirituality, meditation, documentaries, influence
+  { slug: 'trance-influence-other-genres', date: '2026-05-30', readTime: 8, tags: ['culture', 'analysis'],
+    en: { title: "Trance Music's Influence on Other Genres", excerpt: "Trance has had a much wider musical influence than the genre's mainstream profile would suggest. Many of the techniques pop producers now reach for — supersaw leads, breakdown-and-drop dynamics, atmospheric pads — are trance imports." },
+    ja: { title: 'トランスミュージックの他ジャンルへの影響', excerpt: 'トランスはジャンルのメインストリーム・プロファイルが示唆するよりもはるかに広い音楽的影響を持ってきた。ポップ・プロデューサーが今手を伸ばす多くのテクニック——スーパーソウ・リード、ブレイクダウン・ドロップ・ダイナミクス、大気的なパッド——はトランスの輸入だ。' } },
+  { slug: 'trance-documentary-watchlist', date: '2026-05-29', readTime: 7, tags: ['culture', 'analysis'],
+    en: { title: 'The Trance Documentary Watchlist: Films Every Fan Should See', excerpt: 'The serious documentary record on trance music is smaller than the genre deserves, but the films that exist are essential viewing for any committed fan.' },
+    ja: { title: 'トランス・ドキュメンタリー・ウォッチリスト：すべてのファンが見るべき映画', excerpt: 'トランスミュージックに関する真剣なドキュメンタリー記録はジャンルが値するものよりも少ないが、存在する映画は献身的なファンにとって必見だ。' } },
+  { slug: 'trance-meditation-music-mind-expansion', date: '2026-05-28', readTime: 7, tags: ['culture', 'analysis'],
+    en: { title: 'Trance and Meditation: Music for Mind Expansion', excerpt: 'Trance is not literally meditation music — but the structural similarities are real, and many fans use the music as part of a meditation or focus practice. The overlap rewards careful attention.' },
+    ja: { title: 'トランスと瞑想：心を拡張する音楽', excerpt: 'トランスは文字通りの瞑想音楽ではない——しかし構造的類似性は本物であり、多くのファンは瞑想または集中の実践の一部として音楽を使用する。重なりは注意深い注意に報いる。' } },
+  { slug: 'spirituality-of-trance-why-it-hits-different', date: '2026-05-27', readTime: 8, tags: ['culture', 'analysis'],
+    en: { title: 'The Spirituality of Trance: Why It Hits Different', excerpt: 'Ask any serious trance fan to describe their best night and the words "spiritual" or "religious" arrive within minutes. This is not a casual analogy. The music does something specific to the listener that demands serious vocabulary.' },
+    ja: { title: 'トランスのスピリチュアリティ：なぜ違うように響くのか', excerpt: '真剣なトランス・ファンに最高の夜を説明してもらえば、「スピリチュアル」または「宗教的」という言葉が数分以内に到着する。これはカジュアルなアナロジーではない。音楽はリスナーに特定の何かをし、真剣な語彙を要求する。' } },
+  { slug: 'trance-music-films-tv-memorable-moments', date: '2026-05-26', readTime: 7, tags: ['culture', 'analysis'],
+    en: { title: 'Trance Music in Films and TV: Memorable Moments', excerpt: 'Film and television have used trance music — and trance-adjacent electronic textures — to score some of the most emotionally charged moments in recent screen history. The pairing works because both forms understand catharsis.' },
+    ja: { title: '映画とテレビにおけるトランスミュージック：記憶に残る瞬間', excerpt: '映画とテレビは、最近のスクリーン史で最も感情的に充電された瞬間のいくつかをスコアするためにトランスミュージック——とトランス隣接の電子テクスチャ——を使用してきた。両方の形式がカタルシスを理解しているから、ペアリングは機能する。' } },
   // Batch 5: Women & new generation
   { slug: 'female-djs-reshaping-trance-scene', date: '2026-05-25', readTime: 7, tags: ['artists', 'culture'],
     en: { title: 'Female DJs Reshaping the Trance Scene', excerpt: 'In 2026, the most important question about women in trance is not whether they are present — they are — but what their continued prominence means for the future shape of the genre.' },
