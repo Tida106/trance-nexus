@@ -19,6 +19,18 @@ export const metadata = {
     site: '@trancenexus',
     images: ['/og-default.png'],
   },
+  alternates: {
+    types: {
+      'application/rss+xml': [
+        { url: '/rss.xml', title: 'TRANCE NEXUS — Blog' },
+        { url: '/rss.en.xml', title: 'TRANCE NEXUS — Blog (English)' },
+        { url: '/rss.ja.xml', title: 'TRANCE NEXUS — Blog (日本語)' },
+      ],
+      'application/atom+xml': [
+        { url: '/atom.xml', title: 'TRANCE NEXUS — Blog (Atom)' },
+      ],
+    },
+  },
 };
 
 export const viewport = {

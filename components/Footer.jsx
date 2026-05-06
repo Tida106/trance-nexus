@@ -97,6 +97,39 @@ export default function Footer() {
           {isJA ? 'お問い合わせ' : 'Contact'}
         </Link>
       </div>
+      <div className="flex gap-4 mt-2 items-center">
+        <a
+          href={isJA ? '/rss.ja.xml' : '/rss.en.xml'}
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label={isJA ? `RSSフィード（${isJA ? '日本語' : '英語'}）` : `RSS feed (${isJA ? 'Japanese' : 'English'})`}
+          className="inline-flex items-center gap-1.5 text-xs tracking-widest text-text-muted hover:text-accent-orange transition-colors"
+          title={isJA ? '日本語RSSフィード' : 'English RSS feed'}
+        >
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M3.43 5.4c0-.78.62-1.4 1.4-1.4C13.46 4 21 11.54 21 19.97c0 .78-.62 1.4-1.4 1.4-.78 0-1.4-.62-1.4-1.4 0-7.15-5.85-13-13-13-.78 0-1.4-.62-1.4-1.4zm0 6.34c0-.78.62-1.4 1.4-1.4C9.99 10.34 14 14.36 14 19.97c0 .78-.62 1.4-1.4 1.4-.78 0-1.4-.62-1.4-1.4 0-3.93-2.69-6.83-6.36-6.83-.78 0-1.4-.62-1.4-1.4zm2.31 6.31c0-1.05.85-1.9 1.9-1.9s1.9.85 1.9 1.9-.85 1.91-1.9 1.91-1.9-.86-1.9-1.91z" />
+          </svg>
+          {isJA ? 'RSS（日本語）' : 'RSS (English)'}
+        </a>
+        <a
+          href={isJA ? '/rss.en.xml' : '/rss.ja.xml'}
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label={isJA ? 'RSSフィード（英語）' : 'RSS feed (Japanese)'}
+          className="text-xs tracking-widest text-text-muted/70 hover:text-accent-orange transition-colors"
+        >
+          {isJA ? '/ EN' : '/ JA'}
+        </a>
+        <a
+          href="/atom.xml"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Atom feed"
+          className="text-xs tracking-widest text-text-muted/70 hover:text-accent-orange transition-colors"
+        >
+          / ATOM
+        </a>
+      </div>
     </footer>
   );
 }

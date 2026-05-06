@@ -29,6 +29,19 @@ export async function generateMetadata({ params }) {
       description: post.en.description,
       images: [`/og/blog/${slug}.png`],
     },
+    alternates: {
+      canonical: `/blog/${slug}`,
+      types: {
+        'application/rss+xml': [
+          { url: '/rss.xml', title: 'TRANCE NEXUS — Blog' },
+          { url: '/rss.en.xml', title: 'TRANCE NEXUS — Blog (English)' },
+          { url: '/rss.ja.xml', title: 'TRANCE NEXUS — Blog (日本語)' },
+        ],
+        'application/atom+xml': [
+          { url: '/atom.xml', title: 'TRANCE NEXUS — Blog (Atom)' },
+        ],
+      },
+    },
   };
 }
 
