@@ -127,6 +127,27 @@ export const classification = {
     category: 'history',
     tags: ['90s', '2000s', '2010s', '2020s', 'tiesto', 'above-and-beyond'],
   },
+  // Batch 5: women & new generation
+  'women-in-trance-pioneers-modern-stars': {
+    category: 'artists',
+    tags: ['vocal', '2000s', '2010s', '2020s', 'above-and-beyond'],
+  },
+  'nifra-slovakia-trance-queen': {
+    category: 'artists',
+    tags: ['2010s', '2020s', 'progressive'],
+  },
+  'miss-monique-rising-progressive-star': {
+    category: 'artists',
+    tags: ['progressive', '2020s'],
+  },
+  'new-generation-trance-artists-to-watch-2026': {
+    category: 'artists',
+    tags: ['progressive', 'uplifting', '2020s'],
+  },
+  'female-djs-reshaping-trance-scene': {
+    category: 'artists',
+    tags: ['progressive', 'vocal', '2020s'],
+  },
 };
 
 export function getCategoryForPost(slug) {

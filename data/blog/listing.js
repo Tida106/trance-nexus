@@ -1,6 +1,22 @@
 // Lightweight listing data — no article body content.
 // Newest first. Keep in sync with data/blog/posts.js when adding articles.
 export const listing = [
+  // Batch 5: Women & new generation
+  { slug: 'female-djs-reshaping-trance-scene', date: '2026-05-25', readTime: 7, tags: ['artists', 'culture'],
+    en: { title: 'Female DJs Reshaping the Trance Scene', excerpt: 'In 2026, the most important question about women in trance is not whether they are present — they are — but what their continued prominence means for the future shape of the genre.' },
+    ja: { title: 'トランスシーンを再構築する女性DJたち', excerpt: '2026年、トランスにおける女性についての最も重要な問いは、彼女たちが存在するかどうかではない——存在する——彼女たちの継続的な著名さがジャンルの未来の形にとって何を意味するか、だ。' } },
+  { slug: 'new-generation-trance-artists-to-watch-2026', date: '2026-05-24', readTime: 8, tags: ['artists', 'analysis'],
+    en: { title: 'The New Generation: Trance Artists to Watch in 2026', excerpt: 'Every era of trance has had artists who arrived early enough that listeners can claim they were paying attention before things got big. These are the names worth knowing in 2026.' },
+    ja: { title: '新世代：2026年に注目すべきトランスアーティスト', excerpt: 'トランスのあらゆる時代には、リスナーが大きくなる前から注意を払っていたと主張できるほど早く到着したアーティストがいた。2026年に知る価値のある名前。' } },
+  { slug: 'miss-monique-rising-progressive-star', date: '2026-05-23', readTime: 7, tags: ['artists', 'culture'],
+    en: { title: 'Miss Monique: The Rising Progressive Star', excerpt: 'Miss Monique\'s rise from a Kyiv DJ uploading mixes to YouTube to one of the most-followed progressive DJs in the world is one of the genre\'s most distinctive 2020s success stories.' },
+    ja: { title: 'Miss Monique：プログレッシブの新星', excerpt: 'YouTubeにミックスをアップロードするキエフのDJから世界で最もフォローされるプログレッシブDJのひとりへとなったMiss Moniqueの台頭は、ジャンルの2020年代で最も特徴的な成功物語のひとつだ。' } },
+  { slug: 'nifra-slovakia-trance-queen', date: '2026-05-22', readTime: 7, tags: ['artists', 'culture'],
+    en: { title: "Nifra: Slovakia's Trance Queen", excerpt: 'Nifra is one of the most consistently exciting DJs in modern trance — a tech-trance specialist whose sets reliably outwork most headliners on a festival bill.' },
+    ja: { title: 'Nifra：スロバキアのトランス女王', excerpt: 'Nifraは現代トランスで最も一貫してエキサイティングなDJのひとり——フェスティバル・ビルのヘッドライナーの大半を確実に上回るテック・トランスの専門家。' } },
+  { slug: 'women-in-trance-pioneers-modern-stars', date: '2026-05-21', readTime: 8, tags: ['artists', 'culture'],
+    en: { title: 'Women in Trance: The Pioneers and Modern Stars', excerpt: 'Trance has had women at its centre since the beginning. The story of those women — pioneers, vocalists, DJs, producers, label heads — is one of the genre\'s most under-told stories.' },
+    ja: { title: 'トランスにおける女性：パイオニアたちとモダンスター', excerpt: 'トランスは始まりから女性をその中心に持ってきた。これらの女性たち——パイオニア、ボーカリスト、DJ、プロデューサー、レーベル主宰——の物語はジャンルで最も語られていない物語のひとつだ。' } },
   // Batch 4: Decade-by-decade rankings
   { slug: 'trance-tracks-defined-each-decade-retrospective', date: '2026-05-20', readTime: 8, tags: ['classics', 'analysis'],
     en: { title: 'Trance Tracks That Defined Each Decade: A Retrospective', excerpt: 'If you had to play one trance record to explain each decade of the genre to someone, which would you choose? This is the disciplined version of that thought experiment.' },
