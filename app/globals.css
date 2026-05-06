@@ -140,3 +140,62 @@ body::before {
 .b-epic {
   background: linear-gradient(135deg, #0a0a3a 0%, #ff3c00 60%, #ffb400 100%);
 }
+
+/* ── Timeline (/timeline) ──────────────────────────────────────────
+   CSS-driven animations so the page stays responsive without a JS
+   raf loop. Reduced motion is honoured via the data attribute the
+   client component sets on its root. */
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+@keyframes tl-pin-pulse {
+  0%, 100% { transform: scale(1);   filter: drop-shadow(0 0 6px currentColor); }
+  50%      { transform: scale(1.18); filter: drop-shadow(0 0 14px currentColor); }
+}
+@keyframes tl-rail-flow {
+  0%   { background-position: 0% 0%; }
+  100% { background-position: 0% 200%; }
+}
+@keyframes tl-hero-drift {
+  0%, 100% { transform: translate3d(0, 0, 0); }
+  50%      { transform: translate3d(0, 6px, 0); }
+}
+@keyframes tl-pin-ring {
+  0%   { transform: scale(0.6); opacity: 0.7; }
+  100% { transform: scale(2.2); opacity: 0; }
+}
+
+.tl-pin {
+  animation: tl-pin-pulse 3.2s ease-in-out infinite;
+}
+.tl-pin::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 9999px;
+  border: 2px solid currentColor;
+  pointer-events: none;
+  animation: tl-pin-ring 2.8s ease-out infinite;
+}
+.tl-rail {
+  background-image: linear-gradient(to bottom, transparent 0%, currentColor 50%, transparent 100%);
+  background-size: 100% 200%;
+  animation: tl-rail-flow 9s linear infinite;
+}
+.tl-hero-wave {
+  animation: tl-hero-drift 8s ease-in-out infinite;
+}
+
+/* Reduced motion → freeze every timeline animation. */
+[data-tl-reduced='1'] .tl-pin,
+[data-tl-reduced='1'] .tl-pin::after,
+[data-tl-reduced='1'] .tl-rail,
+[data-tl-reduced='1'] .tl-hero-wave {
+  animation: none !important;
+}

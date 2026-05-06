@@ -78,13 +78,22 @@ export default function TimelineClient() {
   return (
     <>
       <Navigation />
-      <main className="relative z-10 min-h-screen pt-[60px] pb-20">
+      <a
+        href={`#era-${eras[0].id}`}
+        className="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-50 focus:px-3 focus:py-2 focus:rounded focus:border focus:border-accent-orange focus:bg-dark-bg focus:text-accent-orange focus:font-bebas focus:text-xs focus:tracking-widest"
+      >
+        {isJA ? 'タイムライン本文へスキップ' : 'Skip to timeline content'}
+      </a>
+      <main
+        className="relative z-10 min-h-screen pt-[60px] pb-20"
+        data-tl-reduced={reducedMotion ? '1' : '0'}
+      >
         {/* Hero */}
         <section className="relative px-6 md:px-12 pt-10 pb-12 overflow-hidden">
           <div className="absolute inset-0 bg-gradient-to-b from-accent-red/10 via-accent-orange/5 to-transparent pointer-events-none" />
           <svg
             aria-hidden="true"
-            className="absolute inset-x-0 top-0 w-full opacity-20 pointer-events-none"
+            className="tl-hero-wave absolute inset-x-0 top-0 w-full opacity-20 pointer-events-none"
             viewBox="0 0 1200 120" preserveAspectRatio="none"
           >
             <defs>
@@ -215,8 +224,8 @@ function Era({ era, events, isJA, eraRef, openEventId, onToggleEvent, reducedMot
       </header>
 
       <ol
-        className="relative pl-6 md:pl-8 border-l-2"
-        style={{ borderColor: `${era.accent}60` }}
+        className="tl-rail relative pl-6 md:pl-8 border-l-2"
+        style={{ borderColor: `${era.accent}60`, color: `${era.accent}50` }}
       >
         {events.map((ev, i) => (
           <TimelineEvent
@@ -267,11 +276,13 @@ function TimelineEvent({ event, isJA, accent, isOpen, onToggle, reducedMotion, i
       }`}
       style={{ transitionDuration: reducedMotion ? '0ms' : '600ms', transitionDelay: reducedMotion ? '0ms' : `${Math.min(index * 40, 240)}ms` }}
     >
-      {/* Pin */}
+      {/* Pin — pulses on the active card; ::after ring expands then fades */}
       <span
         aria-hidden="true"
-        className="absolute -left-[34px] md:-left-[42px] top-3 w-3.5 h-3.5 rounded-full ring-4 ring-dark-bg"
-        style={{ background: accent, boxShadow: `0 0 12px ${accent}80` }}
+        className={`tl-pin absolute -left-[34px] md:-left-[42px] top-3 w-3.5 h-3.5 rounded-full ring-4 ring-dark-bg ${
+          isOpen ? 'scale-125' : ''
+        }`}
+        style={{ background: accent, color: accent }}
       />
 
       <button
