@@ -79,6 +79,7 @@ const PAGES = [
   { url: '/category',  changefreq: 'weekly', priority: '0.6' },
   { url: '/tag',       changefreq: 'weekly', priority: '0.5' },
   { url: '/setlists',  changefreq: 'weekly', priority: '0.7' },
+  { url: '/timeline',  changefreq: 'monthly', priority: '0.7' },
   { url: '/about',    changefreq: 'monthly', priority: '0.5' },
   { url: '/privacy',  changefreq: 'monthly', priority: '0.3' },
   { url: '/cookies',  changefreq: 'monthly', priority: '0.3' },

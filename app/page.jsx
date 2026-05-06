@@ -266,6 +266,48 @@ export default function Home() {
         </div>
       </section>
 
+      <section
+        className="relative z-10 py-16 px-12 overflow-hidden"
+        aria-label="Explore Trance History"
+      >
+        <div className="absolute inset-0 bg-gradient-to-r from-accent-red/10 via-accent-orange/15 to-amber-500/10 pointer-events-none" />
+        <svg
+          aria-hidden="true"
+          className="absolute inset-x-0 bottom-0 w-full h-24 opacity-25 pointer-events-none"
+          viewBox="0 0 1200 100" preserveAspectRatio="none"
+        >
+          <defs>
+            <linearGradient id="home-tl-wave" x1="0" x2="1" y1="0" y2="0">
+              <stop offset="0%"   stopColor="#dc2626" />
+              <stop offset="50%"  stopColor="#f97316" />
+              <stop offset="100%" stopColor="#fbbf24" />
+            </linearGradient>
+          </defs>
+          <path
+            d="M0,60 C150,20 300,90 450,55 C600,20 750,90 900,55 C1050,20 1200,80 1200,80 L1200,100 L0,100 Z"
+            fill="url(#home-tl-wave)"
+          />
+        </svg>
+
+        <div className="relative max-w-3xl mx-auto text-center">
+          <span className="inline-block text-xs tracking-widest text-accent-orange font-bebas mb-3 px-2 py-1 rounded border border-accent-orange/30 bg-accent-orange/5">
+            1988 — 2026
+          </span>
+          <h2 className="font-bebas text-4xl md:text-5xl tracking-wider text-white mb-3 leading-tight">
+            EXPLORE TRANCE HISTORY
+          </h2>
+          <p className="text-text-light/75 text-base md:text-lg leading-relaxed mb-6">
+            Five eras, thirty defining moments — from Frankfurt clubs and the Goa scene to ASOT, the Anjuna empire, and Anyma at the Las Vegas Sphere.
+          </p>
+          <Link
+            href="/timeline"
+            className="inline-block font-bebas text-base tracking-widest px-7 py-3 border border-accent-orange bg-accent-orange/15 text-accent-orange hover:bg-accent-orange/25 hover:shadow-lg transition-all rounded"
+          >
+            🔥 OPEN THE TIMELINE →
+          </Link>
+        </div>
+      </section>
+
       <section className="relative z-10 py-16 px-12 bg-gradient-to-b from-transparent via-accent-orange/5 to-transparent">
         <div className="max-w-2xl mx-auto">
           <NewsletterForm variant="cta" />

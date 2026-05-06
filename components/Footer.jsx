@@ -61,6 +61,12 @@ export default function Footer() {
           {isJA ? '用語集' : 'Glossary'}
         </Link>
         <Link
+          href="/timeline"
+          className="text-xs tracking-widest text-text-muted hover:text-accent-orange transition-colors"
+        >
+          {isJA ? 'タイムライン' : 'Timeline'}
+        </Link>
+        <Link
           href="/about"
           className="text-xs tracking-widest text-text-muted hover:text-accent-orange transition-colors"
         >
