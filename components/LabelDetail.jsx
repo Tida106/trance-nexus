@@ -9,6 +9,7 @@ import MusicEmbed from './MusicEmbed';
 import {
   spotifyArtistIdFromUrl,
   spotifyPlaylistIdFromUrl,
+  featuredTracksForLabel,
 } from '@/lib/embeds';
 
 function buildLinks(label) {
@@ -172,37 +173,44 @@ export default function LabelDetail({ label, related, signedArtists, posts }) {
             </div>
           </section>
 
-          {/* Listen — embed if the label data exposes an embeddable Spotify
-              entity. Most labels in our data point to /user/<name> URLs which
-              don't have an embed equivalent; the data layer can supply
-              `spotifyEmbedId` (e.g. 'playlist:37i9...' or 'artist:...') to
-              opt into a player. */}
+          {/* Listen — three layers, in order of preference:
+              1. If label.spotifyEmbedId or links.spotify resolves to a real
+                 playlist/artist URL, render that as a Spotify iframe.
+              2. Always render hand-curated label.embeds[] if present.
+              3. Otherwise auto-derive 5 search-link cards from topReleases.
+              Most labels in data/labels/* expose only /user/<name> URLs
+              which can't be embedded as iframes — for those, the search
+              cards are the entire 'Listen' surface. */}
           {(() => {
             const explicit = label.spotifyEmbedId;
             const playlistId = spotifyPlaylistIdFromUrl(label.links?.spotify);
             const artistId = spotifyArtistIdFromUrl(label.links?.spotify);
-            const id = explicit
+            const iframeId = explicit
               ? explicit
               : playlistId
               ? `playlist:${playlistId}`
               : artistId
               ? `artist:${artistId}`
               : null;
-            if (!id) return null;
+            const cards =
+              (Array.isArray(label.embeds) && label.embeds.length > 0)
+                ? label.embeds
+                : featuredTracksForLabel(label, 5);
+            if (!iframeId && cards.length === 0) return null;
             return (
               <section className="mb-12">
                 <h2 className="font-bebas text-3xl tracking-widest text-white mb-4">
                   {isJA ? '聴く' : 'Listen'}
                 </h2>
                 <div className="w-16 h-0.5 bg-gradient-to-r from-accent-red via-accent-orange to-transparent mb-6" />
-                <MusicEmbed
-                  platform="spotify"
-                  id={id}
-                  label={
-                    isJA ? `${label.name} on Spotify` : `${label.name} on Spotify`
-                  }
-                  title={`Spotify player for ${label.name}`}
-                />
+                {iframeId && (
+                  <MusicEmbed
+                    platform="spotify"
+                    id={iframeId}
+                    label={`${label.name} on Spotify`}
+                    title={`Spotify player for ${label.name}`}
+                  />
+                )}
                 <div className="mt-3 flex gap-2 flex-wrap">
                   <a
                     href={links.beatport}
@@ -212,7 +220,28 @@ export default function LabelDetail({ label, related, signedArtists, posts }) {
                   >
                     🛒 {isJA ? 'Beatportで購入' : 'Buy on Beatport'}
                   </a>
+                  <a
+                    href={`https://music.apple.com/search?term=${encodeURIComponent(label.name)}`}
+                    target="_blank"
+                    rel="noopener noreferrer sponsored"
+                    className="text-xs tracking-widest font-bebas px-3 py-2 rounded border border-accent-orange/30 text-accent-orange hover:bg-accent-orange/10 transition-all"
+                  >
+                    🍎 Apple Music
+                  </a>
                 </div>
+
+                {cards.length > 0 && (
+                  <div className="mt-8">
+                    <h3 className="font-bebas text-lg tracking-widest text-accent-orange mb-3">
+                      {isJA ? 'レーベルの代表作' : 'Label Highlights'}
+                    </h3>
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                      {cards.map((e, i) => (
+                        <MusicEmbed key={i} {...e} />
+                      ))}
+                    </div>
+                  </div>
+                )}
               </section>
             );
           })()}
