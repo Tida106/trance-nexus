@@ -7,7 +7,7 @@ import Breadcrumb from './Breadcrumb';
 import { useTranslation } from '@/lib/useTranslation';
 import { findLabelByName } from '@/data/labels/index';
 import MusicEmbed from './MusicEmbed';
-import { spotifyArtistIdFromUrl } from '@/lib/embeds';
+import { spotifyArtistIdFromUrl, featuredTracksForArtist } from '@/lib/embeds';
 
 function LabelLinks({ labels }) {
   if (!labels || labels.length === 0) return null;
@@ -210,26 +210,34 @@ export default function ArtistDetail({ artist, related, mentioned }) {
             </div>
           </section>
 
-          {/* Listen — Spotify artist embed (top tracks selected by Spotify) */}
+          {/* Listen — Spotify artist embed (top tracks selected by Spotify) +
+              5 hand-curated signature tracks rendered as Spotify search cards.
+              Either an explicit `artist.embeds` or a fallback to topWorks. */}
           {(() => {
             const spArtistId = spotifyArtistIdFromUrl(artist.links?.spotify);
-            if (!spArtistId) return null;
+            const featured =
+              (Array.isArray(artist.embeds) && artist.embeds.length > 0)
+                ? artist.embeds
+                : featuredTracksForArtist(artist, 5);
+            if (!spArtistId && featured.length === 0) return null;
             return (
               <section className="mb-12">
                 <h2 className="font-bebas text-3xl tracking-widest text-white mb-4">
                   {isJA ? '聴く' : 'Listen'}
                 </h2>
                 <div className="w-16 h-0.5 bg-gradient-to-r from-accent-red via-accent-orange to-transparent mb-6" />
-                <MusicEmbed
-                  platform="spotify"
-                  id={`artist:${spArtistId}`}
-                  label={
-                    isJA
-                      ? `${artist.name} — Spotify人気曲`
-                      : `${artist.name} — top tracks on Spotify`
-                  }
-                  title={`Spotify player for ${artist.name}`}
-                />
+                {spArtistId && (
+                  <MusicEmbed
+                    platform="spotify"
+                    id={`artist:${spArtistId}`}
+                    label={
+                      isJA
+                        ? `${artist.name} — Spotify人気曲`
+                        : `${artist.name} — top tracks on Spotify`
+                    }
+                    title={`Spotify player for ${artist.name}`}
+                  />
+                )}
                 <div className="mt-3 flex gap-2 flex-wrap">
                   <a
                     href={links.beatport}
@@ -256,6 +264,19 @@ export default function ArtistDetail({ artist, related, mentioned }) {
                     ▶ YouTube
                   </a>
                 </div>
+
+                {featured.length > 0 && (
+                  <div className="mt-8">
+                    <h3 className="font-bebas text-lg tracking-widest text-accent-orange mb-3">
+                      {isJA ? 'シグネチャー楽曲' : 'Signature Tracks'}
+                    </h3>
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                      {featured.map((e, i) => (
+                        <MusicEmbed key={i} {...e} />
+                      ))}
+                    </div>
+                  </div>
+                )}
               </section>
             );
           })()}
