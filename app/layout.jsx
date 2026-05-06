@@ -2,11 +2,31 @@ import './globals.css';
 import { LanguageProvider } from '@/lib/useTranslation';
 import Script from 'next/script';
 import CookieBanner from '@/components/CookieBanner';
+import PWARegister from '@/components/PWARegister';
+
+const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH || '';
 
 export const metadata = {
   title: 'TRANCE NEXUS — Trance Music Portal',
   description: 'Comprehensive trance music portal covering artists, radio shows, setlists, and events worldwide — 日本最大のトランスミュージックポータル',
   metadataBase: new URL('https://trance-nexus.com'),
+  manifest: `${BASE_PATH}/manifest.webmanifest`,
+  applicationName: 'TRANCE NEXUS',
+  appleWebApp: {
+    capable: true,
+    title: 'TRANCE NEXUS',
+    statusBarStyle: 'black-translucent',
+  },
+  icons: {
+    icon: [
+      { url: `${BASE_PATH}/icons/favicon-32.png`, sizes: '32x32', type: 'image/png' },
+      { url: `${BASE_PATH}/icons/favicon-16.png`, sizes: '16x16', type: 'image/png' },
+      { url: `${BASE_PATH}/icons/icon-192.png`, sizes: '192x192', type: 'image/png' },
+    ],
+    apple: [
+      { url: `${BASE_PATH}/icons/apple-touch-icon.png`, sizes: '180x180', type: 'image/png' },
+    ],
+  },
   openGraph: {
     type: 'website',
     siteName: 'TRANCE NEXUS',
@@ -36,6 +56,10 @@ export const metadata = {
 export const viewport = {
   width: 'device-width',
   initialScale: 1,
+  themeColor: [
+    { media: '(prefers-color-scheme: dark)',  color: '#0d0d0d' },
+    { media: '(prefers-color-scheme: light)', color: '#f97316' },
+  ],
 };
 
 export default function RootLayout({ children }) {
@@ -74,6 +98,7 @@ export default function RootLayout({ children }) {
         <LanguageProvider>
           {children}
           <CookieBanner />
+          <PWARegister />
         </LanguageProvider>
       </body>
     </html>
