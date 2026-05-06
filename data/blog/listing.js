@@ -1,6 +1,22 @@
 // Lightweight listing data — no article body content.
 // Newest first. Keep in sync with data/blog/posts.js when adding articles.
 export const listing = [
+  // Batch 4: Decade-by-decade rankings
+  { slug: 'trance-tracks-defined-each-decade-retrospective', date: '2026-05-20', readTime: 8, tags: ['classics', 'analysis'],
+    en: { title: 'Trance Tracks That Defined Each Decade: A Retrospective', excerpt: 'If you had to play one trance record to explain each decade of the genre to someone, which would you choose? This is the disciplined version of that thought experiment.' },
+    ja: { title: '各10年を定義したトランス・トラック：レトロスペクティブ', excerpt: 'ジャンルの各10年を誰かに説明するためにトランスのレコードを1枚プレイしなければならないとしたら、何を選ぶか？これはその思考実験の規律ある版だ。' } },
+  { slug: 'modern-trance-classics-2020s-so-far', date: '2026-05-19', readTime: 7, tags: ['classics', 'analysis'],
+    en: { title: 'Modern Trance Classics: The 2020s So Far', excerpt: 'It is too early to write a definitive 2020s ranking — the decade is half over. But certain records released since 2020 have already been absorbed into the genre\'s shared memory.' },
+    ja: { title: 'モダン・トランス・クラシックス：2020年代ここまで', excerpt: '決定版の2020年代ランキングを書くにはまだ早い——10年は半分しか終わっていない。しかし2020年以降にリリースされた特定のレコードは、すでにジャンルの共有記憶に吸収されている。' } },
+  { slug: 'top-trance-tracks-2010s', date: '2026-05-18', readTime: 8, tags: ['classics', 'history'],
+    en: { title: 'The Top Trance Tracks of the 2010s', excerpt: 'The 2010s could have been the decade trance disappeared. Instead, it was the decade trance learned how to share a stage with EDM, deep house, and pop — without losing what makes it itself.' },
+    ja: { title: '2010年代トップ・トランス・トラック', excerpt: '2010年代はトランスが消える10年になり得た。代わりに、それはトランスがEDM、ディープハウス、ポップとステージを共有する方法を学んだ10年だった——自分自身を失うことなく。' } },
+  { slug: 'defining-trance-anthems-2000s', date: '2026-05-17', readTime: 8, tags: ['classics', 'history'],
+    en: { title: 'Defining Trance Anthems of the 2000s', excerpt: "If the 1990s built trance's vocabulary, the 2000s wrote the genre's most-quoted sentences. The decade gave us the anthems that still close festival sets twenty years later." },
+    ja: { title: '2000年代を定義したトランス・アンセム', excerpt: '1990年代がトランスの語彙を構築したなら、2000年代はジャンルの最も引用される文章を書いた。20年後の今もフェスティバル・セットを締めくくるアンセムを与えた10年だ。' } },
+  { slug: 'best-trance-tracks-1990s', date: '2026-05-16', readTime: 8, tags: ['classics', 'history'],
+    en: { title: 'The Best Trance Tracks of the 1990s', excerpt: 'The 1990s did not just give trance its first hits. It built the entire language the genre would speak for the next thirty years — and most of those records still sound enormous on a real club system.' },
+    ja: { title: '1990年代ベスト・トランス・トラック', excerpt: '1990年代はトランスに最初のヒットを与えただけではない。それは、その後30年間ジャンルが話す言語そのものを構築した——そして、ここに挙げる多くのレコードは今聴いてもクラブの大型システムで巨大に響く。' } },
   {
     slug: 'why-trance-music-endures',
     date: '2026-04-27', readTime: 7, tags: ['culture', 'analysis'],

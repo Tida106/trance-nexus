@@ -106,6 +106,27 @@ export const classification = {
     category: 'history',
     tags: ['90s', '2000s', '2010s', 'goa'],
   },
+  // Batch 4: decade-by-decade rankings
+  'best-trance-tracks-1990s': {
+    category: 'history',
+    tags: ['90s', 'paul-van-dyk', 'ferry-corsten', 'uplifting'],
+  },
+  'defining-trance-anthems-2000s': {
+    category: 'history',
+    tags: ['2000s', 'tiesto', 'armin-van-buuren', 'paul-van-dyk', 'above-and-beyond', 'vocal'],
+  },
+  'top-trance-tracks-2010s': {
+    category: 'history',
+    tags: ['2010s', 'above-and-beyond', 'progressive', 'vocal', 'uplifting'],
+  },
+  'modern-trance-classics-2020s-so-far': {
+    category: 'history',
+    tags: ['2020s', 'above-and-beyond', 'uplifting', 'progressive'],
+  },
+  'trance-tracks-defined-each-decade-retrospective': {
+    category: 'history',
+    tags: ['90s', '2000s', '2010s', '2020s', 'tiesto', 'above-and-beyond'],
+  },
 };
 
 export function getCategoryForPost(slug) {
