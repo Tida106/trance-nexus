@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import { useTranslation } from '@/lib/useTranslation';
+import NewsletterForm from './NewsletterForm';
 
 export default function Footer() {
   const { t, language } = useTranslation();
@@ -11,6 +12,12 @@ export default function Footer() {
     <footer className="relative z-10 bg-black/98 border-t-2 border-accent-orange py-10 px-12 flex flex-col items-center gap-3">
       <div className="font-bebas text-2xl tracking-widest text-accent-orange drop-shadow-lg">
         TRANCE NEXUS
+      </div>
+      <div className="w-full max-w-md mt-1 mb-2">
+        <p className="text-xs tracking-widest text-text-muted text-center mb-2">
+          {isJA ? '月1回の最新トランス情報をメールで' : 'MONTHLY TRANCE DIGEST IN YOUR INBOX'}
+        </p>
+        <NewsletterForm variant="compact" />
       </div>
       <p className="text-xs text-text-muted tracking-widest text-center">
         {t('footer.copyright')}<br />

@@ -93,6 +93,37 @@ function PrivacyEN() {
       </section>
 
       <section>
+        <h2 className="font-bebas text-xl tracking-widest text-accent-orange mb-3">5a. Newsletter</h2>
+        <p className="mb-2">
+          When you submit your email address through any of the newsletter signup forms on this
+          site, that address is sent to our email-delivery provider (currently{' '}
+          <strong className="text-text-light">Buttondown</strong>, with the option to migrate to
+          Mailchimp or another EU-aware provider in future). The address is stored to send you the
+          monthly TRANCE NEXUS digest only — we do not sell, rent, or share newsletter
+          subscriber addresses with any third party.
+        </p>
+        <p className="mb-2">
+          Optional fields submitted alongside the email — your preferred language and any
+          subgenre interests you check — are used solely to tag your subscription so we can send
+          you content that matches your preferences.
+        </p>
+        <p className="mb-2">
+          <strong className="text-text-light">Legal basis (GDPR / UK GDPR):</strong> consent. You
+          give consent by checking the &ldquo;I have read the Privacy Policy and consent&rdquo; box
+          before submitting the form. You can withdraw consent at any time by clicking the
+          unsubscribe link in any email we send you, which immediately removes your address from
+          the mailing list.
+        </p>
+        <p>
+          <strong className="text-text-light">Your rights:</strong> you may request access to,
+          correction of, or deletion of your subscriber data at any time by emailing us at{' '}
+          <a href={`mailto:${CONTACT_EMAIL}`} className="text-accent-orange hover:underline">
+            {CONTACT_EMAIL}
+          </a>. We will respond within 30 days.
+        </p>
+      </section>
+
+      <section>
         <h2 className="font-bebas text-xl tracking-widest text-accent-orange mb-3">6. Third-Party Disclosure</h2>
         <p>
           We do not sell, trade, or transfer your personal information to outside parties except
@@ -188,6 +219,30 @@ function PrivacyJA() {
         <p>
           当サイトは会員登録・ログイン・購入機能を提供していないため、氏名・住所・決済情報などの個人情報を直接収集することはありません。
           第三者サービス（Google・Impact・Awin）が処理する個人データは、各サービスのプライバシーポリシーに従って取り扱われます。
+        </p>
+      </section>
+
+      <section>
+        <h2 className="font-bebas text-xl tracking-widest text-accent-orange mb-3">5a. ニュースレターについて</h2>
+        <p className="mb-2">
+          当サイトの登録フォームから送信されたメールアドレスは、メール配信サービス（現在は<strong className="text-text-light">Buttondown</strong>、将来的にMailchimp等への移行も検討）に送信されます。
+          このアドレスは月1回のTRANCE NEXUSダイジェスト配信のためのみに保管され、第三者への販売・賃貸・共有は一切行いません。
+        </p>
+        <p className="mb-2">
+          メールアドレスと同時に送信される任意項目（希望言語・サブジャンルへの興味）は、登録にタグを付けて適切な内容をお届けするためにのみ使用されます。
+        </p>
+        <p className="mb-2">
+          <strong className="text-text-light">法的根拠（GDPR・UK GDPR）：</strong>
+          ご本人の同意。フォーム送信前に「プライバシーポリシーを確認し同意します」のチェックボックスをオンにすることで同意していただきます。
+          同意はいつでも、配信メール内の登録解除リンクをクリックすることで撤回できます。撤回後はメーリングリストから即時削除されます。
+        </p>
+        <p>
+          <strong className="text-text-light">権利：</strong>
+          ご自身の登録データへのアクセス、訂正、削除のリクエストは、{' '}
+          <a href={`mailto:${CONTACT_EMAIL}`} className="text-accent-orange hover:underline">
+            {CONTACT_EMAIL}
+          </a>
+          までいつでもお問い合わせください。30日以内にご対応いたします。
         </p>
       </section>
 

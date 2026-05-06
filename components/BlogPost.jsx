@@ -12,6 +12,7 @@ import {
 } from '@/data/blog/classification';
 import { getEmbedsForSlug } from '@/data/blog/embeds';
 import MusicEmbed from './MusicEmbed';
+import NewsletterForm from './NewsletterForm';
 
 // Lightweight card for related / prev-next articles
 function ArticleCard({ post, isJA }) {
@@ -152,6 +153,10 @@ export default function BlogPost({ post, prevPost, nextPost, related }) {
               ...post.ja.content.map((s) => s.heading + ' ' + s.body),
             ].join(' ')}
           />
+
+          <section className="mt-12 pt-8 border-t border-orange-900/20">
+            <NewsletterForm variant="cta" />
+          </section>
 
           {/* Prev / Next navigation */}
           <nav

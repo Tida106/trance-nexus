@@ -9,6 +9,7 @@ import { artists } from '@/data/artists/index';
 import { labels } from '@/data/labels/index';
 import ArtistCard from '@/components/ArtistCard';
 import LabelCard from '@/components/LabelCard';
+import NewsletterForm from '@/components/NewsletterForm';
 
 export default function Home() {
   const { t } = useTranslation();
@@ -262,6 +263,12 @@ export default function Home() {
           >
             ✍️ {t('blog.cta')} →
           </Link>
+        </div>
+      </section>
+
+      <section className="relative z-10 py-16 px-12 bg-gradient-to-b from-transparent via-accent-orange/5 to-transparent">
+        <div className="max-w-2xl mx-auto">
+          <NewsletterForm variant="cta" />
         </div>
       </section>
 
