@@ -135,4 +135,96 @@ Ottaviani is most distinctive for his live performance approach: rather than DJi
     },
     mentionedIn: [],
   },
+
+  {
+    slug: 'ruben-de-ronde',
+    name: 'Ruben de Ronde',
+    flag: '🇳🇱',
+    emoji: '🎙️',
+    genre: 'UPLIFTING',
+    banner: 'b-uplifting',
+    tags: ['UPLIFTING', 'PROGRESSIVE', 'DUTCH'],
+    realName: 'Ruben de Ronde',
+    origin: 'The Hague, Netherlands',
+    born: '1986',
+    activeFrom: '2007',
+    labels: ['Statement!', 'Armada Music', 'A State of Trance'],
+    topWorks: [
+      { title: 'Guitar Track', year: 2011, type: 'track' },
+      { title: 'Robot Dance (with Ben Gold)', year: 2013, type: 'track' },
+      { title: 'Story of Two Friends', year: 2016, type: 'album' },
+      { title: 'Aurora', year: 2019, type: 'track' },
+      { title: 'Tinlicker - Soon You\'ll Be Gone (Ruben de Ronde Remix)', year: 2021, type: 'remix' },
+    ],
+    related: ['armin-van-buuren', 'standerwick', 'cosmic-gate', 'andrew-rayel'],
+    links: {
+      website: 'https://www.rubenderonde.com',
+      soundcloud: 'https://soundcloud.com/rubenderonde',
+      beatport: 'https://www.beatport.com/artist/ruben-de-ronde/103889',
+    },
+    sub: { en: 'Uplifting / Progressive Trance', ja: 'アップリフティング / プログレッシブ・トランス' },
+    short: {
+      en: 'Dutch producer and host of Statement! on A State of Trance Radio — a key figure in the modern Armada uplifting roster.',
+      ja: 'A State of Trance Radioで「Statement!」をホストするオランダのプロデューサー。現代のArmadaアップリフティング陣の中心人物。',
+    },
+    style: {
+      en: 'Polished, melodic uplifting that sits comfortably between Armin van Buuren\'s classic ASOT sound and the more progressive end of the modern Armada catalogue. Equally at home with vocal-led pop crossovers and pure peak-time uplifting.',
+      ja: 'Armin van Buurenのクラシックなアップリフティングと、現代Armadaカタログのよりプログレッシブな側との中間に位置する、洗練されたメロディック・アップリフティング。ボーカル主導のポップ・クロスオーバーから純粋なピークタイム・アップリフティングまで自在にこなす。',
+    },
+    bio: {
+      en: `Ruben de Ronde, born in The Hague in 1986, is one of the most reliable producers in the modern Armada Music ecosystem. He started releasing in 2007 and quickly became a fixture at A State of Trance, hosting the Statement! weekly slot on ASOT Radio that became his namesake brand. His productions span pure uplifting, vocal-led tracks, and progressive-leaning remixes, and he is a frequent collaborator with Ben Gold, Rodg, and Standerwick.
+
+His 2016 mix album Story of Two Friends with Rodg charted in the European dance-album top tens, and he has been a permanent fixture of A State of Trance live events for over a decade. Beyond his own catalogue, de Ronde is widely respected as an A&R and curator within the Armada group.`,
+      ja: `ルーベン・デ・ロンド、1986年ハーグ生まれ。現代Armada Musicエコシステムで最も安定したプロデューサーの一人。2007年からリリースを開始し、A State of Trance Radioで自身の冠ブランドとなる「Statement!」枠をホスト。プロダクションは純粋なアップリフティング、ボーカル主導トラック、プログレッシブ寄りのリミックスまで幅広く、Ben Gold、Rodg、Standerwickらと頻繁にコラボしている。
+
+2016年のRodgとのミックスアルバム『Story of Two Friends』は欧州のダンス・アルバム・チャートのトップ10入り、A State of Trance のライブイベントには10年以上連続で出演している。自身のカタログに加え、Armadaグループ内でA&Rとキュレーターとしても高く評価されている。`,
+    },
+    mentionedIn: [],
+  },
+
+  {
+    slug: 'standerwick',
+    name: 'Standerwick',
+    flag: '🇬🇧',
+    emoji: '🌅',
+    genre: 'UPLIFTING',
+    banner: 'b-uplifting',
+    tags: ['UPLIFTING', 'PSY-TRANCE', 'EMOTIONAL'],
+    realName: 'Adam Standerwick',
+    origin: 'Birmingham, England',
+    born: '1980',
+    activeFrom: '2008',
+    labels: ['FSOE', 'Anjunabeats', 'Captured Music'],
+    topWorks: [
+      { title: 'FOMO (with Haliene)', year: 2017, type: 'track' },
+      { title: 'Shouldn\'t Have Sent That', year: 2019, type: 'track' },
+      { title: 'Maybe (with Haliene)', year: 2018, type: 'track' },
+      { title: 'Trinity (with Gareth Emery, Haliene)', year: 2018, type: 'track' },
+      { title: 'Insomnia (Standerwick Remix)', year: 2018, type: 'remix' },
+    ],
+    related: ['gareth-emery', 'aly-and-fila', 'ruben-de-ronde', 'ilan-bluestone'],
+    links: {
+      website: 'https://www.standerwick.com',
+      soundcloud: 'https://soundcloud.com/standerwick',
+      beatport: 'https://www.beatport.com/artist/standerwick/162720',
+    },
+    sub: { en: 'Vocal Uplifting / Psy-Trance Crossover', ja: 'ボーカル・アップリフティング / サイ・トランス・クロスオーバー' },
+    short: {
+      en: 'British producer who emerged via FSOE and broke through with the Haliene-led hit "FOMO" — a hallmark of modern emotional uplifting.',
+      ja: 'FSOE経由で登場し、Haliene参加の大ヒット「FOMO」でブレイク。現代の情緒的アップリフティングを象徴する英国のプロデューサー。',
+    },
+    style: {
+      en: 'Melodic, vocal-driven uplifting trance with crossover-pop song structure and a clear psy-trance influence in the rhythm programming. "FOMO" became a template that countless producers chased through the late 2010s.',
+      ja: 'メロディックでボーカル主導のアップリフティング・トランスに、クロスオーバー・ポップの楽曲構成、リズム・プログラミングへの明確なサイ・トランスの影響。「FOMO」は2010年代後半、無数のプロデューサーが追い求めるテンプレートとなった。',
+    },
+    bio: {
+      en: `Adam Standerwick spent the first decade of his production career building a steady catalogue on Aly & Fila's Future Sound of Egypt before crossing over to Anjunabeats in the mid-2010s. His 2017 collaboration with vocalist Haliene, "FOMO," became one of the most-played trance tracks of the year and a defining moment in the modern vocal-uplifting subgenre — a sound that combined pop song structure, soaring chorus melody, and psy-influenced rhythm programming.
+
+He has continued to collaborate frequently with Haliene and Gareth Emery, and has remixed major tracks across both the FSOE and Anjuna catalogues. Standerwick is closely associated with the emergence of "emotional uplifting" as a distinct contemporary subgenre.`,
+      ja: `アダム・スタンダーウィックはキャリア最初の10年をAly & FilaのFuture Sound of Egyptで安定したカタログ構築に費やし、2010年代半ばにAnjunabeatsへ移籍。2017年のボーカリストHalieneとの共作「FOMO」はその年のトランス最大のヒットとなり、現代のボーカル・アップリフティング・サブジャンルを定義する瞬間となった——ポップ・ソング構成、舞い上がるサビ・メロディ、サイ・トランス由来のリズム・プログラミングを組み合わせたサウンド。
+
+その後もHaliene、Gareth Emeryとのコラボを継続し、FSOEとAnjuna両カタログの主要トラックのリミックスを手がけている。「エモーショナル・アップリフティング」が現代の独自サブジャンルとして確立する流れと深く結びついた存在。`,
+    },
+    mentionedIn: [],
+  },
 ];
