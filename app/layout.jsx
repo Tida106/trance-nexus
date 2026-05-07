@@ -137,7 +137,7 @@ export default function RootLayout({ children }) {
         {/* Google Search Console — replace content value after verifying ownership */}
         {/* <meta name="google-site-verification" content="YOUR_VERIFICATION_CODE_HERE" /> */}
 
-        <meta name="impact-site-verification" value="93a31d8c-4695-4c90-a524-505fd48b6968" />
+        <meta name="impact-site-verification" value="81c79ac4-9a92-4da2-bebe-deaaf84fac7a" />
 
         <script
           type="application/ld+json"
