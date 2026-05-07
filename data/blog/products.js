@@ -62,6 +62,34 @@ export const productsBySlug = {
     },
   ],
 
+  // Beginner DJ guide — entry-level controller plus the two headphones
+  // most commonly recommended to first-time DJs. Keeps the affiliate
+  // surface tight (3 cards) so the article still reads as a guide, not
+  // an ad.
+  'how-to-dj-trance-beginners-guide': [
+    {
+      asin: 'B0BPDLHKRY',
+      title: 'Pioneer DJ DDJ-FLX4',
+      caption:
+        '初めてのDJコントローラーに最適な2chモデル。rekordboxとSerato DJ Liteの両方に対応し、本格的な機材感を保ちながら入門者向けの価格に抑えてある。',
+      category: 'Controller',
+    },
+    {
+      asin: 'B005GTO2M2',
+      title: 'Sennheiser HD 25',
+      caption:
+        'プロDJの定番として何十年も使われ続けているクラシック。軽量で長時間でも疲れにくく、片耳モニタリングがしやすいスイベル機構。',
+      category: 'Headphones',
+    },
+    {
+      asin: 'B000AJIF4E',
+      title: 'Sony MDR-7506',
+      caption:
+        '分析的なサウンドで価格対性能比に優れる定番。スタジオでも使われ続けており、最初の1台に長く付き合える堅実な選択。',
+      category: 'Headphones',
+    },
+  ],
+
   // DJ headphones article — three of the headline picks at three price
   // points, matching the article's budget tiers.
   'best-headphones-for-trance-djing-2026': [

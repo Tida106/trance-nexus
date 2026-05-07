@@ -54,17 +54,17 @@ export default function Home() {
         <div className="absolute inset-0 bg-gradient-radial from-red-900/20 via-transparent to-transparent opacity-70 pointer-events-none" />
         
         <div className="relative z-10 px-10">
-          <div className="font-bebas text-sm tracking-widest text-accent-orange mb-4 animate-in fade-in duration-700">
+          {/* The TRANCE NEXUS wordmark moved into the fixed-header logo,
+              so the hero no longer repeats it. The tagline now leads,
+              followed by the bilingual subtitle as the page's h1. */}
+          <div className="font-bebas text-sm tracking-widest text-accent-orange mb-6 animate-in fade-in duration-700">
             {t('home.tagline')}
           </div>
-          
-          <h1 className="font-bebas text-8xl tracking-wider mb-2 animate-in fade-in slide-in-from-bottom-10 duration-700 delay-100">
+
+          <h1 className="font-bebas text-5xl md:text-6xl lg:text-7xl tracking-wider mb-2 animate-in fade-in slide-in-from-bottom-10 duration-700 delay-100">
             <span className="bg-gradient-to-b from-white via-accent-amber to-accent-orange bg-clip-text text-transparent drop-shadow-xl">
-              TRANCE NEXUS
-            </span>
-            <div className="text-4xl tracking-widest text-accent-red drop-shadow-lg mt-2">
               {t('home.subtitle')}
-            </div>
+            </span>
           </h1>
           
           <div className="w-20 h-1 bg-gradient-to-r from-transparent via-accent-orange to-transparent mx-auto my-6" />
