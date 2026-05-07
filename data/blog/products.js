@@ -68,14 +68,14 @@ export const productsBySlug = {
   // an ad.
   'how-to-dj-trance-beginners-guide': [
     {
-      asin: 'B0BPDLHKRY',
+      asin: 'B0BLSJZC94',
       title: 'Pioneer DJ DDJ-FLX4',
       caption:
         '初めてのDJコントローラーに最適な2chモデル。rekordboxとSerato DJ Liteの両方に対応し、本格的な機材感を保ちながら入門者向けの価格に抑えてある。',
       category: 'Controller',
     },
     {
-      asin: 'B005GTO2M2',
+      asin: 'B01AXUCA8G',
       title: 'Sennheiser HD 25',
       caption:
         'プロDJの定番として何十年も使われ続けているクラシック。軽量で長時間でも疲れにくく、片耳モニタリングがしやすいスイベル機構。',
@@ -94,7 +94,7 @@ export const productsBySlug = {
   // points, matching the article's budget tiers.
   'best-headphones-for-trance-djing-2026': [
     {
-      asin: 'B005GTO2M2',
+      asin: 'B01AXUCA8G',
       title: 'Sennheiser HD 25',
       caption:
         '何十年もDJ定番として愛され続けるクラシック。軽量で長時間装着でも疲れにくく、片耳モニタリングに最適なスイベル機構を搭載。',
