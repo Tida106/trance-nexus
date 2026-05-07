@@ -11,8 +11,10 @@ import {
   getTagsForPost,
 } from '@/data/blog/classification';
 import { getEmbedsForSlug } from '@/data/blog/embeds';
+import { getProductsForSlug } from '@/data/blog/products';
 import MusicEmbed from './MusicEmbed';
 import NewsletterForm from './NewsletterForm';
+import AmazonLink from './AmazonLink';
 
 // Lightweight card for related / prev-next articles
 function ArticleCard({ post, isJA }) {
@@ -137,6 +139,32 @@ export default function BlogPost({ post, prevPost, nextPost, related }) {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   {embeds.map((e, i) => (
                     <MusicEmbed key={i} {...e} />
+                  ))}
+                </div>
+              </section>
+            );
+          })()}
+
+          {/* Amazon affiliate gear cards — Japanese-only for now (the
+              English version will move to amazon.com once that program
+              is set up). The whole section is gated on language so we
+              don't render an empty header on English pages. */}
+          {(() => {
+            if (!isJA) return null;
+            const products = getProductsForSlug(post.slug);
+            if (products.length === 0) return null;
+            return (
+              <section className="mt-12 pt-8 border-t border-orange-900/20">
+                <h2 className="font-bebas text-2xl tracking-widest text-accent-orange mb-2">
+                  関連商品
+                </h2>
+                <div className="w-12 h-0.5 bg-gradient-to-r from-accent-red to-accent-orange mb-3" />
+                <p className="text-xs text-text-muted leading-relaxed mb-5">
+                  ※ 当サイトはAmazon.co.jpアソシエイト・プログラムに参加しています。リンク経由でご購入いただくと、サイト運営費の一部となる紹介料を受け取ることがあります。
+                </p>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  {products.map((p, i) => (
+                    <AmazonLink key={p.asin || i} {...p} />
                   ))}
                 </div>
               </section>

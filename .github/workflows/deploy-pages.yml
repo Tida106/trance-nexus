@@ -42,7 +42,11 @@ jobs:
         env:
           BASE_PATH: ${{ steps.pages.outputs.base_path }}
           INDEXNOW_KEY: ${{ secrets.INDEXNOW_KEY }}
-          NODE_OPTIONS: --max-old-space-size=4096
+          # 6 GB heap — the static export prerenders 168+ pages and the
+          # blog post tree imports several large data modules; 4 GB
+          # OOMed on a local repro. GitHub-hosted ubuntu runners have
+          # ~7 GB total RAM available, so 6 GB still leaves headroom.
+          NODE_OPTIONS: --max-old-space-size=6144
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
