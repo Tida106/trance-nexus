@@ -31,8 +31,8 @@ export const legends2 = [
     ],
     related: ['sasha', 'paul-van-dyk', 'andrew-bayer', 'tiesto'],
     links: {
-      website: 'https://www.btmusic.com',
-      soundcloud: 'https://soundcloud.com/bt',
+      soundcloud: 'https://soundcloud.com/BT',
+      spotify: 'https://open.spotify.com/artist/64MoFdq8ORI3V98AR5SPWL',
       beatport: 'https://www.beatport.com/search?q=BT',
     },
     sub: { en: 'Progressive Trance / IDM', ja: 'プログレッシブ・トランス / IDM' },
@@ -77,8 +77,8 @@ He invented and named the "stutter edit," a granular vocal-chop technique now st
     ],
     related: ['atb', 'paul-van-dyk', 'tiesto', 'ferry-corsten'],
     links: {
-      soundcloud: 'https://soundcloud.com/search?q=Robert%20Miles',
-      beatport: 'https://www.beatport.com/search?q=Robert%20Miles',
+      spotify: 'https://open.spotify.com/artist/2YVF0Ou5zIc4mpgtLIlGN0',
+      beatport: 'https://www.beatport.com/search?q=Robert+Miles',
     },
     sub: { en: 'Dream Trance / Ambient Progressive', ja: 'ドリーム・トランス / アンビエント・プログレッシブ' },
     short: {
@@ -123,9 +123,10 @@ His debut album Dreamland (1996) sold over twelve million copies; the follow-up 
     ],
     related: ['paul-van-dyk', 'robert-miles', 'tiesto', 'ferry-corsten'],
     links: {
-      website: 'https://www.atb-music.com',
-      soundcloud: 'https://soundcloud.com/atb',
-      beatport: 'https://www.beatport.com/artist/atb/3499',
+      website: 'https://atb-music.com/',
+      soundcloud: 'https://soundcloud.com/atb-music',
+      spotify: 'https://open.spotify.com/artist/7jZM5w05mGhw6wTB1okhD9',
+      beatport: 'https://www.beatport.com/search?q=ATB',
     },
     sub: { en: 'Melodic / Guitar Trance', ja: 'メロディック / ギター・トランス' },
     short: {
@@ -169,9 +170,9 @@ His albums Movin' Melodies (1999), Dedicated (2002), and No Silence (2004) made 
     ],
     related: ['armin-van-buuren', 'tiesto', 'ferry-corsten', 'atb'],
     links: {
-      website: 'https://www.rank1.nl',
-      soundcloud: 'https://soundcloud.com/rank1',
-      beatport: 'https://www.beatport.com/artist/rank-1/2731',
+      soundcloud: 'https://soundcloud.com/rank1official',
+      spotify: 'https://open.spotify.com/artist/1eQe86RbDKRIiGZk08r9YJ',
+      beatport: 'https://www.beatport.com/search?q=Rank+1',
     },
     sub: { en: 'Dutch Uplifting / Big-room Trance', ja: 'ダッチ・アップリフティング / ビッグルーム・トランス' },
     short: {
@@ -215,8 +216,8 @@ TiëstoのBlack Hole Recordings、初期のMagik Muzikカタログと深く結�
     ],
     related: ['rank-1', 'paul-van-dyk', 'ferry-corsten', 'armin-van-buuren'],
     links: {
-      soundcloud: 'https://soundcloud.com/m-i-k-e-push',
-      beatport: 'https://www.beatport.com/search?q=M.I.K.E.%20Push',
+      spotify: 'https://open.spotify.com/artist/2Xy6YLSsHR6TdBUFm5bnLR',
+      beatport: 'https://www.beatport.com/search?q=Push',
     },
     sub: { en: 'Hard / Energy Trance', ja: 'ハード / エナジー・トランス' },
     short: {
@@ -260,9 +261,9 @@ Pushに加え、M.I.K.E.、Plastic Boy、DJ Solar Stone（Solarstoneとは別人
     ],
     related: ['gigi-dagostino', 'push', 'paul-van-dyk', 'tiesto'],
     links: {
-      website: 'https://www.mauropicotto.com',
-      soundcloud: 'https://soundcloud.com/search?q=Mauro%20Picotto',
-      beatport: 'https://www.beatport.com/search?q=Mauro%20Picotto',
+      soundcloud: 'https://soundcloud.com/mauro_picotto',
+      spotify: 'https://open.spotify.com/artist/0MNSDAOCHF7f2ZfAYxZ9bp',
+      beatport: 'https://www.beatport.com/search?q=Mauro+Picotto',
     },
     sub: { en: 'Italian Hard Trance', ja: 'イタリアン・ハード・トランス' },
     short: {
@@ -306,9 +307,8 @@ Beyond his own productions Picotto was a sought-after remixer and a fixture at I
     ],
     related: ['mauro-picotto', 'robert-miles', 'atb', 'paul-van-dyk'],
     links: {
-      website: 'https://www.gigidagostino.com',
-      soundcloud: 'https://soundcloud.com/gigi-d-agostino-official',
-      beatport: 'https://www.beatport.com/search?q=Gigi%20D%27Agostino',
+      spotify: 'https://open.spotify.com/artist/1OAjDaKgg00KCUYqDe68un',
+      beatport: 'https://www.beatport.com/search?q=Gigi+D%27Agostino',
     },
     sub: { en: 'Italodance / Mediterranean Progressive', ja: 'イタロダンス / メディタレニアン・プログレッシブ' },
     short: {

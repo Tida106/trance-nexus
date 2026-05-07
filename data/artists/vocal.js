@@ -28,9 +28,8 @@ export const vocal = [
     ],
     related: ['roger-shah', 'bobina', 'cosmic-gate', 'above-and-beyond'],
     links: {
-      website: 'https://www.ronskispeed.com',
       soundcloud: 'https://soundcloud.com/ronskispeed',
-      beatport: 'https://www.beatport.com/artist/ronski-speed/4540',
+      beatport: 'https://www.beatport.com/search?q=Ronski+Speed',
     },
     sub: { en: 'Vocal / Melodic Trance', ja: 'ボーカル / メロディック・トランス' },
     short: {
@@ -74,9 +73,10 @@ Ronski Speedのプロダクションはピークタイムの強度よりも、�
     ],
     related: ['armin-van-buuren', 'roger-shah', 'ronski-speed', 'andrew-rayel'],
     links: {
-      website: 'https://www.bobina.com',
+      website: 'https://bobina.pro/',
       soundcloud: 'https://soundcloud.com/bobina',
-      beatport: 'https://www.beatport.com/artist/bobina/4974',
+      spotify: 'https://open.spotify.com/artist/7H63wD8xWXAKdYVjZmE90B',
+      beatport: 'https://www.beatport.com/search?q=Bobina',
     },
     sub: { en: 'Vocal Uplifting Trance', ja: 'ボーカル・アップリフティング・トランス' },
     short: {
@@ -120,9 +120,9 @@ Bobina has charted across Europe, performed at major festivals worldwide, and re
     ],
     related: ['ronski-speed', 'bobina', 'tiesto', 'above-and-beyond'],
     links: {
-      website: 'https://www.rogershah.com',
       soundcloud: 'https://soundcloud.com/rogershah',
-      beatport: 'https://www.beatport.com/artist/roger-shah/3489',
+      spotify: 'https://open.spotify.com/artist/3dAnWbqTzCOK1jdiK2v3gI',
+      beatport: 'https://www.beatport.com/search?q=Roger+Shah',
     },
     sub: { en: 'Balearic Trance / Vocal Progressive', ja: 'バレアリック・トランス / ボーカル・プログレッシブ' },
     short: {

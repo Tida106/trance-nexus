@@ -25,9 +25,9 @@ export const uplifting2 = [
     ],
     related: ['john-ocallaghan', 'sean-tyas', 'bryan-kearney', 'simon-patterson'],
     links: {
-      website: 'https://www.willatkinson.com',
       soundcloud: 'https://soundcloud.com/willatkinson',
-      beatport: 'https://www.beatport.com/artist/will-atkinson/52049',
+      spotify: 'https://open.spotify.com/artist/5FXLHhKgStv36wfwXMhTWt',
+      beatport: 'https://www.beatport.com/search?q=Will+Atkinson',
     },
     sub: { en: 'Tech / Uplifting Trance', ja: 'テック / アップリフティング・トランス' },
     short: {
@@ -71,8 +71,9 @@ His debut album Watch the World (2019) showcased a more song-led side of his wri
     ],
     related: ['will-atkinson', 'simon-patterson', 'sean-tyas', 'john-ocallaghan'],
     links: {
-      soundcloud: 'https://soundcloud.com/activa-music',
-      beatport: 'https://www.beatport.com/artist/activa/8693',
+      soundcloud: 'https://soundcloud.com/activaofficial',
+      spotify: 'https://open.spotify.com/artist/2B18AH9f6R9LcJWM03Szob',
+      beatport: 'https://www.beatport.com/search?q=Activa',
     },
     sub: { en: 'Tech / Energy Trance', ja: 'テック / エナジー・トランス' },
     short: {
@@ -112,9 +113,8 @@ His debut album Watch the World (2019) showcased a more song-led side of his wri
     ],
     related: ['paul-van-dyk', 'aly-and-fila', 'andrew-rayel', 'mauro-picotto'],
     links: {
-      website: 'https://www.giuseppeottaviani.com',
-      soundcloud: 'https://soundcloud.com/giuseppe-ottaviani',
-      beatport: 'https://www.beatport.com/artist/giuseppe-ottaviani/9472',
+      soundcloud: 'https://soundcloud.com/giuseppeottaviani',
+      beatport: 'https://www.beatport.com/search?q=Giuseppe+Ottaviani',
     },
     sub: { en: 'Uplifting Trance / Live Performance', ja: 'アップリフティング・トランス / ライブ・パフォーマンス' },
     short: {
@@ -158,9 +158,9 @@ Ottaviani is most distinctive for his live performance approach: rather than DJi
     ],
     related: ['armin-van-buuren', 'standerwick', 'cosmic-gate', 'andrew-rayel'],
     links: {
-      website: 'https://www.rubenderonde.com',
+      website: 'https://rubenderonde.nl/',
       soundcloud: 'https://soundcloud.com/rubenderonde',
-      beatport: 'https://www.beatport.com/artist/ruben-de-ronde/103889',
+      beatport: 'https://www.beatport.com/search?q=Ruben+de+Ronde',
     },
     sub: { en: 'Uplifting / Progressive Trance', ja: 'アップリフティング / プログレッシブ・トランス' },
     short: {
@@ -204,9 +204,9 @@ His 2016 mix album Story of Two Friends with Rodg charted in the European dance-
     ],
     related: ['gareth-emery', 'aly-and-fila', 'ruben-de-ronde', 'ilan-bluestone'],
     links: {
-      website: 'https://www.standerwick.com',
       soundcloud: 'https://soundcloud.com/standerwick',
-      beatport: 'https://www.beatport.com/artist/standerwick/162720',
+      spotify: 'https://open.spotify.com/artist/6mLXfZ1OfXde8Iy9BfKoHE',
+      beatport: 'https://www.beatport.com/search?q=Standerwick',
     },
     sub: { en: 'Vocal Uplifting / Psy-Trance Crossover', ja: 'ボーカル・アップリフティング / サイ・トランス・クロスオーバー' },
     short: {

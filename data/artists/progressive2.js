@@ -26,9 +26,9 @@ export const progressive2 = [
     ],
     related: ['john-digweed', 'bt', 'hernan-cattaneo', 'nick-warren'],
     links: {
-      website: 'https://www.djsasha.com',
-      soundcloud: 'https://soundcloud.com/sasha',
-      beatport: 'https://www.beatport.com/artist/sasha/3460',
+      soundcloud: 'https://soundcloud.com/sashaofficial',
+      spotify: 'https://open.spotify.com/artist/6u4jLGLPuarS3i2XWHVxoS',
+      beatport: 'https://www.beatport.com/search?q=Sasha',
     },
     sub: { en: 'Progressive House', ja: 'プログレッシブ・ハウス' },
     short: {
@@ -72,9 +72,9 @@ Sashaはグラミー賞にノミネートされた史上初のDJで、Twilo、Av
     ],
     related: ['sasha', 'nick-warren', 'hernan-cattaneo', 'bt'],
     links: {
-      website: 'https://www.djdigweed.com',
       soundcloud: 'https://soundcloud.com/john-digweed',
-      beatport: 'https://www.beatport.com/artist/john-digweed/2780',
+      spotify: 'https://open.spotify.com/artist/3xnDktxhudJR2Wv3HZDQ9W',
+      beatport: 'https://www.beatport.com/search?q=John+Digweed',
     },
     sub: { en: 'Progressive House / Tech-Progressive', ja: 'プログレッシブ・ハウス / テック・プログレッシブ' },
     short: {
@@ -118,9 +118,9 @@ Bedrock Records, founded in 1999, has released hundreds of titles spanning Digwe
     ],
     related: ['john-digweed', 'sasha', 'nick-warren', 'andrew-bayer'],
     links: {
-      website: 'https://www.hernancattaneo.com',
       soundcloud: 'https://soundcloud.com/hernancattaneo',
-      beatport: 'https://www.beatport.com/artist/hernan-cattaneo/2773',
+      spotify: 'https://open.spotify.com/artist/4mpJaw5y17CIN08qqe8EfB',
+      beatport: 'https://www.beatport.com/search?q=Hernan+Cattaneo',
     },
     sub: { en: 'Progressive House / Sundown Sets', ja: 'プログレッシブ・ハウス / サンダウン・セット' },
     short: {
@@ -164,9 +164,8 @@ Cattáneo's open-air Mandarine Park parties in Buenos Aires regularly run from s
     ],
     related: ['above-and-beyond', 'ilan-bluestone', 'genix', 'bt'],
     links: {
-      website: 'https://www.andrewbayer.com',
-      soundcloud: 'https://soundcloud.com/andrew-bayer',
-      beatport: 'https://www.beatport.com/artist/andrew-bayer/161213',
+      soundcloud: 'https://soundcloud.com/andrewbayer',
+      beatport: 'https://www.beatport.com/search?q=Andrew+Bayer',
     },
     sub: { en: 'Melodic Progressive', ja: 'メロディック・プログレッシブ' },
     short: {
@@ -210,8 +209,10 @@ His albums If It Were You, We'd Never Leave (2011), In My Last Life (2018), and 
     ],
     related: ['ilan-bluestone', 'andrew-bayer', 'above-and-beyond', 'yotto'],
     links: {
-      soundcloud: 'https://soundcloud.com/genixuk',
-      beatport: 'https://www.beatport.com/artist/genix/161210',
+      website: 'https://genixmusic.com/',
+      soundcloud: 'https://soundcloud.com/genix-1',
+      spotify: 'https://open.spotify.com/artist/5WWUkLXiAbmGwtELcfvB2w',
+      beatport: 'https://www.beatport.com/search?q=Genix',
     },
     sub: { en: 'Melodic Progressive Trance', ja: 'メロディック・プログレッシブ・トランス' },
     short: {
@@ -251,9 +252,9 @@ His albums If It Were You, We'd Never Leave (2011), In My Last Life (2018), and 
     ],
     related: ['above-and-beyond', 'andrew-bayer', 'genix', 'standerwick'],
     links: {
-      website: 'https://www.ilanbluestone.com',
-      soundcloud: 'https://soundcloud.com/ilanbluestone',
-      beatport: 'https://www.beatport.com/artist/ilan-bluestone/229252',
+      soundcloud: 'https://soundcloud.com/ibluestone',
+      spotify: 'https://open.spotify.com/artist/1yoZuH2j43vVSWsOwYuQyn',
+      beatport: 'https://www.beatport.com/search?q=ilan+Bluestone',
     },
     sub: { en: 'Big-room Melodic Progressive', ja: 'ビッグルーム・メロディック・プログレッシブ' },
     short: {
@@ -293,9 +294,8 @@ His albums If It Were You, We'd Never Leave (2011), In My Last Life (2018), and 
     ],
     related: ['andrew-bayer', 'ilan-bluestone', 'hernan-cattaneo', 'genix'],
     links: {
-      website: 'https://www.yotto.com',
-      soundcloud: 'https://soundcloud.com/yottomusic',
-      beatport: 'https://www.beatport.com/artist/yotto/485519',
+      soundcloud: 'https://soundcloud.com/yotto',
+      beatport: 'https://www.beatport.com/search?q=Yotto',
     },
     sub: { en: 'Melodic House / Deep Progressive', ja: 'メロディック・ハウス / ディープ・プログレッシブ' },
     short: {
@@ -335,9 +335,8 @@ His albums If It Were You, We'd Never Leave (2011), In My Last Life (2018), and 
     ],
     related: ['john-digweed', 'sasha', 'hernan-cattaneo', 'yotto'],
     links: {
-      website: 'https://www.nick-warren.com',
-      soundcloud: 'https://soundcloud.com/nick-warren-1',
-      beatport: 'https://www.beatport.com/artist/nick-warren/2802',
+      soundcloud: 'https://soundcloud.com/djnickwarren',
+      beatport: 'https://www.beatport.com/search?q=Nick+Warren',
     },
     sub: { en: 'Progressive House / Way Out West', ja: 'プログレッシブ・ハウス / Way Out West' },
     short: {

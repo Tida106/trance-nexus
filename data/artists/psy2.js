@@ -27,9 +27,9 @@ export const psy2 = [
     ],
     related: ['liquid-soul', 'captain-hook', 'astrix', 'astral-projection'],
     links: {
-      website: 'https://www.aceventuramusic.com',
-      soundcloud: 'https://soundcloud.com/aceventura-music',
-      beatport: 'https://www.beatport.com/artist/ace-ventura/108183',
+      website: 'https://www.aceventuramusic.com/',
+      soundcloud: 'https://soundcloud.com/schatsi',
+      beatport: 'https://www.beatport.com/search?q=Ace+Ventura',
     },
     sub: { en: 'Progressive Psytrance', ja: 'プログレッシブ・サイトランス' },
     short: {
@@ -69,9 +69,8 @@ export const psy2 = [
     ],
     related: ['ace-ventura', 'liquid-soul', 'astrix', 'astral-projection'],
     links: {
-      website: 'https://www.captain-hook.com',
-      soundcloud: 'https://soundcloud.com/captain-hook-music',
-      beatport: 'https://www.beatport.com/artist/captain-hook/180762',
+      soundcloud: 'https://soundcloud.com/captain-hook',
+      beatport: 'https://www.beatport.com/search?q=Captain+Hook',
     },
     sub: { en: 'Progressive Psytrance', ja: 'プログレッシブ・サイトランス' },
     short: {
@@ -111,9 +110,9 @@ export const psy2 = [
     ],
     related: ['ace-ventura', 'captain-hook', 'astrix', 'atmos'],
     links: {
-      website: 'https://www.liquidsoulmusic.com',
-      soundcloud: 'https://soundcloud.com/liquidsoul',
-      beatport: 'https://www.beatport.com/artist/liquid-soul/40068',
+      soundcloud: 'https://soundcloud.com/liquid-soul',
+      spotify: 'https://open.spotify.com/artist/64nL3MP8zmuLqUq8DDaIKS',
+      beatport: 'https://www.beatport.com/search?q=Liquid+Soul',
     },
     sub: { en: 'Progressive Psytrance', ja: 'プログレッシブ・サイトランス' },
     short: {
@@ -153,8 +152,9 @@ export const psy2 = [
     ],
     related: ['astrix', 'vini-vici', 'captain-hook', 'symbolic'],
     links: {
-      soundcloud: 'https://soundcloud.com/ranji-music',
-      beatport: 'https://www.beatport.com/artist/ranji/411115',
+      soundcloud: 'https://soundcloud.com/ranji',
+      spotify: 'https://open.spotify.com/artist/6Tu0luJL7EoFv1RsHZP30p',
+      beatport: 'https://www.beatport.com/search?q=Ranji',
     },
     sub: { en: 'Full-on Psytrance', ja: 'フルオン・サイトランス' },
     short: {
@@ -194,9 +194,9 @@ export const psy2 = [
     ],
     related: ['astrix', 'atmos', 'symbolic', 'infected-mushroom'],
     links: {
-      website: 'https://www.astral-projection.com',
-      soundcloud: 'https://soundcloud.com/astral-projection-official',
-      beatport: 'https://www.beatport.com/artist/astral-projection/3537',
+      website: 'https://www.astral-projection.com/',
+      soundcloud: 'https://soundcloud.com/astral-projection',
+      beatport: 'https://www.beatport.com/search?q=Astral+Projection',
     },
     sub: { en: 'Goa Trance / Psytrance Pioneer', ja: 'ゴア・トランス / サイトランス・パイオニア' },
     short: {
@@ -236,8 +236,9 @@ export const psy2 = [
     ],
     related: ['astral-projection', 'symbolic', 'liquid-soul', 'astrix'],
     links: {
-      soundcloud: 'https://soundcloud.com/atmos-trance',
-      beatport: 'https://www.beatport.com/artist/atmos/3564',
+      soundcloud: 'https://soundcloud.com/atmotech',
+      spotify: 'https://open.spotify.com/artist/6pqvOCqzJlsUWlVjeHBw0v',
+      beatport: 'https://www.beatport.com/search?q=Atmos',
     },
     sub: { en: 'Scandinavian Psytrance', ja: 'スカンディナヴィアン・サイトランス' },
     short: {
@@ -277,8 +278,9 @@ export const psy2 = [
     ],
     related: ['ranji', 'astral-projection', 'astrix', 'liquid-soul'],
     links: {
-      soundcloud: 'https://soundcloud.com/search?q=Symbolic%20psytrance',
-      beatport: 'https://www.beatport.com/search?q=Symbolic%20psytrance',
+      soundcloud: 'https://soundcloud.com/symbolicmusic',
+      spotify: 'https://open.spotify.com/artist/0oUwhzCzcC6VAaKSFG55U3',
+      beatport: 'https://www.beatport.com/search?q=Symbolic',
     },
     sub: { en: 'Full-on / Peak-time Psytrance', ja: 'フルオン / ピークタイム・サイトランス' },
     short: {
