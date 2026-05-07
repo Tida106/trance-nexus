@@ -1,10 +1,12 @@
 import { legends } from './legends';
+import { legends2 } from './legends2';
 import { progressive } from './progressive';
 import { uplifting } from './uplifting';
 import { psy } from './psy';
 
 export const artists = [
   ...legends,
+  ...legends2,
   ...progressive,
   ...uplifting,
   ...psy,
