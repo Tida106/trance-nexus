@@ -1,6 +1,22 @@
 // Lightweight listing data — no article body content.
 // Newest first. Keep in sync with data/blog/posts.js when adding articles.
 export const listing = [
+  // Batch 7: Women producers, listening guide, ASOT 25, fashion, renaissance
+  { slug: 'trance-renaissance-2026', date: '2026-06-04', readTime: 7, tags: ['analysis', 'culture'],
+    en: { title: 'Why Trance is Having a Renaissance in 2026', excerpt: 'Trance is more visible in 2026 than it has been since 2010. The question is whether the resurgence is structural — driven by something genuinely new — or a nostalgia cycle that will fade.' },
+    ja: { title: '2026年にトランスがルネサンスを迎えている理由', excerpt: 'トランスは2010年以来最も2026年に可視だ。問いは、復活が構造的か——本当に新しい何かによって駆動されているか——あるいは消え去るノスタルジア・サイクルか、だ。' } },
+  { slug: 'trance-fashion-rave-wear-festival-couture', date: '2026-06-03', readTime: 6, tags: ['culture', 'history'],
+    en: { title: 'Trance Fashion: From Rave Wear to Festival Couture', excerpt: 'Every era of trance has had a recognisable visual signature. The neon-and-UV rave wear of the late 90s, the all-black mainstage uniform of the mid-2000s, and the high-production festival couture of the 2020s tell their own version of the genre\'s history.' },
+    ja: { title: 'トランス・ファッション：レイブウェアからフェスティバル・クチュールまで', excerpt: 'トランスのあらゆる時代には認識可能なビジュアル・シグネチャがあった。90年代後半のネオンとUVレイブウェア、2000年代半ばのオールブラックのメインステージ・ユニフォーム、2020年代の高プロダクション・フェスティバル・クチュール——それぞれがジャンルの歴史の独自バージョンを語る。' } },
+  { slug: 'armin-asot-25-years-of-influence', date: '2026-06-02', readTime: 9, tags: ['artists', 'history', 'analysis'],
+    en: { title: 'Armin van Buuren\'s A State of Trance: 25 Years of Influence', excerpt: 'A State of Trance is no longer just a radio show. Twenty-five years in, it functions as the genre\'s tastemaking institution — a weekly broadcast that has done more to shape what counts as trance than any single record or producer.' },
+    ja: { title: 'Armin van BuurenのA State of Trance：25年の影響', excerpt: 'A State of Tranceはもはやラジオ番組ではない。25年経って、ジャンルの趣味判定機関として機能している——単一のレコードやプロデューサーよりもトランスとして認められるものを形作るために多くを行った週次放送。' } },
+  { slug: 'how-to-listen-to-trance-beginners-guide', date: '2026-06-01', readTime: 7, tags: ['analysis', 'culture'],
+    en: { title: 'How to Listen to Trance: A Beginner\'s Listening Guide', excerpt: 'Trance is not a genre you grasp from a thirty-second clip. The format rewards listeners who give it the time and attention it asks for, and the gap between casual and committed listening is unusually wide.' },
+    ja: { title: 'トランスの聴き方：初心者のためのリスニング・ガイド', excerpt: 'トランスは30秒のクリップで把握するジャンルではない。フォーマットはそれが求める時間と注意を与えるリスナーに報い、カジュアルなリスニングとコミットしたリスニングの間のギャップは異常に広い。' } },
+  { slug: 'women-in-trance-producers-shaped-genre', date: '2026-05-31', readTime: 8, tags: ['artists', 'culture', 'history'],
+    en: { title: 'The Rise of Women in Trance: Producers Who Shaped the Genre', excerpt: 'Trance\'s mainstream story has historically been told through male DJ names. The producer history is different — women have been writing and producing the records all along, and the genre has been quietly shaped by their work for thirty years.' },
+    ja: { title: 'トランスにおける女性たちの台頭：ジャンルを形作ったプロデューサーたち', excerpt: 'トランスのメインストリームの物語は歴史的に男性DJの名前を通して語られてきた。プロデューサー史は異なる——女性たちはずっとレコードを書き、プロデュースしており、ジャンルは30年間彼女たちの仕事によって静かに形作られてきた。' } },
   // Batch 6: Cinema, spirituality, meditation, documentaries, influence
   { slug: 'trance-influence-other-genres', date: '2026-05-30', readTime: 8, tags: ['culture', 'analysis'],
     en: { title: "Trance Music's Influence on Other Genres", excerpt: "Trance has had a much wider musical influence than the genre's mainstream profile would suggest. Many of the techniques pop producers now reach for — supersaw leads, breakdown-and-drop dynamics, atmospheric pads — are trance imports." },

@@ -148,6 +148,27 @@ export const classification = {
     category: 'artists',
     tags: ['progressive', 'vocal', '2020s'],
   },
+  // Batch 7: women producers, listening guide, ASOT 25, fashion, renaissance
+  'women-in-trance-producers-shaped-genre': {
+    category: 'artists',
+    tags: ['vocal', 'above-and-beyond', '90s', '2000s', '2010s', '2020s'],
+  },
+  'how-to-listen-to-trance-beginners-guide': {
+    category: 'subgenres',
+    tags: ['armin-van-buuren', 'above-and-beyond', 'uplifting', 'progressive'],
+  },
+  'armin-asot-25-years-of-influence': {
+    category: 'history',
+    tags: ['armin-van-buuren', 'asot', 'uplifting', '2000s', '2010s', '2020s'],
+  },
+  'trance-fashion-rave-wear-festival-couture': {
+    category: 'history',
+    tags: ['90s', '2000s', '2010s', '2020s', 'tomorrowland'],
+  },
+  'trance-renaissance-2026': {
+    category: 'history',
+    tags: ['2020s', 'progressive', 'uplifting'],
+  },
   // Batch 6: cinema, spirituality, meditation, documentaries, influence
   'trance-music-films-tv-memorable-moments': {
     category: 'history',

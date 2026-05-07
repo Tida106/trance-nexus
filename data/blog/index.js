@@ -5,6 +5,7 @@ import { posts4 } from './posts4';
 import { posts5 } from './posts5';
 import { posts6 } from './posts6';
 import { posts7 } from './posts7';
+import { posts8 } from './posts8';
 
-export const posts = [...posts1, ...posts2, ...posts3, ...posts4, ...posts5, ...posts6, ...posts7];
+export const posts = [...posts1, ...posts2, ...posts3, ...posts4, ...posts5, ...posts6, ...posts7, ...posts8];
 export const slugs = posts.map(p => p.slug);
