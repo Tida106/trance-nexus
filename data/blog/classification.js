@@ -148,6 +148,27 @@ export const classification = {
     category: 'artists',
     tags: ['progressive', 'vocal', '2020s'],
   },
+  // Batch 8: female DJs, anthem anatomy, Group Therapy, Asia festivals, mental health
+  'top-10-female-trance-djs-2026': {
+    category: 'artists',
+    tags: ['progressive', 'uplifting', 'vocal', '2020s'],
+  },
+  'anatomy-of-uplifting-trance-anthem': {
+    category: 'production',
+    tags: ['uplifting', 'production-tips'],
+  },
+  'above-beyond-group-therapy-phenomenon': {
+    category: 'artists',
+    tags: ['above-and-beyond', 'progressive', 'vocal', '2010s', '2020s'],
+  },
+  'best-trance-festivals-asia-complete-guide': {
+    category: 'events',
+    tags: ['2010s', '2020s', 'goa'],
+  },
+  'trance-mental-health-healing-138-bpm': {
+    category: 'subgenres',
+    tags: ['uplifting', '2020s'],
+  },
   // Batch 7: women producers, listening guide, ASOT 25, fashion, renaissance
   'women-in-trance-producers-shaped-genre': {
     category: 'artists',

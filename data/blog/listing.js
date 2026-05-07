@@ -1,6 +1,22 @@
 // Lightweight listing data — no article body content.
 // Newest first. Keep in sync with data/blog/posts.js when adding articles.
 export const listing = [
+  // Batch 8: Female DJs, anthem anatomy, Group Therapy, Asia festivals, mental health
+  { slug: 'trance-mental-health-healing-138-bpm', date: '2026-06-09', readTime: 7, tags: ['culture', 'analysis'],
+    en: { title: 'Trance and Mental Health: The Healing Power of 138 BPM', excerpt: 'Many trance fans report that the music has helped them through difficult periods. The reports are consistent enough to take seriously. But the honest framing requires distinguishing what the music can do from what it cannot.' },
+    ja: { title: 'トランスとメンタルヘルス：138 BPMのヒーリング・パワー', excerpt: '多くのトランス・ファンが音楽が困難な時期を乗り越えるのを助けたと報告する。報告は真剣に受け止めるのに十分一貫している。しかし誠実な枠組みは音楽ができることをできないことから区別することを必要とする。' } },
+  { slug: 'best-trance-festivals-asia-complete-guide', date: '2026-06-08', readTime: 9, tags: ['events', 'culture'],
+    en: { title: 'The Best Trance Festivals in Asia: A Complete Guide', excerpt: 'Asian trance festivals are not minor events. The Japanese, Indian, and Southeast Asian scenes have produced some of the largest and most musically serious trance gatherings outside Europe over the past decade.' },
+    ja: { title: 'アジアの最高のトランス・フェスティバル：完全ガイド', excerpt: 'アジアのトランス・フェスティバルは小さなイベントではない。日本、インド、東南アジアのシーンは過去10年でヨーロッパ外で最大かつ最も音楽的に真剣なトランスの集まりのいくつかを生み出した。' } },
+  { slug: 'above-beyond-group-therapy-phenomenon', date: '2026-06-07', readTime: 8, tags: ['artists', 'culture', 'analysis'],
+    en: { title: 'Above & Beyond\'s Group Therapy Phenomenon Explained', excerpt: 'Group Therapy is the most musically literate of the major trance institutions. The show, the podcast, and the live ABGT events together do something specific: they treat the trance audience as adults whose attention is worth earning.' },
+    ja: { title: 'Above & BeyondのGroup Therapy現象を解説', excerpt: 'Group Therapyは主要なトランス機関の中で最も音楽的に教養がある。番組、ポッドキャスト、ライブABGTイベントが一緒に特定のことをする：彼らはトランス・オーディエンスを注意を稼ぐ価値のある大人として扱う。' } },
+  { slug: 'anatomy-of-uplifting-trance-anthem', date: '2026-06-06', readTime: 8, tags: ['production', 'analysis'],
+    en: { title: 'The Anatomy of an Uplifting Trance Anthem: Breakdown by Section', excerpt: 'The uplifting trance anthem is a template — a recognisable structure repeated across thousands of records. Knowing the template makes the genre much more rewarding to listen to, because you can hear what each section is asking of you.' },
+    ja: { title: 'アップリフティング・トランス・アンセムの解剖：セクション別分析', excerpt: 'アップリフティング・トランス・アンセムはテンプレート——数千のレコードを横断して繰り返される認識可能な構造——だ。テンプレートを知ることでジャンルは聴くのにはるかに報いる、各セクションがあなたに何を求めているか聴けるから。' } },
+  { slug: 'top-10-female-trance-djs-2026', date: '2026-06-05', readTime: 8, tags: ['artists', 'analysis'],
+    en: { title: 'Top 10 Female Trance DJs You Should Know in 2026', excerpt: 'Lists are reductive but useful as starting points. These ten women are doing the most interesting work in trance DJing right now, and any one of their 2026 sets is a faster education than reading another think piece.' },
+    ja: { title: '2026年に知っておくべきトップ10女性トランスDJ', excerpt: 'リストは還元主義的だが出発点として有用だ。この10人の女性たちは今最も興味深い仕事をトランスDJingで行っており、彼女たちの2026年セットの1つはもうひとつの考察記事を読むよりも速い教育だ。' } },
   // Batch 7: Women producers, listening guide, ASOT 25, fashion, renaissance
   { slug: 'trance-renaissance-2026', date: '2026-06-04', readTime: 7, tags: ['analysis', 'culture'],
     en: { title: 'Why Trance is Having a Renaissance in 2026', excerpt: 'Trance is more visible in 2026 than it has been since 2010. The question is whether the resurgence is structural — driven by something genuinely new — or a nostalgia cycle that will fade.' },
