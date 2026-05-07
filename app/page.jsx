@@ -8,19 +8,37 @@ import { useTranslation } from '@/lib/useTranslation';
 import { listing } from '@/data/blog/listing';
 import { artists } from '@/data/artists/index';
 import { labels } from '@/data/labels/index';
+import { glossary } from '@/data/glossary/index';
 import ArtistCard from '@/components/ArtistCard';
 import LabelCard from '@/components/LabelCard';
 
 const NewsletterForm = dynamic(() => import('@/components/NewsletterForm'), { ssr: false });
 
+// Hero stats are derived from the data layer at build time, not
+// hardcoded. The previous hardcoded values had drifted by up to 200×
+// (claimed 800+ setlists vs 4 actual). Computing from imports means
+// the numbers can never go stale: as the DB grows the hero updates on
+// the next build. We surface the four content surfaces the site has
+// genuinely built (artists / labels / articles / glossary) rather
+// than the data feeds (radio / setlists / events) that haven't been
+// populated past single digits yet — those can be re-added here when
+// they cross a threshold worth bragging about.
+function formatCount(n) {
+  // Round-down to a "+" tier so the number reads as a milestone, not
+  // a daily-shifting figure. e.g. 50 → "50+", 47 → "40+", 132 → "130+".
+  if (n < 10) return String(n);
+  const tier = Math.floor(n / 10) * 10;
+  return `${tier}+`;
+}
+
 export default function Home() {
   const { t } = useTranslation();
 
   const stats = [
-    { value: '140+', label: t('home.stats.artists') },
-    { value: '52', label: t('home.stats.radio') },
-    { value: '800+', label: t('home.stats.setlists') },
-    { value: '30', label: t('home.stats.events') },
+    { value: formatCount(artists.length),  label: t('home.stats.artists') },
+    { value: formatCount(labels.length),   label: t('home.stats.labels') },
+    { value: formatCount(listing.length),  label: t('home.stats.articles') },
+    { value: formatCount(glossary.length), label: t('home.stats.glossary') },
   ];
 
   const websiteSchema = {
