@@ -148,7 +148,9 @@ export default function BlogPost({ post, prevPost, nextPost, related }) {
           {/* Amazon affiliate gear cards — Japanese-only for now (the
               English version will move to amazon.com once that program
               is set up). The whole section is gated on language so we
-              don't render an empty header on English pages. */}
+              don't render an empty header on English pages. The detailed
+              disclosure lives at the article end below; here we just
+              caption the section. */}
           {(() => {
             if (!isJA) return null;
             const products = getProductsForSlug(post.slug);
@@ -158,16 +160,31 @@ export default function BlogPost({ post, prevPost, nextPost, related }) {
                 <h2 className="font-bebas text-2xl tracking-widest text-accent-orange mb-2">
                   関連商品
                 </h2>
-                <div className="w-12 h-0.5 bg-gradient-to-r from-accent-red to-accent-orange mb-3" />
-                <p className="text-xs text-text-muted leading-relaxed mb-5">
-                  ※ 当サイトはAmazon.co.jpアソシエイト・プログラムに参加しています。リンク経由でご購入いただくと、サイト運営費の一部となる紹介料を受け取ることがあります。
-                </p>
+                <div className="w-12 h-0.5 bg-gradient-to-r from-accent-red to-accent-orange mb-5" />
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   {products.map((p, i) => (
                     <AmazonLink key={p.asin || i} {...p} />
                   ))}
                 </div>
               </section>
+            );
+          })()}
+
+          {/* Article-end affiliate disclosure — JA + only when this post
+              actually carried Amazon products. Required by both the
+              Amazon Associates program ToS and Japanese display-rules
+              guidance (景品表示法 / ステマ規制). */}
+          {(() => {
+            if (!isJA) return null;
+            if (getProductsForSlug(post.slug).length === 0) return null;
+            return (
+              <aside
+                role="note"
+                aria-label="アフィリエイトに関する注記"
+                className="mt-10 px-4 py-3 rounded border border-orange-900/30 bg-dark-bg2/60 text-xs text-text-muted leading-relaxed"
+              >
+                ※ 本記事にはアフィリエイトリンクが含まれています。リンク経由でご購入いただくと、当サイトの運営費の一部となる紹介料を受け取ることがあります。商品の選定は編集判断によるもので、紹介料の有無で内容を変えることはありません。
+              </aside>
             );
           })()}
 

@@ -1,14 +1,27 @@
-// Generates PWA assets at build time:
-//   public/icons/icon-{192,512,512-maskable}.png
-//   public/icons/apple-touch-icon.png  (180×180)
-//   public/icons/favicon-{16,32}.png
+// Generates PWA + favicon + OG assets at build time from public/logo.png:
+//
+//   public/favicon.ico                 (multi-size: 16, 32, 48)
+//   public/favicon-16x16.png
+//   public/favicon-32x32.png
+//   public/apple-touch-icon.png        (180×180)
+//   public/icon-192.png                (192×192)
+//   public/icon-512.png                (512×512)
+//   public/icon-512-maskable.png       (512×512 with safe-zone padding)
+//   public/og-image.png                (1200×630, logo centred on black bg)
 //   public/manifest.webmanifest        (paths prefixed with BASE_PATH)
 //   public/sw.js                       (service worker, scope-aware)
 //
-// BASE_PATH handling: GitHub Pages serves project sites under /trance-nexus
-// (configure-pages exports BASE_PATH at workflow time). Local dev runs at /.
-// Both manifest paths and the SW's pre-cache list have to match wherever the
-// site is actually served from, so this script reads BASE_PATH the same way
+// Source of truth is public/logo.png (a square logo, currently 1024×1024).
+// All raster icons are produced by sharp from this single source so the
+// brand stays in sync — change logo.png and rebuild and every surface
+// updates.
+//
+// BASE_PATH handling: GitHub Pages serves project sites under
+// /trance-nexus when there is no custom domain (configure-pages exports
+// BASE_PATH at workflow time). With the CNAME file in place BASE_PATH
+// is the empty string. Local dev runs at /. Both manifest paths and
+// the SW pre-cache list have to match wherever the site is actually
+// served from, so this script reads BASE_PATH the same way
 // next.config.js does and bakes it in.
 
 'use strict';
@@ -19,7 +32,7 @@ const sharp = require('sharp');
 
 const BASE_PATH = process.env.BASE_PATH || '';
 const PUBLIC = path.join(__dirname, '..', 'public');
-const ICONS_DIR = path.join(PUBLIC, 'icons');
+const LOGO_SRC = path.join(PUBLIC, 'logo.png');
 
 const COLORS = {
   bg:     '#0d0d0d',
@@ -27,70 +40,155 @@ const COLORS = {
   orange: '#f97316',
   red:    '#dc2626',
   amber:  '#f59e0b',
-  white:  '#ffffff',
 };
 
-// Square logo SVG (used as the source for every raster icon).
-// Maskable variant gets extra safe-zone padding (Android masks ~10–20% from edges).
-function logoSvg({ size, maskable = false }) {
-  const padPct = maskable ? 0.18 : 0.08;
-  const pad = Math.round(size * padPct);
-  const inner = size - pad * 2;
-  const cx = size / 2;
-  const cy = size / 2;
-  const r = inner / 2;
-  const fs = Math.round(inner * 0.32);
-
-  return `<?xml version="1.0" encoding="UTF-8"?>
-<svg width="${size}" height="${size}" viewBox="0 0 ${size} ${size}" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <radialGradient id="bg" cx="50%" cy="40%" r="60%">
-      <stop offset="0%" stop-color="${COLORS.bg2}"/>
-      <stop offset="100%" stop-color="${COLORS.bg}"/>
-    </radialGradient>
-    <linearGradient id="ring" x1="0" x2="1" y1="0" y2="1">
-      <stop offset="0%" stop-color="${COLORS.red}"/>
-      <stop offset="50%" stop-color="${COLORS.orange}"/>
-      <stop offset="100%" stop-color="${COLORS.amber}"/>
-    </linearGradient>
-    <linearGradient id="text" x1="0" x2="0" y1="0" y2="1">
-      <stop offset="0%" stop-color="${COLORS.white}"/>
-      <stop offset="100%" stop-color="${COLORS.amber}"/>
-    </linearGradient>
-  </defs>
-
-  <rect width="${size}" height="${size}" fill="url(#bg)"/>
-  <circle cx="${cx}" cy="${cy}" r="${r}" fill="none" stroke="url(#ring)" stroke-width="${Math.max(2, Math.round(inner * 0.04))}"/>
-  <circle cx="${cx}" cy="${cy}" r="${Math.round(r * 0.78)}" fill="none" stroke="${COLORS.orange}" stroke-opacity="0.35" stroke-width="${Math.max(1, Math.round(inner * 0.012))}"/>
-  <text x="${cx}" y="${cy + fs * 0.36}"
-    font-family="Arial, Helvetica, sans-serif"
-    font-size="${fs}" font-weight="900" letter-spacing="${Math.round(fs * 0.02)}"
-    text-anchor="middle" fill="url(#text)">TN</text>
-</svg>`;
+function kb(file) {
+  return (fs.statSync(file).size / 1024).toFixed(1);
 }
 
-async function writePng(outFile, { size, maskable = false }) {
-  const svg = logoSvg({ size, maskable });
-  await sharp(Buffer.from(svg)).png({ compressionLevel: 9 }).toFile(outFile);
-  const kb = (fs.statSync(outFile).size / 1024).toFixed(1);
-  return kb;
+// Produce a square PNG buffer scaled from the logo. `size` is the final
+// edge length. `safeZonePct` reserves transparent padding around the logo
+// for maskable icons (Android masks ~10–20% from the edges).
+async function logoPng(size, { safeZonePct = 0, background = null } = {}) {
+  const inset = Math.round(size * safeZonePct);
+  const inner = size - inset * 2;
+
+  let pipeline = sharp(LOGO_SRC).resize(inner, inner, {
+    fit: 'contain',
+    background: { r: 0, g: 0, b: 0, alpha: 0 },
+  });
+
+  // For maskable icons we need real padding inside the canvas — extend()
+  // wraps the resized logo with a transparent border of the right width.
+  if (inset > 0) {
+    pipeline = pipeline.extend({
+      top: inset,
+      bottom: inset,
+      left: inset,
+      right: inset,
+      background: background || { r: 0, g: 0, b: 0, alpha: 0 },
+    });
+  }
+
+  // For solid-background icons (favicon.ico contents need no transparency
+  // to render well on light browser chrome) we flatten on the requested
+  // colour after resizing.
+  if (background) {
+    pipeline = pipeline.flatten({ background });
+  }
+
+  return pipeline.png({ compressionLevel: 9 }).toBuffer();
 }
 
-async function generateIcons() {
-  if (!fs.existsSync(ICONS_DIR)) fs.mkdirSync(ICONS_DIR, { recursive: true });
+// Hand-rolled multi-size .ico writer. The ICO format is a 6-byte header
+// followed by N×16-byte directory entries followed by N image payloads.
+// Each entry stores the size, where in the file the image data lives,
+// and how big it is. Modern browsers accept PNG-encoded payloads inside
+// .ico, which keeps this short and avoids pulling in a BMP encoder.
+//
+// Directory entry layout (all little-endian):
+//   0  bWidth        u8     0 means 256
+//   1  bHeight       u8     0 means 256
+//   2  bColorCount   u8     0 (no palette)
+//   3  bReserved     u8     0
+//   4  wPlanes       u16    1 for PNG payloads
+//   6  wBitCount     u16    32
+//   8  dwBytesInRes  u32    image byte length
+//  12  dwImageOffset u32    file offset of image
+function buildIco(images) {
+  const HEADER_SIZE = 6;
+  const ENTRY_SIZE = 16;
+  const dirSize = HEADER_SIZE + ENTRY_SIZE * images.length;
+
+  const header = Buffer.alloc(HEADER_SIZE);
+  header.writeUInt16LE(0, 0); // reserved
+  header.writeUInt16LE(1, 2); // type 1 = .ICO
+  header.writeUInt16LE(images.length, 4);
+
+  const entries = [];
+  let offset = dirSize;
+  for (const { size, data } of images) {
+    const e = Buffer.alloc(ENTRY_SIZE);
+    e.writeUInt8(size === 256 ? 0 : size, 0);
+    e.writeUInt8(size === 256 ? 0 : size, 1);
+    e.writeUInt8(0, 2);
+    e.writeUInt8(0, 3);
+    e.writeUInt16LE(1, 4);
+    e.writeUInt16LE(32, 6);
+    e.writeUInt32LE(data.length, 8);
+    e.writeUInt32LE(offset, 12);
+    entries.push(e);
+    offset += data.length;
+  }
+
+  return Buffer.concat([
+    header,
+    ...entries,
+    ...images.map((i) => i.data),
+  ]);
+}
+
+async function generateFavicons() {
+  // Per the user spec: multi-size ICO with 16/32/48. We generate the PNG
+  // payloads from the logo, then bundle them into a single .ico file.
+  const ICO_SIZES = [16, 32, 48];
+  const icoImages = [];
+  for (const size of ICO_SIZES) {
+    icoImages.push({ size, data: await logoPng(size) });
+  }
+  const icoBuf = buildIco(icoImages);
+  const icoPath = path.join(PUBLIC, 'favicon.ico');
+  fs.writeFileSync(icoPath, icoBuf);
+  console.log(`✅ favicon.ico  (${kb(icoPath)} KB, sizes ${ICO_SIZES.join('/')})`);
+
+  for (const size of [16, 32]) {
+    const out = path.join(PUBLIC, `favicon-${size}x${size}.png`);
+    fs.writeFileSync(out, await logoPng(size));
+    console.log(`✅ favicon-${size}x${size}.png  (${kb(out)} KB)`);
+  }
+}
+
+async function generateAppIcons() {
   const targets = [
-    { name: 'icon-192.png',           size: 192, maskable: false },
-    { name: 'icon-512.png',           size: 512, maskable: false },
-    { name: 'icon-512-maskable.png',  size: 512, maskable: true  },
-    { name: 'apple-touch-icon.png',   size: 180, maskable: false },
-    { name: 'favicon-32.png',          size:  32, maskable: false },
-    { name: 'favicon-16.png',          size:  16, maskable: false },
+    { name: 'apple-touch-icon.png', size: 180, opts: {} },
+    { name: 'icon-192.png',         size: 192, opts: {} },
+    { name: 'icon-512.png',         size: 512, opts: {} },
+    { name: 'icon-512-maskable.png', size: 512, opts: { safeZonePct: 0.18, background: COLORS.bg } },
   ];
   for (const t of targets) {
-    const out = path.join(ICONS_DIR, t.name);
-    const kb = await writePng(out, { size: t.size, maskable: t.maskable });
-    console.log(`✅ icons/${t.name}  (${kb} KB)`);
+    const out = path.join(PUBLIC, t.name);
+    fs.writeFileSync(out, await logoPng(t.size, t.opts));
+    console.log(`✅ ${t.name}  (${kb(out)} KB)`);
   }
+}
+
+// Centred-logo OG card on a 1200×630 black canvas. Logo target is 480×480
+// — comfortable margin on all sides while still being big enough to read
+// in social-feed thumbnails.
+async function generateOgImage() {
+  const W = 1200;
+  const H = 630;
+  const LOGO = 480;
+
+  const logoBuf = await sharp(LOGO_SRC)
+    .resize(LOGO, LOGO, { fit: 'contain', background: { r: 0, g: 0, b: 0, alpha: 0 } })
+    .png()
+    .toBuffer();
+
+  const out = path.join(PUBLIC, 'og-image.png');
+  await sharp({
+    create: {
+      width: W,
+      height: H,
+      channels: 3,
+      background: { r: 13, g: 13, b: 13 }, // matches COLORS.bg (#0d0d0d)
+    },
+  })
+    .composite([{ input: logoBuf, gravity: 'center' }])
+    .png({ compressionLevel: 9 })
+    .toFile(out);
+
+  console.log(`✅ og-image.png  (${kb(out)} KB, ${W}×${H})`);
 }
 
 function generateManifest() {
@@ -114,19 +212,19 @@ function generateManifest() {
     dir: 'ltr',
     categories: ['music', 'entertainment', 'news'],
     icons: [
-      { src: p('/icons/icon-192.png'),          sizes: '192x192', type: 'image/png', purpose: 'any' },
-      { src: p('/icons/icon-512.png'),          sizes: '512x512', type: 'image/png', purpose: 'any' },
-      { src: p('/icons/icon-512-maskable.png'), sizes: '512x512', type: 'image/png', purpose: 'maskable' },
+      { src: p('/icon-192.png'),          sizes: '192x192', type: 'image/png', purpose: 'any' },
+      { src: p('/icon-512.png'),          sizes: '512x512', type: 'image/png', purpose: 'any' },
+      { src: p('/icon-512-maskable.png'), sizes: '512x512', type: 'image/png', purpose: 'maskable' },
     ],
     shortcuts: [
-      { name: 'Blog',     short_name: 'Blog',     url: p('/blog'),    icons: [{ src: p('/icons/icon-192.png'), sizes: '192x192' }] },
-      { name: 'Artists',  short_name: 'Artists',  url: p('/artists'), icons: [{ src: p('/icons/icon-192.png'), sizes: '192x192' }] },
-      { name: 'Radio',    short_name: 'Radio',    url: p('/radio'),   icons: [{ src: p('/icons/icon-192.png'), sizes: '192x192' }] },
+      { name: 'Blog',    short_name: 'Blog',    url: p('/blog'),    icons: [{ src: p('/icon-192.png'), sizes: '192x192' }] },
+      { name: 'Artists', short_name: 'Artists', url: p('/artists'), icons: [{ src: p('/icon-192.png'), sizes: '192x192' }] },
+      { name: 'Radio',   short_name: 'Radio',   url: p('/radio'),   icons: [{ src: p('/icon-192.png'), sizes: '192x192' }] },
     ],
   };
   const out = path.join(PUBLIC, 'manifest.webmanifest');
   fs.writeFileSync(out, JSON.stringify(manifest, null, 2), 'utf8');
-  console.log(`✅ manifest.webmanifest  (${(fs.statSync(out).size / 1024).toFixed(1)} KB)`);
+  console.log(`✅ manifest.webmanifest  (${kb(out)} KB)`);
 }
 
 function generateServiceWorker() {
@@ -142,9 +240,10 @@ function generateServiceWorker() {
     p('/labels'),
     p('/radio'),
     p('/manifest.webmanifest'),
-    p('/icons/icon-192.png'),
-    p('/icons/icon-512.png'),
-    p('/icons/apple-touch-icon.png'),
+    p('/icon-192.png'),
+    p('/icon-512.png'),
+    p('/apple-touch-icon.png'),
+    p('/logo.png'),
   ];
 
   const sw = `// trance-nexus service worker — cache version: ${VERSION}
@@ -270,18 +369,27 @@ self.addEventListener('message', (event) => {
 `;
   const out = path.join(PUBLIC, 'sw.js');
   fs.writeFileSync(out, sw, 'utf8');
-  console.log(`✅ sw.js  (${(fs.statSync(out).size / 1024).toFixed(1)} KB)  version=${VERSION}`);
+  console.log(`✅ sw.js  (${kb(out)} KB)  version=${VERSION}`);
 }
 
 async function main() {
   console.log('═══════════════════════════════════════');
-  console.log('📱  PWA asset generator');
+  console.log('📱  PWA + favicon + OG asset generator');
   console.log('═══════════════════════════════════════');
   console.log(`   BASE_PATH = "${BASE_PATH}"`);
-  await generateIcons();
+
+  if (!fs.existsSync(LOGO_SRC)) {
+    console.error(`❌ Source logo missing at ${LOGO_SRC}. Place a square PNG/JPEG there and rerun.`);
+    process.exit(1);
+  }
+
+  await generateFavicons();
+  await generateAppIcons();
+  await generateOgImage();
   generateManifest();
   generateServiceWorker();
-  console.log('\n✅ PWA assets ready');
+
+  console.log('\n✅ All brand assets ready');
 }
 
 main().catch((err) => {

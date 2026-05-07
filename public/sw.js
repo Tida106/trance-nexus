@@ -1,4 +1,4 @@
-// trance-nexus service worker — cache version: tn-2026-05-07-mov63p0s
+// trance-nexus service worker — cache version: tn-2026-05-07-mov7885g
 //
 // Strategy:
 //   1. Pre-cache app-shell on install (best-effort; one 404 won't abort).
@@ -11,7 +11,7 @@
 // that does not match this name is deleted, so old assets cannot stick around
 // across deploys.
 
-const CACHE_NAME = 'tn-2026-05-07-mov63p0s';
+const CACHE_NAME = 'tn-2026-05-07-mov7885g';
 const PRECACHE_URLS = [
   "/",
   "/blog",
@@ -19,9 +19,10 @@ const PRECACHE_URLS = [
   "/labels",
   "/radio",
   "/manifest.webmanifest",
-  "/icons/icon-192.png",
-  "/icons/icon-512.png",
-  "/icons/apple-touch-icon.png"
+  "/icon-192.png",
+  "/icon-512.png",
+  "/apple-touch-icon.png",
+  "/logo.png"
 ];
 const BASE_PATH = "";
 

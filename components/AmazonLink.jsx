@@ -24,7 +24,12 @@ const REL = 'sponsored nofollow noopener noreferrer';
 
 // Props:
 //   asin     — 10-char Amazon ASIN (required)
-//   title    — visible product title (required)
+//   title    — visible product title (optional; falls back to a generic
+//              "Amazon.co.jpで見る" label if omitted)
+//   image    — product thumbnail URL (optional). Rendered above the
+//              title, contained at 4:3 with a black backdrop. Pass an
+//              Amazon-served image URL or a self-hosted file under
+//              public/products/.
 //   caption  — short editorial line below the title (optional)
 //   category — one-word tag rendered as a pill: e.g. 'CDJ', 'Headphones'
 //   price    — pre-formatted price string ("¥24,800〜"); shown only as
@@ -38,9 +43,12 @@ const REL = 'sponsored nofollow noopener noreferrer';
 //     will be added later).
 //   - Returns null if asin is missing — protects against half-filled
 //     products.js entries during development.
+//   - target=_blank with rel="sponsored noopener" per the user spec
+//     (`nofollow` is also added — Google's documented best practice).
 export default function AmazonLink({
   asin,
   title,
+  image,
   caption,
   category,
   price,
@@ -49,8 +57,9 @@ export default function AmazonLink({
   const { language } = useTranslation();
 
   if (language !== 'ja') return null;
-  if (!asin || !title) return null;
+  if (!asin) return null;
 
+  const displayTitle = title || 'Amazon.co.jpで見る';
   const href = buildHref(asin);
 
   if (compact) {
@@ -59,11 +68,11 @@ export default function AmazonLink({
         href={href}
         target="_blank"
         rel={REL}
-        aria-label={`Amazon.co.jpで「${title}」を見る`}
+        aria-label={`Amazon.co.jpで「${displayTitle}」を見る`}
         className="inline-flex items-center gap-2 px-3 py-1.5 rounded border border-accent-orange/40 bg-accent-orange/5 text-xs tracking-widest text-accent-orange hover:bg-accent-orange/15 hover:shadow-md transition-all"
       >
         <span aria-hidden="true">🛒</span>
-        <span className="font-bebas">{title}</span>
+        <span className="font-bebas">{displayTitle}</span>
         <span className="text-text-muted">→ Amazon</span>
       </a>
     );
@@ -74,11 +83,26 @@ export default function AmazonLink({
       href={href}
       target="_blank"
       rel={REL}
-      aria-label={`Amazon.co.jpで「${title}」を見る（アフィリエイトリンク）`}
-      className="group block bg-dark-bg2/80 border border-orange-900/20 rounded-sm overflow-hidden hover:border-accent-orange/50 hover:translate-y-[-3px] hover:shadow-xl transition-all"
+      aria-label={`Amazon.co.jpで「${displayTitle}」を見る（アフィリエイトリンク）`}
+      className="group block bg-dark-bg2/80 border border-orange-900/20 rounded-sm overflow-hidden hover:border-accent-orange/50 hover:-translate-y-1 hover:shadow-2xl hover:shadow-accent-orange/10 transition-all duration-200"
     >
       {/* Top accent bar — matches the existing card aesthetic across the site. */}
       <div className="h-1.5 bg-gradient-to-r from-accent-red via-accent-orange to-accent-amber" />
+
+      {image && (
+        <div className="aspect-[4/3] bg-black flex items-center justify-center overflow-hidden border-b border-orange-900/15">
+          {/* Native <img> here, not next/image: this is a static export with
+              images.unoptimized=true, so next/image would buy us nothing.
+              loading=lazy because product cards usually sit below the fold. */}
+          <img
+            src={image}
+            alt={displayTitle}
+            loading="lazy"
+            decoding="async"
+            className="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform duration-300"
+          />
+        </div>
+      )}
 
       <div className="p-5 flex flex-col gap-3">
         <div className="flex items-center justify-between gap-3">
@@ -93,7 +117,7 @@ export default function AmazonLink({
         </div>
 
         <h3 className="font-bebas text-lg tracking-widest text-white leading-tight group-hover:text-accent-orange transition-colors">
-          {title}
+          {displayTitle}
         </h3>
 
         {caption && (

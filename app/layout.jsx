@@ -46,12 +46,14 @@ export const metadata = {
   },
   icons: {
     icon: [
-      { url: `${BASE_PATH}/icons/favicon-32.png`, sizes: '32x32', type: 'image/png' },
-      { url: `${BASE_PATH}/icons/favicon-16.png`, sizes: '16x16', type: 'image/png' },
-      { url: `${BASE_PATH}/icons/icon-192.png`, sizes: '192x192', type: 'image/png' },
+      { url: `${BASE_PATH}/favicon.ico`, sizes: 'any' },
+      { url: `${BASE_PATH}/favicon-32x32.png`, sizes: '32x32', type: 'image/png' },
+      { url: `${BASE_PATH}/favicon-16x16.png`, sizes: '16x16', type: 'image/png' },
+      { url: `${BASE_PATH}/icon-192.png`, sizes: '192x192', type: 'image/png' },
+      { url: `${BASE_PATH}/icon-512.png`, sizes: '512x512', type: 'image/png' },
     ],
     apple: [
-      { url: `${BASE_PATH}/icons/apple-touch-icon.png`, sizes: '180x180', type: 'image/png' },
+      { url: `${BASE_PATH}/apple-touch-icon.png`, sizes: '180x180', type: 'image/png' },
     ],
   },
   openGraph: {
@@ -59,12 +61,12 @@ export const metadata = {
     siteName: 'TRANCE NEXUS',
     locale: 'en_US',
     alternateLocale: ['ja_JP'],
-    images: [{ url: '/og-default.png', width: 1200, height: 630, alt: 'TRANCE NEXUS — Trance Music Portal' }],
+    images: [{ url: '/og-image.png', width: 1200, height: 630, alt: 'TRANCE NEXUS — Trance Music Portal' }],
   },
   twitter: {
     card: 'summary_large_image',
     site: '@trancenexus',
-    images: ['/og-default.png'],
+    images: ['/og-image.png'],
   },
   alternates: {
     canonical: '/',
@@ -122,6 +124,17 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className={fontVars} suppressHydrationWarning>
       <head>
+        {/* Logo is the brand mark in the fixed header on every page — it
+            is part of the LCP candidate set on most routes, so we preload
+            it from the document head. fetchpriority=high beats the default
+            "low" assigned to lazy-painted images. */}
+        <link
+          rel="preload"
+          as="image"
+          href={`${BASE_PATH}/logo.png`}
+          fetchPriority="high"
+        />
+
         {/* Open early TCP/TLS to embed origins so the first iframe paint is
             not gated on a fresh handshake. dns-prefetch is the cheap fallback
             for browsers that ignore preconnect. */}

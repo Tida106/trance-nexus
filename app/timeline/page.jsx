@@ -15,14 +15,14 @@ export const metadata = {
     type: 'website',
     locale: 'en_US',
     alternateLocale: ['ja_JP'],
-    images: [{ url: '/og-default.png', width: 1200, height: 630, alt: 'TRANCE NEXUS Timeline' }],
+    images: [{ url: '/og-image.png', width: 1200, height: 630, alt: 'TRANCE NEXUS Timeline' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Trance Timeline (1988–2026)',
     description:
       'An interactive bilingual timeline of trance music history — five eras, thirty defining moments.',
-    images: ['/og-default.png'],
+    images: ['/og-image.png'],
   },
 };
 

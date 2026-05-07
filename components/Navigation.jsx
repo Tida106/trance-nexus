@@ -1,7 +1,10 @@
 'use client';
 
+import Link from 'next/link';
 import { useTranslation } from '@/lib/useTranslation';
 import SearchTrigger from './SearchTrigger';
+
+const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH || '';
 
 export default function Navigation() {
   const { t, language, switchLanguage } = useTranslation();
@@ -11,9 +14,25 @@ export default function Navigation() {
       aria-label={t('nav.artists') === 'アーティスト' ? 'グローバルナビゲーション' : 'Primary navigation'}
       className="fixed top-0 left-0 right-0 z-50 h-[60px] bg-black/96 backdrop-blur-xl border-b-2 border-accent-orange flex items-center justify-between px-12"
     >
-      <div className="font-bebas text-2xl tracking-widest text-accent-orange drop-shadow-lg">
-        TRANCE<span className="text-accent-red">NEXUS</span>
-      </div>
+      {/* Brand logo. The link doubles as a "back to home" affordance, which
+          users have come to expect from a header logo. width/height are
+          declared so the row reserves space and avoids CLS while the PNG
+          decodes; sharpe-rendered logo.png is 1024×1024 (1:1). */}
+      <Link
+        href="/"
+        aria-label="TRANCE NEXUS — home"
+        className="flex items-center"
+      >
+        <img
+          src={`${BASE_PATH}/logo.png`}
+          alt="TRANCE NEXUS"
+          width={48}
+          height={48}
+          decoding="async"
+          fetchPriority="high"
+          className="h-12 w-auto block"
+        />
+      </Link>
       <div className="flex gap-0 items-center">
         {[
           { label: t('nav.artists'), href: '#artist' },

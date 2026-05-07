@@ -4,6 +4,8 @@ import Link from 'next/link';
 import dynamic from 'next/dynamic';
 import { useTranslation } from '@/lib/useTranslation';
 
+const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH || '';
+
 // Footer renders on every page below the fold; defer the form's JS so it
 // does not contend with the LCP element above.
 const NewsletterForm = dynamic(() => import('./NewsletterForm'), { ssr: false });
@@ -14,9 +16,17 @@ export default function Footer() {
 
   return (
     <footer className="relative z-10 bg-black/98 border-t-2 border-accent-orange py-10 px-12 flex flex-col items-center gap-3">
-      <div className="font-bebas text-2xl tracking-widest text-accent-orange drop-shadow-lg">
-        TRANCE NEXUS
-      </div>
+      {/* Footer brand mark. loading="lazy" because the footer almost never
+          enters the viewport before the hero unless the page is short. */}
+      <img
+        src={`${BASE_PATH}/logo.png`}
+        alt="TRANCE NEXUS"
+        width={48}
+        height={48}
+        loading="lazy"
+        decoding="async"
+        className="h-12 w-auto block"
+      />
       <div className="w-full max-w-md mt-1 mb-2">
         <p className="text-xs tracking-widest text-text-muted text-center mb-2">
           {isJA ? '月1回の最新トランス情報をメールで' : 'MONTHLY TRANCE DIGEST IN YOUR INBOX'}

@@ -173,8 +173,10 @@ async function main() {
 
   fs.mkdirSync('./public/og/blog', { recursive: true });
 
-  // Default image (no article title)
-  await gen(makeSvg({ label: 'TRANCE MUSIC PORTAL — JAPAN & WORLDWIDE' }), './public/og-default.png');
+  // The default OG card (formerly /og-default.png) is now produced by
+  // scripts/generate-pwa.js from public/logo.png so it shares the brand
+  // mark — see /og-image.png. This script only generates per-article
+  // cards, which carry the article title and don't need the logo.
 
   // Per-article images
   for (const { slug, title } of ARTICLES) {
