@@ -49,10 +49,19 @@ export default function Home() {
       />
       <Navigation />
       
-      {/* HERO */}
-      <section id="top" className="relative z-10 min-h-screen flex flex-col items-center justify-center text-center overflow-hidden pt-[84px]">
+      {/* HERO
+
+          Layout strategy: section is `min-h-screen` with `justify-center`,
+          but `pb-28` reserves a 112px no-content zone at the bottom. The
+          centered content lives in the inner div above that zone; the
+          SCROLL indicator is a *sibling* of the inner div (not a child)
+          so its `absolute bottom-10` is measured against the section,
+          not against the centered content box. That guarantees the
+          indicator can never overlap the stats row regardless of how
+          tall the centered content grows. */}
+      <section id="top" className="relative z-10 min-h-screen flex flex-col items-center justify-center text-center overflow-hidden pt-[84px] pb-28">
         <div className="absolute inset-0 bg-gradient-radial from-red-900/20 via-transparent to-transparent opacity-70 pointer-events-none" />
-        
+
         <div className="relative z-10 px-10">
           {/* The TRANCE NEXUS wordmark moved into the fixed-header logo,
               so the hero no longer repeats it. The tagline now leads,
@@ -66,14 +75,14 @@ export default function Home() {
               {t('home.subtitle')}
             </span>
           </h1>
-          
+
           <div className="w-20 h-1 bg-gradient-to-r from-transparent via-accent-orange to-transparent mx-auto my-6" />
-          
+
           <p className="text-xl tracking-wide text-text-light/60 max-w-2xl mx-auto mb-12 animate-in fade-in slide-in-from-bottom-10 duration-700 delay-200">
             {t('home.description')}
           </p>
-          
-          <div className="flex gap-12 justify-center mb-12 animate-in fade-in slide-in-from-bottom-10 duration-700 delay-300">
+
+          <div className="flex gap-12 justify-center animate-in fade-in slide-in-from-bottom-10 duration-700 delay-300">
             {stats.map((stat, i) => (
               <div key={i} className="text-center">
                 <div className="font-bebas text-4xl text-accent-orange drop-shadow-lg mb-2">
@@ -85,11 +94,18 @@ export default function Home() {
               </div>
             ))}
           </div>
-          
-          <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-text-muted text-xs tracking-widest animate-bounce">
-            {t('home.scroll')}
-            <div className="text-lg text-accent-orange">▼</div>
-          </div>
+        </div>
+
+        {/* SCROLL — direct child of the section, so `absolute bottom-10`
+            is anchored to the section bottom (not the centered content
+            box that previously caused the overlap with the stats row).
+            The animate-bounce keeps the existing floating effect. */}
+        <div
+          aria-hidden="true"
+          className="absolute bottom-10 left-1/2 -translate-x-1/2 z-10 flex flex-col items-center gap-2 text-text-muted text-xs tracking-widest animate-bounce"
+        >
+          {t('home.scroll')}
+          <span className="text-lg text-accent-orange">▼</span>
         </div>
       </section>
 
