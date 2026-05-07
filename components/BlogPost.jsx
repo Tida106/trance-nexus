@@ -145,20 +145,18 @@ export default function BlogPost({ post, prevPost, nextPost, related }) {
             );
           })()}
 
-          {/* Amazon affiliate gear cards — Japanese-only for now (the
-              English version will move to amazon.com once that program
-              is set up). The whole section is gated on language so we
-              don't render an empty header on English pages. The detailed
-              disclosure lives at the article end below; here we just
-              caption the section. */}
+          {/* Amazon affiliate gear cards — locale-aware. JA visitors
+              get amazon.co.jp + the JP associate tag; EN visitors get
+              amazon.com + the US tag. Each language has its own product
+              array in data/blog/products.js, so a slug with only a JA
+              array simply renders nothing on English pages. */}
           {(() => {
-            if (!isJA) return null;
-            const products = getProductsForSlug(post.slug);
+            const products = getProductsForSlug(post.slug, language);
             if (products.length === 0) return null;
             return (
               <section className="mt-12 pt-8 border-t border-orange-900/20">
                 <h2 className="font-bebas text-2xl tracking-widest text-accent-orange mb-2">
-                  関連商品
+                  {isJA ? '関連商品' : 'Recommended Gear'}
                 </h2>
                 <div className="w-12 h-0.5 bg-gradient-to-r from-accent-red to-accent-orange mb-5" />
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -170,20 +168,22 @@ export default function BlogPost({ post, prevPost, nextPost, related }) {
             );
           })()}
 
-          {/* Article-end affiliate disclosure — JA + only when this post
-              actually carried Amazon products. Required by both the
-              Amazon Associates program ToS and Japanese display-rules
-              guidance (景品表示法 / ステマ規制). */}
+          {/* Article-end affiliate disclosure — only when this post
+              actually carried Amazon products in the current locale.
+              Required by Amazon Associates program ToS in both regions
+              and by Japanese display-rules guidance (景品表示法 /
+              ステマ規制) on the JA side. */}
           {(() => {
-            if (!isJA) return null;
-            if (getProductsForSlug(post.slug).length === 0) return null;
+            if (getProductsForSlug(post.slug, language).length === 0) return null;
             return (
               <aside
                 role="note"
-                aria-label="アフィリエイトに関する注記"
+                aria-label={isJA ? 'アフィリエイトに関する注記' : 'Affiliate disclosure'}
                 className="mt-10 px-4 py-3 rounded border border-orange-900/30 bg-dark-bg2/60 text-xs text-text-muted leading-relaxed"
               >
-                ※ 本記事にはアフィリエイトリンクが含まれています。リンク経由でご購入いただくと、当サイトの運営費の一部となる紹介料を受け取ることがあります。商品の選定は編集判断によるもので、紹介料の有無で内容を変えることはありません。
+                {isJA
+                  ? '※ 本記事にはアフィリエイトリンクが含まれています。リンク経由でご購入いただくと、当サイトの運営費の一部となる紹介料を受け取ることがあります。商品の選定は編集判断によるもので、紹介料の有無で内容を変えることはありません。'
+                  : 'Disclosure: this article contains affiliate links. We may earn a referral fee on qualifying purchases made through these links — at no extra cost to you. Product picks are editorial; the presence or absence of a referral fee does not influence what we recommend.'}
               </aside>
             );
           })()}

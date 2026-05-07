@@ -2,19 +2,33 @@
 
 import { useTranslation } from '@/lib/useTranslation';
 
-// Amazon Associates (Amazon.co.jp) Store ID. Sourced from
-// NEXT_PUBLIC_AMAZON_ASSOCIATE_ID; falls back to the production tag so
-// the static export still emits a working affiliate URL even if the
-// build environment forgot to set the env var.
-const ASSOCIATE_ID =
+// Amazon Associates Store IDs. Sourced from env vars; both fall back
+// to the production tags so the static export emits working affiliate
+// URLs even if the build environment forgot to set them.
+//
+//   JA pages → amazon.co.jp + sacredjapan-22
+//   EN pages → amazon.com    + trancenexus20-20
+//
+// Locale detection uses useTranslation().language — the same source the
+// rest of the site already uses for switching content. A `localeOverride`
+// prop is also accepted for the rare case where a card needs to be
+// pinned to one store regardless of the visitor's language preference.
+const ASSOCIATE_ID_JP =
   process.env.NEXT_PUBLIC_AMAZON_ASSOCIATE_ID || 'sacredjapan-22';
+const ASSOCIATE_ID_US =
+  process.env.NEXT_PUBLIC_AMAZON_ASSOCIATE_ID_US || 'trancenexus20-20';
+
+const STORE_BY_LOCALE = {
+  ja: { domain: 'www.amazon.co.jp', tag: ASSOCIATE_ID_JP, label: 'Amazon.co.jp' },
+  en: { domain: 'www.amazon.com',   tag: ASSOCIATE_ID_US, label: 'Amazon.com' },
+};
 
 // Build the canonical /dp/ URL — short, stable, and the form Amazon
 // recommends for affiliate deep-links. We avoid the SiteStripe-style
 // extras (`linkCode`, `creativeASIN`, `linkId`) because they don't
 // affect attribution but add cruft that some ad-blockers strip.
-function buildHref(asin) {
-  return `https://www.amazon.co.jp/dp/${encodeURIComponent(asin)}?tag=${encodeURIComponent(ASSOCIATE_ID)}`;
+function buildHref(asin, store) {
+  return `https://${store.domain}/dp/${encodeURIComponent(asin)}?tag=${encodeURIComponent(store.tag)}`;
 }
 
 // Per Google's affiliate-link guidance the rel attribute should include
@@ -23,28 +37,27 @@ function buildHref(asin) {
 const REL = 'sponsored nofollow noopener noreferrer';
 
 // Props:
-//   asin     — 10-char Amazon ASIN (required)
-//   title    — visible product title (optional; falls back to a generic
-//              "Amazon.co.jpで見る" label if omitted)
-//   image    — product thumbnail URL (optional). Rendered above the
-//              title, contained at 4:3 with a black backdrop. Pass an
-//              Amazon-served image URL or a self-hosted file under
-//              public/products/.
-//   caption  — short editorial line below the title (optional)
-//   category — one-word tag rendered as a pill: e.g. 'CDJ', 'Headphones'
-//   price    — pre-formatted price string ("¥24,800〜"); shown only as
-//              a hint, not a guarantee — Amazon prices change constantly
-//              so we never auto-fetch them.
-//   compact  — render a single-line variant (used inline in body copy)
+//   asin           — 10-char Amazon ASIN (required)
+//   title          — visible product title (optional; falls back to a
+//                    locale-specific generic label if omitted)
+//   image          — product thumbnail URL (optional). Rendered above
+//                    the title, 4:3 contained on black.
+//   caption        — short editorial line below the title (optional)
+//   category       — one-word tag rendered as a pill: 'Controller', etc.
+//   price          — pre-formatted price hint ('¥24,800〜' / '$249'). Not
+//                    auto-fetched. Editorial only.
+//   compact        — single-line inline variant for use inside body copy
+//   localeOverride — 'ja' | 'en' to pin a card to a specific store
+//                    regardless of the visitor's current language. Rarely
+//                    needed; defaults to following useTranslation().
 //
 // Behaviour:
-//   - JA-only. Returns null on English pages so we don't ship a JP store
-//     link to readers we can't actually monetise yet (Amazon.com support
-//     will be added later).
+//   - Locale-aware. JA visitors get amazon.co.jp + the JP associate tag;
+//     EN visitors get amazon.com + the US tag.
 //   - Returns null if asin is missing — protects against half-filled
 //     products.js entries during development.
-//   - target=_blank with rel="sponsored noopener" per the user spec
-//     (`nofollow` is also added — Google's documented best practice).
+//   - target=_blank with rel="sponsored nofollow noopener noreferrer"
+//     per Google's affiliate-link guidance.
 export default function AmazonLink({
   asin,
   title,
@@ -53,14 +66,28 @@ export default function AmazonLink({
   category,
   price,
   compact = false,
+  localeOverride,
 }) {
   const { language } = useTranslation();
 
-  if (language !== 'ja') return null;
   if (!asin) return null;
 
-  const displayTitle = title || 'Amazon.co.jpで見る';
-  const href = buildHref(asin);
+  const locale = localeOverride || (language === 'ja' ? 'ja' : 'en');
+  const store = STORE_BY_LOCALE[locale] || STORE_BY_LOCALE.en;
+  const isJA = locale === 'ja';
+
+  const fallbackTitle = isJA ? 'Amazon.co.jpで見る' : 'See on Amazon.com';
+  const displayTitle = title || fallbackTitle;
+  const href = buildHref(asin, store);
+
+  const ariaLabel = isJA
+    ? `Amazon.co.jpで「${displayTitle}」を見る（アフィリエイトリンク）`
+    : `See ${displayTitle} on Amazon.com (affiliate link)`;
+  const compactAriaLabel = isJA
+    ? `Amazon.co.jpで「${displayTitle}」を見る`
+    : `See ${displayTitle} on Amazon.com`;
+  const ctaLabel = isJA ? '購入を見る →' : 'View on Amazon →';
+  const noPriceLabel = isJA ? '価格をAmazonで確認' : 'Check price on Amazon';
 
   if (compact) {
     return (
@@ -68,12 +95,12 @@ export default function AmazonLink({
         href={href}
         target="_blank"
         rel={REL}
-        aria-label={`Amazon.co.jpで「${displayTitle}」を見る`}
+        aria-label={compactAriaLabel}
         className="inline-flex items-center gap-2 px-3 py-1.5 rounded border border-accent-orange/40 bg-accent-orange/5 text-xs tracking-widest text-accent-orange hover:bg-accent-orange/15 hover:shadow-md transition-all"
       >
         <span aria-hidden="true">🛒</span>
         <span className="font-bebas">{displayTitle}</span>
-        <span className="text-text-muted">→ Amazon</span>
+        <span className="text-text-muted">→ {store.label}</span>
       </a>
     );
   }
@@ -83,7 +110,7 @@ export default function AmazonLink({
       href={href}
       target="_blank"
       rel={REL}
-      aria-label={`Amazon.co.jpで「${displayTitle}」を見る（アフィリエイトリンク）`}
+      aria-label={ariaLabel}
       className="group block bg-dark-bg2/80 border border-orange-900/20 rounded-sm overflow-hidden hover:border-accent-orange/50 hover:-translate-y-1 hover:shadow-2xl hover:shadow-accent-orange/10 transition-all duration-200"
     >
       {/* Top accent bar — matches the existing card aesthetic across the site. */}
@@ -112,7 +139,7 @@ export default function AmazonLink({
             </span>
           )}
           <span className="font-bebas text-[10px] tracking-widest text-text-muted shrink-0 ml-auto">
-            Amazon.co.jp
+            {store.label}
           </span>
         </div>
 
@@ -133,12 +160,12 @@ export default function AmazonLink({
             </span>
           ) : (
             <span className="text-xs tracking-widest text-text-muted">
-              価格をAmazonで確認
+              {noPriceLabel}
             </span>
           )}
           <span className="font-bebas text-xs tracking-widest text-accent-orange group-hover:translate-x-1 transition-transform inline-flex items-center gap-1">
             <span aria-hidden="true">🛒</span>
-            購入を見る →
+            {ctaLabel}
           </span>
         </div>
       </div>
