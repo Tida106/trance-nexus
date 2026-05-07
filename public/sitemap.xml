@@ -605,6 +605,24 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/artists/push"/>
   </url>
   <url>
+    <loc>https://trance-nexus.com/artists/mauro-picotto</loc>
+    <lastmod>2026-05-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/artists/mauro-picotto"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/artists/mauro-picotto"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/artists/mauro-picotto"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/artists/gigi-dagostino</loc>
+    <lastmod>2026-05-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/artists/gigi-dagostino"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/artists/gigi-dagostino"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/artists/gigi-dagostino"/>
+  </url>
+  <url>
     <loc>https://trance-nexus.com/artists/andrew-rayel</loc>
     <lastmod>2026-05-07</lastmod>
     <changefreq>monthly</changefreq>
@@ -648,6 +666,78 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/artists/markus-schulz"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/artists/markus-schulz"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/artists/markus-schulz"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/artists/sasha</loc>
+    <lastmod>2026-05-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/artists/sasha"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/artists/sasha"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/artists/sasha"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/artists/john-digweed</loc>
+    <lastmod>2026-05-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/artists/john-digweed"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/artists/john-digweed"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/artists/john-digweed"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/artists/hernan-cattaneo</loc>
+    <lastmod>2026-05-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/artists/hernan-cattaneo"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/artists/hernan-cattaneo"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/artists/hernan-cattaneo"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/artists/andrew-bayer</loc>
+    <lastmod>2026-05-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/artists/andrew-bayer"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/artists/andrew-bayer"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/artists/andrew-bayer"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/artists/genix</loc>
+    <lastmod>2026-05-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/artists/genix"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/artists/genix"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/artists/genix"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/artists/ilan-bluestone</loc>
+    <lastmod>2026-05-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/artists/ilan-bluestone"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/artists/ilan-bluestone"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/artists/ilan-bluestone"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/artists/yotto</loc>
+    <lastmod>2026-05-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/artists/yotto"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/artists/yotto"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/artists/yotto"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/artists/nick-warren</loc>
+    <lastmod>2026-05-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/artists/nick-warren"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/artists/nick-warren"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/artists/nick-warren"/>
   </url>
   <url>
     <loc>https://trance-nexus.com/artists/astrix</loc>
@@ -695,6 +785,69 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/artists/solarstone"/>
   </url>
   <url>
+    <loc>https://trance-nexus.com/artists/ace-ventura</loc>
+    <lastmod>2026-05-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/artists/ace-ventura"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/artists/ace-ventura"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/artists/ace-ventura"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/artists/captain-hook</loc>
+    <lastmod>2026-05-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/artists/captain-hook"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/artists/captain-hook"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/artists/captain-hook"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/artists/liquid-soul</loc>
+    <lastmod>2026-05-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/artists/liquid-soul"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/artists/liquid-soul"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/artists/liquid-soul"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/artists/ranji</loc>
+    <lastmod>2026-05-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/artists/ranji"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/artists/ranji"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/artists/ranji"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/artists/astral-projection</loc>
+    <lastmod>2026-05-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/artists/astral-projection"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/artists/astral-projection"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/artists/astral-projection"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/artists/atmos</loc>
+    <lastmod>2026-05-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/artists/atmos"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/artists/atmos"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/artists/atmos"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/artists/symbolic</loc>
+    <lastmod>2026-05-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/artists/symbolic"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/artists/symbolic"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/artists/symbolic"/>
+  </url>
+  <url>
     <loc>https://trance-nexus.com/artists/dash-berlin</loc>
     <lastmod>2026-05-07</lastmod>
     <changefreq>monthly</changefreq>
@@ -738,6 +891,78 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/artists/simon-patterson"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/artists/simon-patterson"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/artists/simon-patterson"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/artists/will-atkinson</loc>
+    <lastmod>2026-05-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/artists/will-atkinson"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/artists/will-atkinson"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/artists/will-atkinson"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/artists/activa</loc>
+    <lastmod>2026-05-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/artists/activa"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/artists/activa"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/artists/activa"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/artists/giuseppe-ottaviani</loc>
+    <lastmod>2026-05-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/artists/giuseppe-ottaviani"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/artists/giuseppe-ottaviani"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/artists/giuseppe-ottaviani"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/artists/ruben-de-ronde</loc>
+    <lastmod>2026-05-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/artists/ruben-de-ronde"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/artists/ruben-de-ronde"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/artists/ruben-de-ronde"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/artists/standerwick</loc>
+    <lastmod>2026-05-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/artists/standerwick"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/artists/standerwick"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/artists/standerwick"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/artists/ronski-speed</loc>
+    <lastmod>2026-05-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/artists/ronski-speed"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/artists/ronski-speed"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/artists/ronski-speed"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/artists/bobina</loc>
+    <lastmod>2026-05-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/artists/bobina"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/artists/bobina"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/artists/bobina"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/artists/roger-shah</loc>
+    <lastmod>2026-05-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/artists/roger-shah"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/artists/roger-shah"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/artists/roger-shah"/>
   </url>
   <url>
     <loc>https://trance-nexus.com/labels/vandit-records</loc>
