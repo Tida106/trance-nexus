@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "next dev",
     "prebuild": "node scripts/generate-og-images.js && node scripts/generate-sitemap.js && node scripts/generate-search-index.js && node scripts/generate-rss.js && node scripts/generate-pwa.js",
-    "build": "next build",
+    "build": "npm run verify:artist-links && npm run verify:amazon-asins && next build",
+    "build:fast": "next build",
     "start": "next start",
     "lint": "next lint",
     "og": "node scripts/generate-og-images.js",
@@ -15,6 +16,8 @@
     "rss": "node scripts/generate-rss.js",
     "pwa": "node scripts/generate-pwa.js",
     "verify:artist-links": "node scripts/verify-artist-links.mjs",
+    "verify:amazon-asins": "node scripts/verify-amazon-asins.js",
+    "verify:all": "npm run verify:artist-links && npm run verify:amazon-asins",
     "scrape": "node scrapers/update-all.js",
     "scrape:radio": "node scrapers/scrape-radio.js",
     "scrape:setlists": "node scrapers/scrape-setlists.js",

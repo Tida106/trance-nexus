@@ -104,6 +104,54 @@ npm run build
 npm start
 ```
 
+`npm run build` は次の順番で実行されます：
+
+1. **prebuild** — OG画像、サイトマップ、検索インデックス、RSS、PWAアセットを生成
+2. **verify:artist-links** — `data/artists/*.links` の全URLを strict-TLS で GET 検証
+3. **verify:amazon-asins** — `data/blog/products.js` の全ASINを `amazon.{co.jp|com}/dp/<ASIN>` で検証
+4. **next build** — 上記2ステップが両方とも成功した場合のみ実行
+
+ビルド前検証（gate）に失敗すると `next build` は走らず、ビルドが exit 1 で停止します。`npm run build:fast` で gate を飛ばして直接 `next build` だけを走らせることも可能（緊急時のみ推奨）。
+
+### 🛡 Pre-build 自動検証
+
+本番デプロイ前に以下が自動チェックされます。すべて pass しないとビルドが落ちます。
+
+| 項目 | スクリプト | 検証内容 | ログ出力先 |
+|---|---|---|---|
+| アーティスト外部リンク | `npm run verify:artist-links` | `data/artists/*.js` の `links: { ... }` ブロック内すべてのURLに対して strict-TLS GET、リダイレクト追跡（最大5）、10秒タイムアウト、3回リトライ | `logs/verify-artist-links.log` |
+| Amazon ASIN | `npm run verify:amazon-asins` | `data/blog/products.js` の `ja:` / `en:` 配列内すべてのASINに対して、対応するストア（`amazon.co.jp` / `amazon.com`）の `/dp/<ASIN>` を GET、ステータス＋HTML内の "Page Not Found" 検知 | `logs/verify-amazon-asins.log` |
+
+両方のスクリプトは独立して実行可能です：
+
+```bash
+npm run verify:artist-links      # アーティストリンクのみ
+npm run verify:amazon-asins      # ASINのみ
+npm run verify:all               # 両方を順番に
+```
+
+**ビルドが gate で落ちた場合の対処：**
+
+1. **アーティストリンク失敗** — `logs/verify-artist-links.log` の `[FAIL]` 行を確認。`data/artists/*.js` から該当URLを削除する（代替URLを web 検索で確認できれば置き換え）。死リンクの代替候補：
+   - 公式SoundCloud（最も安定）
+   - 公式Spotify Artist URL
+   - Beatport検索URL（`https://www.beatport.com/search?q=<artist>`）— 必ず200を返す universal fallback
+   - 代替が見つからなければそのキーごと削除（カードはそれ以外のリンクで表示される）
+
+2. **ASIN失敗** — `logs/verify-amazon-asins.log` の `[FAIL]` 行を確認。`data/blog/products.js` から該当エントリを削除（または正しいASINを WebSearch で確認して差し替え）。Amazon は廃番商品のリスティングを撤去するので、過去に動いていたASINも失効しうる。
+
+3. **再実行** — 修正後、`npm run verify:all` でローカル確認 → pass したら `npm run build` を再実行。
+
+**Gate を一時的に回避したい場合**（推奨されないが緊急時用）：
+
+```bash
+npm run build:fast    # 検証スキップで next build のみ走る
+```
+
+ただし `build:fast` で deploy したコードに死リンクがあれば、訪問者の体験を損ねます。本番に push する前に必ず `npm run build`（フル gate 込み）が pass することを確認してください。
+
+CI では GitHub Actions が `npm run build` を実行するため、verifier 失敗時は workflow が `failed` になり、`logs/verify-*.log` が `verification-logs` というアーティファクトとして自動アップロードされます（Actions の run 詳細ページからダウンロード可能）。
+
 ### Vercel へのデプロイ
 
 ```bash

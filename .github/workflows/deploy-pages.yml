@@ -36,7 +36,19 @@ jobs:
         id: pages
         uses: actions/configure-pages@v5
 
-      # npm run build triggers prebuild (sitemap) then next build
+      # `npm run build` runs the full chain:
+      #   1. prebuild  — generate-og-images / sitemap / search-index / rss / pwa
+      #   2. verify:artist-links  — strict-TLS GET on every URL in
+      #      data/artists/*.links — fails the build on any 4xx/5xx,
+      #      SSL error, or DNS NXDOMAIN.
+      #   3. verify:amazon-asins  — GET amazon.{co.jp|com}/dp/<ASIN> for
+      #      every ASIN in data/blog/products.js — fails on 4xx/5xx or
+      #      Amazon's "page not found" body marker.
+      #   4. next build           — only runs if both verifiers pass.
+      # Both verifiers persist their output to logs/verify-*.log so a
+      # failure leaves a postmortem behind. The "Upload verification
+      # logs" step below ships those files as an artifact when the
+      # build step fails.
       - name: Build static export
         run: npm run build
         env:
@@ -47,6 +59,15 @@ jobs:
           # OOMed on a local repro. GitHub-hosted ubuntu runners have
           # ~7 GB total RAM available, so 6 GB still leaves headroom.
           NODE_OPTIONS: --max-old-space-size=6144
+
+      - name: Upload verification logs
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: verification-logs
+          path: logs/verify-*.log
+          if-no-files-found: ignore
+          retention-days: 14
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

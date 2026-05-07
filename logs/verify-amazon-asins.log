@@ -1,0 +1,11 @@
+
+Verifying 8 ASINs (concurrency=2, timeout=10s, retries=2)…
+
+[OK  ] B0BLSJZC94 ja   amazon.co.jp 200  https://www.amazon.co.jp/dp/B0BLSJZC94
+[OK  ] B01AXUCA8G ja   amazon.co.jp 200  https://www.amazon.co.jp/dp/B01AXUCA8G
+[OK  ] B0BK25SY9G en   amazon.com   200  https://www.amazon.com/dp/B0BK25SY9G
+[OK  ] B000AJIF4E ja   amazon.co.jp 200  https://www.amazon.co.jp/dp/B000AJIF4E
+[OK  ] B01AXUCA8G en   amazon.com   200  https://www.amazon.com/dp/B01AXUCA8G
+[OK  ] B000AJIF4E en   amazon.com   200  https://www.amazon.com/dp/B000AJIF4E
+[OK  ] B01AXUCA8G ja   amazon.co.jp 200  https://www.amazon.co.jp/dp/B01AXUCA8G
+[OK  ] B000AJIF4E ja   amazon.co.jp 200  https://www.amazon.co.jp/dp/B000AJIF4E

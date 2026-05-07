@@ -32,12 +32,32 @@
 //
 // Exit code: 0 if every URL ends at a 2xx response, 1 otherwise.
 
-import { readdirSync, readFileSync } from 'node:fs';
+import { readdirSync, readFileSync, mkdirSync, createWriteStream } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import path from 'node:path';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const ARTISTS_DIR = path.resolve(__dirname, '..', 'data', 'artists');
+const ROOT = path.resolve(__dirname, '..');
+const ARTISTS_DIR = path.join(ROOT, 'data', 'artists');
+const LOG_DIR = path.join(ROOT, 'logs');
+const LOG_FILE = path.join(LOG_DIR, 'verify-artist-links.log');
+
+// Mirror everything written to stdout into logs/verify-artist-links.log
+// so a CI run leaves a postmortem behind without the caller having to
+// `tee` (which swallows the script's exit code and breaks the build
+// gate).
+mkdirSync(LOG_DIR, { recursive: true });
+const logStream = createWriteStream(LOG_FILE, { flags: 'w' });
+const origWrite = process.stdout.write.bind(process.stdout);
+process.stdout.write = (chunk, ...rest) => {
+  const text =
+    typeof chunk === 'string'
+      ? chunk.replace(/\x1b\[[0-9;]*m/g, '')
+      : chunk;
+  logStream.write(text);
+  return origWrite(chunk, ...rest);
+};
+process.on('exit', () => logStream.end());
 
 const args = Object.fromEntries(
   process.argv.slice(2).map((a) => {

@@ -25,47 +25,16 @@
 // ⚠️  ASIN VERIFICATION POLICY
 //
 // Every ASIN below has been verified against the live Amazon storefront
-// (page-title check via GET on /dp/<ASIN>) before commit. Do NOT add
-// new entries with guessed/training-data ASINs. Use WebSearch to find
-// the canonical product ASIN, then verify with a fetch before adding.
+// before commit. The build now runs `npm run verify:amazon-asins` as a
+// gate — any ASIN whose /dp/<id> page returns 4xx, 5xx, or Amazon's
+// "Page Not Found" body marker fails the build before next-build runs.
 //
-// Stale entries can happen when Amazon retires a listing. The
-// AmazonLink component renders nothing for missing/empty ASINs, so a
-// stale entry shows as a blank card slot rather than a broken link.
+// Do NOT add new entries with guessed/training-data ASINs. Use
+// WebSearch to find the canonical product ASIN, then verify with a
+// fetch before adding. If the build gate flags a stale entry, see the
+// README "Pre-build verification" section for fix steps.
 
 export const productsBySlug = {
-  // Pioneer DJ vs Denon DJ comparison — JA-only for now. The previous
-  // ASINs in this section were fabricated and 404'd; they need
-  // re-verification against amazon.co.jp before being re-added. Left
-  // as JA stub with bad ASINs preserved for the moment so we don't
-  // lose the editorial captions; product cards won't render until the
-  // ASINs are confirmed live.
-  'pioneer-dj-vs-denon-dj-for-trance': {
-    ja: [
-      {
-        asin: 'B083XKDXX1', // ⚠ unverified — see ASIN VERIFICATION POLICY
-        title: 'Pioneer DJ CDJ-3000',
-        caption:
-          '世界中のクラブで業界標準として使われているプロ用メディアプレーヤー。記事中で紹介したジョグホイールの感触とピッチフェーダーの精度を体験できる。',
-        category: 'CDJ',
-      },
-      {
-        asin: 'B07HJZL3Q5', // ⚠ unverified
-        title: 'Pioneer DJ DJM-900NXS2',
-        caption:
-          'CDJ-3000とペアで使われる定番のプロ用4chミキサー。トランスのロングセットに必要なEQの効きと信頼性。',
-        category: 'Mixer',
-      },
-      {
-        asin: 'B07JFLF1S5', // ⚠ unverified
-        title: 'Denon DJ SC6000 Prime',
-        caption:
-          '10.1インチの大型タッチスクリーンと周波数別カラー波形。スタンドアロンストリーミング対応で自宅練習用としても優秀。',
-        category: 'CDJ',
-      },
-    ],
-  },
-
   // Beginner DJ guide — entry-level controller plus the two headphones
   // most commonly recommended to first-time DJs. ASINs verified live
   // against both amazon.co.jp (JA) and amazon.com (EN) on 2026-05-07.
@@ -118,8 +87,11 @@ export const productsBySlug = {
     ],
   },
 
-  // DJ headphones article — JA-only (existing). Same ASIN-verification
-  // caveat applies to the unverified entries below.
+  // DJ headphones article — JA-only with two verified picks. Two
+  // earlier entries (Pioneer HDJ-X10 ASIN B07L9Q8Z2N, Audio-Technica
+  // ATH-M50x ASIN B00HVLUR54) were removed when the build gate flagged
+  // them — B07L9Q8Z2N 404s and B00HVLUR54 actually points to the
+  // ATH-M40x. Re-add when correct ASINs are confirmed.
   'best-headphones-for-trance-djing-2026': {
     ja: [
       {
@@ -130,28 +102,21 @@ export const productsBySlug = {
         category: 'Headphones',
       },
       {
-        asin: 'B07L9Q8Z2N', // ⚠ unverified
-        title: 'Pioneer DJ HDJ-X10',
-        caption:
-          'Pioneerのプロ用フラッグシップ。チタンダイアフラムドライバーで微細なピッチドリフトも聞き分けられるトランス向けの解像度。',
-        category: 'Headphones',
-      },
-      {
         asin: 'B000AJIF4E',
         title: 'Sony MDR-7506',
         caption:
           'スタジオ＆DJ業界で長く標準として使われ続けている分析的サウンド。折りたたみ式で持ち運びにも便利。',
         category: 'Headphones',
       },
-      {
-        asin: 'B00HVLUR54', // ⚠ unverified — actually points to ATH-M40x, not M50x
-        title: 'Audio-Technica ATH-M50x',
-        caption:
-          'ミッドレンジで群を抜くコストパフォーマンス。優れた周波数バランスと遮音性能でトランスDJの入門機として人気。',
-        category: 'Headphones',
-      },
     ],
   },
+
+  // Pioneer DJ vs Denon DJ comparison — section currently empty.
+  // Earlier ASINs (B083XKDXX1 CDJ-3000, B07HJZL3Q5 DJM-900NXS2,
+  // B07JFLF1S5 SC6000 Prime) all 404'd against amazon.co.jp and were
+  // removed by the build gate. Re-add once verified ASINs are
+  // available; the article already renders cleanly with no products.
+  // 'pioneer-dj-vs-denon-dj-for-trance': { ja: [], en: [] },
 };
 
 // Returns the array of product entries for a given slug + language.
