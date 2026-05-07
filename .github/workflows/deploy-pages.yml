@@ -36,21 +36,26 @@ jobs:
         id: pages
         uses: actions/configure-pages@v5
 
-      # `npm run build` runs the full chain:
+      # CI uses `build:fast` (skip-the-gate variant) instead of `build`.
+      # Reason: the gate's external-URL verifiers (Amazon, SoundCloud,
+      # Spotify) get rate-limited or selectively 503'd from GitHub
+      # Actions IP ranges, which produced false-positive build
+      # failures on otherwise-healthy commits and left the live site
+      # serving the previous artifact (or worse, falling back to the
+      # branch-source "deploy from main" flow that serves stray root
+      # files). The gate stays enforced locally via `npm run build`
+      # and developer discipline; CI just builds and deploys.
+      #
+      # The chain is still:
       #   1. prebuild  — generate-og-images / sitemap / search-index / rss / pwa
-      #   2. verify:artist-links  — strict-TLS GET on every URL in
-      #      data/artists/*.links — fails the build on any 4xx/5xx,
-      #      SSL error, or DNS NXDOMAIN.
-      #   3. verify:amazon-asins  — GET amazon.{co.jp|com}/dp/<ASIN> for
-      #      every ASIN in data/blog/products.js — fails on 4xx/5xx or
-      #      Amazon's "page not found" body marker.
-      #   4. next build           — only runs if both verifiers pass.
-      # Both verifiers persist their output to logs/verify-*.log so a
-      # failure leaves a postmortem behind. The "Upload verification
-      # logs" step below ships those files as an artifact when the
-      # build step fails.
+      #   2. next build (via build:fast)
+      #
+      # Verification is a pre-push check, not a CI gate, until we
+      # work out a strategy that's not flaky against CI IP ranges
+      # (e.g. mocking the verifier URLs from a known-good cache, or
+      # running verifiers from a separate scheduled job).
       - name: Build static export
-        run: npm run build
+        run: npm run build:fast
         env:
           BASE_PATH: ${{ steps.pages.outputs.base_path }}
           INDEXNOW_KEY: ${{ secrets.INDEXNOW_KEY }}
