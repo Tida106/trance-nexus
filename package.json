@@ -14,6 +14,7 @@
     "search-index": "node scripts/generate-search-index.js",
     "rss": "node scripts/generate-rss.js",
     "pwa": "node scripts/generate-pwa.js",
+    "verify:artist-links": "node scripts/verify-artist-links.mjs",
     "scrape": "node scrapers/update-all.js",
     "scrape:radio": "node scrapers/scrape-radio.js",
     "scrape:setlists": "node scrapers/scrape-setlists.js",

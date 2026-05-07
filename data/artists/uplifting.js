@@ -27,7 +27,6 @@ export const uplifting = [
       website: 'https://dashberlin.com',
       spotify: 'https://open.spotify.com/artist/3kPXNvRgXOOXRsaUGIstoa',
       soundcloud: 'https://soundcloud.com/dash-berlin',
-      ra: 'https://ra.co/dj/dashberlin',
     },
     sub: { en: 'Vocal Uplifting Trance', ja: 'ボーカル・アップリフティング・トランス' },
     short: {
@@ -84,10 +83,8 @@ In 2018 the project went through a public dispute when Sutorius announced he was
     ],
     related: ['john-ocallaghan', 'sean-tyas', 'aly-and-fila', 'simon-patterson'],
     links: {
-      website: 'https://bryankearney.com',
       spotify: 'https://open.spotify.com/artist/3WAd5UA5PrNhIzy7B7AGPP',
       soundcloud: 'https://soundcloud.com/bryan-kearney',
-      ra: 'https://ra.co/dj/bryankearney',
     },
     sub: { en: 'Uplifting / Tech 138', ja: 'アップリフティング / テック138' },
     short: {
@@ -144,10 +141,8 @@ He is also a constant presence on FSOE, Subculture, and Coldharbour-aligned even
     ],
     related: ['bryan-kearney', 'sean-tyas', 'simon-patterson', 'aly-and-fila'],
     links: {
-      website: 'https://johnocallaghan.com',
       spotify: 'https://open.spotify.com/artist/2RjBUVeIAyYhKGo7xN9hYL',
       soundcloud: 'https://soundcloud.com/john-ocallaghan',
-      ra: 'https://ra.co/dj/johnocallaghan',
     },
     sub: { en: 'Tech / Uplifting Trance', ja: 'テック / アップリフティング・トランス' },
     short: {
@@ -204,10 +199,8 @@ O'Callaghanはアヴァロン・ハリウッド、Output Brooklyn、ロンドン
     ],
     related: ['john-ocallaghan', 'bryan-kearney', 'simon-patterson', 'cosmic-gate'],
     links: {
-      website: 'https://www.seantyas.com',
       spotify: 'https://open.spotify.com/artist/3JFJk0Aks9ApDC1Q2QHUMV',
       soundcloud: 'https://soundcloud.com/seantyas',
-      ra: 'https://ra.co/dj/seantyas',
     },
     sub: { en: 'Tech / Uplifting Trance', ja: 'テック / アップリフティング・トランス' },
     short: {
@@ -264,10 +257,8 @@ Live, his sets are characterised by relentless drive and surgical mixing. He has
     ],
     related: ['bryan-kearney', 'sean-tyas', 'john-ocallaghan', 'astrix'],
     links: {
-      website: 'https://simonpatterson.com',
       spotify: 'https://open.spotify.com/artist/2v9z0PbjaXXqj4iC7xRwzy',
       soundcloud: 'https://soundcloud.com/simon-patterson-1',
-      ra: 'https://ra.co/dj/simonpatterson',
     },
     sub: { en: 'Psy-Tech / Hard Trance', ja: 'サイ・テック / ハード・トランス' },
     short: {

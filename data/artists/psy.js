@@ -27,7 +27,6 @@ export const psy = [
       website: 'https://www.astrix.co.il',
       spotify: 'https://open.spotify.com/artist/3ggJ7qYsM1Y0hqCiIqVAik',
       soundcloud: 'https://soundcloud.com/astrix-official',
-      ra: 'https://ra.co/dj/astrix',
     },
     sub: { en: 'Full-On Psytrance', ja: 'フルオン・サイトランス' },
     short: {
@@ -84,10 +83,8 @@ Astrixはサイトランスとダンスミュージックを擁護するアク�
     ],
     related: ['astrix', 'infected-mushroom', 'armin-van-buuren', 'simon-patterson'],
     links: {
-      website: 'https://vinivici.com',
       spotify: 'https://open.spotify.com/artist/2qxJFvFYMEDqd7ui6kSAcq',
       soundcloud: 'https://soundcloud.com/vinivici',
-      ra: 'https://ra.co/dj/vinivici',
     },
     sub: { en: 'Full-On Psytrance / Crossover', ja: 'フルオン・サイトランス / クロスオーバー' },
     short: {
@@ -147,7 +144,6 @@ Vini Viciの商業的成功はサイトランスのアンダーグラウンド�
       website: 'https://infected-mushroom.com',
       spotify: 'https://open.spotify.com/artist/0YcvWLm0XTjcjxbsJhXalh',
       soundcloud: 'https://soundcloud.com/infected-mushroom',
-      ra: 'https://ra.co/dj/infectedmushroom',
     },
     sub: { en: 'Psytrance / Progressive Psy / Live', ja: 'サイトランス / プログレッシブ・サイ / ライブ' },
     short: {
@@ -207,7 +203,6 @@ Infected Mushroomは長寿性でも特筆される。30年にわたり創造的�
       website: 'https://anymamusic.com',
       spotify: 'https://open.spotify.com/artist/4Bp82MfgdHzE5SGX9MQrC1',
       soundcloud: 'https://soundcloud.com/anymamusic',
-      ra: 'https://ra.co/dj/anyma',
     },
     sub: { en: 'Melodic Techno / Progressive', ja: 'メロディック・テクノ / プログレッシブ' },
     short: {
@@ -264,10 +259,8 @@ While not strictly a trance artist by any narrow definition, Anyma's sound is bu
     ],
     related: ['paul-van-dyk', 'ferry-corsten', 'cosmic-gate', 'astrix'],
     links: {
-      website: 'https://solarstone.co.uk',
       spotify: 'https://open.spotify.com/artist/24Lr4WqYcphnQrcxPMPMZB',
       soundcloud: 'https://soundcloud.com/solarstone',
-      ra: 'https://ra.co/dj/solarstone',
     },
     sub: { en: 'Pure Trance / Progressive', ja: 'ピュア・トランス / プログレッシブ' },
     short: {

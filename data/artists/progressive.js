@@ -27,7 +27,6 @@ export const progressive = [
       website: 'https://andrewrayel.com',
       spotify: 'https://open.spotify.com/artist/4eUEmKLTiGS5DDfQEZWRyx',
       soundcloud: 'https://soundcloud.com/andrewrayel',
-      ra: 'https://ra.co/dj/andrewrayel',
     },
     sub: { en: 'Orchestral Uplifting Trance', ja: 'オーケストラル・アップリフティング・トランス' },
     short: {
@@ -87,7 +86,6 @@ Rayel is also notable for representing Moldova on a global stage — a country w
       website: 'https://www.alyandfila.com',
       spotify: 'https://open.spotify.com/artist/2lrG7BuNK1JCrxVgyXXMmw',
       soundcloud: 'https://soundcloud.com/alyandfila',
-      ra: 'https://ra.co/dj/alyandfila',
     },
     sub: { en: 'Uplifting / 138 BPM', ja: 'アップリフティング / 138 BPM' },
     short: {
@@ -147,7 +145,6 @@ Aly & Filaを際立たせるのは、その思想的なコミットメントで�
       website: 'https://garethemery.com',
       spotify: 'https://open.spotify.com/artist/3qwMPQ4kCcvlQRaXAxBC1Y',
       soundcloud: 'https://soundcloud.com/garethemery',
-      ra: 'https://ra.co/dj/garethemery',
     },
     sub: { en: 'Uplifting / Progressive Trance', ja: 'アップリフティング / プログレッシブ・トランス' },
     short: {
@@ -204,10 +201,8 @@ In 2020 he launched The Saga, a multi-track concept release distributed only via
     ],
     related: ['ferry-corsten', 'paul-van-dyk', 'markus-schulz', 'gareth-emery'],
     links: {
-      website: 'https://cosmicgate.de',
       spotify: 'https://open.spotify.com/artist/3DG9Xu3SIYjCxxSMoFeNMv',
       soundcloud: 'https://soundcloud.com/cosmic-gate',
-      ra: 'https://ra.co/dj/cosmicgate',
     },
     sub: { en: 'Progressive / Uplifting Trance', ja: 'プログレッシブ / アップリフティング・トランス' },
     short: {
@@ -267,7 +262,6 @@ Both members have spoken openly about the demands of long-term creative partners
       website: 'https://markusschulz.com',
       spotify: 'https://open.spotify.com/artist/3xqhDr4WgY3jLPzGbsj7Ly',
       soundcloud: 'https://soundcloud.com/markusschulz',
-      ra: 'https://ra.co/dj/markusschulz',
     },
     sub: { en: 'Progressive / Tech-tinged Trance', ja: 'プログレッシブ / テック寄りトランス' },
     short: {
