@@ -228,4 +228,134 @@ His albums If It Were You, We'd Never Leave (2011), In My Last Life (2018), and 
     },
     mentionedIn: ['above-beyond-anjuna-empire'],
   },
+
+  {
+    slug: 'ilan-bluestone',
+    name: 'ilan Bluestone',
+    flag: '🇬🇧',
+    emoji: '💎',
+    genre: 'PROGRESSIVE',
+    banner: 'b-progressive',
+    tags: ['MELODIC PROGRESSIVE', 'ANJUNABEATS', 'BIG ROOM'],
+    realName: 'ilan Bluestone',
+    origin: 'London, England',
+    born: '1985',
+    activeFrom: '2012',
+    labels: ['Anjunabeats', 'Stoneblue Records'],
+    topWorks: [
+      { title: 'Spheres', year: 2017, type: 'album' },
+      { title: 'Sun & Moon (Above & Beyond)', year: 2014, type: 'remix' },
+      { title: 'Scars (with Andrew Bayer)', year: 2017, type: 'track' },
+      { title: 'Daniel in the Lion\'s Den', year: 2018, type: 'track' },
+      { title: 'Impulse', year: 2020, type: 'album' },
+    ],
+    related: ['above-and-beyond', 'andrew-bayer', 'genix', 'standerwick'],
+    links: {
+      website: 'https://www.ilanbluestone.com',
+      soundcloud: 'https://soundcloud.com/ilanbluestone',
+      beatport: 'https://www.beatport.com/artist/ilan-bluestone/229252',
+    },
+    sub: { en: 'Big-room Melodic Progressive', ja: 'ビッグルーム・メロディック・プログレッシブ' },
+    short: {
+      en: 'British producer who became Anjunabeats\' headline melodic-progressive name in the late 2010s.',
+      ja: '2010年代後半にAnjunabeatsを代表するメロディック・プログレッシブの旗手となった英国のプロデューサー。',
+    },
+    style: {
+      en: 'Cinematic, big-room melodic progressive — soaring lead synths, anthemic chord progressions, and the kind of long emotional breakdowns that connect 138 BPM trance to peak-time progressive house.',
+      ja: '映画的でビッグルーム志向のメロディック・プログレッシブ——舞い上がるリード・シンセ、アンセミックなコード進行、138 BPMトランスとピークタイムのプログレッシブ・ハウスを繋ぐような長尺の情緒的ブレイクダウン。',
+    },
+    bio: {
+      en: `ilan Bluestone broke out via his 2014 remix of Above & Beyond's "Sun & Moon," which became one of the most-played tracks on Anjunabeats Radio that year and announced a major new voice on the label. His debut album Spheres (2017) and the follow-up Impulse (2020) cemented him as Anjunabeats' headline melodic-progressive producer of the late 2010s, alongside Andrew Bayer and Genix. He runs his own Stoneblue Records sub-label and is a regular at ABGT and Anjuna events worldwide.`,
+      ja: `イラン・ブルーストーンは2014年Above & Beyond「Sun & Moon」のリミックスでブレイクし、その年のAnjunabeats Radioで最も再生されたトラックの一つとなり、レーベルに新たな主要アーティストを宣言した。デビューアルバム『Spheres』（2017）と続く『Impulse』（2020）は、Andrew Bayer、Genixと並ぶ2010年代後半のAnjunabeats看板メロディック・プログレッシブ・プロデューサーとしての地位を確立。自身のサブレーベルStoneblue Recordsを運営し、ABGTやAnjunaの世界各地のイベントに常連出演している。`,
+    },
+    mentionedIn: ['above-beyond-anjuna-empire'],
+  },
+
+  {
+    slug: 'yotto',
+    name: 'Yotto',
+    flag: '🇫🇮',
+    emoji: '🌲',
+    genre: 'PROGRESSIVE',
+    banner: 'b-progressive',
+    tags: ['MELODIC HOUSE', 'ANJUNADEEP', 'FINNISH'],
+    realName: 'Otto Yliperttula',
+    origin: 'Helsinki, Finland',
+    born: '1986',
+    activeFrom: '2013',
+    labels: ['Anjunadeep', 'Odd One Out'],
+    topWorks: [
+      { title: 'Hyperfall', year: 2018, type: 'album' },
+      { title: 'Aviate', year: 2017, type: 'track' },
+      { title: 'Walls', year: 2019, type: 'track' },
+      { title: 'Erased Dreams', year: 2020, type: 'EP' },
+      { title: 'Odd One Out (label)', year: '2019–', type: 'label' },
+    ],
+    related: ['andrew-bayer', 'ilan-bluestone', 'hernan-cattaneo', 'genix'],
+    links: {
+      website: 'https://www.yotto.com',
+      soundcloud: 'https://soundcloud.com/yottomusic',
+      beatport: 'https://www.beatport.com/artist/yotto/485519',
+    },
+    sub: { en: 'Melodic House / Deep Progressive', ja: 'メロディック・ハウス / ディープ・プログレッシブ' },
+    short: {
+      en: 'Finnish producer who became Anjunadeep\'s headline export — Hyperfall is one of the defining albums of the late-2010s melodic-house wave.',
+      ja: 'Anjunadeepを代表する輸出名となったフィンランドのプロデューサー。『Hyperfall』は2010年代後半のメロディック・ハウス・ウェーブを定義するアルバムの一つ。',
+    },
+    style: {
+      en: 'Atmospheric melodic house with deep-progressive bones — minor-key melodies, restrained percussion, and Nordic-cold synth pads. The Anjunadeep sound at its most introspective.',
+      ja: 'ディープ・プログレッシブの骨格を持つアトモスフェリックなメロディック・ハウス——短調のメロディ、抑制されたパーカッション、北欧的に冷ややかなシンセ・パッド。Anjunadeepサウンドの最も内省的な姿。',
+    },
+    bio: {
+      en: `Otto Yliperttula started releasing as Yotto in 2013 and broke through on Anjunadeep with "Wondering" in 2015. His debut album Hyperfall (2018) is widely regarded as one of the defining records of the late-2010s melodic-house wave that flowed out of Anjunadeep, Innervisions, and Afterlife. He launched his own Odd One Out label in 2019 to release his and like-minded artists\' more experimental work, and has become one of Anjuna\'s most internationally booked acts.`,
+      ja: `オットー・ユリペルトゥラはYotto名義で2013年からリリースを開始し、2015年にAnjunadeepからリリースした「Wondering」でブレイク。デビューアルバム『Hyperfall』（2018）はAnjunadeep、Innervisions、Afterlifeから派生した2010年代後半のメロディック・ハウス・ウェーブを定義するレコードの一つとして広く認識されている。2019年に自身のレーベルOdd One Outを立ち上げ、自身と志を同じくするアーティストのより実験的な作品をリリース。Anjuna陣営で最も国際的にブッキングされるアクトの一つとなった。`,
+    },
+    mentionedIn: ['above-beyond-anjuna-empire'],
+  },
+
+  {
+    slug: 'nick-warren',
+    name: 'Nick Warren',
+    flag: '🇬🇧',
+    emoji: '🌊',
+    genre: 'PROGRESSIVE',
+    banner: 'b-progressive',
+    tags: ['PROGRESSIVE HOUSE', 'BRITISH', 'LEGEND'],
+    realName: 'Nick Warren',
+    origin: 'Bristol, England',
+    born: '1962',
+    activeFrom: '1992',
+    labels: ['Hope Recordings', 'Hooj Choons', 'The Soundgarden'],
+    topWorks: [
+      { title: 'Way Out West (with Jody Wisternoff)', year: '1995–', type: 'group project' },
+      { title: 'Way Out West (album)', year: 1997, type: 'album' },
+      { title: 'Global Underground 008: Brazil', year: 1998, type: 'mix album' },
+      { title: 'Global Underground 022: Reykjavik', year: 2002, type: 'mix album' },
+      { title: 'The Soundgarden (radio show)', year: '2010s–', type: 'radio show' },
+    ],
+    related: ['john-digweed', 'sasha', 'hernan-cattaneo', 'yotto'],
+    links: {
+      website: 'https://www.nick-warren.com',
+      soundcloud: 'https://soundcloud.com/nick-warren-1',
+      beatport: 'https://www.beatport.com/artist/nick-warren/2802',
+    },
+    sub: { en: 'Progressive House / Way Out West', ja: 'プログレッシブ・ハウス / Way Out West' },
+    short: {
+      en: 'Bristol veteran, half of Way Out West, and one of the most prolific contributors to the Global Underground mix-album series.',
+      ja: 'ブリストル出身のベテラン。Way Out Westの片翼であり、Global Undergroundミックスアルバム・シリーズに最も多く貢献したDJの一人。',
+    },
+    style: {
+      en: 'Atmospheric, deep progressive house — long melodic builds, dub-techno textures, and a darker palette than Sasha\'s. His Global Underground entries (notably Brazil and Reykjavik) are reference points for the entire mix-album format.',
+      ja: 'アトモスフェリックでディープなプログレッシブ・ハウス——長尺のメロディック・ビルド、ダブ・テクノ的な質感、Sashaよりも暗いパレット。Global Undergroundシリーズの彼の作品（特にBrazilとReykjavik）はミックスアルバム・フォーマット全体のリファレンス・ポイントとなっている。',
+    },
+    bio: {
+      en: `Nick Warren has been DJing since the late 80s and producing as half of Way Out West (with Jody Wisternoff) since 1995. His Global Underground mix albums in the late 90s and early 2000s — particularly Brazil (1998) and Reykjavik (2002) — are widely considered some of the highest-quality DJ mix recordings of the era. Way Out West\'s self-titled debut (1997) bridged trance, breakbeat, and progressive house and remains a landmark of UK electronica.
+
+Warren has run his own Hope Recordings and continues to host The Soundgarden radio show and parties internationally. Among the original UK progressive-house generation, he sits alongside Sasha, Digweed, and Oakenfold as a defining voice.`,
+      ja: `ニック・ウォーレンは80年代後半からDJ活動を続け、1995年からはJody WisternoffとともにWay Out Westの半身として制作活動を行っている。90年代末から2000年代初頭のGlobal Undergroundミックスアルバム、特に『Brazil』（1998）と『Reykjavik』（2002）は同時代のDJミックス録音で最高品質の作品の一部として広く評価されている。Way Out Westの同名デビュー作（1997）はトランス、ブレイクビーツ、プログレッシブ・ハウスを橋渡しし、UKエレクトロニカの金字塔となっている。
+
+Warrenは自身のHope Recordingsを運営し、ラジオ「The Soundgarden」とパーティーを世界各地で展開し続けている。オリジナルのUKプログレッシブ・ハウス世代の中で、Sasha、Digweed、Oakenfoldと並ぶ定義的な存在。`,
+    },
+    mentionedIn: [],
+  },
 ];
