@@ -14,32 +14,27 @@ import LabelCard from '@/components/LabelCard';
 
 const NewsletterForm = dynamic(() => import('@/components/NewsletterForm'), { ssr: false });
 
-// Hero stats are derived from the data layer at build time, not
-// hardcoded. The previous hardcoded values had drifted by up to 200×
-// (claimed 800+ setlists vs 4 actual). Computing from imports means
-// the numbers can never go stale: as the DB grows the hero updates on
-// the next build. We surface the four content surfaces the site has
-// genuinely built (artists / labels / articles / glossary) rather
-// than the data feeds (radio / setlists / events) that haven't been
-// populated past single digits yet — those can be re-added here when
-// they cross a threshold worth bragging about.
-function formatCount(n) {
-  // Round-down to a "+" tier so the number reads as a milestone, not
-  // a daily-shifting figure. e.g. 50 → "50+", 47 → "40+", 132 → "130+".
-  if (n < 10) return String(n);
-  const tier = Math.floor(n / 10) * 10;
-  return `${tier}+`;
-}
+// Hero stats are derived from the data layer at build time. Counts
+// are displayed as exact integers (50, not "50+") — the previous "+"
+// suffix made every number look like a "milestone" approximation
+// even when we knew the real number to the digit. We surface the
+// four content surfaces the site has genuinely built (artists /
+// labels / articles / glossary) instead of the legacy radio /
+// setlists / events feeds that hadn't crossed double digits yet.
+//
+// Stat entries with a count of zero are filtered out so a half-built
+// surface can't accidentally land in the hero — the array of stats
+// is the array of populated content axes, not a fixed slot count.
 
 export default function Home() {
   const { t } = useTranslation();
 
   const stats = [
-    { value: formatCount(artists.length),  label: t('home.stats.artists') },
-    { value: formatCount(labels.length),   label: t('home.stats.labels') },
-    { value: formatCount(listing.length),  label: t('home.stats.articles') },
-    { value: formatCount(glossary.length), label: t('home.stats.glossary') },
-  ];
+    { value: artists.length,  label: t('home.stats.artists') },
+    { value: labels.length,   label: t('home.stats.labels') },
+    { value: listing.length,  label: t('home.stats.articles') },
+    { value: glossary.length, label: t('home.stats.glossary') },
+  ].filter((s) => s.value > 0);
 
   const websiteSchema = {
     '@context': 'https://schema.org',
@@ -131,9 +126,21 @@ export default function Home() {
       <section id="artist" className="relative z-10 py-24 px-12 bg-dark-bg2/50">
         <div className="max-w-7xl mx-auto">
           <div className="mb-12">
-            <h2 className="font-bebas text-5xl tracking-wider text-white mb-2">
-              {t('artists.title')}
-            </h2>
+            {/* Heading with a count badge so visitors can see at a
+                glance that the featured five are a sample of a much
+                larger roster. The badge value is computed from the
+                actual data array, never hardcoded. */}
+            <div className="flex items-center gap-3 mb-2 flex-wrap">
+              <h2 className="font-bebas text-5xl tracking-wider text-white">
+                {t('artists.title')}
+              </h2>
+              <span
+                aria-label={`${artists.length} ${t('artists.title').toLowerCase()}`}
+                className="font-bebas text-2xl tracking-widest px-3 py-1 rounded-md bg-accent-orange text-black drop-shadow-lg"
+              >
+                {artists.length}
+              </span>
+            </div>
             <div className="w-20 h-1 bg-gradient-to-r from-accent-red via-accent-orange to-transparent" />
           </div>
 
@@ -145,12 +152,24 @@ export default function Home() {
             </div>
           )}
 
-          <div className="mb-8">
+          {/* Center-aligned, prominent CTA. Replaces the old left-
+              aligned subtle button — visitors were missing it and
+              didn't realise there were 50 artists behind the five
+              featured cards. The count is interpolated from the
+              actual array length so the CTA copy stays correct as
+              the database grows. */}
+          <div className="flex justify-center mt-4 mb-2">
             <Link
               href="/artists"
-              className="inline-block font-bebas text-sm tracking-widest px-6 py-3 border border-accent-orange/30 text-accent-orange hover:bg-accent-orange/10 hover:shadow-lg transition-all rounded"
+              className="group inline-flex items-center gap-2 font-bebas text-base md:text-lg tracking-widest px-8 py-4 rounded-md bg-gradient-to-r from-accent-red via-accent-orange to-accent-amber text-black shadow-lg hover:shadow-2xl hover:shadow-accent-orange/40 hover:scale-105 transition-all duration-200"
             >
-              🎯 {t('home.sections.artists')} →
+              <span aria-hidden="true">🎯</span>
+              <span>
+                {t('nav.artists') === 'アーティスト'
+                  ? `${artists.length}名のアーティストを全て見る`
+                  : `View all ${artists.length} artists`}
+              </span>
+              <span className="group-hover:translate-x-1 transition-transform">→</span>
             </Link>
           </div>
         </div>
