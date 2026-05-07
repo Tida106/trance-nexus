@@ -85,7 +85,7 @@ export default function TimelineClient() {
         {isJA ? 'タイムライン本文へスキップ' : 'Skip to timeline content'}
       </a>
       <main
-        className="relative z-10 min-h-screen pt-[60px] pb-20"
+        className="relative z-10 min-h-screen pt-[84px] pb-20"
         data-tl-reduced={reducedMotion ? '1' : '0'}
       >
         {/* Hero */}

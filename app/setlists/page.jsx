@@ -36,7 +36,7 @@ export default function SetlistsPage() {
   return (
     <>
       <Navigation />
-      <main className="relative z-10 min-h-screen pt-[60px] pb-20 px-12">
+      <main className="relative z-10 min-h-screen pt-[84px] pb-20 px-12">
         <div className="max-w-7xl mx-auto">
           <div className="py-12">
             <h1 className="font-bebas text-5xl tracking-wider text-white mb-2">

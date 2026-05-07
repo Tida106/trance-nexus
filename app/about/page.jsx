@@ -248,7 +248,7 @@ export default function AboutPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(aboutSchema) }}
       />
       <Navigation />
-      <main className="relative z-10 min-h-screen pt-[60px] pb-20 px-12">
+      <main className="relative z-10 min-h-screen pt-[84px] pb-20 px-12">
         <div className="max-w-3xl mx-auto">
           <div className="py-12">
             <div className="mb-4">

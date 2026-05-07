@@ -31,7 +31,7 @@ export default function GlossaryDetail({ term, related, artists, posts }) {
   return (
     <>
       <Navigation />
-      <main className="relative z-10 min-h-screen pt-[60px] pb-20 px-12">
+      <main className="relative z-10 min-h-screen pt-[84px] pb-20 px-12">
         <div className="max-w-3xl mx-auto">
           <div className="pt-8 pb-4">
             <Breadcrumb items={breadcrumbItems} />

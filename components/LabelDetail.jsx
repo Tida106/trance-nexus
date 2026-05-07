@@ -52,7 +52,7 @@ export default function LabelDetail({ label, related, signedArtists, posts }) {
   return (
     <>
       <Navigation />
-      <main className="relative z-10 min-h-screen pt-[60px] pb-20 px-12">
+      <main className="relative z-10 min-h-screen pt-[84px] pb-20 px-12">
         <div className="max-w-4xl mx-auto">
           <div className="pt-8 pb-4">
             <Breadcrumb items={breadcrumbItems} />

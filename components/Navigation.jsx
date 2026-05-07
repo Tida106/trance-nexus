@@ -12,7 +12,7 @@ export default function Navigation() {
   return (
     <nav
       aria-label={t('nav.artists') === 'アーティスト' ? 'グローバルナビゲーション' : 'Primary navigation'}
-      className="fixed top-0 left-0 right-0 z-50 h-[60px] bg-black/96 backdrop-blur-xl border-b-2 border-accent-orange flex items-center justify-between px-12"
+      className="fixed top-0 left-0 right-0 z-50 h-[84px] bg-black/96 backdrop-blur-xl border-b-2 border-accent-orange flex items-center justify-between px-12"
     >
       {/* Brand logo. The link doubles as a "back to home" affordance, which
           users have come to expect from a header logo. width/height are
@@ -26,11 +26,11 @@ export default function Navigation() {
         <img
           src={`${BASE_PATH}/logo.png`}
           alt="TRANCE NEXUS"
-          width={48}
-          height={48}
+          width={72}
+          height={72}
           decoding="async"
           fetchPriority="high"
-          className="h-12 w-auto block"
+          className="h-[72px] w-auto block"
         />
       </Link>
       <div className="flex gap-0 items-center">
@@ -43,14 +43,14 @@ export default function Navigation() {
           <a
             key={i}
             href={link.href}
-            className="font-bebas text-sm tracking-widest text-text-muted px-5 h-[60px] leading-[60px] block border-l border-orange-900/20 hover:text-accent-orange hover:bg-orange-900/10 transition-all relative group"
+            className="font-bebas text-sm tracking-widest text-text-muted px-5 h-[84px] leading-[84px] block border-l border-orange-900/20 hover:text-accent-orange hover:bg-orange-900/10 transition-all relative group"
           >
             {link.label}
             <span className="absolute bottom-0 left-0 right-0 h-0.5 bg-accent-orange scale-x-0 group-hover:scale-x-100 transition-transform origin-left"></span>
           </a>
         ))}
         <SearchTrigger />
-        <div className="border-l border-orange-900/20 px-5 h-[60px] leading-[60px] flex gap-2">
+        <div className="border-l border-orange-900/20 px-5 h-[84px] leading-[84px] flex gap-2">
           <button
             type="button"
             onClick={() => switchLanguage('en')}

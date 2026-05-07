@@ -16,7 +16,7 @@ export const metadata = {
 // hydrates and reads the query string.
 function SearchFallback() {
   return (
-    <div className="relative z-10 min-h-screen pt-[60px] pb-20 px-12 flex items-center justify-center">
+    <div className="relative z-10 min-h-screen pt-[84px] pb-20 px-12 flex items-center justify-center">
       <div className="text-text-muted text-sm tracking-widest">Loading search…</div>
     </div>
   );

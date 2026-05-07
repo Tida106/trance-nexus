@@ -21,7 +21,7 @@ export default function CategoryIndexPage() {
   return (
     <>
       <Navigation />
-      <main className="relative z-10 min-h-screen pt-[60px] pb-20 px-12">
+      <main className="relative z-10 min-h-screen pt-[84px] pb-20 px-12">
         <div className="max-w-5xl mx-auto">
           <div className="py-12">
             <div className="mb-4">

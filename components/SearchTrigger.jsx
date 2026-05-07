@@ -41,7 +41,7 @@ export default function SearchTrigger() {
       <button
         onClick={() => { setArmed(true); setOpen(true); }}
         aria-label={isJA ? 'サイト内検索を開く' : 'Open site search'}
-        className="font-bebas text-sm tracking-widest text-text-muted hover:text-accent-orange px-4 h-[60px] border-l border-orange-900/20 flex items-center gap-2 transition-colors"
+        className="font-bebas text-sm tracking-widest text-text-muted hover:text-accent-orange px-4 h-[84px] border-l border-orange-900/20 flex items-center gap-2 transition-colors"
       >
         <span className="text-base" aria-hidden="true">🔎</span>
         <span className="hidden md:inline">{isJA ? '検索' : 'SEARCH'}</span>

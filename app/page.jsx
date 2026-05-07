@@ -50,7 +50,7 @@ export default function Home() {
       <Navigation />
       
       {/* HERO */}
-      <section id="top" className="relative z-10 min-h-screen flex flex-col items-center justify-center text-center overflow-hidden pt-[60px]">
+      <section id="top" className="relative z-10 min-h-screen flex flex-col items-center justify-center text-center overflow-hidden pt-[84px]">
         <div className="absolute inset-0 bg-gradient-radial from-red-900/20 via-transparent to-transparent opacity-70 pointer-events-none" />
         
         <div className="relative z-10 px-10">
