@@ -27,6 +27,7 @@ export const uplifting = [
       website: 'https://dashberlin.com',
       spotify: 'https://open.spotify.com/artist/3kPXNvRgXOOXRsaUGIstoa',
       soundcloud: 'https://soundcloud.com/dash-berlin',
+      beatport: 'https://www.beatport.com/search?q=Dash+Berlin',
     },
     sub: { en: 'Vocal Uplifting Trance', ja: 'ボーカル・アップリフティング・トランス' },
     short: {
@@ -85,6 +86,7 @@ In 2018 the project went through a public dispute when Sutorius announced he was
     links: {
       spotify: 'https://open.spotify.com/artist/3WAd5UA5PrNhIzy7B7AGPP',
       soundcloud: 'https://soundcloud.com/bryan-kearney',
+      beatport: 'https://www.beatport.com/search?q=Bryan+Kearney',
     },
     sub: { en: 'Uplifting / Tech 138', ja: 'アップリフティング / テック138' },
     short: {
@@ -143,6 +145,7 @@ He is also a constant presence on FSOE, Subculture, and Coldharbour-aligned even
     links: {
       spotify: 'https://open.spotify.com/artist/2RjBUVeIAyYhKGo7xN9hYL',
       soundcloud: 'https://soundcloud.com/john-ocallaghan',
+      beatport: 'https://www.beatport.com/search?q=John+O%27Callaghan',
     },
     sub: { en: 'Tech / Uplifting Trance', ja: 'テック / アップリフティング・トランス' },
     short: {
@@ -201,6 +204,7 @@ O'Callaghanはアヴァロン・ハリウッド、Output Brooklyn、ロンドン
     links: {
       spotify: 'https://open.spotify.com/artist/3JFJk0Aks9ApDC1Q2QHUMV',
       soundcloud: 'https://soundcloud.com/seantyas',
+      beatport: 'https://www.beatport.com/search?q=Sean+Tyas',
     },
     sub: { en: 'Tech / Uplifting Trance', ja: 'テック / アップリフティング・トランス' },
     short: {
@@ -259,6 +263,7 @@ Live, his sets are characterised by relentless drive and surgical mixing. He has
     links: {
       spotify: 'https://open.spotify.com/artist/2v9z0PbjaXXqj4iC7xRwzy',
       soundcloud: 'https://soundcloud.com/simon-patterson-1',
+      beatport: 'https://www.beatport.com/search?q=Simon+Patterson',
     },
     sub: { en: 'Psy-Tech / Hard Trance', ja: 'サイ・テック / ハード・トランス' },
     short: {

@@ -48,7 +48,25 @@ const args = Object.fromEntries(
 
 const SLUG_FILTER = args.slug ? new Set(String(args.slug).split(',')) : null;
 const JSON_OUT = !!args.json;
-const CONCURRENCY = Math.max(1, Number(args.concurrency) || 6);
+// Auto-disable ANSI colours when stdout is piped or redirected — keeps
+// the log file readable in git without manual stripping. --color forces
+// it back on, --no-color forces it off.
+const COLOR =
+  args.color === true
+    ? true
+    : args['no-color'] === true
+    ? false
+    : Boolean(process.stdout.isTTY);
+const c = COLOR
+  ? { ok: '\x1b[32m', fail: '\x1b[31m', bold: '\x1b[1m', reset: '\x1b[0m' }
+  : { ok: '', fail: '', bold: '', reset: '' };
+// Default concurrency lowered from 6 to 3 after we observed the first
+// batch of 6 simultaneous fetches racing TLS/DNS warmup on this machine
+// — every URL in the first batch returned UND_ERR_CONNECT_TIMEOUT
+// (undici code "20") even though identical URLs returned 200 milliseconds
+// later. 3 leaves enough parallelism that the run still finishes in
+// well under a minute on 50 artists.
+const CONCURRENCY = Math.max(1, Number(args.concurrency) || 3);
 const TIMEOUT_MS = 10_000;
 const MAX_REDIRECTS = 5;
 
@@ -121,19 +139,51 @@ async function fetchOne(url, { method = 'HEAD' } = {}) {
   }
 }
 
+// Transient error codes worth retrying. UND_ERR_CONNECT_TIMEOUT (numeric
+// code 20 in undici), DNS races, TLS handshake aborts, etc. happen
+// during the first burst of a fresh process — usually settle on retry.
+const RETRYABLE = new Set([
+  'UND_ERR_CONNECT_TIMEOUT',
+  'UND_ERR_HEADERS_TIMEOUT',
+  'UND_ERR_BODY_TIMEOUT',
+  'UND_ERR_SOCKET',
+  'ECONNRESET',
+  'ETIMEDOUT',
+  'EAI_AGAIN',
+  'ENETUNREACH',
+  20, // some undici versions surface the numeric only
+]);
+
+async function fetchWithRetry(url, options, attempts = 3) {
+  let lastErr;
+  for (let i = 0; i < attempts; i++) {
+    try {
+      return await fetchOne(url, options);
+    } catch (err) {
+      lastErr = err;
+      const cause = err.cause ?? err;
+      const code = cause?.code;
+      if (!RETRYABLE.has(code) && !RETRYABLE.has(String(code))) throw err;
+      // Brief back-off before retry — gives DNS/TLS warmup time to settle.
+      await new Promise((r) => setTimeout(r, 250 * (i + 1)));
+    }
+  }
+  throw lastErr;
+}
+
 async function checkUrl(originalUrl) {
   let url = originalUrl;
   const chain = [];
   for (let i = 0; i <= MAX_REDIRECTS; i++) {
     let res;
     try {
-      res = await fetchOne(url, { method: 'HEAD' });
+      res = await fetchWithRetry(url, { method: 'HEAD' });
       // Some servers (Amazon /dp/, certain WAFs) return 4xx on HEAD.
       // Retry with GET, but only when no redirect was given — a 30x
       // already tells us where to go.
       const isRedirect = res.status >= 300 && res.status < 400;
       if (!isRedirect && [400, 403, 405, 501].includes(res.status)) {
-        res = await fetchOne(url, { method: 'GET' });
+        res = await fetchWithRetry(url, { method: 'GET' });
       }
     } catch (err) {
       const cause = err.cause ?? err;
@@ -232,7 +282,7 @@ if (!JSON_OUT) {
 const checked = await pool(targets, CONCURRENCY, async (t) => {
   const r = await checkUrl(t.url);
   if (!JSON_OUT) {
-    const tag = r.ok ? '\x1b[32m[OK  ]\x1b[0m' : '\x1b[31m[FAIL]\x1b[0m';
+    const tag = r.ok ? `${c.ok}[OK  ]${c.reset}` : `${c.fail}[FAIL]${c.reset}`;
     const status = (r.status ?? 'ERR').toString().padStart(3);
     const slugCol = t.slug.padEnd(22);
     const keyCol = t.key.padEnd(11);
@@ -279,8 +329,8 @@ if (JSON_OUT) {
   );
 } else {
   console.log(
-    `\nSummary: \x1b[1m${passed.length}/${checked.length}\x1b[0m OK, ` +
-      `\x1b[1m${failed.length}\x1b[0m failed.`
+    `\nSummary: ${c.bold}${passed.length}/${checked.length}${c.reset} OK, ` +
+      `${c.bold}${failed.length}${c.reset} failed.`
   );
   if (failed.length > 0) {
     console.log('\nFailures:');

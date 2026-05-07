@@ -27,6 +27,7 @@ export const psy = [
       website: 'https://www.astrix.co.il',
       spotify: 'https://open.spotify.com/artist/3ggJ7qYsM1Y0hqCiIqVAik',
       soundcloud: 'https://soundcloud.com/astrix-official',
+      beatport: 'https://www.beatport.com/search?q=Astrix',
     },
     sub: { en: 'Full-On Psytrance', ja: 'フルオン・サイトランス' },
     short: {
@@ -85,6 +86,7 @@ Astrixはサイトランスとダンスミュージックを擁護するアク�
     links: {
       spotify: 'https://open.spotify.com/artist/2qxJFvFYMEDqd7ui6kSAcq',
       soundcloud: 'https://soundcloud.com/vinivici',
+      beatport: 'https://www.beatport.com/search?q=Vini+Vici',
     },
     sub: { en: 'Full-On Psytrance / Crossover', ja: 'フルオン・サイトランス / クロスオーバー' },
     short: {
@@ -144,6 +146,7 @@ Vini Viciの商業的成功はサイトランスのアンダーグラウンド�
       website: 'https://infected-mushroom.com',
       spotify: 'https://open.spotify.com/artist/0YcvWLm0XTjcjxbsJhXalh',
       soundcloud: 'https://soundcloud.com/infected-mushroom',
+      beatport: 'https://www.beatport.com/search?q=Infected+Mushroom',
     },
     sub: { en: 'Psytrance / Progressive Psy / Live', ja: 'サイトランス / プログレッシブ・サイ / ライブ' },
     short: {
@@ -203,6 +206,7 @@ Infected Mushroomは長寿性でも特筆される。30年にわたり創造的�
       website: 'https://anymamusic.com',
       spotify: 'https://open.spotify.com/artist/4Bp82MfgdHzE5SGX9MQrC1',
       soundcloud: 'https://soundcloud.com/anymamusic',
+      beatport: 'https://www.beatport.com/search?q=Anyma',
     },
     sub: { en: 'Melodic Techno / Progressive', ja: 'メロディック・テクノ / プログレッシブ' },
     short: {
@@ -261,6 +265,7 @@ While not strictly a trance artist by any narrow definition, Anyma's sound is bu
     links: {
       spotify: 'https://open.spotify.com/artist/24Lr4WqYcphnQrcxPMPMZB',
       soundcloud: 'https://soundcloud.com/solarstone',
+      beatport: 'https://www.beatport.com/search?q=Solarstone',
     },
     sub: { en: 'Pure Trance / Progressive', ja: 'ピュア・トランス / プログレッシブ' },
     short: {

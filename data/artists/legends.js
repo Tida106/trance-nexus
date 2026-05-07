@@ -32,6 +32,7 @@ export const legends = [
       website: 'https://www.arminvanbuuren.com',
       spotify: 'https://open.spotify.com/artist/0SfsnGyD8FpIN4U4WCkBZ5',
       soundcloud: 'https://soundcloud.com/arminvanbuuren',
+      beatport: 'https://www.beatport.com/search?q=Armin+van+Buuren',
     },
     sub: { en: 'Uplifting / Progressive', ja: 'アップリフティング / プログレッシブ' },
     short: {
@@ -93,6 +94,7 @@ DJ Mag誌ワールドNo.1 DJに史上最多タイの5回（2007、2008、2009、
       website: 'https://www.tiesto.com',
       spotify: 'https://open.spotify.com/artist/2o5jDhtHVPhrJdv3cEQ99Z',
       soundcloud: 'https://soundcloud.com/tiesto',
+      beatport: 'https://www.beatport.com/search?q=Tiesto',
     },
     sub: { en: 'Progressive Trance / Open-format', ja: 'プログレッシブ・トランス / オープンフォーマット' },
     short: {
@@ -153,6 +155,7 @@ In 2022 he was voted "Greatest DJ of All Time" by Mixmag readers. Whatever genre
       website: 'https://www.paulvandyk.com',
       spotify: 'https://open.spotify.com/artist/1Bl6wpkWCQ4KVgnASpvzzA',
       soundcloud: 'https://soundcloud.com/paulvandyk',
+      beatport: 'https://www.beatport.com/search?q=Paul+van+Dyk',
     },
     sub: { en: 'Progressive / Uplifting Trance', ja: 'プログレッシブ / アップリフティング・トランス' },
     short: {
@@ -213,6 +216,7 @@ In 2016 he survived a near-fatal fall from the stage at A State of Trance in Utr
       website: 'https://www.ferrycorsten.com',
       spotify: 'https://open.spotify.com/artist/3vdkr8DbTu5fS3FhRKRZIz',
       soundcloud: 'https://soundcloud.com/ferrycorsten',
+      beatport: 'https://www.beatport.com/search?q=Ferry+Corsten',
     },
     sub: { en: 'Uplifting / Tech Trance', ja: 'アップリフティング / テック・トランス' },
     short: {
@@ -273,6 +277,7 @@ Tiëstoとの「Gouryella」プロジェクトでは1999年の同名アンセム
       website: 'https://aboveandbeyond.nu',
       spotify: 'https://open.spotify.com/artist/3pp2tmmXEYePnNjGiNa1Bs',
       soundcloud: 'https://soundcloud.com/aboveandbeyond',
+      beatport: 'https://www.beatport.com/search?q=Above+%26+Beyond',
     },
     sub: { en: 'Vocal / Progressive Trance', ja: 'ボーカル / プログレッシブ・トランス' },
     short: {
