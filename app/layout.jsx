@@ -1,8 +1,35 @@
 import './globals.css';
 import { LanguageProvider } from '@/lib/useTranslation';
 import Script from 'next/script';
-import CookieBanner from '@/components/CookieBanner';
-import PWARegister from '@/components/PWARegister';
+import DeferredChrome from '@/components/DeferredChrome';
+import { Bebas_Neue, Barlow_Condensed, Noto_Sans_JP } from 'next/font/google';
+
+// Self-hosted via next/font: eliminates the render-blocking @import to
+// fonts.googleapis.com and the follow-on hop to fonts.gstatic.com. Fonts
+// are inlined into a same-origin CSS file, automatically preloaded, and
+// emit zero CLS thanks to the size-adjust fallback metrics.
+const bebas = Bebas_Neue({
+  weight: '400',
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-bebas',
+});
+const barlow = Barlow_Condensed({
+  weight: ['300', '400', '600', '700'],
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-barlow',
+});
+// Noto Sans JP is large; never preload it. Browsers fetch it only on pages
+// that actually render Japanese characters, falling back to system JP fonts
+// (Hiragino / Yu Gothic / Meiryo) until then. This keeps the first paint
+// fast on English pages without hurting Japanese readability.
+const notoJP = Noto_Sans_JP({
+  weight: ['400', '700'],
+  preload: false,
+  display: 'swap',
+  variable: '--font-noto-jp',
+});
 
 const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH || '';
 
@@ -40,6 +67,12 @@ export const metadata = {
     images: ['/og-default.png'],
   },
   alternates: {
+    canonical: '/',
+    languages: {
+      'en': '/',
+      'ja': '/',
+      'x-default': '/',
+    },
     types: {
       'application/rss+xml': [
         { url: '/rss.xml', title: 'TRANCE NEXUS — Blog' },
@@ -49,6 +82,22 @@ export const metadata = {
       'application/atom+xml': [
         { url: '/atom.xml', title: 'TRANCE NEXUS — Blog (Atom)' },
       ],
+    },
+  },
+  formatDetection: {
+    telephone: false,
+    email: false,
+    address: false,
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+      'max-video-preview': -1,
     },
   },
 };
@@ -63,9 +112,28 @@ export const viewport = {
 };
 
 export default function RootLayout({ children }) {
+  const fontVars = `${bebas.variable} ${barlow.variable} ${notoJP.variable}`;
+  // Initial render uses lang="en" to match LanguageProvider's initial state.
+  // Once the client hydrates and reads the saved preference from
+  // localStorage, useTranslation flips document.documentElement.lang. The
+  // suppressHydrationWarning silences the false-positive React would log
+  // if the user previously chose Japanese (the post-hydration update is
+  // intentional — we serve the same static HTML to every visitor).
   return (
-    <html lang="ja">
+    <html lang="en" className={fontVars} suppressHydrationWarning>
       <head>
+        {/* Open early TCP/TLS to embed origins so the first iframe paint is
+            not gated on a fresh handshake. dns-prefetch is the cheap fallback
+            for browsers that ignore preconnect. */}
+        <link rel="preconnect" href="https://open.spotify.com" crossOrigin="" />
+        <link rel="preconnect" href="https://www.youtube-nocookie.com" crossOrigin="" />
+        <link rel="preconnect" href="https://w.soundcloud.com" crossOrigin="" />
+        <link rel="preconnect" href="https://embed.music.apple.com" crossOrigin="" />
+        <link rel="dns-prefetch" href="https://open.spotify.com" />
+        <link rel="dns-prefetch" href="https://www.youtube-nocookie.com" />
+        <link rel="dns-prefetch" href="https://w.soundcloud.com" />
+        <link rel="dns-prefetch" href="https://embed.music.apple.com" />
+
         {/* Google Search Console — replace content value after verifying ownership */}
         {/* <meta name="google-site-verification" content="YOUR_VERIFICATION_CODE_HERE" /> */}
 
@@ -86,19 +154,22 @@ export default function RootLayout({ children }) {
           }}
         />
 
+        {/* AdSense — lazyOnload defers until after the load event so it does
+            not contend with first paint or hydration. */}
         <Script
-          async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4224563062633828"
           data-ad-client="ca-pub-4224563062633828"
           crossOrigin="anonymous"
-          strategy="afterInteractive"
+          strategy="lazyOnload"
         />
       </head>
       <body className="bg-dark-bg text-text-light">
+        <a href="#main" className="skip-link">Skip to content</a>
         <LanguageProvider>
-          {children}
-          <CookieBanner />
-          <PWARegister />
+          <div id="main" tabIndex={-1}>
+            {children}
+          </div>
+          <DeferredChrome />
         </LanguageProvider>
       </body>
     </html>

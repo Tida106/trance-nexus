@@ -15,6 +15,12 @@ const nextConfig = {
   env: {
     NEXT_PUBLIC_BASE_PATH: process.env.BASE_PATH ?? '',
   },
+  compiler: {
+    removeConsole: process.env.NODE_ENV === 'production'
+      ? { exclude: ['error', 'warn'] }
+      : false,
+  },
+  productionBrowserSourceMaps: false,
 };
 
 module.exports = nextConfig;

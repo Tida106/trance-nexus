@@ -1,23 +1,34 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+import dynamic from 'next/dynamic';
 import { useTranslation } from '@/lib/useTranslation';
-import SearchModal from './SearchModal';
+
+// SearchModal pulls in minisearch + the full search-index fetch flow.
+// Defer the JS until the user actually requests search — first paint
+// of every page that includes the nav stays lean.
+const SearchModal = dynamic(() => import('./SearchModal'), { ssr: false });
 
 export default function SearchTrigger() {
   const { language } = useTranslation();
   const isJA = language === 'ja';
   const [open, setOpen] = useState(false);
+  // Track whether the modal has ever been requested. Once true we keep
+  // mounting it so reopen is instant; before that, the chunk is never
+  // fetched.
+  const [armed, setArmed] = useState(false);
 
   // Cmd+K (mac) / Ctrl+K (everywhere else) toggles the modal globally.
   useEffect(() => {
     function onKey(e) {
       if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k') {
         e.preventDefault();
+        setArmed(true);
         setOpen((o) => !o);
       } else if (e.key === '/' && document.activeElement?.tagName !== 'INPUT' && document.activeElement?.tagName !== 'TEXTAREA') {
         // Convenience: lone "/" opens search if not typing in a field.
         e.preventDefault();
+        setArmed(true);
         setOpen(true);
       }
     }
@@ -28,7 +39,7 @@ export default function SearchTrigger() {
   return (
     <>
       <button
-        onClick={() => setOpen(true)}
+        onClick={() => { setArmed(true); setOpen(true); }}
         aria-label={isJA ? 'サイト内検索を開く' : 'Open site search'}
         className="font-bebas text-sm tracking-widest text-text-muted hover:text-accent-orange px-4 h-[60px] border-l border-orange-900/20 flex items-center gap-2 transition-colors"
       >
@@ -38,7 +49,7 @@ export default function SearchTrigger() {
           ⌘K
         </span>
       </button>
-      <SearchModal open={open} onClose={() => setOpen(false)} />
+      {armed && <SearchModal open={open} onClose={() => setOpen(false)} />}
     </>
   );
 }

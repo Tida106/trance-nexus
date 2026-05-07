@@ -4,6 +4,12 @@ module.exports = {
     './app/**/*.{js,jsx}',
     './components/**/*.{js,jsx}',
   ],
+  // hoverOnlyWhenSupported gates `hover:` utilities behind `@media(hover:hover)`,
+  // so touch devices don't get the "stuck hover" state after a tap. This is
+  // both a UX and a paint-perf win: less invalidation churn on mobile.
+  future: {
+    hoverOnlyWhenSupported: true,
+  },
   theme: {
     extend: {
       colors: {
@@ -18,8 +24,9 @@ module.exports = {
         'text-muted': '#6b4e2a',
       },
       fontFamily: {
-        'bebas': ['Bebas Neue', 'sans-serif'],
-        'barlow': ['Barlow Condensed', 'sans-serif'],
+        'bebas': ['var(--font-bebas)', 'Bebas Neue', 'sans-serif'],
+        'barlow': ['var(--font-barlow)', 'Barlow Condensed', 'sans-serif'],
+        'jp': ['var(--font-noto-jp)', 'Hiragino Kaku Gothic ProN', 'Yu Gothic UI', 'Meiryo', 'sans-serif'],
       },
     },
   },

@@ -3,13 +3,15 @@
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
 import Link from 'next/link';
+import dynamic from 'next/dynamic';
 import { useTranslation } from '@/lib/useTranslation';
 import { listing } from '@/data/blog/listing';
 import { artists } from '@/data/artists/index';
 import { labels } from '@/data/labels/index';
 import ArtistCard from '@/components/ArtistCard';
 import LabelCard from '@/components/LabelCard';
-import NewsletterForm from '@/components/NewsletterForm';
+
+const NewsletterForm = dynamic(() => import('@/components/NewsletterForm'), { ssr: false });
 
 export default function Home() {
   const { t } = useTranslation();
@@ -150,7 +152,7 @@ export default function Home() {
       </section>
 
       {/* RADIO SECTION */}
-      <section id="radio" className="relative z-10 py-24 px-12">
+      <section id="radio" className="cv-auto relative z-10 py-24 px-12">
         <div className="max-w-7xl mx-auto">
           <div className="mb-12">
             <h2 className="font-bebas text-5xl tracking-wider text-white mb-2">
@@ -171,7 +173,7 @@ export default function Home() {
       </section>
 
       {/* SETLISTS SECTION */}
-      <section id="setlist" className="relative z-10 py-24 px-12 bg-dark-bg2/50">
+      <section id="setlist" className="cv-auto relative z-10 py-24 px-12 bg-dark-bg2/50">
         <div className="max-w-7xl mx-auto">
           <div className="mb-12">
             <h2 className="font-bebas text-5xl tracking-wider text-white mb-2">
@@ -192,7 +194,7 @@ export default function Home() {
       </section>
 
       {/* EVENTS SECTION */}
-      <section id="events" className="relative z-10 py-24 px-12">
+      <section id="events" className="cv-auto relative z-10 py-24 px-12">
         <div className="max-w-7xl mx-auto">
           <div className="mb-12">
             <h2 className="font-bebas text-5xl tracking-wider text-white mb-2">
@@ -213,7 +215,7 @@ export default function Home() {
       </section>
 
       {/* BLOG SECTION — latest 5 articles */}
-      <section id="blog" className="relative z-10 py-24 px-12 bg-dark-bg2/50">
+      <section id="blog" className="cv-auto relative z-10 py-24 px-12 bg-dark-bg2/50">
         <div className="max-w-7xl mx-auto">
           <div className="mb-10">
             <h2 className="font-bebas text-5xl tracking-wider text-white mb-2">
@@ -222,15 +224,19 @@ export default function Home() {
             <div className="w-20 h-1 bg-gradient-to-r from-accent-red via-accent-orange to-transparent" />
           </div>
 
-          {/* Latest 5 article cards */}
+          {/* Latest 5 article cards. The home page already prefetches the
+              first three on hover; cards 4–5 sit below the fold on most
+              viewports, so we drop their prefetch to keep the homepage
+              JS budget in check. */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mb-10">
-            {listing.slice(0, 5).map((post) => {
+            {listing.slice(0, 5).map((post, i) => {
               const isJA = t('nav.artists') === 'アーティスト';
               const c = isJA ? post.ja : post.en;
               return (
                 <Link
                   key={post.slug}
                   href={`/blog/${post.slug}`}
+                  prefetch={i < 3 ? undefined : false}
                   className="group bg-dark-bg2/80 border border-orange-900/20 rounded-sm overflow-hidden hover:border-accent-orange/50 hover:translate-y-[-4px] hover:shadow-xl transition-all block"
                 >
                   <div className="h-1.5 bg-gradient-to-r from-accent-red via-accent-orange to-accent-amber" />
@@ -267,7 +273,7 @@ export default function Home() {
       </section>
 
       <section
-        className="relative z-10 py-16 px-12 overflow-hidden"
+        className="cv-auto relative z-10 py-16 px-12 overflow-hidden"
         aria-label="Explore Trance History"
       >
         <div className="absolute inset-0 bg-gradient-to-r from-accent-red/10 via-accent-orange/15 to-amber-500/10 pointer-events-none" />
@@ -308,7 +314,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="relative z-10 py-16 px-12 bg-gradient-to-b from-transparent via-accent-orange/5 to-transparent">
+      <section className="cv-auto relative z-10 py-16 px-12 bg-gradient-to-b from-transparent via-accent-orange/5 to-transparent">
         <div className="max-w-2xl mx-auto">
           <NewsletterForm variant="cta" />
         </div>

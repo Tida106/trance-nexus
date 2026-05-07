@@ -2,9 +2,9 @@
   "name": "TRANCE NEXUS — Trance Music Portal",
   "short_name": "TRANCE NEXUS",
   "description": "Comprehensive trance music portal: artists, labels, radio shows, setlists, festivals, and long-form journalism.",
-  "start_url": "/trance-nexus/",
-  "scope": "/trance-nexus/",
-  "id": "/trance-nexus/",
+  "start_url": "/",
+  "scope": "/",
+  "id": "/",
   "display": "standalone",
   "orientation": "portrait-primary",
   "theme_color": "#f97316",
@@ -18,19 +18,19 @@
   ],
   "icons": [
     {
-      "src": "/trance-nexus/icons/icon-192.png",
+      "src": "/icons/icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/trance-nexus/icons/icon-512.png",
+      "src": "/icons/icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/trance-nexus/icons/icon-512-maskable.png",
+      "src": "/icons/icon-512-maskable.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
@@ -40,10 +40,10 @@
     {
       "name": "Blog",
       "short_name": "Blog",
-      "url": "/trance-nexus/blog",
+      "url": "/blog",
       "icons": [
         {
-          "src": "/trance-nexus/icons/icon-192.png",
+          "src": "/icons/icon-192.png",
           "sizes": "192x192"
         }
       ]
@@ -51,10 +51,10 @@
     {
       "name": "Artists",
       "short_name": "Artists",
-      "url": "/trance-nexus/artists",
+      "url": "/artists",
       "icons": [
         {
-          "src": "/trance-nexus/icons/icon-192.png",
+          "src": "/icons/icon-192.png",
           "sizes": "192x192"
         }
       ]
@@ -62,10 +62,10 @@
     {
       "name": "Radio",
       "short_name": "Radio",
-      "url": "/trance-nexus/radio",
+      "url": "/radio",
       "icons": [
         {
-          "src": "/trance-nexus/icons/icon-192.png",
+          "src": "/icons/icon-192.png",
           "sizes": "192x192"
         }
       ]

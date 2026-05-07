@@ -1,8 +1,12 @@
 'use client';
 
 import Link from 'next/link';
+import dynamic from 'next/dynamic';
 import { useTranslation } from '@/lib/useTranslation';
-import NewsletterForm from './NewsletterForm';
+
+// Footer renders on every page below the fold; defer the form's JS so it
+// does not contend with the LCP element above.
+const NewsletterForm = dynamic(() => import('./NewsletterForm'), { ssr: false });
 
 export default function Footer() {
   const { t, language } = useTranslation();
@@ -23,82 +27,99 @@ export default function Footer() {
         {t('footer.copyright')}<br />
         {t('footer.affiliates')}
       </p>
+      {/* Footer links: prefetch={false} avoids dragging every page chunk into
+          every page just because the footer is in scope. Users reach these
+          deliberately; trading a ~50ms cold navigation for ~500KB of saved
+          JS is the right call for PSI / TTI. */}
       <div className="flex gap-6 mt-1 flex-wrap justify-center">
         <Link
           href="/artists"
-          className="text-xs tracking-widest text-text-muted hover:text-accent-orange transition-colors"
+          prefetch={false}
+          className="text-xs tracking-widest text-text-muted hover:text-accent-orange focus-visible:text-accent-orange transition-colors"
         >
           {isJA ? 'アーティスト' : 'Artists'}
         </Link>
         <Link
           href="/labels"
-          className="text-xs tracking-widest text-text-muted hover:text-accent-orange transition-colors"
+          prefetch={false}
+          className="text-xs tracking-widest text-text-muted hover:text-accent-orange focus-visible:text-accent-orange transition-colors"
         >
           {isJA ? 'レーベル' : 'Labels'}
         </Link>
         <Link
           href="/blog"
-          className="text-xs tracking-widest text-text-muted hover:text-accent-orange transition-colors"
+          prefetch={false}
+          className="text-xs tracking-widest text-text-muted hover:text-accent-orange focus-visible:text-accent-orange transition-colors"
         >
           {isJA ? 'ブログ' : 'Blog'}
         </Link>
         <Link
           href="/category"
-          className="text-xs tracking-widest text-text-muted hover:text-accent-orange transition-colors"
+          prefetch={false}
+          className="text-xs tracking-widest text-text-muted hover:text-accent-orange focus-visible:text-accent-orange transition-colors"
         >
           {isJA ? 'カテゴリ' : 'Categories'}
         </Link>
         <Link
           href="/tag"
-          className="text-xs tracking-widest text-text-muted hover:text-accent-orange transition-colors"
+          prefetch={false}
+          className="text-xs tracking-widest text-text-muted hover:text-accent-orange focus-visible:text-accent-orange transition-colors"
         >
           {isJA ? 'タグ' : 'Tags'}
         </Link>
         <Link
           href="/glossary"
-          className="text-xs tracking-widest text-text-muted hover:text-accent-orange transition-colors"
+          prefetch={false}
+          className="text-xs tracking-widest text-text-muted hover:text-accent-orange focus-visible:text-accent-orange transition-colors"
         >
           {isJA ? '用語集' : 'Glossary'}
         </Link>
         <Link
           href="/timeline"
-          className="text-xs tracking-widest text-text-muted hover:text-accent-orange transition-colors"
+          prefetch={false}
+          className="text-xs tracking-widest text-text-muted hover:text-accent-orange focus-visible:text-accent-orange transition-colors"
         >
           {isJA ? 'タイムライン' : 'Timeline'}
         </Link>
         <Link
           href="/about"
-          className="text-xs tracking-widest text-text-muted hover:text-accent-orange transition-colors"
+          prefetch={false}
+          className="text-xs tracking-widest text-text-muted hover:text-accent-orange focus-visible:text-accent-orange transition-colors"
         >
           {isJA ? '運営者情報' : 'About'}
         </Link>
         <Link
           href="/privacy"
-          className="text-xs tracking-widest text-text-muted hover:text-accent-orange transition-colors"
+          prefetch={false}
+          className="text-xs tracking-widest text-text-muted hover:text-accent-orange focus-visible:text-accent-orange transition-colors"
         >
           {isJA ? 'プライバシーポリシー' : 'Privacy Policy'}
         </Link>
         <Link
           href="/cookies"
-          className="text-xs tracking-widest text-text-muted hover:text-accent-orange transition-colors"
+          prefetch={false}
+          className="text-xs tracking-widest text-text-muted hover:text-accent-orange focus-visible:text-accent-orange transition-colors"
         >
           {isJA ? 'Cookieポリシー' : 'Cookies'}
         </Link>
         <Link
           href="/dmca"
-          className="text-xs tracking-widest text-text-muted hover:text-accent-orange transition-colors"
+          prefetch={false}
+          className="text-xs tracking-widest text-text-muted hover:text-accent-orange focus-visible:text-accent-orange transition-colors"
         >
           DMCA
         </Link>
         <Link
           href="/terms"
-          className="text-xs tracking-widest text-text-muted hover:text-accent-orange transition-colors"
+          prefetch={false}
+          className="text-xs tracking-widest text-text-muted hover:text-accent-orange focus-visible:text-accent-orange transition-colors"
         >
           {isJA ? '利用規約' : 'Terms'}
         </Link>
         <Link
           href="/contact"
-          className="text-xs tracking-widest text-text-muted hover:text-accent-orange transition-colors"
+          prefetch={false}
+          className="text-xs tracking-widest text-text-muted hover:text-accent-orange focus-visible:text-accent-orange transition-colors"
         >
           {isJA ? 'お問い合わせ' : 'Contact'}
         </Link>

@@ -1,4 +1,4 @@
-// trance-nexus service worker — cache version: tn-2026-05-06-mounu76i
+// trance-nexus service worker — cache version: tn-2026-05-07-mouz0xln
 //
 // Strategy:
 //   1. Pre-cache app-shell on install (best-effort; one 404 won't abort).
@@ -11,19 +11,19 @@
 // that does not match this name is deleted, so old assets cannot stick around
 // across deploys.
 
-const CACHE_NAME = 'tn-2026-05-06-mounu76i';
+const CACHE_NAME = 'tn-2026-05-07-mouz0xln';
 const PRECACHE_URLS = [
-  "/trance-nexus/",
-  "/trance-nexus/blog",
-  "/trance-nexus/artists",
-  "/trance-nexus/labels",
-  "/trance-nexus/radio",
-  "/trance-nexus/manifest.webmanifest",
-  "/trance-nexus/icons/icon-192.png",
-  "/trance-nexus/icons/icon-512.png",
-  "/trance-nexus/icons/apple-touch-icon.png"
+  "/",
+  "/blog",
+  "/artists",
+  "/labels",
+  "/radio",
+  "/manifest.webmanifest",
+  "/icons/icon-192.png",
+  "/icons/icon-512.png",
+  "/icons/apple-touch-icon.png"
 ];
-const BASE_PATH = "/trance-nexus";
+const BASE_PATH = "";
 
 self.addEventListener('install', (event) => {
   event.waitUntil((async () => {

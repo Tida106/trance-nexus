@@ -7,7 +7,10 @@ export default function Navigation() {
   const { t, language, switchLanguage } = useTranslation();
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 h-[60px] bg-black/96 backdrop-blur-xl border-b-2 border-accent-orange flex items-center justify-between px-12">
+    <nav
+      aria-label={t('nav.artists') === 'アーティスト' ? 'グローバルナビゲーション' : 'Primary navigation'}
+      className="fixed top-0 left-0 right-0 z-50 h-[60px] bg-black/96 backdrop-blur-xl border-b-2 border-accent-orange flex items-center justify-between px-12"
+    >
       <div className="font-bebas text-2xl tracking-widest text-accent-orange drop-shadow-lg">
         TRANCE<span className="text-accent-red">NEXUS</span>
       </div>
@@ -30,7 +33,10 @@ export default function Navigation() {
         <SearchTrigger />
         <div className="border-l border-orange-900/20 px-5 h-[60px] leading-[60px] flex gap-2">
           <button
+            type="button"
             onClick={() => switchLanguage('en')}
+            aria-label="Switch to English"
+            aria-pressed={language === 'en'}
             className={`font-bebas text-sm tracking-widest transition-all ${
               language === 'en'
                 ? 'text-accent-orange drop-shadow-lg'
@@ -39,9 +45,12 @@ export default function Navigation() {
           >
             EN
           </button>
-          <span className="text-text-muted/30">|</span>
+          <span aria-hidden="true" className="text-text-muted/30">|</span>
           <button
+            type="button"
             onClick={() => switchLanguage('ja')}
+            aria-label="日本語に切り替え"
+            aria-pressed={language === 'ja'}
             className={`font-bebas text-sm tracking-widest transition-all ${
               language === 'ja'
                 ? 'text-accent-orange drop-shadow-lg'
