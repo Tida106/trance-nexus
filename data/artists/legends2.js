@@ -237,4 +237,96 @@ Pushに加え、M.I.K.E.、Plastic Boy、DJ Solar Stone（Solarstoneとは別人
     },
     mentionedIn: ['history-of-trance-music', 'iconic-trance-anthems-that-defined-an-era'],
   },
+
+  {
+    slug: 'mauro-picotto',
+    name: 'Mauro Picotto',
+    flag: '🇮🇹',
+    emoji: '🦎',
+    genre: 'UPLIFTING',
+    banner: 'b-uplifting',
+    tags: ['HARD TRANCE', 'ITALIAN', 'CLASSIC'],
+    realName: 'Mauro Picotto',
+    origin: 'Cavour, Italy',
+    born: '1966',
+    activeFrom: '1991',
+    labels: ['BXR', 'Media Records', 'Bakerloo Records', 'Alchemy'],
+    topWorks: [
+      { title: 'Lizard', year: 1998, type: 'track' },
+      { title: 'Komodo (Save a Soul)', year: 1999, type: 'track' },
+      { title: 'Iguana', year: 2000, type: 'track' },
+      { title: 'Pulsar', year: 2001, type: 'track' },
+      { title: 'Like This Like That', year: 2003, type: 'track' },
+    ],
+    related: ['gigi-dagostino', 'push', 'paul-van-dyk', 'tiesto'],
+    links: {
+      website: 'https://www.mauropicotto.com',
+      soundcloud: 'https://soundcloud.com/search?q=Mauro%20Picotto',
+      beatport: 'https://www.beatport.com/search?q=Mauro%20Picotto',
+    },
+    sub: { en: 'Italian Hard Trance', ja: 'イタリアン・ハード・トランス' },
+    short: {
+      en: 'Italian hard-trance icon whose "lizard sound" defined turn-of-millennium club anthems.',
+      ja: '「リザード・サウンド」で世紀の変わり目のクラブ・アンセムを定義したイタリアのハード・トランスの象徴。',
+    },
+    style: {
+      en: 'Driving, percussive Italian hard trance with sliding-arpeggio lead synths — the "lizard" signature he turned into an entire trilogy of related tracks (Lizard, Komodo, Iguana, Pulsar).',
+      ja: 'ドライヴィングでパーカッシヴなイタリアン・ハード・トランスに、スライドするアルペジオのリード・シンセ——彼が「リザード」シグネチャー・サウンドとして展開した一連の関連トラック（Lizard、Komodo、Iguana、Pulsar）の核。',
+    },
+    bio: {
+      en: `Mauro Picotto, born in Cavour in northern Italy in 1966, is one of the most internationally successful Italian trance producers in history. Coming up through Gianfranco Bortolotti's Media Records / BXR stable in the early 90s, he broke through globally with "Lizard" in 1998 — a track whose unforgettable sliding-arpeggio lead became the template for Italian hard trance. He extended the idea into a loose "lizard family" trilogy with Komodo, Iguana, and Pulsar, all of which charted across Europe and became staples of trance Year Mixes.
+
+Beyond his own productions Picotto was a sought-after remixer and a fixture at Italian super-clubs Cocoricò and Insomnia, and his Meganite events ran for years across Ibiza and Italy. He continues to release on Bakerloo and Alchemy.`,
+      ja: `マウロ・ピコット、1966年北イタリア・カヴール生まれ。Gianfranco BortolottiのMedia Records／BXRから90年代初頭に登場し、1998年の「Lizard」で世界的にブレイク——スライドするアルペジオのリードはイタリアン・ハード・トランスの定型となった。Komodo、Iguana、Pulsarへと続く「リザード・ファミリー」三部作は欧州各地でチャート入りし、トランス年間ミックスの定番に。
+
+自身のプロダクションに加え、リミキサーとしても引っ張りだことなり、イタリアのスーパークラブCocoricòとInsomniaのレジデント、Meganiteイベントもイビザとイタリアで長期間展開した。現在もBakerlooとAlchemyからリリースを続けている。`,
+    },
+    mentionedIn: ['history-of-trance-music'],
+  },
+
+  {
+    slug: 'gigi-dagostino',
+    name: "Gigi D'Agostino",
+    flag: '🇮🇹',
+    emoji: '🍷',
+    genre: 'PROGRESSIVE',
+    banner: 'b-progressive',
+    tags: ['ITALODANCE', 'MEDITERRANEAN PROGRESSIVE', 'CLASSIC'],
+    realName: 'Luigino Celestino Di Agostino',
+    origin: 'Turin, Italy',
+    born: '1967',
+    activeFrom: '1986',
+    labels: ['Media Records', 'BXR', 'ZYX Music', 'Gigi D\'Agostino Planet'],
+    topWorks: [
+      { title: "L'Amour Toujours", year: 1999, type: 'track' },
+      { title: 'Bla Bla Bla', year: 1999, type: 'track' },
+      { title: 'The Riddle', year: 1999, type: 'track' },
+      { title: 'La Passion', year: 2000, type: 'track' },
+      { title: 'I\'ll Fly with You', year: 1999, type: 'track' },
+    ],
+    related: ['mauro-picotto', 'robert-miles', 'atb', 'paul-van-dyk'],
+    links: {
+      website: 'https://www.gigidagostino.com',
+      soundcloud: 'https://soundcloud.com/gigi-d-agostino-official',
+      beatport: 'https://www.beatport.com/search?q=Gigi%20D%27Agostino',
+    },
+    sub: { en: 'Italodance / Mediterranean Progressive', ja: 'イタロダンス / メディタレニアン・プログレッシブ' },
+    short: {
+      en: 'Italian icon whose "L\'Amour Toujours" and "Bla Bla Bla" became inescapable global hits and defined Mediterranean Progressive.',
+      ja: '「L\'Amour Toujours」「Bla Bla Bla」で世界的な大ヒットを生み、メディタレニアン・プログレッシブを定義したイタリアの象徴。',
+    },
+    style: {
+      en: 'Warm Mediterranean Progressive — slow-tempo emotional builds, plucked melodic leads, often with French- or English-language vocal samples. Later pioneered the "Lento Violento" slow-hard subgenre.',
+      ja: '暖かなメディタレニアン・プログレッシブ——スロー・テンポの情緒的なビルド、プラックされたメロディック・リード、しばしばフランス語・英語のボーカル・サンプルを伴う。後年は「Lento Violento」というスロー・ハード・サブジャンルを開拓した。',
+    },
+    bio: {
+      en: `Luigino Di Agostino — known to the world as Gigi D'Agostino — is one of the most commercially successful Italian electronic artists of all time. Born in Turin in 1967, he started DJing in the late 80s and emerged as a producer in the mid-90s through Media Records. His 1999 single "Bla Bla Bla" hit #1 across Europe; "L'Amour Toujours" the same year became a generational anthem and remains one of the most-streamed dance tracks ever produced in Italy.
+
+D'Agostino is the architect of what he calls "Mediterranean Progressive" — slow-tempo, emotionally direct, melodic dance music — and later developed the "Lento Violento" subgenre (literally "slow violent") that paired half-tempo grooves with hard-trance attitude. His Il Programmino di Gigi mix CDs were essential listening across Italy in the late 90s and early 2000s.`,
+      ja: `ルイジーノ・ディ・アゴスティーノ——通称ジジ・ダゴスティーノ——はイタリア電子音楽史上最も商業的に成功したアーティストの一人。1967年トリノ生まれ、80年代後半からDJを始め、90年代半ばにMedia Records経由でプロデューサーとして登場。1999年シングル「Bla Bla Bla」は欧州各地で1位、同年の「L\'Amour Toujours」は世代的アンセムとなり、イタリア発のダンス・トラックとして史上最も再生された作品の一つで在り続けている。
+
+彼が「メディタレニアン・プログレッシブ」と呼ぶ——スロー・テンポで情緒的、メロディックなダンス音楽——を開拓し、後年は半テンポのグルーヴにハード・トランスの姿勢を組み合わせた「Lento Violento（直訳：スロー・バイオレント）」サブジャンルを展開。ミックスCD『Il Programmino di Gigi』は90年代末〜2000年代初頭のイタリアで必聴盤だった。`,
+    },
+    mentionedIn: ['history-of-trance-music', 'iconic-trance-anthems-that-defined-an-era'],
+  },
 ];
