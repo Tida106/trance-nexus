@@ -1,0 +1,32 @@
+{
+  "_comment": "Example chart input file — copy this to YYYY-MM.json (e.g. 2026-06.json) and replace each track with a real release. Every track must be a verifiable real release on a real label; no fabricated chart positions. The generator script (scripts/generate-monthly-chart.js) reads this file by its YYYY-MM filename and the keys below; the leading underscore in this filename keeps the template file out of the YYYY-MM glob the generator uses.",
+  "month": "June",
+  "year": 2026,
+  "publishedAt": "2026-07-01",
+  "tracks": [
+    {
+      "rank": 1,
+      "artist": "Example Artist Name",
+      "title": "Example Track Title",
+      "label": "Example Label",
+      "genre": "Uplifting Trance",
+      "releaseDate": "2026-06-15",
+      "beatportUrl": "https://www.beatport.com/track/<slug>/<id>",
+      "spotifyUrl": "https://open.spotify.com/track/<id>",
+      "review_en": "One- or two-sentence editorial review in English explaining why this track earned the position. Reference the breakdown, the bassline, the vocal, the BPM, the label context — whatever made it land.",
+      "review_ja": "英語と同じ位置を獲得した理由を説明する、1〜2文の日本語編集レビュー。ブレイクダウン、ベースライン、ボーカル、BPM、レーベル文脈などを参照する。"
+    },
+    {
+      "rank": 2,
+      "artist": "...",
+      "title": "...",
+      "label": "...",
+      "genre": "Progressive Trance",
+      "releaseDate": "2026-06-08",
+      "beatportUrl": "...",
+      "spotifyUrl": "...",
+      "review_en": "...",
+      "review_ja": "..."
+    }
+  ]
+}
