@@ -65,6 +65,13 @@ import universoParalello from './universo-paralello';
 import psyFiFestival from './psy-fi-festival';
 import sonicaFestival from './sonica-festival';
 import hilltopGoa from './hilltop-goa';
+// Batch 4 — specialty / label events
+import fsoeMilestoneEvents from './fsoe-milestone-events';
+import subcultureEvents from './subculture-events';
+import pureTranceEvents from './pure-trance-events';
+import anjunabeatsOpenAir from './anjunabeats-open-air';
+import anjunadeepOpenAir from './anjunadeep-open-air';
+import coldharbourDay from './coldharbour-day';
 
 export const events = [
   tomorrowland,
@@ -85,6 +92,12 @@ export const events = [
   psyFiFestival,
   sonicaFestival,
   hilltopGoa,
+  fsoeMilestoneEvents,
+  subcultureEvents,
+  pureTranceEvents,
+  anjunabeatsOpenAir,
+  anjunadeepOpenAir,
+  coldharbourDay,
 ];
 
 export const eventSlugs = events.map((e) => e.slug);

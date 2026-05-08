@@ -2036,6 +2036,24 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/events/abgt-milestone-events"/>
   </url>
   <url>
+    <loc>https://trance-nexus.com/events/anjunabeats-open-air</loc>
+    <lastmod>2026-05-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/events/anjunabeats-open-air"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/events/anjunabeats-open-air"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/events/anjunabeats-open-air"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/events/anjunadeep-open-air</loc>
+    <lastmod>2026-05-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/events/anjunadeep-open-air"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/events/anjunadeep-open-air"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/events/anjunadeep-open-air"/>
+  </url>
+  <url>
     <loc>https://trance-nexus.com/events/boom-festival</loc>
     <lastmod>2026-05-08</lastmod>
     <changefreq>weekly</changefreq>
@@ -2043,6 +2061,15 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/events/boom-festival"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/events/boom-festival"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/events/boom-festival"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/events/coldharbour-day</loc>
+    <lastmod>2026-05-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/events/coldharbour-day"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/events/coldharbour-day"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/events/coldharbour-day"/>
   </url>
   <url>
     <loc>https://trance-nexus.com/events/creamfields</loc>
@@ -2070,6 +2097,15 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/events/edc-las-vegas"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/events/edc-las-vegas"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/events/edc-las-vegas"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/events/fsoe-milestone-events</loc>
+    <lastmod>2026-05-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/events/fsoe-milestone-events"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/events/fsoe-milestone-events"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/events/fsoe-milestone-events"/>
   </url>
   <url>
     <loc>https://trance-nexus.com/events/hilltop-goa</loc>
@@ -2108,6 +2144,15 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/events/psy-fi-festival"/>
   </url>
   <url>
+    <loc>https://trance-nexus.com/events/pure-trance-events</loc>
+    <lastmod>2026-05-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/events/pure-trance-events"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/events/pure-trance-events"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/events/pure-trance-events"/>
+  </url>
+  <url>
     <loc>https://trance-nexus.com/events/sonica-festival</loc>
     <lastmod>2026-05-08</lastmod>
     <changefreq>weekly</changefreq>
@@ -2115,6 +2160,15 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/events/sonica-festival"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/events/sonica-festival"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/events/sonica-festival"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/events/subculture-events</loc>
+    <lastmod>2026-05-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/events/subculture-events"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/events/subculture-events"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/events/subculture-events"/>
   </url>
   <url>
     <loc>https://trance-nexus.com/events/tomorrowland-winter</loc>
