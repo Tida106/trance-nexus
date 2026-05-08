@@ -4,8 +4,8 @@ export const posts10 = [
     slug: 'building-first-trance-playlist-30-essential',
     date: '2026-06-10', readTime: 8, tags: ['classics', 'guide'],
     en: {
-      title: "Building Your First Trance Playlist: 30 Essential Tracks",
-      description: "A 30-track starter playlist for new trance listeners — five anchors from each major decade plus a vocal selection — with a use guide that turns the list into a working education rather than background music.",
+      title: 'Building Your First Trance Playlist — 30 Essential Tracks Guide',
+      description: 'A 30-track starter playlist for new trance listeners — five anchors per decade plus a vocal selection, with a use guide that turns the list into real education.',
       excerpt: "A list of thirty tracks does not make you fluent in trance. But the right thirty, listened to in the right order with the right attention, gets a new listener further in a month than another year of casual sampling.",
       content: [
         { heading: "Why a Starter Playlist Matters", body: "<p>Most playlists circulating online are either too short to be representative or too long to actually finish. Thirty tracks is the size where a new listener can listen to everything in a few weeks of normal commuting, while still hearing enough variety to develop genuine taste. The list below is built that way: not the thirty greatest tracks ever recorded, but thirty tracks that, listened to in sequence, give a new listener a working map of what trance is and how it has changed across thirty years.</p>" },
@@ -37,8 +37,8 @@ export const posts10 = [
     slug: 'how-tiesto-reinvented-trance-king-to-edm',
     date: '2026-06-11', readTime: 8, tags: ['artists', 'history'],
     en: {
-      title: "How Tiësto Reinvented Himself: From Trance King to EDM Star",
-      description: "An honest reckoning with Tiësto's mid-2000s career pivot from trance god to EDM mainstage star — what he changed, what he kept, what trance lost, and what other artists learned from watching it happen.",
+      title: 'How Tiësto Reinvented Himself — From Trance King to EDM Star Story',
+      description: "An honest reckoning with Tiësto's mid-2000s pivot from trance god to EDM mainstage star — what he changed, what he kept, and what other artists learned.",
       excerpt: "Tiësto's reinvention is the most discussed and most resented career pivot in trance history. Twenty years on, the picture is more complicated than the loyalists acknowledged at the time and more deliberate than the critics suspected.",
       content: [
         { heading: "The 1999–2007 Trance King Era", body: "<p>Between roughly 1999 and 2007, Tiësto was the most visible trance DJ in the world. The Magik mix CD series established him as a curatorial voice; the In Search of Sunrise compilations defined a sub-aesthetic of melodic, atmospheric trance distinct from the harder peak-time material that other names favoured; and the 2004 Athens Olympics opening ceremony performance — playing live to 70,000 in the stadium and a global broadcast audience — marked the absolute commercial peak of trance as a mainstream phenomenon. For nearly a decade, when general audiences thought of trance, the face they imagined was Tiësto's.</p>" },
@@ -70,8 +70,8 @@ export const posts10 = [
     slug: 'bt-stutter-edit-changed-music-tech',
     date: '2026-06-12', readTime: 8, tags: ['production', 'history'],
     en: {
-      title: "BT and the Stutter Edit: How One Producer Changed Music Tech",
-      description: "How Brian Transeau's buffer-manipulation production technique, refined across decades of his trance and electronic work, became the iZotope Stutter Edit plugin and a permanent fixture in modern production toolchains.",
+      title: 'BT and the Stutter Edit — How One Producer Changed Music Tech',
+      description: "How Brian Transeau's buffer-manipulation technique, refined across decades of his trance work, became the iZotope Stutter Edit plugin and a production staple.",
       excerpt: "BT did not just make trance records — he engineered a production technique so distinctive that it eventually became a commercial software product used across pop, hip-hop, and film scoring. The story is one of the genre's most quietly consequential.",
       content: [
         { heading: "Who BT Is, in One Paragraph", body: "<p>Brian Transeau, recording as BT, has been one of the genre's most musically literate and technically inventive producers since the mid-1990s. His albums Ima (1995), ESCM (1997), Movement in Still Life (1999), and the later more orchestral These Hopeful Machines (2010) set him apart from peers as someone interested in trance not as a club genre but as a compositional medium. He has scored films, written orchestral works, and been credited as a producer on tracks ranging from N*Sync to The Roots. Among the genre's traditional pantheon — Paul van Dyk, Ferry Corsten, Tiësto, Armin van Buuren — BT has always been slightly off to the side, valued more by other producers than by general listeners.</p>" },
@@ -103,8 +103,8 @@ export const posts10 = [
     slug: 'cosmic-gate-anisha-women-behind-mainstage',
     date: '2026-06-13', readTime: 8, tags: ['artists', 'culture'],
     en: {
-      title: "Cosmic Gate's Anisha and Beyond: Women Behind the Mainstage",
-      description: "How vocalist Anisha Nicole became the third creative member of Cosmic Gate's late-career sound — and how the same pattern of substantial-but-uncredited female creative partnership recurs across the genre.",
+      title: "Cosmic Gate's Anisha — The Vocalists Who Shape the Mainstage Sound",
+      description: "How Anisha Nicole became Cosmic Gate's third creative member — and the pattern of substantial-but-uncredited female partnership recurring across trance.",
       excerpt: "Cosmic Gate are nominally a two-man duo. Their post-2018 sound is unimaginable without Anisha, whose vocals and writing have shaped the duo's late career as much as their production. The pattern repeats across the genre, and crediting it changes who gets remembered.",
       content: [
         { heading: "Cosmic Gate, As the Marquee Has It", body: "<p>Cosmic Gate, the German production duo of Nic Chagall and Bossi (Stefan Bossems), have been a continuous presence in trance since the late 1990s, with hits across every era of the genre. \"Exploration of Space\" (1999), \"The Drums\" (2002), \"Body of Conflict\" (2009), and the long-running album cycle from Wake Your Mind (2011) through MOSAIIK (2020) and the more recent collaborative work establish them as among the most consistent and durable trance producers of their generation. The marquee has always read \"Cosmic Gate\" — two men, one production identity.</p>" },
@@ -136,8 +136,8 @@ export const posts10 = [
     slug: 'iconic-trance-vocalists-voices-behind-anthems',
     date: '2026-06-14', readTime: 8, tags: ['vocals', 'culture'],
     en: {
-      title: "Iconic Trance Vocalists: The Voices Behind the Anthems",
-      description: "A generational survey of trance vocalists — from the Robert Miles era through the Anjunabeats vocal tradition to the 2020s — naming the voices whose work has shaped what trance sounds like.",
+      title: "Iconic Trance Vocalists — The Voices Behind Trance's Greatest Anthems",
+      description: 'A generational survey of trance vocalists — from Robert Miles and the Anjunabeats tradition to the 2020s — naming the voices whose work has shaped the genre.',
       excerpt: "Vocal trance is its own tradition within the genre. The list of vocalists whose work defined the era reads like a separate canon — one that runs parallel to the producer canon and is just as essential to understanding how the music actually sounds.",
       content: [
         { heading: "Why Vocals Matter in Trance", body: "<p>Trance is conventionally described as instrumental, but a substantial portion of its most-played and most-loved records are vocal-led. The vocal in a trance record is not decoration on top of the production — it is often the structural anchor, the element that gives the breakdown its emotional load and the drop its release. The genre's vocal canon, considered separately from the production canon, reveals a parallel history with its own pioneers, its own peak eras, and its own current generation. Knowing this canon changes how the music sounds and changes which records you remember.</p>" },

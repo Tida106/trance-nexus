@@ -4,8 +4,8 @@ export const posts8 = [
     slug: 'women-in-trance-producers-shaped-genre',
     date: '2026-05-31', readTime: 8, tags: ['artists', 'culture', 'history'],
     en: {
-      title: 'The Rise of Women in Trance: Producers Who Shaped the Genre',
-      description: "A producer-focused history of women in trance — the studio architects whose work has shaped the genre's sound across three decades, from the late-90s Anjunabeats backroom to today's headlining production credits.",
+      title: 'Women Trance Producers — Studio Architects Who Shaped the Genre',
+      description: "A producer-focused history of women in trance — the studio architects whose work has shaped the genre's sound across three decades, from late-90s Anjuna onward.",
       excerpt: "Trance's mainstream story has historically been told through male DJ names. The producer history is different — women have been writing and producing the records all along, and the genre has been quietly shaped by their work for thirty years.",
       content: [
         { heading: 'A Story That Was Always There', body: '<p>The mainstream narrative of trance — the names on festival posters, the DJ Mag rankings, the bookings at A State of Trance — has historically been heavily male. The producer history, behind the studio door, has always been more diverse than the booking landscape implied. From the late 1990s onward, women have been writing, producing, vocalising, and engineering the records that the public-facing male DJs played out. To tell trance\'s production history honestly is to tell a story in which women have been central all along, even when the industry forgot to name them.</p>' },
@@ -35,8 +35,8 @@ export const posts8 = [
     slug: 'how-to-listen-to-trance-beginners-guide',
     date: '2026-06-01', readTime: 7, tags: ['analysis', 'culture'],
     en: {
-      title: 'How to Listen to Trance: A Beginner\'s Listening Guide',
-      description: 'A practical guide to listening to trance for newcomers — what to expect from the structure, how the breakdowns are designed to work on you, and how to tell good trance from forgettable trance.',
+      title: "How to Listen to Trance Music — Complete Beginner's Listening Guide",
+      description: 'A practical guide to listening to trance for newcomers — what to expect from structure, how breakdowns work, and how to tell good trance from forgettable.',
       excerpt: 'Trance is not a genre you grasp from a thirty-second clip. The format rewards listeners who give it the time and attention it asks for, and the gap between casual and committed listening is unusually wide.',
       content: [
         { heading: 'Why Trance Demands a Different Mode of Attention', body: '<p>Most popular music is structured to make sense in a thirty-second window. Trance is not. The format was developed for long DJ sets and album-length listening, and individual records are typically built across six to eight minutes of patient development. A new listener who samples thirty seconds of a trance record is almost guaranteed to hear an unrepresentative chunk — perhaps a long intro that sounds repetitive, or a peak that sounds context-free. The genre rewards listening in full, in sequence, with attention.</p>' },
@@ -66,8 +66,8 @@ export const posts8 = [
     slug: 'armin-asot-25-years-of-influence',
     date: '2026-06-02', readTime: 9, tags: ['artists', 'history', 'analysis'],
     en: {
-      title: 'Armin van Buuren\'s A State of Trance: 25 Years of Influence',
-      description: 'A retrospective of A State of Trance at the 25-year mark — the radio show that became an institution, and how its weekly programming has shaped two and a half decades of trance music taste.',
+      title: "Armin van Buuren's A State of Trance — 25 Years of Influence Story",
+      description: 'A retrospective of A State of Trance at 25 years — the radio show that became an institution and how its weekly programming shaped two decades of trance taste.',
       excerpt: 'A State of Trance is no longer just a radio show. Twenty-five years in, it functions as the genre\'s tastemaking institution — a weekly broadcast that has done more to shape what counts as trance than any single record or producer.',
       content: [
         { heading: 'From Hilversum to Global Institution', body: '<p>A State of Trance launched in 2001 as a Dutch radio broadcast hosted by a 25-year-old Armin van Buuren who was already known to the local scene but had not yet broken globally. The show\'s early format — a weekly two-hour DJ mix with a small spotlight on new releases — was modest. Twenty-five years later, ASOT broadcasts simultaneously on 80+ radio stations, has produced over 1,200 weekly episodes, and reaches an audience estimated at tens of millions per week. The trajectory from local broadcast to genre-defining institution is unique in dance music history.</p>' },
@@ -97,8 +97,8 @@ export const posts8 = [
     slug: 'trance-fashion-rave-wear-festival-couture',
     date: '2026-06-03', readTime: 6, tags: ['culture', 'history'],
     en: {
-      title: 'Trance Fashion: From Rave Wear to Festival Couture',
-      description: 'Three decades of trance fashion — how the visual identity of the dancefloor evolved from psychedelic rave wear through the early-2000s mainstage uniform to today\'s festival-couture aesthetic.',
+      title: 'Trance Fashion History — From Rave Wear to Festival Couture Guide',
+      description: 'Three decades of trance fashion — how the visual identity of the dancefloor evolved from psychedelic rave wear through mainstage uniforms to festival couture.',
       excerpt: 'Every era of trance has had a recognisable visual signature. The neon-and-UV rave wear of the late 90s, the all-black mainstage uniform of the mid-2000s, and the high-production festival couture of the 2020s tell their own version of the genre\'s history.',
       content: [
         { heading: 'The Rave Wear Era (1995-2002)', body: '<p>The first dominant trance fashion was inherited from the broader 90s rave scene: oversized phat pants, neon polyester, UV-reactive prints, and elaborate kandi bracelets. The aesthetic served practical functions — the loose silhouettes accommodated long dancing sessions, the UV reactivity worked with blacklight production, and the visible accessories functioned as social identifiers in dark venues. Goa-trance specifically pulled the visual register toward festival hippie aesthetics: tribal prints, fluorescent paisley, and the deliberate visual continuity with global counterculture that the music itself was claiming.</p>' },
@@ -126,8 +126,8 @@ export const posts8 = [
     slug: 'trance-renaissance-2026',
     date: '2026-06-04', readTime: 7, tags: ['analysis', 'culture'],
     en: {
-      title: 'Why Trance is Having a Renaissance in 2026',
-      description: 'A clear-eyed analysis of the trance revival underway in 2026 — what changed, who drove it, and whether the current resurgence is durable or a passing nostalgia cycle.',
+      title: 'Why Trance Music is Having a Renaissance in 2026 — Revival Analysed',
+      description: 'A clear-eyed analysis of the trance revival underway in 2026 — what changed, who drove it, and whether the resurgence is durable or just a nostalgia cycle.',
       excerpt: 'Trance is more visible in 2026 than it has been since 2010. The question is whether the resurgence is structural — driven by something genuinely new — or a nostalgia cycle that will fade.',
       content: [
         { heading: 'The Visible Resurgence', body: '<p>By any measurable metric, trance is more present in mainstream music conversation in 2026 than it has been since the late-2000s peak. ASOT 1200 in early 2025 was the highest-attended single trance event in the genre\'s history. Tomorrowland\'s 2025 trance stage was substantially larger than 2024\'s. Anyma\'s Las Vegas Sphere shows have brought trance-adjacent music to audiences who would not have engaged with traditional trance branding. Spotify trance-tagged streams have grown year-over-year for four consecutive years. Whatever is happening, it is not statistical noise.</p>' },

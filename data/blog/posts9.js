@@ -4,8 +4,8 @@ export const posts9 = [
     slug: 'top-10-female-trance-djs-2026',
     date: '2026-06-05', readTime: 8, tags: ['artists', 'analysis'],
     en: {
-      title: 'Top 10 Female Trance DJs You Should Know in 2026',
-      description: 'A current-year listicle of the female DJs whose 2026 work is genuinely worth tracking — across uplifting, progressive, psy, and crossover registers, with what to listen for in each.',
+      title: 'Top 10 Female Trance DJs You Should Know in 2026 — Definitive List',
+      description: 'A current-year listicle of the female DJs whose 2026 work is genuinely worth tracking — across uplifting, progressive, psy, and crossover registers explained.',
       excerpt: 'Lists are reductive but useful as starting points. These ten women are doing the most interesting work in trance DJing right now, and any one of their 2026 sets is a faster education than reading another think piece.',
       content: [
         { heading: 'The Listicle Caveat', body: '<p>Every list of this kind misses someone, and the specific ranking — first to tenth — is mostly arbitrary. The point of the format is to surface ten names that a reader unfamiliar with the current state of trance DJing can use as a starting point. Each of the ten below has a 2026 catalogue or set archive that rewards attention. Listen to one DJ\'s recent ASOT or Group Therapy guest mix and you will learn more about where trance is right now than any think piece including this one.</p>' },
@@ -37,8 +37,8 @@ export const posts9 = [
     slug: 'anatomy-of-uplifting-trance-anthem',
     date: '2026-06-06', readTime: 8, tags: ['production', 'analysis'],
     en: {
-      title: 'The Anatomy of an Uplifting Trance Anthem: Breakdown by Section',
-      description: 'A section-by-section dissection of the standard uplifting trance anthem structure — what each part does to the listener, why it works, and how producers use the template to generate genuine emotion.',
+      title: 'Anatomy of an Uplifting Trance Anthem — Section-by-Section Breakdown',
+      description: 'A section-by-section dissection of the uplifting trance anthem template — what each part does to listeners, why it works, and the producer craft behind it.',
       excerpt: 'The uplifting trance anthem is a template — a recognisable structure repeated across thousands of records. Knowing the template makes the genre much more rewarding to listen to, because you can hear what each section is asking of you.',
       content: [
         { heading: 'Why the Template Exists', body: '<p>Templates in popular music tend to emerge when a structural arrangement reliably produces an emotional effect that listeners want repeated. The 12-bar blues, the verse-chorus pop song, the four-on-the-floor club track — all are templates because they work on listeners in ways that countless variations have failed to improve on. The uplifting trance anthem template is the same kind of artifact: a structure that reliably produces a specific emotional arc, refined over twenty-five years to a level of efficiency that newer templates rarely match.</p>' },
@@ -70,8 +70,8 @@ export const posts9 = [
     slug: 'above-beyond-group-therapy-phenomenon',
     date: '2026-06-07', readTime: 8, tags: ['artists', 'culture', 'analysis'],
     en: {
-      title: 'Above & Beyond\'s Group Therapy Phenomenon Explained',
-      description: 'Why Above & Beyond\'s Group Therapy radio show, podcasts, and live event series work as a unified cultural phenomenon — and what they accomplish that ASOT and other long-running shows do not.',
+      title: "Above & Beyond's Group Therapy Phenomenon Explained — Complete Guide",
+      description: "Why Above & Beyond's Group Therapy radio show, podcasts, and live ABGT events work as a unified phenomenon — and what they accomplish that ASOT does not.",
       excerpt: 'Group Therapy is the most musically literate of the major trance institutions. The show, the podcast, and the live ABGT events together do something specific: they treat the trance audience as adults whose attention is worth earning.',
       content: [
         { heading: 'What "Group Therapy" Actually Is', body: '<p>Group Therapy is the umbrella name for Above & Beyond\'s ongoing curatorial and live work: a weekly radio show launched in 2012, a regular podcast spinoff, and the ABGT live event series that runs major editions in cities like London, New York, Bangkok, and Athens. Unlike A State of Trance, which centres on a single host and a single show, Group Therapy is a multi-format ecosystem with shared identity and shared sensibility — what changes between formats is the venue, not the editorial voice.</p>' },
@@ -103,8 +103,8 @@ export const posts9 = [
     slug: 'best-trance-festivals-asia-complete-guide',
     date: '2026-06-08', readTime: 9, tags: ['events', 'culture'],
     en: {
-      title: 'The Best Trance Festivals in Asia: A Complete Guide',
-      description: 'A region-by-region survey of trance festivals across Asia — from Japan\'s long-running events to the rapidly growing Indian and Southeast Asian scenes — with what to expect at each.',
+      title: 'Best Trance Festivals in Asia — Japan, India & Southeast Asia Guide',
+      description: "A region-by-region survey of trance festivals across Asia — Japan's long-running events, the rapidly growing Indian scene, and the Southeast Asian circuit.",
       excerpt: 'Asian trance festivals are not minor events. The Japanese, Indian, and Southeast Asian scenes have produced some of the largest and most musically serious trance gatherings outside Europe over the past decade.',
       content: [
         { heading: 'Why Asia Matters for Trance', body: '<p>The European-and-American framing of trance history obscures a basic fact: a substantial portion of the genre\'s post-2010 audience growth has been Asian. Japan\'s trance scene has been continuous since the 1990s. India\'s domestic festival circuit has scaled significantly since 2015. Southeast Asia — particularly Bangkok, Singapore, and Bali — has become a major touring stop for European headliners. Any honest map of contemporary trance has to give Asia substantial space.</p>' },
@@ -136,8 +136,8 @@ export const posts9 = [
     slug: 'trance-mental-health-healing-138-bpm',
     date: '2026-06-09', readTime: 7, tags: ['culture', 'analysis'],
     en: {
-      title: 'Trance and Mental Health: The Healing Power of 138 BPM',
-      description: 'A careful examination of what the music actually does for listener mental health — what is supported by evidence, what fans report anecdotally, and where the claims overreach.',
+      title: 'Trance and Mental Health — The Healing Power of 138 BPM Explained',
+      description: 'A careful examination of what trance music actually does for mental health — what evidence supports, what fans report, and where claims overreach the science.',
       excerpt: 'Many trance fans report that the music has helped them through difficult periods. The reports are consistent enough to take seriously. But the honest framing requires distinguishing what the music can do from what it cannot.',
       content: [
         { heading: 'A Conversation Worth Having Honestly', body: '<p>Talk to enough committed trance fans and you will hear, repeatedly, that the music has helped them through difficult mental-health periods — depression, anxiety, grief, recovery from addiction. The reports are too consistent across listeners who have never met to dismiss as romantic projection. They also do not constitute clinical evidence, and the gap between fan experience and verified therapeutic benefit is genuinely worth being careful about. Both things can be true: the music can be a meaningful support to many listeners, and it can also be a poor substitute for the things only treatment and human connection can provide.</p>' },
