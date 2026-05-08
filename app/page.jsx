@@ -281,6 +281,85 @@ export default function Home() {
         </div>
       </section>
 
+      {/* THE DEFINITIVE LISTS — featured all-time-best canon articles.
+          Tag-filter for posts marked all-time-best in their tags array
+          (same approach as LATEST CHARTS below). Renders up to 3 cards;
+          the flagship "100 Best Trance Tracks of All Time" is the
+          first by listing-order intent and gets a slightly larger
+          treatment in the layout below. */}
+      {(() => {
+        const allTime = listing
+          .filter((p) => p.tags && p.tags.includes('all-time-best'))
+          .slice(0, 3);
+        if (allTime.length === 0) return null;
+        const isJA = t('nav.artists') === 'アーティスト';
+        return (
+          <section id="definitive-lists" className="cv-auto relative z-10 py-24 px-12 bg-gradient-to-b from-transparent via-accent-orange/5 to-transparent">
+            <div className="max-w-7xl mx-auto">
+              <div className="mb-10">
+                <div className="flex items-center gap-3 mb-2 flex-wrap">
+                  <h2 className="font-bebas text-5xl tracking-wider text-white">
+                    {isJA ? '決定版ランキング' : 'The Definitive Lists'}
+                  </h2>
+                  <span aria-hidden="true" className="text-3xl">🏆</span>
+                </div>
+                <div className="w-20 h-1 bg-gradient-to-r from-accent-red via-accent-orange to-transparent" />
+                <p className="text-sm text-text-light/60 mt-3 max-w-2xl font-barlow">
+                  {isJA
+                    ? 'ジャンルの30年史を横断する史上最高のトランス・トラック ― ランク付き、検証済み、クロス・チェック済みのカノン。'
+                    : 'The all-time best trance tracks across the genre\'s 30-year history — ranked, verified, and cross-checked against the historical canon.'}
+                </p>
+              </div>
+
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-5 mb-8">
+                {allTime.map((post, idx) => {
+                  const c = isJA ? post.ja : post.en;
+                  // Flagship article gets a span-2 cell on md+ screens.
+                  const featured = idx === 0;
+                  return (
+                    <Link
+                      key={post.slug}
+                      href={`/blog/${post.slug}`}
+                      className={`group bg-dark-bg2/80 border border-orange-900/20 rounded-sm overflow-hidden hover:border-accent-orange/60 hover:translate-y-[-4px] hover:shadow-2xl hover:shadow-accent-orange/10 transition-all block ${featured ? 'md:col-span-2 md:row-span-1' : ''}`}
+                    >
+                      <div className="h-1.5 bg-gradient-to-r from-accent-red via-accent-orange to-accent-amber" />
+                      <div className="p-6">
+                        <div className="flex gap-1.5 flex-wrap mb-3">
+                          <span className="text-xs tracking-widest px-1.5 py-0.5 rounded border border-accent-orange/40 bg-accent-orange/10 text-accent-orange font-bebas">
+                            🏆 {isJA ? '決定版' : 'Definitive'}
+                          </span>
+                          {featured && (
+                            <span className="text-xs tracking-widest px-1.5 py-0.5 rounded border border-accent-amber/40 bg-accent-amber/10 text-accent-amber font-bebas">
+                              {isJA ? '注目' : 'Featured'}
+                            </span>
+                          )}
+                        </div>
+                        <h3 className={`font-bebas tracking-widest text-white mb-3 leading-tight group-hover:text-accent-orange transition-colors ${featured ? 'text-2xl' : 'text-lg line-clamp-2'}`}>
+                          {c.title}
+                        </h3>
+                        <p className={`text-text-light/65 leading-relaxed font-barlow ${featured ? 'text-sm mb-4' : 'text-xs mb-3 line-clamp-3'}`}>
+                          {c.excerpt}
+                        </p>
+                        <div className="text-xs text-text-muted tracking-widest">
+                          {post.date} · {post.readTime} {isJA ? '分' : 'min read'}
+                        </div>
+                      </div>
+                    </Link>
+                  );
+                })}
+              </div>
+
+              <Link
+                href="/category/all-time-best"
+                className="inline-block font-bebas text-sm tracking-widest px-6 py-3 border border-accent-orange/30 text-accent-orange hover:bg-accent-orange/10 hover:shadow-lg transition-all rounded"
+              >
+                🏆 {isJA ? 'すべての決定版ランキング' : 'All Definitive Lists'} →
+              </Link>
+            </div>
+          </section>
+        );
+      })()}
+
       {/* LATEST CHARTS — newest 3 monthly chart articles. Filtered from
           the same listing array the BLOG section reads, so adding a new
           monthly chart automatically rotates the oldest one out. The

@@ -127,6 +127,72 @@ export default function BlogPost({ post, prevPost, nextPost, related }) {
             ))}
           </article>
 
+          {/* Ranked-list block — present only on All-Time Best canon
+              articles that supply a structured `tracks` field on the
+              post root. Schema:
+                tracks: [{
+                  rank, artist, artistSlug?, title, label, year, genre,
+                  review: { en, ja }
+                }, ...]
+              The review object is the only language-dependent field;
+              everything else is shared metadata. The [slug] route
+              picks up the same field to emit ItemList + MusicRecording
+              JSON-LD on top of the existing BlogPosting schema. */}
+          {Array.isArray(post.tracks) && post.tracks.length > 0 && (
+            <section className="mt-12 pt-8 border-t border-orange-900/20">
+              <h2 className="font-bebas text-3xl tracking-widest text-accent-orange mb-2">
+                {isJA ? 'ランキング' : 'The Ranked List'}
+              </h2>
+              <div className="w-16 h-0.5 bg-gradient-to-r from-accent-red to-accent-orange mb-6" />
+              <ol className="space-y-5">
+                {post.tracks.map((t) => {
+                  const review = t.review?.[language] || t.review?.en || '';
+                  return (
+                    <li
+                      key={t.rank}
+                      className="bg-dark-bg2/60 border border-orange-900/15 rounded-sm p-5 hover:border-accent-orange/40 transition-colors"
+                    >
+                      <div className="flex items-baseline gap-4 mb-2">
+                        <span className="font-bebas text-3xl tracking-wider text-accent-orange shrink-0">
+                          #{t.rank}
+                        </span>
+                        <div className="min-w-0 flex-1">
+                          <div className="font-bebas text-lg tracking-widest text-white leading-tight">
+                            {t.artistSlug ? (
+                              <Link href={`/artists/${t.artistSlug}`} className="hover:text-accent-orange transition-colors">
+                                {t.artist}
+                              </Link>
+                            ) : (
+                              <span>{t.artist}</span>
+                            )}
+                            <span className="text-text-light/50"> — </span>
+                            <span className="italic">"{t.title}"</span>
+                          </div>
+                          <div className="text-xs text-text-muted tracking-widest mt-1 flex flex-wrap gap-x-3 gap-y-1">
+                            <span>{t.label}</span>
+                            <span>·</span>
+                            <span>{t.year}</span>
+                            {t.genre && (
+                              <>
+                                <span>·</span>
+                                <span className="text-accent-orange/70">{t.genre}</span>
+                              </>
+                            )}
+                          </div>
+                        </div>
+                      </div>
+                      {review && (
+                        <p className="text-sm text-text-light/75 leading-relaxed font-barlow mt-3 pl-0 md:pl-12">
+                          {review}
+                        </p>
+                      )}
+                    </li>
+                  );
+                })}
+              </ol>
+            </section>
+          )}
+
           {(() => {
             const embeds = getEmbedsForSlug(post.slug);
             if (embeds.length === 0) return null;

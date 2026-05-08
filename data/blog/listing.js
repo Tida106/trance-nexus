@@ -1,6 +1,10 @@
 // Lightweight listing data — no article body content.
 // Newest first. Keep in sync with data/blog/posts.js when adding articles.
 export const listing = [
+  // Batch 11: All-Time Best ranked-list canon
+  { slug: 'best-trance-tracks-of-all-time-100', date: '2026-05-08', readTime: 18, tags: ['classics', 'analysis', 'all-time-best'],
+    en: { title: 'The 100 Best Trance Tracks of All Time — Definitive Ranked List 2026', excerpt: "Picking the all-time best trance tracks is a thirty-year argument with no settled ending. This list is our editorial answer for 2026 — fifty records that earn their place across the canon, each verified against the historical record and ranked with reasons." },
+    ja: { title: '史上最高のトランス・トラック100選 ― 決定版ランキング2026', excerpt: '史上最高のトランス・トラックを選ぶことは30年続く決着のない議論だ。本リストは2026年のTRANCE NEXUS編集部の答え——カノン全体で位置を獲得する50枚のレコード、それぞれ歴史的記録と照合し、理由とともにランク付けされている。' } },
   // Batch 10: Monthly trance chart roundups (2026 Jan–May)
   { slug: 'best-trance-tracks-may-2026', date: '2026-05-08', readTime: 7, tags: ['classics', 'analysis', 'monthly-charts'],
     en: { title: 'Best Trance Tracks of May 2026 — ASOT 2026 Compilation & H1 Wrap', excerpt: 'May 2026 closes the first half of the year with the long-awaited ASOT 2026 compilation, mixed by Armin van Buuren across three discs (Pulse / Frequency / Energy) — a 25-year anniversary statement that consolidates the year\'s most-played material into a single release moment.' },

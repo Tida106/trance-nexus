@@ -173,6 +173,15 @@ export const tags = [
       ja: 'ASOT、Group Therapy、FSOE、Coldharbour、Pure Tranceのローテーションを駆動するトランス・トラックの月次編集ラウンドアップ。',
     },
   },
+  {
+    id: 'all-time-best',
+    group: 'format',
+    name: { en: 'All-Time Best', ja: '史上最高' },
+    description: {
+      en: 'Definitive ranked-list canon articles — the trance tracks earning permanent place across the genre\'s 30-year history.',
+      ja: 'ジャンルの30年史を横断して永続的地位を獲得するトランス・トラックの決定版ランク付きカノン記事。',
+    },
+  },
 
   // Era tags
   {

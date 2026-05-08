@@ -108,12 +108,50 @@ export default async function BlogPostPage({ params }) {
     },
   };
 
+  // ItemList + MusicRecording JSON-LD — emitted only for the All-Time
+  // Best canon articles that supply a structured `tracks` field. The
+  // ItemList lets Google render the post as a rich-result ranked list
+  // in search; each MusicRecording inside it carries name, byArtist,
+  // inAlbum (record label), and datePublished so the rich result has
+  // enough metadata to display per-track attribution. Articles without
+  // a tracks field keep the BlogPosting-only schema unchanged.
+  const itemListSchema = Array.isArray(post.tracks) && post.tracks.length > 0
+    ? {
+        '@context': 'https://schema.org',
+        '@type': 'ItemList',
+        name: post.en.title,
+        description: post.en.description,
+        numberOfItems: post.tracks.length,
+        itemListOrder: 'https://schema.org/ItemListOrderDescending',
+        itemListElement: post.tracks.map((t) => ({
+          '@type': 'ListItem',
+          position: t.rank,
+          item: {
+            '@type': 'MusicRecording',
+            name: t.title,
+            byArtist: { '@type': 'MusicGroup', name: t.artist },
+            inAlbum: t.label
+              ? { '@type': 'MusicAlbum', name: t.label }
+              : undefined,
+            datePublished: t.year ? String(t.year) : undefined,
+            genre: t.genre,
+          },
+        })),
+      }
+    : null;
+
   return (
     <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
       />
+      {itemListSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }}
+        />
+      )}
       <BlogPost
         post={post}
         prevPost={prevPost}

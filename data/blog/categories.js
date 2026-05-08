@@ -65,6 +65,15 @@ export const categories = [
       ja: 'TRANCE NEXUS編集部が選ぶ月ごとのトランス・トラック ― ASOT、Group Therapy、FSOE、Coldharbour、Pure Tranceのローテーションを横断するアップリフティング、プログレッシブ、テック、サイの注目曲。',
     },
   },
+  {
+    id: 'all-time-best',
+    emoji: '🏆',
+    name: { en: 'All-Time Best', ja: '史上最高' },
+    description: {
+      en: 'Definitive ranked-list canon of the trance tracks, anthems, and records that earn permanent place across the genre\'s 30-year history — cross-checked against Discogs, ASOT 1000-era retrospectives, and DJ Mag / Mixmag historical rankings.',
+      ja: 'ジャンルの30年史を横断して永続的な地位を獲得するトランス・トラック、アンセム、レコードの決定版ランク付きカノン ― Discogs、ASOT 1000時代のレトロスペクティブ、DJ Mag／Mixmagの歴史的ランキングと照合。',
+    },
+  },
 ];
 
 export const categorySlugs = categories.map((c) => c.id);
