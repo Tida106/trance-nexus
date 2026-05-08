@@ -260,17 +260,20 @@ export default function Home() {
         </div>
       </section>
 
-      {/* EVENTS SECTION */}
+      {/* EVENTS SECTION — three featured upcoming events from the
+          curated catalogue (data/events/), ordered by next confirmed
+          start date and filtered to upcoming/annual statuses. The
+          "see all events" link below routes to the full /events
+          calendar page. */}
       <section id="events" className="cv-auto relative z-10 py-24 px-12">
         <div className="max-w-7xl mx-auto">
-          <div className="mb-12">
-            <h2 className="font-bebas text-5xl tracking-wider text-white mb-2">
-              {t('events.title')}
-            </h2>
-            <div className="w-20 h-1 bg-gradient-to-r from-accent-red via-accent-orange to-transparent" />
-          </div>
-
-          <div className="mb-8">
+          <div className="mb-10 flex items-end justify-between gap-4 flex-wrap">
+            <div>
+              <h2 className="font-bebas text-5xl tracking-wider text-white mb-2">
+                {t('events.title')}
+              </h2>
+              <div className="w-20 h-1 bg-gradient-to-r from-accent-red via-accent-orange to-transparent" />
+            </div>
             <Link
               href="/events"
               className="inline-block font-bebas text-sm tracking-widest px-6 py-3 border border-accent-orange/30 text-accent-orange hover:bg-accent-orange/10 hover:shadow-lg transition-all rounded"
@@ -278,6 +281,56 @@ export default function Home() {
               🎉 {t('home.sections.events')} →
             </Link>
           </div>
+
+          {(() => {
+            // Up to 3 featured cards, ordered by next confirmed
+            // start date (annuals without a confirmed next-edition
+            // date are sorted to the end). Built inline rather than
+            // imported from data/events/index helpers because the
+            // homepage stays purely client-side and the helper file
+            // is consumed on the same client bundle anyway.
+            const isJA = t('nav.artists') === 'アーティスト';
+            const upcoming = [...eventsData]
+              .filter((e) => e.status !== 'past')
+              .sort((a, b) => {
+                const av = a.dates?.next?.start ? new Date(a.dates.next.start).getTime() : Infinity;
+                const bv = b.dates?.next?.start ? new Date(b.dates.next.start).getTime() : Infinity;
+                if (av !== bv) return av - bv;
+                return (a.name || '').localeCompare(b.name || '');
+              })
+              .slice(0, 3);
+            if (upcoming.length === 0) return null;
+            return (
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                {upcoming.map((e) => {
+                  const dateLine = e.dates?.next?.start
+                    ? (e.dates.next.end && e.dates.next.end !== e.dates.next.start
+                        ? `${e.dates.next.start} → ${e.dates.next.end}`
+                        : e.dates.next.start)
+                    : e.dates?.typicalMonth
+                      ? (isJA ? `毎年 ${e.dates.typicalMonth}` : `Annually in ${e.dates.typicalMonth}`)
+                      : null;
+                  return (
+                    <Link
+                      key={e.slug}
+                      href={`/events/${e.slug}`}
+                      className="block bg-dark-bg2/60 border border-orange-900/20 rounded-sm p-5 hover:border-accent-orange/50 hover:translate-y-[-2px] transition-all"
+                    >
+                      <div className="font-bebas text-xl tracking-widest text-white mb-1 truncate">
+                        {e.name}
+                      </div>
+                      {dateLine && (
+                        <div className="text-accent-orange text-xs tracking-widest mb-2">{dateLine}</div>
+                      )}
+                      {e.venue?.name && (
+                        <div className="text-xs text-text-muted truncate">📍 {e.venue.name}</div>
+                      )}
+                    </Link>
+                  );
+                })}
+              </div>
+            );
+          })()}
         </div>
       </section>
 

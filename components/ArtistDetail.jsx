@@ -60,7 +60,7 @@ function FactRow({ label, value }) {
   );
 }
 
-export default function ArtistDetail({ artist, related, mentioned }) {
+export default function ArtistDetail({ artist, related, mentioned, performingAt }) {
   const { language } = useTranslation();
   const isJA = language === 'ja';
   const links = buildAffiliateLinks(artist);
@@ -308,6 +308,44 @@ export default function ArtistDetail({ artist, related, mentioned }) {
                   </li>
                 ))}
               </ul>
+            </section>
+          )}
+
+          {/* Performing at — events whose headliner list includes
+              this artist. Auto-derived from data/events/*.js via the
+              getEventsByArtist helper. */}
+          {performingAt?.length > 0 && (
+            <section className="mb-12">
+              <h2 className="font-bebas text-3xl tracking-widest text-white mb-4">
+                {isJA ? '出演イベント' : 'Performing At'}
+              </h2>
+              <div className="w-16 h-0.5 bg-gradient-to-r from-accent-red via-accent-orange to-transparent mb-6" />
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                {performingAt.map((e) => {
+                  const dateLine = e.nextStart
+                    ? e.nextStart
+                    : e.typicalMonth
+                      ? (isJA ? `毎年 ${e.typicalMonth}` : `Annually in ${e.typicalMonth}`)
+                      : null;
+                  return (
+                    <Link
+                      key={e.slug}
+                      href={`/events/${e.slug}`}
+                      className="block bg-dark-bg2/60 border border-orange-900/20 rounded-sm p-4 hover:border-accent-orange/50 hover:translate-y-[-2px] transition-all"
+                    >
+                      <div className="font-bebas text-base tracking-widest text-white mb-1">
+                        {e.name}
+                      </div>
+                      {dateLine && (
+                        <div className="text-accent-orange text-xs tracking-widest">{dateLine}</div>
+                      )}
+                      {e.venueName && (
+                        <div className="text-xs text-text-muted truncate mt-1">📍 {e.venueName}</div>
+                      )}
+                    </Link>
+                  );
+                })}
+              </div>
             </section>
           )}
 

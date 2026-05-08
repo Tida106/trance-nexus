@@ -72,6 +72,13 @@ import pureTranceEvents from './pure-trance-events';
 import anjunabeatsOpenAir from './anjunabeats-open-air';
 import anjunadeepOpenAir from './anjunadeep-open-air';
 import coldharbourDay from './coldharbour-day';
+// Batch 5 — regional editions and historical records
+import sunburnFestival from './sunburn-festival';
+import dreamstateMexico from './dreamstate-mexico';
+import dreamstateSanFrancisco from './dreamstate-san-francisco';
+import maydayFestival from './mayday-festival';
+import tomorrowlandBrasil from './tomorrowland-brasil';
+import electricZooNewYork from './electric-zoo-new-york';
 
 export const events = [
   tomorrowland,
@@ -98,6 +105,12 @@ export const events = [
   anjunabeatsOpenAir,
   anjunadeepOpenAir,
   coldharbourDay,
+  sunburnFestival,
+  dreamstateMexico,
+  dreamstateSanFrancisco,
+  maydayFestival,
+  tomorrowlandBrasil,
+  electricZooNewYork,
 ];
 
 export const eventSlugs = events.map((e) => e.slug);

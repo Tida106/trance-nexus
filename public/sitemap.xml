@@ -2081,6 +2081,24 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/events/creamfields"/>
   </url>
   <url>
+    <loc>https://trance-nexus.com/events/dreamstate-mexico</loc>
+    <lastmod>2026-05-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/events/dreamstate-mexico"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/events/dreamstate-mexico"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/events/dreamstate-mexico"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/events/dreamstate-san-francisco</loc>
+    <lastmod>2026-05-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/events/dreamstate-san-francisco"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/events/dreamstate-san-francisco"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/events/dreamstate-san-francisco"/>
+  </url>
+  <url>
     <loc>https://trance-nexus.com/events/dreamstate-socal</loc>
     <lastmod>2026-05-08</lastmod>
     <changefreq>weekly</changefreq>
@@ -2097,6 +2115,15 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/events/edc-las-vegas"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/events/edc-las-vegas"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/events/edc-las-vegas"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/events/electric-zoo-new-york</loc>
+    <lastmod>2026-05-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/events/electric-zoo-new-york"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/events/electric-zoo-new-york"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/events/electric-zoo-new-york"/>
   </url>
   <url>
     <loc>https://trance-nexus.com/events/fsoe-milestone-events</loc>
@@ -2124,6 +2151,15 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/events/luminosity-beach-festival"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/events/luminosity-beach-festival"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/events/luminosity-beach-festival"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/events/mayday-festival</loc>
+    <lastmod>2026-05-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/events/mayday-festival"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/events/mayday-festival"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/events/mayday-festival"/>
   </url>
   <url>
     <loc>https://trance-nexus.com/events/ozora-festival</loc>
@@ -2169,6 +2205,24 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/events/subculture-events"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/events/subculture-events"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/events/subculture-events"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/events/sunburn-festival</loc>
+    <lastmod>2026-05-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/events/sunburn-festival"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/events/sunburn-festival"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/events/sunburn-festival"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/events/tomorrowland-brasil</loc>
+    <lastmod>2026-05-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/events/tomorrowland-brasil"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/events/tomorrowland-brasil"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/events/tomorrowland-brasil"/>
   </url>
   <url>
     <loc>https://trance-nexus.com/events/tomorrowland-winter</loc>

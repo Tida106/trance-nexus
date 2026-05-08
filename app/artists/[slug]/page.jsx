@@ -2,6 +2,7 @@ import { notFound } from 'next/navigation';
 import ArtistDetail from '@/components/ArtistDetail';
 import { artists, getArtistBySlug, getRelatedArtists } from '@/data/artists/index';
 import { listing } from '@/data/blog/listing';
+import { getEventsByArtist } from '@/data/events/index';
 
 export function generateStaticParams() {
   return artists.map((a) => ({ slug: a.slug }));
@@ -61,6 +62,19 @@ export default async function ArtistPage({ params }) {
     .slice(0, 4)
     .map(slimPost);
 
+  // Reverse-lookup: events whose headliners list includes this slug.
+  // Trim down each event to the small subset the artist page needs so
+  // the page payload stays small even as the events catalogue grows.
+  const performingAt = getEventsByArtist(artist.slug).slice(0, 6).map((e) => ({
+    slug: e.slug,
+    name: e.name,
+    country: e.country,
+    status: e.status,
+    venueName: e.venue?.name,
+    nextStart: e.dates?.next?.start || null,
+    typicalMonth: e.dates?.typicalMonth || null,
+  }));
+
   const personSchema = {
     '@context': 'https://schema.org',
     '@type': 'Person',
@@ -85,7 +99,7 @@ export default async function ArtistPage({ params }) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(personSchema) }}
       />
-      <ArtistDetail artist={artist} related={related} mentioned={mentioned} />
+      <ArtistDetail artist={artist} related={related} mentioned={mentioned} performingAt={performingAt} />
     </>
   );
 }
