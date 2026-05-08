@@ -534,4 +534,88 @@ The label's catalogue is built primarily around MaRLo's own productions, supplem
     },
     posts: ['essential-trance-labels-2026', 'best-uplifting-trance-tracks-of-all-time-50', 'what-is-uplifting-trance'],
   },
+
+  // ───────────────────────────────────────────────────────────────
+  // Batch 4 expansion (added 2026-05-09): Goldrush Recordings,
+  // KARNAGE Digital. Two artist-run uplifting / hard-tech imprints
+  // closing out the modern catalogue's roster expansion.
+  // ───────────────────────────────────────────────────────────────
+
+  {
+    slug: 'goldrush-recordings',
+    name: 'Goldrush Recordings',
+    flag: '🇬🇧',
+    emoji: '🥇',
+    category: 'modern',
+    banner: 'b-uplifting',
+    founded: '2017',
+    hq: 'United Kingdom (Armada distribution)',
+    founders: ['Ben Gold'],
+    aliases: ['goldrush', 'goldrush music'],
+    subgenres: ['Uplifting Trance', 'Tech Trance'],
+    topReleases: [
+      { title: 'Various Ben Gold singles', artist: 'Ben Gold', year: '2017+', type: 'multiple' },
+      { title: 'Goldrush compilation series', artist: 'Various / Ben Gold', year: '2018+', type: 'series' },
+      { title: 'Standerwick / Allen Watts split releases', artist: 'Various', year: 'multiple', type: 'multiple' },
+      { title: 'Various harder-uplifting peer releases', artist: 'Various', year: 'multiple', type: 'multiple' },
+    ],
+    related: ['armada-music', 'wao138', 'reaching-altitude', 'tytanium-recordings'],
+    links: {
+      website: 'https://goldrushrec.com',
+      beatport: 'https://www.beatport.com/label/goldrush-recordings/65906',
+      soundcloud: 'https://soundcloud.com/goldrushrec',
+    },
+    short: {
+      en: 'Ben Gold\'s Armada-distributed uplifting / tech-trance imprint, founded 2017 — a focused outlet for the harder-uplifting and 138 BPM modern sound.',
+      ja: 'Ben GoldのArmada配給アップリフティング／テック・トランス・インプリント（2017年設立）——よりハードなアップリフティングと138 BPM現代サウンドのための焦点を絞ったアウトレット。',
+    },
+    bio: {
+      en: `Goldrush Recordings was launched in 2017 by British DJ-producer Ben Gold as a creative home for his own productions and a curated platform for the harder-uplifting and tech-trance scene around him. Distributed through Armada Music, the imprint sits in the artist-run wing of the Armada family — adjacent to AVA, Vandit, Reaching Altitude, and Flashover in editorial spirit, with editorial discipline taking priority over release-volume.
+
+Through 2017+, Goldrush has released the bulk of Ben Gold's solo singles and EPs, supplemented by curated material from peers in the modern uplifting register — Standerwick, Allen Watts, Bryan Kearney, MaRLo, and other 138 BPM specialists. The Goldrush compilation series functions as the label's editorial document, and the touring Goldrush event brand has hosted nights at uplifting-focused venues across the UK, EU, and US. Goldrush is one of the more recent additions to the artist-run trance label ecosystem under Armada distribution and continues to expand its catalogue across the broader uplifting and tech-trance mainstream.`,
+      ja: `Goldrush Recordingsは2017年、英国のDJプロデューサーBen Goldにより、自身のプロダクションのクリエイティブな本拠地と、彼の周囲のよりハードなアップリフティング＆テック・トランス・シーンのキュレーション・プラットフォームとして発足した。Armada Musicが配給するインプリントは、Armadaファミリーのアーティスト主導ウィング——AVA、Vandit、Reaching Altitude、Flashoverと編集精神において隣接する——に位置し、リリース量よりも編集規律を優先する。
+
+2017年以降、GoldrushはBen Goldのソロ・シングルとEPの大半をリリースし、現代アップリフティング・レジスターの同世代——Standerwick、Allen Watts、Bryan Kearney、MaRLo、その他138 BPMスペシャリスト——からのキュレーション素材で補完してきた。Goldrushコンピレーション・シリーズはレーベルの編集ドキュメントとして機能し、巡回するGoldrushイベント・ブランドは英国、EU、米国のアップリフティング志向ベニューでナイトをホストしてきた。GoldrushはArmada配給傘下のアーティスト主導トランス・レーベル・エコシステムへのより新しい追加の一つで、より広いアップリフティング＆テック・トランス・メインストリーム全体にカタログを拡張し続けている。`,
+    },
+    posts: ['essential-trance-labels-2026', 'best-uplifting-trance-tracks-of-all-time-50', 'what-is-uplifting-trance'],
+  },
+
+  {
+    slug: 'karnage-digital',
+    name: 'KARNAGE Digital',
+    flag: '🇮🇪',
+    emoji: '⚡',
+    category: 'modern',
+    banner: 'b-tech',
+    founded: '2014',
+    hq: 'Ireland',
+    founders: ['Bryan Kearney'],
+    aliases: ['karnage', 'karnage records', 'karnage digital records'],
+    subgenres: ['Tech Trance', 'Uplifting Trance', 'Hard Trance'],
+    topReleases: [
+      { title: 'Various Bryan Kearney singles and EPs', artist: 'Bryan Kearney', year: '2014+', type: 'multiple' },
+      { title: 'Goodbye-era productions', artist: 'Bryan Kearney', year: 'multiple', type: 'multiple' },
+      { title: 'KARNAGE Sessions compilation series', artist: 'Various', year: '2014+', type: 'series' },
+      { title: 'Will Atkinson / John Askew split releases', artist: 'Various', year: 'multiple', type: 'multiple' },
+    ],
+    related: ['subculture', 'discover-records', 'vii-records', 'outburst-records'],
+    links: {
+      website: 'https://www.kearneyofficial.com',
+      beatport: 'https://www.beatport.com/label/karnage-digital/45019',
+      soundcloud: 'https://soundcloud.com/karnagerecords',
+    },
+    short: {
+      en: 'Bryan Kearney\'s artist-run tech/hard-trance imprint — a focused outlet for the harder, more confrontational end of the 138 BPM modern sound.',
+      ja: 'Bryan Kearneyが主宰するテック／ハード・トランス・インプリント——138 BPM現代サウンドのよりハードでより対立的な端のための焦点を絞ったアウトレット。',
+    },
+    bio: {
+      en: `KARNAGE Digital was launched in 2014 by Irish DJ-producer Bryan Kearney as a creative outlet for his own productions and a curated platform for the harder, more confrontational side of contemporary trance. Kearney had built his reputation through Subculture residency work and Discover-era releases; KARNAGE gave him a personal imprint to release material that didn't fit neatly into the Subculture or Discover editorial mould — typically harder, faster, and more sonically aggressive than the wider 138 BPM scene.
+
+The catalogue is built primarily around Kearney's solo singles and his collaborations with peers in the harder-trance space — Will Atkinson, John Askew, Sneijder, Steve Allen, and other 138+ BPM specialists. The KARNAGE Sessions compilation series and KARNAGE-branded events at venues across Ireland, the UK, and EU have built a dedicated audience among connoisseurs of harder modern trance. KARNAGE sits comfortably alongside Subculture, Outburst, and VII as part of the harder-trance institutional axis that has kept the modern peak-time tech-trance sound alive against commercial pressure to soften.`,
+      ja: `KARNAGE Digitalは2014年、アイルランドのDJプロデューサーBryan Kearneyにより、自身のプロダクションのクリエイティブなアウトレットと、現代トランスのよりハードでより対立的な側面のキュレーション・プラットフォームとして発足した。KearneyはSubcultureのレジデンシー活動とDiscover時代のリリースを通じて評判を築いていた。KARNAGEは彼に、SubcultureやDiscoverの編集型に綺麗に収まらない素材——典型的により広い138 BPMシーンよりもよりハードで、より速く、より音響的に攻撃的な——をリリースするための個人的インプリントを与えた。
+
+カタログはKearneyのソロ・シングルと、よりハードなトランス空間の同世代——Will Atkinson、John Askew、Sneijder、Steve Allen、その他138 BPM以上のスペシャリスト——とのコラボレーションを軸に構築されている。KARNAGE Sessionsコンピレーション・シリーズとアイルランド、英国、EU各地のベニューでのKARNAGE冠のイベントは、よりハードな現代トランスの鑑識家の間で熱心なオーディエンスを築いてきた。KARNAGEはSubculture、Outburst、VIIと並んで、軟化への商業的圧力に対して現代ピークタイム・テック・トランス・サウンドを生き残らせてきたよりハードなトランスの制度的軸の一部として快適に収まる。`,
+    },
+    posts: ['essential-trance-labels-2026', 'best-uplifting-trance-tracks-of-all-time-50', 'what-is-tech-trance'],
+  },
 ];

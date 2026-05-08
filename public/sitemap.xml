@@ -1730,6 +1730,24 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/labels/reaching-altitude"/>
   </url>
   <url>
+    <loc>https://trance-nexus.com/labels/goldrush-recordings</loc>
+    <lastmod>2026-05-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/labels/goldrush-recordings"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/labels/goldrush-recordings"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/labels/goldrush-recordings"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/labels/karnage-digital</loc>
+    <lastmod>2026-05-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/labels/karnage-digital"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/labels/karnage-digital"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/labels/karnage-digital"/>
+  </url>
+  <url>
     <loc>https://trance-nexus.com/labels/iboga-records</loc>
     <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
@@ -1773,6 +1791,33 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/labels/grotesque-music"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/labels/grotesque-music"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/labels/grotesque-music"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/labels/hommega-productions</loc>
+    <lastmod>2026-05-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/labels/hommega-productions"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/labels/hommega-productions"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/labels/hommega-productions"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/labels/profound-records</loc>
+    <lastmod>2026-05-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/labels/profound-records"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/labels/profound-records"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/labels/profound-records"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/labels/solstice-music</loc>
+    <lastmod>2026-05-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/labels/solstice-music"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/labels/solstice-music"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/labels/solstice-music"/>
   </url>
   <url>
     <loc>https://trance-nexus.com/glossary/asot</loc>

@@ -209,4 +209,129 @@ RAM自身がレーベルで最もアクティヴなアーティストで、「RA
     },
     posts: ['essential-trance-labels-2026', 'underground-trance-scene'],
   },
+
+  // ───────────────────────────────────────────────────────────────
+  // Batch 4 expansion (added 2026-05-09): HOMmega Productions,
+  // Profound Records, Solstice Music. Three psytrance / Goa-trance
+  // institutional labels covering the Israeli full-on heartland and
+  // the Swedish/European Goa axis.
+  // ───────────────────────────────────────────────────────────────
+
+  {
+    slug: 'hommega-productions',
+    name: 'HOMmega Productions',
+    flag: '🇮🇱',
+    emoji: '🔮',
+    category: 'psy',
+    banner: 'b-psytrance',
+    founded: '1998',
+    hq: 'Tel Aviv, Israel',
+    founders: ['Yaniv Yifrach', 'Erez Eisen (Infected Mushroom)', 'Israeli psy scene cohort'],
+    aliases: ['hommega', 'hom-mega', 'hommega records'],
+    subgenres: ['Psytrance', 'Full-On', 'Progressive Psy'],
+    topReleases: [
+      { title: 'Vicious Delicious', artist: 'Infected Mushroom', year: 2007, type: 'album' },
+      { title: 'Various Astrix singles and EPs', artist: 'Astrix', year: '2000s+', type: 'multiple' },
+      { title: 'Various Vini Vici releases', artist: 'Vini Vici', year: '2010s+', type: 'multiple' },
+      { title: 'HOMmega compilation series', artist: 'Various', year: '1998+', type: 'series' },
+      { title: 'Trance from Israel-era foundational releases', artist: 'Various', year: '1998–2005', type: 'multiple' },
+    ],
+    related: ['nano-records', 'iboga-records', 'tip-records', 'damaged-records'],
+    links: {
+      website: 'https://www.hommega.com',
+      beatport: 'https://www.beatport.com/label/hommega-productions/4129',
+      soundcloud: 'https://soundcloud.com/hommegamusic',
+    },
+    short: {
+      en: 'Israeli psytrance flagship label, founded 1998 — home of Astrix, Infected Mushroom, Vini Vici, and the Israeli full-on tradition.',
+      ja: '1998年設立のイスラエル・サイトランス旗艦レーベル——Astrix、Infected Mushroom、Vini Vici、そしてイスラエル・フルオン伝統の本拠地。',
+    },
+    bio: {
+      en: `HOMmega Productions was founded in 1998 in Tel Aviv as the institutional home for the rapidly maturing Israeli psytrance scene. The label took shape during the period when Goa trance was transitioning into modern psytrance — Israeli producers including Astrix, Infected Mushroom, Astral Projection (already established), and the wider Tel Aviv production cohort were writing the next chapter of the genre, and HOMmega became the primary label home for that work.
+
+Across 25+ years, HOMmega has released the bulk of Astrix's catalogue, the foundational Infected Mushroom albums (Vicious Delicious 2007 and others), the Vini Vici back catalogue including the genre-crossing 2015 anthem "The Tribe" (released across HOMmega's wider distribution network), and a long arc of full-on, progressive-psy, and Goa-adjacent material from the Israeli scene. The HOMmega compilation series functions as the label's editorial document and remains one of the most cited running references for Israeli full-on. The label sits at the institutional centre of the global psytrance ecosystem alongside Iboga (Denmark), Nano (UK), and TIP (UK) as one of the genre's three or four most consequential homes.`,
+      ja: `HOMmega Productionsは1998年、急速に成熟していたイスラエル・サイトランス・シーンの制度的本拠地として、テルアビブで設立された。ゴア・トランスが現代サイトランスへと移行していた時期にレーベルは形を成した——Astrix、Infected Mushroom、Astral Projection（既に確立）、より広いテルアビブ・プロダクション・コホートを含むイスラエルのプロデューサーがジャンルの次の章を書いており、HOMmegaがその作業の主要なレーベル本拠地となった。
+
+25年以上にわたり、HOMmegaはAstrixのカタログの大半、基礎的なInfected Mushroomアルバム（『Vicious Delicious』2007ほか）、Vini Viciのバック・カタログ（HOMmegaのより広い配給ネットワーク経由でリリースされたジャンル横断的な2015年アンセム「The Tribe」を含む）、そしてイスラエル・シーンからのフルオン、プログレッシブ・サイ、ゴア隣接素材の長いアークをリリースしてきた。HOMmegaコンピレーション・シリーズはレーベルの編集ドキュメントとして機能し、イスラエル・フルオンの最も引用される継続的な参照点の一つとして残っている。レーベルはIboga（デンマーク）、Nano（英国）、TIP（英国）と並んでグローバル・サイトランス・エコシステムの制度的中心に位置し、ジャンルで最も帰結的な3〜4の本拠地の一つとなっている。`,
+    },
+    posts: ['essential-trance-labels-2026', 'best-psytrance-tracks-of-all-time-50', 'what-is-psytrance', 'rise-of-psytrance-goa-to-modern-day'],
+  },
+
+  {
+    slug: 'profound-records',
+    name: 'Profound Records',
+    flag: '🇮🇱',
+    emoji: '🌀',
+    category: 'psy',
+    banner: 'b-psytrance',
+    founded: '2014',
+    hq: 'Tel Aviv, Israel',
+    founders: ['Ranji'],
+    aliases: ['profound', 'profound music'],
+    subgenres: ['Psytrance', 'Full-On', 'Progressive Psy'],
+    topReleases: [
+      { title: 'Various Ranji singles and EPs', artist: 'Ranji', year: '2014+', type: 'multiple' },
+      { title: 'Profound compilation series', artist: 'Various / Ranji', year: '2015+', type: 'series' },
+      { title: 'Israeli full-on peer releases', artist: 'Various', year: 'multiple', type: 'multiple' },
+      { title: 'Festival-anthem singles', artist: 'Various', year: 'multiple', type: 'multiple' },
+    ],
+    related: ['hommega-productions', 'nano-records', 'iboga-records', 'tip-records'],
+    links: {
+      website: 'https://www.ranjimusic.com',
+      beatport: 'https://www.beatport.com/label/profound/52030',
+      soundcloud: 'https://soundcloud.com/profound-records',
+    },
+    short: {
+      en: 'Ranji\'s Israeli psytrance imprint — a focused outlet for his solo full-on catalogue and the contemporary Israeli psy scene.',
+      ja: 'Ranjiが主宰するイスラエル・サイトランス・インプリント——彼のソロ・フルオン・カタログと現代イスラエル・サイ・シーンのための焦点を絞ったアウトレット。',
+    },
+    bio: {
+      en: `Profound Records was founded in 2014 by Israeli psytrance producer Ranji as a personal imprint for his own solo material and a curated platform for contemporary Israeli full-on. By the mid-2010s the Israeli psy scene had become the genre's commercial centre — driven by Astrix, Infected Mushroom, and the Vini Vici breakthrough — and a new generation of Israeli producers needed institutional homes outside the established HOMmega and Nano channels. Profound was Ranji's contribution to that ecosystem.
+
+The label's catalogue runs primarily Ranji's own singles and EPs, supplemented by curated material from peers in the Israeli full-on and progressive-psy registers. The Profound compilation series and the Profound-branded events have built a focused audience among the global psy circuit's followers of Ranji's sound — typically melodic, peak-time, festival-leaning full-on with strong vocal sample work and architectural drops. Profound sits in the second tier of Israeli psy labels alongside HOMmega, Phantasm, and the wider Israeli ecosystem, with Ranji's productive catalogue keeping the imprint visible across the global psy festival calendar.`,
+      ja: `Profound Recordsは2014年、イスラエルのサイトランス・プロデューサーRanjiにより、自身のソロ素材のための個人的インプリントと、現代イスラエル・フルオンのキュレーション・プラットフォームとして設立された。2010年代半ばまでにイスラエル・サイ・シーンはジャンルの商業的中心地となり——Astrix、Infected Mushroom、そしてVini Viciのブレイクスルーが牽引——新世代のイスラエル・プロデューサーは確立されたHOMmegaとNanoチャネル外の制度的本拠地を必要としていた。ProfoundはRanjiのそのエコシステムへの貢献だった。
+
+レーベルのカタログは主にRanjiのソロ・シングルとEPを運営し、イスラエル・フルオン＆プログレッシブ・サイ・レジスターの同世代からのキュレーション素材で補完されている。Profoundコンピレーション・シリーズとProfound冠のイベントは、Ranjiのサウンドのグローバル・サイ・サーキット・フォロワーの間で焦点を絞ったオーディエンスを築いてきた——典型的にメロディック、ピークタイム、フェスティバル寄りのフルオンで、強いボーカル・サンプル・ワークと建築的なドロップを伴う。ProfoundはHOMmega、Phantasm、より広いイスラエル・エコシステムと並ぶイスラエル・サイ・レーベルの第二層に位置し、Ranjiの生産的なカタログがインプリントをグローバル・サイ・フェスティバル・カレンダー全体で可視に保っている。`,
+    },
+    posts: ['essential-trance-labels-2026', 'best-psytrance-tracks-of-all-time-50', 'what-is-psytrance'],
+  },
+
+  {
+    slug: 'solstice-music',
+    name: 'Solstice Music',
+    flag: '🇸🇪',
+    emoji: '☀️',
+    category: 'psy',
+    banner: 'b-psytrance',
+    founded: '2000',
+    hq: 'Stockholm, Sweden',
+    founders: ['Tomas Hallqvist (Atmos)', 'Jorgen Dahlqvist (Spaceman)'],
+    aliases: ['solstice', 'solstice records', 'solstice music records'],
+    subgenres: ['Psytrance', 'Goa Trance', 'Full-On'],
+    topReleases: [
+      { title: 'Various Atmos albums and singles', artist: 'Atmos', year: '2000s+', type: 'multiple' },
+      { title: 'Solstice Music compilation series', artist: 'Various', year: '2001+', type: 'series' },
+      { title: 'Swedish Goa / psy scene catalogue', artist: 'Various', year: '2000s+', type: 'multiple' },
+      { title: 'Atmos & Spaceman collaborative releases', artist: 'Atmos & Spaceman', year: 'multiple', type: 'multiple' },
+    ],
+    related: ['iboga-records', 'tip-records', 'nano-records', 'hommega-productions'],
+    links: {
+      website: 'https://www.solsticemusic.com',
+      beatport: 'https://www.beatport.com/label/solstice-music/9183',
+      soundcloud: 'https://soundcloud.com/solsticemusic',
+    },
+    short: {
+      en: 'Swedish psytrance and Goa-trance label, founded 2000 — Atmos co-founded; one of the foundational Northern European outlets for the post-Goa psy sound.',
+      ja: 'スウェーデンのサイトランス＆ゴア・トランス・レーベル（2000年設立）——Atmos共同創設の、ポスト・ゴア・サイ・サウンドのための基礎的北欧アウトレットの一つ。',
+    },
+    bio: {
+      en: `Solstice Music was founded in 2000 in Stockholm by Tomas Hallqvist (Atmos) and Jorgen Dahlqvist (Spaceman), at the moment when Goa trance was transitioning into the broader modern psytrance form. The label was conceived as a Northern European editorial home for the slower, more melodic, harmonically-detailed end of psy that the Israeli full-on labels were not necessarily prioritising — a Scandinavian counterpart to the wider Israeli / UK / Danish psy axis.
+
+Across 25+ years, Solstice has released the bulk of Atmos's solo catalogue and a long arc of Swedish, Northern European, and adjacent psy material from artists working in the progressive-psy, full-on, and Goa-revival spaces. The Solstice Music compilation series functions as the label's primary editorial document and is one of the genre's longer-running ongoing references. The label sits in the second tier of major psytrance institutions alongside Phantasm, Symbiosis, and Flying Rhino — well-respected, editorially disciplined, with a smaller but devoted audience that favours the melodic and patient end of the form over festival-mainstage anthemicism.`,
+      ja: `Solstice Musicは2000年、ストックホルムでTomas Hallqvist（Atmos）とJorgen Dahlqvist（Spaceman）により、ゴア・トランスがより広い現代サイトランス形式へと移行していた瞬間に設立された。レーベルは、イスラエルのフルオン・レーベルが必ずしも優先していなかったサイのよりスロー、よりメロディック、調和的に詳細な端のための北欧の編集本拠地——より広いイスラエル／英国／デンマーク・サイ軸へのスカンジナビアン・カウンターパート——として構想された。
+
+25年以上にわたり、SolsticeはAtmosのソロ・カタログの大半と、プログレッシブ・サイ、フルオン、ゴア・リバイバル空間で活動するアーティストからのスウェーデン、北欧、隣接サイ素材の長いアークをリリースしてきた。Solstice Musicコンピレーション・シリーズはレーベルの主要な編集ドキュメントとして機能し、ジャンルのより長期にわたる継続的参照点の一つだ。レーベルはPhantasm、Symbiosis、Flying Rhinoと並ぶ主要サイトランス機関の第二層に位置する——尊敬され、編集的に規律があり、フェスティバル・メインステージのアンセミシズムよりも形式のメロディックで忍耐強い端を好む、より小さいが熱心なオーディエンスを持つ。`,
+    },
+    posts: ['essential-trance-labels-2026', 'best-psytrance-tracks-of-all-time-50', 'what-is-goa-trance'],
+  },
 ];
