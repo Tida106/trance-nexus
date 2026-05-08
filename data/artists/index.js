@@ -4,6 +4,7 @@ import { progressive } from './progressive';
 import { progressive2 } from './progressive2';
 import { uplifting } from './uplifting';
 import { uplifting2 } from './uplifting2';
+import { uplifting3 } from './uplifting3';
 import { vocal } from './vocal';
 import { psy } from './psy';
 import { psy2 } from './psy2';
@@ -15,6 +16,7 @@ export const artists = [
   ...progressive2,
   ...uplifting,
   ...uplifting2,
+  ...uplifting3,
   ...vocal,
   ...psy,
   ...psy2,
