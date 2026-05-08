@@ -1,7 +1,17 @@
 // Lightweight listing data — no article body content.
 // Newest first. Keep in sync with data/blog/posts.js when adding articles.
 export const listing = [
-  // Batch 12: "What is [genre]" definitive guides
+  // Batch 12 (cont.): "What is [genre]" definitive guides — articles 70-72
+  { slug: 'what-is-hard-trance', date: '2026-05-08', readTime: 8, tags: ['guide', 'hard-trance', 'what-is'],
+    en: { title: 'What is Hard Trance? — Energy, BPM & Classic Anthems Guide', excerpt: "Hard trance is the aggressive, peak-time end of the genre — faster, harder-kicked, and more rave-oriented than uplifting trance, descended from late-1990s Belgian and German rave culture and the parent form of modern hardstyle." },
+    ja: { title: 'ハード・トランスとは何か？ ― エネルギー、BPM、クラシック・アンセム', excerpt: 'ハード・トランスはジャンルの攻撃的、ピークタイム端だ ― アップリフティング・トランスより速く、よりハードにキックされ、よりレイヴ志向で、1990年代後半のベルギーとドイツのレイヴ文化から降下し、現代ハードスタイルの親形式だ。' } },
+  { slug: 'what-is-tech-trance', date: '2026-05-08', readTime: 8, tags: ['guide', 'tech-trance', 'what-is'],
+    en: { title: 'What is Tech Trance? — The Tougher Side of the Genre Guide', excerpt: "Tech trance is the rhythm-forward end of the genre — where trance's long-form arrangement meets techno-influenced kick and bass programming, the lead synth is de-emphasised, and the body of the track is carried by drive rather than melody." },
+    ja: { title: 'テック・トランスとは何か？ ― ジャンルのよりタフな側面', excerpt: 'テック・トランスはジャンルのリズム前面端だ ― トランスの長尺アレンジメントがテクノ影響のキックとベース・プログラミングと出会い、リードシンセが脱強調され、トラックの本体がメロディではなくドライヴによって運ばれる場所だ。' } },
+  { slug: 'what-is-vocal-trance', date: '2026-05-08', readTime: 9, tags: ['guide', 'vocal', 'what-is'],
+    en: { title: 'What is Vocal Trance? — Definition, Sound & Top Artists Guide', excerpt: "Vocal trance is the songwriter tradition inside trance — the form where a sung human voice carries the emotional weight that the lead synth carries in instrumental trance, and where verse-chorus arrangement replaces the breakdown-and-drop architecture of the rest of the genre." },
+    ja: { title: 'ボーカル・トランスとは何か？ ― 定義、サウンド、トップ・アーティスト', excerpt: 'ボーカル・トランスはトランス内部のソングライター伝統だ ― インストルメンタル・トランスでリードシンセが運ぶ感情的重みを歌われた人間の声が運ぶ形式であり、ジャンルの他の部分のブレイクダウンとドロップ建築をヴァース・コーラス構成が置き換える。' } },
+  // Batch 12: "What is [genre]" definitive guides — articles 66-69
   { slug: 'what-is-psytrance', date: '2026-05-08', readTime: 9, tags: ['guide', 'psytrance', 'what-is'],
     en: { title: 'What is Psytrance? — From Goa to Modern Full-On Definitive Guide', excerpt: "Psytrance is the psychedelic offshoot of trance — high-tempo, rolling-bass-driven, surreal in sound design, and culturally a parallel universe to mainstream trance with its own festivals, labels, and listener community." },
     ja: { title: 'サイトランスとは何か？ ― ゴアから現代フルオンまでの決定版ガイド', excerpt: 'サイトランスはトランスのサイケデリックな派生だ ― 高テンポで、転がるベース駆動、サウンド・デザインがシュール、そして文化的にメインストリーム・トランスへの並行宇宙で、独自のフェスティバル、レーベル、リスナー・コミュニティを持つ。' } },
