@@ -44,12 +44,20 @@
 // index registry is required when new events are added. Just create
 // the file and add the import here.
 
+// Batch 1
 import tomorrowland from './tomorrowland';
 import aStateOfTranceFestival from './a-state-of-trance-festival';
 import transmissionPrague from './transmission-prague';
 import luminosityBeachFestival from './luminosity-beach-festival';
 import dreamstateSocal from './dreamstate-socal';
 import abgtMilestoneEvents from './abgt-milestone-events';
+// Batch 2 — mainstream / global mega festivals
+import edcLasVegas from './edc-las-vegas';
+import ultraMusicFestivalMiami from './ultra-music-festival-miami';
+import tomorrowlandWinter from './tomorrowland-winter';
+import untoldFestival from './untold-festival';
+import creamfields from './creamfields';
+import ultraEurope from './ultra-europe';
 
 export const events = [
   tomorrowland,
@@ -58,6 +66,12 @@ export const events = [
   luminosityBeachFestival,
   dreamstateSocal,
   abgtMilestoneEvents,
+  edcLasVegas,
+  ultraMusicFestivalMiami,
+  tomorrowlandWinter,
+  untoldFestival,
+  creamfields,
+  ultraEurope,
 ];
 
 export const eventSlugs = events.map((e) => e.slug);

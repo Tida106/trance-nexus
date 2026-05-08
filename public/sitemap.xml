@@ -2036,6 +2036,15 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/events/abgt-milestone-events"/>
   </url>
   <url>
+    <loc>https://trance-nexus.com/events/creamfields</loc>
+    <lastmod>2026-05-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/events/creamfields"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/events/creamfields"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/events/creamfields"/>
+  </url>
+  <url>
     <loc>https://trance-nexus.com/events/dreamstate-socal</loc>
     <lastmod>2026-05-08</lastmod>
     <changefreq>weekly</changefreq>
@@ -2045,6 +2054,15 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/events/dreamstate-socal"/>
   </url>
   <url>
+    <loc>https://trance-nexus.com/events/edc-las-vegas</loc>
+    <lastmod>2026-05-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/events/edc-las-vegas"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/events/edc-las-vegas"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/events/edc-las-vegas"/>
+  </url>
+  <url>
     <loc>https://trance-nexus.com/events/luminosity-beach-festival</loc>
     <lastmod>2026-05-08</lastmod>
     <changefreq>weekly</changefreq>
@@ -2052,6 +2070,15 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/events/luminosity-beach-festival"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/events/luminosity-beach-festival"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/events/luminosity-beach-festival"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/events/tomorrowland-winter</loc>
+    <lastmod>2026-05-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/events/tomorrowland-winter"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/events/tomorrowland-winter"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/events/tomorrowland-winter"/>
   </url>
   <url>
     <loc>https://trance-nexus.com/events/tomorrowland</loc>
@@ -2070,6 +2097,33 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/events/transmission-prague"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/events/transmission-prague"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/events/transmission-prague"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/events/ultra-europe</loc>
+    <lastmod>2026-05-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/events/ultra-europe"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/events/ultra-europe"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/events/ultra-europe"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/events/ultra-music-festival-miami</loc>
+    <lastmod>2026-05-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/events/ultra-music-festival-miami"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/events/ultra-music-festival-miami"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/events/ultra-music-festival-miami"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/events/untold-festival</loc>
+    <lastmod>2026-05-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/events/untold-festival"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/events/untold-festival"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/events/untold-festival"/>
   </url>
   <url>
     <loc>https://trance-nexus.com/category/history</loc>
