@@ -1505,6 +1505,51 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/labels/subculture"/>
   </url>
   <url>
+    <loc>https://trance-nexus.com/labels/garuda</loc>
+    <lastmod>2026-05-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/labels/garuda"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/labels/garuda"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/labels/garuda"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/labels/ava-recordings</loc>
+    <lastmod>2026-05-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/labels/ava-recordings"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/labels/ava-recordings"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/labels/ava-recordings"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/labels/discover-records</loc>
+    <lastmod>2026-05-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/labels/discover-records"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/labels/discover-records"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/labels/discover-records"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/labels/vii-records</loc>
+    <lastmod>2026-05-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/labels/vii-records"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/labels/vii-records"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/labels/vii-records"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/labels/bonzai-progressive</loc>
+    <lastmod>2026-05-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/labels/bonzai-progressive"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/labels/bonzai-progressive"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/labels/bonzai-progressive"/>
+  </url>
+  <url>
     <loc>https://trance-nexus.com/labels/armada-music</loc>
     <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
