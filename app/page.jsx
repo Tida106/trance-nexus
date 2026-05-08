@@ -11,7 +11,7 @@ import { labels } from '@/data/labels/index';
 import { glossary } from '@/data/glossary/index';
 import radioData from '@/data/radio.json';
 import setlistsData from '@/data/setlists.json';
-import eventsData from '@/data/events.json';
+import { events as eventsData } from '@/data/events/index';
 import ArtistCard from '@/components/ArtistCard';
 import LabelCard from '@/components/LabelCard';
 

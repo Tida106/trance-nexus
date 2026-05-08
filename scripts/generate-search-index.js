@@ -182,6 +182,39 @@ function extractDomain(subdir, type, urlPrefix) {
   return out;
 }
 
+// Events have a different per-record shape: name at top level, with
+// en.description and ja.description for the body. Walks data/events/
+// the same way extractDomain walks artists/labels/glossary, but uses
+// the events-specific field shape.
+function extractEvents() {
+  const records = readDataDir('events');
+  const out = [];
+  for (const { slug, body } of records) {
+    const name = findField(body, 'name');
+    if (!name) continue;
+    const country = findField(body, 'country');
+    const enBlock = body.match(/en:\s*\{([\s\S]*?)\n\s*\}/);
+    const jaBlock = body.match(/ja:\s*\{([\s\S]*?)\n\s*\}/);
+    const descEn = enBlock ? findField(enBlock[1], 'description') || '' : '';
+    const descJa = jaBlock ? findField(jaBlock[1], 'description') || '' : '';
+    out.push({
+      id: `event:${slug}`,
+      type: 'event',
+      url: `/events/${slug}`,
+      slug,
+      titleEn: name,
+      titleJa: name,
+      excerptEn: descEn,
+      excerptJa: descJa,
+      date: null,
+      tags: [],
+      icon: '🎉',
+      flag: country || null,
+    });
+  }
+  return out;
+}
+
 // ---------- main -----------------------------------------------------------
 
 function main() {
@@ -193,13 +226,15 @@ function main() {
   const artists = extractDomain('artists', 'artist', '/artists');
   const labels = extractDomain('labels', 'label', '/labels');
   const glossary = extractDomain('glossary', 'glossary', '/glossary');
+  const events = extractEvents();
 
-  const docs = [...blog, ...artists, ...labels, ...glossary];
+  const docs = [...blog, ...artists, ...labels, ...glossary, ...events];
 
   console.log(`✅ Blog:     ${blog.length}`);
   console.log(`✅ Artists:  ${artists.length}`);
   console.log(`✅ Labels:   ${labels.length}`);
   console.log(`✅ Glossary: ${glossary.length}`);
+  console.log(`✅ Events:   ${events.length}`);
   console.log(`✅ Total:    ${docs.length}`);
 
   fs.mkdirSync(path.dirname(OUT), { recursive: true });

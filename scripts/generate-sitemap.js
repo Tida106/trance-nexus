@@ -50,6 +50,12 @@ const LABEL_PAGES = collectSlugs('labels').map((slug) => ({
   priority: '0.7',
 }));
 
+const EVENT_PAGES = collectSlugs('events').map((slug) => ({
+  url: `/events/${slug}`,
+  changefreq: 'weekly',
+  priority: '0.7',
+}));
+
 // Categories + tags are keyed by `id:` not `slug:` — extract those by reading the relevant files directly.
 function collectIdsFrom(relPath) {
   const filePath = path.join(__dirname, '..', relPath);
@@ -104,6 +110,7 @@ const PAGES = [
   ...ARTIST_PAGES,
   ...LABEL_PAGES,
   ...GLOSSARY_PAGES,
+  ...EVENT_PAGES,
   ...CATEGORY_PAGES,
   ...TAG_PAGES,
 ];
