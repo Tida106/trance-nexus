@@ -1,6 +1,16 @@
 // Lightweight listing data — no article body content.
 // Newest first. Keep in sync with data/blog/posts.js when adding articles.
 export const listing = [
+  // Batch 12 (final): "What is [genre]" definitive guides — articles 73-75
+  { slug: 'what-is-balearic-trance', date: '2026-05-08', readTime: 8, tags: ['guide', 'balearic', 'what-is'],
+    en: { title: 'What is Balearic Trance? — Sun, Sea & Slow BPM Definitive Guide', excerpt: "Balearic trance is the sun-soaked, slower end of the genre — rooted in Ibiza's Café del Mar sunset-bar tradition, codified by Energy 52's \"Café del Mar\" (1993) and Chicane's late-90s catalogue, and built around the Mediterranean evening / sunrise emotional palette." },
+    ja: { title: 'バレアリック・トランスとは何か？ ― 太陽、海、スロー BPMの決定版ガイド', excerpt: 'バレアリック・トランスはジャンルの太陽を浴びた、よりスローな端だ ― イビザのCafé del Marサンセット・バー伝統に根ざし、Energy 52「Café del Mar」（1993）とChicaneの90年代後半カタログによって成文化され、地中海の夕方／日の出の情緒的パレットを軸に構築される。' } },
+  { slug: 'what-is-dream-trance', date: '2026-05-08', readTime: 8, tags: ['guide', 'dream-trance', 'what-is'],
+    en: { title: 'What is Dream Trance? — From Robert Miles to Today Definitive Guide', excerpt: "Dream trance is the piano-led, melancholic Italian subgenre that crystallised in 1995-96 around Robert Miles' \"Children\" and the surrounding Media Records / DBX catalogue — the moment when trance briefly became Europe's biggest pop format." },
+    ja: { title: 'ドリーム・トランスとは何か？ ― Robert Milesから今日までの決定版ガイド', excerpt: 'ドリーム・トランスはピアノ主導のメランコリックなイタリアのサブジャンルで、Robert Milesの「Children」と周辺のMedia Records／DBXカタログを軸に1995〜96年に結晶化した ― トランスが一時的にヨーロッパ最大のポップ・フォーマットになった瞬間だ。' } },
+  { slug: 'what-is-goa-trance', date: '2026-05-08', readTime: 9, tags: ['guide', 'psytrance', 'goa', 'what-is'],
+    en: { title: 'What is Goa Trance? — Origins, Sound & Pioneers Definitive Guide', excerpt: "Goa trance is the original psychedelic trance form — the 1989–1995 Goa beach-party scene where Western travellers, Indian local culture, and the new digital studio technology of the early 1990s combined into a sound that all later psytrance directly descends from." },
+    ja: { title: 'ゴア・トランスとは何か？ ― 起源、サウンド、パイオニアの決定版ガイド', excerpt: 'ゴア・トランスはオリジナルのサイケデリック・トランス形式だ ― 1989〜1995年のゴア・ビーチパーティ・シーンで、西洋の旅行者、インドの地元文化、そして1990年代初頭の新しいデジタル・スタジオ技術が、後のすべてのサイトランスが直接降下するサウンドへと結合した場所だ。' } },
   // Batch 12 (cont.): "What is [genre]" definitive guides — articles 70-72
   { slug: 'what-is-hard-trance', date: '2026-05-08', readTime: 8, tags: ['guide', 'hard-trance', 'what-is'],
     en: { title: 'What is Hard Trance? — Energy, BPM & Classic Anthems Guide', excerpt: "Hard trance is the aggressive, peak-time end of the genre — faster, harder-kicked, and more rave-oriented than uplifting trance, descended from late-1990s Belgian and German rave culture and the parent form of modern hardstyle." },
