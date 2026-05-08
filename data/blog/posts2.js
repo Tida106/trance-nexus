@@ -4,8 +4,8 @@ export const posts2 = [
     slug: 'pioneer-dj-vs-denon-dj-for-trance',
     date: '2026-05-01', readTime: 8, tags: ['dj', 'gear'],
     en: {
-      title: 'Pioneer DJ vs Denon DJ: Which is Better for Trance DJs?',
-      description: 'A detailed comparison of Pioneer DJ and Denon DJ hardware for trance — covering jog wheel feel, key detection, waveform display, and real-world club use.',
+      title: 'Pioneer DJ vs Denon DJ for Trance — 2026 Hardware Comparison',
+      description: 'A detailed Pioneer DJ vs Denon DJ comparison for trance DJs — jog wheel feel, key detection, waveform display, and real-world club use compared in 2026.',
       excerpt: 'For decades Pioneer DJ has been the industry standard. But Denon DJ is mounting a serious challenge. Which setup is right for your trance journey?',
       content: [
         { heading: 'The Great Debate in the Trance Booth', body: '<p>Walk into any serious club from Amsterdam to Tokyo and you will almost certainly find a Pioneer DJ CDJ setup behind the decks. For decades, Pioneer has been the industry standard — the equipment most trance DJs learn on, play on professionally, and benchmark everything else against. But in recent years Denon DJ has mounted a formidable challenge with its SC series media players and Engine DJ ecosystem, forcing a genuine conversation about whether Pioneer\'s dominance is still justified.</p><p>For trance DJs specifically — a community defined by technical precision, long marathon sets, and obsessive attention to harmonic mixing — the choice of hardware matters more than in many other genres. This guide compares the two brands across the dimensions that matter most for trance performance.</p>' },
@@ -33,8 +33,8 @@ export const posts2 = [
     slug: 'best-headphones-for-trance-djing-2026',
     date: '2026-05-02', readTime: 7, tags: ['dj', 'gear'],
     en: {
-      title: 'Best Headphones for Trance DJing in 2026',
-      description: 'The definitive guide to the best headphones for trance DJs in 2026 — from the legendary Sennheiser HD 25 to the Pioneer HDJ-X10, covering sound isolation, durability, and sound quality.',
+      title: 'Best DJ Headphones for Trance in 2026 — HD 25, HDJ-X10 & More',
+      description: 'The definitive guide to the best DJ headphones for trance in 2026 — Sennheiser HD 25, Pioneer HDJ-X10, Audio-Technica picks, sound, and durability tested.',
       excerpt: 'Your headphones are your most critical tool for beatmatching and cueing. These are the models trusted by trance DJs worldwide in 2026.',
       content: [
         { heading: 'Why Headphones Define Your DJing', body: '<p>In trance DJing, headphones are not a luxury — they are the primary interface between your ear and the music you are about to mix. While the crowd hears the track playing through the main system, you are listening to the incoming track in your headphones, matching its tempo and key to the live track, timing your transition to the millisecond. The quality of your headphones directly affects the quality of your beatmatching, your ability to detect key clashes, and your endurance through long sets.</p><p>Trance DJs have specific requirements: excellent frequency response across the full range (trance is built on sub-bass, melodic mids, and sparkling highs), strong passive isolation to block monitor bleed without requiring noise cancellation, and a build robust enough to survive years of professional use.</p>' },
@@ -62,8 +62,8 @@ export const posts2 = [
     slug: 'essential-vst-plugins-trance-production',
     date: '2026-05-03', readTime: 8, tags: ['production', 'tutorial'],
     en: {
-      title: 'Essential VST Plugins for Trance Production in 2026',
-      description: 'The complete guide to the VST plugins every trance producer needs — from synthesisers like Spire and Sylenth1 to FabFilter processing and reverb essentials.',
+      title: 'Essential VST Plugins for Trance Production — 2026 Complete Guide',
+      description: 'The complete guide to VST plugins every trance producer needs in 2026 — Spire, Sylenth1, Serum, FabFilter processing, reverb, and arrangement essentials.',
       excerpt: "Behind every euphoric trance lead, soaring pad, and driving bassline is a carefully chosen set of VST plugins. Here's what the professionals use.",
       content: [
         { heading: 'The Trance Producer\'s Digital Arsenal', body: '<p>Trance production has a distinctive sonic vocabulary — the shimmering supersaw lead, the pumping sidechain bassline, the reverb-drenched breakdown pad, the precise automation that builds tension over eight bars before releasing into a euphoric drop. Achieving these sounds requires not just skill and creativity but the right tools. While DAW choice (Ableton Live, FL Studio, Cubase, and Logic Pro all have dedicated trance producer communities), the VST plugins you use define much of your sonic palette.</p><p>This guide covers the essential VST plugins for trance production in 2026, organised by category. Prices range from free to several hundred pounds, but most offer trial periods. Invest in what fits your workflow and budget — it is absolutely possible to make professional-quality trance with a small, well-chosen plugin library.</p>' },
@@ -91,8 +91,8 @@ export const posts2 = [
     slug: 'how-to-mix-trance-beatmatching-phrasing',
     date: '2026-05-04', readTime: 7, tags: ['dj', 'tutorial'],
     en: {
-      title: 'How to Mix Trance: Beatmatching and Phrasing Techniques',
-      description: 'Master the art of trance mixing — from manual beatmatching and harmonic mixing to phrasing, EQ transitions, and the techniques that separate good DJs from great ones.',
+      title: 'How to Mix Trance — Beatmatching, Phrasing & EQ Techniques Guide',
+      description: 'Master trance mixing in 2026 — manual beatmatching, harmonic mixing, phrasing, EQ transitions, and the techniques that separate good DJs from great ones.',
       excerpt: 'Great trance mixing is both science and art. Understanding phrasing, harmonic compatibility, and transition timing transforms your mixes from competent to compelling.',
       content: [
         { heading: 'Beyond the Sync Button', body: '<p>Digital DJ software has made beatmatching technically trivial — press sync, the tracks align. But the DJs who move crowds, who build and release tension with surgical precision, who make hour-long mixes feel like a single continuous journey — they understand something the sync button cannot provide: phrasing, energy management, and the musical logic that makes one track follow another not just technically but emotionally.</p><p>This guide covers the techniques that transform technically competent trance DJing into genuinely musical performance. We will cover manual beatmatching (still the foundation of ear training), trance-specific phrasing structures, EQ-based transitions, and the harmonic mixing principles that make your sets sound like carefully composed music rather than a sequence of tracks.</p>' },
@@ -120,8 +120,8 @@ export const posts2 = [
     slug: 'art-of-trance-buildup-production-secrets',
     date: '2026-05-05', readTime: 8, tags: ['production', 'tutorial'],
     en: {
-      title: 'The Art of the Trance Buildup: Production Secrets Revealed',
-      description: 'Learn the production techniques behind the most powerful trance buildups — from tension-building automation and filter sweeps to snare rolls, white noise risers, and the perfect drop.',
+      title: 'The Art of the Trance Buildup — Production Secrets & Tutorial',
+      description: 'Learn the production techniques behind powerful trance buildups — tension automation, filter sweeps, snare rolls, white noise risers, and the perfect drop.',
       excerpt: 'The buildup is where trance music defines itself. These production techniques are what separate tracks that make rooms explode from tracks that simply play.',
       content: [
         { heading: 'Why the Buildup Defines Trance', body: '<p>If you had to identify the single moment that defines the trance listening experience, it would be the buildup — that 16 to 32-bar section of escalating tension that precedes the main drop. The buildup is where all of trance\'s emotional architecture is made explicit: the anticipation, the restraint, the promised release. A great trance buildup is engineering of the highest order, manipulating the listener\'s nervous system with the precision of a conductor bringing an orchestra to a crescendo.</p><p>This is why so many trance producers — from beginners to veterans — find the buildup the most challenging section to produce convincingly. The underlying beat continues, but everything else must be carefully choreographed to feel both inevitable and surprising. Here are the techniques the best producers use to make their buildups irresistible.</p>' },

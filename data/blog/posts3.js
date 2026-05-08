@@ -4,8 +4,8 @@ export const posts3 = [
     slug: 'armin-van-buuren-king-of-trance',
     date: '2026-05-06', readTime: 7, tags: ['artists', 'culture'],
     en: {
-      title: 'Armin van Buuren: The King of Trance',
-      description: 'The definitive profile of Armin van Buuren — the Dutch DJ who became the face of trance music globally through A State of Trance, five DJ Mag number one rankings, and 25 years of relentless innovation.',
+      title: 'Armin van Buuren — Biography, Best Tracks & Influence on Trance',
+      description: 'Definitive profile of Armin van Buuren — Dutch DJ behind A State of Trance, five-time DJ Mag #1, founder of Armada, and the global face of trance music.',
       excerpt: 'Five times number one DJ in the world. Host of the most-listened-to dance radio show in history. For millions of fans, Armin van Buuren is not just a DJ — he is the living definition of trance.',
       content: [
         { heading: 'An Institution in Human Form', body: '<p>Few artists in any genre have come to embody their music quite as completely as Armin van Buuren embodies trance. Born in 1976 in Leiden, Netherlands, he has spent more than three decades building not just a career but a global cultural institution around the music he loves. Five times voted the world\'s number one DJ by DJ Mag readers, host of A State of Trance — the most-listened-to dance music radio show in history — and the driving force behind Armada Music, one of the world\'s largest independent dance music labels, Armin\'s influence on trance is simply immeasurable.</p><p>What makes the Armin van Buuren story particularly remarkable is that it was built on genuine passion rather than strategic calculation. From his first radio broadcasts in the late 1990s to his marathon performances at festival main stages today, the enthusiasm and emotional investment in the music has remained constant. For millions of fans worldwide, that authenticity is the foundation of everything.</p>' },
@@ -33,8 +33,8 @@ export const posts3 = [
     slug: 'above-beyond-anjuna-empire',
     date: '2026-05-07', readTime: 7, tags: ['artists', 'labels'],
     en: {
-      title: 'Above & Beyond and the Anjuna Empire',
-      description: 'The story of Above & Beyond — how three British musicians built Anjunabeats and Anjunadeep into one of the most beloved brands in electronic music, and why their community is unlike any other.',
+      title: 'Above & Beyond — Biography, Anjunabeats Empire & Iconic Tracks',
+      description: 'The story of Above & Beyond — how three British musicians built Anjunabeats and Anjunadeep into electronic music\'s most beloved label and live community.',
       excerpt: 'Above & Beyond did not just make music — they built a movement. The Anjuna story is one of the most remarkable in electronic music history.',
       content: [
         { heading: 'Three Friends, One Vision', body: '<p>Jono Grant, Tony McGuinness, and Paavo Salminen — collectively Above & Beyond — met in London\'s recording studios in the late 1990s. All three brought different skills and sensibilities: Grant\'s production background, McGuinness\'s industry experience, and Salminen\'s classical music training. Their combination proved remarkably synergistic. The trio founded Anjunabeats in 2000 as a vehicle for their own music and quickly discovered a talent for building a label that felt less like a business and more like a community gathering point.</p><p>Their musical approach distinguished them from the start. Where much trance of the early 2000s prioritised energy and momentum, Above & Beyond emphasised melody, emotion, and a kind of introspective quality that their audience found deeply resonant. Songs like "Can\'t Sleep," "Good For Me," and "No One On Earth" sounded like the interior experience of falling in love or losing something precious — they were trance tracks that felt like diary entries.</p>' },
@@ -62,8 +62,8 @@ export const posts3 = [
     slug: 'paul-van-dyk-pioneer-of-trance',
     date: '2026-05-08', readTime: 7, tags: ['artists', 'history'],
     en: {
-      title: 'Paul van Dyk: Pioneer of the Trance Sound',
-      description: 'The story of Paul van Dyk — the Berlin DJ who helped invent trance music, survived a near-fatal stage accident, and continues to champion the genre\'s values of connection and peace.',
+      title: 'Paul van Dyk — Biography, Best Tracks & Influence on Trance Music',
+      description: 'Paul van Dyk biography — the Berlin DJ who helped invent trance, survived a near-fatal 2016 stage accident, and continues to champion the genre\'s values.',
       excerpt: 'Paul van Dyk did not just play trance — he helped create it. From East Berlin to global stages, his story is one of music, politics, and perseverance.',
       content: [
         { heading: 'From East Berlin to the World', body: '<p>Paul van Dyk\'s story begins in communist East Berlin, where he grew up in the late 1970s and 1980s unable to access the Western music he could hear drifting across the border. That deprivation — and the hunger it created — shaped an artist who would come to understand music as inherently political: as freedom, as connection, as the transcendence of borders both physical and cultural. When the Berlin Wall fell in 1989, van Dyk was among the first DJs to bring electronic music into the reunified city\'s emerging club scene, playing at venues including the legendary Tresor.</p><p>His early sets at Tresor and other Berlin institutions established a sound that was simultaneously darker and more sophisticated than much contemporary trance — rooted in the city\'s industrial heritage but reaching toward something transcendent and universal. The combination proved enormously influential, establishing what many call the "Berlin school" of trance production.</p>' },
@@ -91,8 +91,8 @@ export const posts3 = [
     slug: 'tiesto-evolution-trance-to-edm',
     date: '2026-05-09', readTime: 7, tags: ['artists', 'history'],
     en: {
-      title: "Tiësto's Evolution: From Trance God to EDM Superstar",
-      description: "The fascinating and sometimes controversial story of Tiësto's transformation from the defining artist of trance music's golden age to one of the most commercially successful DJs in history.",
+      title: "Tiësto's Evolution — From Trance God to EDM Superstar Biography",
+      description: "The full, fascinating story of Tiësto's transformation from defining artist of trance music's golden age to one of the most successful DJs in EDM history.",
       excerpt: "No artist in electronic music has undergone a more dramatic evolution than Tiësto. His journey from trance deity to global EDM superstar is a story about music, money, and identity.",
       content: [
         { heading: 'The Original Trance God', body: '<p>In the early 2000s, Tiësto was trance. The Dutch DJ — born Tijs Michiel Verwest in Breda in 1969 — had built a reputation through years of residencies, radio shows (his Club Life programme became one of the most listened-to dance shows in the world), and a series of albums and compilations that defined the uplifting trance sound for an entire generation. His "In Search of Sunrise" compilation series, launched in 1999, became the definitive document of the genre\'s golden age — a multi-disc journey through trance and progressive that sold hundreds of thousands of copies worldwide.</p><p>The peak of Tiësto\'s trance period came in August 2004 when he performed solo at the opening ceremony of the Athens Olympic Games — the first DJ to perform at such an occasion, before a television audience of hundreds of millions. It was trance music\'s most visible mainstream moment, and Tiësto was its undisputed face.</p>' },
@@ -120,8 +120,8 @@ export const posts3 = [
     slug: 'ferry-corsten-three-decades-of-trance',
     date: '2026-05-10', readTime: 7, tags: ['artists', 'history'],
     en: {
-      title: 'Ferry Corsten: Three Decades of Trance Innovation',
-      description: 'A comprehensive profile of Ferry Corsten — the Rotterdam producer whose System F alias, Blueprint label, and three decades of innovation have made him one of trance\'s most important figures.',
+      title: 'Ferry Corsten — Biography, Best Tracks & Three Decades of Trance',
+      description: 'Ferry Corsten profile — the Rotterdam producer behind System F, Blueprint label, and three decades of trance innovation across the genre\'s defining eras.',
       excerpt: "Ferry Corsten's career spans every era of trance music. From System F's \"Out of the Blue\" to his latest releases, innovation has always been his signature.",
       content: [
         { heading: 'Rotterdam\'s Gift to Trance', body: '<p>Ferry Corsten was born in Rotterdam in 1973 and emerged from the city\'s thriving electronic music scene in the early 1990s — a scene that had been shaped by the city\'s port culture, its working-class energy, and an early adoption of Chicago house and Detroit techno that gave Dutch electronic music a distinctly raw, energetic character. Corsten absorbed these influences but pushed beyond them, developing a production sensibility that combined the technical sophistication of German trance with the melodic warmth of the Dutch sound.</p><p>His earliest releases in the mid-1990s attracted attention on both Black Hole Recordings and Tsunami Records, two of the Dutch trance scene\'s most important early labels. But it was his System F alias — created in 1998 — that would define his legacy.</p>' },
