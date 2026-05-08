@@ -12,6 +12,17 @@
 // Black Hole, Coldharbour, Pure Trance, and Armada. Cross-checked
 // against trancehistory.com year-in-review reporting and individual
 // label release pages.
+//
+// Format note (added 2026-05-09): the Jan–May 2026 entries below
+// pre-date the half-automated chart pipeline at
+// scripts/generate-monthly-chart.js + data/blog/templates/monthly-
+// chart-template.js. They use a 5–6 section essay format and have
+// no `tracks[]` array. Schema-compatible with the renderer (the
+// ranked-list block in components/BlogPost.jsx is gated on
+// Array.isArray(post.tracks) && post.tracks.length > 0). Charts
+// from June 2026 onward will be appended in-place by the generator
+// in the template-driven format. See docs/MONTHLY_CHART_WORKFLOW.md
+// for the workflow that produces those.
 
 export const posts11 = [
   {
