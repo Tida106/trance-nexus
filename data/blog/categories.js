@@ -56,6 +56,15 @@ export const categories = [
       ja: '音楽をリリースするレーベル、シーンを形作る業界の力学、ダンスミュージック・ビジネス。',
     },
   },
+  {
+    id: 'monthly-charts',
+    emoji: '📈',
+    name: { en: 'Monthly Charts', ja: '月間チャート' },
+    description: {
+      en: 'TRANCE NEXUS editorial picks for each month — the trance tracks driving ASOT, Group Therapy, FSOE, Coldharbour, and Pure Trance rotation across uplifting, progressive, tech, and psy.',
+      ja: 'TRANCE NEXUS編集部が選ぶ月ごとのトランス・トラック ― ASOT、Group Therapy、FSOE、Coldharbour、Pure Tranceのローテーションを横断するアップリフティング、プログレッシブ、テック、サイの注目曲。',
+    },
+  },
 ];
 
 export const categorySlugs = categories.map((c) => c.id);

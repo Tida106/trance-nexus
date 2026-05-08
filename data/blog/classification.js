@@ -148,6 +148,19 @@ export const classification = {
     category: 'artists',
     tags: ['progressive', 'vocal', '2020s'],
   },
+  // Batch 10: monthly trance chart roundups (2026 Jan/Feb/Mar — batch 1)
+  'best-trance-tracks-january-2026': {
+    category: 'monthly-charts',
+    tags: ['monthly-charts', 'above-and-beyond', 'paul-van-dyk', 'uplifting', '2020s'],
+  },
+  'best-trance-tracks-february-2026': {
+    category: 'monthly-charts',
+    tags: ['monthly-charts', 'armin-van-buuren', 'asot', 'vocal', 'uplifting', '2020s'],
+  },
+  'best-trance-tracks-march-2026': {
+    category: 'monthly-charts',
+    tags: ['monthly-charts', 'uplifting', 'progressive', '2020s'],
+  },
   // Batch 9: starter playlist, Tiësto reinvention, BT & Stutter Edit, Cosmic Gate vocals, iconic vocalists
   'building-first-trance-playlist-30-essential': {
     category: 'subgenres',

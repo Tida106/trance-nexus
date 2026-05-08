@@ -33,8 +33,8 @@ export default function CategoryIndexPage() {
             <div className="w-20 h-1 bg-gradient-to-r from-accent-red via-accent-orange to-transparent mb-3" />
             <p className="text-text-light/60 text-sm font-barlow max-w-2xl">
               {isJA
-                ? 'TRANCE NEXUS のブログ記事はテーマごとに6つのカテゴリに分類されています。興味のあるテーマからお探しください。'
-                : 'TRANCE NEXUS blog articles are organised into six thematic categories. Browse by what interests you most.'}
+                ? `TRANCE NEXUS のブログ記事はテーマごとに${categories.length}のカテゴリに分類されています。興味のあるテーマからお探しください。`
+                : `TRANCE NEXUS blog articles are organised into ${categories.length} thematic categories. Browse by what interests you most.`}
             </p>
           </div>
 

@@ -1,6 +1,16 @@
 // Lightweight listing data — no article body content.
 // Newest first. Keep in sync with data/blog/posts.js when adding articles.
 export const listing = [
+  // Batch 10: Monthly trance chart roundups (2026 Jan/Feb/Mar — batch 1)
+  { slug: 'best-trance-tracks-march-2026', date: '2026-03-31', readTime: 7, tags: ['classics', 'analysis', 'monthly-charts'],
+    en: { title: 'Best Trance Tracks of March 2026 — Push Returns, Pure Trance NEON, FSOE Argento', excerpt: 'March 2026 was a month for veteran reactivations and new sub-label launches. Push returned with "Back When We Believed" on Pure Trance NEON, FSOE Argento debuted with the Ron / Leeds collaboration, and the Anjuna release calendar continued the year\'s steady drip of Above & Beyond singles.' },
+    ja: { title: '2026年3月のベスト・トランス・トラック ― Pushの復活、Pure Trance NEON、FSOE Argento', excerpt: '2026年3月はベテランの再活性化と新サブレーベル発進の月だった。PushはPure Trance NEONで「Back When We Believed」とともに復帰、FSOE ArgentoはRon / Leedsコラボレーションでデビュー、Anjunaリリース・カレンダーは年の安定したAbove & Beyondシングルの滴下を続けた。' } },
+  { slug: 'best-trance-tracks-february-2026', date: '2026-02-28', readTime: 7, tags: ['classics', 'analysis', 'monthly-charts'],
+    en: { title: 'Best Trance Tracks of February 2026 — ASOT 25 Anthem, Aly & Fila, and the Pure Trance Wave', excerpt: 'February 2026 was the ASOT 25 month: Armin van Buuren, Richard Durand, and Dicosis dropped the official ELEVATION anthem, Aly & Fila reactivated their Jwaydan vocal partnership for FSOE, and the festival\'s two-night Rotterdam edition turned the month into the year\'s most-anticipated trance event so far.' },
+    ja: { title: '2026年2月のベスト・トランス・トラック ― ASOT 25周年アンセム、Aly & Fila、Pure Trance波', excerpt: '2026年2月はASOT 25周年の月だった：Armin van Buuren、Richard Durand、Dicosisが公式ELEVATIONアンセムを投下、Aly & FilaはFSOEのためにJwaydanとのボーカル・パートナーシップを再活性化、ロッテルダムでの2夜のフェスティバル版が月を年で最も期待されたトランス・イベントに変えた。' } },
+  { slug: 'best-trance-tracks-january-2026', date: '2026-01-31', readTime: 7, tags: ['classics', 'analysis', 'monthly-charts'],
+    en: { title: 'Best Trance Tracks of January 2026 — Top 10 Uplifting, Progressive & Tech Picks', excerpt: 'January 2026 opened the year on a high note: Above & Beyond delivered four new singles in a single Anjunabeats drop, Paul van Dyk reunited with Ciaran McAuley on Black Hole, and the Raw / Deep / Hypnotic wing of Beatport\'s chart kept producing the kind of lower-tempo material that the previous twelve months made the genre\'s most-watched space.' },
+    ja: { title: '2026年1月のベスト・トランス・トラック10選 ― アップリフティング、プログレッシブ、テックの注目リリース', excerpt: '2026年1月は高水準のリリースで幕を開けた。Above & Beyondは単一のAnjunabeatsドロップで4曲の新曲を投下、Paul van DykはBlack HoleでCiaran McAuleyと再合流。Beatportの「Raw / Deep / Hypnotic」チャートはこの12ヶ月でジャンル最注目空間となった低BPMトランス素材を生み出し続けた。' } },
   // Batch 9: Starter playlist, Tiësto reinvention, BT & Stutter Edit, Cosmic Gate vocals, iconic vocalists
   { slug: 'iconic-trance-vocalists-voices-behind-anthems', date: '2026-06-14', readTime: 8, tags: ['vocals', 'culture'],
     en: { title: 'Iconic Trance Vocalists: The Voices Behind the Anthems', excerpt: 'Vocal trance is its own tradition within the genre. The list of vocalists whose work defined the era reads like a separate canon — one that runs parallel to the producer canon and is just as essential to understanding how the music actually sounds.' },

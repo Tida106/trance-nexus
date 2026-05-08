@@ -163,6 +163,17 @@ export const tags = [
     },
   },
 
+  // Format tags
+  {
+    id: 'monthly-charts',
+    group: 'format',
+    name: { en: 'Monthly Charts', ja: '月間チャート' },
+    description: {
+      en: 'Monthly editorial roundups of the trance tracks driving ASOT, Group Therapy, FSOE, Coldharbour, and Pure Trance rotation.',
+      ja: 'ASOT、Group Therapy、FSOE、Coldharbour、Pure Tranceのローテーションを駆動するトランス・トラックの月次編集ラウンドアップ。',
+    },
+  },
+
   // Era tags
   {
     id: '90s',
@@ -213,5 +224,6 @@ export const TAG_GROUPS = [
   { id: 'artist', en: 'Artists', ja: 'アーティスト' },
   { id: 'place', en: 'Places & Events', ja: 'プレイス・イベント' },
   { id: 'tool', en: 'Production & DJing', ja: '制作・DJ' },
+  { id: 'format', en: 'Formats', ja: 'フォーマット' },
   { id: 'era', en: 'Eras', ja: '年代' },
 ];
