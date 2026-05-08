@@ -2,6 +2,7 @@ import { legends } from './legends';
 import { legends2 } from './legends2';
 import { progressive } from './progressive';
 import { progressive2 } from './progressive2';
+import { progressive3 } from './progressive3';
 import { uplifting } from './uplifting';
 import { uplifting2 } from './uplifting2';
 import { uplifting3 } from './uplifting3';
@@ -14,6 +15,7 @@ export const artists = [
   ...legends2,
   ...progressive,
   ...progressive2,
+  ...progressive3,
   ...uplifting,
   ...uplifting2,
   ...uplifting3,
