@@ -41,7 +41,11 @@ export const psy2 = [
       ja: 'ドライヴィングでメロディックなプログレッシブ・サイトランス——クリーンな138 BPMグルーヴ、長い情緒的なビルド、パッド主導のブレイクダウン。フルオン・サイとプログレッシブ・ハウスを繋ぐ存在。',
     },
     bio: {
-      en: `Yoni Oshrat — performing as Ace Ventura — is one of the headline names on Iboga Records, the Danish label most associated with progressive psytrance. He started releasing in 2003 and broke through with his debut album Future Memories (2010), which set a template for the modern Iboga sound. He frequently collaborates with Liquid Soul (Switzerland) and Captain Hook (Israel) and has been booked at Boom Festival, Ozora, and Universo Paralello on a regular basis since the late 2000s.`,
+      en: `Yoni Oshrat, performing as Ace Ventura, is one of the headline names on Iboga Records and a defining figure of the modern progressive-psytrance scene. Born in Tel Aviv into a musical family — his father is a noted Israeli composer who wrote the Eurovision-winning "Hallelujah" — Oshrat worked in the TV and film industry as a sound producer before fully committing to electronic music in the early 1990s. After several years of DJing he formed the Children of the Doc project with DJ Goblin, which later rebranded as Psysex, releasing three full-length albums on HOMmega Productions across the early 2000s.
+
+In 2006 his musical taste shifted toward the slower, groovier progressive end of the psy spectrum, and he left Psysex to launch the Ace Ventura solo project. His 2007 debut solo album Rebirth on Iboga Records was widely cited as one of the year's biggest psy releases and won him the Psytrance category at the 2008 Beatport Music Awards. The remix album Re:Boot (2008) and Future Memories (2010) consolidated the project's editorial direction.
+
+Beyond his solo work, Oshrat collaborates extensively across the Iboga ecosystem: Alpha Portal (with Astrix), Alien Art (with Captain Hook), Liquid Ace (with Liquid Soul), and Acid Punks (with Outsiders). The Psy-Nation compilation series compiled with Liquid Soul has extended his editorial influence beyond his own catalogue. Ace Ventura performs regularly at Boom Festival, Ozora, Universo Paralello, and the global progressive-psy circuit, and his sets emphasise the long-form melodic build that has come to define the modern Iboga aesthetic.`,
       ja: `Ace Ventura名義のヨニ・オシュラットは、プログレッシブ・サイトランスを代表するデンマークのレーベルIboga Recordsの看板名の一人。2003年からリリースを開始し、デビューアルバム『Future Memories』（2010）でブレイク。同作は現代Ibogaサウンドのテンプレートを確立した。Liquid Soul（スイス）、Captain Hook（イスラエル）と頻繁にコラボし、2000年代末以降Boom Festival、Ozora、Universo Paralelloに常連出演している。`,
     },
     mentionedIn: ['rise-of-psytrance-goa-to-modern-day'],
@@ -55,10 +59,10 @@ export const psy2 = [
     genre: 'PSYTRANCE',
     banner: 'b-psytrance',
     tags: ['PROGRESSIVE PSYTRANCE', 'IBOGA', 'ISRAELI'],
-    realName: 'Sharon Cohen',
+    realName: 'Reshef Harari',
     origin: 'Tel Aviv, Israel',
     born: '1979',
-    activeFrom: '2002',
+    activeFrom: '2003',
     labels: ['Iboga Records', 'Hommega Productions'],
     topWorks: [
       { title: 'Human Design', year: 2014, type: 'album' },
@@ -82,7 +86,11 @@ export const psy2 = [
       ja: '映画的なプログレッシブ・サイ——大規模な和声アレンジ、有機的な音響設計、トラックをピークタイムのツールではなく楽曲として扱う長尺のアプローチ。',
     },
     bio: {
-      en: `Sharon Cohen, working as Captain Hook, started releasing on Hommega Productions in the early 2000s alongside the broader wave of Israeli psytrance producers. He moved increasingly toward Iboga\'s progressive-psy direction in the 2010s, releasing the trilogy of albums Human Design (2014), Frozen Light (2017), and Vertikal (2020) — works widely cited as redefining what progressive psy can sound like. His sets emphasise long-form arrangement and organic sound design over peak-time aggression.`,
+      en: `Reshef Harari, performing as Captain Hook, is one of the defining producers of the modern progressive-psytrance scene. His career began in 2003 in Tel Aviv when he met Avi Nini, founder of Domo Records, who brought him into the psy scene as a label DJ. Around the same time he formed the Quantize duo with Adi Ashkenazi, releasing the debut Quantize album Time on Iboga Records in 2009 after seven years of partnership.
+
+Harari launched the Captain Hook solo project in 2010, retaining his association with Iboga and quickly establishing the moniker through a string of remixes that reinterpreted classic tracks. His debut album Human Design (2011) marked his arrival as a headline solo act, with collaborations across the album featuring Ace Ventura, Liquid Soul, Perfect Stranger, Loud, Tetrameth, Freedom Fighters, and ill.Gates — essentially the Iboga progressive-psy ecosystem at its 2010s peak.
+
+Subsequent albums Frozen Light (2017) and Vertikal (2020) consolidated his standing as one of Iboga's most-cited contemporary names, and the catalogue continues to grow through ongoing collaborations with Ace Ventura — the 2018 EP Ebe (Captain Hook & Ace Ventura with Protonica) being a representative example. Captain Hook performs regularly at Boom Festival, Ozora, Universo Paralello, and Tomorrowland's Atmosphere stage. His sets emphasise long-form arrangement and organic sound design rather than peak-time aggression — a sensibility that has helped define the modern Iboga progressive-psy aesthetic alongside Ace Ventura and Liquid Soul.`,
       ja: `Captain Hook名義のシャロン・コーエンは2000年代初頭、イスラエル・サイトランス・プロデューサー群の一員としてHommega Productionsからリリースを開始。2010年代にIbogaのプログレッシブ・サイ方向へと軸足を移し、アルバム三部作『Human Design』（2014）、『Frozen Light』（2017）、『Vertikal』（2020）を発表——プログレッシブ・サイのあり方を再定義した作品として広く挙げられる。セットはピークタイムの攻撃性ではなく、長尺のアレンジメントと有機的な音響設計を重視する。`,
     },
     mentionedIn: ['rise-of-psytrance-goa-to-modern-day'],
@@ -124,7 +132,11 @@ export const psy2 = [
       ja: '映画的なコード・ワーク、プラックされたギター要素、ピークタイムの攻撃性よりフックを重視する暖かでメロディックなプログレッシブ・サイトランス。Ace Venturaとの頻繁な共作で知られる。',
     },
     bio: {
-      en: `Nicola Capobianco, working as Liquid Soul, has been one of the headline names on Iboga Records since the mid-2000s. His albums Devotion (2009), Future Tense (2014), and Dark Matter (2020) are reference points for the modern progressive-psytrance sound — warm, melodic, organic, and song-led. His long-running collaborative project with Ace Ventura has produced some of the most recognisable Iboga tracks of the era, and he is a regular at Boom, Ozora, and Sonica.`,
+      en: `Nicola Capobianco, performing as Liquid Soul, is the Swiss producer who, alongside Ace Ventura, has come to define the modern Iboga progressive-psytrance sound. He started DJing in 1993 and spent the 1990s playing progressive trance at major raves and festivals alongside artists including Tiësto and Armin van Buuren before discovering the psychedelic side of the genre and launching the Liquid Soul project in 2001.
+
+His debut full-length album Synthetic Vibes was released in 2006 on Iboga Records, followed by Love in Stereo (2008), the remix album Cocktails (2009), Devotion (2009), Future Tense (2014), Revolution (2013 — earlier in the catalogue), and Dark Matter (2020) — a release cycle that has placed him at the centre of the Iboga roster for nearly two decades. Beyond Iboga, he founded his own label Mikrokosmos Records in 2006 and partners with Martin Knecht in the duo Earsugar.
+
+Awards and recognition include winning the DJ Awards in Ibiza for the Psy-Trance category and three Beatport awards (twice for Best Track and once for Best Artist). His long-running collaborative project with Ace Ventura — the Liquid Ace alias and joint releases like Aurora (2014) — has produced some of the most-recognisable Iboga tracks of the era. Liquid Soul performs regularly at Boom Festival, Ozora, Sonica, and the modern progressive-psy circuit, and the recent Psy-Nation compilation series (compiled with Ace Ventura) extends his curatorial influence beyond his own production work.`,
       ja: `Liquid Soul名義のニコラ・カポビアンコは2000年代半ば以降、Iboga Recordsの看板名の一人。アルバム『Devotion』（2009）、『Future Tense』（2014）、『Dark Matter』（2020）は現代プログレッシブ・サイトランス・サウンドのリファレンス・ポイント——暖かく、メロディックで、有機的で、楽曲重視。Ace Venturaとの長期的なコラボレーション・プロジェクトは同時代Ibogaの最も認知度の高いトラックを多数生み出し、Boom、Ozora、Sonicaに常連出演している。`,
     },
     mentionedIn: ['rise-of-psytrance-goa-to-modern-day'],
@@ -208,7 +220,11 @@ export const psy2 = [
       ja: '基礎的なゴア時代のサイトランス——フルオン・グルーヴ、メロディックな303リード、90年代後半サイの美学を定義した宇宙的でワールドミュージック寄りの質感。Trust in Trance Recordsの共同創設者。',
     },
     bio: {
-      en: `Avi Nissim and Lior Perlmutter, performing as Astral Projection, are among the founding figures of the Israeli psytrance scene. Active since 1989 (initially as SFX), they released the genre-defining Trust in Trance (1996) and Dancing Galaxy (1997), albums that helped establish the global Goa-trance template. Their tracks "Mahadeva" and "Another World" have remained dance-floor staples for nearly thirty years. They co-founded Trust in Trance Records — one of the foundational psytrance labels — and continue to perform at major events worldwide.`,
+      en: `Avi Nissim and Lior Perlmutter, performing as Astral Projection, are among the founding figures of Israeli psytrance and Goa trance globally. The two met in primary school and started making electronic music together in 1989 under the name SFX, releasing the 1991 Israeli-scene single "Monster Mania" before relocating briefly to New York where Lior released the 1992 single "JBIE" before returning to Israel in 1994. The Astral Projection project crystallised in early 1995 around the new Trust in Trance Records label, and the duo's first single under the name — "Mahadeva", released on Smart Records Copenhagen in 1995 — became one of the foundational documents of Goa trance.
+
+Their albums Trust in Trance (1996), Dancing Galaxy (1997), Another World (1999), and Amen (2002) constitute the most influential body of work the Israeli Goa scene has produced. "Mahadeva", "Another World", "Trust in Trance", and the broader catalogue have remained dance-floor staples across thirty years and across every iteration of the global psy festival circuit (Boom, Ozora, Universo Paralello, Symbiosis, Earthcore).
+
+Beyond their own catalogue, Avi Nissim and Lior Perlmutter co-founded Trust in Trance Records — one of the foundational labels of the entire psytrance lineage, releasing material from Israeli and international psy artists across the late-90s peak. The duo continues to perform at major psy festivals worldwide, and their influence on subsequent Israeli producers (Astrix, Captain Hook, Ace Ventura, Vini Vici) is direct and frequently acknowledged. With ten albums to their name and thirty years of continuous activity, Astral Projection are essentially the lineage that the modern Israeli psy scene traces itself back to.`,
       ja: `Astral Projection名義のアヴィ・ニッシムとリオル・パールムッターは、イスラエル・サイトランス・シーンの創設者の一角。1989年から活動し（当初はSFX名義）、ジャンルを定義する作品『Trust in Trance』（1996）と『Dancing Galaxy』（1997）をリリース——同作はグローバルなゴア・トランス・テンプレート確立に貢献した。「Mahadeva」「Another World」は約30年にわたりダンスフロアの定番。サイトランスの基礎レーベルの一つTrust in Trance Recordsを共同創設し、現在も世界各地の主要イベントで演奏を続けている。`,
     },
     mentionedIn: ['rise-of-psytrance-goa-to-modern-day', 'history-of-trance-music'],
