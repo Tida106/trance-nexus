@@ -148,6 +148,23 @@ export const classification = {
     category: 'artists',
     tags: ['progressive', 'vocal', '2020s'],
   },
+  // Batch 12: "What is [genre]" definitive guides
+  'what-is-trance-music': {
+    category: 'subgenres',
+    tags: ['what-is', 'armin-van-buuren', 'tiesto', 'paul-van-dyk', 'above-and-beyond', '90s', '2000s', '2010s', '2020s'],
+  },
+  'what-is-uplifting-trance': {
+    category: 'subgenres',
+    tags: ['what-is', 'uplifting', 'paul-van-dyk', 'ferry-corsten', 'armin-van-buuren', '2000s', '2010s'],
+  },
+  'what-is-progressive-trance': {
+    category: 'subgenres',
+    tags: ['what-is', 'progressive', '2000s', '2010s', '2020s'],
+  },
+  'what-is-psytrance': {
+    category: 'subgenres',
+    tags: ['what-is', 'psytrance', 'goa', '90s', '2000s', '2010s'],
+  },
   // Batch 11: All-Time Best ranked-list canon
   'best-trance-tracks-of-all-time-100': {
     category: 'all-time-best',

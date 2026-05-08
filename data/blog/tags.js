@@ -182,6 +182,15 @@ export const tags = [
       ja: 'ジャンルの30年史を横断して永続的地位を獲得するトランス・トラックの決定版ランク付きカノン記事。',
     },
   },
+  {
+    id: 'what-is',
+    group: 'format',
+    name: { en: 'What is…?', ja: '〜とは何か' },
+    description: {
+      en: 'Long-form encyclopaedic explainer articles defining each trance subgenre — origins, sound, BPM, key artists, tracks, labels, and starter listens.',
+      ja: '各トランス・サブジャンルを定義する長尺の百科事典的解説記事 ― 起源、サウンド、BPM、主要アーティスト、トラック、レーベル、スタートリスニング。',
+    },
+  },
 
   // Era tags
   {

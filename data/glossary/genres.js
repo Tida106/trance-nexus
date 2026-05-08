@@ -19,7 +19,7 @@ export const genres = [
     },
     related: ['uplifting-trance', 'progressive-trance', 'psytrance', 'vocal-trance', 'bpm'],
     artists: ['armin-van-buuren', 'tiesto', 'paul-van-dyk'],
-    posts: ['history-of-trance-music', 'top-10-trance-subgenres-explained', 'why-trance-music-endures'],
+    posts: ['what-is-trance-music', 'history-of-trance-music', 'top-10-trance-subgenres-explained', 'why-trance-music-endures'],
   },
 
   {
@@ -37,7 +37,7 @@ export const genres = [
     },
     related: ['trance', 'vocal-trance', 'progressive-trance', 'buildup', 'breakdown'],
     artists: ['armin-van-buuren', 'aly-and-fila', 'andrew-rayel', 'ferry-corsten'],
-    posts: ['top-10-trance-subgenres-explained', 'iconic-trance-anthems-that-defined-an-era'],
+    posts: ['what-is-uplifting-trance', 'top-10-trance-subgenres-explained', 'iconic-trance-anthems-that-defined-an-era', 'best-uplifting-trance-tracks-of-all-time-50'],
   },
 
   {
@@ -55,7 +55,7 @@ export const genres = [
     },
     related: ['trance', 'uplifting-trance', 'tech-trance', 'bpm', 'pad'],
     artists: ['paul-van-dyk', 'tiesto', 'cosmic-gate', 'anyma', 'solarstone'],
-    posts: ['top-10-trance-subgenres-explained', 'trance-vs-house-vs-techno'],
+    posts: ['what-is-progressive-trance', 'top-10-trance-subgenres-explained', 'trance-vs-house-vs-techno', 'best-progressive-trance-tracks-of-all-time-50'],
   },
 
   {
@@ -73,7 +73,7 @@ export const genres = [
     },
     related: ['trance', 'goa-trance', 'tech-trance', 'bpm', 'mainstage'],
     artists: ['astrix', 'vini-vici', 'infected-mushroom'],
-    posts: ['rise-of-psytrance-goa-to-modern-day', 'top-10-trance-subgenres-explained'],
+    posts: ['what-is-psytrance', 'rise-of-psytrance-goa-to-modern-day', 'top-10-trance-subgenres-explained', 'best-psytrance-tracks-of-all-time-50'],
   },
 
   {

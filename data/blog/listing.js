@@ -1,6 +1,19 @@
 // Lightweight listing data — no article body content.
 // Newest first. Keep in sync with data/blog/posts.js when adding articles.
 export const listing = [
+  // Batch 12: "What is [genre]" definitive guides
+  { slug: 'what-is-psytrance', date: '2026-05-08', readTime: 9, tags: ['guide', 'psytrance', 'what-is'],
+    en: { title: 'What is Psytrance? — From Goa to Modern Full-On Definitive Guide', excerpt: "Psytrance is the psychedelic offshoot of trance — high-tempo, rolling-bass-driven, surreal in sound design, and culturally a parallel universe to mainstream trance with its own festivals, labels, and listener community." },
+    ja: { title: 'サイトランスとは何か？ ― ゴアから現代フルオンまでの決定版ガイド', excerpt: 'サイトランスはトランスのサイケデリックな派生だ ― 高テンポで、転がるベース駆動、サウンド・デザインがシュール、そして文化的にメインストリーム・トランスへの並行宇宙で、独自のフェスティバル、レーベル、リスナー・コミュニティを持つ。' } },
+  { slug: 'what-is-progressive-trance', date: '2026-05-08', readTime: 9, tags: ['guide', 'progressive', 'what-is'],
+    en: { title: 'What is Progressive Trance? — Complete Guide to the Sound', excerpt: "Progressive trance is the patient, atmospheric counterpart to uplifting — slower, deeper, and built on long-form arrangement principles where mood and texture develop gradually over many bars rather than crashing into a peak-time release." },
+    ja: { title: 'プログレッシブ・トランスとは何か？ ― サウンド完全ガイド', excerpt: 'プログレッシブ・トランスは、アップリフティングの忍耐強く大気的な対極にあるサブジャンルだ ― よりスロー、よりディープ、そしてピークタイムの解放に突入するのではなく、ムードとテクスチャが多数の小節にわたって漸進的に展開する長尺アレンジメント原理の上に構築される。' } },
+  { slug: 'what-is-uplifting-trance', date: '2026-05-08', readTime: 8, tags: ['guide', 'uplifting', 'what-is'],
+    en: { title: 'What is Uplifting Trance? — Sound, History & Key Artists Guide', excerpt: 'Uplifting trance is the most emotionally explicit subgenre of trance — designed to deliver moments of euphoric release through soaring lead synths, major-key chord progressions, and breakdowns that build to enormous, cathartic climaxes.' },
+    ja: { title: 'アップリフティング・トランスとは何か？ ― サウンド、歴史、主要アーティスト', excerpt: 'アップリフティング・トランスはトランスで最も感情的に明示的なサブジャンルだ ― 舞い上がるリードシンセ、長調のコード進行、巨大でカタルシス的なクライマックスへと構築されるブレイクダウンを通じて、ユーフォリックな解放の瞬間を届けるよう設計されている。' } },
+  { slug: 'what-is-trance-music', date: '2026-05-08', readTime: 9, tags: ['guide', 'subgenres', 'what-is'],
+    en: { title: 'What is Trance Music? — Complete Guide to the Genre & Sound', excerpt: "Trance is a melody-driven electronic dance genre that emerged in early-1990s Germany and Benelux. The defining traits are a steady 130–145 BPM pulse, long arrangements built around hypnotic synth motifs, and the breakdown-and-buildup architecture that produces the euphoric release the genre is named for." },
+    ja: { title: 'トランスとは何か？ ― ジャンルとサウンドの完全ガイド', excerpt: 'トランスは1990年代初頭のドイツとベネルクスから登場したメロディ主導の電子ダンス・ジャンルだ。定義的な特徴は、安定した130〜145 BPMのパルス、催眠的なシンセ・モチーフを軸に構築された長尺アレンジメント、そしてジャンル名の由来となるユーフォリックな解放を生み出すブレイクダウンとビルドアップの建築だ。' } },
   // Batch 11: All-Time Best ranked-list canon
   { slug: 'best-vocal-trance-tracks-of-all-time-50', date: '2026-05-08', readTime: 14, tags: ['classics', 'vocal', 'all-time-best'],
     en: { title: 'The 50 Best Vocal Trance Tracks of All Time — Definitive Songs Guide', excerpt: "Vocal trance is the genre's songwriter tradition — the records where the human voice carries the emotional load that the synthesizer alone cannot. This is the canon from Robert Miles' \"One and One\" through HALIENE's late-2010s catalogue, ranked with reasons." },

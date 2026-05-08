@@ -108,6 +108,31 @@ export default async function BlogPostPage({ params }) {
     },
   };
 
+  // DefinedTerm JSON-LD — emitted only for the "What is [genre]"
+  // explainer articles that supply a structured `definedTerm` field.
+  // Modelling each genre-explainer as a schema.org DefinedTerm inside
+  // a glossary-scoped DefinedTermSet helps Google recognise the post
+  // as a definitive dictionary-style entry for the term, which
+  // improves rich-result eligibility for "what is X" search queries.
+  // Articles without a definedTerm field keep their existing schema
+  // unchanged.
+  const definedTermSchema = post.definedTerm
+    ? {
+        '@context': 'https://schema.org',
+        '@type': 'DefinedTerm',
+        name: post.definedTerm.name,
+        description: post.definedTerm.description,
+        url: post.definedTerm.url || `https://trance-nexus.com/blog/${post.slug}`,
+        inDefinedTermSet: post.definedTerm.inDefinedTermSet
+          ? {
+              '@type': 'DefinedTermSet',
+              name: 'TRANCE NEXUS Glossary',
+              url: post.definedTerm.inDefinedTermSet,
+            }
+          : undefined,
+      }
+    : null;
+
   // ItemList + MusicRecording JSON-LD — emitted only for the All-Time
   // Best canon articles that supply a structured `tracks` field. The
   // ItemList lets Google render the post as a rich-result ranked list
@@ -146,6 +171,12 @@ export default async function BlogPostPage({ params }) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
       />
+      {definedTermSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(definedTermSchema) }}
+        />
+      )}
       {itemListSchema && (
         <script
           type="application/ld+json"
