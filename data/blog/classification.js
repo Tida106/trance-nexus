@@ -148,7 +148,15 @@ export const classification = {
     category: 'artists',
     tags: ['progressive', 'vocal', '2020s'],
   },
-  // Batch 10: monthly trance chart roundups (2026 Jan/Feb/Mar — batch 1)
+  // Batch 10: monthly trance chart roundups (2026 Jan–May)
+  'best-trance-tracks-may-2026': {
+    category: 'monthly-charts',
+    tags: ['monthly-charts', 'armin-van-buuren', 'asot', 'uplifting', 'progressive', '2020s'],
+  },
+  'best-trance-tracks-april-2026': {
+    category: 'monthly-charts',
+    tags: ['monthly-charts', 'above-and-beyond', 'uplifting', 'hard-trance', '2020s'],
+  },
   'best-trance-tracks-january-2026': {
     category: 'monthly-charts',
     tags: ['monthly-charts', 'above-and-beyond', 'paul-van-dyk', 'uplifting', '2020s'],

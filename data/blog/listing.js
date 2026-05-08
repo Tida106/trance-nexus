@@ -1,7 +1,13 @@
 // Lightweight listing data — no article body content.
 // Newest first. Keep in sync with data/blog/posts.js when adding articles.
 export const listing = [
-  // Batch 10: Monthly trance chart roundups (2026 Jan/Feb/Mar — batch 1)
+  // Batch 10: Monthly trance chart roundups (2026 Jan–May)
+  { slug: 'best-trance-tracks-may-2026', date: '2026-05-08', readTime: 7, tags: ['classics', 'analysis', 'monthly-charts'],
+    en: { title: 'Best Trance Tracks of May 2026 — ASOT 2026 Compilation, Energy Mix, H1 Wrap', excerpt: 'May 2026 closes the first half of the year with the long-awaited ASOT 2026 compilation, mixed by Armin van Buuren across three discs (Pulse / Frequency / Energy) — a 25-year anniversary statement that consolidates the year\'s most-played material into a single release moment.' },
+    ja: { title: '2026年5月のベスト・トランス・トラック ― ASOT 2026コンピレーション、Energyミックス、H1総括', excerpt: '2026年5月は長らく待たれたASOT 2026コンピレーション ― Armin van Buurenが3枚（Pulse / Frequency / Energy）にミックス ― で年の前半を締めくくる。25周年記念ステートメントは、年の最もプレイされた素材を単一のリリース・モーメントに統合する。' } },
+  { slug: 'best-trance-tracks-april-2026', date: '2026-04-30', readTime: 7, tags: ['classics', 'analysis', 'monthly-charts'],
+    en: { title: 'Best Trance Tracks of April 2026 — Coldharbour Reactivates, Oakenfold-Sneijder, FSOE Argento Q2', excerpt: "April 2026 was Coldharbour's strongest single-month delivery in years. Markus Schulz and Talla 2XLC delivered \"Mainhattan,\" Robert Nickson released \"Nine Lives,\" Signum landed \"Homage\" on Anjunabeats, and Paul Oakenfold reunited with Sneijder for the long-awaited \"Bullet In The Gun\" return." },
+    ja: { title: '2026年4月のベスト・トランス・トラック ― Coldharbourの再活性化、Oakenfold-Sneijder、FSOE Argento Q2', excerpt: '2026年4月はColdharbourの数年で最も強い単一月の配給だった。Markus SchulzとTalla 2XLCは「Mainhattan」、Robert Nicksonは「Nine Lives」をリリース、SignumはAnjunabeatsで「Homage」、Paul Oakenfoldは長らく待たれた「Bullet In The Gun」リターンでSneijderと再合流した。' } },
   { slug: 'best-trance-tracks-march-2026', date: '2026-03-31', readTime: 7, tags: ['classics', 'analysis', 'monthly-charts'],
     en: { title: 'Best Trance Tracks of March 2026 — Push Returns, Pure Trance NEON, FSOE Argento', excerpt: 'March 2026 was a month for veteran reactivations and new sub-label launches. Push returned with "Back When We Believed" on Pure Trance NEON, FSOE Argento debuted with the Ron / Leeds collaboration, and the Anjuna release calendar continued the year\'s steady drip of Above & Beyond singles.' },
     ja: { title: '2026年3月のベスト・トランス・トラック ― Pushの復活、Pure Trance NEON、FSOE Argento', excerpt: '2026年3月はベテランの再活性化と新サブレーベル発進の月だった。PushはPure Trance NEONで「Back When We Believed」とともに復帰、FSOE ArgentoはRon / Leedsコラボレーションでデビュー、Anjunaリリース・カレンダーは年の安定したAbove & Beyondシングルの滴下を続けた。' } },

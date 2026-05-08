@@ -281,6 +281,78 @@ export default function Home() {
         </div>
       </section>
 
+      {/* LATEST CHARTS — newest 3 monthly chart articles. Filtered from
+          the same listing array the BLOG section reads, so adding a new
+          monthly chart automatically rotates the oldest one out. The
+          monthly-charts tag is the source of truth — categories live in
+          classification.js which the home page intentionally doesn't
+          import (keeps the home bundle lean), so we tag-filter instead. */}
+      {(() => {
+        const charts = listing
+          .filter((p) => p.tags && p.tags.includes('monthly-charts'))
+          .slice(0, 3);
+        if (charts.length === 0) return null;
+        const isJA = t('nav.artists') === 'アーティスト';
+        return (
+          <section id="charts" className="cv-auto relative z-10 py-24 px-12">
+            <div className="max-w-7xl mx-auto">
+              <div className="mb-10">
+                <div className="flex items-center gap-3 mb-2 flex-wrap">
+                  <h2 className="font-bebas text-5xl tracking-wider text-white">
+                    {isJA ? '最新の月間チャート' : 'Latest Charts'}
+                  </h2>
+                  <span aria-hidden="true" className="text-3xl">📈</span>
+                </div>
+                <div className="w-20 h-1 bg-gradient-to-r from-accent-red via-accent-orange to-transparent" />
+                <p className="text-sm text-text-light/60 mt-3 max-w-2xl font-barlow">
+                  {isJA
+                    ? 'TRANCE NEXUS編集部の月次チャート — 各月のASOT、Group Therapy、FSOE、Coldharbour、Pure Tranceローテーションを駆動したトラックをまとめます。'
+                    : 'TRANCE NEXUS editorial monthly roundups — the trance tracks driving ASOT, Group Therapy, FSOE, Coldharbour, and Pure Trance rotation across each month of the year.'}
+                </p>
+              </div>
+
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-5 mb-8">
+                {charts.map((post) => {
+                  const c = isJA ? post.ja : post.en;
+                  return (
+                    <Link
+                      key={post.slug}
+                      href={`/blog/${post.slug}`}
+                      className="group bg-dark-bg2/80 border border-orange-900/20 rounded-sm overflow-hidden hover:border-accent-orange/50 hover:translate-y-[-4px] hover:shadow-xl transition-all block"
+                    >
+                      <div className="h-1.5 bg-gradient-to-r from-accent-red via-accent-orange to-accent-amber" />
+                      <div className="p-5">
+                        <div className="flex gap-1.5 flex-wrap mb-2">
+                          <span className="text-xs tracking-widest px-1.5 py-0.5 rounded border border-accent-orange/40 bg-accent-orange/10 text-accent-orange font-bebas">
+                            📈 {isJA ? '月間チャート' : 'Monthly Chart'}
+                          </span>
+                        </div>
+                        <h3 className="font-bebas text-lg tracking-widest text-white mb-2 leading-tight group-hover:text-accent-orange transition-colors line-clamp-2">
+                          {c.title}
+                        </h3>
+                        <p className="text-xs text-text-light/55 leading-relaxed mb-3 line-clamp-3">
+                          {c.excerpt}
+                        </p>
+                        <div className="text-xs text-text-muted tracking-widest">
+                          {post.date} · {post.readTime} {isJA ? '分' : 'min read'}
+                        </div>
+                      </div>
+                    </Link>
+                  );
+                })}
+              </div>
+
+              <Link
+                href="/category/monthly-charts"
+                className="inline-block font-bebas text-sm tracking-widest px-6 py-3 border border-accent-orange/30 text-accent-orange hover:bg-accent-orange/10 hover:shadow-lg transition-all rounded"
+              >
+                📈 {isJA ? 'すべての月間チャート' : 'All Monthly Charts'} →
+              </Link>
+            </div>
+          </section>
+        );
+      })()}
+
       {/* BLOG SECTION — latest 5 articles */}
       <section id="blog" className="cv-auto relative z-10 py-24 px-12 bg-dark-bg2/50">
         <div className="max-w-7xl mx-auto">
