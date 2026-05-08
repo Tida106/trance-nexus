@@ -6,6 +6,14 @@ const FILES = [
   'data/blog/posts.js',
   'data/blog/posts2.js',
   'data/blog/posts3.js',
+  'data/blog/posts4.js',
+  'data/blog/posts5.js',
+  'data/blog/posts6.js',
+  'data/blog/posts7.js',
+  'data/blog/posts8.js',
+  'data/blog/posts9.js',
+  'data/blog/posts10.js',
+  'data/blog/posts11.js',
 ];
 
 // Walk a JS source string, extracting consecutive title/description

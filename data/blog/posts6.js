@@ -4,8 +4,8 @@ export const posts6 = [
     slug: 'women-in-trance-pioneers-modern-stars',
     date: '2026-05-21', readTime: 8, tags: ['artists', 'culture'],
     en: {
-      title: 'Women in Trance: The Pioneers and Modern Stars',
-      description: 'A long history of women shaping trance — from BT-collaborator Tiff Lacey and vocalists like JES and Justine Suissa to the producer-DJs leading the modern scene like Nifra and Miss Monique.',
+      title: 'Women in Trance — Pioneers, Producers & Modern Stars Complete Guide',
+      description: 'A long history of women shaping trance — from BT collaborator Tiff Lacey and vocalists JES and Justine Suissa to Nifra and Miss Monique leading today.',
       excerpt: 'Trance has had women at its centre since the beginning. The story of those women — pioneers, vocalists, DJs, producers, label heads — is one of the genre\'s most under-told stories.',
       content: [
         { heading: 'A Story That Has Always Been There', body: '<p>Discussion of women in electronic music tends to focus on absence — on the underrepresentation of women in lineups and behind decks, the work yet to be done on access and equity. That conversation is real and important. But it is also incomplete, because it sometimes obscures the women who have been at the centre of trance music since the genre began. From the vocalists whose performances defined era-defining records, to the producers and DJs who built scenes and labels alongside their male counterparts, women have been integral to trance from the start. The story below is not exhaustive — it could not be — but it is meant as a corrective to anyone who has internalised the idea that trance is, or was ever, a music made by men alone.</p>' },
@@ -33,8 +33,8 @@ export const posts6 = [
     slug: 'nifra-slovakia-trance-queen',
     date: '2026-05-22', readTime: 7, tags: ['artists', 'culture'],
     en: {
-      title: "Nifra: Slovakia's Trance Queen",
-      description: 'A profile of Nifra — the Slovak DJ and producer who became one of the most respected names in tech trance and a Coldharbour Recordings mainstay across more than a decade.',
+      title: 'Nifra — Biography, Best Tracks & Coldharbour Tech-Trance Queen',
+      description: 'Nifra biography — the Slovak DJ-producer who became one of tech trance\'s most respected names and a Coldharbour Recordings mainstay across more than a decade.',
       excerpt: "Nifra is one of the most consistently exciting DJs in modern trance — a tech-trance specialist whose sets reliably outwork most headliners on a festival bill.",
       content: [
         { heading: 'Bratislava to the Global Tech-Trance Circuit', body: '<p>Daniela Niederer-Dugovičová — known professionally as Nifra — is one of the most respected Slovak figures in modern dance music, and a central name in the tech-trance branch of the genre. Born in Bratislava and active as a DJ since the late 2000s, she has built her reputation through a combination of technical precision, taste-driven track selection, and a willingness to play the harder, more energetic end of the trance spectrum at a moment when many of her peers were softening their sets toward festival-friendly mainstream sound.</p><p>Her commercial breakthrough came through her relationship with Markus Schulz\'s Coldharbour Recordings, a label that has historically been a home for the more progressive and tech-leaning end of trance, and where Nifra has released and remixed a body of work that has helped define the label\'s contemporary identity.</p>' },
@@ -62,8 +62,8 @@ export const posts6 = [
     slug: 'miss-monique-rising-progressive-star',
     date: '2026-05-23', readTime: 7, tags: ['artists', 'culture'],
     en: {
-      title: 'Miss Monique: The Rising Progressive Star',
-      description: 'How Ukrainian DJ Miss Monique built one of the largest progressive-house followings on YouTube and translated that into one of the most watched touring careers in modern progressive trance.',
+      title: 'Miss Monique — Biography, Best Tracks & Progressive House Rise',
+      description: 'How Ukrainian DJ Miss Monique built one of YouTube\'s largest progressive-house followings and turned it into the most-watched career in modern progressive.',
       excerpt: 'Miss Monique\'s rise from a Kyiv DJ uploading mixes to YouTube to one of the most-followed progressive DJs in the world is one of the genre\'s most distinctive 2020s success stories.',
       content: [
         { heading: 'A Career Built on YouTube', body: '<p>Alesia Arkusha — known professionally as Miss Monique — is one of the most distinctive success stories in modern progressive trance and progressive house. Born in Kyiv and active as a DJ since the early 2010s, she built her audience through a YouTube strategy that other DJs are now studying: regular, high-quality mix uploads recorded in carefully composed visual settings, with consistent production values and a track-selection sensibility that translated directly into a touring career.</p><p>By the early 2020s her YouTube channel had become one of the largest progressive-house and trance-adjacent platforms on the internet, with mixes regularly accumulating millions of views and a subscriber base that compares with the most-followed mainstream electronic acts. That audience translated, in turn, into bookings at the largest festivals and clubs in the world.</p>' },
@@ -91,8 +91,8 @@ export const posts6 = [
     slug: 'new-generation-trance-artists-to-watch-2026',
     date: '2026-05-24', readTime: 8, tags: ['artists', 'analysis'],
     en: {
-      title: 'The New Generation: Trance Artists to Watch in 2026',
-      description: 'Eight artists at the leading edge of trance in 2026 — newer producers and DJs whose recent work is reshaping the conversation about where the genre goes next.',
+      title: 'New Generation Trance Artists to Watch in 2026 — Top Producer Picks',
+      description: 'The eight trance artists at the leading edge in 2026 — newer producers and DJs whose recent work is reshaping the conversation about the genre\'s future.',
       excerpt: 'Every era of trance has had artists who arrived early enough that listeners can claim they were paying attention before things got big. These are the names worth knowing in 2026.',
       content: [
         { heading: 'Why Watch the Newer Names', body: '<p>The trance scene\'s legacy artists — Armin, Above & Beyond, Paul van Dyk, Aly & Fila — continue to release excellent music and dominate the festival circuit. Watching them is rewarding. But the genre\'s long-term direction is set by artists who are still building their careers. Tracking the names below now means hearing how trance is evolving in real time, before consensus forms around the artists who will define the second half of the 2020s. None of these artists are obscure — most are already well-known to scene insiders — but for a casual listener who has not yet engaged with the post-2020 newer-generation trance roster, this is the starting point.</p>' },
@@ -122,8 +122,8 @@ export const posts6 = [
     slug: 'female-djs-reshaping-trance-scene',
     date: '2026-05-25', readTime: 7, tags: ['artists', 'culture'],
     en: {
-      title: 'Female DJs Reshaping the Trance Scene',
-      description: 'How a generation of women DJs and producers — Nifra, Miss Monique, Susana, Anna Lee, Linda Lifa, and others — have reshaped the trance scene in the 2020s and what their continued visibility means for the genre.',
+      title: 'Female Trance DJs Reshaping the Scene in 2026 — Top Producers',
+      description: 'How a generation of women DJ-producers — Nifra, Miss Monique, Susana, Anna Lee, Linda Lifa, and more — has reshaped the trance scene through the 2020s.',
       excerpt: 'In 2026, the most important question about women in trance is not whether they are present — they are — but what their continued prominence means for the future shape of the genre.',
       content: [
         { heading: 'A Quiet Reshaping', body: '<p>The reshaping of the trance scene by women DJs and producers in the 2020s has happened in a way that the broader public conversation about gender and electronic music has not always tracked. There has not been a single dramatic moment of breakthrough — no equivalent of the EDM-era discourse about women on festival mainstages. Instead, there has been a steady accumulation of artists whose individual visibility, combined, has substantially changed who actually plays the music to substantial audiences. The list of names that contribute to this reshaping is too long for any one article to cover completely.</p>' },

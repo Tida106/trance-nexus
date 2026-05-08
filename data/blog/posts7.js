@@ -4,8 +4,8 @@ export const posts7 = [
     slug: 'trance-music-films-tv-memorable-moments',
     date: '2026-05-26', readTime: 7, tags: ['culture', 'analysis'],
     en: {
-      title: 'Trance Music in Films and TV: Memorable Moments',
-      description: 'A guide to the most effective uses of trance music in film and television — from Vanilla Sky\'s Sigur Rós-adjacent climax to Stranger Things\' synth nostalgia and the Sphere-era cinematic spectacle.',
+      title: 'Trance Music in Films and TV — Memorable Moments & Soundtrack Guide',
+      description: 'The most effective uses of trance music in film and television — from Vanilla Sky\'s Sigur Rós-adjacent climax to Stranger Things\' synth nostalgia and more.',
       excerpt: "Film and television have used trance music — and trance-adjacent electronic textures — to score some of the most emotionally charged moments in recent screen history. The pairing works because both forms understand catharsis.",
       content: [
         { heading: 'Why Trance Works on Screen', body: '<p>Trance music and visual storytelling are aesthetic cousins. Both are concerned with the controlled escalation of emotion across long arcs; both rely on patient build, breakdown, and release to carry an audience through something larger than the individual moment. The genre\'s structural conventions — the four-bar phrase, the drop, the breakdown, the eventual return — map onto cinematic grammar so naturally that filmmakers have repeatedly turned to trance and trance-adjacent textures for the moments where dialogue runs out and image needs music to do the heavy lifting.</p><p>The list below is not exhaustive — film and television music supervisors have reached for trance frequently enough that any complete catalogue would run to dozens of entries — but it captures some of the most effective and influential pairings.</p>' },
@@ -35,8 +35,8 @@ export const posts7 = [
     slug: 'spirituality-of-trance-why-it-hits-different',
     date: '2026-05-27', readTime: 8, tags: ['culture', 'analysis'],
     en: {
-      title: 'The Spirituality of Trance: Why It Hits Different',
-      description: "An honest examination of trance music's spiritual dimension — what fans actually mean when they describe the experience as religious, what the science says, and why the language of transcendence keeps recurring across decades.",
+      title: 'The Spirituality of Trance Music — Why It Hits Different in 2026',
+      description: "An honest examination of trance music's spiritual dimension — what fans mean by religious experience, what science says, and why transcendence language recurs.",
       excerpt: 'Ask any serious trance fan to describe their best night and the words "spiritual" or "religious" arrive within minutes. This is not a casual analogy. The music does something specific to the listener that demands serious vocabulary.',
       content: [
         { heading: 'A Word Used Carefully', body: '<p>Listeners describe a lot of music as "spiritual." Most of the time the word is loose, used metaphorically, signalling enthusiasm rather than committing to anything. With trance, something different happens. Long-time fans use the word with care, often after a pause, often unwilling to let the analogy be reduced to hyperbole. The experience they are describing — extended communal rituals, structured emotional release, the dissolution of ordinary self-consciousness — is recognisably continuous with what religious traditions have called by various names for thousands of years. To take the language seriously is not a category error; it is the most honest available description of what is actually happening.</p>' },
@@ -66,8 +66,8 @@ export const posts7 = [
     slug: 'trance-meditation-music-mind-expansion',
     date: '2026-05-28', readTime: 7, tags: ['culture', 'analysis'],
     en: {
-      title: 'Trance and Meditation: Music for Mind Expansion',
-      description: "How trance music's structural patterns overlap with traditional meditation practices, why long-form sets function as guided attention exercises, and which records work best for actual non-dancefloor meditation use.",
+      title: 'Trance and Meditation — Music for Mind Expansion & Focus Guide',
+      description: "How trance music's structural patterns overlap with traditional meditation, why long-form sets function as attention exercises, and the records for daily use.",
       excerpt: "Trance is not literally meditation music — but the structural similarities are real, and many fans use the music as part of a meditation or focus practice. The overlap rewards careful attention.",
       content: [
         { heading: 'Two Practices, One Underlying Mechanism', body: '<p>Meditation traditions across cultures share a core mechanism: the sustained, attentive engagement with a single object — breath, mantra, image — which over time produces shifts in self-monitoring activity, perceived time, and emotional state. Long-form trance listening, particularly when consumed at length and with attention, engages a substantially overlapping mechanism. The patient repetition, the slow harmonic development, the dissolution of ordinary clock-time across an extended set — these are not accidentally similar to meditation; they activate similar attentional patterns. This is why some listeners use trance as part of a meditative practice, and why the practice works.</p>' },
@@ -95,8 +95,8 @@ export const posts7 = [
     slug: 'trance-documentary-watchlist',
     date: '2026-05-29', readTime: 7, tags: ['culture', 'analysis'],
     en: {
-      title: 'The Trance Documentary Watchlist: Films Every Fan Should See',
-      description: 'A curated list of the most important documentary films and series about trance music, electronic-music history, and the artists who built the genre — from We Call It Techno to recent ASOT-era documentaries.',
+      title: 'Best Trance Music Documentaries — Definitive Watchlist for Fans',
+      description: 'A curated list of the most important documentary films and series about trance music, electronic music history, and the artists who built the genre\'s identity.',
       excerpt: 'The serious documentary record on trance music is smaller than the genre deserves, but the films that exist are essential viewing for any committed fan.',
       content: [
         { heading: 'Why the Documentary Record Matters', body: '<p>Genres become legible to outsiders, and to their own next generation, through documentary records as much as through their music. Hip-hop has had decades of careful documentation; rock has had several lifetimes of it; even disco and house have substantial film archives. Trance, by contrast, has a relatively thin documentary record — partly because the genre was historically dismissed by mainstream music journalism, partly because trance\'s peak commercial moments preceded the YouTube-era proliferation of music documentaries. The films that do exist therefore carry disproportionate weight, and any committed fan benefits from seeking them out.</p>' },
@@ -126,8 +126,8 @@ export const posts7 = [
     slug: 'trance-influence-other-genres',
     date: '2026-05-30', readTime: 8, tags: ['culture', 'analysis'],
     en: {
-      title: "Trance Music's Influence on Other Genres",
-      description: "How trance has shaped pop, hip-hop, K-pop, film scoring, and modern electronic genres — a survey of the production techniques, emotional vocabulary, and structural conventions that travelled out of trance into the wider music landscape.",
+      title: "Trance Music's Influence on Pop, Hip-Hop & Other Genres Today",
+      description: "How trance has shaped pop, hip-hop, K-pop, film scoring, and modern electronic — a survey of the techniques and conventions that travelled out of the genre.",
       excerpt: "Trance has had a much wider musical influence than the genre's mainstream profile would suggest. Many of the techniques pop producers now reach for — supersaw leads, breakdown-and-drop dynamics, atmospheric pads — are trance imports.",
       content: [
         { heading: 'A Quiet Cross-Pollination', body: '<p>The conversation about trance music\'s cultural footprint usually focuses on what happens inside the genre — the artists, the labels, the festivals. That focus is reasonable but it misses something important: a great deal of what trance pioneered between roughly 1995 and 2010 has since been absorbed into the broader popular-music vocabulary, where it is now used by producers who often have no direct connection to or knowledge of the trance scene. The result is a wider influence than the genre\'s commercial-streaming numbers would suggest. Tracing that influence makes the case for trance\'s historical importance in a way that the standard trance-history narrative usually does not.</p>' },

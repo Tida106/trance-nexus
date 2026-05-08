@@ -4,8 +4,8 @@ export const posts4 = [
     slug: 'best-trance-clubs-in-europe',
     date: '2026-05-11', readTime: 7, tags: ['culture', 'events'],
     en: {
-      title: 'The Best Trance Clubs in Europe',
-      description: 'A guide to the best clubs and venues in Europe for trance music — from Amsterdam\'s legendary Shelter to London\'s Fabric, plus the Eastern European cities that have become trance pilgrimages.',
+      title: 'Best Trance Clubs in Europe — Amsterdam, Berlin, London & More',
+      description: 'A definitive guide to Europe\'s best trance clubs in 2026 — Amsterdam\'s Shelter, London\'s Fabric, Berlin\'s Tresor, and the Eastern European pilgrimages.',
       excerpt: "Europe remains the heartland of trance club culture. These are the venues where the music has always been taken most seriously — and where it still sounds best.",
       content: [
         { heading: 'Why Europe Remains the Heartland', body: '<p>Trance music was born in European clubs — Frankfurt\'s Omen, Amsterdam\'s Roxy, London\'s Gatecrasher, Berlin\'s Tresor. Three decades later, the continent remains the centre of the global trance club scene, not just because of history but because European club culture has maintained an infrastructure — late licences, dedicated trance nights, appreciative audiences — that sustains the music in a way few other regions match.</p><p>The clubs in this guide represent different aspects of what European trance culture offers: historic venues where the music made its name, contemporary spaces that have become new institutions, and cities that have emerged as unexpected centres of trance devotion. Whether you are planning a specific trance pilgrimage or simply want to experience the music in the best possible context, these are the places to know.</p>' },
@@ -33,8 +33,8 @@ export const posts4 = [
     slug: 'a-state-of-trance-show-that-changed-everything',
     date: '2026-05-12', readTime: 8, tags: ['culture', 'history'],
     en: {
-      title: 'A State of Trance: The Show That Changed Everything',
-      description: 'The complete story of A State of Trance — how Armin van Buuren\'s weekly radio show built a global trance community of 40 million listeners and redefined what a radio programme could be.',
+      title: 'A State of Trance — The Radio Show That Changed Trance Music',
+      description: 'The complete story of A State of Trance — how Armin van Buuren\'s weekly radio show built a global trance community of 40 million listeners over 25 years.',
       excerpt: 'A State of Trance is not just a radio show. It is a weekly ritual, a global community, and the most important institution in trance music history.',
       content: [
         { heading: 'The Beginning: February 2001', body: '<p>A State of Trance began broadcasting on February 15, 2001 — a two-hour weekly radio programme hosted by Armin van Buuren, initially airing on a small Dutch radio station. The format was straightforward: a curated selection of the best new trance and progressive house, mixed live by Armin, with a brief track listing. There was nothing obviously revolutionary about it. Countless DJs hosted radio shows; music fans had been trading mixes for years.</p><p>What differentiated ASOT from the start was the quality of the curation and the consistency of the vision. Armin\'s selections demonstrated not just taste but musical intelligence — a sophisticated sense of how tracks worked together, how energy should move across two hours, how a radio mix could feel like a coherent artistic statement rather than a catalogue of popular records. Listeners noticed immediately, and the show began attracting an audience far beyond its initial broadcast territory within months of its launch.</p>' },
@@ -62,8 +62,8 @@ export const posts4 = [
     slug: 'tomorrowland-trance-stage',
     date: '2026-05-13', readTime: 7, tags: ['festivals', 'culture'],
     en: {
-      title: "Tomorrowland's Trance Stage: A Sacred Ground",
-      description: 'How Tomorrowland\'s dedicated trance stage became one of the most important venues in the global trance calendar — the artists who have played there, the moments that defined it, and why it matters.',
+      title: 'Tomorrowland Trance Stage — A Sacred Ground for Trance Music',
+      description: 'How Tomorrowland\'s dedicated trance stage became one of the most important venues in the global trance calendar — the artists, defining moments, and why.',
       excerpt: "Tomorrowland is the world's biggest music festival. For trance fans, its dedicated stage is something more — a gathering point where the genre is celebrated at the highest possible level.",
       content: [
         { heading: "Tomorrowland: The World's Biggest Festival", body: '<p>Tomorrowland began in 2005 as a small Belgian electronic music festival in the town of Boom, near Antwerp. By 2010 it had become a global phenomenon, with tickets selling out within minutes of release, a production design of almost theatrical ambition, and a reputation for the quality of its lineups that made it the most sought-after festival experience in electronic music. Today Tomorrowland sells out multiple weekends, has spawned international editions in Brazil and around the world, and consistently features the biggest names in every subgenre of electronic music.</p><p>For trance fans, the festival\'s dedicated trance stage — variously named Freedom, The Library, and other themed identities across different years — has become one of the most important venues in the global trance calendar. The combination of Tomorrowland\'s production values and the quality of artists it can attract at its trance stage has produced performances that are spoken about in reverential terms years after they occurred.</p>' },
@@ -91,8 +91,8 @@ export const posts4 = [
     slug: 'ibiza-and-trance-love-story',
     date: '2026-05-14', readTime: 7, tags: ['culture', 'history'],
     en: {
-      title: 'Ibiza and Trance: A Love Story',
-      description: 'The story of trance music\'s long and complex relationship with the White Isle — from Paul Oakenfold\'s Cafe del Mar residency to the Amnesia and Space superclub era, to trance\'s place in Ibiza today.',
+      title: 'Ibiza and Trance — Complete Love Story from Cafe del Mar to Today',
+      description: 'The story of trance music\'s long, complex love affair with Ibiza — from Paul Oakenfold\'s Cafe del Mar residency to Amnesia, Space, and the island today.',
       excerpt: "Ibiza gave trance some of its most iconic moments. The island's distinctive atmosphere — sunset, sea, the mingling of nationalities — amplifies trance's emotional power to something almost mythical.",
       content: [
         { heading: 'The White Isle and Euphoric Music', body: '<p>Ibiza has a unique relationship with electronic music generally, and with trance specifically. The island\'s physical beauty — the whitewashed villages, the dramatic rocky coastlines, the spectacular sunsets over Cafe del Mar and Cafe Mambo — creates a setting that amplifies the emotional resonance of music in ways that indoor venues simply cannot match. When trance was first heard against the backdrop of an Ibiza sunset in the early 1990s, the combination of the music\'s inherent euphoria and the island\'s natural grandeur created something that felt almost mythical.</p><p>The island has played host to trance music in various forms across three decades — from the early Paul Oakenfold residencies that brought progressive trance to an international audience, through the superclub era when Amnesia and Space hosted trance nights that became legendary, to the present day when trance continues to feature regularly across the island\'s varied venue landscape.</p>' },
@@ -120,8 +120,8 @@ export const posts4 = [
     slug: 'underground-trance-scene',
     date: '2026-05-15', readTime: 7, tags: ['culture', 'subgenres'],
     en: {
-      title: 'The Underground Trance Scene You Need to Know',
-      description: 'Beyond the arena shows and festival main stages, a vital underground trance scene continues to thrive — smaller events, boutique labels, and artists who prioritise musical authenticity over commercial appeal.',
+      title: 'Underground Trance Scene 2026 — Boutique Labels & Events Guide',
+      description: 'Beyond arenas and festival stages, a vital underground trance scene thrives in 2026 — boutique labels, smaller events, and artists prioritising authenticity.',
       excerpt: "The most exciting developments in trance often happen away from the main stage. The underground scene is where the music's future is being written — and it's more vibrant than ever.",
       content: [
         { heading: 'What the Underground Offers', body: '<p>The arena shows and festival main stages of trance — Armin van Buuren at ASOT, Above & Beyond at the Gorge, Tiësto\'s occasional trance revivals — represent the genre at its most visible and commercially successful. But they do not necessarily represent trance at its most creative, most innovative, or most emotionally honest. For those qualities, you need to look to the underground: smaller venues, boutique events, artists who have chosen depth over width, and labels that release music because they believe in it rather than because it will chart.</p><p>The underground trance scene in 2026 is more vibrant than it has been at any point in the last fifteen years. A combination of streaming platforms (which allow niche music to find its audience regardless of commercial gatekeepers), social media (which allows artists to build direct relationships with fans), and a renewed enthusiasm from trance veterans and a new generation of producers has created a scene of considerable energy and quality.</p>' },

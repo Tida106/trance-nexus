@@ -4,8 +4,8 @@ export const posts5 = [
     slug: 'best-trance-tracks-1990s',
     date: '2026-05-16', readTime: 8, tags: ['classics', 'history'],
     en: {
-      title: 'The Best Trance Tracks of the 1990s',
-      description: "A definitive guide to trance's founding decade — the German rave anthems, the Dutch dream-trance crossovers, and the late-90s Goa breakthroughs that built the genre's vocabulary.",
+      title: 'Best Trance Tracks of the 1990s — The Definitive Top List Guide',
+      description: "A definitive guide to trance's founding decade — German rave anthems, Dutch dream-trance crossovers, and late-90s Goa breakthroughs that built the genre.",
       excerpt: 'The 1990s did not just give trance its first hits. It built the entire language the genre would speak for the next thirty years — and most of those records still sound enormous on a real club system.',
       content: [
         { heading: 'Where the Genre Began', body: '<p>The 1990s are trance music\'s genesis decade. The records that came out between roughly 1990 and 1999 did not just introduce a new sound — they built the structural conventions, the emotional vocabulary, and the cultural reference points that the genre would extend, refine, and occasionally rebel against for the next thirty years. Picking a ranking from that decade is therefore less about identifying favourites and more about choosing which seven or eight records, out of thousands, you would hand to someone who had never heard a trance record and wanted to understand what the music actually is.</p><p>The list below is not exhaustive — it could not be — but it is honest. Every track here was either an anthem in real European clubs in its release year, or a foundational document that producers and DJs cite as direct influence, or both. There is no filler chosen for variety; if a record is here, it earned the place.</p>' },
@@ -35,8 +35,8 @@ export const posts5 = [
     slug: 'defining-trance-anthems-2000s',
     date: '2026-05-17', readTime: 8, tags: ['classics', 'history'],
     en: {
-      title: 'Defining Trance Anthems of the 2000s',
-      description: "The 2000s were trance's commercial peak — the decade of Tiësto stadiums, ASOT global broadcasts, and Anjunabeats vocal trance. These are the records that defined that era.",
+      title: 'Best Trance Anthems of the 2000s — Definitive Top Tracks Guide',
+      description: 'The 2000s were trance\'s commercial peak — Tiësto stadiums, ASOT global broadcasts, and Anjunabeats vocal trance. The records that defined that golden era.',
       excerpt: "If the 1990s built trance's vocabulary, the 2000s wrote the genre's most-quoted sentences. The decade gave us the anthems that still close festival sets twenty years later.",
       content: [
         { heading: 'The Decade Trance Went Global', body: '<p>The 2000s were the decade trance music achieved everything its 1990s pioneers had wished for. Stadium-scale events, global radio reach, sales numbers electronic music had never seen before, and a body of repertoire that has not just survived the years but is still actively played in 2026 by working DJs at every level. Choosing the defining anthems of the decade therefore means choosing among an embarrassment of riches — and the criterion has to be tougher than "I liked it." The records that follow are the ones that other producers reference, that are built into the structural memory of the genre, that you can play in 2026 to a room that has never heard them and watch the room react as if they had been waiting for the drop their whole lives.</p>' },
@@ -66,8 +66,8 @@ export const posts5 = [
     slug: 'top-trance-tracks-2010s',
     date: '2026-05-18', readTime: 8, tags: ['classics', 'history'],
     en: {
-      title: 'The Top Trance Tracks of the 2010s',
-      description: "The 2010s were a decade of reinvention for trance — the EDM disruption, the Anjunadeep deepening, and the vocal-driven anthems that survived all of it. These are the records that mattered.",
+      title: 'Best Trance Tracks of the 2010s — The Definitive Decade Guide',
+      description: 'The 2010s were a decade of reinvention for trance — EDM disruption, Anjunadeep deepening, and the vocal-driven anthems that survived. The records that mattered.',
       excerpt: 'The 2010s could have been the decade trance disappeared. Instead, it was the decade trance learned how to share a stage with EDM, deep house, and pop — without losing what makes it itself.',
       content: [
         { heading: 'A Decade Under Pressure', body: '<p>The 2010s were the most challenging decade in trance music\'s history. The rise of EDM as a global commercial force in 2011-2014 swallowed an enormous share of dance-music attention; many of trance\'s biggest names — Tiësto most visibly — pivoted toward big-room and pop-oriented production. By the middle of the decade, headlines were being written about trance being dead. They turned out to be wrong, but only because a generation of producers and labels did the work to keep the music\'s identity intact while the wider scene moved around them. The records below are the ones that made that case.</p>' },
@@ -97,8 +97,8 @@ export const posts5 = [
     slug: 'modern-trance-classics-2020s-so-far',
     date: '2026-05-19', readTime: 7, tags: ['classics', 'analysis'],
     en: {
-      title: 'Modern Trance Classics: The 2020s So Far',
-      description: 'The records that have already become canon in the 2020s — from underground revival anthems to the Sphere-era stadium spectacles. A snapshot of trance now.',
+      title: 'Modern Trance Classics 2020s — Definitive Records of the Decade',
+      description: 'The records that have already become canon in the 2020s — from underground revival anthems to Sphere-era stadium spectacles. A snapshot of trance music now.',
       excerpt: 'It is too early to write a definitive 2020s ranking — the decade is half over. But certain records released since 2020 have already been absorbed into the genre\'s shared memory.',
       content: [
         { heading: 'Calling Records "Classics" While the Decade Is Still Running', body: '<p>Music journalism is usually wary of declaring records "classics" before enough time has passed for the verdict to settle. Trance is, in that sense, a useful exception. The genre has a community memory that operates at a faster timescale than the broader pop discourse — a record can become a fixture in DJ sets, a reference point in producer conversations, and a permanent part of the canon within eighteen months of release if it earns it. The 2020s have already produced a handful of those records. The list below is not predictive; these tracks have already cleared the bar.</p>' },
@@ -126,8 +126,8 @@ export const posts5 = [
     slug: 'trance-tracks-defined-each-decade-retrospective',
     date: '2026-05-20', readTime: 8, tags: ['classics', 'analysis'],
     en: {
-      title: 'Trance Tracks That Defined Each Decade: A Retrospective',
-      description: 'A single record per decade, chosen as the most representative of what trance music actually was during that period. From "The Age of Love" to the Sphere era — four records, four decades.',
+      title: 'Trance Tracks That Defined Each Decade — Retrospective Top List',
+      description: 'One record per decade, chosen as the most representative of trance music in that period — from "The Age of Love" to the Sphere era. Four records, four decades.',
       excerpt: 'If you had to play one trance record to explain each decade of the genre to someone, which would you choose? This is the disciplined version of that thought experiment.',
       content: [
         { heading: 'Why Pick Just One Per Decade', body: '<p>Lists of decade-defining tracks usually run to ten or twenty entries because the writer is trying to be inclusive — to mention everyone who deserves a mention. That impulse is good but the resulting lists tell you less than they could. The discipline of picking exactly one record per decade forces a different question: what does the decade actually sound like? Not what was popular, not what was respected, not what aged well, but what does the period sound like when you compress its sonic identity into a single track. This essay is the answer to that question, written four times.</p>' },
