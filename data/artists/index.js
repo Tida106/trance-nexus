@@ -7,6 +7,7 @@ import { uplifting } from './uplifting';
 import { uplifting2 } from './uplifting2';
 import { uplifting3 } from './uplifting3';
 import { vocal } from './vocal';
+import { vocal2 } from './vocal2';
 import { psy } from './psy';
 import { psy2 } from './psy2';
 
@@ -20,6 +21,7 @@ export const artists = [
   ...uplifting2,
   ...uplifting3,
   ...vocal,
+  ...vocal2,
   ...psy,
   ...psy2,
 ];
