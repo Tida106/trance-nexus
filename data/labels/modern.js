@@ -331,4 +331,207 @@ Across more than two-and-a-half decades, Bedrock has released material from John
     },
     posts: ['essential-trance-labels-2026', 'best-progressive-trance-tracks-of-all-time-50', 'what-is-progressive-trance'],
   },
+
+  // ───────────────────────────────────────────────────────────────
+  // Batch 3 expansion (added 2026-05-09): microCastle, Selador,
+  // Colorize, Tytanium, Reaching Altitude. Five contemporary
+  // progressive / uplifting outlets covering the modern boutique
+  // and label-family ecosystem.
+  // ───────────────────────────────────────────────────────────────
+
+  {
+    slug: 'microcastle',
+    name: 'microCastle',
+    flag: '🇨🇦',
+    emoji: '🏰',
+    category: 'modern',
+    banner: 'b-progressive',
+    founded: '2009',
+    hq: 'Toronto, Canada',
+    founders: ['Jorge Caballero'],
+    aliases: ['microcastle', 'micro castle'],
+    subgenres: ['Progressive House', 'Progressive Trance', 'Melodic Techno'],
+    topReleases: [
+      { title: 'microCastle compilation series', artist: 'Various', year: '2010+', type: 'series' },
+      { title: 'Soundprank productions (early era)', artist: 'Soundprank (Marcelo Vasami)', year: 'multiple', type: 'multiple' },
+      { title: 'Various Henry Saiz / Guy J releases', artist: 'Various', year: 'multiple', type: 'multiple' },
+      { title: 'Estiva-adjacent progressive material', artist: 'Various', year: 'multiple', type: 'multiple' },
+    ],
+    related: ['anjunadeep', 'sudbeat', 'last-night-on-earth', 'bedrock-records'],
+    links: {
+      website: 'https://www.microcastle.com',
+      beatport: 'https://www.beatport.com/label/microcastle/13988',
+      soundcloud: 'https://soundcloud.com/microcastle',
+    },
+    short: {
+      en: 'Toronto-based boutique progressive imprint, founded 2009 — a North American counterpart to the Anjunadeep / Sudbeat axis.',
+      ja: '2009年設立のトロント拠点ブティック・プログレッシブ・インプリント——Anjunadeep／Sudbeat軸の北米版カウンターパート。',
+    },
+    bio: {
+      en: `microCastle was founded in 2009 in Toronto by Jorge Caballero as a focused progressive imprint operating in the same long-form, harmonically generous editorial space that Hooj Choons and Bedrock had defined a decade earlier. From the start the label has prioritised carefully-curated EPs and singles over volume releases — a small catalogue of patient, structurally-attentive progressive house and progressive trance that has earned a dedicated following among connoisseurs of the form.
+
+The label's release flow has hosted material from Soundprank (Marcelo Vasami), Henry Saiz, Guy J, Estiva, Audiojack, and many other artists working in the long-form progressive register. The microCastle compilation series (typically Caballero-curated) and the touring microCastle event brand have built a respected boutique presence in the North American progressive scene. The label sits comfortably alongside Sudbeat, Last Night On Earth, and the Anjunadeep family as part of the modern progressive heartland — a North American voice in a genre still dominated by European editorial centres.`,
+      ja: `microCastleは2009年、トロントでJorge Caballeroにより、Hooj ChoonsとBedrockが10年前に定義したのと同じ長尺で調和的に寛大な編集空間で活動する、焦点を絞ったプログレッシブ・インプリントとして設立された。当初からレーベルは量的リリースよりも丁寧にキュレーションされたEPとシングルを優先してきた——形式の鑑識家の間で熱心な支持を獲得してきた、忍耐強く構造的に注意深いプログレッシブ・ハウスとプログレッシブ・トランスの小さなカタログだ。
+
+レーベルのリリース・フローはSoundprank（Marcelo Vasami）、Henry Saiz、Guy J、Estiva、Audiojack、その他長尺プログレッシブ・レジスターで活動する多数のアーティストの素材をホストしてきた。microCastleコンピレーション・シリーズ（典型的にCaballeroがキュレーション）と巡回するmicroCastleイベント・ブランドは、北米プログレッシブ・シーンで尊敬されるブティック・プレゼンスを築いてきた。レーベルはSudbeat、Last Night On Earth、Anjunadeepファミリーと並んで現代プログレッシブの中心地の一部として収まる——ヨーロッパの編集中心によって今も支配されているジャンルでの北米の声である。`,
+    },
+    posts: ['essential-trance-labels-2026', 'best-progressive-trance-tracks-of-all-time-50', 'what-is-progressive-trance'],
+  },
+
+  {
+    slug: 'selador-recordings',
+    name: 'Selador Recordings',
+    flag: '🇬🇧',
+    emoji: '🎚️',
+    category: 'modern',
+    banner: 'b-progressive',
+    founded: '2011',
+    hq: 'Liverpool, United Kingdom',
+    founders: ['Steve Parry', 'Dave Seaman'],
+    aliases: ['selador', 'selador music'],
+    subgenres: ['Progressive House', 'Progressive Trance', 'Tech House'],
+    topReleases: [
+      { title: 'Selador Sounds compilation series', artist: 'Various', year: '2013+', type: 'series' },
+      { title: 'Various Steve Parry productions', artist: 'Steve Parry', year: 'multiple', type: 'multiple' },
+      { title: 'Various Dave Seaman productions', artist: 'Dave Seaman', year: 'multiple', type: 'multiple' },
+      { title: 'Multi-artist progressive EPs', artist: 'Various', year: 'multiple', type: 'multiple' },
+    ],
+    related: ['bedrock-records', 'sudbeat', 'last-night-on-earth', 'anjunadeep'],
+    links: {
+      website: 'https://www.seladorrecordings.com',
+      beatport: 'https://www.beatport.com/label/selador-recordings/35373',
+      soundcloud: 'https://soundcloud.com/seladorrecordings',
+    },
+    short: {
+      en: 'Steve Parry and Dave Seaman\'s Liverpool-rooted progressive label, founded 2011 — a focused boutique outlet for the modern progressive house and trance crossover.',
+      ja: 'Steve ParryとDave Seamanが運営するリヴァプールに根ざしたプログレッシブ・レーベル（2011年設立）——現代プログレッシブ・ハウス＆トランス・クロスオーバーのための焦点を絞ったブティック・アウトレット。',
+    },
+    bio: {
+      en: `Selador Recordings was co-founded in 2011 by British DJ-producers Steve Parry and Dave Seaman, both of whom carried decades of progressive credibility into the project — Seaman from his 1990s Brothers in Rhythm / Renaissance / DMC era, Parry from his Liverpool-based Renaissance and Bedrock-adjacent residency work. The label was conceived as a focused boutique outlet rather than a release-volume operation, with editorial discipline centred on the long-form progressive house and progressive trance crossover that the founders' personal taste prioritises.
+
+Selador's catalogue spans original singles and EPs from Parry and Seaman themselves, plus curated work from progressive specialists across the UK, mainland Europe, and the global Sudbeat / Anjunadeep / Bedrock-adjacent scene. The Selador Sounds compilation series functions as the label's primary editorial document, and the Selador event brand has hosted touring nights at boutique venues across the UK and mainland EU. Selador sits comfortably in the same sound-world as the Bedrock and Sudbeat families — patient, harmonically detailed, structurally generous progressive material — while keeping a tighter, more author-driven identity.`,
+      ja: `Selador Recordingsは2011年、英国のDJプロデューサーSteve ParryとDave Seamanにより共同設立された。両者ともプロジェクトに数十年のプログレッシブ・クレディブリティを持ち込んだ——Seamanは1990年代のBrothers in Rhythm／Renaissance／DMC時代から、Parryはリヴァプール拠点のRenaissanceとBedrock隣接のレジデンシー活動から。レーベルはリリース量の運営ではなく焦点を絞ったブティック・アウトレットとして構想され、編集規律は創設者個人の好みが優先する長尺プログレッシブ・ハウス＆プログレッシブ・トランス・クロスオーバーを中心とした。
+
+Seladorのカタログは、ParryとSeaman自身のオリジナル・シングルとEP、加えて英国、大陸ヨーロッパ、グローバルなSudbeat／Anjunadeep／Bedrock隣接シーンを横断するプログレッシブ・スペシャリストからのキュレーション作品にわたる。Selador Soundsコンピレーション・シリーズはレーベルの主要な編集ドキュメントとして機能し、Seladorイベント・ブランドは英国と大陸EU各地のブティック・ベニューでツアー・ナイトをホストしてきた。SeladorはBedrockとSudbeatファミリーと同じサウンド・ワールドに快適に収まる——忍耐強く、調和的に詳細で、構造的に寛大なプログレッシブ素材——一方でより緊密で著者主導のアイデンティティを維持している。`,
+    },
+    posts: ['essential-trance-labels-2026', 'best-progressive-trance-tracks-of-all-time-50', 'what-is-progressive-trance'],
+  },
+
+  {
+    slug: 'colorize',
+    name: 'Colorize',
+    flag: '🇬🇧',
+    emoji: '🎨',
+    category: 'modern',
+    banner: 'b-vocal',
+    founded: '2014',
+    hq: 'United Kingdom',
+    founders: ['Tritonal / Will Holland (Enhanced Music ownership)'],
+    aliases: ['colorize music', 'colorize records', 'enhanced colorize'],
+    subgenres: ['Melodic House', 'Progressive House', 'Vocal Trance'],
+    topReleases: [
+      { title: 'Various Estiva singles', artist: 'Estiva', year: 'multiple', type: 'multiple' },
+      { title: 'Various Tritonal singles (early Colorize era)', artist: 'Tritonal', year: 'multiple', type: 'multiple' },
+      { title: 'Colorize compilation series', artist: 'Various', year: '2015+', type: 'series' },
+      { title: 'Vocal-led melodic-house releases', artist: 'Various', year: 'multiple', type: 'multiple' },
+    ],
+    related: ['enhanced-music', 'anjunadeep', 'sudbeat', 'last-night-on-earth'],
+    links: {
+      website: 'https://www.enhancedmusic.com/colorize',
+      beatport: 'https://www.beatport.com/label/colorize/40196',
+      spotify: 'https://open.spotify.com/user/colorizemusic',
+      soundcloud: 'https://soundcloud.com/colorizemusic',
+    },
+    short: {
+      en: 'Enhanced Music\'s deeper / melodic-house sub-label — the home of vocal-led, progressive-adjacent material from artists like Estiva and Tritonal.',
+      ja: 'Enhanced Musicのよりディープ／メロディック・ハウス・サブレーベル——EstivaやTritonalのような、ボーカル主導でプログレッシブ隣接の素材の本拠地。',
+    },
+    bio: {
+      en: `Colorize was launched in 2014 as the deeper, more melodic-house counterpart to Will Holland's Enhanced Music. Where Enhanced has historically operated in the vocal-uplifting trance and progressive trance space (137–138 BPM, mainstage-friendly), Colorize was conceived as the imprint home for slower, more atmospheric productions — typically 122–126 BPM, melodic-house adjacent, with a vocal-led songwriter sensibility.
+
+Through the late 2010s and 2020s, Colorize has grown into one of the more visible boutique outlets for the modern melodic-house-meets-vocal-trance crossover, releasing material from Estiva, Tritonal, Kapera, Robert Nickson (in his deeper register), Trivecta, and many other artists working at the boundary between Anjunadeep-style progressive and vocal-trance heritage. The Colorize compilation series and the touring Colorize Nights event brand have built a devoted audience among listeners who want the emotional sensibility of vocal trance at a slower tempo. The label is part of the wider Enhanced Music family.`,
+      ja: `Colorizeは2014年、Will HollandのEnhanced Musicのよりディープ／メロディック・ハウス・カウンターパートとして発足した。Enhancedが歴史的にボーカル・アップリフティング・トランスとプログレッシブ・トランス空間（137〜138 BPM、メインステージ・フレンドリー）で活動してきたのに対し、Colorizeはよりスローで大気的なプロダクション——典型的に122〜126 BPM、メロディック・ハウス隣接、ボーカル主導のソングライター感性——のためのインプリント本拠地として構想された。
+
+2010年代後半から2020年代を通して、Colorizeは現代のメロディック・ハウス・ミーツ・ボーカル・トランス・クロスオーバーのためのより可視性の高いブティック・アウトレットの一つに成長し、Estiva、Tritonal、Kapera、Robert Nickson（彼のよりディープなレジスターで）、Trivecta、Anjunadeepスタイルのプログレッシブとボーカル・トランス遺産の境界で活動するその他多数のアーティストの素材をリリースしてきた。Colorizeコンピレーション・シリーズと巡回するColorize Nightsイベント・ブランドは、よりスロー・テンポでボーカル・トランスの情緒的感性を求めるリスナーの間で熱心なオーディエンスを築いてきた。レーベルはより広いEnhanced Musicファミリーの一部だ。`,
+    },
+    posts: ['essential-trance-labels-2026', 'best-vocal-trance-tracks-of-all-time-50', 'what-is-vocal-trance'],
+  },
+
+  {
+    slug: 'tytanium-recordings',
+    name: 'Tytanium Recordings',
+    flag: '🇺🇸',
+    emoji: '⚒️',
+    category: 'modern',
+    banner: 'b-uplifting',
+    founded: '2008',
+    hq: 'New York, USA',
+    founders: ['Sean Tyas'],
+    aliases: ['tytanium', 'tytanium records'],
+    subgenres: ['Uplifting Trance', 'Tech Trance'],
+    topReleases: [
+      { title: 'Lift', artist: 'Sean Tyas', year: 2007, type: 'single (released across Discover and pre-Tytanium era; canonical Sean Tyas record)' },
+      { title: 'Various Sean Tyas singles and EPs', artist: 'Sean Tyas', year: '2008+', type: 'multiple' },
+      { title: 'Tytanium Sessions compilation series', artist: 'Various / Sean Tyas', year: '2010+', type: 'series' },
+      { title: 'Various harder uplifting peer releases', artist: 'Various', year: 'multiple', type: 'multiple' },
+    ],
+    related: ['subculture', 'discover-records', 'fsoe', 'outburst-records'],
+    links: {
+      website: 'https://www.seantyas.com',
+      beatport: 'https://www.beatport.com/label/tytanium-recordings/4974',
+      soundcloud: 'https://soundcloud.com/tytaniumrecordings',
+    },
+    short: {
+      en: 'Sean Tyas\'s artist-run uplifting / tech-trance imprint — a focused outlet for his solo catalogue and the harder-uplifting peer scene.',
+      ja: 'Sean Tyasが主宰するアップリフティング／テック・トランス・インプリント——彼のソロ・カタログとよりハードなアップリフティング同世代シーンのための焦点を絞ったアウトレット。',
+    },
+    bio: {
+      en: `Tytanium Recordings was founded in 2008 by American DJ-producer Sean Tyas as a creative home for his own productions and a curated platform for the harder-uplifting and tech-trance scene around him. Tyas had broken through in 2007 with "Lift" — one of the defining records of late-2000s peak-time uplifting trance — and Tytanium gave him an institutional home outside the major-label system to keep producing material at the BPM and intensity that defined his sound.
+
+The label's catalogue has been built primarily around Sean Tyas's own singles and EPs, supplemented by curated work from peers in the harder-uplifting and tech-trance space — Activa, Bjorn Akesson, Heatbeat, James Dymond, and others working at 138+ BPM. The Tytanium Sessions compilation series functions as the label's primary editorial document, and the Tytanium-branded events have hosted nights at Avalon Hollywood, the Pyramid Club, and other US dance venues. Tytanium sits comfortably alongside Subculture, Discover, FSOE, and Outburst as part of the harder-trance institutional axis that has kept the modern 138 BPM sound alive against commercial pressure.`,
+      ja: `Tytanium Recordingsは2008年、米国のDJプロデューサーSean Tyasにより、自身のプロダクションのクリエイティブな本拠地と、彼の周囲のよりハードなアップリフティング＆テック・トランス・シーンのキュレーション・プラットフォームとして設立された。Tyasは2007年に「Lift」——2000年代後半のピークタイム・アップリフティング・トランスを定義するレコードの一つ——でブレイクしており、Tytaniumは彼に、メジャー・レーベル・システム外で、自身のサウンドを定義したBPMと強度で素材を作り続けるための制度的本拠地を与えた。
+
+レーベルのカタログはSean Tyas自身のシングルとEPを軸に構築され、よりハードなアップリフティング＆テック・トランス空間の同世代——Activa、Bjorn Akesson、Heatbeat、James Dymond、138 BPM以上で活動するその他——からのキュレーション作品で補完されている。Tytanium Sessionsコンピレーション・シリーズはレーベルの主要な編集ドキュメントとして機能し、Tytanium冠のイベントはAvalon Hollywood、Pyramid Club、その他米国ダンス・ベニューでナイトをホストしてきた。TytaniumはSubculture、Discover、FSOE、Outburstと並んで、商業的圧力に対して現代138 BPMサウンドを生き残らせてきたよりハードなトランスの制度的軸の一部として快適に収まる。`,
+    },
+    posts: ['essential-trance-labels-2026', 'best-uplifting-trance-tracks-of-all-time-50', 'what-is-uplifting-trance'],
+  },
+
+  {
+    slug: 'reaching-altitude',
+    name: 'Reaching Altitude',
+    flag: '🇳🇱',
+    emoji: '🏔️',
+    category: 'modern',
+    banner: 'b-uplifting',
+    founded: '2014',
+    hq: 'Amsterdam, Netherlands (Armada distribution)',
+    founders: ['MaRLo'],
+    aliases: ['reaching altitude records', 'ra'],
+    subgenres: ['Uplifting Trance', 'Tech Trance'],
+    topReleases: [
+      { title: 'Hold It Together', artist: 'MaRLo & Jano', year: 2014, type: 'single' },
+      { title: 'Various MaRLo singles and EPs', artist: 'MaRLo', year: '2014+', type: 'multiple' },
+      { title: 'Reaching Altitude compilation series', artist: 'Various / MaRLo', year: '2014+', type: 'series' },
+      { title: 'MaRLo & Roxanne Emery collaborations', artist: 'MaRLo & Roxanne Emery', year: 'multiple', type: 'multiple' },
+    ],
+    related: ['armada-music', 'wao138', 'fsoe', 'tytanium-recordings'],
+    links: {
+      website: 'https://www.marloofficial.com',
+      beatport: 'https://www.beatport.com/label/reaching-altitude/40104',
+      soundcloud: 'https://soundcloud.com/reachingaltitude',
+    },
+    short: {
+      en: 'MaRLo\'s Armada-distributed uplifting / tech-energy trance imprint — the editorial home for the high-BPM, festival-leaning tech-uplifting sound.',
+      ja: 'MaRLoが主宰しArmadaが配給するアップリフティング／テック・エナジー・トランス・インプリント——高BPMでフェスティバル寄りのテック・アップリフティング・サウンドの編集本拠地。',
+    },
+    bio: {
+      en: `Reaching Altitude was founded in 2014 by Australian-Dutch DJ-producer MaRLo as a focused outlet for the harder, more festival-leaning side of contemporary uplifting trance. Distributed through Armada Music, the imprint sits in the artist-run wing of the Armada family — adjacent to AVA Recordings, Vandit, and Flashover in editorial spirit, with the explicit intent of championing the 138+ BPM uplifting and tech-trance crossover that mainstage festival sets favour.
+
+The label's catalogue is built primarily around MaRLo's own productions, supplemented by curated material from peers in the tech-uplifting register — Roxanne Emery (his frequent vocal collaborator), Standerwick, Mark Sixma, and other artists working in the harder mainstream uplifting space. The Reaching Altitude compilation series functions as the label's editorial document, and the Reaching Altitude-branded events at festivals including ASOT, Untold, and EDC have built a global audience for MaRLo's high-energy uplifting sound. Reaching Altitude is one of the most visible artist-run trance labels operating under the Armada distribution umbrella in the late-2010s and 2020s era.`,
+      ja: `Reaching Altitudeは2014年、オーストラリア・オランダのDJプロデューサーMaRLoにより、現代アップリフティング・トランスのよりハードでフェスティバル寄りの側面のための焦点を絞ったアウトレットとして設立された。Armada Musicが配給するインプリントは、Armadaファミリーのアーティスト主導ウィング——AVA Recordings、Vandit、Flashoverと編集精神において隣接する——に位置し、メインステージのフェスティバル・セットが好む138 BPM以上のアップリフティング＆テック・トランス・クロスオーバーを支援するという明示的意図を持つ。
+
+レーベルのカタログはMaRLo自身のプロダクションを軸に構築され、テック・アップリフティング・レジスターの同世代——Roxanne Emery（彼の頻繁なボーカル共作者）、Standerwick、Mark Sixma、よりハードなメインストリーム・アップリフティング空間で活動するその他アーティスト——からのキュレーション素材で補完されている。Reaching Altitudeコンピレーション・シリーズはレーベルの編集ドキュメントとして機能し、ASOT、Untold、EDCを含むフェスティバルでのReaching Altitude冠のイベントは、MaRLoのハイエナジー・アップリフティング・サウンドのためのグローバル・オーディエンスを築いてきた。Reaching Altitudeは2010年代後半から2020年代にかけてArmada配給傘下で活動する最も可視性の高いアーティスト主導のトランス・レーベルの一つだ。`,
+    },
+    posts: ['essential-trance-labels-2026', 'best-uplifting-trance-tracks-of-all-time-50', 'what-is-uplifting-trance'],
+  },
 ];
