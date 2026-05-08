@@ -145,11 +145,12 @@ export default function BlogPost({ post, prevPost, nextPost, related }) {
             );
           })()}
 
-          {/* Amazon affiliate gear cards — locale-aware. JA visitors
-              get amazon.co.jp + the JP associate tag; EN visitors get
-              amazon.com + the US tag. Each language has its own product
-              array in data/blog/products.js, so a slug with only a JA
-              array simply renders nothing on English pages. */}
+          {/* Amazon affiliate gear cards — all routed to amazon.co.jp
+              + the sacredjapan-22 tag regardless of UI language. The
+              ja/en split in data/blog/products.js drives caption
+              language only; the destination URL is identical. A slug
+              with only a JA array simply renders nothing on English
+              pages. */}
           {(() => {
             const products = getProductsForSlug(post.slug, language);
             if (products.length === 0) return null;

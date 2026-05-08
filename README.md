@@ -123,7 +123,7 @@ npm start
 | 項目 | スクリプト | 検証内容 | ログ出力先 |
 |---|---|---|---|
 | アーティスト外部リンク | `npm run verify:artist-links` | `data/artists/*.js` の `links: { ... }` ブロック内すべてのURLに対して strict-TLS GET、リダイレクト追跡（最大5）、10秒タイムアウト、3回リトライ | `logs/verify-artist-links.log` |
-| Amazon ASIN | `npm run verify:amazon-asins` | `data/blog/products.js` の `ja:` / `en:` 配列内すべてのASINに対して、対応するストア（`amazon.co.jp` / `amazon.com`）の `/dp/<ASIN>` を GET、ステータス＋HTML内の "Page Not Found" 検知 | `logs/verify-amazon-asins.log` |
+| Amazon ASIN | `npm run verify:amazon-asins` | `data/blog/products.js` の `ja:` / `en:` 配列内すべてのASINに対して `amazon.co.jp/dp/<ASIN>` を GET、ステータス＋HTML内の "Page Not Found" 検知（全リンクが JP ストアにルーティングされるため `en:` 配列の ASIN も JP ストア ASIN である必要がある） | `logs/verify-amazon-asins.log` |
 
 両方のスクリプトは独立して実行可能です：
 

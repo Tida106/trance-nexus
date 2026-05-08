@@ -1,4 +1,4 @@
-// Per-blog-post Amazon product recommendations, organised by locale.
+// Per-blog-post Amazon product recommendations, organised by language.
 //
 // Shape:
 //   productsBySlug[slug] = {
@@ -6,38 +6,44 @@
 //     en?: [ { asin, title, caption, category?, price?, image? }, ... ],
 //   }
 //
-// JA arrays render against amazon.co.jp + the JP associate tag.
-// EN arrays render against amazon.com + the US associate tag.
-// A locale is omitted when verified ASINs aren't available — the
-// AmazonLink component renders nothing for an empty array, so the
+// All arrays — JA and EN — render against amazon.co.jp + the
+// sacredjapan-22 associate tag. The site consolidated to a single
+// Japan-store affiliate program, so EVERY ASIN below must be a JP-store
+// ASIN regardless of which language array it sits in. The ja/en split
+// only governs caption language; the destination URL is identical.
+//
+// A language array is omitted when verified ASINs aren't available —
+// the AmazonLink component renders nothing for an empty array, so the
 // products section just doesn't appear on that language's view.
 //
-// asin     — 10-character Amazon ASIN. Must be the ASIN that matches
-//            the locale's storefront — JP and US listings often share
-//            ASINs but not always.
+// asin     — 10-character JP-store Amazon ASIN. JP and US listings often
+//            share ASINs but not always; if you migrate an entry from
+//            another store, verify the JP ASIN before swapping.
 // title    — visible product name shown in the card.
 // caption  — short editorial line (1–2 sentences) explaining the pick
 //            in the article's context. Match the language of the array.
 // category — short pill label ('Controller', 'Headphones', etc.).
-// price    — optional pre-formatted hint ('¥24,800〜' / '$249'). Editorial,
+// price    — optional pre-formatted hint ('¥24,800〜'). Editorial,
 //            never auto-fetched.
 //
 // ⚠️  ASIN VERIFICATION POLICY
 //
-// Every ASIN below has been verified against the live Amazon storefront
-// before commit. The build now runs `npm run verify:amazon-asins` as a
-// gate — any ASIN whose /dp/<id> page returns 4xx, 5xx, or Amazon's
-// "Page Not Found" body marker fails the build before next-build runs.
+// Every ASIN below has been verified against the live amazon.co.jp
+// storefront before commit. The build runs `npm run verify:amazon-asins`
+// as a gate — any ASIN whose /dp/<id> page returns 4xx, 5xx, or
+// Amazon's "Page Not Found" body marker fails the build before
+// next-build runs.
 //
 // Do NOT add new entries with guessed/training-data ASINs. Use
-// WebSearch to find the canonical product ASIN, then verify with a
+// WebSearch to find the canonical JP-store ASIN, then verify with a
 // fetch before adding. If the build gate flags a stale entry, see the
 // README "Pre-build verification" section for fix steps.
 
 export const productsBySlug = {
   // Beginner DJ guide — entry-level controller plus the two headphones
-  // most commonly recommended to first-time DJs. ASINs verified live
-  // against both amazon.co.jp (JA) and amazon.com (EN) on 2026-05-07.
+  // most commonly recommended to first-time DJs. JP-store ASINs verified
+  // live against amazon.co.jp on 2026-05-07; same ASINs used for both
+  // language arrays now that all affiliate links route to amazon.co.jp.
   'how-to-dj-trance-beginners-guide': {
     ja: [
       {
@@ -64,7 +70,7 @@ export const productsBySlug = {
     ],
     en: [
       {
-        asin: 'B0BK25SY9G',
+        asin: 'B0BLSJZC94',
         title: 'Pioneer DJ DDJ-FLX4',
         caption:
           'The best entry-level 2-channel DJ controller available — works with both rekordbox and Serato DJ Lite, and feels like real gear without an intermediate-tier price tag.',

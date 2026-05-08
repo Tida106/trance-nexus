@@ -11,16 +11,16 @@
 //   node scripts/verify-amazon-asins.js --json
 //   node scripts/verify-amazon-asins.js --concurrency=2
 //
-// Sources walked (in priority order, dedup'd by asin+locale):
-//   1. data/blog/products.js — locale-aware: each ASIN keyed under
-//      `ja:` is checked against amazon.co.jp; each under `en:` against
-//      amazon.com.
+// Sources walked (in priority order, dedup'd by asin):
+//   1. data/blog/products.js — every ASIN under `ja:` AND under `en:`
+//      is checked against amazon.co.jp. The site routes ALL affiliate
+//      links to the JP store regardless of UI language, so ASINs in the
+//      en: arrays must also be valid JP-store ASINs.
 //   2. components/AmazonLink.jsx + any other components/*.jsx that
-//      hard-code an asin — verified against BOTH stores (locale
-//      unknown) and required to pass on at least one.
-//   3. data/blog/posts*.js — same dual-store fallback as #2 for any
-//      inline ASINs that escape products.js (currently none, but the
-//      walker is forward-compatible).
+//      hard-code an asin — verified against amazon.co.jp.
+//   3. data/blog/posts*.js — same JP-store check for any inline ASINs
+//      that escape products.js (currently none, but the walker is
+//      forward-compatible).
 //
 // Verification rules:
 //   - GET /dp/<ASIN> with strict TLS (default Node behaviour). Self-
@@ -83,17 +83,19 @@ const UA =
   'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 ' +
   '(KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36';
 
-const STORE = {
-  ja: { domain: 'www.amazon.co.jp', label: 'amazon.co.jp' },
-  en: { domain: 'www.amazon.com', label: 'amazon.com' },
-};
+// All affiliate links route to amazon.co.jp now, so the verifier only
+// targets the JP store. The locale dimension below is retained inside
+// the data layer (ja/en arrays in products.js) only to drive caption
+// language — the destination URL is identical.
+const STORE = { domain: 'www.amazon.co.jp', label: 'amazon.co.jp' };
 
-// "Page not found" body markers. Amazon serves 200 + a 404-like body
-// for some retired ASINs, so status alone is insufficient.
-const NOT_FOUND_PATTERNS = {
-  ja: [/ページが見つかりません/, /該当する商品はありません/],
-  en: [/Looking for something\?/i, /We couldn't find that page/i, /Page Not Found/i],
-};
+// "Page not found" body markers for amazon.co.jp. Amazon serves 200 +
+// a 404-like body for some retired ASINs, so status alone is insufficient.
+const NOT_FOUND_PATTERNS = [
+  /ページが見つかりません/,
+  /該当する商品はありません/,
+  /お探しのページは見つかりませんでした/,
+];
 
 const RETRYABLE = new Set([
   'UND_ERR_CONNECT_TIMEOUT',
@@ -129,14 +131,12 @@ function setupLog() {
 
 // --- Source scanning ----------------------------------------------------
 
-// Parse data/blog/products.js for {asin, locale} pairs. Each ASIN is
-// associated with the surrounding `ja: [...]` or `en: [...]` array.
+// Parse data/blog/products.js for {asin, locale} pairs. The locale
+// label (ja/en) is preserved purely for log readability — every ASIN
+// is verified against amazon.co.jp regardless of which array it sits in.
 function asinsFromProducts() {
   const src = fs.readFileSync(PRODUCTS_FILE, 'utf8');
   const out = [];
-  // Within productsBySlug, each slug entry contains { ja: [...], en: [...] }.
-  // Walk locale arrays directly — the regex matches `ja:\s*\[<inner>],`
-  // or `en:\s*\[<inner>],` non-greedily.
   const localeRe = /\b(ja|en)\s*:\s*\[([\s\S]*?)\][,}]/g;
   let m;
   while ((m = localeRe.exec(src)) !== null) {
@@ -152,7 +152,7 @@ function asinsFromProducts() {
 }
 
 // Walk components/ and data/blog/ for any other inline ASINs not in
-// products.js. These are verified against BOTH stores.
+// products.js. These are verified against amazon.co.jp.
 function asinsFromOtherSources(known) {
   const seen = new Set(known.map((k) => k.asin));
   const out = [];
@@ -179,7 +179,7 @@ function asinsFromOtherSources(known) {
         seen.add(m[1]);
         out.push({
           asin: m[1],
-          locale: null, // unknown — verify both stores
+          locale: 'auto',
           source: path.relative(ROOT, full),
         });
       }
@@ -226,10 +226,9 @@ async function fetchWithRetry(url) {
   throw lastErr;
 }
 
-// Verify one ASIN against one store. Returns { ok, status, reason }.
-async function checkAsinOnStore(asin, locale) {
-  const store = STORE[locale];
-  const url = `https://${store.domain}/dp/${encodeURIComponent(asin)}`;
+// Verify one ASIN against amazon.co.jp. Returns { ok, status, reason }.
+async function checkAsin(asin) {
+  const url = `https://${STORE.domain}/dp/${encodeURIComponent(asin)}`;
   let res;
   try {
     res = await fetchWithRetry(url);
@@ -258,7 +257,7 @@ async function checkAsinOnStore(asin, locale) {
       reason: `body-read-failed: ${err.message}`,
     };
   }
-  for (const re of NOT_FOUND_PATTERNS[locale]) {
+  for (const re of NOT_FOUND_PATTERNS) {
     if (re.test(body)) {
       return {
         ok: false,
@@ -272,41 +271,11 @@ async function checkAsinOnStore(asin, locale) {
 }
 
 async function verifyEntry(entry) {
-  // entry: { asin, locale: 'ja'|'en'|null, source }
-  if (entry.locale) {
-    const r = await checkAsinOnStore(entry.asin, entry.locale);
-    return [{ ...entry, ...r, store: STORE[entry.locale].label }];
-  }
-  // Locale unknown — must pass on at least one store.
-  const [ja, en] = await Promise.all([
-    checkAsinOnStore(entry.asin, 'ja'),
-    checkAsinOnStore(entry.asin, 'en'),
-  ]);
-  if (ja.ok || en.ok) {
-    const winner = ja.ok ? ja : en;
-    return [
-      {
-        ...entry,
-        ok: true,
-        status: winner.status,
-        url: winner.url,
-        reason: null,
-        store: ja.ok ? STORE.ja.label : STORE.en.label,
-        note: ja.ok && en.ok ? 'both stores ok' : `only ${winner.url}`,
-      },
-    ];
-  }
-  // Both failed — surface as one failure with both reasons.
-  return [
-    {
-      ...entry,
-      ok: false,
-      status: ja.status ?? en.status,
-      url: `${ja.url} | ${en.url}`,
-      reason: `JP: ${ja.reason}; US: ${en.reason}`,
-      store: 'both',
-    },
-  ];
+  // entry: { asin, locale: 'ja'|'en'|'auto', source }
+  // Every entry is verified against amazon.co.jp regardless of locale —
+  // locale is preserved only for log column readability.
+  const r = await checkAsin(entry.asin);
+  return [{ ...entry, ...r, store: STORE.label }];
 }
 
 async function pool(items, n, fn) {
