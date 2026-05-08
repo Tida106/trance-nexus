@@ -6,287 +6,511 @@
   <atom:link href="https://trance-nexus.com/rss.xml" rel="self" type="application/rss+xml" />
   <description>Long-form trance music coverage: history, artists, labels, scene reports, gear and production guides.</description>
   <language>en</language>
-  <lastBuildDate>Thu, 07 May 2026 12:19:18 GMT</lastBuildDate>
+  <lastBuildDate>Fri, 08 May 2026 12:22:49 GMT</lastBuildDate>
   <generator>trance-nexus rss generator</generator>
   <item>
-    <title>Trance Music&apos;s Influence on Other Genres</title>
+    <title>Iconic Trance Vocalists — The Voices Behind Trance&apos;s Greatest Anthems</title>
+    <link>https://trance-nexus.com/blog/iconic-trance-vocalists-voices-behind-anthems</link>
+    <guid isPermaLink="true">https://trance-nexus.com/blog/iconic-trance-vocalists-voices-behind-anthems</guid>
+    <pubDate>Sun, 14 Jun 2026 00:00:00 GMT</pubDate>
+    <description>Vocal trance is its own tradition within the genre. The list of vocalists whose work defined the era reads like a separate canon — one that runs parallel to the producer canon and is just as essential to understanding how the music actually sounds.</description>
+  </item>
+  <item>
+    <title>Cosmic Gate&apos;s Anisha — The Vocalists Who Shape the Mainstage Sound</title>
+    <link>https://trance-nexus.com/blog/cosmic-gate-anisha-women-behind-mainstage</link>
+    <guid isPermaLink="true">https://trance-nexus.com/blog/cosmic-gate-anisha-women-behind-mainstage</guid>
+    <pubDate>Sat, 13 Jun 2026 00:00:00 GMT</pubDate>
+    <description>Cosmic Gate are nominally a two-man duo. Their post-2018 sound is unimaginable without Anisha, whose vocals and writing have shaped the duo&apos;s late career as much as their production. The pattern repeats across the genre, and crediting it changes who gets remembered.</description>
+  </item>
+  <item>
+    <title>BT and the Stutter Edit — How One Producer Changed Music Tech</title>
+    <link>https://trance-nexus.com/blog/bt-stutter-edit-changed-music-tech</link>
+    <guid isPermaLink="true">https://trance-nexus.com/blog/bt-stutter-edit-changed-music-tech</guid>
+    <pubDate>Fri, 12 Jun 2026 00:00:00 GMT</pubDate>
+    <description>BT did not just make trance records — he engineered a production technique so distinctive that it eventually became a commercial software product used across pop, hip-hop, and film scoring. The story is one of the genre&apos;s most quietly consequential.</description>
+  </item>
+  <item>
+    <title>How Tiësto Reinvented Himself — From Trance King to EDM Star Story</title>
+    <link>https://trance-nexus.com/blog/how-tiesto-reinvented-trance-king-to-edm</link>
+    <guid isPermaLink="true">https://trance-nexus.com/blog/how-tiesto-reinvented-trance-king-to-edm</guid>
+    <pubDate>Thu, 11 Jun 2026 00:00:00 GMT</pubDate>
+    <description>Tiësto&apos;s reinvention is the most discussed and most resented career pivot in trance history. Twenty years on, the picture is more complicated than the loyalists acknowledged at the time and more deliberate than the critics suspected.</description>
+  </item>
+  <item>
+    <title>Building Your First Trance Playlist — 30 Essential Tracks Guide</title>
+    <link>https://trance-nexus.com/blog/building-first-trance-playlist-30-essential</link>
+    <guid isPermaLink="true">https://trance-nexus.com/blog/building-first-trance-playlist-30-essential</guid>
+    <pubDate>Wed, 10 Jun 2026 00:00:00 GMT</pubDate>
+    <description>A list of thirty tracks does not make you fluent in trance. But the right thirty, listened to in the right order with the right attention, gets a new listener further in a month than another year of casual sampling.</description>
+  </item>
+  <item>
+    <title>Trance and Mental Health — The Healing Power of 138 BPM Explained</title>
+    <link>https://trance-nexus.com/blog/trance-mental-health-healing-138-bpm</link>
+    <guid isPermaLink="true">https://trance-nexus.com/blog/trance-mental-health-healing-138-bpm</guid>
+    <pubDate>Tue, 09 Jun 2026 00:00:00 GMT</pubDate>
+    <description>Many trance fans report that the music has helped them through difficult periods. The reports are consistent enough to take seriously. But the honest framing requires distinguishing what the music can do from what it cannot.</description>
+  </item>
+  <item>
+    <title>Best Trance Festivals in Asia — Japan, India &amp; Southeast Asia Guide</title>
+    <link>https://trance-nexus.com/blog/best-trance-festivals-asia-complete-guide</link>
+    <guid isPermaLink="true">https://trance-nexus.com/blog/best-trance-festivals-asia-complete-guide</guid>
+    <pubDate>Mon, 08 Jun 2026 00:00:00 GMT</pubDate>
+    <description>Asian trance festivals are not minor events. The Japanese, Indian, and Southeast Asian scenes have produced some of the largest and most musically serious trance gatherings outside Europe over the past decade.</description>
+  </item>
+  <item>
+    <title>Above &amp; Beyond&apos;s Group Therapy Phenomenon Explained — Complete Guide</title>
+    <link>https://trance-nexus.com/blog/above-beyond-group-therapy-phenomenon</link>
+    <guid isPermaLink="true">https://trance-nexus.com/blog/above-beyond-group-therapy-phenomenon</guid>
+    <pubDate>Sun, 07 Jun 2026 00:00:00 GMT</pubDate>
+    <description>Group Therapy is the most musically literate of the major trance institutions. The show, the podcast, and the live ABGT events together do something specific: they treat the trance audience as adults whose attention is worth earning.</description>
+  </item>
+  <item>
+    <title>Anatomy of an Uplifting Trance Anthem — Section-by-Section Breakdown</title>
+    <link>https://trance-nexus.com/blog/anatomy-of-uplifting-trance-anthem</link>
+    <guid isPermaLink="true">https://trance-nexus.com/blog/anatomy-of-uplifting-trance-anthem</guid>
+    <pubDate>Sat, 06 Jun 2026 00:00:00 GMT</pubDate>
+    <description>The uplifting trance anthem is a template — a recognisable structure repeated across thousands of records. Knowing the template makes the genre much more rewarding to listen to, because you can hear what each section is asking of you.</description>
+  </item>
+  <item>
+    <title>Top 10 Female Trance DJs You Should Know in 2026 — Definitive List</title>
+    <link>https://trance-nexus.com/blog/top-10-female-trance-djs-2026</link>
+    <guid isPermaLink="true">https://trance-nexus.com/blog/top-10-female-trance-djs-2026</guid>
+    <pubDate>Fri, 05 Jun 2026 00:00:00 GMT</pubDate>
+    <description>Lists are reductive but useful as starting points. These ten women are doing the most interesting work in trance DJing right now, and any one of their 2026 sets is a faster education than reading another think piece.</description>
+  </item>
+  <item>
+    <title>Why Trance Music is Having a Renaissance in 2026 — Revival Analysed</title>
+    <link>https://trance-nexus.com/blog/trance-renaissance-2026</link>
+    <guid isPermaLink="true">https://trance-nexus.com/blog/trance-renaissance-2026</guid>
+    <pubDate>Thu, 04 Jun 2026 00:00:00 GMT</pubDate>
+    <description>Trance is more visible in 2026 than it has been since 2010. The question is whether the resurgence is structural — driven by something genuinely new — or a nostalgia cycle that will fade.</description>
+  </item>
+  <item>
+    <title>Trance Fashion History — From Rave Wear to Festival Couture Guide</title>
+    <link>https://trance-nexus.com/blog/trance-fashion-rave-wear-festival-couture</link>
+    <guid isPermaLink="true">https://trance-nexus.com/blog/trance-fashion-rave-wear-festival-couture</guid>
+    <pubDate>Wed, 03 Jun 2026 00:00:00 GMT</pubDate>
+    <description>Every era of trance has had a recognisable visual signature. The neon-and-UV rave wear of the late 90s, the all-black mainstage uniform of the mid-2000s, and the high-production festival couture of the 2020s tell their own version of the genre&apos;s history.</description>
+  </item>
+  <item>
+    <title>Armin van Buuren&apos;s A State of Trance — 25 Years of Influence Story</title>
+    <link>https://trance-nexus.com/blog/armin-asot-25-years-of-influence</link>
+    <guid isPermaLink="true">https://trance-nexus.com/blog/armin-asot-25-years-of-influence</guid>
+    <pubDate>Tue, 02 Jun 2026 00:00:00 GMT</pubDate>
+    <description>A State of Trance is no longer just a radio show. Twenty-five years in, it functions as the genre&apos;s tastemaking institution — a weekly broadcast that has done more to shape what counts as trance than any single record or producer.</description>
+  </item>
+  <item>
+    <title>How to Listen to Trance Music — Complete Beginner&apos;s Listening Guide</title>
+    <link>https://trance-nexus.com/blog/how-to-listen-to-trance-beginners-guide</link>
+    <guid isPermaLink="true">https://trance-nexus.com/blog/how-to-listen-to-trance-beginners-guide</guid>
+    <pubDate>Mon, 01 Jun 2026 00:00:00 GMT</pubDate>
+    <description>Trance is not a genre you grasp from a thirty-second clip. The format rewards listeners who give it the time and attention it asks for, and the gap between casual and committed listening is unusually wide.</description>
+  </item>
+  <item>
+    <title>Women Trance Producers — Studio Architects Who Shaped the Genre</title>
+    <link>https://trance-nexus.com/blog/women-in-trance-producers-shaped-genre</link>
+    <guid isPermaLink="true">https://trance-nexus.com/blog/women-in-trance-producers-shaped-genre</guid>
+    <pubDate>Sun, 31 May 2026 00:00:00 GMT</pubDate>
+    <description>Trance&apos;s mainstream story has historically been told through male DJ names. The producer history is different — women have been writing and producing the records all along, and the genre has been quietly shaped by their work for thirty years.</description>
+  </item>
+  <item>
+    <title>Trance Music&apos;s Influence on Pop, Hip-Hop &amp; Other Genres Today</title>
     <link>https://trance-nexus.com/blog/trance-influence-other-genres</link>
     <guid isPermaLink="true">https://trance-nexus.com/blog/trance-influence-other-genres</guid>
     <pubDate>Sat, 30 May 2026 00:00:00 GMT</pubDate>
     <description>Trance has had a much wider musical influence than the genre&apos;s mainstream profile would suggest. Many of the techniques pop producers now reach for — supersaw leads, breakdown-and-drop dynamics, atmospheric pads — are trance imports.</description>
   </item>
   <item>
-    <title>The Trance Documentary Watchlist: Films Every Fan Should See</title>
+    <title>Best Trance Music Documentaries — Definitive Watchlist for Fans</title>
     <link>https://trance-nexus.com/blog/trance-documentary-watchlist</link>
     <guid isPermaLink="true">https://trance-nexus.com/blog/trance-documentary-watchlist</guid>
     <pubDate>Fri, 29 May 2026 00:00:00 GMT</pubDate>
     <description>The serious documentary record on trance music is smaller than the genre deserves, but the films that exist are essential viewing for any committed fan.</description>
   </item>
   <item>
-    <title>Trance and Meditation: Music for Mind Expansion</title>
+    <title>Trance and Meditation — Music for Mind Expansion &amp; Focus Guide</title>
     <link>https://trance-nexus.com/blog/trance-meditation-music-mind-expansion</link>
     <guid isPermaLink="true">https://trance-nexus.com/blog/trance-meditation-music-mind-expansion</guid>
     <pubDate>Thu, 28 May 2026 00:00:00 GMT</pubDate>
     <description>Trance is not literally meditation music — but the structural similarities are real, and many fans use the music as part of a meditation or focus practice. The overlap rewards careful attention.</description>
   </item>
   <item>
-    <title>The Spirituality of Trance: Why It Hits Different</title>
+    <title>The Spirituality of Trance Music — Why It Hits Different in 2026</title>
     <link>https://trance-nexus.com/blog/spirituality-of-trance-why-it-hits-different</link>
     <guid isPermaLink="true">https://trance-nexus.com/blog/spirituality-of-trance-why-it-hits-different</guid>
     <pubDate>Wed, 27 May 2026 00:00:00 GMT</pubDate>
     <description>Ask any serious trance fan to describe their best night and the words &quot;spiritual&quot; or &quot;religious&quot; arrive within minutes. This is not a casual analogy. The music does something specific to the listener that demands serious vocabulary.</description>
   </item>
   <item>
-    <title>Trance Music in Films and TV: Memorable Moments</title>
+    <title>Trance Music in Films and TV — Memorable Moments &amp; Soundtrack Guide</title>
     <link>https://trance-nexus.com/blog/trance-music-films-tv-memorable-moments</link>
     <guid isPermaLink="true">https://trance-nexus.com/blog/trance-music-films-tv-memorable-moments</guid>
     <pubDate>Tue, 26 May 2026 00:00:00 GMT</pubDate>
     <description>Film and television have used trance music — and trance-adjacent electronic textures — to score some of the most emotionally charged moments in recent screen history. The pairing works because both forms understand catharsis.</description>
   </item>
   <item>
-    <title>Female DJs Reshaping the Trance Scene</title>
+    <title>Female Trance DJs Reshaping the Scene in 2026 — Top Producers</title>
     <link>https://trance-nexus.com/blog/female-djs-reshaping-trance-scene</link>
     <guid isPermaLink="true">https://trance-nexus.com/blog/female-djs-reshaping-trance-scene</guid>
     <pubDate>Mon, 25 May 2026 00:00:00 GMT</pubDate>
     <description>In 2026, the most important question about women in trance is not whether they are present — they are — but what their continued prominence means for the future shape of the genre.</description>
   </item>
   <item>
-    <title>The New Generation: Trance Artists to Watch in 2026</title>
+    <title>New Generation Trance Artists to Watch in 2026 — Top Producer Picks</title>
     <link>https://trance-nexus.com/blog/new-generation-trance-artists-to-watch-2026</link>
     <guid isPermaLink="true">https://trance-nexus.com/blog/new-generation-trance-artists-to-watch-2026</guid>
     <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
     <description>Every era of trance has had artists who arrived early enough that listeners can claim they were paying attention before things got big. These are the names worth knowing in 2026.</description>
   </item>
   <item>
-    <title>Miss Monique: The Rising Progressive Star</title>
+    <title>Miss Monique — Biography, Best Tracks &amp; Progressive House Rise</title>
     <link>https://trance-nexus.com/blog/miss-monique-rising-progressive-star</link>
     <guid isPermaLink="true">https://trance-nexus.com/blog/miss-monique-rising-progressive-star</guid>
     <pubDate>Sat, 23 May 2026 00:00:00 GMT</pubDate>
     <description>Miss Monique&apos;s rise from a Kyiv DJ uploading mixes to YouTube to one of the most-followed progressive DJs in the world is one of the genre&apos;s most distinctive 2020s success stories.</description>
   </item>
   <item>
-    <title>Nifra: Slovakia&apos;s Trance Queen</title>
+    <title>Nifra — Biography, Best Tracks &amp; Coldharbour Tech-Trance Queen</title>
     <link>https://trance-nexus.com/blog/nifra-slovakia-trance-queen</link>
     <guid isPermaLink="true">https://trance-nexus.com/blog/nifra-slovakia-trance-queen</guid>
     <pubDate>Fri, 22 May 2026 00:00:00 GMT</pubDate>
     <description>Nifra is one of the most consistently exciting DJs in modern trance — a tech-trance specialist whose sets reliably outwork most headliners on a festival bill.</description>
   </item>
   <item>
-    <title>Women in Trance: The Pioneers and Modern Stars</title>
+    <title>Women in Trance — Pioneers, Producers &amp; Modern Stars Complete Guide</title>
     <link>https://trance-nexus.com/blog/women-in-trance-pioneers-modern-stars</link>
     <guid isPermaLink="true">https://trance-nexus.com/blog/women-in-trance-pioneers-modern-stars</guid>
     <pubDate>Thu, 21 May 2026 00:00:00 GMT</pubDate>
     <description>Trance has had women at its centre since the beginning. The story of those women — pioneers, vocalists, DJs, producers, label heads — is one of the genre&apos;s most under-told stories.</description>
   </item>
   <item>
-    <title>Trance Tracks That Defined Each Decade: A Retrospective</title>
+    <title>Trance Tracks That Defined Each Decade — Retrospective Top List</title>
     <link>https://trance-nexus.com/blog/trance-tracks-defined-each-decade-retrospective</link>
     <guid isPermaLink="true">https://trance-nexus.com/blog/trance-tracks-defined-each-decade-retrospective</guid>
     <pubDate>Wed, 20 May 2026 00:00:00 GMT</pubDate>
     <description>If you had to play one trance record to explain each decade of the genre to someone, which would you choose? This is the disciplined version of that thought experiment.</description>
   </item>
   <item>
-    <title>Modern Trance Classics: The 2020s So Far</title>
+    <title>Modern Trance Classics 2020s — Definitive Records of the Decade</title>
     <link>https://trance-nexus.com/blog/modern-trance-classics-2020s-so-far</link>
     <guid isPermaLink="true">https://trance-nexus.com/blog/modern-trance-classics-2020s-so-far</guid>
     <pubDate>Tue, 19 May 2026 00:00:00 GMT</pubDate>
     <description>It is too early to write a definitive 2020s ranking — the decade is half over. But certain records released since 2020 have already been absorbed into the genre&apos;s shared memory.</description>
   </item>
   <item>
-    <title>The Top Trance Tracks of the 2010s</title>
+    <title>Best Trance Tracks of the 2010s — The Definitive Decade Guide</title>
     <link>https://trance-nexus.com/blog/top-trance-tracks-2010s</link>
     <guid isPermaLink="true">https://trance-nexus.com/blog/top-trance-tracks-2010s</guid>
     <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
     <description>The 2010s could have been the decade trance disappeared. Instead, it was the decade trance learned how to share a stage with EDM, deep house, and pop — without losing what makes it itself.</description>
   </item>
   <item>
-    <title>Defining Trance Anthems of the 2000s</title>
+    <title>Best Trance Anthems of the 2000s — Definitive Top Tracks Guide</title>
     <link>https://trance-nexus.com/blog/defining-trance-anthems-2000s</link>
     <guid isPermaLink="true">https://trance-nexus.com/blog/defining-trance-anthems-2000s</guid>
     <pubDate>Sun, 17 May 2026 00:00:00 GMT</pubDate>
     <description>If the 1990s built trance&apos;s vocabulary, the 2000s wrote the genre&apos;s most-quoted sentences. The decade gave us the anthems that still close festival sets twenty years later.</description>
   </item>
   <item>
-    <title>The Best Trance Tracks of the 1990s</title>
+    <title>Best Trance Tracks of the 1990s — The Definitive Top List Guide</title>
     <link>https://trance-nexus.com/blog/best-trance-tracks-1990s</link>
     <guid isPermaLink="true">https://trance-nexus.com/blog/best-trance-tracks-1990s</guid>
     <pubDate>Sat, 16 May 2026 00:00:00 GMT</pubDate>
     <description>The 1990s did not just give trance its first hits. It built the entire language the genre would speak for the next thirty years — and most of those records still sound enormous on a real club system.</description>
   </item>
   <item>
-    <title>The Underground Trance Scene You Need to Know</title>
+    <title>Underground Trance Scene 2026 — Boutique Labels &amp; Events Guide</title>
     <link>https://trance-nexus.com/blog/underground-trance-scene</link>
     <guid isPermaLink="true">https://trance-nexus.com/blog/underground-trance-scene</guid>
     <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
     <description>The most exciting developments in trance often happen away from the main stage. The underground scene is where the music&apos;s future is being written — and it&apos;s more vibrant than ever.</description>
   </item>
   <item>
-    <title>Ibiza and Trance: A Love Story</title>
+    <title>Ibiza and Trance — Complete Love Story from Cafe del Mar to Today</title>
     <link>https://trance-nexus.com/blog/ibiza-and-trance-love-story</link>
     <guid isPermaLink="true">https://trance-nexus.com/blog/ibiza-and-trance-love-story</guid>
     <pubDate>Thu, 14 May 2026 00:00:00 GMT</pubDate>
     <description>Ibiza gave trance some of its most iconic moments. The island&apos;s distinctive atmosphere — sunset, sea, the mingling of nationalities — amplifies trance&apos;s emotional power to something almost mythical.</description>
   </item>
   <item>
-    <title>Tomorrowland&apos;s Trance Stage: A Sacred Ground</title>
+    <title>Tomorrowland Trance Stage — A Sacred Ground for Trance Music</title>
     <link>https://trance-nexus.com/blog/tomorrowland-trance-stage</link>
     <guid isPermaLink="true">https://trance-nexus.com/blog/tomorrowland-trance-stage</guid>
     <pubDate>Wed, 13 May 2026 00:00:00 GMT</pubDate>
     <description>Tomorrowland is the world&apos;s biggest music festival. For trance fans, its dedicated stage is something more — a gathering point where the genre is celebrated at the highest possible level.</description>
   </item>
   <item>
-    <title>A State of Trance: The Show That Changed Everything</title>
+    <title>A State of Trance — The Radio Show That Changed Trance Music</title>
     <link>https://trance-nexus.com/blog/a-state-of-trance-show-that-changed-everything</link>
     <guid isPermaLink="true">https://trance-nexus.com/blog/a-state-of-trance-show-that-changed-everything</guid>
     <pubDate>Tue, 12 May 2026 00:00:00 GMT</pubDate>
     <description>A State of Trance is not just a radio show. It is a weekly ritual, a global community, and the most important institution in trance music history.</description>
   </item>
   <item>
-    <title>The Best Trance Clubs in Europe</title>
+    <title>Best Trance Clubs in Europe — Amsterdam, Berlin, London &amp; More</title>
     <link>https://trance-nexus.com/blog/best-trance-clubs-in-europe</link>
     <guid isPermaLink="true">https://trance-nexus.com/blog/best-trance-clubs-in-europe</guid>
     <pubDate>Mon, 11 May 2026 00:00:00 GMT</pubDate>
     <description>Europe remains the heartland of trance club culture. These are the venues where the music has always been taken most seriously — and where it still sounds best.</description>
   </item>
   <item>
-    <title>Ferry Corsten: Three Decades of Trance Innovation</title>
+    <title>Ferry Corsten — Biography, Best Tracks &amp; Three Decades of Trance</title>
     <link>https://trance-nexus.com/blog/ferry-corsten-three-decades-of-trance</link>
     <guid isPermaLink="true">https://trance-nexus.com/blog/ferry-corsten-three-decades-of-trance</guid>
     <pubDate>Sun, 10 May 2026 00:00:00 GMT</pubDate>
     <description>Ferry Corsten&apos;s career spans every era of trance music. From System F&apos;s &quot;Out of the Blue&quot; to his latest releases, innovation has always been his signature.</description>
   </item>
   <item>
-    <title>Tiësto&apos;s Evolution: From Trance God to EDM Superstar</title>
+    <title>Tiësto&apos;s Evolution — From Trance God to EDM Superstar Biography</title>
     <link>https://trance-nexus.com/blog/tiesto-evolution-trance-to-edm</link>
     <guid isPermaLink="true">https://trance-nexus.com/blog/tiesto-evolution-trance-to-edm</guid>
     <pubDate>Sat, 09 May 2026 00:00:00 GMT</pubDate>
     <description>No artist in electronic music has undergone a more dramatic evolution than Tiësto. His journey from trance deity to global EDM superstar is a story about music, money, and identity.</description>
   </item>
   <item>
-    <title>Paul van Dyk: Pioneer of the Trance Sound</title>
+    <title>The 50 Best Progressive Trance Tracks of All Time — Definitive List</title>
+    <link>https://trance-nexus.com/blog/best-progressive-trance-tracks-of-all-time-50</link>
+    <guid isPermaLink="true">https://trance-nexus.com/blog/best-progressive-trance-tracks-of-all-time-50</guid>
+    <pubDate>Fri, 08 May 2026 00:00:00 GMT</pubDate>
+    <description>Progressive trance is the genre&apos;s longest-form subgenre — patient, harmonically generous, structurally sophisticated. This is the canon that runs from BT and Sasha in the 1990s to Tinlicker and Cristoph today, ranked with reasons.</description>
+  </item>
+  <item>
+    <title>The 50 Best Psytrance Tracks of All Time — Goa to Modern Full-On</title>
+    <link>https://trance-nexus.com/blog/best-psytrance-tracks-of-all-time-50</link>
+    <guid isPermaLink="true">https://trance-nexus.com/blog/best-psytrance-tracks-of-all-time-50</guid>
+    <pubDate>Fri, 08 May 2026 00:00:00 GMT</pubDate>
+    <description>Psytrance is the genre&apos;s most self-contained subculture — its own festivals, labels, visual aesthetic, and listening community largely separate from mainstream trance. This is the canon that runs from 1990s Goa beach parties to today&apos;s Boom and Ozora mainstages, ranked with reasons.</description>
+  </item>
+  <item>
+    <title>Best Trance Tracks of May 2026 — ASOT 2026 Compilation &amp; H1 Wrap</title>
+    <link>https://trance-nexus.com/blog/best-trance-tracks-may-2026</link>
+    <guid isPermaLink="true">https://trance-nexus.com/blog/best-trance-tracks-may-2026</guid>
+    <pubDate>Fri, 08 May 2026 00:00:00 GMT</pubDate>
+    <description>May 2026 closes the first half of the year with the long-awaited ASOT 2026 compilation, mixed by Armin van Buuren across three discs (Pulse / Frequency / Energy) — a 25-year anniversary statement that consolidates the year&apos;s most-played material into a single release moment.</description>
+  </item>
+  <item>
+    <title>The 100 Best Trance Tracks of All Time — Definitive Ranked List 2026</title>
+    <link>https://trance-nexus.com/blog/best-trance-tracks-of-all-time-100</link>
+    <guid isPermaLink="true">https://trance-nexus.com/blog/best-trance-tracks-of-all-time-100</guid>
+    <pubDate>Fri, 08 May 2026 00:00:00 GMT</pubDate>
+    <description>Picking the all-time best trance tracks is a thirty-year argument with no settled ending. This list is our editorial answer for 2026 — fifty records that earn their place across the canon, each verified against the historical record and ranked with reasons.</description>
+  </item>
+  <item>
+    <title>The 50 Best Uplifting Trance Tracks of All Time — Definitive Ranked List</title>
+    <link>https://trance-nexus.com/blog/best-uplifting-trance-tracks-of-all-time-50</link>
+    <guid isPermaLink="true">https://trance-nexus.com/blog/best-uplifting-trance-tracks-of-all-time-50</guid>
+    <pubDate>Fri, 08 May 2026 00:00:00 GMT</pubDate>
+    <description>Uplifting trance is the genre&apos;s most misunderstood subgenre — written off by outsiders as cheesy, defended by insiders as the most emotionally direct music dance culture has produced. This is our ranked answer to which records earn permanent place in that argument.</description>
+  </item>
+  <item>
+    <title>The 50 Best Vocal Trance Tracks of All Time — Definitive Songs Guide</title>
+    <link>https://trance-nexus.com/blog/best-vocal-trance-tracks-of-all-time-50</link>
+    <guid isPermaLink="true">https://trance-nexus.com/blog/best-vocal-trance-tracks-of-all-time-50</guid>
+    <pubDate>Fri, 08 May 2026 00:00:00 GMT</pubDate>
+    <description>Vocal trance is the genre&apos;s songwriter tradition — the records where the human voice carries the emotional load that the synthesizer alone cannot. This is the canon from Robert Miles&apos; &quot;One and One&quot; through HALIENE&apos;s late-2010s catalogue, ranked with reasons.</description>
+  </item>
+  <item>
+    <title>Paul van Dyk — Biography, Best Tracks &amp; Influence on Trance Music</title>
     <link>https://trance-nexus.com/blog/paul-van-dyk-pioneer-of-trance</link>
     <guid isPermaLink="true">https://trance-nexus.com/blog/paul-van-dyk-pioneer-of-trance</guid>
     <pubDate>Fri, 08 May 2026 00:00:00 GMT</pubDate>
     <description>Paul van Dyk did not just play trance — he helped create it. From East Berlin to global stages, his story is one of music, politics, and perseverance.</description>
   </item>
   <item>
-    <title>Above &amp; Beyond and the Anjuna Empire</title>
+    <title>What is Hard Trance? — Energy, BPM &amp; Classic Anthems Guide</title>
+    <link>https://trance-nexus.com/blog/what-is-hard-trance</link>
+    <guid isPermaLink="true">https://trance-nexus.com/blog/what-is-hard-trance</guid>
+    <pubDate>Fri, 08 May 2026 00:00:00 GMT</pubDate>
+    <description>Hard trance is the aggressive, peak-time end of the genre — faster, harder-kicked, and more rave-oriented than uplifting trance, descended from late-1990s Belgian and German rave culture and the parent form of modern hardstyle.</description>
+  </item>
+  <item>
+    <title>What is Progressive Trance? — Complete Guide to the Sound</title>
+    <link>https://trance-nexus.com/blog/what-is-progressive-trance</link>
+    <guid isPermaLink="true">https://trance-nexus.com/blog/what-is-progressive-trance</guid>
+    <pubDate>Fri, 08 May 2026 00:00:00 GMT</pubDate>
+    <description>Progressive trance is the patient, atmospheric counterpart to uplifting — slower, deeper, and built on long-form arrangement principles where mood and texture develop gradually over many bars rather than crashing into a peak-time release.</description>
+  </item>
+  <item>
+    <title>What is Psytrance? — From Goa to Modern Full-On Definitive Guide</title>
+    <link>https://trance-nexus.com/blog/what-is-psytrance</link>
+    <guid isPermaLink="true">https://trance-nexus.com/blog/what-is-psytrance</guid>
+    <pubDate>Fri, 08 May 2026 00:00:00 GMT</pubDate>
+    <description>Psytrance is the psychedelic offshoot of trance — high-tempo, rolling-bass-driven, surreal in sound design, and culturally a parallel universe to mainstream trance with its own festivals, labels, and listener community.</description>
+  </item>
+  <item>
+    <title>What is Tech Trance? — The Tougher Side of the Genre Guide</title>
+    <link>https://trance-nexus.com/blog/what-is-tech-trance</link>
+    <guid isPermaLink="true">https://trance-nexus.com/blog/what-is-tech-trance</guid>
+    <pubDate>Fri, 08 May 2026 00:00:00 GMT</pubDate>
+    <description>Tech trance is the rhythm-forward end of the genre — where trance&apos;s long-form arrangement meets techno-influenced kick and bass programming, the lead synth is de-emphasised, and the body of the track is carried by drive rather than melody.</description>
+  </item>
+  <item>
+    <title>What is Trance Music? — Complete Guide to the Genre &amp; Sound</title>
+    <link>https://trance-nexus.com/blog/what-is-trance-music</link>
+    <guid isPermaLink="true">https://trance-nexus.com/blog/what-is-trance-music</guid>
+    <pubDate>Fri, 08 May 2026 00:00:00 GMT</pubDate>
+    <description>Trance is a melody-driven electronic dance genre that emerged in early-1990s Germany and Benelux. The defining traits are a steady 130–145 BPM pulse, long arrangements built around hypnotic synth motifs, and the breakdown-and-buildup architecture that produces the euphoric release the genre is named for.</description>
+  </item>
+  <item>
+    <title>What is Uplifting Trance? — Sound, History &amp; Key Artists Guide</title>
+    <link>https://trance-nexus.com/blog/what-is-uplifting-trance</link>
+    <guid isPermaLink="true">https://trance-nexus.com/blog/what-is-uplifting-trance</guid>
+    <pubDate>Fri, 08 May 2026 00:00:00 GMT</pubDate>
+    <description>Uplifting trance is the most emotionally explicit subgenre of trance — designed to deliver moments of euphoric release through soaring lead synths, major-key chord progressions, and breakdowns that build to enormous, cathartic climaxes.</description>
+  </item>
+  <item>
+    <title>What is Vocal Trance? — Definition, Sound &amp; Top Artists Guide</title>
+    <link>https://trance-nexus.com/blog/what-is-vocal-trance</link>
+    <guid isPermaLink="true">https://trance-nexus.com/blog/what-is-vocal-trance</guid>
+    <pubDate>Fri, 08 May 2026 00:00:00 GMT</pubDate>
+    <description>Vocal trance is the songwriter tradition inside trance — the form where a sung human voice carries the emotional weight that the lead synth carries in instrumental trance, and where verse-chorus arrangement replaces the breakdown-and-drop architecture of the rest of the genre.</description>
+  </item>
+  <item>
+    <title>Above &amp; Beyond — Biography, Anjunabeats Empire &amp; Iconic Tracks</title>
     <link>https://trance-nexus.com/blog/above-beyond-anjuna-empire</link>
     <guid isPermaLink="true">https://trance-nexus.com/blog/above-beyond-anjuna-empire</guid>
     <pubDate>Thu, 07 May 2026 00:00:00 GMT</pubDate>
     <description>Above &amp; Beyond did not just make music — they built a movement. The Anjuna story is one of the most remarkable in electronic music history.</description>
   </item>
   <item>
-    <title>Armin van Buuren: The King of Trance</title>
+    <title>Armin van Buuren — Biography, Best Tracks &amp; Influence on Trance</title>
     <link>https://trance-nexus.com/blog/armin-van-buuren-king-of-trance</link>
     <guid isPermaLink="true">https://trance-nexus.com/blog/armin-van-buuren-king-of-trance</guid>
     <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
     <description>Five times number one DJ in the world. Host of the most-listened-to dance radio show in history. For millions of fans, Armin van Buuren is not just a DJ — he is the living definition of trance.</description>
   </item>
   <item>
-    <title>The Art of the Trance Buildup: Production Secrets Revealed</title>
+    <title>The Art of the Trance Buildup — Production Secrets &amp; Tutorial</title>
     <link>https://trance-nexus.com/blog/art-of-trance-buildup-production-secrets</link>
     <guid isPermaLink="true">https://trance-nexus.com/blog/art-of-trance-buildup-production-secrets</guid>
     <pubDate>Tue, 05 May 2026 00:00:00 GMT</pubDate>
     <description>The buildup is where trance music defines itself. These production techniques are what separate tracks that make rooms explode from tracks that simply play.</description>
   </item>
   <item>
-    <title>How to Mix Trance: Beatmatching and Phrasing Techniques</title>
+    <title>How to Mix Trance — Beatmatching, Phrasing &amp; EQ Techniques Guide</title>
     <link>https://trance-nexus.com/blog/how-to-mix-trance-beatmatching-phrasing</link>
     <guid isPermaLink="true">https://trance-nexus.com/blog/how-to-mix-trance-beatmatching-phrasing</guid>
     <pubDate>Mon, 04 May 2026 00:00:00 GMT</pubDate>
     <description>Great trance mixing is both science and art. Understanding phrasing, harmonic compatibility, and transition timing transforms your mixes from competent to compelling.</description>
   </item>
   <item>
-    <title>Essential VST Plugins for Trance Production in 2026</title>
+    <title>Essential VST Plugins for Trance Production — 2026 Complete Guide</title>
     <link>https://trance-nexus.com/blog/essential-vst-plugins-trance-production</link>
     <guid isPermaLink="true">https://trance-nexus.com/blog/essential-vst-plugins-trance-production</guid>
     <pubDate>Sun, 03 May 2026 00:00:00 GMT</pubDate>
     <description>Behind every euphoric trance lead, soaring pad, and driving bassline is a carefully chosen set of VST plugins. Here&apos;s what the professionals use.</description>
   </item>
   <item>
-    <title>Best Headphones for Trance DJing in 2026</title>
+    <title>Best DJ Headphones for Trance in 2026 — HD 25, HDJ-X10 &amp; More</title>
     <link>https://trance-nexus.com/blog/best-headphones-for-trance-djing-2026</link>
     <guid isPermaLink="true">https://trance-nexus.com/blog/best-headphones-for-trance-djing-2026</guid>
     <pubDate>Sat, 02 May 2026 00:00:00 GMT</pubDate>
     <description>Your headphones are your most critical tool for beatmatching and cueing. These are the models trusted by trance DJs worldwide in 2026.</description>
   </item>
   <item>
-    <title>Pioneer DJ vs Denon DJ: Which is Better for Trance DJs?</title>
+    <title>Pioneer DJ vs Denon DJ for Trance — 2026 Hardware Comparison</title>
     <link>https://trance-nexus.com/blog/pioneer-dj-vs-denon-dj-for-trance</link>
     <guid isPermaLink="true">https://trance-nexus.com/blog/pioneer-dj-vs-denon-dj-for-trance</guid>
     <pubDate>Fri, 01 May 2026 00:00:00 GMT</pubDate>
     <description>For decades Pioneer DJ has been the industry standard. But Denon DJ is mounting a serious challenge. Which setup is right for your trance journey?</description>
   </item>
   <item>
-    <title>Why Trance Music Endures: A Cultural Analysis</title>
+    <title>Best Trance Tracks of April 2026 — Coldharbour, Oakenfold &amp; More</title>
+    <link>https://trance-nexus.com/blog/best-trance-tracks-april-2026</link>
+    <guid isPermaLink="true">https://trance-nexus.com/blog/best-trance-tracks-april-2026</guid>
+    <pubDate>Thu, 30 Apr 2026 00:00:00 GMT</pubDate>
+    <description>April 2026 was Coldharbour&apos;s strongest single-month delivery in years. Markus Schulz and Talla 2XLC delivered &quot;Mainhattan,&quot; Robert Nickson released &quot;Nine Lives,&quot; Signum landed &quot;Homage&quot; on Anjunabeats, and Paul Oakenfold reunited with Sneijder for the long-awaited &quot;Bullet In The Gun&quot; return.</description>
+  </item>
+  <item>
+    <title>Why Trance Music Endures — Cultural Analysis &amp; Lasting Impact</title>
     <link>https://trance-nexus.com/blog/why-trance-music-endures</link>
     <guid isPermaLink="true">https://trance-nexus.com/blog/why-trance-music-endures</guid>
     <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
     <description>Trance has outlasted dozens of trends and survived the rise and fall of EDM&apos;s commercial peak. What makes this music so durable? The answer goes deeper than sound.</description>
   </item>
   <item>
-    <title>The Role of Vocals in Trance Music</title>
+    <title>The Role of Vocals in Trance Music — Complete Guide &amp; History</title>
     <link>https://trance-nexus.com/blog/role-of-vocals-in-trance-music</link>
     <guid isPermaLink="true">https://trance-nexus.com/blog/role-of-vocals-in-trance-music</guid>
     <pubDate>Fri, 24 Apr 2026 00:00:00 GMT</pubDate>
     <description>In a genre built on synthesisers and machinery, the human voice carries a special power. Vocal trance has produced some of the most beloved music of the past three decades.</description>
   </item>
   <item>
-    <title>Trance vs House vs Techno: Understanding the Differences</title>
+    <title>Trance vs House vs Techno — Differences Explained for Beginners</title>
     <link>https://trance-nexus.com/blog/trance-vs-house-vs-techno</link>
     <guid isPermaLink="true">https://trance-nexus.com/blog/trance-vs-house-vs-techno</guid>
     <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
     <description>Confused about the difference between trance, house, and techno? You&apos;re not alone. This guide cuts through the confusion with clear explanations and cultural context.</description>
   </item>
   <item>
-    <title>The Rise of Psytrance: From Goa Beach Parties to a Global Movement</title>
+    <title>What is Psytrance? Goa Origins to Modern Global Movement Guide</title>
     <link>https://trance-nexus.com/blog/rise-of-psytrance-goa-to-modern-day</link>
     <guid isPermaLink="true">https://trance-nexus.com/blog/rise-of-psytrance-goa-to-modern-day</guid>
     <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
     <description>Psytrance is more than a genre — it&apos;s a lifestyle, a philosophy, and a global subculture. Its journey from Goa&apos;s beaches to the world stage is one of electronic music&apos;s most extraordinary stories.</description>
   </item>
   <item>
-    <title>Iconic Trance Anthems That Defined an Era</title>
+    <title>Iconic Trance Anthems That Defined an Era — Top Tracks of All Time</title>
     <link>https://trance-nexus.com/blog/iconic-trance-anthems-that-defined-an-era</link>
     <guid isPermaLink="true">https://trance-nexus.com/blog/iconic-trance-anthems-that-defined-an-era</guid>
     <pubDate>Wed, 15 Apr 2026 00:00:00 GMT</pubDate>
     <description>Some tracks don&apos;t just represent their era — they define it. These trance anthems became the soundtrack to a generation of music lovers discovering something transcendent.</description>
   </item>
   <item>
-    <title>How to DJ Trance: A Beginner&apos;s Complete Guide</title>
+    <title>How to DJ Trance Music — The Complete Beginner&apos;s Guide for 2026</title>
     <link>https://trance-nexus.com/blog/how-to-dj-trance-beginners-guide</link>
     <guid isPermaLink="true">https://trance-nexus.com/blog/how-to-dj-trance-beginners-guide</guid>
     <pubDate>Sun, 12 Apr 2026 00:00:00 GMT</pubDate>
     <description>DJing trance is a deeply rewarding skill that combines technical precision with artistic intuition. This guide covers everything a beginner needs to get started on the right foot.</description>
   </item>
   <item>
-    <title>The Best Trance Festivals Around the World</title>
+    <title>Best Trance Music Festivals Worldwide — Definitive 2026 Guide</title>
     <link>https://trance-nexus.com/blog/best-trance-festivals-worldwide</link>
     <guid isPermaLink="true">https://trance-nexus.com/blog/best-trance-festivals-worldwide</guid>
     <pubDate>Thu, 09 Apr 2026 00:00:00 GMT</pubDate>
     <description>Trance festivals are more than concerts — they are pilgrimages. These are the events that define the genre&apos;s live experience and create memories that last a lifetime.</description>
   </item>
   <item>
-    <title>Essential Trance Labels You Should Know in 2026</title>
+    <title>Essential Trance Record Labels in 2026 — Anjuna, Armada &amp; More</title>
     <link>https://trance-nexus.com/blog/essential-trance-labels-2026</link>
     <guid isPermaLink="true">https://trance-nexus.com/blog/essential-trance-labels-2026</guid>
     <pubDate>Mon, 06 Apr 2026 00:00:00 GMT</pubDate>
     <description>Behind every great trance track is a great label. These are the imprints that have built the genre, nurtured its artists, and kept the music flowing for decades.</description>
   </item>
   <item>
-    <title>Top 10 Trance Subgenres Explained (Uplifting, Psy, Vocal, Progressive &amp; More)</title>
+    <title>Top 10 Trance Subgenres Explained — Uplifting, Psy, Vocal &amp; More</title>
     <link>https://trance-nexus.com/blog/top-10-trance-subgenres-explained</link>
     <guid isPermaLink="true">https://trance-nexus.com/blog/top-10-trance-subgenres-explained</guid>
     <pubDate>Fri, 03 Apr 2026 00:00:00 GMT</pubDate>
     <description>Trance is not a single sound but a family of related styles. This guide breaks down the 10 most important subgenres, helping you find your perfect corner of the trance universe.</description>
   </item>
   <item>
-    <title>The History of Trance Music: From Frankfurt to the Global Stage</title>
+    <title>History of Trance Music — From Frankfurt Clubs to Global Phenomenon</title>
     <link>https://trance-nexus.com/blog/history-of-trance-music</link>
     <guid isPermaLink="true">https://trance-nexus.com/blog/history-of-trance-music</guid>
     <pubDate>Wed, 01 Apr 2026 00:00:00 GMT</pubDate>
     <description>Trance music&apos;s journey from Frankfurt&apos;s underground clubs to a global cultural phenomenon is one of electronic music&apos;s greatest stories — spanning three decades and every continent.</description>
+  </item>
+  <item>
+    <title>Best Trance Tracks of March 2026 — Push, Pure Trance NEON &amp; FSOE</title>
+    <link>https://trance-nexus.com/blog/best-trance-tracks-march-2026</link>
+    <guid isPermaLink="true">https://trance-nexus.com/blog/best-trance-tracks-march-2026</guid>
+    <pubDate>Tue, 31 Mar 2026 00:00:00 GMT</pubDate>
+    <description>March 2026 was a month for veteran reactivations and new sub-label launches. Push returned with &quot;Back When We Believed&quot; on Pure Trance NEON, FSOE Argento debuted with the Ron / Leeds collaboration, and the Anjuna release calendar continued the year&apos;s steady drip of Above &amp; Beyond singles.</description>
+  </item>
+  <item>
+    <title>Best Trance Tracks of February 2026 — ASOT 25 Anthem &amp; Top Picks</title>
+    <link>https://trance-nexus.com/blog/best-trance-tracks-february-2026</link>
+    <guid isPermaLink="true">https://trance-nexus.com/blog/best-trance-tracks-february-2026</guid>
+    <pubDate>Sat, 28 Feb 2026 00:00:00 GMT</pubDate>
+    <description>February 2026 was the ASOT 25 month: Armin van Buuren, Richard Durand, and Dicosis dropped the official ELEVATION anthem, Aly &amp; Fila reactivated their Jwaydan vocal partnership for FSOE, and the festival&apos;s two-night Rotterdam edition turned the month into the year&apos;s most-anticipated trance event so far.</description>
+  </item>
+  <item>
+    <title>Best Trance Tracks of January 2026 — Top 10 Picks of the Month</title>
+    <link>https://trance-nexus.com/blog/best-trance-tracks-january-2026</link>
+    <guid isPermaLink="true">https://trance-nexus.com/blog/best-trance-tracks-january-2026</guid>
+    <pubDate>Sat, 31 Jan 2026 00:00:00 GMT</pubDate>
+    <description>January 2026 opened the year on a high note: Above &amp; Beyond delivered four new singles in a single Anjunabeats drop, Paul van Dyk reunited with Ciaran McAuley on Black Hole, and the Raw / Deep / Hypnotic wing of Beatport&apos;s chart kept producing the kind of lower-tempo material that the previous twelve months made the genre&apos;s most-watched space.</description>
   </item>
 </channel>
 </rss>

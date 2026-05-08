@@ -53,7 +53,7 @@ export const genres = [
       en: `Progressive trance is the patient, atmospheric counterpart to uplifting — slower (typically 124–132 BPM), deeper, and built on long-form arrangement principles in which mood and texture develop gradually over many bars. The genre's roots are in early-90s British and German progressive house, but it took its modern form in the 2000s with artists like Sasha & John Digweed, early Tiësto, and Solarstone. Tracks favour subtle melodic motion, monumental synth pads, and breakdowns that resolve into tension rather than instant catharsis. Today the sound has converged with melodic techno via Anjunadeep, Afterlife, and Anyma, blurring the line between progressive trance and the broader melodic-electronic mainstream.`,
       ja: `プログレッシブ・トランスは、アップリフティングの忍耐強く大気的な対極にあるサブジャンルだ——よりスロー（一般に124〜132 BPM）、よりディープ、そしてムードとテクスチャが多数の小節にわたって漸進的に展開する長尺アレンジメント原理の上に構築される。ジャンルのルーツは90年代初頭の英国とドイツのプログレッシブ・ハウスにあるが、現代の形を獲得したのは2000年代でSasha & John Digweed、初期のTiësto、Solarstoneらの活動による。トラックは繊細なメロディック・モーション、記念碑的なシンセ・パッド、即座のカタルシスではなく緊張へと解決するブレイクダウンを好む。現在ではAnjunadeep、Afterlife、Anymaを介してメロディック・テクノと収束し、プログレッシブ・トランスとより広いメロディック電子音楽メインストリームの境界を曖昧にしている。`,
     },
-    related: ['trance', 'uplifting-trance', 'tech-trance', 'bpm', 'pad'],
+    related: ['trance', 'uplifting-trance', 'tech-trance', 'melodic-techno', 'bpm', 'pad'],
     artists: ['paul-van-dyk', 'tiesto', 'cosmic-gate', 'anyma', 'solarstone'],
     posts: ['what-is-progressive-trance', 'top-10-trance-subgenres-explained', 'trance-vs-house-vs-techno', 'best-progressive-trance-tracks-of-all-time-50'],
   },
@@ -179,8 +179,44 @@ export const genres = [
       en: `Dream trance — sometimes called dream house — is a 1990s subgenre that emerged largely from the Italian dance scene, with Robert Miles' "Children" (1995) and "Fable" (1996) as its breakthrough moments. The style is characterised by slow, melancholic piano hooks (often arpeggiated) carrying the main melody over trance-style four-on-the-floor grooves at moderate tempos (usually 130–135 BPM), with reduced bass aggression and a heavy emphasis on emotional resolution. Robert Miles famously composed "Children" as a gentler closing track to soothe ravers driving home in the small hours, and the style retained that introspective, almost cinematic quality. Dream trance had its commercial peak in the mid-90s but its DNA persists in the sentimental side of modern progressive and vocal trance.`,
       ja: `ドリーム・トランス——時に「ドリームハウス」とも呼ばれる——は1990年代のサブジャンルで、主にイタリアのダンスシーンから登場した。Robert Milesの「Children」（1995）と「Fable」（1996）がブレイクスルーの瞬間となった。スタイルは、スローで哀愁のあるピアノのフック（しばしばアルペジオ）が中庸のテンポ（通常130〜135 BPM）でトランス風の四つ打ちグルーヴ上にメイン・メロディを担い、ベースの攻撃性を抑え、情緒的解決を重く強調することを特徴とする。Robert Milesは早朝に運転して帰るレイバーを和ませるための優しいクロージング・トラックとして「Children」を作曲したと有名で、スタイルはその内省的でほぼ映画的な質を保持した。ドリーム・トランスは90年代半ばに商業的ピークを迎えたが、そのDNAは現代のプログレッシブとヴォーカル・トランスの感傷的な側面に存続している。`,
     },
-    related: ['trance', 'progressive-trance', 'vocal-trance', 'breakdown'],
+    related: ['trance', 'progressive-trance', 'vocal-trance', 'balearic-trance', 'breakdown'],
     artists: [],
-    posts: ['history-of-trance-music', 'top-10-trance-subgenres-explained'],
+    posts: ['history-of-trance-music', 'top-10-trance-subgenres-explained', 'what-is-dream-trance'],
+  },
+
+  {
+    slug: 'balearic-trance',
+    term: { en: 'Balearic Trance', ja: 'バレアリック・トランス' },
+    category: 'genre',
+    aliases: ['balearic', 'バレアリック', 'バレアリックトランス', 'cafe del mar trance'],
+    short: {
+      en: 'Sun-soaked, slower-tempo trance form rooted in the Ibiza / Balearic Islands sunset-bar tradition — 120–130 BPM grooves with Mediterranean instrumentation.',
+      ja: 'イビザ／バレアレス諸島のサンセット・バー伝統に根ざした、太陽を浴びたよりスロー・テンポのトランス形式——地中海楽器を伴う120〜130 BPMグルーヴ。',
+    },
+    definition: {
+      en: `Balearic trance is the sun-soaked, slower end of the trance family, named for and rooted in the Ibiza / Balearic Islands sunset-bar tradition that José Padilla codified at Café del Mar through the late 1980s and 1990s. The form runs 120–130 BPM (considerably slower than mainstream uplifting), uses Mediterranean / chillout-adjacent instrumentation — acoustic guitar samples, pan-flutes, washy reverb pads — and is engineered for late-evening and sunrise listening rather than peak-time festival rotation. The canonical record is Energy 52's "Café del Mar" (1993, Eye Q / Hooj Choons), which took the Padilla aesthetic and overlaid it onto the new Frankfurt-trance template; the form was extended through the late 1990s by Chicane (Nick Bracegirdle's "Offshore" 1996, "Saltwater" 1999), Solarstone's "Seven Cities" (1999), and the broader Hooj Choons output, and carried into the modern era by Roger Shah's Magic Island / Sunlounger catalogue.`,
+      ja: `バレアリック・トランスはトランス・ファミリーの太陽を浴びたスローな端で、José Padillaが1980年代後半から1990年代を通じてCafé del Marで成文化したイビザ／バレアレス諸島のサンセット・バー伝統に根ざし、その名を冠する。形式は120〜130 BPM（メインストリーム・アップリフティングよりかなり遅い）で走り、地中海／チルアウト隣接の楽器編成——アコースティック・ギター・サンプル、パンフルート、ウォッシーなリバーブ・パッド——を使用し、ピークタイム・フェスティバル・ローテーションではなく夕方後半と日の出のリスニング用に設計されている。カノニカルなレコードはEnergy 52「Café del Mar」（1993、Eye Q／Hooj Choons）で、Padilla美学を新しいフランクフルト・トランス・テンプレートに重ねたものだ。形式は1990年代後半にChicane（Nick Bracegirdleの「Offshore」1996、「Saltwater」1999）、Solarstoneの「Seven Cities」（1999）、より広いHooj Choons出力によって延長され、Roger ShahのMagic Island／Sunloungerカタログによって現代に運ばれた。`,
+    },
+    related: ['trance', 'progressive-trance', 'dream-trance', 'breakdown', 'pad'],
+    artists: ['roger-shah', 'solarstone'],
+    posts: ['what-is-balearic-trance', 'history-of-trance-music', 'top-10-trance-subgenres-explained', 'ibiza-and-trance-love-story'],
+  },
+
+  {
+    slug: 'melodic-techno',
+    term: { en: 'Melodic Techno', ja: 'メロディック・テクノ' },
+    category: 'genre',
+    aliases: ['melodic', 'メロディックテクノ', 'melodic house and techno'],
+    short: {
+      en: 'Atmospheric, harmonically-rich techno that emerged in the 2010s and converged with progressive trance via the Afterlife and Anjunadeep axes.',
+      ja: '2010年代に出現し、AfterlifeとAnjunadeep軸を介してプログレッシブ・トランスと収束した大気的で和声的に豊かなテクノ。',
+    },
+    definition: {
+      en: `Melodic techno is an atmospheric, harmonically-rich variant of techno that emerged in the 2010s as a reaction to the harder, more functional techno of the time. The form runs 120–125 BPM, emphasises long-form arrangement and emotional development over peak-time pressure, and uses lush pads, evolving arpeggios, and cinematic textural layering rather than the metallic minimalism of older techno. Its centre of gravity is the Afterlife label (Tale of Us, founded 2016) and the broader Innervisions / Anjunadeep / Diynamic axis. The form has converged significantly with progressive trance — the boundary between modern progressive trance (Anjunadeep — Yotto, Tinlicker, Lane 8) and modern melodic techno (Afterlife — Anyma, Mind Against, Mathame) is genuinely blurred, with the same artists frequently appearing on both label families and the same listeners following both. Melodic techno's mainstage breakthrough came via Anyma's 2023 Coachella production and his ongoing residency-scale show <em>Genesys</em>.`,
+      ja: `メロディック・テクノは2010年代に当時のよりハードで機能的なテクノへの反応として出現した、大気的で和声的に豊かなテクノのバリアントだ。形式は120〜125 BPMで走り、ピークタイム圧力よりも長尺アレンジメントと情緒的発展を強調し、古いテクノの金属的ミニマリズムではなく豊潤なパッド、展開するアルペジオ、映画的テクスチャ・レイヤリングを使用する。重心はAfterlifeレーベル（Tale of Us、2016年設立）とより広いInnervisions／Anjunadeep／Diynamic軸だ。形式はプログレッシブ・トランスと大幅に収束した——現代プログレッシブ・トランス（Anjunadeep——Yotto、Tinlicker、Lane 8）と現代メロディック・テクノ（Afterlife——Anyma、Mind Against、Mathame）の境界は真にあいまいで、同じアーティストが両方のレーベル・ファミリーに頻繁に現れ、同じリスナーが両方をフォローする。メロディック・テクノのメインステージ・ブレイクスルーは、Anymaの2023年Coachellaプロダクションと進行中のレジデンシー規模ショー<em>Genesys</em>を介して到来した。`,
+    },
+    related: ['progressive-trance', 'trance', 'pad', 'breakdown'],
+    artists: ['anyma', 'mind-against', 'tinlicker'],
+    posts: ['what-is-progressive-trance', 'trance-vs-house-vs-techno', 'top-10-trance-subgenres-explained'],
   },
 ];
