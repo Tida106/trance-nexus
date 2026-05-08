@@ -31,6 +31,11 @@ export async function generateMetadata({ params }) {
     },
     alternates: {
       canonical: `/blog/${slug}`,
+      languages: {
+        'en':        `/blog/${slug}`,
+        'ja':        `/blog/${slug}`,
+        'x-default': `/blog/${slug}`,
+      },
       types: {
         'application/rss+xml': [
           { url: '/rss.xml', title: 'TRANCE NEXUS — Blog' },

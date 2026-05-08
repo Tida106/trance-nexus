@@ -22,7 +22,14 @@ export async function generateMetadata({ params }) {
       alternateLocale: ['ja_JP'],
     },
     twitter: { card: 'summary', title: cat.name.en, description: cat.description.en },
-    alternates: { canonical: `https://trance-nexus.com/category/${cat.id}` },
+    alternates: {
+      canonical: `https://trance-nexus.com/category/${cat.id}`,
+      languages: {
+        'en':        `https://trance-nexus.com/category/${cat.id}`,
+        'ja':        `https://trance-nexus.com/category/${cat.id}`,
+        'x-default': `https://trance-nexus.com/category/${cat.id}`,
+      },
+    },
   };
 }
 

@@ -29,6 +29,11 @@ export async function generateMetadata({ params }) {
     },
     alternates: {
       canonical: `https://trance-nexus.com/artists/${artist.slug}`,
+      languages: {
+        'en':        `https://trance-nexus.com/artists/${artist.slug}`,
+        'ja':        `https://trance-nexus.com/artists/${artist.slug}`,
+        'x-default': `https://trance-nexus.com/artists/${artist.slug}`,
+      },
     },
   };
 }

@@ -34,8 +34,14 @@ const notoJP = Noto_Sans_JP({
 const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH || '';
 
 export const metadata = {
-  title: 'TRANCE NEXUS — Trance Music Portal',
-  description: 'Comprehensive trance music portal covering artists, radio shows, setlists, and events worldwide — 日本最大のトランスミュージックポータル',
+  title: 'TRANCE NEXUS — Trance Music Portal, Artists, Charts & Festivals',
+  // EN-only meta description. The previous mixed EN+JA suffix was a quality
+  // signal issue for Google's title/description scoring — same-URL bilingual
+  // sites should pick one canonical language for the static head and let
+  // hreflang annotate the alternate. JA visitors still see JA chrome on the
+  // page itself via useTranslation; what changes here is what crawlers see
+  // before any client-side language switch runs.
+  description: 'The comprehensive trance music portal — artists, record labels, monthly charts, radio shows, festivals, and 60+ in-depth articles covering 30 years of trance.',
   metadataBase: new URL('https://trance-nexus.com'),
   manifest: `${BASE_PATH}/manifest.webmanifest`,
   applicationName: 'TRANCE NEXUS',
@@ -69,10 +75,18 @@ export const metadata = {
     images: ['/og-image.png'],
   },
   alternates: {
+    // Single-URL bilingual: same URL serves both languages, with the
+    // active language switched client-side via useTranslation +
+    // localStorage. Per Google's hreflang guidance for same-URL bilingual
+    // sites, all three (en, ja, x-default) point to the same canonical
+    // URL — the alternates exist so search engines know the URL exists
+    // in both languages, not so they can route to a different URL.
+    // x-default explicitly maps to the same canonical and is treated as
+    // the EN-default fallback for unmatched locales.
     canonical: '/',
     languages: {
-      'en': '/',
-      'ja': '/',
+      'en':       '/',
+      'ja':       '/',
       'x-default': '/',
     },
     types: {

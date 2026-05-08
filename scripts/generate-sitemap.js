@@ -4,23 +4,36 @@ const axios = require('axios');
 
 const SITE_URL = 'https://trance-nexus.com';
 
-// Extract slugs from data/<dir>/*.js by regex (avoids ESM/CJS interop)
+// Extract slugs from data/<dir>/*.js by regex (avoids ESM/CJS interop).
+// Returns a de-duped list — listing.js mirrors the slugs from posts*.js
+// so a literal collection sees every blog slug twice; the Set drop is
+// what keeps the blog sitemap entries from doubling up.
 function collectSlugs(subdir) {
   const dir = path.join(__dirname, '..', 'data', subdir);
   if (!fs.existsSync(dir)) return [];
-  const slugs = [];
+  const slugs = new Set();
   for (const file of fs.readdirSync(dir)) {
     if (!file.endsWith('.js') || file === 'index.js') continue;
     const content = fs.readFileSync(path.join(dir, file), 'utf8');
     const re = /slug:\s*['"]([a-z0-9-]+)['"]/g;
     let m;
-    while ((m = re.exec(content)) !== null) slugs.push(m[1]);
+    while ((m = re.exec(content)) !== null) slugs.add(m[1]);
   }
-  return slugs;
+  return Array.from(slugs);
 }
 
 const ARTIST_PAGES = collectSlugs('artists').map((slug) => ({
   url: `/artists/${slug}`,
+  changefreq: 'monthly',
+  priority: '0.7',
+}));
+
+// Pull blog post slugs from data/blog/posts*.js automatically rather than
+// maintaining a static list inline — the inline list went stale every
+// batch and silently dropped recent articles from the sitemap. The Set
+// in collectSlugs absorbs the duplicates listing.js introduces.
+const BLOG_PAGES = collectSlugs('blog').map((slug) => ({
+  url: `/blog/${slug}`,
   changefreq: 'monthly',
   priority: '0.7',
 }));
@@ -87,46 +100,7 @@ const PAGES = [
   { url: '/terms',    changefreq: 'monthly', priority: '0.3' },
   { url: '/contact',  changefreq: 'monthly', priority: '0.3' },
   { url: '/blog',     changefreq: 'weekly',  priority: '0.8' },
-  { url: '/blog/history-of-trance-music',              changefreq: 'monthly', priority: '0.6' },
-  { url: '/blog/top-10-trance-subgenres-explained',    changefreq: 'monthly', priority: '0.6' },
-  { url: '/blog/essential-trance-labels-2026',         changefreq: 'monthly', priority: '0.6' },
-  { url: '/blog/best-trance-festivals-worldwide',      changefreq: 'monthly', priority: '0.6' },
-  { url: '/blog/how-to-dj-trance-beginners-guide',    changefreq: 'monthly', priority: '0.6' },
-  { url: '/blog/iconic-trance-anthems-that-defined-an-era', changefreq: 'monthly', priority: '0.6' },
-  { url: '/blog/rise-of-psytrance-goa-to-modern-day', changefreq: 'monthly', priority: '0.6' },
-  { url: '/blog/trance-vs-house-vs-techno',           changefreq: 'monthly', priority: '0.6' },
-  { url: '/blog/role-of-vocals-in-trance-music',      changefreq: 'monthly', priority: '0.6' },
-  { url: '/blog/why-trance-music-endures',            changefreq: 'monthly', priority: '0.6' },
-  { url: '/blog/pioneer-dj-vs-denon-dj-for-trance',        changefreq: 'monthly', priority: '0.6' },
-  { url: '/blog/best-headphones-for-trance-djing-2026',     changefreq: 'monthly', priority: '0.6' },
-  { url: '/blog/essential-vst-plugins-trance-production',   changefreq: 'monthly', priority: '0.6' },
-  { url: '/blog/how-to-mix-trance-beatmatching-phrasing',  changefreq: 'monthly', priority: '0.6' },
-  { url: '/blog/art-of-trance-buildup-production-secrets',  changefreq: 'monthly', priority: '0.6' },
-  { url: '/blog/armin-van-buuren-king-of-trance',           changefreq: 'monthly', priority: '0.6' },
-  { url: '/blog/above-beyond-anjuna-empire',                changefreq: 'monthly', priority: '0.6' },
-  { url: '/blog/paul-van-dyk-pioneer-of-trance',            changefreq: 'monthly', priority: '0.6' },
-  { url: '/blog/tiesto-evolution-trance-to-edm',            changefreq: 'monthly', priority: '0.6' },
-  { url: '/blog/ferry-corsten-three-decades-of-trance',     changefreq: 'monthly', priority: '0.6' },
-  { url: '/blog/best-trance-clubs-in-europe',               changefreq: 'monthly', priority: '0.6' },
-  { url: '/blog/a-state-of-trance-show-that-changed-everything', changefreq: 'monthly', priority: '0.6' },
-  { url: '/blog/tomorrowland-trance-stage',                 changefreq: 'monthly', priority: '0.6' },
-  { url: '/blog/ibiza-and-trance-love-story',               changefreq: 'monthly', priority: '0.6' },
-  { url: '/blog/underground-trance-scene',                  changefreq: 'monthly', priority: '0.6' },
-  { url: '/blog/best-trance-tracks-1990s',                  changefreq: 'monthly', priority: '0.6' },
-  { url: '/blog/defining-trance-anthems-2000s',             changefreq: 'monthly', priority: '0.6' },
-  { url: '/blog/top-trance-tracks-2010s',                   changefreq: 'monthly', priority: '0.6' },
-  { url: '/blog/modern-trance-classics-2020s-so-far',       changefreq: 'monthly', priority: '0.6' },
-  { url: '/blog/trance-tracks-defined-each-decade-retrospective', changefreq: 'monthly', priority: '0.6' },
-  { url: '/blog/women-in-trance-pioneers-modern-stars',     changefreq: 'monthly', priority: '0.6' },
-  { url: '/blog/nifra-slovakia-trance-queen',               changefreq: 'monthly', priority: '0.6' },
-  { url: '/blog/miss-monique-rising-progressive-star',      changefreq: 'monthly', priority: '0.6' },
-  { url: '/blog/new-generation-trance-artists-to-watch-2026', changefreq: 'monthly', priority: '0.6' },
-  { url: '/blog/female-djs-reshaping-trance-scene',         changefreq: 'monthly', priority: '0.6' },
-  { url: '/blog/trance-music-films-tv-memorable-moments',   changefreq: 'monthly', priority: '0.6' },
-  { url: '/blog/spirituality-of-trance-why-it-hits-different', changefreq: 'monthly', priority: '0.6' },
-  { url: '/blog/trance-meditation-music-mind-expansion',    changefreq: 'monthly', priority: '0.6' },
-  { url: '/blog/trance-documentary-watchlist',              changefreq: 'monthly', priority: '0.6' },
-  { url: '/blog/trance-influence-other-genres',             changefreq: 'monthly', priority: '0.6' },
+  ...BLOG_PAGES,
   ...ARTIST_PAGES,
   ...LABEL_PAGES,
   ...GLOSSARY_PAGES,

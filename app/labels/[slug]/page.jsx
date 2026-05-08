@@ -34,6 +34,11 @@ export async function generateMetadata({ params }) {
     },
     alternates: {
       canonical: `https://trance-nexus.com/labels/${label.slug}`,
+      languages: {
+        'en':        `https://trance-nexus.com/labels/${label.slug}`,
+        'ja':        `https://trance-nexus.com/labels/${label.slug}`,
+        'x-default': `https://trance-nexus.com/labels/${label.slug}`,
+      },
     },
   };
 }

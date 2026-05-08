@@ -26,6 +26,11 @@ export async function generateMetadata({ params }) {
     twitter: { card: 'summary', title: term.term.en, description: desc },
     alternates: {
       canonical: `https://trance-nexus.com/glossary/${term.slug}`,
+      languages: {
+        'en':        `https://trance-nexus.com/glossary/${term.slug}`,
+        'ja':        `https://trance-nexus.com/glossary/${term.slug}`,
+        'x-default': `https://trance-nexus.com/glossary/${term.slug}`,
+      },
     },
   };
 }
