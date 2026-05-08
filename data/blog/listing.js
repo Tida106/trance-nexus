@@ -2,6 +2,12 @@
 // Newest first. Keep in sync with data/blog/posts.js when adding articles.
 export const listing = [
   // Batch 11: All-Time Best ranked-list canon
+  { slug: 'best-progressive-trance-tracks-of-all-time-50', date: '2026-05-08', readTime: 14, tags: ['classics', 'progressive', 'all-time-best'],
+    en: { title: 'The 50 Best Progressive Trance Tracks of All Time — Definitive List', excerpt: "Progressive trance is the genre's longest-form subgenre — patient, harmonically generous, structurally sophisticated. This is the canon that runs from BT and Sasha in the 1990s to Tinlicker and Cristoph today, ranked with reasons." },
+    ja: { title: '史上最高のプログレッシブ・トランス・トラック25選 ― 決定版リスト', excerpt: 'プログレッシブ・トランスはジャンルで最も長尺のサブジャンルだ——忍耐強く、調和的に寛大で、構造的に洗練されている。これは1990年代のBTとSashaから今日のTinlickerとCristophに走るカノンで、理由とともにランク付けされている。' } },
+  { slug: 'best-uplifting-trance-tracks-of-all-time-50', date: '2026-05-08', readTime: 14, tags: ['classics', 'uplifting', 'all-time-best'],
+    en: { title: 'The 50 Best Uplifting Trance Tracks of All Time — Definitive Ranked List', excerpt: "Uplifting trance is the genre's most misunderstood subgenre — written off by outsiders as cheesy, defended by insiders as the most emotionally direct music dance culture has produced. This is our ranked answer to which records earn permanent place in that argument." },
+    ja: { title: '史上最高のアップリフティング・トランス・トラック25選 ― 決定版ランキング', excerpt: 'アップリフティング・トランスはジャンルで最も誤解されたサブジャンルだ——部外者にチーズと書き捨てられ、部内者にダンス文化が生み出した最も感情的に直接的な音楽として擁護される。本リストはその議論に永続的位置を獲得するレコードへのランク付き回答だ。' } },
   { slug: 'best-trance-tracks-of-all-time-100', date: '2026-05-08', readTime: 18, tags: ['classics', 'analysis', 'all-time-best'],
     en: { title: 'The 100 Best Trance Tracks of All Time — Definitive Ranked List 2026', excerpt: "Picking the all-time best trance tracks is a thirty-year argument with no settled ending. This list is our editorial answer for 2026 — fifty records that earn their place across the canon, each verified against the historical record and ranked with reasons." },
     ja: { title: '史上最高のトランス・トラック100選 ― 決定版ランキング2026', excerpt: '史上最高のトランス・トラックを選ぶことは30年続く決着のない議論だ。本リストは2026年のTRANCE NEXUS編集部の答え——カノン全体で位置を獲得する50枚のレコード、それぞれ歴史的記録と照合し、理由とともにランク付けされている。' } },

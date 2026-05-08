@@ -153,6 +153,14 @@ export const classification = {
     category: 'all-time-best',
     tags: ['all-time-best', 'classics', 'armin-van-buuren', 'tiesto', 'paul-van-dyk', 'above-and-beyond', 'ferry-corsten', '90s', '2000s', '2010s'],
   },
+  'best-uplifting-trance-tracks-of-all-time-50': {
+    category: 'all-time-best',
+    tags: ['all-time-best', 'uplifting', 'paul-van-dyk', 'ferry-corsten', 'above-and-beyond', '90s', '2000s', '2010s'],
+  },
+  'best-progressive-trance-tracks-of-all-time-50': {
+    category: 'all-time-best',
+    tags: ['all-time-best', 'progressive', 'above-and-beyond', '2000s', '2010s', '2020s'],
+  },
   // Batch 10: monthly trance chart roundups (2026 Jan–May)
   'best-trance-tracks-may-2026': {
     category: 'monthly-charts',
