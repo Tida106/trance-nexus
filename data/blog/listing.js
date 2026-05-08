@@ -1,6 +1,22 @@
 // Lightweight listing data — no article body content.
 // Newest first. Keep in sync with data/blog/posts.js when adding articles.
 export const listing = [
+  // Batch 9: Starter playlist, Tiësto reinvention, BT & Stutter Edit, Cosmic Gate vocals, iconic vocalists
+  { slug: 'iconic-trance-vocalists-voices-behind-anthems', date: '2026-06-14', readTime: 8, tags: ['vocals', 'culture'],
+    en: { title: 'Iconic Trance Vocalists: The Voices Behind the Anthems', excerpt: 'Vocal trance is its own tradition within the genre. The list of vocalists whose work defined the era reads like a separate canon — one that runs parallel to the producer canon and is just as essential to understanding how the music actually sounds.' },
+    ja: { title: '象徴的なトランス・ボーカリスト：アンセムの背後の声', excerpt: 'ボーカル・トランスはジャンル内の独自の伝統だ。時代を定義したボーカリストのリストは別個のカノンとして読める——プロデューサー・カノンに並行して走り、音楽が実際にどう聴こえるかを理解するのに同じくらい不可欠なもの。' } },
+  { slug: 'cosmic-gate-anisha-women-behind-mainstage', date: '2026-06-13', readTime: 8, tags: ['artists', 'culture'],
+    en: { title: "Cosmic Gate's Anisha and Beyond: Women Behind the Mainstage", excerpt: "Cosmic Gate are nominally a two-man duo. Their post-2018 sound is unimaginable without Anisha, whose vocals and writing have shaped the duo's late career as much as their production. The pattern repeats across the genre, and crediting it changes who gets remembered." },
+    ja: { title: 'Cosmic GateのAnishaとその先：メインステージの背後の女性たち', excerpt: 'Cosmic Gateは名目上は男性2人のデュオだ。彼らの2018年以降のサウンドはAnisha——そのボーカルとライティングが彼らのプロダクションと同じくらいデュオの後期キャリアを形作った——なしには想像できない。パターンはジャンル全体で繰り返され、それをクレジットすることは誰が記憶されるかを変える。' } },
+  { slug: 'bt-stutter-edit-changed-music-tech', date: '2026-06-12', readTime: 8, tags: ['production', 'history'],
+    en: { title: 'BT and the Stutter Edit: How One Producer Changed Music Tech', excerpt: 'BT did not just make trance records — he engineered a production technique so distinctive that it eventually became a commercial software product used across pop, hip-hop, and film scoring. The story is one of the genre\'s most quietly consequential.' },
+    ja: { title: 'BTとStutter Edit：ひとりのプロデューサーが音楽技術をどう変えたか', excerpt: 'BTはトランス・レコードを作っただけではない——彼はあまりに特徴的なプロダクション技法を工学し、それが最終的にポップ、ヒップホップ、映画スコアリングで使われる商業ソフトウェア製品になった。物語はジャンルで最も静かに帰結のあるもののひとつだ。' } },
+  { slug: 'how-tiesto-reinvented-trance-king-to-edm', date: '2026-06-11', readTime: 8, tags: ['artists', 'history'],
+    en: { title: 'How Tiësto Reinvented Himself: From Trance King to EDM Star', excerpt: "Tiësto's reinvention is the most discussed and most resented career pivot in trance history. Twenty years on, the picture is more complicated than the loyalists acknowledged at the time and more deliberate than the critics suspected." },
+    ja: { title: 'Tiëstoの自己再発明：トランス王からEDMスターへ', excerpt: 'Tiëstoの自己再発明はトランス史で最も議論され最も恨まれたキャリア転換だ。20年経って、絵は当時の忠誠者が認めたよりも複雑で、批評家が疑ったよりも意図的だ。' } },
+  { slug: 'building-first-trance-playlist-30-essential', date: '2026-06-10', readTime: 8, tags: ['classics', 'guide'],
+    en: { title: 'Building Your First Trance Playlist: 30 Essential Tracks', excerpt: 'A list of thirty tracks does not make you fluent in trance. But the right thirty, listened to in the right order with the right attention, gets a new listener further in a month than another year of casual sampling.' },
+    ja: { title: 'あなたの最初のトランス・プレイリスト構築：30の必須トラック', excerpt: '30曲のリストはあなたをトランスに堪能にしない。しかし正しい30曲を、正しい順序で正しい注意とともに聴くことは、新しいリスナーをカジュアルなサンプリングのもう1年よりも1ヶ月で先へ運ぶ。' } },
   // Batch 8: Female DJs, anthem anatomy, Group Therapy, Asia festivals, mental health
   { slug: 'trance-mental-health-healing-138-bpm', date: '2026-06-09', readTime: 7, tags: ['culture', 'analysis'],
     en: { title: 'Trance and Mental Health: The Healing Power of 138 BPM', excerpt: 'Many trance fans report that the music has helped them through difficult periods. The reports are consistent enough to take seriously. But the honest framing requires distinguishing what the music can do from what it cannot.' },

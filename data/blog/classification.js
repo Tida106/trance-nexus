@@ -148,6 +148,27 @@ export const classification = {
     category: 'artists',
     tags: ['progressive', 'vocal', '2020s'],
   },
+  // Batch 9: starter playlist, Tiësto reinvention, BT & Stutter Edit, Cosmic Gate vocals, iconic vocalists
+  'building-first-trance-playlist-30-essential': {
+    category: 'subgenres',
+    tags: ['90s', '2000s', '2010s', '2020s', 'uplifting', 'vocal', 'progressive'],
+  },
+  'how-tiesto-reinvented-trance-king-to-edm': {
+    category: 'artists',
+    tags: ['tiesto', 'armin-van-buuren', 'above-and-beyond', '2000s', '2010s'],
+  },
+  'bt-stutter-edit-changed-music-tech': {
+    category: 'production',
+    tags: ['production-tips', 'vst', '90s', '2000s', '2010s'],
+  },
+  'cosmic-gate-anisha-women-behind-mainstage': {
+    category: 'artists',
+    tags: ['vocal', 'above-and-beyond', '2010s', '2020s'],
+  },
+  'iconic-trance-vocalists-voices-behind-anthems': {
+    category: 'subgenres',
+    tags: ['vocal', 'above-and-beyond', 'armin-van-buuren', '2000s', '2010s', '2020s'],
+  },
   // Batch 8: female DJs, anthem anatomy, Group Therapy, Asia festivals, mental health
   'top-10-female-trance-djs-2026': {
     category: 'artists',
