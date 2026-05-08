@@ -2,6 +2,12 @@
 // Newest first. Keep in sync with data/blog/posts.js when adding articles.
 export const listing = [
   // Batch 11: All-Time Best ranked-list canon
+  { slug: 'best-vocal-trance-tracks-of-all-time-50', date: '2026-05-08', readTime: 14, tags: ['classics', 'vocal', 'all-time-best'],
+    en: { title: 'The 50 Best Vocal Trance Tracks of All Time — Definitive Songs Guide', excerpt: "Vocal trance is the genre's songwriter tradition — the records where the human voice carries the emotional load that the synthesizer alone cannot. This is the canon from Robert Miles' \"One and One\" through HALIENE's late-2010s catalogue, ranked with reasons." },
+    ja: { title: '史上最高のボーカル・トランス・トラック25選 ― 決定版ソング・ガイド', excerpt: 'ボーカル・トランスはジャンルのソングライター伝統だ——シンセサイザー単独では運べない感情的ロードを人間の声が運ぶレコード。これはRobert Milesの「One and One」からHALIENEの2010年代後半カタログまでのカノンで、理由とともにランク付けされている。' } },
+  { slug: 'best-psytrance-tracks-of-all-time-50', date: '2026-05-08', readTime: 12, tags: ['classics', 'psytrance', 'all-time-best'],
+    en: { title: 'The 50 Best Psytrance Tracks of All Time — Goa to Modern Full-On', excerpt: "Psytrance is the genre's most self-contained subculture — its own festivals, labels, visual aesthetic, and listening community largely separate from mainstream trance. This is the canon that runs from 1990s Goa beach parties to today's Boom and Ozora mainstages, ranked with reasons." },
+    ja: { title: '史上最高のサイトランス・トラック25選 ― ゴアから現代フルオンまで', excerpt: 'サイトランスはジャンルで最も自己完結したサブカルチャーだ——独自のフェスティバル、レーベル、ビジュアル美学、そしてメインストリーム・トランスから大部分分離したリスニング・コミュニティを持つ。これは1990年代のゴアビーチパーティから今日のBoomとOzoraメインステージに走るカノンで、理由とともにランク付けされている。' } },
   { slug: 'best-progressive-trance-tracks-of-all-time-50', date: '2026-05-08', readTime: 14, tags: ['classics', 'progressive', 'all-time-best'],
     en: { title: 'The 50 Best Progressive Trance Tracks of All Time — Definitive List', excerpt: "Progressive trance is the genre's longest-form subgenre — patient, harmonically generous, structurally sophisticated. This is the canon that runs from BT and Sasha in the 1990s to Tinlicker and Cristoph today, ranked with reasons." },
     ja: { title: '史上最高のプログレッシブ・トランス・トラック25選 ― 決定版リスト', excerpt: 'プログレッシブ・トランスはジャンルで最も長尺のサブジャンルだ——忍耐強く、調和的に寛大で、構造的に洗練されている。これは1990年代のBTとSashaから今日のTinlickerとCristophに走るカノンで、理由とともにランク付けされている。' } },
