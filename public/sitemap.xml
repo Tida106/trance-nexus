@@ -2036,6 +2036,15 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/events/abgt-milestone-events"/>
   </url>
   <url>
+    <loc>https://trance-nexus.com/events/boom-festival</loc>
+    <lastmod>2026-05-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/events/boom-festival"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/events/boom-festival"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/events/boom-festival"/>
+  </url>
+  <url>
     <loc>https://trance-nexus.com/events/creamfields</loc>
     <lastmod>2026-05-08</lastmod>
     <changefreq>weekly</changefreq>
@@ -2063,6 +2072,15 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/events/edc-las-vegas"/>
   </url>
   <url>
+    <loc>https://trance-nexus.com/events/hilltop-goa</loc>
+    <lastmod>2026-05-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/events/hilltop-goa"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/events/hilltop-goa"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/events/hilltop-goa"/>
+  </url>
+  <url>
     <loc>https://trance-nexus.com/events/luminosity-beach-festival</loc>
     <lastmod>2026-05-08</lastmod>
     <changefreq>weekly</changefreq>
@@ -2070,6 +2088,33 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/events/luminosity-beach-festival"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/events/luminosity-beach-festival"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/events/luminosity-beach-festival"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/events/ozora-festival</loc>
+    <lastmod>2026-05-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/events/ozora-festival"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/events/ozora-festival"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/events/ozora-festival"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/events/psy-fi-festival</loc>
+    <lastmod>2026-05-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/events/psy-fi-festival"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/events/psy-fi-festival"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/events/psy-fi-festival"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/events/sonica-festival</loc>
+    <lastmod>2026-05-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/events/sonica-festival"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/events/sonica-festival"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/events/sonica-festival"/>
   </url>
   <url>
     <loc>https://trance-nexus.com/events/tomorrowland-winter</loc>
@@ -2115,6 +2160,15 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/events/ultra-music-festival-miami"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/events/ultra-music-festival-miami"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/events/ultra-music-festival-miami"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/events/universo-paralello</loc>
+    <lastmod>2026-05-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/events/universo-paralello"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/events/universo-paralello"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/events/universo-paralello"/>
   </url>
   <url>
     <loc>https://trance-nexus.com/events/untold-festival</loc>

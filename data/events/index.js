@@ -58,6 +58,13 @@ import tomorrowlandWinter from './tomorrowland-winter';
 import untoldFestival from './untold-festival';
 import creamfields from './creamfields';
 import ultraEurope from './ultra-europe';
+// Batch 3 — psytrance / Goa axis
+import boomFestival from './boom-festival';
+import ozoraFestival from './ozora-festival';
+import universoParalello from './universo-paralello';
+import psyFiFestival from './psy-fi-festival';
+import sonicaFestival from './sonica-festival';
+import hilltopGoa from './hilltop-goa';
 
 export const events = [
   tomorrowland,
@@ -72,6 +79,12 @@ export const events = [
   untoldFestival,
   creamfields,
   ultraEurope,
+  boomFestival,
+  ozoraFestival,
+  universoParalello,
+  psyFiFestival,
+  sonicaFestival,
+  hilltopGoa,
 ];
 
 export const eventSlugs = events.map((e) => e.slug);
