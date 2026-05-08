@@ -412,4 +412,89 @@ Bonzai ProgressiveはBonzaiロスターのよりスロー、ディープ、調�
     },
     posts: ['essential-trance-labels-2026', 'history-of-trance-music', 'what-is-hard-trance'],
   },
+
+  // ───────────────────────────────────────────────────────────────
+  // Batch 2 expansion (added 2026-05-09): Magik Muzik, Hooj Choons.
+  // Two foundational late-90s / early-2000s labels that anchor the
+  // historical-canon end of the classic-era catalogue.
+  // ───────────────────────────────────────────────────────────────
+
+  {
+    slug: 'magik-muzik',
+    name: 'Magik Muzik',
+    flag: '🇳🇱',
+    emoji: '✨',
+    category: 'classic',
+    banner: 'b-progressive',
+    founded: '2001',
+    hq: 'Breda, Netherlands',
+    founders: ['Tijs Verwest (Tiësto)'],
+    aliases: ['magik muzik records', 'magik'],
+    subgenres: ['Progressive Trance', 'Uplifting Trance'],
+    topReleases: [
+      { title: 'Magik series (Magik One through Magik Seven)', artist: 'Tiësto', year: '1997+', type: 'series (released via Black Hole / Magik Muzik)' },
+      { title: 'In My Memory', artist: 'Tiësto', year: 2001, type: 'album (early Magik Muzik era)' },
+      { title: 'Just Be', artist: 'Tiësto', year: 2004, type: 'album' },
+      { title: 'Various Tiësto-curated releases', artist: 'Various', year: '2001+', type: 'curation' },
+    ],
+    related: ['black-hole-recordings', 'armada-music', 'flashover-recordings', 'pure-trance-recordings'],
+    links: {
+      website: 'https://www.blackholerecordings.com/labels/magik-muzik',
+      beatport: 'https://www.beatport.com/label/magik-muzik/2089',
+      soundcloud: 'https://soundcloud.com/black-hole-recordings',
+    },
+    short: {
+      en: 'Tiësto-curated sub-label of Black Hole Recordings — the original imprint home for the Magik series and his early-2000s breakthrough catalogue.',
+      ja: 'Black Hole Recordings傘下のTiëstoキュレーション・サブレーベル——Magikシリーズと2000年代初頭の彼のブレイクスルー・カタログの本来のインプリント本拠地。',
+    },
+    bio: {
+      en: `Magik Muzik was launched in the early 2000s as a Tiësto-curated sub-label within the Black Hole Recordings group, named after the long-running Magik mix-compilation series that Tiësto had been releasing since 1997. The imprint became the institutional home for Tiësto's most-celebrated original singles and albums during the Just Be (2004) and In My Memory (2001) era — the period when he transitioned from a respected Dutch trance DJ to one of the most recognisable names in global dance music.
+
+Magik Muzik continued operating after Tiësto formally departed for his own Musical Freedom imprint in 2009, with Black Hole continuing to release material under the Magik Muzik name and the original Magik mix-series catalogue remaining a continuous reference point for long-form trance set construction. The label's historical significance is hard to overstate: the 1990s and early 2000s Magik mixes essentially codified the modern long-form trance DJ set, and many of the records that defined progressive trance through that era passed through the imprint. Magik Muzik is preserved today as one of the genre's most consequential editorial documents.`,
+      ja: `Magik Muzikは2000年代初頭、TiëstoがBlack Hole Recordingsグループ内でキュレーションするサブレーベルとして発足した。レーベル名は、Tiëstoが1997年以来リリースしてきた長期Magikミックス・コンピレーション・シリーズに由来する。インプリントは『Just Be』（2004）と『In My Memory』（2001）の時代——彼が尊敬されるオランダのトランスDJから世界的ダンス・ミュージックで最も認識される名前の一つへと移行した時期——のTiëstoの最も称賛されたオリジナル・シングルとアルバムの制度的本拠地となった。
+
+2009年にTiëstoが自身のMusical Freedomインプリントへ正式に離脱した後もMagik Muzikは運営を続け、Black HoleがMagik Muzik名義で素材をリリースし続け、オリジナルのMagikミックス・シリーズ・カタログは長尺トランスDJセット構築の継続的参照点として残り続けている。レーベルの歴史的意義を過小評価することは難しい：1990年代と2000年代初頭のMagikミックスは本質的に現代の長尺トランスDJセットを成文化し、その時代にプログレッシブ・トランスを定義した多くのレコードがインプリントを通過した。Magik Muzikは今日、ジャンルの最も帰結的な編集ドキュメントの一つとして保存されている。`,
+    },
+    posts: ['essential-trance-labels-2026', 'tiesto-evolution-trance-to-edm', 'history-of-trance-music'],
+  },
+
+  {
+    slug: 'hooj-choons',
+    name: 'Hooj Choons',
+    flag: '🇬🇧',
+    emoji: '🎯',
+    category: 'classic',
+    banner: 'b-progressive',
+    founded: '1991',
+    hq: 'London, United Kingdom',
+    founders: ['Mark "Red Jerry" Hadfield'],
+    aliases: ['hooj', 'hooj records'],
+    subgenres: ['Progressive Trance', 'Uplifting Trance', 'Vocal Trance'],
+    topReleases: [
+      { title: 'Xpander', artist: 'Sasha', year: 1999, type: 'EP / single' },
+      { title: 'Seven Cities', artist: 'Solarstone', year: 1999, type: 'single' },
+      { title: 'Salt Tank releases', artist: 'Salt Tank', year: '1990s', type: 'multiple' },
+      { title: 'Eulogy', artist: 'Salt Tank', year: 1996, type: 'single' },
+      { title: 'Hooj Choons compilation series', artist: 'Various', year: '1990s+', type: 'series' },
+    ],
+    related: ['black-hole-recordings', 'bedrock-records', 'pure-trance-recordings', 'flashover-recordings'],
+    links: {
+      website: 'https://www.discogs.com/label/2310-Hooj-Choons',
+      beatport: 'https://www.beatport.com/label/hooj-choons/77',
+      soundcloud: 'https://soundcloud.com/hoojchoons',
+    },
+    short: {
+      en: 'Foundational UK progressive-and-vocal-trance label of the 1990s and 2000s — home of Sasha\'s "Xpander" and Solarstone\'s "Seven Cities".',
+      ja: '1990〜2000年代の英国プログレッシブ＆ボーカル・トランスの基礎的レーベル——Sashaの「Xpander」とSolarstoneの「Seven Cities」の本拠地。',
+    },
+    bio: {
+      en: `Hooj Choons was founded in 1991 in London by Mark "Red Jerry" Hadfield. Across the 1990s and 2000s the label became one of the UK's most consequential progressive and vocal trance imprints — the platform behind Sasha's foundational 1999 EP "Xpander" (whose 11-minute title track is one of the form's defining documents), Solarstone's 1999 anthem "Seven Cities," and a long arc of Salt Tank, Aurora Borealis, Tilt, and adjacent records that codified the modern long-form progressive sound.
+
+Hooj's editorial signature was patient, harmonically rich, and emotionally honest — the label rejected peak-time festival pressure in favour of long-form arrangements built around deep pads, hypnotic bass programming, and gradual textural development. Many of the records cited as foundational to modern Anjunadeep / Sudbeat / Last Night On Earth progressive came through Hooj first. The label entered administration in the late 2000s as the physical-distribution model that supported it collapsed, but the back catalogue has continued to circulate via licensing and reissues, and the editorial influence of the imprint remains pervasive across the contemporary progressive scene.`,
+      ja: `Hooj Choonsは1991年、ロンドンでMark「Red Jerry」Hadfieldにより設立された。1990年代から2000年代にかけてレーベルは英国で最も帰結的なプログレッシブ＆ボーカル・トランス・インプリントの一つとなった——Sashaの基礎的1999年EP「Xpander」（11分のタイトル・トラックは形式の定義的ドキュメントの一つ）、Solarstoneの1999年アンセム「Seven Cities」、そして現代の長尺プログレッシブ・サウンドを成文化したSalt Tank、Aurora Borealis、Tilt、隣接レコードの長いアークの背後にあるプラットフォームだった。
+
+Hoojの編集的シグネチャは、忍耐強く、調和的に豊かで、情緒的に正直だった——レーベルはピークタイム・フェスティバルの圧力を拒否し、深いパッド、催眠的なベース・プログラミング、漸進的なテクスチャ展開を軸に構築された長尺アレンジメントを優先した。現代のAnjunadeep／Sudbeat／Last Night On Earthプログレッシブの基礎として引用される多くのレコードはまずHoojを通過した。レーベルは2000年代後半、それを支えていた物理流通モデルが崩壊するなかで管財状態に入ったが、バックカタログはライセンシングと再発を通じて流通し続けており、インプリントの編集的影響は現代プログレッシブ・シーン全体に浸透し続けている。`,
+    },
+    posts: ['essential-trance-labels-2026', 'history-of-trance-music', 'best-progressive-trance-tracks-of-all-time-50'],
+  },
 ];

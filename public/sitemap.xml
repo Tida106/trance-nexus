@@ -1550,6 +1550,24 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/labels/bonzai-progressive"/>
   </url>
   <url>
+    <loc>https://trance-nexus.com/labels/magik-muzik</loc>
+    <lastmod>2026-05-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/labels/magik-muzik"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/labels/magik-muzik"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/labels/magik-muzik"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/labels/hooj-choons</loc>
+    <lastmod>2026-05-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/labels/hooj-choons"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/labels/hooj-choons"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/labels/hooj-choons"/>
+  </url>
+  <url>
     <loc>https://trance-nexus.com/labels/armada-music</loc>
     <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
@@ -1638,6 +1656,33 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/labels/wao138"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/labels/wao138"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/labels/wao138"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/labels/last-night-on-earth</loc>
+    <lastmod>2026-05-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/labels/last-night-on-earth"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/labels/last-night-on-earth"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/labels/last-night-on-earth"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/labels/sudbeat</loc>
+    <lastmod>2026-05-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/labels/sudbeat"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/labels/sudbeat"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/labels/sudbeat"/>
+  </url>
+  <url>
+    <loc>https://trance-nexus.com/labels/bedrock-records</loc>
+    <lastmod>2026-05-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/labels/bedrock-records"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/labels/bedrock-records"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/labels/bedrock-records"/>
   </url>
   <url>
     <loc>https://trance-nexus.com/labels/iboga-records</loc>

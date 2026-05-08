@@ -205,4 +205,130 @@ WAO138?!はレーベルとイベント・ブランドの両方として機能し
     },
     posts: ['essential-trance-labels-2026', 'a-state-of-trance-show-that-changed-everything', 'armin-van-buuren-king-of-trance'],
   },
+
+  // ───────────────────────────────────────────────────────────────
+  // Batch 2 expansion (added 2026-05-09): Last Night On Earth,
+  // Sudbeat, Bedrock Records. Three progressive flagships covering
+  // the Sasha / Cattáneo / Digweed contemporary axis.
+  // ───────────────────────────────────────────────────────────────
+
+  {
+    slug: 'last-night-on-earth',
+    name: 'Last Night On Earth',
+    flag: '🇬🇧',
+    emoji: '🌙',
+    category: 'modern',
+    banner: 'b-progressive',
+    founded: '2013',
+    hq: 'United Kingdom',
+    founders: ['Sasha (Alexander Coe)'],
+    aliases: ['lnoe', 'last night on earth records'],
+    subgenres: ['Progressive Trance', 'Progressive House', 'Melodic Techno'],
+    topReleases: [
+      { title: 'Vapour Trail (Sasha edit / mix)', artist: 'Sasha', year: 2014, type: 'multiple' },
+      { title: 'Trigonometry', artist: 'Sasha', year: 2018, type: 'EP' },
+      { title: 'LNOE compilation series', artist: 'Various / Sasha', year: '2014+', type: 'series' },
+      { title: 'Various long-form Sasha edits', artist: 'Sasha', year: 'multiple', type: 'multiple' },
+    ],
+    related: ['anjunadeep', 'sudbeat', 'bedrock-records', 'pure-trance-recordings'],
+    links: {
+      website: 'https://lnoe.com',
+      beatport: 'https://www.beatport.com/label/last-night-on-earth/22720',
+      spotify: 'https://open.spotify.com/user/lastnightonearth',
+      soundcloud: 'https://soundcloud.com/lastnightonearth',
+    },
+    short: {
+      en: 'Sasha\'s contemporary progressive label, founded 2013 — the editorial home for his late-period long-form productions and the modern Last Night On Earth aesthetic.',
+      ja: 'Sashaの現代プログレッシブ・レーベル（2013年設立）——彼の後期長尺プロダクションと現代「Last Night On Earth」美学の編集本拠地。',
+    },
+    bio: {
+      en: `Last Night On Earth was founded in 2013 by British DJ-producer Sasha as the editorial home for the contemporary chapter of his catalogue. By the time the label launched, Sasha had already spent two-and-a-half decades at the top of the progressive house and trance world — Bedrock co-founder, Northern Exposure mix architect, Xpander composer, Global Underground mainstay. LNOE was conceived as a focused outlet rather than a release-volume operation, prizing the long-form, harmonically generous, patient productions that Sasha's mature aesthetic centres on.
+
+The label's release flow has been deliberately measured: original EPs and singles from Sasha himself, along with curated work from collaborators that shares the LNOE editorial sensibility — slower tempos (typically 120–125 BPM), cinematic textural development, melodic-techno crossover, and an explicit refusal of festival-mainstage urgency. The LNOE compilation series and the touring LNOE event brand have established the label as one of the most respected boutique progressive imprints in operation. LNOE sits at the same sound-world as Anjunadeep and Sudbeat — the modern progressive heartland — while keeping a tighter, more author-driven curatorial voice.`,
+      ja: `Last Night On Earthは2013年、英国のDJプロデューサーSashaにより、自身のカタログの現代的な章のための編集本拠地として設立された。レーベルが立ち上がった時点でSashaはすでに四半世紀以上にわたってプログレッシブ・ハウスとトランスの世界の頂点にいた——Bedrock共同創設者、Northern Exposureミックス設計者、Xpander作曲者、Global Undergroundの主軸。LNOEはリリース量の運営ではなく焦点を絞ったアウトレットとして構想され、Sashaの成熟した美学が中心とする、長尺で調和的に寛大、忍耐強いプロダクションを尊重した。
+
+レーベルのリリース・フローは意図的に控えめだ：Sasha自身のオリジナルEPとシングル、加えてLNOEの編集的感性を共有するコラボレーターからのキュレーション作品——よりスローなテンポ（典型的に120〜125 BPM）、映画的なテクスチャ展開、メロディック・テクノ・クロスオーバー、フェスティバル・メインステージの緊迫の明示的拒否。LNOEコンピレーション・シリーズと巡回するLNOEイベント・ブランドは、レーベルを現役の最も尊敬されるブティック・プログレッシブ・インプリントの一つとして確立した。LNOEはAnjunadeep、Sudbeatと同じサウンド・ワールド——現代プログレッシブの中心地——に位置しながら、より緊密で著者主導のキュレーション声を維持している。`,
+    },
+    posts: ['essential-trance-labels-2026', 'best-progressive-trance-tracks-of-all-time-50', 'what-is-progressive-trance'],
+  },
+
+  {
+    slug: 'sudbeat',
+    name: 'Sudbeat Music',
+    flag: '🇦🇷',
+    emoji: '🌅',
+    category: 'modern',
+    banner: 'b-progressive',
+    founded: '2009',
+    hq: 'Buenos Aires, Argentina',
+    founders: ['Hernan Cattáneo', 'Graziano Raffa'],
+    aliases: ['sudbeat', 'sudbeat records'],
+    subgenres: ['Progressive Trance', 'Progressive House'],
+    topReleases: [
+      { title: 'Vapor Trail', artist: 'Hernan Cattáneo & Soundexile', year: 2014, type: 'EP' },
+      { title: 'Sudbeat Music compilation series', artist: 'Various', year: '2010+', type: 'series' },
+      { title: 'Various Hernan Cattáneo originals and edits', artist: 'Hernan Cattáneo', year: 'multiple', type: 'multiple' },
+      { title: 'Selador / Sudbeat split releases', artist: 'Various', year: 'multiple', type: 'split' },
+    ],
+    related: ['anjunadeep', 'last-night-on-earth', 'bedrock-records', 'selador-recordings'],
+    links: {
+      website: 'https://www.sudbeat.com',
+      beatport: 'https://www.beatport.com/label/sudbeat-music/8167',
+      spotify: 'https://open.spotify.com/user/sudbeatmusic',
+      soundcloud: 'https://soundcloud.com/sudbeat',
+    },
+    short: {
+      en: 'Hernan Cattáneo\'s Argentine progressive imprint, founded 2009 — the South American editorial centre of contemporary progressive trance and house.',
+      ja: 'Hernan Cattáneoのアルゼンチン・プログレッシブ・インプリント（2009年設立）——現代プログレッシブ・トランス＆ハウスの南米編集中心地。',
+    },
+    bio: {
+      en: `Sudbeat Music was founded in 2009 in Buenos Aires by Argentine DJ-producer Hernan Cattáneo together with Graziano Raffa. By the time of launch, Cattáneo had already established himself as one of the most respected long-form progressive DJs in the world, with a residency reputation built across South America, Ibiza (Pacha), and the global Renaissance / Global Underground / Bedrock circuits. Sudbeat gave him an Argentine-rooted editorial home — a label that could function as a counterweight to the European-centric progressive-trance ecosystem and could specifically champion South American producers.
+
+The label's catalogue has run patient, harmonically detailed, structurally generous progressive material — closer to the BT / Sasha / Hooj Choons heritage than to the modern Anjunadeep melodic-techno crossover. Through 2010+ the Sudbeat compilation series (typically Cattáneo-curated) became a primary editorial document of contemporary progressive, and the label has hosted material from Soundexile, Henry Saiz, Guy J, Nick Warren, Cid Inc., and many others working in the long-form progressive space. Sudbeat's annual Buenos Aires events and the touring Sudbeat brand have built a devoted Latin American audience and a global reputation in the progressive scene that few South American labels have achieved.`,
+      ja: `Sudbeat Musicは2009年、ブエノスアイレスでアルゼンチンのDJプロデューサーHernan CattáneoがGraziano Raffaとともに設立した。発足時点でCattáneoはすでに世界で最も尊敬される長尺プログレッシブDJの一人としての地位を確立しており、南米、イビザ（Pacha）、グローバル・Renaissance／Global Underground／Bedrockサーキットを通じて築かれたレジデンシーの評判を持っていた。Sudbeatは彼にアルゼンチンに根ざした編集本拠地——ヨーロッパ中心のプログレッシブ・トランス・エコシステムへの対抗軸として機能し、南米のプロデューサーを特に支援できるレーベル——を与えた。
+
+レーベルのカタログは、忍耐強く、調和的に詳細で、構造的に寛大なプログレッシブ素材を運営してきた——現代Anjunadeepのメロディック・テクノ・クロスオーバーよりもBT／Sasha／Hooj Choonsの遺産に近い。2010年以降、Sudbeatコンピレーション・シリーズ（典型的にCattáneoがキュレーション）は現代プログレッシブの主要な編集ドキュメントとなり、レーベルはSoundexile、Henry Saiz、Guy J、Nick Warren、Cid Inc.、その他多数の長尺プログレッシブ空間で活動するアーティストの素材をホストしてきた。Sudbeatの年次ブエノスアイレス・イベントと巡回するSudbeatブランドは、熱心なラテンアメリカのオーディエンスと、南米のレーベルが達成してきた数少ないプログレッシブ・シーンでのグローバルな評判を築いてきた。`,
+    },
+    posts: ['essential-trance-labels-2026', 'best-progressive-trance-tracks-of-all-time-50', 'what-is-progressive-trance'],
+  },
+
+  {
+    slug: 'bedrock-records',
+    name: 'Bedrock Records',
+    flag: '🇬🇧',
+    emoji: '🪨',
+    category: 'modern',
+    banner: 'b-progressive',
+    founded: '1999',
+    hq: 'London, United Kingdom',
+    founders: ['John Digweed'],
+    aliases: ['bedrock', 'bedrock music'],
+    subgenres: ['Progressive Trance', 'Progressive House', 'Tech House'],
+    topReleases: [
+      { title: 'Heaven Scent', artist: 'Bedrock (John Digweed & Nick Muir)', year: 1999, type: 'single' },
+      { title: 'Bedrock compilation series', artist: 'John Digweed', year: '2000s+', type: 'series' },
+      { title: 'Layered Sounds / Quattro / Live in series', artist: 'John Digweed / Various', year: 'multiple', type: 'series' },
+      { title: 'Forthcoming compilation series', artist: 'Various', year: '2010s+', type: 'series' },
+    ],
+    related: ['anjunadeep', 'last-night-on-earth', 'sudbeat', 'selador-recordings'],
+    links: {
+      website: 'https://www.bedrock.org.uk',
+      beatport: 'https://www.beatport.com/label/bedrock-records/87',
+      spotify: 'https://open.spotify.com/user/bedrockrecordsofficial',
+      soundcloud: 'https://soundcloud.com/bedrockrecords',
+    },
+    short: {
+      en: 'John Digweed\'s long-running London progressive label, founded 1999 — one of the genre\'s most consistent editorial voices across more than 25 years.',
+      ja: 'John Digweedが運営するロンドンの長期プログレッシブ・レーベル（1999年設立）——25年以上にわたるジャンル屈指の一貫した編集声。',
+    },
+    bio: {
+      en: `Bedrock Records was founded in 1999 in London by John Digweed, taking its name from the production duo Bedrock (Digweed and Nick Muir) that had been releasing as Bedrock since the mid-1990s. The label was conceived as a long-running editorial home for the kind of patient, harmonically generous progressive trance and progressive house that Digweed had been championing on the global Renaissance / Northern Exposure / Global Underground compilation circuit. From the start, the label's curatorial standard was high — a deliberate counterpoint to the volume-driven trance industry of the late 1990s.
+
+Across more than two-and-a-half decades, Bedrock has released material from John Digweed himself (most prominently the long-running Live in / Live at compilation series and the Quattro / Layered Sounds curated mixes), Henry Saiz, Guy J, Hernan Cattáneo, Quivver, Nick Muir, Steve Parry, and a long list of progressive specialists. The label's Live in series (recorded sets from Digweed's residencies in cities including Cordoba, Cape Town, and Tokyo) has become one of the most-cited DJ-mix release series in dance music. Bedrock has also been a consistent reference point for the boundary between progressive trance, progressive house, and the slower end of tech-house — a boundary the contemporary scene continues to negotiate.`,
+      ja: `Bedrock Recordsは1999年、John Digweedによりロンドンで設立された。レーベル名は1990年代半ば以来Bedrockとしてリリースしてきたプロダクション・デュオ（DigweedとNick Muir）に由来する。同レーベルは、Digweedがグローバル・Renaissance／Northern Exposure／Global Undergroundコンピレーション・サーキットで支援してきたタイプの——忍耐強く、調和的に寛大なプログレッシブ・トランスとプログレッシブ・ハウスのための長期編集本拠地として構想された。当初からレーベルのキュレーション基準は高く——1990年代後半の量重視のトランス産業への意図的対抗軸だった。
+
+四半世紀以上にわたり、BedrockはJohn Digweed自身（最も顕著には長期Live in／Live atコンピレーション・シリーズとQuattro／Layered Soundsキュレーション・ミックス）、Henry Saiz、Guy J、Hernan Cattáneo、Quivver、Nick Muir、Steve Parry、その他長期プログレッシブ・スペシャリスト多数の素材をリリースしてきた。レーベルのLive inシリーズ（コルドバ、ケープタウン、東京などの都市でのDigweedのレジデンシーから録音されたセット）は、ダンスミュージックで最も引用されるDJミックス・リリース・シリーズの一つとなった。Bedrockはまた、プログレッシブ・トランス、プログレッシブ・ハウス、テック・ハウスのよりスローな端の境界——現代シーンが今も交渉し続ける境界——の一貫した参照点となっている。`,
+    },
+    posts: ['essential-trance-labels-2026', 'best-progressive-trance-tracks-of-all-time-50', 'what-is-progressive-trance'],
+  },
 ];
