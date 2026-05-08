@@ -9,18 +9,32 @@ import { listing } from '@/data/blog/listing';
 import { artists } from '@/data/artists/index';
 import { labels } from '@/data/labels/index';
 import { glossary } from '@/data/glossary/index';
+import radioData from '@/data/radio.json';
+import setlistsData from '@/data/setlists.json';
+import eventsData from '@/data/events.json';
 import ArtistCard from '@/components/ArtistCard';
 import LabelCard from '@/components/LabelCard';
+
+// Robust array length for the JSON feeds — radio/setlists/events JSON
+// files have alternated between bare arrays and object-wrapped exports
+// across scrapes, so coerce both shapes to a number rather than blow up
+// the home build if the next scrape lands as an object.
+const sizeOf = (data) => {
+  if (Array.isArray(data)) return data.length;
+  if (data && typeof data === 'object') return Object.keys(data).length;
+  return 0;
+};
 
 const NewsletterForm = dynamic(() => import('@/components/NewsletterForm'), { ssr: false });
 
 // Hero stats are derived from the data layer at build time. Counts
 // are displayed as exact integers (50, not "50+") — the previous "+"
 // suffix made every number look like a "milestone" approximation
-// even when we knew the real number to the digit. We surface the
-// four content surfaces the site has genuinely built (artists /
-// labels / articles / glossary) instead of the legacy radio /
-// setlists / events feeds that hadn't crossed double digits yet.
+// even when we knew the real number to the digit. The four axes —
+// artists / radio shows / setlists / events — match the four content
+// surfaces the site is built around. Each value is the literal length
+// of the underlying data feed, so the displayed number stays in sync
+// with whatever the next scrape lands.
 //
 // Stat entries with a count of zero are filtered out so a half-built
 // surface can't accidentally land in the hero — the array of stats
@@ -30,10 +44,10 @@ export default function Home() {
   const { t } = useTranslation();
 
   const stats = [
-    { value: artists.length,  label: t('home.stats.artists') },
-    { value: labels.length,   label: t('home.stats.labels') },
-    { value: listing.length,  label: t('home.stats.articles') },
-    { value: glossary.length, label: t('home.stats.glossary') },
+    { value: artists.length,         label: t('home.stats.artists') },
+    { value: sizeOf(radioData),      label: t('home.stats.radio') },
+    { value: sizeOf(setlistsData),   label: t('home.stats.setlists') },
+    { value: sizeOf(eventsData),     label: t('home.stats.events') },
   ].filter((s) => s.value > 0);
 
   const websiteSchema = {
