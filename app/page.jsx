@@ -202,7 +202,11 @@ export default function Home() {
           </div>
 
           <h1 className="font-bebas text-5xl md:text-6xl lg:text-7xl tracking-wider mb-2 animate-in fade-in slide-in-from-bottom-10 duration-700 delay-100">
-            <span className="bg-gradient-to-b from-white via-accent-amber to-accent-orange bg-clip-text text-transparent drop-shadow-xl">
+            {/* Gold metallic fill — see .gold-metallic in app/globals.css.
+                Step 1 of the gold rollout: hero title only; other accent
+                surfaces (section headings, sub-header, inline accents)
+                are intentionally left on the existing orange palette. */}
+            <span className="gold-metallic drop-shadow-xl">
               {t('home.subtitle')}
             </span>
           </h1>
