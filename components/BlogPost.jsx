@@ -166,7 +166,7 @@ export default function BlogPost({ post, prevPost, nextPost, related }) {
                               <span>{t.artist}</span>
                             )}
                             <span className="text-text-light/50"> — </span>
-                            <span className="italic">"{t.title}"</span>
+                            <span className="italic">&ldquo;{t.title}&rdquo;</span>
                           </div>
                           <div className="text-xs text-text-muted tracking-widest mt-1 flex flex-wrap gap-x-3 gap-y-1">
                             <span>{t.label}</span>
