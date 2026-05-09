@@ -161,8 +161,12 @@ export default function RootLayout({ children }) {
         <link rel="dns-prefetch" href="https://w.soundcloud.com" />
         <link rel="dns-prefetch" href="https://embed.music.apple.com" />
 
-        {/* Google Search Console — replace content value after verifying ownership */}
-        {/* <meta name="google-site-verification" content="YOUR_VERIFICATION_CODE_HERE" /> */}
+        {/* Google Search Console — verification meta-tag method.
+            Issued via the GSC property setup flow on 2026-05-09 for
+            the trance-nexus.com origin. Keep alongside the existing
+            Impact / partner verification tag below; both must be
+            present site-wide for ownership to keep verifying. */}
+        <meta name="google-site-verification" content="23tfFcbqlGGp7flh9Nd0tUn8-j804bnyEhwYdMJr8nI" />
 
         <meta name="impact-site-verification" value="81c79ac4-9a92-4da2-bebe-deaaf84fac7a" />
 
