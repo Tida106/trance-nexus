@@ -147,6 +147,21 @@ export default function BlogPost({ post, prevPost, nextPost, related }) {
               <ol className="space-y-5">
                 {post.tracks.map((t) => {
                   const review = t.review?.[language] || t.review?.en || '';
+                  // Search-URL listen buttons. We deliberately avoid
+                  // shipping platform IDs (no fabricated track IDs) —
+                  // the buttons hand off to platform search using the
+                  // artist + title pair, which is already verified
+                  // metadata. Strip any common feat. / pres. / x
+                  // collaboration cruft from the artist field for
+                  // the search query so platform search engines
+                  // don't have to disambiguate against featured
+                  // artists in the search box.
+                  const cleanArtist = (t.artist || '')
+                    .replace(/\s+(feat\.|featuring|pres\.|presents|with|x|&|vs\.?)\s+.*$/i, '')
+                    .trim();
+                  const q = `${cleanArtist} ${t.title}`.trim();
+                  const spotifyHref = `https://open.spotify.com/search/${encodeURIComponent(q)}`;
+                  const youtubeHref = `https://www.youtube.com/results?search_query=${encodeURIComponent(q)}`;
                   return (
                     <li
                       key={t.rank}
@@ -186,6 +201,28 @@ export default function BlogPost({ post, prevPost, nextPost, related }) {
                           {review}
                         </p>
                       )}
+                      <div className="mt-4 pl-0 md:pl-12 flex flex-wrap gap-2">
+                        <a
+                          href={spotifyHref}
+                          target="_blank"
+                          rel="noopener noreferrer sponsored"
+                          aria-label={`${isJA ? 'Spotifyで検索' : 'Search Spotify'}: ${q}`}
+                          className="inline-flex items-center gap-1.5 font-bebas text-xs tracking-widest px-3 py-1.5 rounded border border-accent-orange/40 bg-accent-orange/5 text-accent-orange hover:bg-accent-orange/15 hover:border-accent-orange transition-colors"
+                        >
+                          <span aria-hidden="true">▶</span>
+                          <span>{isJA ? 'Spotifyで聴く' : 'Listen on Spotify'}</span>
+                        </a>
+                        <a
+                          href={youtubeHref}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          aria-label={`${isJA ? 'YouTubeで検索' : 'Search YouTube'}: ${q}`}
+                          className="inline-flex items-center gap-1.5 font-bebas text-xs tracking-widest px-3 py-1.5 rounded border border-orange-900/40 bg-dark-bg/50 text-text-light/85 hover:bg-accent-orange/10 hover:border-accent-orange/40 hover:text-accent-orange transition-colors"
+                        >
+                          <span aria-hidden="true">📺</span>
+                          <span>{isJA ? 'YouTube' : 'YouTube'}</span>
+                        </a>
+                      </div>
                     </li>
                   );
                 })}
