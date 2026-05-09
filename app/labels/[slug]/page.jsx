@@ -67,6 +67,19 @@ export default async function LabelPage({ params }) {
     .slice(0, 4)
     .map(slimPost);
 
+  // Roster member JSON-LD — each signed artist resolves to a real
+  // /artists/<slug> URL via getArtistsForLabel reverse-lookup, so
+  // every member entry in the structured data has a discoverable
+  // target. The schema.org Organization type accepts `member` as
+  // an array of Person entities; we mirror it as `employee` for
+  // older crawler compatibility.
+  const memberSchema = (signedArtists || []).map((a) => ({
+    '@type': 'Person',
+    name: a.name,
+    url: `https://trance-nexus.com/artists/${a.slug}`,
+    alternateName: a.realName !== a.name ? a.realName : undefined,
+  }));
+
   const orgSchema = {
     '@context': 'https://schema.org',
     '@type': 'Organization',
@@ -83,6 +96,8 @@ export default async function LabelPage({ params }) {
       '@type': 'Person',
       name: n,
     })),
+    member: memberSchema.length ? memberSchema : undefined,
+    employee: memberSchema.length ? memberSchema : undefined,
     sameAs: Object.values(label.links || {}).filter(Boolean),
     knowsAbout: ['Trance music', ...(label.subgenres || [])],
     url: `https://trance-nexus.com/labels/${label.slug}`,

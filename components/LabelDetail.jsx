@@ -279,15 +279,26 @@ export default function LabelDetail({ label, related, signedArtists, posts }) {
             </section>
           )}
 
-          {/* Signed artists from /artists DB */}
+          {/* Roster / Key Artists — auto-derived from the artists
+              catalogue via getArtistsForLabel reverse-lookup. Each
+              tile links into /artists/<slug> for the bidirectional
+              artist↔label network. The list is capped at 15 to
+              keep the section readable on labels with very large
+              rosters; the full set continues to back the JSON-LD
+              `member` array on the page. */}
           {signedArtists?.length > 0 && (
             <section className="mb-12">
               <h2 className="font-bebas text-3xl tracking-widest text-white mb-4">
-                {isJA ? '所属アーティスト' : 'Signed Artists'}
+                {isJA ? '所属アーティスト' : 'Roster / Key Artists'}
+                {signedArtists.length > 0 && (
+                  <span className="ml-3 text-base text-text-muted tracking-widest">
+                    {signedArtists.length}
+                  </span>
+                )}
               </h2>
               <div className="w-16 h-0.5 bg-gradient-to-r from-accent-red via-accent-orange to-transparent mb-6" />
               <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
-                {signedArtists.map((a) => (
+                {signedArtists.slice(0, 15).map((a) => (
                   <Link
                     key={a.slug}
                     href={`/artists/${a.slug}`}
