@@ -590,7 +590,7 @@ Through 2017+, Goldrush has released the bulk of Ben Gold's solo singles and EPs
     founded: '2014',
     hq: 'Ireland',
     founders: ['Bryan Kearney'],
-    aliases: ['karnage', 'karnage records', 'karnage digital records'],
+    aliases: ['karnage', 'karnage records', 'karnage digital records', 'kearnage', 'kearnage recordings'],
     subgenres: ['Tech Trance', 'Uplifting Trance', 'Hard Trance'],
     topReleases: [
       { title: 'Various Bryan Kearney singles and EPs', artist: 'Bryan Kearney', year: '2014+', type: 'multiple' },
