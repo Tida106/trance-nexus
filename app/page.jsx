@@ -239,34 +239,6 @@ export default function Home() {
             ))}
           </div>
 
-          {/* Editor's Pick mini-card — the curated jumping-off point
-              that makes the hero converted from a static intro into
-              an active landing page. Always points at our highest-
-              effort current article (all-time-best > monthly-charts
-              > newest), so it's always something worth reading. */}
-          {editorsPick && (
-            <div className="mt-12 max-w-3xl mx-auto animate-in fade-in slide-in-from-bottom-10 duration-700 delay-[400ms]">
-              <Link
-                href={`/blog/${editorsPick.slug}`}
-                className="group block text-left bg-dark-bg2/70 border border-accent-orange/40 hover:border-accent-orange rounded-sm p-5 md:p-6 transition-all hover:shadow-xl hover:shadow-accent-orange/10 hover:translate-y-[-2px]"
-              >
-                <div className="flex items-baseline gap-3 mb-3 flex-wrap">
-                  <span className="font-bebas text-[11px] tracking-widest px-2 py-0.5 rounded border border-accent-orange bg-accent-orange/15 text-accent-orange">
-                    ⭐ {isJA ? 'エディターズ・ピック' : "Editor's Pick"}
-                  </span>
-                  <span className="text-xs text-text-muted tracking-widest">
-                    {editorsPick.date} · {editorsPick.readTime} {isJA ? '分' : 'min read'}
-                  </span>
-                </div>
-                <h2 className="font-bebas text-xl md:text-2xl tracking-widest text-white group-hover:text-accent-orange transition-colors leading-tight mb-2">
-                  {(isJA ? editorsPick.ja.title : editorsPick.en.title)}
-                </h2>
-                <p className="text-sm text-text-light/65 leading-relaxed line-clamp-2">
-                  {(isJA ? editorsPick.ja.excerpt : editorsPick.en.excerpt)}
-                </p>
-              </Link>
-            </div>
-          )}
         </div>
 
         <div
@@ -311,7 +283,8 @@ export default function Home() {
       <AdSlot id="home-ad-top" format="banner" />
 
       {/* ─────────────────────────────────────────────────────────────
-          a) LATEST POSTS (6) — newest articles. On mobile we present
+          a) LATEST POSTS (6) — moved to lead the content flow under
+          the Hero. On mobile we present
           as a horizontal-scroll snap row to keep the section compact
           (one card visible at a time, swipe horizontally for more).
           From md: it becomes a 2/3-column grid.
@@ -373,54 +346,46 @@ export default function Home() {
       </section>
 
       {/* ─────────────────────────────────────────────────────────────
-          b) TRENDING THIS WEEK — without runtime analytics, this is
-          editor-curated: the next four articles after Latest Posts,
-          deduped against the all-time-best canon (which has its own
-          section). Visually emphasised with an "Editor's Pick" tag
-          on each card so visitors understand it's curation, not
-          telemetry.
+          b) FEATURED ARTISTS (6) — moved up under Latest Posts so the
+          most actionable directory surface shows above the long
+          editorial sections. Mobile horizontal-scroll snap row,
+          desktop 3-column grid. Reuses ArtistCard.
           ───────────────────────────────────────────────────────── */}
-      {trending.length > 0 && (
-        <section id="trending" className="cv-auto relative z-10 py-20 px-6 md:px-12 bg-dark-bg2/40 border-y border-orange-900/15">
-          <div className="max-w-7xl mx-auto">
-            <div className="mb-8 flex items-end justify-between gap-4 flex-wrap">
-              <div>
-                <h2 className="font-bebas text-4xl md:text-5xl tracking-wider text-white mb-2 flex items-center gap-3 flex-wrap">
-                  <span>{isJA ? '今週の注目' : 'Trending This Week'}</span>
-                  <span className="text-xl">🔥</span>
-                </h2>
-                <div className="w-20 h-1 bg-gradient-to-r from-accent-red via-accent-orange to-transparent" />
-              </div>
+      <section id="artist" className="cv-auto relative z-10 py-20 px-6 md:px-12 bg-dark-bg2/50">
+        <div className="max-w-7xl mx-auto">
+          <div className="mb-8 flex items-end justify-between gap-4 flex-wrap">
+            <div>
+              <h2 className="font-bebas text-4xl md:text-5xl tracking-wider text-white mb-2 flex items-center gap-3 flex-wrap">
+                <span>{t('artists.title')}</span>
+                <span className="font-bebas text-xl tracking-widest px-2.5 py-0.5 rounded-md bg-accent-orange text-black">
+                  {artists.length}
+                </span>
+              </h2>
+              <div className="w-20 h-1 bg-gradient-to-r from-accent-red via-accent-orange to-transparent" />
             </div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-              {trending.map((post) => {
-                const c = isJA ? post.ja : post.en;
-                return (
-                  <Link
-                    key={post.slug}
-                    href={`/blog/${post.slug}`}
-                    prefetch={false}
-                    className="group bg-dark-bg2/80 border border-orange-900/20 rounded-sm overflow-hidden hover:border-accent-orange/50 hover:translate-y-[-3px] hover:shadow-lg transition-all block"
-                  >
-                    <div className="h-1 bg-gradient-to-r from-accent-amber to-accent-orange" />
-                    <div className="p-4">
-                      <span className="font-bebas text-[10px] tracking-widest px-1.5 py-0.5 rounded border border-accent-amber/40 bg-accent-amber/10 text-accent-amber inline-block mb-2">
-                        ⭐ {isJA ? '編集部推薦' : 'Editor pick'}
-                      </span>
-                      <h3 className="font-bebas text-base tracking-widest text-white mb-2 leading-tight group-hover:text-accent-orange transition-colors line-clamp-3 min-h-[3.5rem]">
-                        {c.title}
-                      </h3>
-                      <div className="text-[11px] text-text-muted tracking-widest">
-                        {post.date} · {post.readTime} {isJA ? '分' : 'min read'}
-                      </div>
-                    </div>
-                  </Link>
-                );
-              })}
-            </div>
+            <Link
+              href="/artists"
+              className="inline-flex items-center gap-2 font-bebas text-sm tracking-widest px-5 py-2.5 rounded bg-gradient-to-r from-accent-red via-accent-orange to-accent-amber text-black shadow-lg hover:shadow-xl hover:shadow-accent-orange/40 hover:scale-105 transition-all"
+            >
+              <span>🎯</span>
+              <span>
+                {isJA
+                  ? `${artists.length}名のアーティストを全て見る`
+                  : `View all ${artists.length} artists`}
+              </span>
+              <span>→</span>
+            </Link>
           </div>
-        </section>
-      )}
+
+          <div className="md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-5 flex md:block gap-4 overflow-x-auto md:overflow-visible snap-x snap-mandatory pb-4 md:pb-0 -mx-6 md:mx-0 px-6 md:px-0">
+            {featuredArtists.map((a) => (
+              <div key={a.slug} className="snap-start shrink-0 w-[80vw] sm:w-[60vw] md:w-auto">
+                <ArtistCard artist={a} />
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
 
       {/* Ad slot 2 — mid-content rectangle. */}
       <AdSlot id="home-ad-mid-1" format="inline" />
@@ -465,7 +430,96 @@ export default function Home() {
       )}
 
       {/* ─────────────────────────────────────────────────────────────
-          d) ALL-TIME BEST canon (5) — the highest-effort articles in
+          d) TRENDING THIS WEEK — without runtime analytics this is a
+          curated long-tail row picked from articles after Latest Posts,
+          excluding the all-time-best canon and other dedicated sections.
+          Card badge is "Popular Now" so the framing reads as audience
+          activity rather than editor preference.
+          ───────────────────────────────────────────────────────── */}
+      {trending.length > 0 && (
+        <section id="trending" className="cv-auto relative z-10 py-20 px-6 md:px-12 bg-dark-bg2/40 border-y border-orange-900/15">
+          <div className="max-w-7xl mx-auto">
+            <div className="mb-8 flex items-end justify-between gap-4 flex-wrap">
+              <div>
+                <h2 className="font-bebas text-4xl md:text-5xl tracking-wider text-white mb-2 flex items-center gap-3 flex-wrap">
+                  <span>{isJA ? '今週の注目' : 'Trending This Week'}</span>
+                  <span className="text-xl">🔥</span>
+                </h2>
+                <div className="w-20 h-1 bg-gradient-to-r from-accent-red via-accent-orange to-transparent" />
+              </div>
+            </div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+              {trending.map((post) => {
+                const c = isJA ? post.ja : post.en;
+                return (
+                  <Link
+                    key={post.slug}
+                    href={`/blog/${post.slug}`}
+                    prefetch={false}
+                    className="group bg-dark-bg2/80 border border-orange-900/20 rounded-sm overflow-hidden hover:border-accent-orange/50 hover:translate-y-[-3px] hover:shadow-lg transition-all block"
+                  >
+                    <div className="h-1 bg-gradient-to-r from-accent-amber to-accent-orange" />
+                    <div className="p-4">
+                      <span className="font-bebas text-[10px] tracking-widest px-1.5 py-0.5 rounded border border-accent-amber/40 bg-accent-amber/10 text-accent-amber inline-block mb-2">
+                        🔥 {isJA ? '注目記事' : 'Popular Now'}
+                      </span>
+                      <h3 className="font-bebas text-base tracking-widest text-white mb-2 leading-tight group-hover:text-accent-orange transition-colors line-clamp-3 min-h-[3.5rem]">
+                        {c.title}
+                      </h3>
+                      <div className="text-[11px] text-text-muted tracking-widest">
+                        {post.date} · {post.readTime} {isJA ? '分' : 'min read'}
+                      </div>
+                    </div>
+                  </Link>
+                );
+              })}
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* ─────────────────────────────────────────────────────────────
+          e) TOP PICK THIS WEEK — relocated from the Hero card. Single
+          highlighted article (the same `editorsPick` selection logic:
+          most recent all-time-best > monthly-charts > newest). Renamed
+          to "Top Pick This Week" so the framing is reader-facing rather
+          than editor-voice.
+          ───────────────────────────────────────────────────────── */}
+      {editorsPick && (
+        <section id="top-pick" className="cv-auto relative z-10 py-16 px-6 md:px-12">
+          <div className="max-w-5xl mx-auto">
+            <div className="mb-6">
+              <h2 className="font-bebas text-4xl md:text-5xl tracking-wider text-white mb-2 flex items-center gap-3 flex-wrap">
+                <span>{isJA ? '今週のトップ・ピック' : 'Top Pick This Week'}</span>
+                <span className="text-2xl">⭐</span>
+              </h2>
+              <div className="w-20 h-1 bg-gradient-to-r from-accent-red via-accent-orange to-transparent" />
+            </div>
+            <Link
+              href={`/blog/${editorsPick.slug}`}
+              className="group block text-left bg-dark-bg2/70 border border-accent-orange/40 hover:border-accent-orange rounded-sm p-5 md:p-8 transition-all hover:shadow-xl hover:shadow-accent-orange/10 hover:translate-y-[-2px]"
+            >
+              <div className="flex items-baseline gap-3 mb-3 flex-wrap">
+                <span className="font-bebas text-[11px] tracking-widest px-2 py-0.5 rounded border border-accent-orange bg-accent-orange/15 text-accent-orange">
+                  ⭐ {isJA ? '今週のトップ・ピック' : 'Top Pick This Week'}
+                </span>
+                <span className="text-xs text-text-muted tracking-widest">
+                  {editorsPick.date} · {editorsPick.readTime} {isJA ? '分' : 'min read'}
+                </span>
+              </div>
+              <h3 className="font-bebas text-xl md:text-3xl tracking-widest text-white group-hover:text-accent-orange transition-colors leading-tight mb-3">
+                {(isJA ? editorsPick.ja.title : editorsPick.en.title)}
+              </h3>
+              <p className="text-sm md:text-base text-text-light/70 leading-relaxed line-clamp-3">
+                {(isJA ? editorsPick.ja.excerpt : editorsPick.en.excerpt)}
+              </p>
+            </Link>
+          </div>
+        </section>
+      )}
+
+      {/* ─────────────────────────────────────────────────────────────
+          f) ALL-TIME BEST canon (5) — the highest-effort articles in
           the catalogue. Featured first card spans 2 columns at md+
           for visual hierarchy.
           ───────────────────────────────────────────────────────── */}
@@ -536,52 +590,11 @@ export default function Home() {
         </section>
       )}
 
-      {/* ─────────────────────────────────────────────────────────────
-          e) FEATURED ARTISTS (6) — mobile horizontal-scroll snap row,
-          desktop 3-column grid. Reuses the existing ArtistCard
-          component to keep card design consistent across surfaces.
-          ───────────────────────────────────────────────────────── */}
-      <section id="artist" className="cv-auto relative z-10 py-20 px-6 md:px-12 bg-dark-bg2/50">
-        <div className="max-w-7xl mx-auto">
-          <div className="mb-8 flex items-end justify-between gap-4 flex-wrap">
-            <div>
-              <h2 className="font-bebas text-4xl md:text-5xl tracking-wider text-white mb-2 flex items-center gap-3 flex-wrap">
-                <span>{t('artists.title')}</span>
-                <span className="font-bebas text-xl tracking-widest px-2.5 py-0.5 rounded-md bg-accent-orange text-black">
-                  {artists.length}
-                </span>
-              </h2>
-              <div className="w-20 h-1 bg-gradient-to-r from-accent-red via-accent-orange to-transparent" />
-            </div>
-            <Link
-              href="/artists"
-              className="inline-flex items-center gap-2 font-bebas text-sm tracking-widest px-5 py-2.5 rounded bg-gradient-to-r from-accent-red via-accent-orange to-accent-amber text-black shadow-lg hover:shadow-xl hover:shadow-accent-orange/40 hover:scale-105 transition-all"
-            >
-              <span>🎯</span>
-              <span>
-                {isJA
-                  ? `${artists.length}名のアーティストを全て見る`
-                  : `View all ${artists.length} artists`}
-              </span>
-              <span>→</span>
-            </Link>
-          </div>
-
-          <div className="md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-5 flex md:block gap-4 overflow-x-auto md:overflow-visible snap-x snap-mandatory pb-4 md:pb-0 -mx-6 md:mx-0 px-6 md:px-0">
-            {featuredArtists.map((a) => (
-              <div key={a.slug} className="snap-start shrink-0 w-[80vw] sm:w-[60vw] md:w-auto">
-                <ArtistCard artist={a} />
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Ad slot 3 — between artist gallery and genre browser. */}
+      {/* Ad slot 3 — between All-Time Best canon and the genre browser. */}
       <AdSlot id="home-ad-mid-2" format="banner" />
 
       {/* ─────────────────────────────────────────────────────────────
-          f) BROWSE BY GENRE — entry points into the "What is X"
+          g) BROWSE BY GENRE — entry points into the "What is X"
           definitive guide series. Each tile links into the long-form
           guide; genre pages live at /blog/what-is-<slug>. Ten tiles
           cover the canonical genre map.
@@ -630,7 +643,7 @@ export default function Home() {
       )}
 
       {/* ─────────────────────────────────────────────────────────────
-          g) UPCOMING EVENTS — three featured upcoming events from the
+          h) UPCOMING EVENTS — three featured upcoming events from the
           curated catalogue. Same logic as the previous events
           section: confirmed-next-date events first, annuals trailing.
           ───────────────────────────────────────────────────────── */}
@@ -686,7 +699,7 @@ export default function Home() {
       )}
 
       {/* ─────────────────────────────────────────────────────────────
-          h) FROM THE GLOSSARY (4) — a four-pick tour of the glossary
+          i) FROM THE GLOSSARY (4) — a four-pick tour of the glossary
           balanced across category (genre / production / dj / culture)
           so the row reads as a sample of the whole, not four entries
           from one bucket. Encourages drilling into the long-tail
