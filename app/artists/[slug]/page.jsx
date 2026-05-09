@@ -3,6 +3,7 @@ import ArtistDetail from '@/components/ArtistDetail';
 import { artists, getArtistBySlug, getRelatedArtists } from '@/data/artists/index';
 import { listing } from '@/data/blog/listing';
 import { getEventsByArtist } from '@/data/events/index';
+import { findLabelByName } from '@/data/labels/index';
 
 export function generateStaticParams() {
   return artists.map((a) => ({ slug: a.slug }));
@@ -75,6 +76,23 @@ export default async function ArtistPage({ params }) {
     typicalMonth: e.dates?.typicalMonth || null,
   }));
 
+  // memberOf — schema.org expects a list of MusicGroup / Organization
+  // entities. Resolve each artist.labels[] string against the labels
+  // catalogue; only emit memberOf for labels we actually have a page
+  // for, so the link target in the structured data is a real URL.
+  // Unresolved label strings are intentionally left out of the
+  // structured data (they still appear in the visual Affiliated
+  // Labels section as plain-text cards).
+  const labelMemberships = (artist.labels || [])
+    .map((name) => ({ name, match: findLabelByName(name) }))
+    .filter((x) => x.match)
+    .map(({ name, match }) => ({
+      '@type': 'MusicGroup',
+      name: match.name,
+      url: `https://trance-nexus.com/labels/${match.slug}`,
+      alternateName: name !== match.name ? name : undefined,
+    }));
+
   const personSchema = {
     '@context': 'https://schema.org',
     '@type': 'Person',
@@ -85,6 +103,8 @@ export default async function ArtistPage({ params }) {
     nationality: artist.origin?.split(',').pop()?.trim(),
     jobTitle: 'DJ / Music Producer',
     knowsAbout: ['Trance music', ...(artist.tags || [])],
+    memberOf: labelMemberships.length ? labelMemberships : undefined,
+    affiliation: labelMemberships.length ? labelMemberships : undefined,
     sameAs: Object.values(artist.links || {}).filter(Boolean),
     mainEntityOfPage: {
       '@type': 'WebPage',

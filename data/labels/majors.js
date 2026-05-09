@@ -17,7 +17,7 @@ export const majors = [
     founded: '2003',
     hq: 'Amsterdam, Netherlands',
     founders: ['Armin van Buuren', 'Maykel Piron', 'David Lewis'],
-    aliases: ['armada', 'armada records', 'armada digital'],
+    aliases: ['armada', 'armada records', 'armada digital', 'armind', 'a state of trance', 'asot', 'armada captivating', 'armada trice'],
     subgenres: ['Uplifting', 'Progressive', 'Vocal Trance', 'Future House'],
     topReleases: [
       { title: 'A State of Trance compilations', artist: 'Armin van Buuren', year: '2004+', type: 'series' },

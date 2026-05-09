@@ -384,6 +384,64 @@ export default function ArtistDetail({ artist, related, mentioned, performingAt 
             </section>
           )}
 
+          {/* Affiliated Labels — prominent section parallel to Related
+              Artists. Each label string is run through findLabelByName
+              (case-insensitive substring match against label.name +
+              label.aliases[]); resolved entries render as clickable
+              cards linking to /labels/<slug>, unresolved entries
+              render as muted plain-text cards so the visual hierarchy
+              of "this artist's label history" stays consistent even
+              when individual labels aren't yet in the catalogue. The
+              same artist.labels[] data also appears compactly in the
+              At-a-Glance facts panel above; this section is the
+              user-facing surface for the bidirectional artist↔label
+              network. */}
+          {artist.labels?.length > 0 && (
+            <section className="mb-12">
+              <h2 className="font-bebas text-3xl tracking-widest text-white mb-4">
+                {isJA ? '所属レーベル' : 'Affiliated Labels'}
+              </h2>
+              <div className="w-16 h-0.5 bg-gradient-to-r from-accent-red via-accent-orange to-transparent mb-6" />
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+                {artist.labels.map((lname, i) => {
+                  const match = findLabelByName(lname);
+                  if (match) {
+                    return (
+                      <Link
+                        key={i}
+                        href={`/labels/${match.slug}`}
+                        className="group bg-dark-bg2/80 border border-orange-900/20 rounded-sm p-4 text-center hover:border-accent-orange/50 hover:translate-y-[-3px] transition-all"
+                      >
+                        <div className="text-3xl mb-2">{match.emoji}</div>
+                        <div className="font-bebas text-sm tracking-widest text-white group-hover:text-accent-orange transition-colors">
+                          {lname}
+                        </div>
+                        <div className="text-xs text-text-muted tracking-widest mt-1">
+                          {match.flag}
+                        </div>
+                      </Link>
+                    );
+                  }
+                  return (
+                    <div
+                      key={i}
+                      className="bg-dark-bg2/40 border border-orange-900/15 rounded-sm p-4 text-center opacity-60"
+                      title={isJA ? 'プロフィール未登録' : 'Not in label catalogue yet'}
+                    >
+                      <div className="text-3xl mb-2 text-text-muted">💿</div>
+                      <div className="font-bebas text-sm tracking-widest text-text-light/70">
+                        {lname}
+                      </div>
+                      <div className="text-[10px] text-text-muted tracking-widest mt-1">
+                        {isJA ? '外部レーベル' : 'external'}
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+            </section>
+          )}
+
           {/* Related artists */}
           {related?.length > 0 && (
             <section className="mb-12">
