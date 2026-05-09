@@ -230,13 +230,81 @@ export default function BlogPost({ post, prevPost, nextPost, related }) {
             </section>
           )}
 
+          {/* Featured Tracks — posts with a free-form `featuredTracks`
+              array (e.g. monthly-charts entries, which discuss tracks
+              in prose rather than a structured ranked list). Each
+              entry renders a card with Spotify + YouTube search-URL
+              hand-off buttons, mirroring the listen buttons on the
+              All-Time Best canon's tracks[] cards. We deliberately
+              don't ship platform IDs here either — the search hand-off
+              is the no-fabrication path. */}
+          {Array.isArray(post.featuredTracks) && post.featuredTracks.length > 0 && (
+            <section className="mt-12 pt-8 border-t border-orange-900/20">
+              <h2 className="font-bebas text-2xl tracking-widest text-accent-orange mb-2">
+                {isJA ? 'この記事で取り上げたトラック' : 'Featured Tracks'}
+              </h2>
+              <div className="w-12 h-0.5 bg-gradient-to-r from-accent-red to-accent-orange mb-5" />
+              <ul className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                {post.featuredTracks.map((t, i) => {
+                  const cleanArtist = (t.artist || '')
+                    .replace(/\s+(feat\.|featuring|pres\.|presents|with|x|&|vs\.?)\s+.*$/i, '')
+                    .trim();
+                  const q = `${cleanArtist} ${t.title}`.trim();
+                  const spotifyHref = `https://open.spotify.com/search/${encodeURIComponent(q)}`;
+                  const youtubeHref = `https://www.youtube.com/results?search_query=${encodeURIComponent(q)}`;
+                  return (
+                    <li
+                      key={i}
+                      className="bg-dark-bg2/60 border border-orange-900/15 rounded-sm p-4 hover:border-accent-orange/40 transition-colors"
+                    >
+                      <div className="font-bebas text-base tracking-widest text-white leading-tight mb-1">
+                        <span>{t.artist}</span>
+                        <span className="text-text-light/50"> — </span>
+                        <span className="italic">&ldquo;{t.title}&rdquo;</span>
+                      </div>
+                      {(t.label || t.genre) && (
+                        <div className="text-[11px] text-text-muted tracking-widest mb-3 flex flex-wrap gap-x-2 gap-y-1">
+                          {t.label && <span>{t.label}</span>}
+                          {t.label && t.genre && <span>·</span>}
+                          {t.genre && <span className="text-accent-orange/70">{t.genre}</span>}
+                        </div>
+                      )}
+                      <div className="flex flex-wrap gap-2">
+                        <a
+                          href={spotifyHref}
+                          target="_blank"
+                          rel="noopener noreferrer sponsored"
+                          aria-label={`${isJA ? 'Spotifyで検索' : 'Search Spotify'}: ${q}`}
+                          className="inline-flex items-center gap-1.5 font-bebas text-xs tracking-widest px-3 py-1.5 rounded border border-accent-orange/40 bg-accent-orange/5 text-accent-orange hover:bg-accent-orange/15 hover:border-accent-orange transition-colors"
+                        >
+                          <span aria-hidden="true">▶</span>
+                          <span>{isJA ? 'Spotifyで聴く' : 'Listen on Spotify'}</span>
+                        </a>
+                        <a
+                          href={youtubeHref}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          aria-label={`${isJA ? 'YouTubeで検索' : 'Search YouTube'}: ${q}`}
+                          className="inline-flex items-center gap-1.5 font-bebas text-xs tracking-widest px-3 py-1.5 rounded border border-orange-900/40 bg-dark-bg/50 text-text-light/85 hover:bg-accent-orange/10 hover:border-accent-orange/40 hover:text-accent-orange transition-colors"
+                        >
+                          <span aria-hidden="true">📺</span>
+                          <span>YouTube</span>
+                        </a>
+                      </div>
+                    </li>
+                  );
+                })}
+              </ul>
+            </section>
+          )}
+
           {(() => {
             const embeds = getEmbedsForSlug(post.slug);
             if (embeds.length === 0) return null;
             return (
               <section className="mt-12 pt-8 border-t border-orange-900/20">
                 <h2 className="font-bebas text-2xl tracking-widest text-accent-orange mb-2">
-                  {isJA ? '関連楽曲' : 'Featured Tracks'}
+                  {isJA ? '関連楽曲' : 'Related Tracks'}
                 </h2>
                 <div className="w-12 h-0.5 bg-gradient-to-r from-accent-red to-accent-orange mb-5" />
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">

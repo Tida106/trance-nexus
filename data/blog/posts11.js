@@ -53,7 +53,19 @@ export const posts11 = [
         { heading: 'R/D/Hと低BPMピック', body: '<p>ジャンルのRaw / Deep / Hypnotic側は注意に値する3つの1月のカットを届けた。Hoopoeの「Aryaduta (Bam Jerapah Remix)」（Hedjog Records、137 BPM）はオリジナルを、Mind AgainstとAfterlifeシーンが2026年のトランス・オーディエンスの中心に据えたメロディック・テクノ・クロスオーバーで更新する。Keistepの「Last Mantra」（Celestial Records、132 BPM）はピックの中でより内省的で、抜粋ではなくフル・トラック・リスニングに報いる長尺パッド・ワークを伴う。両方とも2026年にトランスとして数えられるものの低BPM端 ― 本カタログのスピリチュアリティ・オブ・トランス・エッセイが詳細に扱うジャンル境界の拡張 ― に位置する。</p>' },
         { heading: '2月に注視すべきもの', body: '<p>月末時点でカレンダー上の大型2月リリースはすでに告知されていた：Armin van BuurenのRichard DurandおよびDicosisとの「Always You」、ロッテルダムでの25年ASOTフェスティバル版にタイミングを合わせた公式A State of Trance 2026 ELEVATIONアンセム。それを超えて、Anjunabeatsのリリース・ペースはAbove & BeyondがQ1を通してシングルを投下し続けることを示唆しており、FSOEのリリース・カレンダーにはAly & Filaのコラボレーションがキューに入っている。2026年最初の月は、2024年や2025年が生み出したよりもリリース密度の高い年の始まりに見える ― コミットしたトランス・リスナーにとって、それは正に求めるべき年初のシグナルだ。</p>' }
       ]
-    }
+    },
+    featuredTracks: [
+      { artist: 'Above & Beyond feat. Zoë Johnston', title: 'Carry Me Home', label: 'Anjunabeats', genre: 'Vocal Trance' },
+      { artist: 'Above & Beyond feat. Zoë Johnston', title: 'Ride At Dawn', label: 'Anjunabeats', genre: 'Vocal Trance' },
+      { artist: 'Above & Beyond feat. Zoë Johnston', title: "Quicksand (Don't Go)", label: 'Anjunabeats', genre: 'Vocal Trance' },
+      { artist: 'Above & Beyond feat. Richard Bedford', title: 'Blood From A Stone', label: 'Anjunabeats', genre: 'Vocal Trance' },
+      { artist: 'Paul van Dyk & Ciaran McAuley', title: 'When I Found You', label: 'Black Hole Recordings', genre: 'Tech Trance' },
+      { artist: 'Paul Glazby', title: 'Kick It 2025', label: 'Vicious Circle Recordings', genre: 'Hard Trance' },
+      { artist: 'Olav Basoski, Sil & Entasia', title: 'Windows', label: 'Armada Music', genre: 'Trance / R/D/H' },
+      { artist: 'Vhyce', title: 'AcidSeq2', label: 'Saint Vaast Recordings', genre: 'Acid Trance' },
+      { artist: 'Hoopoe', title: 'Aryaduta (Bam Jerapah Remix)', label: 'Hedjog Records', genre: 'R/D/H' },
+      { artist: 'Keistep', title: 'Last Mantra', label: 'Celestial Records', genre: 'R/D/H' }
+    ]
   },
 
   {
@@ -84,7 +96,18 @@ export const posts11 = [
         { heading: 'プログレッシブとR/D/Hピック', body: '<p>ヘッドライン・メインステージ活動を超えて、2つのプログレッシブ寄りの2月のカットが言及に値する。ReOrder pres. Crowd+Ctrlの「Move To The Rhythm」（Armada / ASOT）はプログレッシブ・テック・クロスオーバーのよりハードな端に位置し、複数のASOT 2026エピソードで配置された。Fariusの「Elements」（Armada / Anjunabeats）は、2020年代後半のAnjunaエコシステムが洗練してきたAndrew Bayer隣接のメロディック・テクノ・レジスターへとより深く押し進めた。両方とも、月の他のメインステージ素材がデフォルトとしたピークタイムのみのリスニングではなく、フル・トラックの注意に報いた。</p>' },
         { heading: '25年のエコー', body: '<p>2026年2月は、ジャンルの編集的中心 ― A State of Trance ― が最も長期にわたる記念日を祝った月として記憶されるだろう。上記のリリースは編集ピック。より広い物語は、ASOT 25が本カタログの「ASOT-25-years」エッセイが詳細に扱う機関の耐久性を実証したことだ。月の音楽はそのフレームで最もよく聴かれる：単にリリースのチャートとしてではなく、ジャンルの今日までで最も帰結的な記念日の瞬間のサウンドトラックとして。</p>' }
       ]
-    }
+    },
+    featuredTracks: [
+      { artist: 'Armin van Buuren, Richard Durand & Dicosis', title: 'Always You', label: 'Armada / A State of Trance', genre: 'Vocal Trance' },
+      { artist: 'Aly & Fila feat. Jwaydan', title: 'We Control The Sunlight', label: 'FSOE', genre: 'Vocal Uplifting' },
+      { artist: 'Aly & Fila feat. Jwaydan', title: 'We Control The Sunlight (Darren Porter Remix)', label: 'FSOE', genre: 'Pure Trance / 138' },
+      { artist: 'Aly & Fila feat. Jwaydan', title: 'We Control The Sunlight (Fuenka Remix)', label: 'FSOE', genre: 'Melodic Progressive' },
+      { artist: 'Mark Sixma', title: 'Bring The Fire', label: 'Armada', genre: 'Mainstage Trance' },
+      { artist: 'Ronski Speed', title: 'Without You (Allen Watts Remix)', label: 'Black Hole / FSOE', genre: 'Pure Trance / 138' },
+      { artist: 'David Forbes & Sue McLaren', title: 'Satellite', label: 'Black Hole / FSOE', genre: 'Vocal Trance' },
+      { artist: 'ReOrder pres. Crowd+Ctrl', title: 'Move To The Rhythm', label: 'Armada / ASOT', genre: 'Progressive-Tech' },
+      { artist: 'Farius', title: 'Elements', label: 'Armada / Anjunabeats', genre: 'Melodic Progressive' }
+    ]
   },
 
   {
@@ -115,7 +138,16 @@ export const posts11 = [
         { heading: 'ハードとR/D/Hピック', body: '<p>ジャンルのよりハード側は注意に値する3月のカットを2つ届けた。Bryan Kearney隣接のプロデューサー活動はSubculture / Kearnage編集方向を継続し、上記のFSOE Argento Ron / Leedsリリースは低テンポでR/D/H空間へと橋渡しした。BeatportのR/D/H 3月チャートは、2025年がジャンル最注目のオーディエンス成長空間として確立したよりスローなトランスの軌跡を継続した ― 本カタログのスピリチュアリティ・オブ・トランスとトランス・メンタルヘルスのエッセイが、ジャンルの2026年の文化的足跡の中心として扱う領域。</p>' },
         { heading: '3月が2026年について教えてくれること', body: '<p>年に入って3ヶ月、2026年のリリース・カレンダーは2024年や2025年よりも密に見え、ベテランの再活性化（Push、ASOT 25）、新サブレーベルの発進（FSOE Argento、Pure Trance NEON）、そして継続するAbove & BeyondのAnjuna活動を伴う。パターンはトランス・ルネサンス2026エッセイの主張を強く支持する：ジャンルは、ポストEDMの低迷年が回復し得るとほのめかしたよりも、本当により生産的な瞬間にいる。4月と5月のリリースは、そのペースが継続するのかQ2がより保守的な溝に落ち着くのかを実証するだろう。</p>' }
       ]
-    }
+    },
+    featuredTracks: [
+      { artist: 'Push', title: 'Back When We Believed', label: 'Pure Trance NEON', genre: 'Pure Trance / 140' },
+      { artist: 'Ron with Leeds', title: 'A Place Between Moments', label: 'FSOE Argento', genre: 'Atmospheric Trance' },
+      { artist: 'Chris Metcalfe', title: 'Borealis', label: 'FSOE', genre: 'Mainstage Uplifting' },
+      { artist: 'XiJaro & Pitch', title: 'I Have Friends Everywhere', label: 'FSOE', genre: 'Vocal Tech-Trance' },
+      { artist: 'Alan Morris, Andrew Rayel, Joanna Angelina & EXTASIA', title: 'Never Be The Same', label: 'FSOE', genre: 'Vocal Uplifting' },
+      { artist: 'Joris Voorn x Ferry Corsten x Moonman', title: "Don't Be Afraid", label: 'Armada / ASOT 2026', genre: 'Progressive-Techno' },
+      { artist: 'Three Drives x Max Styler', title: 'Greece 2000 (Max Styler Re-Work)', label: 'Mainstage', genre: 'Re-Work' }
+    ]
   },
 
   {
@@ -146,7 +178,20 @@ export const posts11 = [
         { heading: 'プログレッシブとR/D/Hピック', body: '<p>4月のプログレッシブ側ハイライトにはPetereeseの「Lost in Infinity」（Enhanced Progressive、128 BPM）が含まれた ― 本誌のアーティスト・セクションの新プロファイルで扱うEstiva / Tinlicker Anjunadeepオーディエンス空間にクリーンに収まる楽曲主導のプログレッシブ・カット。BeatportのQuinny April ChartはY-Traxxの「Mystery Land (Quinny Remix)」とJake Ayres / Adam Schofieldの「Neo Era」を表面化した ― 両方とも年のノスタルジア・サイクル・ナラティブに供給する古いトランス素材の更新。R/D/H側は3月に確立されたスロー・トランスの軌跡を継続し、複数のPure Trance NEON隣接リリースが低BPM空間をアクティブに保った。</p>' },
         { heading: '4月が確認すること', body: '<p>2026年4月はQ1リリース・パターンを確認する：2026年は本当に2024年や2025年よりも密度の高いリリース年で、複数のレーベル（Anjunabeats、Coldharbour、FSOE / Argento、Pure Trance NEON、Black Hole）が頻度で運営しており、ベテラン・プロデューサー（Push、Signum、Oakenfold、Talla 2XLC）がレガシーに頼るのではなく現代の編集的文脈に再活性化している。5月のASOT 2026コンピレーション・リリースは年の前半を締めくくる ― そして本誌の5月チャート記事はその糸を取り上げる。</p>' }
       ]
-    }
+    },
+    featuredTracks: [
+      { artist: 'Markus Schulz & Talla 2XLC', title: 'Mainhattan', label: 'Coldharbour Recordings', genre: 'Mainstage Trance' },
+      { artist: 'Robert Nickson', title: 'Nine Lives', label: 'Coldharbour Recordings', genre: 'Mainstage Trance' },
+      { artist: 'Signum', title: 'Homage', label: 'Anjunabeats', genre: 'Vocal Trance' },
+      { artist: 'Paul Oakenfold & Sneijder', title: 'Bullet In The Gun', label: 'Mainstage', genre: 'Hard Trance / 140' },
+      { artist: 'Eximinds feat. Olga Murphy', title: 'Adagio', label: 'Uplifting Trance', genre: 'Vocal Uplifting / 140' },
+      { artist: 'Sergio Axe', title: 'Hyperdrive', label: '2Rock', genre: 'Hard Uplifting / 140' },
+      { artist: 'Corrado Baggieri', title: 'Seawaves', label: 'Uplifting Trance', genre: 'Uplifting / 138' },
+      { artist: 'The Space Brothers & Tai Woffinden', title: 'Shine', label: 'Uplifting', genre: 'Vocal Uplifting' },
+      { artist: 'Petereese', title: 'Lost in Infinity', label: 'Enhanced Progressive', genre: 'Progressive / 128' },
+      { artist: 'Y-Traxx', title: 'Mystery Land (Quinny Remix)', label: 'Quinny April Chart', genre: 'Pure Trance Re-Work' },
+      { artist: 'Jake Ayres / Adam Schofield', title: 'Neo Era', label: 'Pure Trance', genre: 'Pure Trance' }
+    ]
   },
 
   {
@@ -177,6 +222,19 @@ export const posts11 = [
         { heading: 'Frequencyミックスとボーカル・トランス', body: '<p>ASOT 2026コンピレーションのFrequencyミックスは3枚の中で伝統的ボーカル・トランスに最も近い。「Always You」（Armin / Durand / Dicosis）がディスクをアンカーするが、Sue McLaren / David Forbesの「Satellite」カット、Ronski Speedの「Without You」のAllen Wattsリミックス、Alexander Popov / FAWZY / Wavetraxxの「Attractive Force」もすべて同じボーカル主導領域に位置する。合わせると、本誌のiconic-trance-vocalistsエッセイで扱い、本カタログの最近の拡張でディレクトリに追加された新ボーカリスト・アーティスト・プロファイル（HALIENE、Christina Novelli、Susanaら）が継続する2010年代後半と2020年代のボーカル・トランス伝統をドキュメント化する。</p>' },
         { heading: 'H1 2026：総括', body: '<p>2026年の最初の5ヶ月は、少なくとも2018年以来、ジャンル最もリリース密度の高いH1を表す。Above & Beyondの1月の4トラックAnjunaドロップ、2月のASOT 25アンカー、3月のPush再活性化とFSOE Argento発進、Coldharbourが充実した4月、そして5月のASOT 2026コンピレーション ― 2024-2025年のスローな滴下パターンではなく、5ヶ月の実質的な編集モーメント。H2がこのペースに近いところを維持すれば、2026年はジャンルの約10年で最も強い年として閉じる。本誌の6月チャートは糸を取り上げる。今のところ、H1の総括が編集的物語だ。</p>' }
       ]
-    }
+    },
+    featuredTracks: [
+      { artist: 'Armin van Buuren', title: 'A State of Trance 2026 (Pulse / Frequency / Energy)', label: 'Armada / A State of Trance', genre: 'Compilation' },
+      { artist: 'Armin van Buuren & Lilly Palmer', title: 'Dopamine Machine', label: 'Armada / ASOT 2026', genre: 'Techno-Trance' },
+      { artist: 'Mark Sixma', title: 'Bring The Fire', label: 'Armada / ASOT 2026', genre: 'Mainstage Trance' },
+      { artist: 'BK', title: 'Full Fire', label: 'Armada / ASOT 2026', genre: 'Hard Trance' },
+      { artist: 'David Forbes', title: 'Diskotek', label: 'FSOE Argento / ASOT 2026', genre: 'Trance' },
+      { artist: 'Paul Boyle', title: 'Maya', label: 'Subculture / Pure Trance', genre: 'Pure Trance / 140' },
+      { artist: 'Liquid Dream', title: 'Entanglement', label: 'R/D/H', genre: 'Deeper R/D/H / 130' },
+      { artist: 'Omnia', title: 'As We Become One (Intro Mix)', label: 'Armada / ASOT 2026', genre: 'Progressive Trance' },
+      { artist: 'Joris Voorn x Ferry Corsten x Moonman', title: "Don't Be Afraid", label: 'Armada / ASOT 2026', genre: 'Techno-Trance' },
+      { artist: 'Ginchy', title: 'The Way (Sultan + Shepard Remix)', label: 'Armada / ASOT 2026', genre: 'Progressive-Techno' },
+      { artist: 'Alexander Popov / FAWZY / Wavetraxx', title: 'Attractive Force', label: 'Armada / ASOT 2026', genre: 'Vocal Trance' }
+    ]
   }
 ];
