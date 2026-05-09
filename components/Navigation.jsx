@@ -43,10 +43,16 @@ export default function Navigation() {
           <a
             key={i}
             href={link.href}
-            className="font-bebas text-sm tracking-widest text-text-muted px-5 h-[84px] leading-[84px] block border-l border-orange-900/20 hover:text-accent-orange hover:bg-orange-900/10 transition-all relative group"
+            className="px-5 h-[84px] leading-[84px] block border-l border-orange-900/20 hover:bg-[rgba(212,175,55,0.06)] transition-colors relative group"
           >
-            {link.label}
-            <span className="absolute bottom-0 left-0 right-0 h-0.5 bg-accent-orange scale-x-0 group-hover:scale-x-100 transition-transform origin-left"></span>
+            {/* Gold metallic label. The class lives on a child <span> so
+                the parent <a>'s hover-bg utility doesn't conflict with
+                the gradient's background-clip:text. group-hover targets
+                inside .gold-metallic-nav brighten the fill on hover. */}
+            <span className="font-bebas text-sm tracking-widest gold-metallic-nav">
+              {link.label}
+            </span>
+            <span className="absolute bottom-0 left-0 right-0 h-0.5 gold-metallic-underline scale-x-0 group-hover:scale-x-100 transition-transform origin-left"></span>
           </a>
         ))}
         <SearchTrigger />
@@ -57,23 +63,19 @@ export default function Navigation() {
             aria-label="Switch to English"
             aria-pressed={language === 'en'}
             className={`font-bebas text-sm tracking-widest transition-all ${
-              language === 'en'
-                ? 'text-accent-orange drop-shadow-lg'
-                : 'text-text-muted hover:text-accent-orange'
+              language === 'en' ? 'gold-metallic-nav gold-metallic-nav-active' : 'gold-metallic-nav'
             }`}
           >
             EN
           </button>
-          <span aria-hidden="true" className="text-text-muted/30">|</span>
+          <span aria-hidden="true" className="text-[rgba(212,175,55,0.4)]">|</span>
           <button
             type="button"
             onClick={() => switchLanguage('ja')}
             aria-label="日本語に切り替え"
             aria-pressed={language === 'ja'}
             className={`font-bebas text-sm tracking-widest transition-all ${
-              language === 'ja'
-                ? 'text-accent-orange drop-shadow-lg'
-                : 'text-text-muted hover:text-accent-orange'
+              language === 'ja' ? 'gold-metallic-nav gold-metallic-nav-active' : 'gold-metallic-nav'
             }`}
           >
             JA

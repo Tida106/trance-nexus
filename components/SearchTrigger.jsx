@@ -41,10 +41,15 @@ export default function SearchTrigger() {
       <button
         onClick={() => { setArmed(true); setOpen(true); }}
         aria-label={isJA ? 'サイト内検索を開く' : 'Open site search'}
-        className="font-bebas text-sm tracking-widest text-text-muted hover:text-accent-orange px-4 h-[84px] border-l border-orange-900/20 flex items-center gap-2 transition-colors"
+        className="font-bebas text-sm tracking-widest text-text-muted hover:bg-[rgba(212,175,55,0.06)] px-4 h-[84px] border-l border-orange-900/20 flex items-center gap-2 transition-colors group"
       >
+        {/* Auxiliary icon and ⌘K hint stay on the existing palette per spec.
+            Only the SEARCH/検索 label is gilded so it picks up the same
+            metallic treatment as the rest of the nav links. */}
         <span className="text-base" aria-hidden="true">🔎</span>
-        <span className="hidden md:inline">{isJA ? '検索' : 'SEARCH'}</span>
+        <span className="hidden md:inline gold-metallic-nav">
+          {isJA ? '検索' : 'SEARCH'}
+        </span>
         <span className="hidden lg:inline-block ml-1 px-1.5 py-0.5 rounded border border-orange-900/30 text-[10px] tracking-widest text-text-muted/70">
           ⌘K
         </span>

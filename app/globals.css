@@ -191,6 +191,51 @@ body::before {
   text-shadow: 0 0 20px rgba(212, 175, 55, 0.3);
 }
 
+/* ── Gold metallic for the primary navigation links ─────────────────
+   Same gradient as the hero <h1>, but tuned for nav copy: dimmer at
+   rest so the brand mark stays dominant, brightening on hover /
+   focus / active with a soft warm halo. The class is applied on a
+   child <span> inside each <a> so the parent link can still carry
+   any hover-bg utilities without conflicting with background-clip.
+   .gold-metallic-nav-active is an explicit "selected" state used by
+   the EN/JA language toggle when the current language is active. */
+.gold-metallic-nav {
+  background: linear-gradient(
+    135deg,
+    #d4af37 0%,
+    #f4e5a8 25%,
+    #d4af37 50%,
+    #b8860b 75%,
+    #d4af37 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  filter: brightness(0.75) saturate(0.9);
+  transition: filter 0.2s ease, text-shadow 0.2s ease;
+}
+.gold-metallic-nav:hover,
+.gold-metallic-nav:focus-visible,
+.group:hover .gold-metallic-nav,
+.gold-metallic-nav-active {
+  filter: brightness(1.12) saturate(1);
+  text-shadow: 0 0 12px rgba(244, 229, 168, 0.45);
+}
+
+/* Horizontal gold bar — replaces the orange under-link indicator. */
+.gold-metallic-underline {
+  background: linear-gradient(
+    90deg,
+    #b8860b 0%,
+    #d4af37 25%,
+    #f4e5a8 50%,
+    #d4af37 75%,
+    #b8860b 100%
+  );
+  box-shadow: 0 0 8px rgba(212, 175, 55, 0.45);
+}
+
 /* Artist genre banners — used on /artists cards and detail hero */
 .b-uplifting {
   background: linear-gradient(135deg, #ff6a00 0%, #ffb400 60%, #ff3c00 100%);
