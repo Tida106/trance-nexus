@@ -9,6 +9,7 @@ import { uplifting3 } from './uplifting3';
 import { uplifting4 } from './uplifting4';
 import { uplifting5 } from './uplifting5';
 import { uplifting6 } from './uplifting6';
+import { uplifting7 } from './uplifting7';
 import { crossover } from './crossover';
 import { crossover2 } from './crossover2';
 import { vocal } from './vocal';
@@ -29,6 +30,7 @@ export const artists = [
   ...uplifting4,
   ...uplifting5,
   ...uplifting6,
+  ...uplifting7,
   ...crossover,
   ...crossover2,
   ...vocal,

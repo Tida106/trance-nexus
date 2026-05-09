@@ -27,7 +27,7 @@ export const legends = [
       { title: 'Blah Blah Blah', year: 2018, type: 'track' },
       { title: 'Balance', year: 2019, type: 'album' },
     ],
-    related: ['ferry-corsten', 'tiesto', 'andrew-rayel', 'markus-schulz'],
+    related: ['ferry-corsten', 'tiesto', 'andrew-rayel', 'markus-schulz', 'gaia'],
     links: {
       website: 'https://www.arminvanbuuren.com',
       spotify: 'https://open.spotify.com/artist/0SfsnGyD8FpIN4U4WCkBZ5',
