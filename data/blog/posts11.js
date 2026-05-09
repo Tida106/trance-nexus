@@ -1,6 +1,6 @@
 // Batch 10 — Monthly trance chart roundups (added 2026-05-08)
 //
-// TRANCE NEXUS editorial picks for each month of 2026 — tracks that
+// Tracks that drove ASOT, Group Therapy, FSOE, Coldharbour, Pure Trance and Beatport rotation for each month of 2026 — tracks that
 // drove the genre's ASOT, Group Therapy, FSOE, Coldharbour, and
 // Pure Trance / WAO138 rotation across the month. Each entry is a
 // real release on a real label, not a fabricated chart position;
@@ -30,7 +30,7 @@ export const posts11 = [
     date: '2026-01-31', readTime: 7, tags: ['classics', 'analysis', 'monthly-charts'],
     en: {
       title: 'Best Trance Tracks of January 2026 — Top 10 Picks of the Month',
-      description: 'TRANCE NEXUS editorial picks for January 2026 — the trance tracks that defined the first month across Anjunabeats, Black Hole, Pure Trance, and Armada.',
+      description: 'Tracks that drove ASOT, Group Therapy, FSOE, Coldharbour, Pure Trance and Beatport rotation for January 2026 — the trance tracks that defined the first month across Anjunabeats, Black Hole, Pure Trance, and Armada.',
       excerpt: "January 2026 opened the year on a high note: Above & Beyond delivered four new singles in a single Anjunabeats drop, Paul van Dyk reunited with Ciaran McAuley on Black Hole, and the Raw / Deep / Hypnotic wing of Beatport's chart kept producing the kind of lower-tempo material that the previous twelve months made the genre's most-watched space.",
       content: [
         { heading: 'Why January 2026 Mattered', body: '<p>The first month of 2026 was unusually loaded with headline releases. Above & Beyond opened the year on January 9 with a four-track Anjunabeats salvo, signalling that the duo\'s rumoured 2026 album cycle had begun in earnest. Paul van Dyk and Ciaran McAuley delivered "When I Found You" on Black Hole at month\'s end, the kind of tech-trance reunion that Pure Trance and Subculture audiences immediately played out. And Beatport\'s Best New Trance (R/D/H) chart continued to surface the slower, raw-trance material that has driven much of the genre\'s 2025-2026 audience expansion.</p>' },
@@ -43,7 +43,7 @@ export const posts11 = [
     },
     ja: {
       title: '2026年1月のベスト・トランス・トラック10選 ― アップリフティング、プログレッシブ、テックの注目リリース',
-      description: 'TRANCE NEXUS編集部が選ぶ2026年1月のベスト・トランス・トラック ― Anjunabeats、Black Hole、Pure Trance、Armadaのリリース・カレンダーから、年始一ヶ月のシーンを定義した楽曲をまとめる。',
+      description: 'ASOT、Group Therapy、FSOE、Coldharbour、Pure Trance、Beatportのローテーションを駆動した2026年1月のベスト・トランス・トラック ― Anjunabeats、Black Hole、Pure Trance、Armadaのリリース・カレンダーから、年始一ヶ月のシーンを定義した楽曲をまとめる。',
       excerpt: '2026年1月は高水準のリリースで幕を開けた。Above & Beyondは単一のAnjunabeatsドロップで4曲の新曲を投下、Paul van DykはBlack HoleでCiaran McAuleyと再合流。Beatportの「Raw / Deep / Hypnotic」チャートはこの12ヶ月でジャンル最注目空間となった低BPMトランス素材を生み出し続けた。',
       content: [
         { heading: 'なぜ2026年1月が重要だったか', body: '<p>2026年最初の月は、ヘッドライン・リリースが異例に集中した。Above & Beyondは1月9日にAnjunabeatsから4トラックの斉射でスタートを切り、噂されていた2026年アルバム・サイクルが本格的に始まったことを示した。月末にはPaul van DykとCiaran McAuleyがBlack Holeから「When I Found You」を投下 ― Pure TranceとSubcultureのオーディエンスが即座にプレイ・アウトしたタイプのテック・トランス再合流。そしてBeatportのBest New Trance (R/D/H)チャートは、2025-2026年にジャンルのオーディエンス拡大を駆動してきた、よりスローなロウ・トランス素材を表面化し続けた。</p>' },
@@ -61,7 +61,7 @@ export const posts11 = [
     date: '2026-02-28', readTime: 7, tags: ['classics', 'analysis', 'monthly-charts'],
     en: {
       title: 'Best Trance Tracks of February 2026 — ASOT 25 Anthem & Top Picks',
-      description: 'TRANCE NEXUS picks for February 2026 — built around the A State of Trance 2026 ELEVATION anthem and the 25-year ASOT festival editions at Ahoy Rotterdam.',
+      description: 'Tracks that drove rotation for February 2026 — built around the A State of Trance 2026 ELEVATION anthem and the 25-year ASOT festival editions at Ahoy Rotterdam.',
       excerpt: "February 2026 was the ASOT 25 month: Armin van Buuren, Richard Durand, and Dicosis dropped the official ELEVATION anthem, Aly & Fila reactivated their Jwaydan vocal partnership for FSOE, and the festival's two-night Rotterdam edition turned the month into the year's most-anticipated trance event so far.",
       content: [
         { heading: 'A Month Anchored to ASOT 25', body: '<p>February 2026 was structurally different from any other month in the year because of A State of Trance 25 — the two-night festival edition at Ahoy Rotterdam on February 27 and 28 marking 25 years since the radio show launched in 2001. Every major Armada release of the month was timed to land into ASOT episodes leading into the festival; every label aligned with the show pushed material into rotation; and the entire trance editorial calendar bent around the event in a way that the genre has not seen since the original ASOT 1000 celebrations.</p>' },
@@ -74,7 +74,7 @@ export const posts11 = [
     },
     ja: {
       title: '2026年2月のベスト・トランス・トラック ― ASOT 25周年アンセム、Aly & Fila、Pure Trance波',
-      description: 'TRANCE NEXUS編集部が選ぶ2026年2月のベスト・トランス・トラック ― A State of Trance 2026 ELEVATIONアンセムとAhoy Rotterdamでの25年ASOTフェスティバル版を中心に構築された月。',
+      description: 'ASOT、Group Therapy、FSOE、Coldharbour、Pure Trance、Beatportのローテーションを駆動した2026年2月のベスト・トランス・トラック ― A State of Trance 2026 ELEVATIONアンセムとAhoy Rotterdamでの25年ASOTフェスティバル版を中心に構築された月。',
       excerpt: '2026年2月はASOT 25周年の月だった：Armin van Buuren、Richard Durand、Dicosisが公式ELEVATIONアンセムを投下、Aly & FilaはFSOEのためにJwaydanとのボーカル・パートナーシップを再活性化、ロッテルダムでの2夜のフェスティバル版が月を年で最も期待されたトランス・イベントに変えた。',
       content: [
         { heading: 'ASOT 25周年に錨を下ろした月', body: '<p>2026年2月は、年内の他のどの月とも構造的に異なっていた ― 2001年にラジオ番組が開始されてから25年を記念する、2月27日と28日のAhoy Rotterdamでの2夜のフェスティバル版「A State of Trance 25」のおかげで。月の主要なArmadaリリースはすべて、フェスティバルへ向かうASOTエピソードに着地するようにタイミングを合わされた。番組と整列したすべてのレーベルが素材をローテーションに押し込んだ。トランスの編集カレンダー全体が、オリジナルのASOT 1000記念以来ジャンルが見てこなかった方法でイベントを中心に湾曲した。</p>' },
@@ -92,7 +92,7 @@ export const posts11 = [
     date: '2026-03-31', readTime: 7, tags: ['classics', 'analysis', 'monthly-charts'],
     en: {
       title: 'Best Trance Tracks of March 2026 — Push, Pure Trance NEON & FSOE',
-      description: "TRANCE NEXUS picks for March 2026 — Push returned with 'Back When We Believed' on Pure Trance NEON, FSOE Argento launched, and Above & Beyond Anjuna kept up.",
+      description: "Tracks that drove rotation for March 2026 — Push returned with 'Back When We Believed' on Pure Trance NEON, FSOE Argento launched, and Above & Beyond Anjuna kept up.",
       excerpt: 'March 2026 was a month for veteran reactivations and new sub-label launches. Push returned with "Back When We Believed" on Pure Trance NEON, FSOE Argento debuted with the Ron / Leeds collaboration, and the Anjuna release calendar continued the year\'s steady drip of Above & Beyond singles.',
       content: [
         { heading: 'The Push Reactivation Moment', body: '<p>The most-discussed March release was Push\'s "Back When We Believed" (Pure Trance NEON, 140 BPM) — the M.I.K.E. Push name returning to the headline production credit on a brand-new Pure Trance sub-imprint. Push\'s late-1990s catalogue (the original "Universal Nation" era) is foundational to the harder uplifting trance template, and the new release operates as both a tribute to that lineage and a present-tense argument that the modern Pure Trance / 138 scene has sufficient editorial mass to support a dedicated NEON sub-label. The track sat in the upper bracket of the Beatport trance chart through the second half of March.</p>' },
@@ -105,7 +105,7 @@ export const posts11 = [
     },
     ja: {
       title: '2026年3月のベスト・トランス・トラック ― Pushの復活、Pure Trance NEON、FSOE Argento',
-      description: 'TRANCE NEXUS編集部が選ぶ2026年3月のベスト・トランス・トラック ― Pushを復活させ、Pure Trance NEONサブインプリントを立ち上げ、FSOE Argentoをジャンル最注目の新興レーベルに変えた月。',
+      description: 'ASOT、Group Therapy、FSOE、Coldharbour、Pure Trance、Beatportのローテーションを駆動した2026年3月のベスト・トランス・トラック ― Pushを復活させ、Pure Trance NEONサブインプリントを立ち上げ、FSOE Argentoをジャンル最注目の新興レーベルに変えた月。',
       excerpt: '2026年3月はベテランの再活性化と新サブレーベル発進の月だった。PushはPure Trance NEONで「Back When We Believed」とともに復帰、FSOE ArgentoはRon / Leedsコラボレーションでデビュー、Anjunaリリース・カレンダーは年の安定したAbove & Beyondシングルの滴下を続けた。',
       content: [
         { heading: 'Pushの再活性化モーメント', body: '<p>3月で最も議論されたリリースはPushの「Back When We Believed」（Pure Trance NEON、140 BPM） ― 真新しいPure Tranceサブインプリントでヘッドライン・プロダクション・クレジットに戻ってきたM.I.K.E. Push名義。Pushの1990年代後半のカタログ（オリジナルの「Universal Nation」時代）はよりハードなアップリフティング・トランス・テンプレートの基礎であり、新リリースはその系譜への追悼として、そして現代のPure Trance / 138シーンが専用NEONサブレーベルをサポートする十分な編集的質量を持つという現在進行形の議論として、両方として機能する。トラックは3月後半を通してBeatportトランス・チャートの上位層に位置した。</p>' },
@@ -123,7 +123,7 @@ export const posts11 = [
     date: '2026-04-30', readTime: 7, tags: ['classics', 'analysis', 'monthly-charts'],
     en: {
       title: 'Best Trance Tracks of April 2026 — Coldharbour, Oakenfold & More',
-      description: "TRANCE NEXUS picks for April 2026 — Coldharbour delivered Mainhattan and Nine Lives, Oakenfold reunited with Sneijder, and FSOE Argento Q2 hit its stride.",
+      description: "Tracks that drove rotation for April 2026 — Coldharbour delivered Mainhattan and Nine Lives, Oakenfold reunited with Sneijder, and FSOE Argento Q2 hit its stride.",
       excerpt: "April 2026 was Coldharbour's strongest single-month delivery in years. Markus Schulz and Talla 2XLC delivered \"Mainhattan,\" Robert Nickson released \"Nine Lives,\" Signum landed \"Homage\" on Anjunabeats, and Paul Oakenfold reunited with Sneijder for the long-awaited \"Bullet In The Gun\" return.",
       content: [
         { heading: 'Coldharbour\'s Stacked April', body: '<p>April 2026 was Coldharbour Recordings\' strongest single-month delivery in roughly two years. Markus Schulz and Talla 2XLC\'s "Mainhattan" — released alongside Robert Nickson\'s "Nine Lives" on the same Coldharbour weekend window — gave the label two simultaneous mainstage cuts that Markus immediately worked into his Global DJ Broadcast (the April 30 "Mayday 2026 Long Weekend Mix" episode treats both as headline material). The Schulz / Talla 2XLC pairing in particular is meaningful: Talla 2XLC has been one of the German hard-trance scene\'s most consistent producers since the late 1990s, and the Coldharbour collaboration brings that lineage into the modern Schulz-curated context.</p>' },
@@ -136,7 +136,7 @@ export const posts11 = [
     },
     ja: {
       title: '2026年4月のベスト・トランス・トラック ― Coldharbourの再活性化、Oakenfold-Sneijder、FSOE Argento Q2',
-      description: 'TRANCE NEXUS編集部が選ぶ2026年4月のベスト・トランス・トラック ― Markus SchulzのColdharbourが充実したリリース週末を届け、Paul OakenfoldとSneijderがハード・トランスで再合流、Q2が年のリリース・ペースを確認した。',
+      description: 'ASOT、Group Therapy、FSOE、Coldharbour、Pure Trance、Beatportのローテーションを駆動した2026年4月のベスト・トランス・トラック ― Markus SchulzのColdharbourが充実したリリース週末を届け、Paul OakenfoldとSneijderがハード・トランスで再合流、Q2が年のリリース・ペースを確認した。',
       excerpt: '2026年4月はColdharbourの数年で最も強い単一月の配給だった。Markus SchulzとTalla 2XLCは「Mainhattan」、Robert Nicksonは「Nine Lives」をリリース、SignumはAnjunabeatsで「Homage」、Paul Oakenfoldは長らく待たれた「Bullet In The Gun」リターンでSneijderと再合流した。',
       content: [
         { heading: 'Coldharbourの充実した4月', body: '<p>2026年4月はColdharbour Recordingsの約2年で最も強い単一月の配給だった。Markus SchulzとTalla 2XLCの「Mainhattan」 ― 同じColdharbour週末ウィンドウでRobert Nicksonの「Nine Lives」と一緒にリリース ― はレーベルに2つの同時メインステージ・カットを与え、MarkusはそれらをすぐにGlobal DJ Broadcast（4月30日の「Mayday 2026 Long Weekend Mix」エピソードは両方をヘッドライン素材として扱う）に組み込んだ。特にSchulz / Talla 2XLCのペアリングは意味深い：Talla 2XLCは1990年代後半以来ドイツのハード・トランス・シーンで最も安定したプロデューサーの一人で、Coldharbourコラボレーションはその系譜を現代のSchulzキュレーションされた文脈に持ち込む。</p>' },
@@ -154,7 +154,7 @@ export const posts11 = [
     date: '2026-05-08', readTime: 7, tags: ['classics', 'analysis', 'monthly-charts'],
     en: {
       title: 'Best Trance Tracks of May 2026 — ASOT 2026 Compilation & H1 Wrap',
-      description: 'TRANCE NEXUS editorial picks for May 2026 — the ASOT 2026 compilation release, the Energy mix of the three-disc set, and a first-half-of-year wrap-up.',
+      description: 'Tracks that drove ASOT, Group Therapy, FSOE, Coldharbour, Pure Trance and Beatport rotation for May 2026 — the ASOT 2026 compilation release, the Energy mix of the three-disc set, and a first-half-of-year wrap-up.',
       excerpt: "May 2026 closes the first half of the year with the long-awaited ASOT 2026 compilation, mixed by Armin van Buuren across three discs (Pulse / Frequency / Energy) — a 25-year anniversary statement that consolidates the year's most-played material into a single release moment.",
       content: [
         { heading: 'The ASOT 2026 Compilation Lands', body: '<p>The most-anticipated May release was the A State of Trance 2026 compilation, mixed by Armin van Buuren and released on May 8 — a three-disc set structured into Pulse, Frequency, and Energy mixes that consolidates the year\'s most-played material from January through April into a single anniversary release. The compilation is the editorial centrepiece of the ASOT 25 year and operates as both a 2026 H1 retrospective and a forward-pointing argument about where the genre is heading. Notable tracks include "Always You" (the ELEVATION anthem detailed in our February chart), "Move To The Rhythm" (ReOrder pres. Crowd+Ctrl), and the Energy mix\'s closing run.</p>' },
@@ -167,7 +167,7 @@ export const posts11 = [
     },
     ja: {
       title: '2026年5月のベスト・トランス・トラック ― ASOT 2026コンピレーション、Energyミックス、H1総括',
-      description: 'TRANCE NEXUS編集部が選ぶ2026年5月のベスト・トランス・トラック ― 5月8日のASOT 2026コンピレーション・リリース、3枚組セットのEnergyミックス、年の前半の総括を中心に構築された月。',
+      description: 'ASOT、Group Therapy、FSOE、Coldharbour、Pure Trance、Beatportのローテーションを駆動した2026年5月のベスト・トランス・トラック ― 5月8日のASOT 2026コンピレーション・リリース、3枚組セットのEnergyミックス、年の前半の総括を中心に構築された月。',
       excerpt: '2026年5月は長らく待たれたASOT 2026コンピレーション ― Armin van Buurenが3枚（Pulse / Frequency / Energy）にミックス ― で年の前半を締めくくる。25周年記念ステートメントは、年の最もプレイされた素材を単一のリリース・モーメントに統合する。',
       content: [
         { heading: 'ASOT 2026コンピレーション着地', body: '<p>最も期待された5月のリリースはA State of Trance 2026コンピレーションで、Armin van Buurenがミックスし5月8日にリリースされた ― 3枚組セットでPulse、Frequency、Energyミックスに構造化され、1月から4月までの年の最もプレイされた素材を単一の記念リリースに統合する。コンピレーションはASOT 25年の編集的中心作品で、2026年H1のレトロスペクティブとジャンルがどこへ向かっているかについての前方指向の議論の両方として機能する。注目すべきトラックには「Always You」（本誌2月チャートで詳述したELEVATIONアンセム）、「Move To The Rhythm」（ReOrder pres. Crowd+Ctrl）、そしてEnergyミックスのクロージング・ランが含まれる。</p>' },
