@@ -98,7 +98,13 @@ export default async function LabelPage({ params }) {
     })),
     member: memberSchema.length ? memberSchema : undefined,
     employee: memberSchema.length ? memberSchema : undefined,
-    sameAs: Object.values(label.links || {}).filter(Boolean),
+    // sameAs excludes Spotify for the same reason as the artist
+    // schema: stored Spotify IDs across the catalogue weren't
+    // reliable enough to assert as identity claims in structured
+    // data.
+    sameAs: Object.entries(label.links || {})
+      .filter(([k, v]) => Boolean(v) && k !== 'spotify')
+      .map(([, v]) => v),
     knowsAbout: ['Trance music', ...(label.subgenres || [])],
     url: `https://trance-nexus.com/labels/${label.slug}`,
   };

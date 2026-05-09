@@ -105,7 +105,16 @@ export default async function ArtistPage({ params }) {
     knowsAbout: ['Trance music', ...(artist.tags || [])],
     memberOf: labelMemberships.length ? labelMemberships : undefined,
     affiliation: labelMemberships.length ? labelMemberships : undefined,
-    sameAs: Object.values(artist.links || {}).filter(Boolean),
+    // sameAs deliberately excludes the Spotify entry. Stored Spotify
+    // artist IDs in the catalogue proved unreliable enough that we no
+    // longer assert them as identity claims in structured data — a
+    // wrong /artist/<id> in sameAs can mislead Google's Knowledge
+    // Graph into attributing this person's page to the wrong entity.
+    // The remaining stored canonical URLs (website, soundcloud,
+    // beatport canonical, RA) stay in sameAs.
+    sameAs: Object.entries(artist.links || {})
+      .filter(([k, v]) => Boolean(v) && k !== 'spotify')
+      .map(([, v]) => v),
     mainEntityOfPage: {
       '@type': 'WebPage',
       '@id': `https://trance-nexus.com/artists/${artist.slug}`,

@@ -7,7 +7,7 @@ import Breadcrumb from './Breadcrumb';
 import { useTranslation } from '@/lib/useTranslation';
 import { findLabelByName } from '@/data/labels/index';
 import MusicEmbed from './MusicEmbed';
-import { spotifyArtistIdFromUrl, featuredTracksForArtist } from '@/lib/embeds';
+import { featuredTracksForArtist } from '@/lib/embeds';
 
 function LabelLinks({ labels }) {
   if (!labels || labels.length === 0) return null;
@@ -35,14 +35,25 @@ function LabelLinks({ labels }) {
   );
 }
 
+// Build the outbound platform links exposed in the Listen/Follow
+// sidebar. Spotify is intentionally always a search URL: stored
+// Spotify artist IDs in the catalogue proved unreliable (some
+// resolve to 404, one historical ID for "Paul van Dyk" resolved
+// to BROCKHAMPTON), so we no longer use `links.spotify` as a
+// direct link — the search URL is the no-fabrication path. The
+// same reasoning is applied to YouTube. Other platforms still
+// honour their stored canonical URLs.
 function buildAffiliateLinks(artist) {
   const enc = encodeURIComponent(artist.name);
   return {
     beatport: artist.links?.beatport || `https://www.beatport.com/search?q=${enc}`,
-    spotify:
-      artist.links?.spotify || `https://open.spotify.com/search/${enc}/artists`,
+    spotify: `https://open.spotify.com/search/${enc}`,
+    youtube:
+      artist.links?.youtube ||
+      `https://www.youtube.com/results?search_query=${enc}+official`,
     soundcloud:
       artist.links?.soundcloud || `https://soundcloud.com/search/people?q=${enc}`,
+    appleMusic: `https://music.apple.com/search?term=${enc}`,
     ra: artist.links?.ra || `https://ra.co/search?searchTerm=${enc}&searchType=artist`,
     website: artist.links?.website || null,
   };
@@ -153,20 +164,36 @@ export default function ArtistDetail({ artist, related, mentioned, performingAt 
                   </a>
                 )}
                 <a
+                  href={links.spotify}
+                  target="_blank"
+                  rel="noopener noreferrer sponsored"
+                  className="text-sm tracking-widest font-bebas px-3 py-2 rounded border border-accent-orange/30 text-accent-orange hover:bg-accent-orange/10 transition-all"
+                >
+                  🎧 {isJA ? 'SPOTIFYで検索' : 'SPOTIFY SEARCH'}
+                </a>
+                <a
+                  href={links.youtube}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm tracking-widest font-bebas px-3 py-2 rounded border border-accent-orange/30 text-accent-orange hover:bg-accent-orange/10 transition-all"
+                >
+                  ▶ {isJA ? 'YOUTUBE' : 'YOUTUBE'}
+                </a>
+                <a
+                  href={links.appleMusic}
+                  target="_blank"
+                  rel="noopener noreferrer sponsored"
+                  className="text-sm tracking-widest font-bebas px-3 py-2 rounded border border-accent-orange/30 text-accent-orange hover:bg-accent-orange/10 transition-all"
+                >
+                  🍎 APPLE MUSIC
+                </a>
+                <a
                   href={links.beatport}
                   target="_blank"
                   rel="noopener noreferrer sponsored"
                   className="text-sm tracking-widest font-bebas px-3 py-2 rounded border border-accent-orange/30 text-accent-orange hover:bg-accent-orange/10 transition-all"
                 >
-                  🎵 BEATPORT
-                </a>
-                <a
-                  href={links.spotify}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-sm tracking-widest font-bebas px-3 py-2 rounded border border-accent-orange/30 text-accent-orange hover:bg-accent-orange/10 transition-all"
-                >
-                  🎧 SPOTIFY
+                  🛒 BEATPORT
                 </a>
                 <a
                   href={links.soundcloud}
@@ -210,60 +237,36 @@ export default function ArtistDetail({ artist, related, mentioned, performingAt 
             </div>
           </section>
 
-          {/* Listen — Spotify artist embed (top tracks selected by Spotify) +
-              5 hand-curated signature tracks rendered as Spotify search cards.
-              Either an explicit `artist.embeds` or a fallback to topWorks. */}
+          {/* Listen — search-URL hand-off only.
+              Previously rendered a Spotify artist iframe using IDs
+              extracted from links.spotify, but a non-trivial slice
+              of those stored IDs were stale or wrong (some 404'd,
+              one Paul van Dyk entry resolved to BROCKHAMPTON). The
+              section now exposes search-URL buttons across Spotify,
+              YouTube, Apple Music and Beatport for the artist as a
+              whole, plus a Signature Tracks grid that emits the same
+              four-platform buttons per track. Search URLs cannot
+              link to the wrong entity, so this is the no-fabrication
+              path. */}
           {(() => {
-            const spArtistId = spotifyArtistIdFromUrl(artist.links?.spotify);
             const featured =
               (Array.isArray(artist.embeds) && artist.embeds.length > 0)
                 ? artist.embeds
                 : featuredTracksForArtist(artist, 5);
-            if (!spArtistId && featured.length === 0) return null;
             return (
               <section className="mb-12">
                 <h2 className="font-bebas text-3xl tracking-widest text-white mb-4">
                   {isJA ? '聴く' : 'Listen'}
                 </h2>
                 <div className="w-16 h-0.5 bg-gradient-to-r from-accent-red via-accent-orange to-transparent mb-6" />
-                {spArtistId && (
-                  <MusicEmbed
-                    platform="spotify"
-                    id={`artist:${spArtistId}`}
-                    label={
-                      isJA
-                        ? `${artist.name} — Spotify人気曲`
-                        : `${artist.name} — top tracks on Spotify`
-                    }
-                    title={`Spotify player for ${artist.name}`}
-                  />
-                )}
-                <div className="mt-3 flex gap-2 flex-wrap">
-                  <a
-                    href={links.beatport}
-                    target="_blank"
-                    rel="noopener noreferrer sponsored"
-                    className="text-xs tracking-widest font-bebas px-3 py-2 rounded border border-accent-orange/30 text-accent-orange hover:bg-accent-orange/10 transition-all"
-                  >
-                    🛒 {isJA ? 'Beatportで購入' : 'Buy on Beatport'}
-                  </a>
-                  <a
-                    href={`https://music.apple.com/search?term=${encodeURIComponent(artist.name)}`}
-                    target="_blank"
-                    rel="noopener noreferrer sponsored"
-                    className="text-xs tracking-widest font-bebas px-3 py-2 rounded border border-accent-orange/30 text-accent-orange hover:bg-accent-orange/10 transition-all"
-                  >
-                    🍎 Apple Music
-                  </a>
-                  <a
-                    href={`https://www.youtube.com/results?search_query=${encodeURIComponent(artist.name)}`}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-xs tracking-widest font-bebas px-3 py-2 rounded border border-accent-orange/30 text-accent-orange hover:bg-accent-orange/10 transition-all"
-                  >
-                    ▶ YouTube
-                  </a>
-                </div>
+                <MusicEmbed
+                  query={artist.name}
+                  label={
+                    isJA
+                      ? `${artist.name} を各プラットフォームで検索`
+                      : `Search "${artist.name}" across platforms`
+                  }
+                />
 
                 {featured.length > 0 && (
                   <div className="mt-8">

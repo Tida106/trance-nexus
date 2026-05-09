@@ -6,18 +6,24 @@ import Footer from './Footer';
 import Breadcrumb from './Breadcrumb';
 import { useTranslation } from '@/lib/useTranslation';
 import MusicEmbed from './MusicEmbed';
-import {
-  spotifyArtistIdFromUrl,
-  spotifyPlaylistIdFromUrl,
-  featuredTracksForLabel,
-} from '@/lib/embeds';
+import { featuredTracksForLabel } from '@/lib/embeds';
 
+// Build the outbound platform links for the label sidebar. Spotify
+// is intentionally always a search URL — the artist-side audit found
+// that stored Spotify IDs were unreliable enough that we no longer
+// rely on them anywhere in the catalogue. YouTube and Apple Music
+// follow the same pattern. Bandcamp / SoundCloud / website still
+// honour their stored canonical URLs.
 function buildLinks(label) {
   const enc = encodeURIComponent(label.name);
   return {
     website: label.links?.website || null,
     beatport: label.links?.beatport || `https://www.beatport.com/search?q=${enc}`,
-    spotify: label.links?.spotify || `https://open.spotify.com/search/${enc}`,
+    spotify: `https://open.spotify.com/search/${enc}`,
+    youtube:
+      label.links?.youtube ||
+      `https://www.youtube.com/results?search_query=${enc}+label`,
+    appleMusic: `https://music.apple.com/search?term=${enc}`,
     bandcamp: label.links?.bandcamp || null,
     soundcloud:
       label.links?.soundcloud || `https://soundcloud.com/search/people?q=${enc}`,
@@ -125,20 +131,36 @@ export default function LabelDetail({ label, related, signedArtists, posts }) {
                   </a>
                 )}
                 <a
+                  href={links.spotify}
+                  target="_blank"
+                  rel="noopener noreferrer sponsored"
+                  className="text-sm tracking-widest font-bebas px-3 py-2 rounded border border-accent-orange/30 text-accent-orange hover:bg-accent-orange/10 transition-all"
+                >
+                  🎧 {isJA ? 'SPOTIFYで検索' : 'SPOTIFY SEARCH'}
+                </a>
+                <a
+                  href={links.youtube}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm tracking-widest font-bebas px-3 py-2 rounded border border-accent-orange/30 text-accent-orange hover:bg-accent-orange/10 transition-all"
+                >
+                  ▶ YOUTUBE
+                </a>
+                <a
+                  href={links.appleMusic}
+                  target="_blank"
+                  rel="noopener noreferrer sponsored"
+                  className="text-sm tracking-widest font-bebas px-3 py-2 rounded border border-accent-orange/30 text-accent-orange hover:bg-accent-orange/10 transition-all"
+                >
+                  🍎 APPLE MUSIC
+                </a>
+                <a
                   href={links.beatport}
                   target="_blank"
                   rel="noopener noreferrer sponsored"
                   className="text-sm tracking-widest font-bebas px-3 py-2 rounded border border-accent-orange/30 text-accent-orange hover:bg-accent-orange/10 transition-all"
                 >
-                  🎵 BEATPORT
-                </a>
-                <a
-                  href={links.spotify}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-sm tracking-widest font-bebas px-3 py-2 rounded border border-accent-orange/30 text-accent-orange hover:bg-accent-orange/10 transition-all"
-                >
-                  🎧 SPOTIFY
+                  🛒 BEATPORT
                 </a>
                 {links.bandcamp && (
                   <a
@@ -173,62 +195,33 @@ export default function LabelDetail({ label, related, signedArtists, posts }) {
             </div>
           </section>
 
-          {/* Listen — three layers, in order of preference:
-              1. If label.spotifyEmbedId or links.spotify resolves to a real
-                 playlist/artist URL, render that as a Spotify iframe.
-              2. Always render hand-curated label.embeds[] if present.
-              3. Otherwise auto-derive 5 search-link cards from topReleases.
-              Most labels in data/labels/* expose only /user/<name> URLs
-              which can't be embedded as iframes — for those, the search
-              cards are the entire 'Listen' surface. */}
+          {/* Listen — search-URL hand-off only.
+              Same rationale as the artist Listen section: stored
+              Spotify IDs across the catalogue proved unreliable, and
+              labels' /user/<name> URLs are unembeddable anyway. The
+              section now exposes search-URL buttons across Spotify,
+              YouTube, Apple Music and Beatport for the label as a
+              whole, plus a Label Highlights grid emitting the same
+              per-release. */}
           {(() => {
-            const explicit = label.spotifyEmbedId;
-            const playlistId = spotifyPlaylistIdFromUrl(label.links?.spotify);
-            const artistId = spotifyArtistIdFromUrl(label.links?.spotify);
-            const iframeId = explicit
-              ? explicit
-              : playlistId
-              ? `playlist:${playlistId}`
-              : artistId
-              ? `artist:${artistId}`
-              : null;
             const cards =
               (Array.isArray(label.embeds) && label.embeds.length > 0)
                 ? label.embeds
                 : featuredTracksForLabel(label, 5);
-            if (!iframeId && cards.length === 0) return null;
             return (
               <section className="mb-12">
                 <h2 className="font-bebas text-3xl tracking-widest text-white mb-4">
                   {isJA ? '聴く' : 'Listen'}
                 </h2>
                 <div className="w-16 h-0.5 bg-gradient-to-r from-accent-red via-accent-orange to-transparent mb-6" />
-                {iframeId && (
-                  <MusicEmbed
-                    platform="spotify"
-                    id={iframeId}
-                    label={`${label.name} on Spotify`}
-                    title={`Spotify player for ${label.name}`}
-                  />
-                )}
-                <div className="mt-3 flex gap-2 flex-wrap">
-                  <a
-                    href={links.beatport}
-                    target="_blank"
-                    rel="noopener noreferrer sponsored"
-                    className="text-xs tracking-widest font-bebas px-3 py-2 rounded border border-accent-orange/30 text-accent-orange hover:bg-accent-orange/10 transition-all"
-                  >
-                    🛒 {isJA ? 'Beatportで購入' : 'Buy on Beatport'}
-                  </a>
-                  <a
-                    href={`https://music.apple.com/search?term=${encodeURIComponent(label.name)}`}
-                    target="_blank"
-                    rel="noopener noreferrer sponsored"
-                    className="text-xs tracking-widest font-bebas px-3 py-2 rounded border border-accent-orange/30 text-accent-orange hover:bg-accent-orange/10 transition-all"
-                  >
-                    🍎 Apple Music
-                  </a>
-                </div>
+                <MusicEmbed
+                  query={label.name}
+                  label={
+                    isJA
+                      ? `${label.name} を各プラットフォームで検索`
+                      : `Search "${label.name}" across platforms`
+                  }
+                />
 
                 {cards.length > 0 && (
                   <div className="mt-8">

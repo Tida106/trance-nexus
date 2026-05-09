@@ -2,211 +2,130 @@
 
 import { useTranslation } from '@/lib/useTranslation';
 
-// Optional Apple Music affiliate token (Performance Partners / Impact). When
-// not set, Apple embeds render without an `at=` query.
-const APPLE_AFFILIATE = process.env.NEXT_PUBLIC_APPLE_AFFILIATE || '';
-
-// Render an embed for a single platform. Two modes:
+// MusicEmbed — search-URL hand-off card.
 //
-//   { platform, id }    — emits the platform's official iframe (lazy-loaded)
-//   { platform, query } — emits a clickable card linking to platform search
+// Why no iframe?
+//   We previously rendered Spotify (and other) iframes when a verified
+//   platform ID was supplied. The catalogue's stored IDs turned out
+//   to be unreliable: many resolved to "Page not found" (Ferry Corsten,
+//   Above & Beyond, Aly & Fila, Cosmic Gate) and some resolved to the
+//   wrong artist entirely (a "Paul van Dyk" entry pointed at
+//   BROCKHAMPTON). Verifying 70+ artist IDs against the Spotify Web API
+//   from this build environment is unreliable, and shipping unverified
+//   IDs risks worse user experience than no embed at all.
 //
-// Spotify ID format supports prefixed types: 'artist:<id>', 'track:<id>',
-// 'album:<id>', 'playlist:<id>'. Bare IDs default to track.
+//   Search-URL hand-off has none of those failure modes. The platform's
+//   own search box does the disambiguation, the user always lands on a
+//   real result, and there is no risk of the wrong entity rendering
+//   under an artist's name. It also keeps the component dependency-free.
 //
-// Apple ID format: '<country>/<type>/<name>/<numericId>' (the path that
-// follows music.apple.com/). We append `?at=<token>` if configured.
-//
-// SoundCloud ID format: full SoundCloud URL of the track or playlist.
-//
-// YouTube ID format: 11-char video ID (default), or playlist ID starting
-// with PL/UU/OL.
-//
-// Props:
-//   platform : 'spotify' | 'apple' | 'soundcloud' | 'youtube'
-//   id?      : platform-specific identifier (see above)
-//   query?   : fallback search string (used when id is unavailable)
-//   label?   : caption shown above the player
-//   title?   : iframe title for accessibility
-//   compact? : reduces iframe height where supported
-export default function MusicEmbed({ platform, id, query, label, title, compact }) {
+// Props (kept compatible with the legacy iframe-mode call sites):
+//   query    — search string (artist + title, or artist alone)
+//   label?   — caption text shown above the buttons
+//   title?   — accessibility label / fallback caption
+//   compact? — tighter layout (timeline cards)
+//   platform — IGNORED. Retained for back-compat with old call sites
+//              that passed { platform, id }; the buttons row covers
+//              all four platforms regardless. Old `id` props are also
+//              ignored — when no `query` is given we synthesise one
+//              from `label` (the format historically used was
+//              "Artist — Title (Year) · note" so we extract the
+//              artist + title from the part before the optional ·).
+export default function MusicEmbed({ query, label, title, compact, platform, id }) {
   const { language } = useTranslation();
   const isJA = language === 'ja';
-  const config = getEmbedConfig({ platform, id, query, compact });
-  if (!config) return null;
 
-  const captionTitle =
-    title ||
-    label ||
-    `${config.brandLabel} ${isJA ? 'プレイヤー' : 'player'}`;
+  // Resolve a search query from props. Priority: explicit query →
+  // derived from label → null (don't render).
+  const q = (query && String(query).trim()) || deriveQueryFromLabel(label);
+  if (!q) return null;
+
+  const captionText = label || title || q;
+  const enc = encodeURIComponent(q);
+
+  // Four platform search hand-offs. Spotify / Apple / Beatport are
+  // affiliate-shaped destinations so they carry rel="sponsored";
+  // YouTube is a free search and does not.
+  const platforms = [
+    {
+      name: 'Spotify',
+      labelJa: 'Spotifyで聴く',
+      labelEn: 'Listen on Spotify',
+      icon: '🎧',
+      href: `https://open.spotify.com/search/${enc}`,
+      sponsored: true,
+    },
+    {
+      name: 'YouTube',
+      labelJa: 'YouTubeで検索',
+      labelEn: 'YouTube',
+      icon: '📺',
+      href: `https://www.youtube.com/results?search_query=${enc}`,
+      sponsored: false,
+    },
+    {
+      name: 'Apple Music',
+      labelJa: 'Apple Music',
+      labelEn: 'Apple Music',
+      icon: '🍎',
+      href: `https://music.apple.com/search?term=${enc}`,
+      sponsored: true,
+    },
+    {
+      name: 'Beatport',
+      labelJa: 'Beatport',
+      labelEn: 'Beatport',
+      icon: '🛒',
+      href: `https://www.beatport.com/search?q=${enc}`,
+      sponsored: true,
+    },
+  ];
 
   return (
     <div className="bg-dark-bg2/40 border border-orange-900/20 rounded-sm overflow-hidden">
       {label && (
-        <div className="px-3 py-2 border-b border-orange-900/20 flex items-center justify-between gap-2">
-          <span className="text-xs tracking-widest text-text-light/85 truncate">
+        <div className="px-3 py-2 border-b border-orange-900/20">
+          <span className="text-xs tracking-widest text-text-light/85 block truncate">
             {label}
-          </span>
-          <span className="text-xs tracking-widest text-accent-orange/70 font-bebas shrink-0">
-            {config.brandLabel}
           </span>
         </div>
       )}
-      {config.embed ? (
-        <iframe
-          src={config.embed}
-          loading="lazy"
-          allow={config.allow}
-          allowFullScreen={config.allowFullScreen}
-          title={captionTitle}
-          referrerPolicy="strict-origin-when-cross-origin"
-          style={{ border: 0, width: '100%', height: config.height }}
-          className="block bg-black"
-        />
-      ) : (
-        <a
-          href={config.fallback}
-          target="_blank"
-          rel="noopener noreferrer sponsored"
-          aria-label={`${config.brandLabel}: ${label || query || ''}`}
-          className="block px-4 py-6 text-center hover:bg-accent-orange/5 transition-colors"
-        >
-          <span className="text-3xl block mb-2" aria-hidden="true">
-            {config.icon}
-          </span>
-          <span className="font-bebas text-sm tracking-widest text-accent-orange">
-            {isJA ? `${config.brandLabel} で聴く →` : `Listen on ${config.brandLabel} →`}
-          </span>
-          {query && (
-            <span className="block mt-2 text-xs text-text-muted/70 italic font-barlow">
-              {isJA ? `検索: ${query}` : `Search: ${query}`}
-            </span>
-          )}
-        </a>
-      )}
+      <div className={`flex flex-wrap gap-1.5 ${compact ? 'p-2' : 'p-3'}`}>
+        {platforms.map((p) => (
+          <a
+            key={p.name}
+            href={p.href}
+            target="_blank"
+            rel={p.sponsored ? 'noopener noreferrer sponsored' : 'noopener noreferrer'}
+            aria-label={`${p.name}: ${captionText}`}
+            className="inline-flex items-center gap-1.5 font-bebas text-xs tracking-widest px-3 py-1.5 rounded border border-accent-orange/40 bg-accent-orange/5 text-accent-orange hover:bg-accent-orange/15 hover:border-accent-orange transition-colors"
+          >
+            <span aria-hidden="true">{p.icon}</span>
+            <span>{isJA ? p.labelJa : p.labelEn}</span>
+          </a>
+        ))}
+      </div>
     </div>
   );
 }
 
-function getEmbedConfig({ platform, id, query, compact }) {
-  switch (platform) {
-    case 'spotify': {
-      if (id) {
-        const [type, realId] = id.includes(':') ? id.split(':') : ['track', id];
-        const heights = {
-          artist: 380,
-          playlist: 380,
-          album: 380,
-          track: compact ? 80 : 152,
-        };
-        return {
-          embed: `https://open.spotify.com/embed/${type}/${realId}`,
-          fallback: null,
-          icon: '🎧',
-          brandLabel: 'Spotify',
-          height: heights[type] || 152,
-          allow:
-            'autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture',
-          allowFullScreen: false,
-        };
-      }
-      if (query) {
-        return {
-          embed: null,
-          fallback: `https://open.spotify.com/search/${encodeURIComponent(query)}`,
-          icon: '🎧',
-          brandLabel: 'Spotify',
-        };
-      }
-      return null;
-    }
-    case 'apple': {
-      if (id) {
-        const at = APPLE_AFFILIATE
-          ? (id.includes('?') ? '&' : '?') + `at=${encodeURIComponent(APPLE_AFFILIATE)}`
-          : '';
-        return {
-          embed: `https://embed.music.apple.com/${id}${at}`,
-          fallback: null,
-          icon: '🍎',
-          brandLabel: 'Apple Music',
-          height: compact ? 110 : 175,
-          allow:
-            'autoplay *; encrypted-media *; clipboard-write; fullscreen *',
-          allowFullScreen: true,
-        };
-      }
-      if (query) {
-        return {
-          embed: null,
-          fallback: `https://music.apple.com/search?term=${encodeURIComponent(query)}`,
-          icon: '🍎',
-          brandLabel: 'Apple Music',
-        };
-      }
-      return null;
-    }
-    case 'soundcloud': {
-      if (id) {
-        const url = id.startsWith('http') ? id : `https://soundcloud.com/${id}`;
-        const params = new URLSearchParams({
-          url,
-          color: '#ff6a00',
-          auto_play: 'false',
-          hide_related: 'true',
-          show_comments: 'false',
-          show_user: 'true',
-          show_reposts: 'false',
-          show_teaser: 'false',
-        });
-        return {
-          embed: `https://w.soundcloud.com/player/?${params.toString()}`,
-          fallback: null,
-          icon: '☁',
-          brandLabel: 'SoundCloud',
-          height: compact ? 120 : 166,
-          allow: 'autoplay; clipboard-write; encrypted-media; fullscreen',
-          allowFullScreen: false,
-        };
-      }
-      if (query) {
-        return {
-          embed: null,
-          fallback: `https://soundcloud.com/search?q=${encodeURIComponent(query)}`,
-          icon: '☁',
-          brandLabel: 'SoundCloud',
-        };
-      }
-      return null;
-    }
-    case 'youtube': {
-      if (id) {
-        const isPlaylist = /^(PL|UU|OL|RD|FL|LL)/.test(id);
-        const url = isPlaylist
-          ? `https://www.youtube-nocookie.com/embed/videoseries?list=${id}`
-          : `https://www.youtube-nocookie.com/embed/${id}`;
-        return {
-          embed: url,
-          fallback: null,
-          icon: '▶',
-          brandLabel: 'YouTube',
-          height: compact ? 240 : 360,
-          allow:
-            'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share',
-          allowFullScreen: true,
-        };
-      }
-      if (query) {
-        return {
-          embed: null,
-          fallback: `https://www.youtube.com/results?search_query=${encodeURIComponent(query)}`,
-          icon: '▶',
-          brandLabel: 'YouTube',
-        };
-      }
-      return null;
-    }
-    default:
-      return null;
-  }
+// Recover a usable search query from a legacy caller that supplied
+// only { id, label } (e.g. data/blog/embeds.js artist-feature entries
+// like { id: 'artist:0Sfsn...', label: 'Armin van Buuren — top tracks
+// on Spotify' }). Strategy:
+//   - Drop everything from "·" (mid-content separator) onward.
+//   - Take the part before " — ", treat as artist; if there's a
+//     " — <title>" tail, append the title up to any parenthetical.
+//   - Strip "top tracks on Spotify" / "official" tail noise.
+function deriveQueryFromLabel(label) {
+  if (!label || typeof label !== 'string') return null;
+  const main = label.split(/\s+·\s+/)[0]; // drop the " · note" tail
+  const parts = main.split(/\s+(?:—|–|-)\s+/);
+  const artist = (parts[0] || '').trim();
+  const title = (parts[1] || '')
+    .replace(/\s*\([^)]*\)\s*/g, ' ')
+    .replace(/\b(top tracks on Spotify|official|on Spotify|YouTube channel)\b/gi, '')
+    .trim();
+  const q = (artist + (title ? ` ${title}` : '')).trim();
+  return q || null;
 }
