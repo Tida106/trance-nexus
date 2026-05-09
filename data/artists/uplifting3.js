@@ -135,7 +135,7 @@ Spotifyのリスナーは月間約27万人で、絶対的なスーパースタ�
     origin: 'Belfast, Northern Ireland',
     born: '1980',
     activeFrom: '2009',
-    labels: ['Afterdark', 'Black Hole Recordings', 'Subculture'],
+    labels: ['Afterdark', 'Black Hole Recordings', 'Subculture', 'Outburst Records'],
     topWorks: [
       { title: 'Phuture', year: 2010, type: 'track' },
       { title: 'Distant World', year: '2012–', type: 'show' },
