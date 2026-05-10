@@ -237,3 +237,50 @@ closes with the dates "(Garret Lockhart, 1990–2020.)" without
 negative or sensational language. JSON-LD for each artist is emitted
 by `app/artists/[slug]/page.jsx` from the data file fields, so no
 per-entry structured-data work is required.
+
+---
+
+# Artist Dedup Check — 2026-05-10 (batch 14)
+
+3-name candidate list (Heatbeat, DJ T.H., Stoneface & Terminal)
+cross-checked against the 100-entry catalogue prior to this batch.
+All 3 resolved to **new** slugs and were added in
+`data/artists/uplifting8.js`, lifting the roster to 103.
+
+## Candidate list — 3 names
+
+1. Heatbeat
+2. DJ T.H.
+3. Stoneface & Terminal
+
+## Result — none registered, all eligible
+
+| # | Candidate | New slug | Source file |
+| --- | --- | --- | --- |
+| 1 | Heatbeat | `heatbeat` | `uplifting8.js` |
+| 2 | DJ T.H. | `dj-t-h` | `uplifting8.js` |
+| 3 | Stoneface & Terminal | `stoneface-and-terminal` | `uplifting8.js` |
+
+## Fact-check corrections vs. user brief
+
+The brief named two label affiliations that did not match the
+public record. Per the project's data-fabrication-prohibited rule,
+the entries use the verified names instead:
+
+- **Heatbeat label** — brief said "Aerolab Records"; verified label
+  name is **Aerys Records** (founded 2017 with Armada Music).
+  Used `Aerys Records` in `labels` and bio.
+- **DJ T.H. — Always Alive Recordings 主宰** — brief said founder/
+  head of AAR; AAR was founded by **Daniel Kandi** (his Enhanced
+  sub-label). DJ T.H. is described in the entry as a contributing
+  artist on AAR rather than its founder.
+
+## Re-run summary
+
+| Bucket | Count |
+| --- | --- |
+| Existing catalogue (pre-batch) | 100 |
+| Candidates (input) | 3 |
+| Already registered | 0 |
+| New (eligible, added) | 3 |
+| Existing catalogue (post-batch) | 103 |
