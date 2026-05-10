@@ -186,3 +186,54 @@ Sorted by slug, grouped by source file.
 | Candidates (input) | 20 |
 | Already registered | 6 |
 | New (eligible) | 14 |
+
+---
+
+# Artist Dedup Check — 2026-05-10 (re-run)
+
+Cross-check between the existing artist catalogue under `data/artists/`
+(now 100 entries after batches A–G) and a 7-name candidate list
+covering the modern Coldharbour / Anjunabeats / Mainstage / Armada
+roster. This audit is **read-only** — confirms the entries are already
+present from earlier today's batches F and G; no further additions
+were made.
+
+## Candidate list — 7 names
+
+1. Davey Asprey
+2. Super8 & Tab
+3. Gaia (Armin van Buuren side project)
+4. Omnia
+5. KhoMha
+6. i_o (active period 2017–2020 — neutral musical-legacy framing per project policy)
+7. W&W
+
+## All 7 already registered — duplicates, skip
+
+| # | Candidate | Existing slug | Source file | Added in commit |
+| --- | --- | --- | --- | --- |
+| 1 | Davey Asprey | `davey-asprey` | `uplifting7.js` | `a8391e0` (batch F) |
+| 2 | Super8 & Tab | `super8-and-tab` | `uplifting7.js` | `a8391e0` (batch F) |
+| 3 | Gaia | `gaia` | `uplifting7.js` | `a8391e0` (batch F) |
+| 4 | Omnia | `omnia` | `uplifting7.js` | `a8391e0` (batch F) |
+| 5 | KhoMha | `khomha` | `crossover3.js` | `8ba294c` (batch G) |
+| 6 | i_o | `i-o` | `crossover3.js` | `8ba294c` (batch G) |
+| 7 | W&W | `w-and-w` | `crossover3.js` | `8ba294c` (batch G) |
+
+## Re-run summary
+
+| Bucket | Count |
+| --- | --- |
+| Existing catalogue | 100 |
+| Candidates (input) | 7 |
+| Already registered | 7 |
+| New (eligible) | 0 |
+
+All 7 candidates resolved to existing slugs registered in
+`data/artists/index.js` and rendered by `app/artists/page.jsx`. The
+i_o entry follows the project's musical-legacy framing — `tags`
+includes `IN MEMORIAM`, `activePeriod: '2017–2020'`, and the bio
+closes with the dates "(Garret Lockhart, 1990–2020.)" without
+negative or sensational language. JSON-LD for each artist is emitted
+by `app/artists/[slug]/page.jsx` from the data file fields, so no
+per-entry structured-data work is required.
