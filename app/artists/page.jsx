@@ -26,10 +26,26 @@ export default function ArtistsPage() {
     return ['ALL', ...Array.from(set).sort()];
   }, []);
 
-  const [filteredArtists, setFilteredArtists] = useState(artists);
+  // Sort by display name: digits → A-Z → symbols, then alphabetic.
+  const sortedArtists = useMemo(() => {
+    const bucket = (name) => {
+      const c = (name || '').trim().charAt(0).toUpperCase();
+      if (/[0-9]/.test(c)) return 0;
+      if (/[A-Z]/.test(c)) return 1;
+      return 2;
+    };
+    return [...artists].sort((a, b) => {
+      const ba = bucket(a.name);
+      const bb = bucket(b.name);
+      if (ba !== bb) return ba - bb;
+      return a.name.toLowerCase().localeCompare(b.name.toLowerCase(), 'en');
+    });
+  }, []);
+
+  const [filteredArtists, setFilteredArtists] = useState(sortedArtists);
 
   useEffect(() => {
-    let result = artists;
+    let result = sortedArtists;
     if (searchQuery) {
       const q = searchQuery.toLowerCase();
       result = result.filter((a) => {
@@ -47,7 +63,7 @@ export default function ArtistsPage() {
       result = result.filter((a) => a.genre === selectedGenre);
     }
     setFilteredArtists(result);
-  }, [searchQuery, selectedGenre]);
+  }, [searchQuery, selectedGenre, sortedArtists]);
 
   return (
     <>
