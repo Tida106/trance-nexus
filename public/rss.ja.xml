@@ -6,7 +6,7 @@
   <atom:link href="https://trance-nexus.com/rss.ja.xml" rel="self" type="application/rss+xml" />
   <description>トランスミュージックの長尺記事：歴史、アーティスト、レーベル、シーン、機材・制作ガイド。</description>
   <language>ja</language>
-  <lastBuildDate>Fri, 08 May 2026 12:22:49 GMT</lastBuildDate>
+  <lastBuildDate>Mon, 11 May 2026 04:25:39 GMT</lastBuildDate>
   <generator>trance-nexus rss generator</generator>
   <item>
     <title>象徴的なトランス・ボーカリスト：アンセムの背後の声</title>
@@ -315,6 +315,27 @@
     <guid isPermaLink="true">https://trance-nexus.com/blog/paul-van-dyk-pioneer-of-trance</guid>
     <pubDate>Fri, 08 May 2026 00:00:00 GMT</pubDate>
     <description>ポール・ヴァン・ダイクはトランスをプレイしただけでなく、それを生み出すのを助けた。東ベルリンからグローバルステージへ——音楽、政治、粘り強さの物語。</description>
+  </item>
+  <item>
+    <title>バレアリック・トランスとは何か？ ― 太陽、海、スロー BPMの決定版ガイド</title>
+    <link>https://trance-nexus.com/blog/what-is-balearic-trance</link>
+    <guid isPermaLink="true">https://trance-nexus.com/blog/what-is-balearic-trance</guid>
+    <pubDate>Fri, 08 May 2026 00:00:00 GMT</pubDate>
+    <description>バレアリック・トランスはジャンルの太陽を浴びた、よりスローな端だ ― イビザのCafé del Marサンセット・バー伝統に根ざし、Energy 52「Café del Mar」（1993）とChicaneの90年代後半カタログによって成文化され、地中海の夕方／日の出の情緒的パレットを軸に構築される。</description>
+  </item>
+  <item>
+    <title>ドリーム・トランスとは何か？ ― Robert Milesから今日までの決定版ガイド</title>
+    <link>https://trance-nexus.com/blog/what-is-dream-trance</link>
+    <guid isPermaLink="true">https://trance-nexus.com/blog/what-is-dream-trance</guid>
+    <pubDate>Fri, 08 May 2026 00:00:00 GMT</pubDate>
+    <description>ドリーム・トランスはピアノ主導のメランコリックなイタリアのサブジャンルで、Robert Milesの「Children」と周辺のMedia Records／DBXカタログを軸に1995〜96年に結晶化した ― トランスが一時的にヨーロッパ最大のポップ・フォーマットになった瞬間だ。</description>
+  </item>
+  <item>
+    <title>ゴア・トランスとは何か？ ― 起源、サウンド、パイオニアの決定版ガイド</title>
+    <link>https://trance-nexus.com/blog/what-is-goa-trance</link>
+    <guid isPermaLink="true">https://trance-nexus.com/blog/what-is-goa-trance</guid>
+    <pubDate>Fri, 08 May 2026 00:00:00 GMT</pubDate>
+    <description>ゴア・トランスはオリジナルのサイケデリック・トランス形式だ ― 1989〜1995年のゴア・ビーチパーティ・シーンで、西洋の旅行者、インドの地元文化、そして1990年代初頭の新しいデジタル・スタジオ技術が、後のすべてのサイトランスが直接降下するサウンドへと結合した場所だ。</description>
   </item>
   <item>
     <title>ハード・トランスとは何か？ ― エネルギー、BPM、クラシック・アンセム</title>

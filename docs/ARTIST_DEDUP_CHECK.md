@@ -284,3 +284,32 @@ the entries use the verified names instead:
 | Already registered | 0 |
 | New (eligible, added) | 3 |
 | Existing catalogue (post-batch) | 103 |
+
+---
+
+# Artist Dedup Check — 2026-05-11 (batch 15)
+
+Cross-check between the existing artist catalogue (103) and a 6-name
+brief: Natalie Gioia, Rinaly, Daren Porter, Tempo Giusto, Ronski
+Speed, Dennis Sheperd.
+
+## Result
+
+| # | Candidate | New slug | Status | Notes |
+| --- | --- | --- | --- | --- |
+| 1 | Natalie Gioia | `natalie-gioia` | NEW | Not present (slug or name) |
+| 2 | Rinaly | `rinaly` | NEW | Appears as collaborator in others' tracks (Susana 2020) but no own entry |
+| 3 | Daren Porter → **Darren Porter** | `darren-porter` | NEW | Brief spelled "Daren"; verified spelling on Spotify/Wikipedia/Beatport is **Darren Porter** (double-r). Slug uses verified spelling per project's data-fabrication-prohibited rule. |
+| 4 | Tempo Giusto | `tempo-giusto` | NEW | Not present |
+| 5 | Ronski Speed | `ronski-speed` | **SKIPPED (duplicate)** | Already in `vocal.js` (slug `ronski-speed`) |
+| 6 | Dennis Sheperd | `dennis-sheperd` | NEW | Not present |
+
+## Re-run summary
+
+| Bucket | Count |
+| --- | --- |
+| Existing catalogue (pre-batch) | 103 |
+| Candidates (input) | 6 |
+| Already registered | 1 (ronski-speed) |
+| New (eligible, added) | 5 |
+| Existing catalogue (post-batch) | 108 |
