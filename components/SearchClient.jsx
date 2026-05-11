@@ -6,6 +6,7 @@ import { useSearchParams, useRouter } from 'next/navigation';
 import Navigation from './Navigation';
 import Footer from './Footer';
 import Breadcrumb from './Breadcrumb';
+import SearchIcon from './SearchIcon';
 import { useTranslation } from '@/lib/useTranslation';
 import {
   performSearch,
@@ -104,8 +105,10 @@ export default function SearchClient() {
             <div className="w-20 h-1 bg-gradient-to-r from-accent-red via-accent-orange to-transparent mb-6" />
 
             {/* Search input */}
-            <div className="flex border border-orange-900/30 rounded overflow-hidden mb-4">
-              <span className="text-accent-orange text-xl flex items-center px-4 bg-dark-bg2/80" aria-hidden="true">🔎</span>
+            <div className="flex items-center border gold-metallic-search rounded overflow-hidden mb-4 bg-dark-bg2/80">
+              <span className="flex items-center px-4">
+                <SearchIcon className="w-6 h-6 shrink-0" />
+              </span>
               <input
                 type="search"
                 role="searchbox"
@@ -118,7 +121,7 @@ export default function SearchClient() {
                     ? '記事・アーティスト・レーベル・用語を検索...'
                     : 'Search articles, artists, labels, glossary...'
                 }
-                className="flex-1 bg-dark-bg2/80 border-none px-4 py-3 text-text-light font-barlow text-base placeholder-text-muted outline-none"
+                className="flex-1 bg-transparent border-none px-2 py-3 text-text-light font-barlow text-base gold-metallic-placeholder outline-none"
               />
             </div>
 

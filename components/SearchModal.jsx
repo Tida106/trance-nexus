@@ -10,6 +10,7 @@ import {
   TYPE_ORDER,
   TYPE_LABELS,
 } from '@/lib/search';
+import SearchIcon from './SearchIcon';
 
 export default function SearchModal({ open, onClose }) {
   const { language } = useTranslation();
@@ -109,13 +110,13 @@ export default function SearchModal({ open, onClose }) {
       onClick={onClose}
     >
       <div
-        className="w-full max-w-2xl bg-dark-bg2 border border-accent-orange rounded-sm shadow-2xl max-h-[80vh] flex flex-col"
+        className="w-full max-w-2xl bg-dark-bg2 border gold-metallic-search rounded-sm shadow-2xl max-h-[80vh] flex flex-col"
         onClick={(e) => e.stopPropagation()}
         onKeyDown={onKeyDown}
       >
         {/* Input */}
-        <div className="flex items-center gap-3 p-4 border-b border-orange-900/30">
-          <span className="text-accent-orange text-xl" aria-hidden="true">🔎</span>
+        <div className="flex items-center gap-3 p-4 border-b border-[rgba(212,175,55,0.25)]">
+          <SearchIcon className="w-6 h-6 shrink-0" />
           <input
             ref={inputRef}
             type="search"
@@ -132,7 +133,7 @@ export default function SearchModal({ open, onClose }) {
                 ? '記事・アーティスト・レーベル・用語を検索...'
                 : 'Search articles, artists, labels, glossary...'
             }
-            className="flex-1 bg-transparent border-none text-text-light text-base font-barlow outline-none placeholder-text-muted"
+            className="flex-1 bg-transparent border-none text-text-light text-base font-barlow outline-none gold-metallic-placeholder"
           />
           <button
             onClick={onClose}

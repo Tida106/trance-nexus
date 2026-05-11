@@ -3,6 +3,7 @@
 import { useEffect, useState } from 'react';
 import dynamic from 'next/dynamic';
 import { useTranslation } from '@/lib/useTranslation';
+import SearchIcon from './SearchIcon';
 
 // SearchModal pulls in minisearch + the full search-index fetch flow.
 // Defer the JS until the user actually requests search — first paint
@@ -43,10 +44,9 @@ export default function SearchTrigger() {
         aria-label={isJA ? 'サイト内検索を開く' : 'Open site search'}
         className="font-bebas text-sm tracking-widest text-text-muted hover:bg-[rgba(212,175,55,0.06)] px-4 h-[84px] border-l border-orange-900/20 flex items-center gap-2 transition-colors group"
       >
-        {/* Auxiliary icon and ⌘K hint stay on the existing palette per spec.
-            Only the SEARCH/検索 label is gilded so it picks up the same
-            metallic treatment as the rest of the nav links. */}
-        <span className="text-base" aria-hidden="true">🔎</span>
+        {/* Magnifier icon shares the same gold gradient as the SEARCH/検索
+            label so the whole trigger reads as one gilded element. */}
+        <SearchIcon className="w-4 h-4 shrink-0" />
         <span className="hidden md:inline gold-metallic-nav">
           {isJA ? '検索' : 'SEARCH'}
         </span>
