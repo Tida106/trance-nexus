@@ -353,4 +353,66 @@ Her catalogue continues into the mid-2020s, including "Viva L'Opera" with Armin 
     },
     mentionedIn: [],
   },
+
+  // Added 2026-05-12 — Kyau & Albert (DE duo, Euphonic founders).
+  // Verifiable career facts only: Ralph Kyau + Steven Moebius Albert,
+  // Euphonic Records founded 1997, "Kyau vs. Albert" → "Kyau & Albert"
+  // rename in 2006, DJ Mag Top 100 in 2007–2010, Anphonic w/ Above &
+  // Beyond (Anjunabeats 2010), Luminous (Euphonic 2025), Freeq
+  // (Euphonic 2026). Vocal attribution to Steven Albert is in the
+  // user brief but not directly confirmable from Wikipedia and is
+  // softened to "credited on a number of singles".
+  {
+    slug: 'kyau-and-albert',
+    name: 'Kyau & Albert',
+    flag: '🇩🇪',
+    emoji: '🎶',
+    genre: 'VOCAL',
+    banner: 'b-vocal',
+    tags: ['VOCAL TRANCE', 'MELODIC TRANCE', 'PROGRESSIVE TRANCE', 'EUPHONIC', 'ANJUNABEATS', 'GERMAN'],
+    realName: 'Ralph Kyau & Steven Moebius Albert',
+    origin: 'Germany',
+    activeFrom: '1996',
+    labels: ['Euphonic Records', 'Anjunabeats', 'Armada Music', 'Songbird (Black Hole Recordings)'],
+    topWorks: [
+      { title: 'Outside', year: 2001, type: 'track' },
+      { title: 'Velvet Morning', year: 2003, type: 'track' },
+      { title: 'Here We Are Now (album)', year: 2004, type: 'album' },
+      { title: 'Made Of Sun', year: 2004, type: 'track' },
+      { title: 'Worldvibe (album)', year: 2006, type: 'album' },
+      { title: 'Are You Fine?', year: 2006, type: 'track' },
+      { title: 'Anphonic (with Above & Beyond)', year: 2010, type: 'track' },
+      { title: '15 Years (album)', year: 2012, type: 'album' },
+      { title: 'Luminous', year: 2025, type: 'track' },
+      { title: 'Freeq', year: 2026, type: 'track' },
+    ],
+    related: ['above-and-beyond', 'ronski-speed', 'super8-and-tab', 'cosmic-gate'],
+    links: {
+      spotify: 'https://open.spotify.com/artist/0pyi4vNCq5T6GgV1rt7ncc',
+      beatport: 'https://www.beatport.com/artist/kyau-and-albert/38975',
+      website: 'https://www.kyauandalbert.com/',
+    },
+    sub: { en: 'Melodic Vocal Trance / Progressive', ja: 'メロディック・ヴォーカル・トランス / プログレッシブ' },
+    short: {
+      en: 'German trance duo Ralph Kyau and Steven Moebius Albert, active since 1996 and co-founders of Euphonic Records (1997). DJ Mag Top 100 ranked four consecutive years 2007–2010, with the "Anphonic" Above & Beyond collaboration (Anjunabeats, 2010) among the catalogue\'s most-broadcast tracks.',
+      ja: 'Ralph KyauおよびSteven Moebius Albertによるドイツのトランス・デュオ。1996年から活動し、Euphonic Recordsの共同創設者（1997年設立）。DJ Mag Top 100に2007年から2010年まで4年連続ランクインし、Above & Beyondとの「Anphonic」（Anjunabeats／2010年）はカタログで最も放送されているトラックの一つ。',
+    },
+    style: {
+      en: 'Melodic vocal trance built around long-form lead-synth design and hook-led songwriting, with Steven Albert credited on lead vocals on a number of the duo\'s singles. The catalogue has moved across vocal-trance, melodic-progressive, and more recently tech-trance / driving-progressive territory, while remaining anchored to the Euphonic Records melodic-trance lineage and the wider Anjunabeats / Armada broadcast circuit.',
+      ja: '長尺のリード・シンセ設計とフックを軸にしたソングライティングを基盤に構築されたメロディック・ヴォーカル・トランス。デュオの幾つかのシングルではSteven Albertがリード・ボーカルにクレジットされている。カタログはボーカル・トランス、メロディック・プログレッシブ、そして近年はテック・トランス／ドライヴィング・プログレッシブ領域へと推移しつつ、Euphonic Recordsのメロディック・トランス系譜とより広いAnjunabeats／Armada放送サーキットに繋ぎ止められている。',
+    },
+    bio: {
+      en: `Kyau & Albert is the German trance duo of Ralph Kyau and Steven Moebius Albert, who first met in the summer of 1994 and released their debut single "Let Me In" in 1996. In 1997 they founded Euphonic Records, which has remained continuously active since and is among the longest-running melodic-trance imprints. The duo originally recorded as "Kyau vs. Albert" and renamed to the current "Kyau & Albert" billing in 2006.
+
+The catalogue includes the studio albums "Here We Are Now" (2004), "Worldvibe" (2006), and "15 Years" (2012), and singles "Outside" (2001), "Velvet Morning" (2003), "Made Of Sun" (2004), and "Are You Fine?" (2006). The 2010 Anjunabeats collaboration "Anphonic" with Above & Beyond — released on Anjunabeats Volume 8 — is among the most-broadcast tracks of the catalogue. Their monthly radio show "Euphonic Sessions" has been distributed via AH.FM and DI.FM and re-broadcast across the wider trance-radio network.
+
+They appeared in the DJ Magazine Top 100 DJs poll for four consecutive years between 2007 and 2010. More recent output continues on Euphonic Records and Anjunabeats, including "Luminous" (Euphonic, 2025) — featured in Markus Schulz's "In Search of Sunrise 21" — and "Freeq" (Euphonic, 2026). Their Spotify monthly listener count sits around 154K across the catalogue.`,
+      ja: `Kyau & Albertは、1994年夏に初めて出会い1996年にデビュー・シングル「Let Me In」をリリースしたRalph KyauおよびSteven Moebius Albertによるドイツのトランス・デュオ。1997年にEuphonic Recordsを設立し、同レーベルはそれ以来継続的に活動しており、メロディック・トランス・インプリントの中で最も長く運営されているものの一つとなっている。デュオは当初「Kyau vs. Albert」名義でレコーディングしており、2006年に現在の「Kyau & Albert」表記へと改名した。
+
+カタログはスタジオ・アルバム「Here We Are Now」（2004）、「Worldvibe」（2006）、「15 Years」（2012）、およびシングル「Outside」（2001）、「Velvet Morning」（2003）、「Made Of Sun」（2004）、「Are You Fine?」（2006）を含む。2010年のAnjunabeatsからのAbove & Beyondとのコラボレーション「Anphonic」——Anjunabeats Volume 8に収録——はカタログで最も放送されているトラックの一つ。月例ラジオ番組「Euphonic Sessions」はAH.FMおよびDI.FMを通じて配信されており、より広いトランス・ラジオ・ネットワークで再放送されている。
+
+DJ Magazine Top 100 DJs投票には2007年から2010年まで4年連続で登場した。より最近のアウトプットはEuphonic RecordsおよびAnjunabeatsから継続しており、Markus Schulzの「In Search of Sunrise 21」に収録された「Luminous」（Euphonic／2025）および「Freeq」（Euphonic／2026）を含む。Spotify月間リスナー数はカタログ全体で約15万4千人。`,
+    },
+    mentionedIn: [],
+  },
 ];

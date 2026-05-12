@@ -1,4 +1,4 @@
-// trance-nexus service worker — cache version: tn-2026-05-11-mp0p86d9
+// trance-nexus service worker — cache version: tn-2026-05-12-mp20fj9f
 //
 // Strategy:
 //   1. Pre-cache app-shell on install (best-effort; one 404 won't abort).
@@ -11,7 +11,7 @@
 // that does not match this name is deleted, so old assets cannot stick around
 // across deploys.
 
-const CACHE_NAME = 'tn-2026-05-11-mp0p86d9';
+const CACHE_NAME = 'tn-2026-05-12-mp20fj9f';
 const PRECACHE_URLS = [
   "/",
   "/blog",
