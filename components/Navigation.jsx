@@ -34,39 +34,29 @@ export default function Navigation() {
         />
       </Link>
       <div className="flex gap-0 items-center">
+        {/* All primary nav items point at real Next.js routes (not
+            in-page #hashes) so the bar works from every page, not just
+            the homepage. The child <span> carries the gold gradient so
+            the parent <Link>'s hover-bg utility doesn't conflict with
+            the background-clip:text on the label. */}
         {[
-          { label: t('nav.artists'), href: '#artist' },
-          { label: t('nav.radio'), href: '#radio' },
-          { label: t('nav.setlists'), href: '#setlist' },
-          { label: t('nav.events'), href: '#events' },
-        ].map((link, i) => (
-          <a
-            key={i}
+          { label: t('nav.artists'), href: '/artists' },
+          { label: t('nav.radio'), href: '/radio' },
+          { label: t('nav.setlists'), href: '/setlists' },
+          { label: t('nav.events'), href: '/events' },
+          { label: t('nav.about'), href: '/about' },
+        ].map((link) => (
+          <Link
+            key={link.href}
             href={link.href}
             className="px-5 h-[84px] leading-[84px] block border-l border-orange-900/20 hover:bg-[rgba(212,175,55,0.06)] transition-colors relative group"
           >
-            {/* Gold metallic label. The class lives on a child <span> so
-                the parent <a>'s hover-bg utility doesn't conflict with
-                the gradient's background-clip:text. group-hover targets
-                inside .gold-metallic-nav brighten the fill on hover. */}
             <span className="font-bebas text-sm tracking-widest gold-metallic-nav">
               {link.label}
             </span>
             <span className="absolute bottom-0 left-0 right-0 h-0.5 gold-metallic-underline scale-x-0 group-hover:scale-x-100 transition-transform origin-left"></span>
-          </a>
+          </Link>
         ))}
-        {/* ABOUT is a real route (not an in-page anchor), so it uses
-            next/link for client navigation. Styling mirrors the anchor
-            items above so the gold-metallic treatment stays uniform. */}
-        <Link
-          href="/about"
-          className="px-5 h-[84px] leading-[84px] block border-l border-orange-900/20 hover:bg-[rgba(212,175,55,0.06)] transition-colors relative group"
-        >
-          <span className="font-bebas text-sm tracking-widest gold-metallic-nav">
-            {t('nav.about')}
-          </span>
-          <span className="absolute bottom-0 left-0 right-0 h-0.5 gold-metallic-underline scale-x-0 group-hover:scale-x-100 transition-transform origin-left"></span>
-        </Link>
         <SearchTrigger />
         <div className="border-l border-orange-900/20 px-5 h-[84px] leading-[84px] flex gap-2">
           <button
