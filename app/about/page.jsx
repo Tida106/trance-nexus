@@ -12,7 +12,7 @@ const ABOUT_BREADCRUMB = [
 ];
 
 const CONTACT_EMAIL = 'hello.sacredjapan@gmail.com';
-const LAST_UPDATED = '2026-05-05';
+const LAST_UPDATED = '2026-05-15';
 
 function AboutEN() {
   return (
@@ -29,17 +29,19 @@ function AboutEN() {
       </section>
 
       <section>
-        <h2 className="font-bebas text-xl tracking-widest text-accent-orange mb-3">2. Why We Started TRANCE NEXUS</h2>
+        <h2 className="font-bebas text-xl tracking-widest text-accent-orange mb-3">2. About</h2>
         <p className="mb-2">
-          TRANCE NEXUS was born out of a lifelong love for trance music. The operator has been
-          listening to trance since the late 90s — through the Gatecrasher era, the rise of A State
-          of Trance, the Anjunabeats explosion, and the modern psytrance and uplifting renaissance.
+          TRANCE NEXUS is an independent portal documenting trance music&apos;s history and present.
+        </p>
+        <p className="mb-2">
+          The site is run by a trance fan based in Japan. After witnessing Armin van Buuren&apos;s
+          performance at Tomorrowland 2016, I became a weekly listener of A State of Trance and
+          have been immersed in trance music ever since.
         </p>
         <p>
-          Despite the size of the global trance scene, there was no single, well-curated, bilingual
-          portal that aggregated radio schedules, setlists, releases, and events in one place —
-          especially one that bridges the Japanese and international communities. TRANCE NEXUS was
-          built to fill that gap, by a fan, for fans.
+          The goal of this site is to serve as an entry point for those new to the genre, and a
+          place to revisit for longtime fans. Artists, labels, tracks, terminology, and three
+          decades of scene history — all documented as accurately and respectfully as possible.
         </p>
       </section>
 
@@ -131,16 +133,20 @@ function AboutJA() {
       </section>
 
       <section>
-        <h2 className="font-bebas text-xl tracking-widest text-accent-orange mb-3">2. なぜTRANCE NEXUSを始めたか</h2>
+        <h2 className="font-bebas text-xl tracking-widest text-accent-orange mb-3">2. 運営について</h2>
         <p className="mb-2">
-          TRANCE NEXUS は、トランスへの長年の愛から生まれました。
-          運営者は90年代後半からトランスを聴き続けてきました — Gatecrasher 全盛期、A State of Trance の台頭、
-          Anjunabeats の爆発的な成長、そして現代のサイケデリック・トランスとアップリフティングのリバイバル。
+          TRANCE NEXUS は、トランスミュージックの歴史と現在を記録する独立ポータルサイトです。
+        </p>
+        <p className="mb-2">
+          運営者は日本在住の日本人です。2016年 Tomorrowland でのアーミン・ヴァン・ブーレンのパフォーマンスを
+          目にしたことをきっかけに、A State of Trance（ASOT）の毎週視聴者となり、それ以来トランスミュージックに
+          深く傾倒してきました。
         </p>
         <p>
-          世界のトランスシーンの規模は大きいにもかかわらず、ラジオ番組のスケジュール・セットリスト・リリース・イベント情報を
-          一箇所で網羅し、かつ日本と海外のコミュニティを橋渡しできるバイリンガルなポータルは存在しませんでした。
-          TRANCE NEXUS は、その空白を埋めるために、ファンの手によってファンのために作られました。
+          このサイトは、トランスというジャンルをまだ知らない人にとっての入り口になり、
+          長年のファンにとっては記憶を辿る場所になることを目指しています。
+          アーティスト、レーベル、楽曲、用語、そして30年以上にわたるシーンの軌跡を、
+          できるだけ正確に、敬意を持って記録していきます。
         </p>
       </section>
 
