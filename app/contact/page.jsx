@@ -55,7 +55,7 @@ export default function ContactPage() {
           <div className="bg-dark-bg2/80 border border-orange-900/20 rounded-sm p-10">
             {isJA ? (
               <>
-                <p className="text-text-light/70 text-sm leading-relaxed mb-8">
+                <p className="text-text-light/90 text-sm leading-relaxed mb-8">
                   TRANCE NEXUS に関するご質問・ご意見・掲載依頼・アフィリエイト連携のご提案など、お気軽にメールにてお問い合わせください。
                   できる限り迅速にご返信いたします。
                 </p>
@@ -80,7 +80,7 @@ export default function ContactPage() {
               </>
             ) : (
               <>
-                <p className="text-text-light/70 text-sm leading-relaxed mb-8">
+                <p className="text-text-light/90 text-sm leading-relaxed mb-8">
                   For any questions, feedback, listing requests, or affiliate partnership enquiries
                   regarding TRANCE NEXUS, please reach out via email. We&apos;ll get back to you
                   as soon as possible.

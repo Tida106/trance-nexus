@@ -16,7 +16,7 @@ const LAST_UPDATED = '2026-05-05';
 
 function DmcaEN() {
   return (
-    <div className="space-y-8 text-text-light/75 text-sm leading-relaxed font-barlow">
+    <div className="space-y-8 text-text-light/90 text-sm leading-relaxed font-barlow">
       <section>
         <h2 className="font-bebas text-xl tracking-widest text-accent-orange mb-3">1. DMCA Compliance Statement</h2>
         <p className="mb-2">
@@ -144,7 +144,7 @@ function DmcaEN() {
 
 function DmcaJA() {
   return (
-    <div className="space-y-8 text-text-light/75 text-sm leading-relaxed font-barlow">
+    <div className="space-y-8 text-text-light/90 text-sm leading-relaxed font-barlow">
       <section>
         <h2 className="font-bebas text-xl tracking-widest text-accent-orange mb-3">1. DMCA準拠の表明</h2>
         <p className="mb-2">

@@ -46,7 +46,7 @@ function CookieTypeCard({ title, body }) {
   return (
     <div className="bg-dark-bg2/60 border border-orange-900/20 rounded-sm p-5">
       <h3 className="font-bebas text-base tracking-widest text-accent-orange mb-2">{title}</h3>
-      <p className="text-text-light/75 text-sm leading-relaxed">{body}</p>
+      <p className="text-text-light/90 text-sm leading-relaxed">{body}</p>
     </div>
   );
 }
@@ -75,10 +75,10 @@ function ThirdPartyTable({ isJA }) {
           {THIRD_PARTY.map((p) => (
             <tr key={p.name} className="border-b border-orange-900/15">
               <td className="p-3 text-text-light font-barlow font-semibold align-top">{p.name}</td>
-              <td className="p-3 text-text-light/75 font-barlow align-top">
+              <td className="p-3 text-text-light/90 font-barlow align-top">
                 {isJA ? p.type.ja : p.type.en}
               </td>
-              <td className="p-3 text-text-light/75 font-barlow align-top">
+              <td className="p-3 text-text-light/90 font-barlow align-top">
                 {isJA ? p.purpose.ja : p.purpose.en}
               </td>
               <td className="p-3 align-top">
@@ -101,7 +101,7 @@ function ThirdPartyTable({ isJA }) {
 
 function CookiesEN() {
   return (
-    <div className="space-y-8 text-text-light/75 text-sm leading-relaxed font-barlow">
+    <div className="space-y-8 text-text-light/90 text-sm leading-relaxed font-barlow">
       <section>
         <h2 className="font-bebas text-xl tracking-widest text-accent-orange mb-3">1. What Are Cookies?</h2>
         <p>
@@ -225,7 +225,7 @@ function CookiesEN() {
 
 function CookiesJA() {
   return (
-    <div className="space-y-8 text-text-light/75 text-sm leading-relaxed font-barlow">
+    <div className="space-y-8 text-text-light/90 text-sm leading-relaxed font-barlow">
       <section>
         <h2 className="font-bebas text-xl tracking-widest text-accent-orange mb-3">1. Cookieとは</h2>
         <p>

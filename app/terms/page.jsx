@@ -16,7 +16,7 @@ const LAST_UPDATED = '2026-05-05';
 
 function TermsEN() {
   return (
-    <div className="space-y-8 text-text-light/75 text-sm leading-relaxed font-barlow">
+    <div className="space-y-8 text-text-light/90 text-sm leading-relaxed font-barlow">
       <section>
         <h2 className="font-bebas text-xl tracking-widest text-accent-orange mb-3">1. Introduction</h2>
         <p>
@@ -171,7 +171,7 @@ function TermsEN() {
 
 function TermsJA() {
   return (
-    <div className="space-y-8 text-text-light/75 text-sm leading-relaxed font-barlow">
+    <div className="space-y-8 text-text-light/90 text-sm leading-relaxed font-barlow">
       <section>
         <h2 className="font-bebas text-xl tracking-widest text-accent-orange mb-3">1. はじめに</h2>
         <p>
