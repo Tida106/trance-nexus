@@ -55,6 +55,18 @@ export default function Navigation() {
             <span className="absolute bottom-0 left-0 right-0 h-0.5 gold-metallic-underline scale-x-0 group-hover:scale-x-100 transition-transform origin-left"></span>
           </a>
         ))}
+        {/* ABOUT is a real route (not an in-page anchor), so it uses
+            next/link for client navigation. Styling mirrors the anchor
+            items above so the gold-metallic treatment stays uniform. */}
+        <Link
+          href="/about"
+          className="px-5 h-[84px] leading-[84px] block border-l border-orange-900/20 hover:bg-[rgba(212,175,55,0.06)] transition-colors relative group"
+        >
+          <span className="font-bebas text-sm tracking-widest gold-metallic-nav">
+            {t('nav.about')}
+          </span>
+          <span className="absolute bottom-0 left-0 right-0 h-0.5 gold-metallic-underline scale-x-0 group-hover:scale-x-100 transition-transform origin-left"></span>
+        </Link>
         <SearchTrigger />
         <div className="border-l border-orange-900/20 px-5 h-[84px] leading-[84px] flex gap-2">
           <button
