@@ -34,7 +34,8 @@ function showHashtags(name) {
 function buildRadioTweets(show) {
   const tags = COMMON_TAGS + showHashtags(show.name) + ' #radioshow';
   const url = `${SITE_URL}/radio`;
-  const desc = show.desc ? show.desc.slice(0, 40) : '';
+  const descSource = show.descJa || show.desc || '';
+  const desc = descSource ? descSource.slice(0, 40) : '';
 
   const jp = trim280(
     `📻 ${show.name} 新エピソード！\n${show.num} | DJ: ${show.dj}\n${desc}\n\n${url}\n\n${tags}`

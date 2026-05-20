@@ -127,8 +127,10 @@ export default function RadioPage() {
 
                 <div className="flex gap-3 flex-wrap text-xs text-text-muted mb-3">
                   <div>🎵 {show.genre}</div>
-                  <div>👥 {show.listeners} {t('radio.listeners')}</div>
-                  <div>📅 {show.freq}</div>
+                  {show.listeners && (
+                    <div>👥 {show.listeners} {t('radio.listeners')}</div>
+                  )}
+                  <div>📅 {t(`radio.tabs.${show.freq}`)}</div>
                 </div>
 
                 <p className="text-sm text-text-light/50 leading-relaxed mb-3">
@@ -137,10 +139,14 @@ export default function RadioPage() {
 
                 <div className="border-t border-white/5 pt-3 flex flex-col gap-1 text-xs">
                   {show.sched.map((s, j) => (
-                    <div key={j} className="flex justify-between items-center">
+                    <div key={j} className="flex justify-between items-center gap-3">
                       <span className="font-bebas text-accent-orange tracking-widest">{s.day}</span>
-                      <span className="text-text-light/65 font-mono">{s.time}</span>
-                      <span className="text-text-muted">{s.ep}</span>
+                      {s.time && (
+                        <span className="text-text-light/65 font-mono">{s.time}</span>
+                      )}
+                      <span className="text-text-muted">
+                        {language === 'ja' ? (s.epJa || s.ep) : (s.epEn || s.ep)}
+                      </span>
                     </div>
                   ))}
                 </div>

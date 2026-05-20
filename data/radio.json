@@ -6,55 +6,55 @@
     "live": true,
     "freq": "weekly",
     "genre": "Uplifting / Progressive",
-    "listeners": "40M+",
     "sched": [
       {
         "day": "FRI",
         "time": "21:00 CET",
-        "ep": "毎週"
+        "epJa": "毎週",
+        "epEn": "Weekly"
       }
     ],
-    "descJa": "世界最大のトランスラジオ。毎週金曜21時(CET)放送、全100カ国以上。",
-    "descEn": "The world's largest trance radio show. Broadcast every Friday at 21:00 CET to over 100 countries.",
+    "descJa": "Armin van Buurenが主宰する世界最大のトランスラジオ。毎週金曜21時(CET)放送。",
+    "descEn": "The world's largest trance radio show, hosted by Armin van Buuren. Broadcast every Friday at 21:00 CET.",
     "url": "https://www.astateoftrance.com"
   },
   {
-    "name": "Future Sound Of Egypt",
+    "name": "Future Sound of Egypt",
     "dj": "Aly & Fila",
     "num": "SHOW #002",
     "live": false,
-    "freq": "biweekly",
-    "genre": "Uplifting / Egyptian",
-    "listeners": "5M+",
+    "freq": "weekly",
+    "genre": "Uplifting / Egyptian Trance",
     "sched": [
       {
-        "day": "MON",
-        "time": "20:00 CET",
-        "ep": "隔週"
+        "day": "WED",
+        "time": "DI.FM Trance",
+        "epJa": "毎週",
+        "epEn": "Weekly"
       }
     ],
-    "descJa": "エジプト・カイロ発。アップリフティングの旗手による隔週放送。",
-    "descEn": "Cairo-based show hosted by Aly & Fila, leading figures of uplifting trance. Broadcast biweekly.",
-    "url": "https://www.futuresoundofegypt.com"
+    "descJa": "エジプト・カイロ拠点のAly & Filaによるアップリフティング・トランス番組。毎週水曜にDI.FM Tranceで放送。",
+    "descEn": "Uplifting trance show hosted by Cairo-based duo Aly & Fila. Broadcast every Wednesday on DI.FM Trance.",
+    "url": "https://www.di.fm/shows/future-sound-of-egypt"
   },
   {
     "name": "Open Up",
     "dj": "Simon Patterson",
     "num": "SHOW #003",
     "live": false,
-    "freq": "monthly",
-    "genre": "Tech Trance",
-    "listeners": "2M+",
+    "freq": "weekly",
+    "genre": "Tech Trance / Psy Trance",
     "sched": [
       {
-        "day": "WED",
-        "time": "19:00 GMT",
-        "ep": "毎月"
+        "day": "THU",
+        "time": "23:00 CET",
+        "epJa": "毎週",
+        "epEn": "Weekly"
       }
     ],
-    "descJa": "テックトランスに特化した月イチ番組。ハードエッジなセット中心。",
-    "descEn": "Monthly show focused on tech-trance, centered on hard-edged sets.",
-    "url": "https://ah.fm"
+    "descJa": "テックトランスとサイトランスにフォーカスしたSimon Pattersonの番組。毎週木曜23時(CET)にDI.FM Tranceで放送。",
+    "descEn": "Simon Patterson's show focused on tech trance and psy trance. Broadcast every Thursday at 23:00 CET on DI.FM Trance.",
+    "url": "https://www.di.fm/shows/open-up"
   },
   {
     "name": "Group Therapy Radio",
@@ -62,93 +62,131 @@
     "num": "SHOW #004",
     "live": false,
     "freq": "weekly",
-    "genre": "Uplifting / Vocal",
-    "listeners": "10M+",
+    "genre": "Uplifting / Progressive / Vocal",
     "sched": [
       {
         "day": "FRI",
-        "time": "18:00 EST",
-        "ep": "毎週"
+        "time": "",
+        "epJa": "毎週",
+        "epEn": "Weekly"
       }
     ],
-    "descJa": "Anjunabeatsを率いるA&Bによるグループセラピーラジオ。",
-    "descEn": "Group Therapy Radio hosted by Above & Beyond, founders of the Anjunabeats label.",
-    "url": "https://www.anjunabeats.com"
+    "descJa": "Above & Beyondによる毎週金曜放送の2時間番組。ゲストミックスやAnjunabeats関連の新曲を紹介する。",
+    "descEn": "Above & Beyond's weekly two-hour show, broadcast every Friday with guest mixes and releases from Anjunabeats.",
+    "url": "https://www.di.fm/shows/group-therapy"
   },
   {
-    "name": "The Untold",
+    "name": "GO On Air",
     "dj": "Giuseppe Ottaviani",
     "num": "SHOW #005",
     "live": false,
     "freq": "monthly",
-    "genre": "Uplifting",
-    "listeners": "1.5M+",
+    "genre": "Uplifting Trance",
     "sched": [
       {
-        "day": "THU",
-        "time": "20:00 CET",
-        "ep": "毎月"
+        "day": "MON",
+        "time": "18:00 CET",
+        "epJa": "毎月第3月曜",
+        "epEn": "3rd Monday monthly"
       }
     ],
-    "descJa": "ジュゼッペのライブ感溢れるアップリフティングミックスを毎月。",
-    "descEn": "Monthly uplifting trance mix from Giuseppe Ottaviani with a live-performance feel.",
-    "url": "https://giuseppeottaviani.com"
+    "descJa": "Giuseppe OttavianiのLive 2.0セットを抜粋したアップリフティング番組。毎月第3月曜18時(CET)にDI.FM Tranceで放送。",
+    "descEn": "Uplifting trance show featuring excerpts from Giuseppe Ottaviani's Live 2.0 sets. Broadcast on the third Monday of every month at 18:00 CET on DI.FM Trance.",
+    "url": "https://www.di.fm/shows/go-on-air-20"
   },
   {
     "name": "Find Your Harmony",
     "dj": "Andrew Rayel",
     "num": "SHOW #006",
     "live": false,
-    "freq": "monthly",
-    "genre": "Uplifting / Epic",
-    "listeners": "3M+",
+    "freq": "weekly",
+    "genre": "Uplifting / Trance / Progressive",
     "sched": [
       {
-        "day": "TUE",
-        "time": "21:00 EET",
-        "ep": "毎月"
+        "day": "WED",
+        "time": "",
+        "epJa": "毎週",
+        "epEn": "Weekly"
       }
     ],
-    "descJa": "エピックかつエモーショナルなサウンドが詰まった月刊ショー。",
-    "descEn": "Monthly show curated by Andrew Rayel, featuring epic and emotional sounds.",
-    "url": "https://www.youtube.com/@AndrewRayel"
+    "descJa": "Andrew Rayelによる毎週水曜更新の番組。エピソード500回を突破し、トランス／プログレッシブ／メロディック・テクノを紹介する。",
+    "descEn": "Andrew Rayel's weekly show updated every Wednesday. Past 500 episodes, presenting trance, progressive and melodic techno.",
+    "url": "https://www.youtube.com/findyourharmony"
   },
   {
-    "name": "Analog Garden",
+    "name": "Resonation Radio",
     "dj": "Ferry Corsten",
     "num": "SHOW #007",
     "live": false,
-    "freq": "biweekly",
-    "genre": "Tech Trance",
-    "listeners": "2M+",
+    "freq": "weekly",
+    "genre": "Trance / Progressive / Melodic Techno",
     "sched": [
       {
-        "day": "SAT",
+        "day": "WED",
         "time": "20:00 CET",
-        "ep": "隔週"
+        "epJa": "毎週",
+        "epEn": "Weekly"
       }
     ],
-    "descJa": "フェリー・コルステンによるテックトランスセット特化の隔週番組。",
-    "descEn": "Biweekly show by Ferry Corsten dedicated to tech-trance sets.",
-    "url": "https://ferrycorsten.com"
+    "descJa": "Ferry Corstenによる毎週水曜20時(CET)放送のラジオショー。YouTubeとSoundCloudで配信。",
+    "descEn": "Ferry Corsten's weekly show broadcast every Wednesday at 20:00 CET. Available on YouTube and SoundCloud.",
+    "url": "https://www.youtube.com/channel/UCjNKLcXS79kibFItBzaOf8A"
   },
   {
-    "name": "Vonyc Sessions",
+    "name": "VONYC Sessions",
     "dj": "Paul van Dyk",
     "num": "SHOW #008",
     "live": true,
     "freq": "weekly",
-    "genre": "Progressive / Uplifting",
-    "listeners": "6M+",
+    "genre": "Trance / Progressive",
     "sched": [
       {
-        "day": "FRI",
-        "time": "19:00 CET",
-        "ep": "毎週"
+        "day": "THU",
+        "time": "",
+        "epJa": "毎週",
+        "epEn": "Weekly"
       }
     ],
-    "descJa": "ポール・ヴァン・ダイクによる毎週金曜のプログレッシブセッション。",
-    "descEn": "Weekly Friday progressive-trance session from Paul van Dyk.",
+    "descJa": "Paul van Dykによる毎週木曜放送の番組。2026年1月にエピソード1,000回を達成した長寿番組。",
+    "descEn": "Paul van Dyk's weekly show broadcast every Thursday. The series reached its 1,000th episode in January 2026.",
     "url": "https://www.paulvandyk.com"
+  },
+  {
+    "name": "Statement! Radio",
+    "dj": "Ruben de Ronde",
+    "num": "SHOW #009",
+    "live": false,
+    "freq": "weekly",
+    "genre": "Trance / Progressive",
+    "sched": [
+      {
+        "day": "THU",
+        "time": "",
+        "epJa": "毎週",
+        "epEn": "Weekly"
+      }
+    ],
+    "descJa": "Ruben de Rondeによる新番組。2026年1月にスタートし、毎週木曜にYouTubeで配信。",
+    "descEn": "New weekly show from Ruben de Ronde launched in January 2026. Published every Thursday on YouTube.",
+    "url": "https://www.youtube.com/@rubenderonde"
+  },
+  {
+    "name": "Altitude Radio",
+    "dj": "MaRLo",
+    "num": "SHOW #010",
+    "live": false,
+    "freq": "weekly",
+    "genre": "Uplifting / Tech Trance",
+    "sched": [
+      {
+        "day": "",
+        "time": "AH.FM",
+        "epJa": "公式チャンネルで確認",
+        "epEn": "Check official channel"
+      }
+    ],
+    "descJa": "MaRLoによるアップリフティング／テックトランスの番組。AH.FMで放送。",
+    "descEn": "Uplifting and tech-trance show from MaRLo. Broadcast on AH.FM.",
+    "url": "https://ah.fm/shows/marlo-altitude-radio/"
   }
 ]
