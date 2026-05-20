@@ -48,6 +48,7 @@ const ARTICLES = [
   { slug: 'underground-trance-scene',                  title: 'The Underground Trance Scene You Need to Know' },
   // Batch 13: 2026 mid-year state-of-the-genre revival roundup
   { slug: 'trance-revival-2026',                       title: 'Trance Revival 2026: Why the Genre Is Back' },
+  { slug: 'asot-25-years-anniversary',                 title: 'A State of Trance Turns 25: The Show That Defined a Genre' },
 ];
 
 function esc(str) {

@@ -155,6 +155,15 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/blog"/>
   </url>
   <url>
+    <loc>https://trance-nexus.com/blog/asot-25-years-anniversary</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/blog/asot-25-years-anniversary"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/blog/asot-25-years-anniversary"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/blog/asot-25-years-anniversary"/>
+  </url>
+  <url>
     <loc>https://trance-nexus.com/blog/trance-revival-2026</loc>
     <lastmod>2026-05-20</lastmod>
     <changefreq>monthly</changefreq>

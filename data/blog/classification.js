@@ -6,6 +6,10 @@ import { categories } from './categories';
 import { tags as allTags } from './tags';
 
 export const classification = {
+  'asot-25-years-anniversary': {
+    category: 'history',
+    tags: ['2020s', '2000s', 'asot', 'armin-van-buuren', 'uplifting'],
+  },
   'trance-revival-2026': {
     category: 'history',
     tags: ['2020s', 'asot', 'uplifting', 'armin-van-buuren', 'above-and-beyond', 'ferry-corsten', 'tiesto'],

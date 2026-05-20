@@ -1,6 +1,10 @@
 // Lightweight listing data — no article body content.
 // Newest first. Keep in sync with data/blog/posts.js when adding articles.
 export const listing = [
+  // Batch 13 (cont.): ASOT 25th anniversary focus piece
+  { slug: 'asot-25-years-anniversary', date: '2026-05-21', readTime: 9, tags: ['history', 'culture', 'analysis'],
+    en: { title: 'A State of Trance Turns 25: The Show That Defined a Genre', excerpt: 'A State of Trance turned twenty-five in 2026. From a 2001 launch on ID&T Radio to a weekly Thursday broadcast reaching tens of millions across 150+ stations in 84 countries, ASOT has become the institutional centre of trance music — and the Rotterdam Ahoy anniversary marks the moment.' },
+    ja: { title: 'A State of Trance 25周年：ジャンルを定義したラジオショーの軌跡', excerpt: 'A State of Tranceは2026年、25周年を迎えた。2001年のID&T Radio開始から、現在は150局以上・84カ国・週次の木曜放送へと拡大し、トランスの制度的中心となっている。Rotterdam Ahoyでの25周年公演がその節目だ。' } },
   // Batch 13: 2026 mid-year state-of-the-genre revival roundup
   { slug: 'trance-revival-2026', date: '2026-05-20', readTime: 9, tags: ['analysis', 'culture', '2020s'],
     en: { title: 'Trance Revival 2026: Why the Genre Is Back and What\'s Driving It', excerpt: 'In 2026, trance is back on festival main stages and inside the wider conversation around dance music. Five intersecting forces are driving the return — none of them decisive alone, but together producing a shift that looks structural rather than seasonal.' },
