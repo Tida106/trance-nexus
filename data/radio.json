@@ -14,7 +14,9 @@
         "ep": "毎週"
       }
     ],
-    "desc": "世界最大のトランスラジオ。毎週金曜21時(CET)放送、全100カ国以上。"
+    "descJa": "世界最大のトランスラジオ。毎週金曜21時(CET)放送、全100カ国以上。",
+    "descEn": "The world's largest trance radio show. Broadcast every Friday at 21:00 CET to over 100 countries.",
+    "url": "https://www.astateoftrance.com"
   },
   {
     "name": "Future Sound Of Egypt",
@@ -31,7 +33,9 @@
         "ep": "隔週"
       }
     ],
-    "desc": "エジプト・カイロ発。アップリフティングの旗手による隔週放送。"
+    "descJa": "エジプト・カイロ発。アップリフティングの旗手による隔週放送。",
+    "descEn": "Cairo-based show hosted by Aly & Fila, leading figures of uplifting trance. Broadcast biweekly.",
+    "url": "https://www.futuresoundofegypt.com"
   },
   {
     "name": "Open Up",
@@ -48,7 +52,9 @@
         "ep": "毎月"
       }
     ],
-    "desc": "テックトランスに特化した月イチ番組。ハードエッジなセット中心。"
+    "descJa": "テックトランスに特化した月イチ番組。ハードエッジなセット中心。",
+    "descEn": "Monthly show focused on tech-trance, centered on hard-edged sets.",
+    "url": "https://ah.fm"
   },
   {
     "name": "Group Therapy Radio",
@@ -65,7 +71,9 @@
         "ep": "毎週"
       }
     ],
-    "desc": "Anjunadeepsを率いるA&Bによるグループセラピーラジオ。"
+    "descJa": "Anjunabeatsを率いるA&Bによるグループセラピーラジオ。",
+    "descEn": "Group Therapy Radio hosted by Above & Beyond, founders of the Anjunabeats label.",
+    "url": "https://www.anjunabeats.com"
   },
   {
     "name": "The Untold",
@@ -82,7 +90,9 @@
         "ep": "毎月"
       }
     ],
-    "desc": "ジュゼッペのライブ感溢れるアップリフティングミックスを毎月。"
+    "descJa": "ジュゼッペのライブ感溢れるアップリフティングミックスを毎月。",
+    "descEn": "Monthly uplifting trance mix from Giuseppe Ottaviani with a live-performance feel.",
+    "url": "https://giuseppeottaviani.com"
   },
   {
     "name": "Find Your Harmony",
@@ -99,7 +109,9 @@
         "ep": "毎月"
       }
     ],
-    "desc": "エピックかつエモーショナルなサウンドが詰まった月刊ショー。"
+    "descJa": "エピックかつエモーショナルなサウンドが詰まった月刊ショー。",
+    "descEn": "Monthly show curated by Andrew Rayel, featuring epic and emotional sounds.",
+    "url": "https://www.youtube.com/@AndrewRayel"
   },
   {
     "name": "Analog Garden",
@@ -116,7 +128,9 @@
         "ep": "隔週"
       }
     ],
-    "desc": "フェリー・コルステンによるテックトランスセット特化の隔週番組。"
+    "descJa": "フェリー・コルステンによるテックトランスセット特化の隔週番組。",
+    "descEn": "Biweekly show by Ferry Corsten dedicated to tech-trance sets.",
+    "url": "https://ferrycorsten.com"
   },
   {
     "name": "Vonyc Sessions",
@@ -133,6 +147,8 @@
         "ep": "毎週"
       }
     ],
-    "desc": "ポール・ヴァン・ダイクによる毎週金曜のプログレッシブセッション。"
+    "descJa": "ポール・ヴァン・ダイクによる毎週金曜のプログレッシブセッション。",
+    "descEn": "Weekly Friday progressive-trance session from Paul van Dyk.",
+    "url": "https://www.paulvandyk.com"
   }
 ]

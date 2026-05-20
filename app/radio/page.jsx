@@ -7,7 +7,7 @@ import { useTranslation } from '@/lib/useTranslation';
 import radio from '@/data/radio.json';
 
 export default function RadioPage() {
-  const { t } = useTranslation();
+  const { t, language } = useTranslation();
   const [selectedTab, setSelectedTab] = useState('all');
 
   const filteredRadio = selectedTab === 'all'
@@ -132,7 +132,7 @@ export default function RadioPage() {
                 </div>
 
                 <p className="text-sm text-text-light/50 leading-relaxed mb-3">
-                  {show.desc}
+                  {language === 'ja' ? show.descJa : show.descEn}
                 </p>
 
                 <div className="border-t border-white/5 pt-3 flex flex-col gap-1 text-xs">
@@ -145,9 +145,16 @@ export default function RadioPage() {
                   ))}
                 </div>
 
-                <button className="font-bebas text-xs tracking-widest mt-3 px-4 py-2 border border-accent-orange/30 text-accent-orange hover:bg-accent-orange/10 transition-all rounded">
-                  ▶ {t('radio.listen')}
-                </button>
+                {show.url && (
+                  <a
+                    href={show.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block font-bebas text-xs tracking-widest mt-3 px-4 py-2 border border-accent-orange/30 text-accent-orange hover:bg-accent-orange/10 transition-all rounded"
+                  >
+                    ▶ {t('radio.listen')}
+                  </a>
+                )}
               </div>
             ))}
           </div>
