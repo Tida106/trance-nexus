@@ -12,7 +12,7 @@ const ABOUT_BREADCRUMB = [
 ];
 
 const CONTACT_EMAIL = 'hello.sacredjapan@gmail.com';
-const LAST_UPDATED = '2026-05-15';
+const LAST_UPDATED = '2026-05-20';
 
 function AboutEN() {
   return (
@@ -35,9 +35,25 @@ function AboutEN() {
         </p>
         <p className="mb-2">
           The site is run by a trance fan based in Japan. After witnessing Armin van Buuren&apos;s
-          performance at Tomorrowland 2016, I became a weekly listener of A State of Trance and
+          performance at Tomorrowland 2018, I became a weekly listener of A State of Trance and
           have been immersed in trance music ever since.
         </p>
+        <figure className="mt-5 mb-2">
+          <figcaption className="text-xs text-accent-orange/90 tracking-wider mb-2 font-bebas">
+            The set that got me hooked on trance
+          </figcaption>
+          <div className="relative w-full overflow-hidden rounded-md border border-accent-orange/20 bg-black" style={{ aspectRatio: '16 / 9' }}>
+            <iframe
+              src="https://www.youtube-nocookie.com/embed/79nFO8dTJfY"
+              title="Armin van Buuren live at Tomorrowland 2018"
+              loading="lazy"
+              allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+              className="absolute inset-0 w-full h-full"
+            />
+          </div>
+        </figure>
         <p>
           The goal of this site is to serve as an entry point for those new to the genre, and a
           place to revisit for longtime fans. Artists, labels, tracks, terminology, and three
@@ -138,10 +154,26 @@ function AboutJA() {
           TRANCE NEXUS は、トランスミュージックの歴史と現在を記録する独立ポータルサイトです。
         </p>
         <p className="mb-2">
-          運営者は日本在住の日本人です。2016年 Tomorrowland でのアーミン・ヴァン・ブーレンのパフォーマンスを
+          運営者は日本在住の日本人です。2018年 Tomorrowland でのアーミン・ヴァン・ブーレンのパフォーマンスを
           目にしたことをきっかけに、A State of Trance（ASOT）の毎週視聴者となり、それ以来トランスミュージックに
           深く傾倒してきました。
         </p>
+        <figure className="mt-5 mb-2">
+          <figcaption className="text-xs text-accent-orange/90 tracking-wider mb-2 font-bebas">
+            私がトランスに夢中になるきっかけとなったセット
+          </figcaption>
+          <div className="relative w-full overflow-hidden rounded-md border border-accent-orange/20 bg-black" style={{ aspectRatio: '16 / 9' }}>
+            <iframe
+              src="https://www.youtube-nocookie.com/embed/79nFO8dTJfY"
+              title="Armin van Buuren live at Tomorrowland 2018"
+              loading="lazy"
+              allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+              className="absolute inset-0 w-full h-full"
+            />
+          </div>
+        </figure>
         <p>
           このサイトは、トランスというジャンルをまだ知らない人にとっての入り口になり、
           長年のファンにとっては記憶を辿る場所になることを目指しています。
