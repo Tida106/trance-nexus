@@ -46,6 +46,8 @@ const ARTICLES = [
   { slug: 'tomorrowland-trance-stage',                 title: "Tomorrowland's Trance Stage: A Sacred Ground" },
   { slug: 'ibiza-and-trance-love-story',               title: 'Ibiza and Trance: A Love Story' },
   { slug: 'underground-trance-scene',                  title: 'The Underground Trance Scene You Need to Know' },
+  // Batch 13: 2026 mid-year state-of-the-genre revival roundup
+  { slug: 'trance-revival-2026',                       title: 'Trance Revival 2026: Why the Genre Is Back' },
 ];
 
 function esc(str) {

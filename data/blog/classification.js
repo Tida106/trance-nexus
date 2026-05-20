@@ -6,6 +6,10 @@ import { categories } from './categories';
 import { tags as allTags } from './tags';
 
 export const classification = {
+  'trance-revival-2026': {
+    category: 'history',
+    tags: ['2020s', 'asot', 'uplifting', 'armin-van-buuren', 'above-and-beyond', 'ferry-corsten', 'tiesto'],
+  },
   'why-trance-music-endures': {
     category: 'history',
     tags: ['90s', '2000s', '2010s', '2020s', 'uplifting', 'asot'],

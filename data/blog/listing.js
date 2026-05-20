@@ -1,6 +1,10 @@
 // Lightweight listing data — no article body content.
 // Newest first. Keep in sync with data/blog/posts.js when adding articles.
 export const listing = [
+  // Batch 13: 2026 mid-year state-of-the-genre revival roundup
+  { slug: 'trance-revival-2026', date: '2026-05-20', readTime: 9, tags: ['analysis', 'culture', '2020s'],
+    en: { title: 'Trance Revival 2026: Why the Genre Is Back and What\'s Driving It', excerpt: 'In 2026, trance is back on festival main stages and inside the wider conversation around dance music. Five intersecting forces are driving the return — none of them decisive alone, but together producing a shift that looks structural rather than seasonal.' },
+    ja: { title: 'トランス・リバイバル2026：なぜ今ジャンルが復活しているのか、その背景', excerpt: '2026年、トランスはフェスティバルのメインステージとダンス・ミュージックの主要な議論の場に戻ってきている。これを駆動する5つの力が交差している ― どれも単独では決定的ではないが、重ねると季節的というより構造的に見えるシフトを描く。' } },
   // Batch 12 (final): "What is [genre]" definitive guides — articles 73-75
   { slug: 'what-is-balearic-trance', date: '2026-05-08', readTime: 8, tags: ['guide', 'balearic', 'what-is'],
     en: { title: 'What is Balearic Trance? — Sun, Sea & Slow BPM Definitive Guide', excerpt: "Balearic trance is the sun-soaked, slower end of the genre — rooted in Ibiza's Café del Mar sunset-bar tradition, codified by Energy 52's \"Café del Mar\" (1993) and Chicane's late-90s catalogue, and built around the Mediterranean evening / sunrise emotional palette." },
