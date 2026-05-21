@@ -47,10 +47,8 @@
 // Batch 1
 import tomorrowland from './tomorrowland';
 import aStateOfTranceFestival from './a-state-of-trance-festival';
-import transmissionPrague from './transmission-prague';
 import luminosityBeachFestival from './luminosity-beach-festival';
 import dreamstateSocal from './dreamstate-socal';
-import abgtMilestoneEvents from './abgt-milestone-events';
 // Batch 2 — mainstream / global mega festivals
 import edcLasVegas from './edc-las-vegas';
 import ultraMusicFestivalMiami from './ultra-music-festival-miami';
@@ -62,11 +60,9 @@ import ultraEurope from './ultra-europe';
 import boomFestival from './boom-festival';
 import ozoraFestival from './ozora-festival';
 import universoParalello from './universo-paralello';
-import psyFiFestival from './psy-fi-festival';
 import sonicaFestival from './sonica-festival';
 import hilltopGoa from './hilltop-goa';
 // Batch 4 — specialty / label events
-import fsoeMilestoneEvents from './fsoe-milestone-events';
 import subcultureEvents from './subculture-events';
 import pureTranceEvents from './pure-trance-events';
 import anjunabeatsOpenAir from './anjunabeats-open-air';
@@ -77,16 +73,12 @@ import sunburnFestival from './sunburn-festival';
 import dreamstateMexico from './dreamstate-mexico';
 import dreamstateSanFrancisco from './dreamstate-san-francisco';
 import maydayFestival from './mayday-festival';
-import tomorrowlandBrasil from './tomorrowland-brasil';
-import electricZooNewYork from './electric-zoo-new-york';
 
 export const events = [
   tomorrowland,
   aStateOfTranceFestival,
-  transmissionPrague,
   luminosityBeachFestival,
   dreamstateSocal,
-  abgtMilestoneEvents,
   edcLasVegas,
   ultraMusicFestivalMiami,
   tomorrowlandWinter,
@@ -96,10 +88,8 @@ export const events = [
   boomFestival,
   ozoraFestival,
   universoParalello,
-  psyFiFestival,
   sonicaFestival,
   hilltopGoa,
-  fsoeMilestoneEvents,
   subcultureEvents,
   pureTranceEvents,
   anjunabeatsOpenAir,
@@ -109,8 +99,6 @@ export const events = [
   dreamstateMexico,
   dreamstateSanFrancisco,
   maydayFestival,
-  tomorrowlandBrasil,
-  electricZooNewYork,
 ];
 
 export const eventSlugs = events.map((e) => e.slug);
