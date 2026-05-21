@@ -40,7 +40,7 @@ export default function RadioPage() {
           </div>
 
           {/* Hero Card - ASOT */}
-          <div className="bg-dark-bg2/80 border border-accent-orange/25 rounded-sm p-10 grid grid-cols-1 lg:grid-cols-2 gap-10 items-center mb-12 relative overflow-hidden">
+          <div className="featured-rainbow border border-accent-orange/25 rounded-sm p-10 grid grid-cols-1 lg:grid-cols-2 gap-10 items-center mb-12 relative overflow-hidden">
             <div className="absolute -right-20 -top-20 w-60 h-60 bg-gradient-radial from-accent-orange/10 to-transparent rounded-full pointer-events-none" />
             
             <div>

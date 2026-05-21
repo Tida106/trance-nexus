@@ -265,6 +265,35 @@ body::before {
   box-shadow: 0 0 8px rgba(212, 175, 55, 0.45);
 }
 
+/* ── Featured radio show hero card rainbow background ─────────────
+   Deep, desaturated multi-color gradient (amethyst → sapphire →
+   teal → antique gold → ruby) that slowly drifts. A darker overlay
+   layer sits on top of the rainbow to keep title/body text legible
+   and to preserve the site's smoky, premium tone. Animation only
+   moves background-position on the rainbow layer — 22s ease-in-out
+   cycle, low CPU cost, and is auto-disabled by the global
+   prefers-reduced-motion rule further down this file. */
+.featured-rainbow {
+  background:
+    linear-gradient(180deg, rgba(6, 4, 2, 0.58) 0%, rgba(6, 4, 2, 0.42) 50%, rgba(6, 4, 2, 0.62) 100%),
+    linear-gradient(
+      120deg,
+      #2a1640 0%,
+      #1c2a55 25%,
+      #154045 50%,
+      #5a4118 75%,
+      #5a1820 100%
+    );
+  background-size: 100% 100%, 220% 220%;
+  background-position: 0 0, 0% 50%;
+  animation: featuredRainbowDrift 22s ease-in-out infinite;
+}
+@keyframes featuredRainbowDrift {
+  0%   { background-position: 0 0, 0% 50%; }
+  50%  { background-position: 0 0, 100% 50%; }
+  100% { background-position: 0 0, 0% 50%; }
+}
+
 /* Artist genre banners — used on /artists cards and detail hero */
 .b-uplifting {
   background: linear-gradient(135deg, #ff6a00 0%, #ffb400 60%, #ff3c00 100%);
