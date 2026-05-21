@@ -110,13 +110,13 @@ export const events = [
     blogSlug: 'best-trance-tracks-1990s',
   },
   {
-    id: '1991-eye-q-records',
-    year: 1991, eraId: 'genesis', type: 'label',
+    id: '1990-eye-q-records',
+    year: 1990, eraId: 'genesis', type: 'label',
     title:       { en: 'Eye Q Records founded',
                    ja: 'Eye Q Records設立' },
     description: {
-      en: 'Sven Väth, Heinz Roth, and Matthias Hoffmann start the label that codifies the early Frankfurt trance sound — Hardfloor, Cygnus X, the foundation of what becomes the German school.',
-      ja: 'Sven Väth、Heinz Roth、Matthias Hoffmannが初期フランクフルト・トランス・サウンドを体系化するレーベルを開始——Hardfloor、Cygnus Xなど、後に「ドイツの学派」となるものの基盤。',
+      en: 'Sven Väth, Heinz Roth, and Matthias Hoffmann start the label that codifies the early Frankfurt trance sound — Hardfloor, Cygnus X, the foundation of what becomes the German school. (Formally registered in Frankfurt in March 1991.)',
+      ja: 'Sven Väth、Heinz Roth、Matthias Hoffmannが初期フランクフルト・トランス・サウンドを体系化するレーベルを開始——Hardfloor、Cygnus Xなど、後に「ドイツの学派」となるものの基盤。（フランクフルトでの正式登録は1991年3月。）',
     },
   },
   {
@@ -171,8 +171,8 @@ export const events = [
     title:       { en: 'Black Hole Recordings founded',
                    ja: 'Black Hole Recordings設立' },
     description: {
-      en: 'Arny Bink and David Lewis start the Dutch label that will release Tiësto\'s most celebrated work — Magik, Just Be, In Search of Sunrise.',
-      ja: 'Arny BinkとDavid Lewisが、Tiëstoの最も称賛される作品——Magik、Just Be、In Search of Sunrise——をリリースすることになるオランダのレーベルを開始。',
+      en: 'Tiësto and Arny Bink leave Basic Beat to start the Dutch label that will release Tiësto\'s most celebrated work — Magik, In Search of Sunrise, Just Be.',
+      ja: 'TiëstoとArny BinkがBasic Beatを離れ、Tiëstoの最も称賛される作品——Magik、In Search of Sunrise、Just Be——をリリースすることになるオランダのレーベルを開始。',
     },
     labelSlug: 'black-hole-recordings',
   },
@@ -195,8 +195,8 @@ export const events = [
     title:       { en: 'ATB — "9PM (Till I Come)"',
                    ja: 'ATB — "9PM (Till I Come)"' },
     description: {
-      en: 'A guitar-led trance record that hits #1 in the UK. Trance is no longer a club secret.',
-      ja: 'ギター主導のトランス・レコードがUKチャート1位を獲得。トランスはもはやクラブの秘密ではない。',
+      en: 'A guitar-led trance record that goes on to top the UK Singles Chart in summer 1999 — the first trance song to ever hit #1 there. Trance is no longer a club secret.',
+      ja: 'ギター主導のトランス・レコードが1999年夏にUKシングル・チャート1位を獲得——トランスとして史上初の快挙。トランスはもはやクラブの秘密ではない。',
     },
     embed: { platform: 'spotify', query: 'ATB 9PM Till I Come' },
   },
@@ -219,8 +219,8 @@ export const events = [
     title:       { en: 'Anjunabeats founded',
                    ja: 'Anjunabeats設立' },
     description: {
-      en: 'Above & Beyond start a label to release their own Madonna remix. It becomes the most respected artist-run imprint in dance music.',
-      ja: 'Above & Beyondが自身のマドンナ・リミックスをリリースするためにレーベルを開始。後にダンスミュージックで最も尊敬されるアーティスト主導のインプリントとなる。',
+      en: 'Jono Grant and Paavo Siljamäki — soon joined by Tony McGuinness as Above & Beyond — set up the Anjunabeats label out of a University of Westminster student project. Their celebrated 2001 remix of Madonna\'s "What It Feels Like for a Girl" lands shortly after, and the imprint grows into the most respected artist-run label in dance music.',
+      ja: 'Jono GrantとPaavo Siljamäki——間もなくTony McGuinnessが加わりAbove & Beyondを結成——がウェストミンスター大学の学生プロジェクトを母体にAnjunabeatsレーベルを設立。2001年のマドンナ "What It Feels Like for a Girl" リミックスが直後にヒットし、ダンスミュージックで最も尊敬されるアーティスト主導のインプリントへと成長していく。',
     },
     labelSlug: 'anjunabeats',
     artistSlug: 'above-and-beyond',
@@ -233,8 +233,8 @@ export const events = [
     title:       { en: 'A State of Trance launches',
                    ja: 'A State of Trance始動' },
     description: {
-      en: 'Armin van Buuren\'s weekly two-hour radio show begins broadcasting on a small Dutch station — February 15, 2001. Within five years it has 40 million weekly listeners across 100+ countries.',
-      ja: 'Armin van Buurenの週次2時間ラジオ番組が2001年2月15日、小さなオランダのラジオ局で放送開始。5年以内に100以上の国で毎週4000万人のリスナーを持つに至る。',
+      en: 'Armin van Buuren\'s weekly two-hour radio show airs Episode 001 on June 1, 2001 via ID&T Radio. (The first three episodes were titled "Into Trance"; "A State Of Trance" branding starts from Episode 004.) It grows into a weekly broadcast reaching 40 million listeners across 84 countries.',
+      ja: 'Armin van Buurenの週次2時間ラジオ番組がID&T Radioで2001年6月1日にEpisode 001を放送（最初の3エピソードは「Into Trance」、Episode 004から「A State Of Trance」へ）。後に84カ国・週4000万人のリスナーを持つ放送へと成長する。',
     },
     artistSlug: 'armin-van-buuren',
     blogSlug: 'a-state-of-trance-show-that-changed-everything',
@@ -256,8 +256,8 @@ export const events = [
     title:       { en: 'Tiësto plays the Athens Olympics opening',
                    ja: 'Tiëstoがアテネ五輪開会式で演奏' },
     description: {
-      en: 'Broadcast to a global audience of three billion. The first DJ to play that role at the Olympics — a watershed moment for electronic music\'s mainstream legitimacy.',
-      ja: '全世界30億人に放送。五輪でDJがその役割を担った史上初——電子音楽がメインストリームでの正当性を獲得する分水嶺となった。',
+      en: 'Tiësto performs a 90-minute live set during the Parade of the Athletes on August 13, 2004 — broadcast to an estimated global audience of four billion. The first DJ to play that role at the Olympics — a watershed moment for electronic music\'s mainstream legitimacy.',
+      ja: 'Tiëstoが2004年8月13日のParade of the Athletesで90分のライヴ・セットを演奏——全世界推計40億人に放送。五輪でDJがその役割を担った史上初——電子音楽がメインストリームでの正当性を獲得する分水嶺となった。',
     },
     artistSlug: 'tiesto',
     blogSlug: 'tiesto-evolution-trance-to-edm',
@@ -280,10 +280,32 @@ export const events = [
     title:       { en: 'Tomorrowland holds first edition',
                    ja: 'Tomorrowland初開催' },
     description: {
-      en: 'A small Belgian electronic festival in Boom. By 2010 it will be the most sought-after festival ticket in dance music; its trance stage will become a global pilgrimage site.',
-      ja: 'ベルギーのBoomで開催された小規模な電子音楽フェスティバル。2010年までにダンスミュージックで最も求められるフェスティバル・チケットとなり、トランス・ステージはグローバルな巡礼地となる。',
+      en: 'A small Belgian electronic festival in Boom, conceived by brothers Manu and Michiel Beers. By 2010 it will be the most sought-after festival ticket in dance music; its trance stage will become a global pilgrimage site.',
+      ja: 'Manu・Michiel Beers兄弟が発想したベルギーのBoomで開催された小規模な電子音楽フェスティバル。2010年までにダンスミュージックで最も求められるフェスティバル・チケットとなり、トランス・ステージはグローバルな巡礼地となる。',
     },
     blogSlug: 'tomorrowland-trance-stage',
+  },
+  {
+    id: '2005-anjunadeep',
+    year: 2005, eraId: 'mainstream', type: 'label',
+    title:       { en: 'Anjunadeep launches',
+                   ja: 'Anjunadeepローンチ' },
+    description: {
+      en: 'Above & Beyond and manager James Grant launch the deeper, more atmospheric sister label to Anjunabeats. It will open the door to the progressive sound that dominates the 2010s and 2020s.',
+      ja: 'Above & Beyondとマネージャー James GrantがAnjunabeatsの「より深く大気的」な姉妹レーベルを設立。2010年代と2020年代を支配するプログレッシブ・サウンドへの扉を開く。',
+    },
+    labelSlug: 'anjunadeep',
+  },
+  {
+    id: '2006-fsoe-radio',
+    year: 2006, eraId: 'mainstream', type: 'event',
+    title:       { en: 'Future Sound of Egypt radio show launches',
+                   ja: 'Future Sound of Egyptラジオ番組始動' },
+    description: {
+      en: 'Aly & Fila air FSOE Episode 001 on February 28, 2006. The radio show will become the home of pure uplifting trance through the EDM era — keeping the 138 BPM template alive when the rest of the scene drifts away. (The FSOE Recordings label follows in 2009.)',
+      ja: 'Aly & FilaがFSOE Episode 001を2006年2月28日に放送。後にEDM時代を通じてピュア・アップリフティング・トランスの本拠地となり、シーンの他の部分が離れていったときに138 BPMのテンプレートを存続させる。（FSOE Recordingsレーベルは2009年に開設。）',
+    },
+    artistSlug: 'aly-and-fila',
   },
   {
     id: '2006-tri-state',
@@ -291,35 +313,12 @@ export const events = [
     title:       { en: 'Above & Beyond — "Tri-State"',
                    ja: 'Above & Beyond — "Tri-State"' },
     description: {
-      en: 'The trio\'s debut album establishes the songwriter-led, vocal-trance template that will define Anjunabeats for the next two decades.',
-      ja: 'トリオのデビューアルバムが、その後20年Anjunabeatsを定義するソングライター主導のボーカル・トランスのテンプレートを確立。',
+      en: 'The trio\'s debut album, released March 6, 2006, establishes the songwriter-led, vocal-trance template that will define Anjunabeats for the next two decades.',
+      ja: 'トリオのデビューアルバム（2006年3月6日リリース）が、その後20年Anjunabeatsを定義するソングライター主導のボーカル・トランスのテンプレートを確立。',
     },
     embed: { platform: 'spotify', query: 'Above Beyond Tri-State' },
     artistSlug: 'above-and-beyond',
     blogSlug: 'above-beyond-anjuna-empire',
-  },
-  {
-    id: '2007-fsoe-founded',
-    year: 2007, eraId: 'mainstream', type: 'label',
-    title:       { en: 'FSOE founded by Aly & Fila',
-                   ja: 'Aly & FilaがFSOE設立' },
-    description: {
-      en: 'Future Sound of Egypt becomes the home of pure uplifting trance through the EDM era — keeping the 138 BPM template alive when the rest of the scene drifts away.',
-      ja: 'Future Sound of EgyptはEDM時代を通じてピュア・アップリフティング・トランスの本拠地となる——シーンの他の部分が離れていったときに138 BPMのテンプレートを存続させた。',
-    },
-    labelSlug: 'fsoe',
-    artistSlug: 'aly-and-fila',
-  },
-  {
-    id: '2008-anjunadeep',
-    year: 2008, eraId: 'mainstream', type: 'label',
-    title:       { en: 'Anjunadeep launches',
-                   ja: 'Anjunadeepローンチ' },
-    description: {
-      en: 'The deeper, more atmospheric sister label opens the door to the progressive sound that will dominate the 2010s and 2020s.',
-      ja: 'より深く大気的な姉妹レーベルが、2010年代と2020年代を支配するプログレッシブ・サウンドへの扉を開く。',
-    },
-    labelSlug: 'anjunadeep',
   },
   {
     id: '2009-tiesto-leaves',
@@ -340,8 +339,8 @@ export const events = [
     title:       { en: 'Above & Beyond ft. Richard Bedford — "Sun & Moon"',
                    ja: 'Above & Beyond ft. Richard Bedford — "Sun & Moon"' },
     description: {
-      en: 'The defining trance record of the 2010s, released in the first month of the decade. Proves the genre can survive on songcraft when the festival economy moves elsewhere.',
-      ja: '2010年代を定義するトランス・レコード、10年の最初の月にリリース。フェスティバル経済が他へ移っても、ジャンルがソングクラフトで生き延びられることを証明した。',
+      en: 'Released March 2011 as the lead single from Group Therapy, this becomes the defining trance record of the 2010s — proof the genre can survive on songcraft when the festival economy moves elsewhere.',
+      ja: '2011年3月、アルバム「Group Therapy」のリード・シングルとしてリリース。2010年代を定義するトランス・レコードとなり、フェスティバル経済が他へ移っても、ジャンルがソングクラフトで生き延びられることを証明した。',
     },
     embed: { platform: 'spotify', query: 'Above Beyond Sun Moon Richard Bedford' },
     artistSlug: 'above-and-beyond',
@@ -356,6 +355,17 @@ export const events = [
       en: 'A State of Trance hits 500 episodes. Week-long global event series cements the show as more than radio — a community institution.',
       ja: 'A State of Tranceが500エピソードを達成。1週間にわたるグローバル・イベント・シリーズが、ラジオ以上のもの——コミュニティ機関——としての地位を確立。',
     },
+  },
+  {
+    id: '2011-tiesto-greatest',
+    year: 2011, eraId: 'diversification', type: 'event',
+    title:       { en: 'Tiësto voted Greatest DJ of All Time',
+                   ja: 'Tiëstoが「史上最高のDJ」に選出' },
+    description: {
+      en: 'Mixmag\'s poll (run September 2010, results published February 2011) crowns the Dutch artist whose career began in early-90s trance clubs. Some 80,000 votes are cast across a 35-DJ shortlist. The trance scene that produced him remains the foundation of his catalogue.',
+      ja: 'Mixmagの読者投票（2010年9月実施、2011年2月号で結果発表）が、90年代初頭のトランス・クラブでキャリアを始めたオランダ人アーティストを戴冠。35人のショートリスト相手に約80,000票が投じられた。彼を生んだトランス・シーンは今も彼のカタログの基盤。',
+    },
+    artistSlug: 'tiesto',
   },
   {
     id: '2012-concrete-angel',
@@ -385,8 +395,8 @@ export const events = [
     title:       { en: 'Andrew Rayel — "Find Your Harmony"',
                    ja: 'Andrew Rayel — "Find Your Harmony"' },
     description: {
-      en: 'The Moldovan virtuoso\'s debut album, full of orchestral uplifting trance. Armin calls him "the next Mozart of trance."',
-      ja: 'モルドバの巨匠のデビューアルバム、オーケストラル・アップリフティング・トランスに満ちている。Arminは彼を「次のモーツァルト」と評した。',
+      en: 'The Moldovan virtuoso\'s debut album, released May 30, 2014 — full of orchestral uplifting trance. Classical training earns him the "modern-day Mozart of trance" moniker that follows him through the next decade.',
+      ja: 'モルドバの巨匠のデビューアルバム（2014年5月30日リリース）、オーケストラル・アップリフティング・トランスに満ちている。クラシック音楽の素養から、その後10年彼に付きまとう「現代のモーツァルト・オブ・トランス」の異名を獲得。',
     },
     artistSlug: 'andrew-rayel',
   },
@@ -401,17 +411,6 @@ export const events = [
     },
     embed: { platform: 'spotify', query: 'Above Beyond Common Ground' },
     artistSlug: 'above-and-beyond',
-  },
-  {
-    id: '2018-hot-water',
-    year: 2018, eraId: 'diversification', type: 'release',
-    title:       { en: 'Lane 8 — "Hot Water"',
-                   ja: 'Lane 8 — "Hot Water"' },
-    description: {
-      en: 'Mature 2010s progressive: patient, melodic, deeply emotional but never overstated. Brings listeners back who had cooled on 138 BPM uplifting maximalism.',
-      ja: '成熟した2010年代プログレッシブ：忍耐強く、メロディック、深く感情的だが過剰ではない。138 BPMアップリフティングのマキシマリズムから冷めていたリスナーを連れ戻した。',
-    },
-    embed: { platform: 'spotify', query: 'Lane 8 Hot Water Little by Little' },
   },
   {
     id: '2020-pandemic-livestream',
@@ -439,17 +438,6 @@ export const events = [
     blogSlug: 'a-state-of-trance-show-that-changed-everything',
   },
   {
-    id: '2022-tiesto-greatest',
-    year: 2022, eraId: 'modern', type: 'event',
-    title:       { en: 'Tiësto voted Greatest DJ of All Time',
-                   ja: 'Tiëstoが「史上最高のDJ」に選出' },
-    description: {
-      en: 'Mixmag readers crown the Dutch artist whose career began in early-90s trance clubs. The trance scene that produced him remains the foundation of his catalogue.',
-      ja: 'Mixmag読者投票が、90年代初頭のトランス・クラブでキャリアを始めたオランダ人アーティストを戴冠。彼を生んだトランス・シーンは今も彼のカタログの基盤。',
-    },
-    artistSlug: 'tiesto',
-  },
-  {
     id: '2023-anyma-eternity',
     year: 2023, eraId: 'modern', type: 'release',
     title:       { en: 'Anyma — "Eternity"',
@@ -468,8 +456,8 @@ export const events = [
     title:       { en: 'Anyma at Las Vegas Sphere — first electronic act',
                    ja: 'AnymaがラスベガスSphereで電子音楽アクト初公演' },
     description: {
-      en: 'A 12-night residency at the Sphere\'s 16K LED interior resets what an electronic-music act can do as a live experience. The show uses melodic-techno / trance vocabulary at the largest visual scale ever attempted.',
-      ja: 'Sphereの16K LED内壁で12夜のレジデンシー、電子音楽アクトがライブ体験として何ができるかをリセット。これまで試みられた最大規模のビジュアル・スケールでメロディック・テクノ／トランスの語彙を使用。',
+      en: '"The End of Genesys" residency at the Sphere\'s 16K x 16K LED interior — opening December 27, 2024 and ultimately running 12 sold-out nights into 2025 — resets what an electronic-music act can do as a live experience. The show uses melodic-techno / trance vocabulary at the largest visual scale ever attempted.',
+      ja: 'Sphereの16K×16K LED内壁での「The End of Genesys」レジデンシー——2024年12月27日に開幕、最終的に2025年にかけて12夜のソールド・アウト公演を実施——が、電子音楽アクトがライブ体験として何ができるかをリセット。これまで試みられた最大規模のビジュアル・スケールでメロディック・テクノ／トランスの語彙を使用。',
     },
     artistSlug: 'anyma',
   },
