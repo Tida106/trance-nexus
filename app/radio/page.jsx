@@ -40,8 +40,8 @@ export default function RadioPage() {
           </div>
 
           {/* Hero Card - ASOT */}
-          <div className="featured-rainbow border border-accent-orange/25 rounded-sm p-10 grid grid-cols-1 lg:grid-cols-2 gap-10 items-center mb-12 relative overflow-hidden">
-            <div className="absolute -right-20 -top-20 w-60 h-60 bg-gradient-radial from-accent-orange/10 to-transparent rounded-full pointer-events-none" />
+          <div className="featured-rainbow border border-accent-orange/45 rounded-sm p-10 grid grid-cols-1 lg:grid-cols-2 gap-10 items-center mb-12 relative overflow-hidden">
+            <div className="absolute -right-20 -top-20 w-60 h-60 bg-gradient-radial from-accent-orange/20 to-transparent rounded-full pointer-events-none" />
             
             <div>
               <div className="flex items-center gap-2 font-bebas text-xs tracking-widest text-accent-amber mb-3">
@@ -50,7 +50,7 @@ export default function RadioPage() {
               <h2 className="font-bebas text-4xl tracking-widest text-white mb-2">
                 A State of <span className="text-accent-orange">Trance</span>
               </h2>
-              <p className="text-text-light/55 text-sm leading-relaxed mb-4">
+              <p className="text-text-light/90 text-sm leading-relaxed mb-4">
                 {t('radio.asotDesc')}
               </p>
               <div className="flex gap-2 flex-wrap mb-4">
