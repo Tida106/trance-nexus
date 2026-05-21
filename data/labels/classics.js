@@ -90,7 +90,7 @@ The label has released Ferry Corsten's most important post-2005 albums — Twice
     emoji: '🐺',
     category: 'classic',
     banner: 'b-progressive',
-    founded: '2004',
+    founded: '2005',
     hq: 'Miami, USA / Eschwege, Germany',
     founders: ['Markus Schulz'],
     aliases: ['coldharbour', 'coldharbour records'],
@@ -110,14 +110,14 @@ The label has released Ferry Corsten's most important post-2005 albums — Twice
       soundcloud: 'https://soundcloud.com/coldharbour-recordings',
     },
     short: {
-      en: 'Markus Schulz\'s Miami-based progressive trance label — a curatorial institution since 2004, with a deep roster of progressive and tech-trance talent.',
-      ja: 'Markus Schulzがマイアミで主宰するプログレッシブ・トランスのレーベル——2004年以来のキュレーション機関で、プログレッシブとテック・トランスの深いロスターを擁する。',
+      en: 'Markus Schulz\'s Miami-based progressive trance label — a curatorial institution since 2005, with a deep roster of progressive and tech-trance talent.',
+      ja: 'Markus Schulzがマイアミで主宰するプログレッシブ・トランスのレーベル——2005年以来のキュレーション機関で、プログレッシブとテック・トランスの深いロスターを擁する。',
     },
     bio: {
-      en: `Coldharbour Recordings was founded in 2004 by Markus Schulz in Miami, where he had based himself after years of DJing US club nights. The label was set up as a curated platform for the kind of melodic-but-driving progressive and tech-trance Schulz played in his long-form residencies — Crobar New York, Spundae Los Angeles, and later his open-to-close sets at Avalon Hollywood. Coldharbour quickly established itself as one of the most respected boutique trance labels of the late 2000s and 2010s.
+      en: `Coldharbour Recordings was founded on May 30, 2005 by Markus Schulz in Miami, where he had based himself after years of DJing US club nights. The label was set up as a curated platform for the kind of melodic-but-driving progressive and tech-trance Schulz played in his long-form residencies — Crobar New York, Spundae Los Angeles, and later his open-to-close sets at Avalon Hollywood. Coldharbour quickly established itself as one of the most respected boutique trance labels of the late 2000s and 2010s.
 
 Across nearly two decades, Coldharbour has released all of Markus Schulz's solo albums — Without You Near (2005), Progression (2007), Do You Dream? (2010), Scream and Scream 2, Watch the World (2016), and beyond — alongside extensive output from a deep roster including M.I.K.E. Push, Mike EFEX, Klauss Goulart, KhoMha, Grube & Hovsepian, and many others. The Coldharbour Sessions compilation series and Schulz's weekly Global DJ Broadcast radio show give the label a sustained editorial presence. Coldharbour remains a key institution for fans of progressive trance with substance and patience.`,
-      ja: `Coldharbour Recordingsは2004年、Markus Schulzによりマイアミで設立された。彼は長年米国のクラブナイトでDJ活動した後、同地に拠点を置いていた。レーベルは、Schulzが長尺レジデンシー——ニューヨークのCrobar、ロサンゼルスのSpundae、後にアヴァロン・ハリウッドでのオープン・トゥ・クローズ・セット——でプレイした、メロディックでありながらドライヴィングなプログレッシブとテック・トランスのキュレーション・プラットフォームとして設立された。Coldharbourは急速に2000年代後半から2010年代の最も尊敬されるブティック・トランス・レーベルの一つとしての地位を確立した。
+      ja: `Coldharbour Recordingsは2005年5月30日、Markus Schulzによりマイアミで設立された。彼は長年米国のクラブナイトでDJ活動した後、同地に拠点を置いていた。レーベルは、Schulzが長尺レジデンシー——ニューヨークのCrobar、ロサンゼルスのSpundae、後にアヴァロン・ハリウッドでのオープン・トゥ・クローズ・セット——でプレイした、メロディックでありながらドライヴィングなプログレッシブとテック・トランスのキュレーション・プラットフォームとして設立された。Coldharbourは急速に2000年代後半から2010年代の最も尊敬されるブティック・トランス・レーベルの一つとしての地位を確立した。
 
 20年近くにわたり、ColdharbourはMarkus Schulzのすべてのソロ・アルバム——『Without You Near』（2005）、『Progression』（2007）、『Do You Dream?』（2010）、『Scream』と『Scream 2』、『Watch the World』（2016）、それ以降——をリリースし、M.I.K.E. Push、Mike EFEX、Klauss Goulart、KhoMha、Grube & Hovsepianその他多数の深いロスターからの広範な作品を送り出してきた。Coldharbour Sessionsコンピレーション・シリーズとSchulzの週次ラジオ番組「Global DJ Broadcast」がレーベルに持続的な編集プレゼンスを与える。実体と忍耐を持つプログレッシブ・トランスのファンにとって、Coldharbourは依然として中核的な機関である。`,
     },
@@ -172,7 +172,7 @@ FSOEのインプリント・ネットワークは現在、フラッグシップ�
     emoji: '☘️',
     category: 'classic',
     banner: 'b-tech',
-    founded: '2008',
+    founded: '2010',
     hq: 'Tralee, Ireland',
     founders: ["John O'Callaghan"],
     aliases: ['subculture', 'sub culture', 'subculture records'],
@@ -192,14 +192,14 @@ FSOEのインプリント・ネットワークは現在、フラッグシップ�
       soundcloud: 'https://soundcloud.com/subculturerec',
     },
     short: {
-      en: "John O'Callaghan's Irish label and event series, founded 2008 — a flagship for the harder, technical 138 BPM end of modern trance.",
-      ja: 'John O\'Callaghanが2008年に設立したアイルランドのレーベル兼イベント・シリーズ——現代トランスのよりハードで技術的な138 BPM側面のフラッグシップ。',
+      en: "John O'Callaghan's Irish label and event series, founded 2010 — a flagship for the harder, technical 138 BPM end of modern trance.",
+      ja: 'John O\'Callaghanが2010年に設立したアイルランドのレーベル兼イベント・シリーズ——現代トランスのよりハードで技術的な138 BPM側面のフラッグシップ。',
     },
     bio: {
-      en: `Subculture was founded in 2008 by Irish DJ-producer John O'Callaghan, originally as a compilation series and event brand alongside his work for Discover Records. The label quickly grew into one of the most respected names in harder uplifting and tech-trance — a curatorial home for the 138 BPM sound when much of the wider scene was softening toward big-room and progressive influences. Subculture's identity has always been clear: cinematic, technical, drive-forward trance with emotional depth and zero patience for cheap commercial gestures.
+      en: `Subculture was founded in 2010 by Irish DJ-producer John O'Callaghan as a Black Hole Recordings sub-label, originally as a compilation series and event brand alongside his work for Discover Records. The label quickly grew into one of the most respected names in harder uplifting and tech-trance — a curatorial home for the 138 BPM sound when much of the wider scene was softening toward big-room and progressive influences. Subculture's identity has always been clear: cinematic, technical, drive-forward trance with emotional depth and zero patience for cheap commercial gestures.
 
 The Subculture compilation series — typically mixed by John O'Callaghan alongside guest curators like Bryan Kearney, Sean Tyas, or Liam Wilson — became a benchmark for fans of the harder modern sound. The label has been a launching pad for major artists including Bryan Kearney, Sneijder, Sean Tyas, and Will Atkinson, and has hosted Subculture-branded events at Avalon Hollywood, the Coronet in London, and across Europe. Subculture remains, alongside FSOE and Damaged, one of the genre's most important guardians of harder, faster, technically sophisticated trance.`,
-      ja: `Subcultureは2008年、アイルランドのDJプロデューサーJohn O'Callaghanにより、Discover Recordsでの活動と並行する形で、当初はコンピレーション・シリーズとイベント・ブランドとして設立された。レーベルは急速に、よりハードなアップリフティングとテック・トランスで最も尊敬される名前の一つに成長した——広範なシーンがビッグルームやプログレッシブ寄りに軟化しつつあった時期に、138 BPMサウンドのキュレーション本拠地となったのだ。Subcultureのアイデンティティは常に明確だった：映画的、技術的、ドライブ志向、情緒的深みを持ち、安易な商業的ジェスチャーへの忍耐ゼロのトランスである。
+      ja: `Subcultureは2010年、アイルランドのDJプロデューサーJohn O'CallaghanによりBlack Hole Recordingsのサブレーベルとして、Discover Recordsでの活動と並行する形で、当初はコンピレーション・シリーズとイベント・ブランドとして設立された。レーベルは急速に、よりハードなアップリフティングとテック・トランスで最も尊敬される名前の一つに成長した——広範なシーンがビッグルームやプログレッシブ寄りに軟化しつつあった時期に、138 BPMサウンドのキュレーション本拠地となったのだ。Subcultureのアイデンティティは常に明確だった：映画的、技術的、ドライブ志向、情緒的深みを持ち、安易な商業的ジェスチャーへの忍耐ゼロのトランスである。
 
 Subcultureコンピレーション・シリーズはJohn O'CallaghanとBryan Kearney、Sean Tyas、Liam Wilsonなどゲスト・キュレーターとの共同ミックスが定番で、よりハードな現代サウンドのファンの基準となった。Bryan Kearney、Sneijder、Sean Tyas、Will Atkinsonら主要アーティストの発射台となり、Subculture冠のイベントをアヴァロン・ハリウッド、ロンドンのCoronet、ヨーロッパ各地で開催してきた。FSOE、Damagedと並び、ジャンルでよりハードで速く、技術的に洗練されたトランスの最重要守護者の一つとして残っている。`,
     },
@@ -219,8 +219,8 @@ Subcultureコンピレーション・シリーズはJohn O'CallaghanとBryan Kea
     emoji: '🦅',
     category: 'classic',
     banner: 'b-uplifting',
-    founded: '2011',
-    hq: 'London, United Kingdom',
+    founded: '2009',
+    hq: 'Manchester, United Kingdom',
     founders: ['Gareth Emery'],
     aliases: ['garuda music'],
     subgenres: ['Uplifting Trance', 'Vocal Trance', 'Progressive Trance'],
@@ -239,14 +239,14 @@ Subcultureコンピレーション・シリーズはJohn O'CallaghanとBryan Kea
       soundcloud: 'https://soundcloud.com/garudamusic',
     },
     short: {
-      en: 'Gareth Emery\'s artist-run London label — home of Concrete Angel and the Drive era of vocal-led progressive uplifting trance.',
-      ja: 'Gareth Emeryが主宰するロンドンのアーティスト主導レーベル——「Concrete Angel」と『Drive』時代を象徴する、ボーカル主導のプログレッシブ・アップリフティング・トランスの本拠地。',
+      en: 'Gareth Emery\'s artist-run Manchester label — home of Concrete Angel and the Drive era of vocal-led progressive uplifting trance.',
+      ja: 'Gareth Emeryが主宰するマンチェスターのアーティスト主導レーベル——「Concrete Angel」と『Drive』時代を象徴する、ボーカル主導のプログレッシブ・アップリフティング・トランスの本拠地。',
     },
     bio: {
-      en: `Garuda was founded in 2011 by British DJ-producer Gareth Emery as a creative home for his own productions and a curated platform for the wider vocal-uplifting trance scene. Named after the mythological bird carrying spiritual freight in Hindu, Buddhist, and Indonesian traditions, the imprint positioned itself from the start as a songwriter-driven label rather than a release-volume operation, and stayed there through the genre's commercial peaks and softer middle.
+      en: `Garuda was founded in late 2008 by British DJ-producer Gareth Emery (first release in May 2009) as a creative home for his own productions and a curated platform for the wider vocal-uplifting trance scene. Named after the mythological bird carrying spiritual freight in Hindu, Buddhist, and Indonesian traditions, the imprint positioned itself from the start as a songwriter-driven label rather than a release-volume operation, and stayed there through the genre's commercial peaks and softer middle.
 
 Garuda's commercial high-water mark was Gareth Emery & Christina Novelli's "Concrete Angel" (2014) — a vocal-led uplifting record that crossed into mainstream visibility while remaining identifiable as trance proper. The label also released the bulk of Gareth's solo album catalogue including Long Way Home (2012) and Drive (2014). Through the 2010s and 2020s the label has hosted releases from Ashley Wallbridge, Standerwick, Ben Gold, and other vocal-uplifting peers, and runs the Lasers compilation series and the Garuda branded events that have toured globally. Gareth's mid-2010s shift toward the Choon brand (released through Garuda) added a parallel uplifting-house identity to the catalogue.`,
-      ja: `Garudaは2011年、英国のDJプロデューサーGareth Emeryにより、自身のプロダクションのクリエイティブな本拠地と、より広いボーカル・アップリフティング・トランス・シーンのキュレーション・プラットフォームとして設立された。ヒンドゥー、仏教、インドネシアの伝統で精神的荷重を運ぶ神話の鳥にちなんで名付けられたインプリントは、当初からリリース量で勝負するレーベルではなく、ソングライター主導のレーベルとして位置付けられ、ジャンルの商業的ピークとより柔らかい中期を通じてそのスタンスを維持した。
+      ja: `Garudaは2008年後半、英国のDJプロデューサーGareth Emeryにより設立された（初リリースは2009年5月）。自身のプロダクションのクリエイティブな本拠地と、より広いボーカル・アップリフティング・トランス・シーンのキュレーション・プラットフォームとして始動した。ヒンドゥー、仏教、インドネシアの伝統で精神的荷重を運ぶ神話の鳥にちなんで名付けられたインプリントは、当初からリリース量で勝負するレーベルではなく、ソングライター主導のレーベルとして位置付けられ、ジャンルの商業的ピークとより柔らかい中期を通じてそのスタンスを維持した。
 
 Garudaの商業的最高水域はGareth Emery & Christina Novelliの「Concrete Angel」（2014）——トランス本体として識別可能なまま、メインストリームの可視性へとクロスオーバーした、ボーカル主導のアップリフティング・レコードだった。同レーベルはまた、Gareth自身のソロ・アルバム・カタログの大半（『Long Way Home』2012、『Drive』2014を含む）をリリースしてきた。2010年代から2020年代にかけて、Ashley Wallbridge、Standerwick、Ben Goldほかボーカル・アップリフティングの同世代をホストし、Lasersコンピレーション・シリーズとグローバル巡回するGarudaブランドのイベントを運営している。Gareth自身の2010年代半ばのChoonブランド（Garuda経由でリリース）への転換は、カタログに並行するアップリフティング・ハウスのアイデンティティを加えた。`,
     },
@@ -260,7 +260,7 @@ Garudaの商業的最高水域はGareth Emery & Christina Novelliの「Concrete 
     emoji: '🌊',
     category: 'classic',
     banner: 'b-progressive',
-    founded: '2007',
+    founded: '2006',
     hq: 'United Kingdom',
     founders: ['Andy Moor'],
     aliases: ['ava', 'ava records'],
@@ -284,10 +284,10 @@ Garudaの商業的最高水域はGareth Emery & Christina Novelliの「Concrete 
       ja: 'Andy Moorが主宰しArmadaが配給するプログレッシブ＆アップリフティング・トランス・インプリント——Ashley Wallbridgeとの「Halcyon」時代カタログの本拠地。',
     },
     bio: {
-      en: `AVA Recordings was founded in 2007 by British DJ-producer Andy Moor as a creative home for his own productions and a curated platform for the progressive and uplifting trance artists in his orbit. Distributed through Armada, AVA sits in the artist-run wing of the Armada family — adjacent to Vandit and Flashover in spirit, with editorial discipline taking priority over release-volume.
+      en: `AVA Recordings was founded in 2006 by British DJ-producer Andy Moor as a creative home for his own productions and a curated platform for the progressive and uplifting trance artists in his orbit. Distributed through Armada, AVA sits in the artist-run wing of the Armada family — adjacent to Vandit and Flashover in spirit, with editorial discipline taking priority over release-volume.
 
 AVA's most-cited records came from Andy Moor's productive collaboration with Ashley Wallbridge across 2008–2012 — singles like "Faces," "Halcyon," "World to Turn," and "Trespass" defined a hybrid progressive-uplifting sound that influenced a generation of producers. The Andy Moor-mixed AVA compilation series ran through the late 2000s and early 2010s as a primary editorial document of the label. Beyond Andy's own work, AVA has released material from Adam White, Sied van Riel, Standerwick, and the broader Armada-adjacent uplifting circuit. The label remains active as a focused outlet for Andy Moor and selected peers, prizing patient long-form arrangement over festival-mainstage urgency.`,
-      ja: `AVA Recordingsは2007年、英国のDJプロデューサーAndy Moorにより、自身のプロダクションのクリエイティブな本拠地と、彼の周囲のプログレッシブ／アップリフティング・トランス・アーティストのキュレーション・プラットフォームとして設立された。Armadaが配給するAVAは、Vandit、Flashoverと精神的に隣接する、Armadaファミリーのアーティスト主導ウィングに位置する——リリース量よりも編集規律を優先するレーベルだ。
+      ja: `AVA Recordingsは2006年、英国のDJプロデューサーAndy Moorにより、自身のプロダクションのクリエイティブな本拠地と、彼の周囲のプログレッシブ／アップリフティング・トランス・アーティストのキュレーション・プラットフォームとして設立された。Armadaが配給するAVAは、Vandit、Flashoverと精神的に隣接する、Armadaファミリーのアーティスト主導ウィングに位置する——リリース量よりも編集規律を優先するレーベルだ。
 
 AVAの最も引用されるレコードは、2008〜2012年にわたるAndy MoorとAshley Wallbridgeの生産的なコラボレーションから生まれた——「Faces」「Halcyon」「World to Turn」「Trespass」のようなシングルが、ハイブリッドなプログレッシブ・アップリフティング・サウンドを定義し、一世代のプロデューサーに影響を与えた。Andy MoorミックスのAVAコンピレーション・シリーズは、2000年代後半から2010年代前半にかけてレーベルの主要な編集ドキュメントとして稼働した。Andy自身の作品を超えて、AVAはAdam White、Sied van Riel、Standerwick、より広いArmada隣接のアップリフティング・サーキットからの素材をリリースしてきた。フェスティバル・メインステージの緊迫よりも忍耐強い長尺アレンジメントを尊重する、Andy Moorと厳選した同世代のための焦点を絞ったアウトレットとして、レーベルは現在も活動している。`,
     },
@@ -301,9 +301,9 @@ AVAの最も引用されるレコードは、2008〜2012年にわたるAndy Moor
     emoji: '🛰️',
     category: 'classic',
     banner: 'b-tech',
-    founded: '2003',
-    hq: 'United Kingdom',
-    founders: ['John Askew'],
+    founded: '2001',
+    hq: 'South London, United Kingdom',
+    founders: ['John Askew', 'Pablo Gargano', 'Steven Lo Presti'],
     aliases: ['discover', 'discover music'],
     subgenres: ['Tech Trance', 'Hard Trance', 'Uplifting Trance'],
     topReleases: [
@@ -324,10 +324,10 @@ AVAの最も引用されるレコードは、2008〜2012年にわたるAndy Moor
       ja: 'John Askewが運営する英国の長寿レーベル——現代テック・トランスとよりハードなアップリフティング・サウンドの基礎的プラットフォームで、Subcultureを派生させた編集的本拠地。',
     },
     bio: {
-      en: `Discover Records was founded in 2003 by British DJ-producer John Askew as a focused platform for the harder, faster, more technically sophisticated end of trance — the sound that mainstream EDM was about to leave behind, and that needed dedicated institutional support to survive. Through the mid-2000s the label became one of the most important UK trance imprints, releasing material from John Askew himself, Simon Patterson (whose 2009 "F-16" became a defining tech-trance moment), John O'Callaghan, Activa, and many other artists working at 138+ BPM.
+      en: `Discover Records was founded in 2001 in South London by John Askew together with Pablo Gargano and Steven Lo Presti, as a focused platform for the harder, faster, more technically sophisticated end of trance — the sound that mainstream EDM was about to leave behind, and that needed dedicated institutional support to survive. Through the mid-2000s the label became one of the most important UK trance imprints, releasing material from John Askew himself, Simon Patterson (whose 2009 "F-16" became a defining tech-trance moment), John O'Callaghan, Activa, and many other artists working at 138+ BPM.
 
 Discover's curatorial discipline has been unusually consistent: rather than chasing trends, the label has stayed committed to peak-time, drive-forward trance with technical and emotional depth. The Discover Trance compilation series and Discover Dark sub-imprint extended the catalogue across the spectrum from full-on uplifting to harder tech and hard-trance material. Discover's most consequential second-order legacy was John O'Callaghan's parallel work on the imprint that grew into the standalone Subculture brand in 2008 — meaning Discover sits at the genealogical root of much of the modern 138 BPM scene. The label remains active and respected by the harder-trance connoisseurship that it helped to build.`,
-      ja: `Discover Recordsは2003年、英国のDJプロデューサーJohn Askewにより、トランスのよりハードで速く、技術的に洗練された側面——メインストリームEDMが置き去りにしようとしていたサウンドで、生き残るために専用の制度的支援を必要としていたもの——に焦点を絞ったプラットフォームとして設立された。2000年代半ばを通してレーベルは英国で最も重要なトランス・インプリントの一つとなり、John Askew自身、Simon Patterson（2009年の「F-16」が定義的なテック・トランスの瞬間となった）、John O'Callaghan、Activa、その他138 BPM以上で活動する多数のアーティストの素材をリリースした。
+      ja: `Discover Recordsは2001年、ロンドン南部でJohn AskewがPablo Gargano、Steven Lo Prestiと共同で設立した。トランスのよりハードで速く、技術的に洗練された側面——メインストリームEDMが置き去りにしようとしていたサウンドで、生き残るために専用の制度的支援を必要としていたもの——に焦点を絞ったプラットフォームとして設立された。2000年代半ばを通してレーベルは英国で最も重要なトランス・インプリントの一つとなり、John Askew自身、Simon Patterson（2009年の「F-16」が定義的なテック・トランスの瞬間となった）、John O'Callaghan、Activa、その他138 BPM以上で活動する多数のアーティストの素材をリリースした。
 
 Discoverのキュレーション規律は異例に一貫していた：トレンドを追うのではなく、技術的・情緒的深みを持つピークタイムでドライブ志向のトランスへのコミットメントを保ち続けた。Discover Tranceコンピレーション・シリーズとDiscover Darkサブ・インプリントは、フルオン・アップリフティングからよりハードなテック・ハード・トランス素材までスペクトル全体にカタログを拡張した。Discoverの最も帰結的な二次的レガシーは、2008年に独立したSubcultureブランドへと成長したインプリントでのJohn O'Callaghanの並行作業だった——つまりDiscoverは現代138 BPMシーンの多くの系譜的根に位置する。レーベルは現在も活動しており、自身が築き上げに貢献したよりハードなトランスの鑑識家層から尊敬され続けている。`,
     },
@@ -341,9 +341,9 @@ Discoverのキュレーション規律は異例に一貫していた：トレン
     emoji: '7️⃣',
     category: 'classic',
     banner: 'b-tech',
-    founded: '2010',
-    hq: 'London, United Kingdom',
-    founders: ['Simon Patterson'],
+    founded: '2016',
+    hq: 'United Kingdom (Black Hole distribution)',
+    founders: ['John Askew (founder)', 'Simon Patterson (founding member)', '7-artist tech-trance collective'],
     aliases: ['vii', 'vii records uk', 'seven records'],
     subgenres: ['Tech Trance', 'Psy-Tech', 'Uplifting Trance'],
     topReleases: [
@@ -360,16 +360,16 @@ Discoverのキュレーション規律は異例に一貫していた：トレン
       soundcloud: 'https://soundcloud.com/viirecords',
     },
     short: {
-      en: 'Simon Patterson\'s tech-trance flagship — the dedicated editorial home for the harder, drive-forward end of the genre and the psy-tech crossover that has defined his late-2010s direction.',
-      ja: 'Simon Pattersonのテック・トランス旗艦——よりハードでドライブ志向のジャンル端と、彼の2010年代後半の方向性を定義したサイ・テック・クロスオーバーの専用編集本拠地。',
+      en: 'A 7-artist tech-trance collective founded by John Askew, distributed via Black Hole — the dedicated editorial home for the harder, drive-forward end of the genre, with Simon Patterson among its core members.',
+      ja: 'John Askewが立ち上げた7人組テック・トランス・コレクティブ（Black Hole配給）——よりハードでドライブ志向のジャンル端を担う専用編集本拠地で、Simon Pattersonも中核メンバーの一人。',
     },
     bio: {
-      en: `VII Records was launched in 2010 by British DJ-producer Simon Patterson as a dedicated outlet for his tech-trance productions and a focused curation platform for like-minded artists. Patterson had broken through on Discover Records with the 2009 anthem "F-16"; VII gave him his own institutional home for the harder, more technically demanding side of the trance spectrum that defined his sound through the 2010s.
+      en: `VII Records was launched around 2016 by British DJ-producer John Askew as a 7-artist tech-trance collective and label, distributed via Black Hole Recordings. The project gathered Askew with peers including Simon Patterson and other harder-trance specialists, giving the collective an institutional home for the more technically demanding side of the trance spectrum.
 
-VII's catalogue is built around Patterson's solo singles ("Always," "Bulldozer," and many more) plus the VII-branded compilation series that runs through to today. The label has been an editorial home for the tech-trance / psy-tech crossover that emerged in the late 2010s, with Patterson's own gradual shift toward psytrance-influenced production reflected in the imprint's release direction. VII has hosted material from Activa, Sneijder, Will Atkinson, James Dymond, Heatbeat, and other artists working in the tougher modern trance register. Alongside Subculture and Outburst, VII is one of the genre's most respected boutique outlets for the harder end of contemporary trance, and the imprint's events at clubs across the UK and EU continue to draw a dedicated 138 BPM audience.`,
-      ja: `VII Recordsは2010年、英国のDJプロデューサーSimon Pattersonにより、自身のテック・トランス・プロダクションの専用アウトレットと、同志的なアーティストのための焦点を絞ったキュレーション・プラットフォームとして発足した。PattersonはDiscover Recordsで2009年のアンセム「F-16」によりブレイクしていた。VIIは彼に、2010年代を通じて彼のサウンドを定義したトランス・スペクトルのよりハードで技術的に要求の高い側面のための、自身の制度的本拠地を与えた。
+VII's catalogue is built around the collective's solo releases (Simon Patterson's "Always," "Bulldozer," and many more, alongside material from Askew and the other members) plus the VII-branded compilation series. The label has been an editorial home for the tech-trance / psy-tech crossover that emerged in the late 2010s. Alongside Subculture and Outburst, VII is one of the genre's most respected boutique outlets for the harder end of contemporary trance, and the imprint's events at clubs across the UK and EU continue to draw a dedicated 138 BPM audience.`,
+      ja: `VII Recordsは2016年頃、英国のDJプロデューサーJohn Askewが立ち上げた7人組テック・トランス・コレクティブ／レーベルで、Black Hole Recordingsを通じて配給されている。Askew自身とSimon Pattersonをはじめとするよりハードなトランスのスペシャリストたちが集まり、より技術的に要求の高いトランス・スペクトルのための制度的本拠地を獲得した。
 
-VIIのカタログはPattersonのソロ・シングル（「Always」「Bulldozer」ほか多数）と、現在まで続くVII冠コンピレーション・シリーズを軸に構築されている。同レーベルは2010年代後半に出現したテック・トランス／サイ・テック・クロスオーバーの編集本拠地となり、Patterson自身の段階的なサイトランス影響のプロダクションへのシフトがインプリントのリリース方向に反映されてきた。VIIはActiva、Sneijder、Will Atkinson、James Dymond、Heatbeat、よりハードな現代トランス・レジスターで活動するその他アーティストの素材をホストしてきた。Subculture、Outburstと並び、VIIは現代トランスのよりハードな端のための、ジャンルで最も尊敬されるブティック・アウトレットの一つであり、英国およびEU各地のクラブでのインプリント・イベントは熱心な138 BPMオーディエンスを集め続けている。`,
+VIIのカタログはコレクティブのソロ・リリース（Simon Pattersonの「Always」「Bulldozer」ほか、Askewや他メンバーの作品）と、VII冠コンピレーション・シリーズを軸に構築されている。同レーベルは2010年代後半に出現したテック・トランス／サイ・テック・クロスオーバーの編集本拠地となった。Subculture、Outburstと並び、VIIは現代トランスのよりハードな端のための、ジャンルで最も尊敬されるブティック・アウトレットの一つであり、英国およびEU各地のクラブでのインプリント・イベントは熱心な138 BPMオーディエンスを集め続けている。`,
     },
     posts: ['essential-trance-labels-2026', 'underground-trance-scene', 'what-is-tech-trance'],
   },
@@ -381,9 +381,9 @@ VIIのカタログはPattersonのソロ・シングル（「Always」「Bulldoze
     emoji: '🎋',
     category: 'classic',
     banner: 'b-progressive',
-    founded: '2002',
+    founded: '2003',
     hq: 'Antwerp, Belgium',
-    founders: ['Bonzai Records / Marnik Devolder'],
+    founders: ['Marnik Braeckevelt (Marnix B)', 'Bonzai Music Group'],
     aliases: ['bonzai progressive', 'bonzai prog'],
     subgenres: ['Progressive Trance', 'Tech Trance', 'Uplifting Trance'],
     topReleases: [
@@ -403,10 +403,10 @@ VIIのカタログはPattersonのソロ・シングル（「Always」「Bulldoze
       ja: '伝説的なベルギーのBonzai音楽グループのプログレッシブ部門——より広いBonzai傘下で、ヨーロッパのプログレッシブとテック・トランスの長期アウトレット。',
     },
     bio: {
-      en: `Bonzai Progressive was launched in the early 2000s as the progressive-and-tech-trance imprint within the wider Bonzai music group, the Belgian dance-music institution founded in 1992 in Antwerp. The parent Bonzai catalogue had been instrumental in defining late-1990s European trance through artists like Push (M.I.K.E. Push), Yves Deruyter, and Cherrymoon Trax — material that sat at the boundary between hard trance and uplifting and that has kept its cultural weight long after the original release window.
+      en: `Bonzai Progressive was launched in 2003 as the renewed progressive-and-tech-trance imprint within the wider Bonzai music group, the Belgian dance-music institution founded in 1992 in Antwerp. (The earlier "Bonzai Trance Progressive" sub-label had run from late 1994.) Marnik Braeckevelt — known as Marnix B, who had joined Bonzai in 1995 — co-founded the renewal alongside the broader Bonzai team. The parent Bonzai catalogue had been instrumental in defining late-1990s European trance through artists like Push (M.I.K.E. Push), Yves Deruyter, and Cherrymoon Trax — material that sat at the boundary between hard trance and uplifting and that has kept its cultural weight long after the original release window.
 
 Bonzai Progressive emerged to give the slower, deeper, more harmonically patient side of the Bonzai roster a dedicated home. Through the 2000s and 2010s the imprint released compilations and original singles spanning progressive trance, tech-trance, and the European progressive-house adjacent material that the Bonzai sound has historically incorporated. The label remains active as part of the Bonzai Music Group's wider catalogue, alongside Bonzai Records, Bonzai Classics (the reissue arm preserving the 90s catalogue), and other sub-imprints. The Bonzai institutional persistence — three decades and counting — makes Bonzai Progressive one of the longer-running progressive-trance outlets in continuous operation in Europe.`,
-      ja: `Bonzai Progressiveは2000年代初頭、1992年にアントワープで設立されたベルギーのダンス・ミュージック機関であるより広いBonzai音楽グループ内のプログレッシブ＆テック・トランス・インプリントとして発足した。親Bonzaiカタログは、Push（M.I.K.E. Push）、Yves Deruyter、Cherrymoon Traxといったアーティストを通じて1990年代後半のヨーロッパ・トランスを定義するうえで重要だった——ハード・トランスとアップリフティングの境界に位置し、オリジナル・リリース期を経てなお文化的重みを保ち続けている素材だ。
+      ja: `Bonzai Progressiveは2003年、1992年にアントワープで設立されたベルギーのダンス・ミュージック機関であるより広いBonzai音楽グループ内のプログレッシブ＆テック・トランス・インプリントとして、リニューアル発足した。（先行する「Bonzai Trance Progressive」サブレーベルは1994年末から稼働していた。）1995年にBonzaiに加わったMarnik Braeckevelt（通称Marnix B）が、より広いBonzaiチームとともに共同創設者となった。親Bonzaiカタログは、Push（M.I.K.E. Push）、Yves Deruyter、Cherrymoon Traxといったアーティストを通じて1990年代後半のヨーロッパ・トランスを定義するうえで重要だった——ハード・トランスとアップリフティングの境界に位置し、オリジナル・リリース期を経てなお文化的重みを保ち続けている素材だ。
 
 Bonzai ProgressiveはBonzaiロスターのよりスロー、ディープ、調和的に忍耐強い側面に専用の本拠地を与えるべく出現した。2000年代から2010年代にかけてインプリントは、プログレッシブ・トランス、テック・トランス、Bonzaiサウンドが歴史的に取り込んできたヨーロッパのプログレッシブ・ハウス隣接素材にわたるコンピレーションとオリジナル・シングルをリリースしてきた。レーベルはBonzai Records、Bonzai Classics（90年代カタログを保存する再発部門）、その他サブ・インプリントと並び、Bonzai Music Groupのより広いカタログの一部として現在も活動している。Bonzaiの制度的持続性——30年と継続中——により、Bonzai Progressiveはヨーロッパで継続運営される最も長期のプログレッシブ・トランス・アウトレットの一つとなっている。`,
     },
@@ -467,7 +467,7 @@ Magik Muzik continued operating after Tiësto formally departed for his own Musi
     banner: 'b-progressive',
     founded: '1991',
     hq: 'London, United Kingdom',
-    founders: ['Mark "Red Jerry" Hadfield'],
+    founders: ['Jeremy "Red Jerry" Dickens', 'Phil Howells'],
     aliases: ['hooj', 'hooj records'],
     subgenres: ['Progressive Trance', 'Uplifting Trance', 'Vocal Trance'],
     topReleases: [
@@ -488,10 +488,10 @@ Magik Muzik continued operating after Tiësto formally departed for his own Musi
       ja: '1990〜2000年代の英国プログレッシブ＆ボーカル・トランスの基礎的レーベル——Sashaの「Xpander」とSolarstoneの「Seven Cities」の本拠地。',
     },
     bio: {
-      en: `Hooj Choons was founded in 1991 in London by Mark "Red Jerry" Hadfield. Across the 1990s and 2000s the label became one of the UK's most consequential progressive and vocal trance imprints — the platform behind Sasha's foundational 1999 EP "Xpander" (whose 11-minute title track is one of the form's defining documents), Solarstone's 1999 anthem "Seven Cities," and a long arc of Salt Tank, Aurora Borealis, Tilt, and adjacent records that codified the modern long-form progressive sound.
+      en: `Hooj Choons was founded in 1991 in London by Jeremy "Red Jerry" Dickens and Phil Howells. Across the 1990s and 2000s the label became one of the UK's most consequential progressive and vocal trance imprints — the platform behind Sasha's foundational 1999 EP "Xpander" (whose 11-minute title track is one of the form's defining documents), Solarstone's 1999 anthem "Seven Cities," and a long arc of Salt Tank, Aurora Borealis, Tilt, and adjacent records that codified the modern long-form progressive sound.
 
 Hooj's editorial signature was patient, harmonically rich, and emotionally honest — the label rejected peak-time festival pressure in favour of long-form arrangements built around deep pads, hypnotic bass programming, and gradual textural development. Many of the records cited as foundational to modern Anjunadeep / Sudbeat / Last Night On Earth progressive came through Hooj first. The label entered administration in the late 2000s as the physical-distribution model that supported it collapsed, but the back catalogue has continued to circulate via licensing and reissues, and the editorial influence of the imprint remains pervasive across the contemporary progressive scene.`,
-      ja: `Hooj Choonsは1991年、ロンドンでMark「Red Jerry」Hadfieldにより設立された。1990年代から2000年代にかけてレーベルは英国で最も帰結的なプログレッシブ＆ボーカル・トランス・インプリントの一つとなった——Sashaの基礎的1999年EP「Xpander」（11分のタイトル・トラックは形式の定義的ドキュメントの一つ）、Solarstoneの1999年アンセム「Seven Cities」、そして現代の長尺プログレッシブ・サウンドを成文化したSalt Tank、Aurora Borealis、Tilt、隣接レコードの長いアークの背後にあるプラットフォームだった。
+      ja: `Hooj Choonsは1991年、ロンドンでJeremy「Red Jerry」DickensとPhil Howellsにより設立された。1990年代から2000年代にかけてレーベルは英国で最も帰結的なプログレッシブ＆ボーカル・トランス・インプリントの一つとなった——Sashaの基礎的1999年EP「Xpander」（11分のタイトル・トラックは形式の定義的ドキュメントの一つ）、Solarstoneの1999年アンセム「Seven Cities」、そして現代の長尺プログレッシブ・サウンドを成文化したSalt Tank、Aurora Borealis、Tilt、隣接レコードの長いアークの背後にあるプラットフォームだった。
 
 Hoojの編集的シグネチャは、忍耐強く、調和的に豊かで、情緒的に正直だった——レーベルはピークタイム・フェスティバルの圧力を拒否し、深いパッド、催眠的なベース・プログラミング、漸進的なテクスチャ展開を軸に構築された長尺アレンジメントを優先した。現代のAnjunadeep／Sudbeat／Last Night On Earthプログレッシブの基礎として引用される多くのレコードはまずHoojを通過した。レーベルは2000年代後半、それを支えていた物理流通モデルが崩壊するなかで管財状態に入ったが、バックカタログはライセンシングと再発を通じて流通し続けており、インプリントの編集的影響は現代プログレッシブ・シーン全体に浸透し続けている。`,
     },

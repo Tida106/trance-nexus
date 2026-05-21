@@ -49,8 +49,8 @@ Anjunadeepのロスターは現代メロディック電子音楽の人名録の�
     emoji: '✨',
     category: 'modern',
     banner: 'b-vocal',
-    founded: '2006',
-    hq: 'Manchester, United Kingdom',
+    founded: '2008',
+    hq: 'London, United Kingdom',
     founders: ['Will Holland'],
     aliases: ['enhanced', 'enhanced recordings', 'enhanced progressive'],
     subgenres: ['Progressive Trance', 'Vocal Trance', 'Future Bass', 'Progressive House'],
@@ -69,14 +69,14 @@ Anjunadeepのロスターは現代メロディック電子音楽の人名録の�
       soundcloud: 'https://soundcloud.com/enhancedmusic',
     },
     short: {
-      en: 'Will Holland\'s Manchester label group — a key platform for modern progressive trance, vocal trance, and the emerging future-bass sound.',
-      ja: 'Will Hollandがマンチェスターで主宰するレーベル・グループ——現代プログレッシブ・トランス、ボーカル・トランス、台頭中のフューチャー・ベース・サウンドの主要プラットフォーム。',
+      en: 'Will Holland\'s London label group — a key platform for modern progressive trance, vocal trance, and the emerging future-bass sound.',
+      ja: 'Will Hollandがロンドンで主宰するレーベル・グループ——現代プログレッシブ・トランス、ボーカル・トランス、台頭中のフューチャー・ベース・サウンドの主要プラットフォーム。',
     },
     bio: {
-      en: `Enhanced Music was founded in 2006 by Will Holland (Holland Records) in Manchester, UK, initially as a vehicle for British and international progressive and uplifting trance. Over the following two decades, the label group has expanded into a multi-imprint operation covering several adjacent dance-music styles: Enhanced Recordings (the flagship), Enhanced Progressive, Colorize (deeper progressive), and various sub-brands. The group's distinctive curatorial voice has been one of the genre's most consistent and influential.
+      en: `Enhanced Music was founded in 2008 by Will Holland in London, UK, initially as a vehicle for British and international progressive and uplifting trance. Over the following two decades, the label group has expanded into a multi-imprint operation covering several adjacent dance-music styles: Enhanced Recordings (the flagship), Enhanced Progressive, Colorize (deeper progressive), and various sub-brands. The group's distinctive curatorial voice has been one of the genre's most consistent and influential.
 
 Enhanced has been a particularly important platform for North American trance — the label signed Tritonal, the Texas-based Chad Cisneros and Dave Reed duo, early in their careers and helped them grow into a globally touring trance and crossover act. Other key Enhanced artists include Estiva, Tom Swoon, Jaytech, ATTLAS, Daxson, and Speed Limits. The Enhanced Sessions weekly radio show has run for over a decade and is one of the more respected modern progressive showcases. Enhanced has also been an important early platform for many vocal-trance singers who later crossed into the wider dance world.`,
-      ja: `Enhanced Musicは2006年、Will Holland（Holland Records）により英マンチェスターで設立された。当初は英国と国際的なプログレッシブ／アップリフティング・トランスの受け皿として始まった。続く20年で、レーベル・グループは隣接するダンスミュージック・スタイルを複数カバーするマルチ・インプリント運営へと拡大した：Enhanced Recordings（フラッグシップ）、Enhanced Progressive、Colorize（よりディープなプログレッシブ）、各種サブブランドである。グループの特徴的なキュレーション的視点はジャンルで最も一貫した影響力ある声の一つだった。
+      ja: `Enhanced Musicは2008年、Will Hollandにより英ロンドンで設立された。当初は英国と国際的なプログレッシブ／アップリフティング・トランスの受け皿として始まった。続く20年で、レーベル・グループは隣接するダンスミュージック・スタイルを複数カバーするマルチ・インプリント運営へと拡大した：Enhanced Recordings（フラッグシップ）、Enhanced Progressive、Colorize（よりディープなプログレッシブ）、各種サブブランドである。グループの特徴的なキュレーション的視点はジャンルで最も一貫した影響力ある声の一つだった。
 
 Enhancedは北米トランスにとって特に重要なプラットフォームだった——テキサス拠点のChad CisnerosとDave Reedによるデュオ「Tritonal」をキャリア初期に契約し、グローバルにツアーするトランスとクロスオーバー・アクトへと成長させる助けとなった。他の主要Enhancedアーティストには、Estiva、Tom Swoon、Jaytech、ATTLAS、Daxson、Speed Limitsらがいる。週次ラジオ番組「Enhanced Sessions」は10年以上続き、現代プログレッシブを紹介するより尊敬される番組の一つだ。Enhancedはまた、後により広いダンス世界へとクロスオーバーした多くのボーカル・トランス・シンガーにとっての重要な初期プラットフォームでもあった。`,
     },
@@ -131,7 +131,7 @@ Pure Trance RecordingsはJaytech、Sneijder、Vlind、Orkidea、Forerunnersほ�
     emoji: '🔥',
     category: 'modern',
     banner: 'b-tech',
-    founded: '2013',
+    founded: '2014',
     hq: 'Glasgow, Scotland',
     founders: ['Mark Sherry'],
     aliases: ['outburst', 'outburst recs', 'outburst tech'],
@@ -155,10 +155,10 @@ Pure Trance RecordingsはJaytech、Sneijder、Vlind、Orkidea、Forerunnersほ�
       ja: 'Mark Sherryがグラスゴーで主宰するテック・トランス・レーベル——よりハードでアグレッシヴな現代138 BPMトランスのフラッグシップ。',
     },
     bio: {
-      en: `Outburst Records was founded in 2013 by Scottish DJ-producer Mark Sherry in Glasgow, growing out of his weekly Outburst Radioshow which had been running since 2009. The label was set up specifically to provide a home for the harder, faster, more technically aggressive end of trance — the tech-trance and harder uplifting sounds that Sherry had championed for years and that often struggled to find homes on the larger Armada-aligned imprints.
+      en: `Outburst Records was founded in August 2014 by Scottish DJ-producer Mark Sherry in Glasgow, growing out of his weekly Outburst Radioshow which had been running since 2009. The label was set up specifically to provide a home for the harder, faster, more technically aggressive end of trance — the tech-trance and harder uplifting sounds that Sherry had championed for years and that often struggled to find homes on the larger Armada-aligned imprints.
 
 Outburst's roster has included most of the major names in modern tech-trance: Will Atkinson, Sneijder, Allen Watts, Activa, Amir Hussain, Liam Wilson, and Sherry himself. The Outburst Radioshow, which premieres many of the label's releases, has run continuously for well over 700 episodes and remains one of the most reliable barometers of the modern hard-trance scene. Sherry's collaborations with Andy Moor as Public Enemy and with various other producers have been Outburst flagship releases. While the label operates on a smaller scale than Armada or Anjunabeats, Outburst is widely regarded — alongside Subculture, FSOE, and Damaged — as one of the four most important labels keeping the harder side of trance alive in the 2020s.`,
-      ja: `Outburst Recordsは2013年、スコットランドのDJプロデューサーMark Sherryによりグラスゴーで設立された。2009年から続く週次ラジオ番組「Outburst Radioshow」から派生したものだ。レーベルは特に、よりハードで速く技術的にアグレッシヴなトランスの本拠地——Sherryが長年支援してきて、より大きなArmada系インプリントでは居場所を見つけにくかったテック・トランスとよりハードなアップリフティング・サウンド——を提供するために設立された。
+      ja: `Outburst Recordsは2014年8月、スコットランドのDJプロデューサーMark Sherryによりグラスゴーで設立された。2009年から続く週次ラジオ番組「Outburst Radioshow」から派生したものだ。レーベルは特に、よりハードで速く技術的にアグレッシヴなトランスの本拠地——Sherryが長年支援してきて、より大きなArmada系インプリントでは居場所を見つけにくかったテック・トランスとよりハードなアップリフティング・サウンド——を提供するために設立された。
 
 Outburstのロスターは現代テック・トランスの主要な名前の多くを擁してきた：Will Atkinson、Sneijder、Allen Watts、Activa、Amir Hussain、Liam Wilson、そしてSherry自身。レーベルのリリースの多くをプレミア公開するOutburst Radioshowは700話超を継続しており、現代のハード・トランスシーンの最も信頼できるバロメーターの一つとして残っている。SherryのAndy MoorとのPublic Enemy名義のコラボや、その他のプロデューサーとの共作はOutburstのフラッグシップ・リリースとなってきた。Armada やAnjunabeatsより小規模な運営だが、Subculture、FSOE、Damagedと並び、2020年代にトランスのよりハードな側面を生かし続ける最重要の4レーベルの一つとして広く認められている。`,
     },
@@ -301,7 +301,7 @@ The label's catalogue has run patient, harmonically detailed, structurally gener
     banner: 'b-progressive',
     founded: '1999',
     hq: 'London, United Kingdom',
-    founders: ['John Digweed'],
+    founders: ['John Digweed', 'Nick Muir'],
     aliases: ['bedrock', 'bedrock music'],
     subgenres: ['Progressive Trance', 'Progressive House', 'Tech House'],
     topReleases: [
@@ -318,14 +318,14 @@ The label's catalogue has run patient, harmonically detailed, structurally gener
       soundcloud: 'https://soundcloud.com/bedrockrecords',
     },
     short: {
-      en: 'John Digweed\'s long-running London progressive label, founded 1999 — one of the genre\'s most consistent editorial voices across more than 25 years.',
-      ja: 'John Digweedが運営するロンドンの長期プログレッシブ・レーベル（1999年設立）——25年以上にわたるジャンル屈指の一貫した編集声。',
+      en: 'John Digweed and Nick Muir\'s long-running London progressive label, founded 1999 — one of the genre\'s most consistent editorial voices across more than 25 years.',
+      ja: 'John DigweedとNick Muirが運営するロンドンの長期プログレッシブ・レーベル（1999年設立）——25年以上にわたるジャンル屈指の一貫した編集声。',
     },
     bio: {
-      en: `Bedrock Records was founded in 1999 in London by John Digweed, taking its name from the production duo Bedrock (Digweed and Nick Muir) that had been releasing as Bedrock since the mid-1990s. The label was conceived as a long-running editorial home for the kind of patient, harmonically generous progressive trance and progressive house that Digweed had been championing on the global Renaissance / Northern Exposure / Global Underground compilation circuit. From the start, the label's curatorial standard was high — a deliberate counterpoint to the volume-driven trance industry of the late 1990s.
+      en: `Bedrock Records was co-founded in 1999 in London by John Digweed and Nick Muir, taking its name from the production duo Bedrock (Digweed and Muir) that had been releasing as Bedrock since the mid-1990s. The label was conceived as a long-running editorial home for the kind of patient, harmonically generous progressive trance and progressive house that Digweed had been championing on the global Renaissance / Northern Exposure / Global Underground compilation circuit. From the start, the label's curatorial standard was high — a deliberate counterpoint to the volume-driven trance industry of the late 1990s.
 
 Across more than two-and-a-half decades, Bedrock has released material from John Digweed himself (most prominently the long-running Live in / Live at compilation series and the Quattro / Layered Sounds curated mixes), Henry Saiz, Guy J, Hernan Cattáneo, Quivver, Nick Muir, Steve Parry, and a long list of progressive specialists. The label's Live in series (recorded sets from Digweed's residencies in cities including Cordoba, Cape Town, and Tokyo) has become one of the most-cited DJ-mix release series in dance music. Bedrock has also been a consistent reference point for the boundary between progressive trance, progressive house, and the slower end of tech-house — a boundary the contemporary scene continues to negotiate.`,
-      ja: `Bedrock Recordsは1999年、John Digweedによりロンドンで設立された。レーベル名は1990年代半ば以来Bedrockとしてリリースしてきたプロダクション・デュオ（DigweedとNick Muir）に由来する。同レーベルは、Digweedがグローバル・Renaissance／Northern Exposure／Global Undergroundコンピレーション・サーキットで支援してきたタイプの——忍耐強く、調和的に寛大なプログレッシブ・トランスとプログレッシブ・ハウスのための長期編集本拠地として構想された。当初からレーベルのキュレーション基準は高く——1990年代後半の量重視のトランス産業への意図的対抗軸だった。
+      ja: `Bedrock Recordsは1999年、John DigweedとNick Muirによりロンドンで共同設立された。レーベル名は1990年代半ば以来Bedrockとしてリリースしてきた両者のプロダクション・デュオ（DigweedとMuir）に由来する。同レーベルは、Digweedがグローバル・Renaissance／Northern Exposure／Global Undergroundコンピレーション・サーキットで支援してきたタイプの——忍耐強く、調和的に寛大なプログレッシブ・トランスとプログレッシブ・ハウスのための長期編集本拠地として構想された。当初からレーベルのキュレーション基準は高く——1990年代後半の量重視のトランス産業への意図的対抗軸だった。
 
 四半世紀以上にわたり、BedrockはJohn Digweed自身（最も顕著には長期Live in／Live atコンピレーション・シリーズとQuattro／Layered Soundsキュレーション・ミックス）、Henry Saiz、Guy J、Hernan Cattáneo、Quivver、Nick Muir、Steve Parry、その他長期プログレッシブ・スペシャリスト多数の素材をリリースしてきた。レーベルのLive inシリーズ（コルドバ、ケープタウン、東京などの都市でのDigweedのレジデンシーから録音されたセット）は、ダンスミュージックで最も引用されるDJミックス・リリース・シリーズの一つとなった。Bedrockはまた、プログレッシブ・トランス、プログレッシブ・ハウス、テック・ハウスのよりスローな端の境界——現代シーンが今も交渉し続ける境界——の一貫した参照点となっている。`,
     },
@@ -348,7 +348,7 @@ Across more than two-and-a-half decades, Bedrock has released material from John
     banner: 'b-progressive',
     founded: '2009',
     hq: 'Toronto, Canada',
-    founders: ['Jorge Caballero'],
+    founders: ['Mitch Alexander (1980–2025)'],
     aliases: ['microcastle', 'micro castle'],
     subgenres: ['Progressive House', 'Progressive Trance', 'Melodic Techno'],
     topReleases: [
@@ -368,12 +368,12 @@ Across more than two-and-a-half decades, Bedrock has released material from John
       ja: '2009年設立のトロント拠点ブティック・プログレッシブ・インプリント——Anjunadeep／Sudbeat軸の北米版カウンターパート。',
     },
     bio: {
-      en: `microCastle was founded in 2009 in Toronto by Jorge Caballero as a focused progressive imprint operating in the same long-form, harmonically generous editorial space that Hooj Choons and Bedrock had defined a decade earlier. From the start the label has prioritised carefully-curated EPs and singles over volume releases — a small catalogue of patient, structurally-attentive progressive house and progressive trance that has earned a dedicated following among connoisseurs of the form.
+      en: `microCastle was founded in 2009 in Toronto by Mitch Alexander as a focused progressive imprint operating in the same long-form, harmonically generous editorial space that Hooj Choons and Bedrock had defined a decade earlier. From the start the label prioritised carefully-curated EPs and singles over volume releases — a small catalogue of patient, structurally-attentive progressive house and progressive trance that has earned a dedicated following among connoisseurs of the form. Alexander passed away in June 2025, and the label continues to honour the editorial standard he set.
 
-The label's release flow has hosted material from Soundprank (Marcelo Vasami), Henry Saiz, Guy J, Estiva, Audiojack, and many other artists working in the long-form progressive register. The microCastle compilation series (typically Caballero-curated) and the touring microCastle event brand have built a respected boutique presence in the North American progressive scene. The label sits comfortably alongside Sudbeat, Last Night On Earth, and the Anjunadeep family as part of the modern progressive heartland — a North American voice in a genre still dominated by European editorial centres.`,
-      ja: `microCastleは2009年、トロントでJorge Caballeroにより、Hooj ChoonsとBedrockが10年前に定義したのと同じ長尺で調和的に寛大な編集空間で活動する、焦点を絞ったプログレッシブ・インプリントとして設立された。当初からレーベルは量的リリースよりも丁寧にキュレーションされたEPとシングルを優先してきた——形式の鑑識家の間で熱心な支持を獲得してきた、忍耐強く構造的に注意深いプログレッシブ・ハウスとプログレッシブ・トランスの小さなカタログだ。
+The label's release flow has hosted material from Soundprank (Marcelo Vasami), Henry Saiz, Guy J, Estiva, Audiojack, and many other artists working in the long-form progressive register. The microCastle compilation series and the touring microCastle event brand have built a respected boutique presence in the North American progressive scene. The label sits comfortably alongside Sudbeat, Last Night On Earth, and the Anjunadeep family as part of the modern progressive heartland — a North American voice in a genre still dominated by European editorial centres.`,
+      ja: `microCastleは2009年、トロントでMitch Alexanderにより、Hooj ChoonsとBedrockが10年前に定義したのと同じ長尺で調和的に寛大な編集空間で活動する、焦点を絞ったプログレッシブ・インプリントとして設立された。当初からレーベルは量的リリースよりも丁寧にキュレーションされたEPとシングルを優先してきた——形式の鑑識家の間で熱心な支持を獲得してきた、忍耐強く構造的に注意深いプログレッシブ・ハウスとプログレッシブ・トランスの小さなカタログだ。Alexanderは2025年6月に逝去したが、レーベルは彼が確立した編集基準を継承し続けている。
 
-レーベルのリリース・フローはSoundprank（Marcelo Vasami）、Henry Saiz、Guy J、Estiva、Audiojack、その他長尺プログレッシブ・レジスターで活動する多数のアーティストの素材をホストしてきた。microCastleコンピレーション・シリーズ（典型的にCaballeroがキュレーション）と巡回するmicroCastleイベント・ブランドは、北米プログレッシブ・シーンで尊敬されるブティック・プレゼンスを築いてきた。レーベルはSudbeat、Last Night On Earth、Anjunadeepファミリーと並んで現代プログレッシブの中心地の一部として収まる——ヨーロッパの編集中心によって今も支配されているジャンルでの北米の声である。`,
+レーベルのリリース・フローはSoundprank（Marcelo Vasami）、Henry Saiz、Guy J、Estiva、Audiojack、その他長尺プログレッシブ・レジスターで活動する多数のアーティストの素材をホストしてきた。microCastleコンピレーション・シリーズと巡回するmicroCastleイベント・ブランドは、北米プログレッシブ・シーンで尊敬されるブティック・プレゼンスを築いてきた。レーベルはSudbeat、Last Night On Earth、Anjunadeepファミリーと並んで現代プログレッシブの中心地の一部として収まる——ヨーロッパの編集中心によって今も支配されているジャンルでの北米の声である。`,
     },
     posts: ['essential-trance-labels-2026', 'best-progressive-trance-tracks-of-all-time-50', 'what-is-progressive-trance'],
   },
@@ -385,7 +385,7 @@ The label's release flow has hosted material from Soundprank (Marcelo Vasami), H
     emoji: '🎚️',
     category: 'modern',
     banner: 'b-progressive',
-    founded: '2011',
+    founded: '2013',
     hq: 'Liverpool, United Kingdom',
     founders: ['Steve Parry', 'Dave Seaman'],
     aliases: ['selador', 'selador music'],
@@ -403,14 +403,14 @@ The label's release flow has hosted material from Soundprank (Marcelo Vasami), H
       soundcloud: 'https://soundcloud.com/seladorrecordings',
     },
     short: {
-      en: 'Steve Parry and Dave Seaman\'s Liverpool-rooted progressive label, founded 2011 — a focused boutique outlet for the modern progressive house and trance crossover.',
-      ja: 'Steve ParryとDave Seamanが運営するリヴァプールに根ざしたプログレッシブ・レーベル（2011年設立）——現代プログレッシブ・ハウス＆トランス・クロスオーバーのための焦点を絞ったブティック・アウトレット。',
+      en: 'Steve Parry and Dave Seaman\'s Liverpool-rooted progressive label, founded 2013 — a focused boutique outlet for the modern progressive house and trance crossover.',
+      ja: 'Steve ParryとDave Seamanが運営するリヴァプールに根ざしたプログレッシブ・レーベル（2013年設立）——現代プログレッシブ・ハウス＆トランス・クロスオーバーのための焦点を絞ったブティック・アウトレット。',
     },
     bio: {
-      en: `Selador Recordings was co-founded in 2011 by British DJ-producers Steve Parry and Dave Seaman, both of whom carried decades of progressive credibility into the project — Seaman from his 1990s Brothers in Rhythm / Renaissance / DMC era, Parry from his Liverpool-based Renaissance and Bedrock-adjacent residency work. The label was conceived as a focused boutique outlet rather than a release-volume operation, with editorial discipline centred on the long-form progressive house and progressive trance crossover that the founders' personal taste prioritises.
+      en: `Selador Recordings was co-founded in 2013 by British DJ-producers Steve Parry and Dave Seaman, both of whom carried decades of progressive credibility into the project — Seaman from his 1990s Brothers in Rhythm / Renaissance / DMC era, Parry from his Liverpool-based Renaissance and Bedrock-adjacent residency work. The label was conceived as a focused boutique outlet rather than a release-volume operation, with editorial discipline centred on the long-form progressive house and progressive trance crossover that the founders' personal taste prioritises.
 
 Selador's catalogue spans original singles and EPs from Parry and Seaman themselves, plus curated work from progressive specialists across the UK, mainland Europe, and the global Sudbeat / Anjunadeep / Bedrock-adjacent scene. The Selador Sounds compilation series functions as the label's primary editorial document, and the Selador event brand has hosted touring nights at boutique venues across the UK and mainland EU. Selador sits comfortably in the same sound-world as the Bedrock and Sudbeat families — patient, harmonically detailed, structurally generous progressive material — while keeping a tighter, more author-driven identity.`,
-      ja: `Selador Recordingsは2011年、英国のDJプロデューサーSteve ParryとDave Seamanにより共同設立された。両者ともプロジェクトに数十年のプログレッシブ・クレディブリティを持ち込んだ——Seamanは1990年代のBrothers in Rhythm／Renaissance／DMC時代から、Parryはリヴァプール拠点のRenaissanceとBedrock隣接のレジデンシー活動から。レーベルはリリース量の運営ではなく焦点を絞ったブティック・アウトレットとして構想され、編集規律は創設者個人の好みが優先する長尺プログレッシブ・ハウス＆プログレッシブ・トランス・クロスオーバーを中心とした。
+      ja: `Selador Recordingsは2013年、英国のDJプロデューサーSteve ParryとDave Seamanにより共同設立された。両者ともプロジェクトに数十年のプログレッシブ・クレディブリティを持ち込んだ——Seamanは1990年代のBrothers in Rhythm／Renaissance／DMC時代から、Parryはリヴァプール拠点のRenaissanceとBedrock隣接のレジデンシー活動から。レーベルはリリース量の運営ではなく焦点を絞ったブティック・アウトレットとして構想され、編集規律は創設者個人の好みが優先する長尺プログレッシブ・ハウス＆プログレッシブ・トランス・クロスオーバーを中心とした。
 
 Seladorのカタログは、ParryとSeaman自身のオリジナル・シングルとEP、加えて英国、大陸ヨーロッパ、グローバルなSudbeat／Anjunadeep／Bedrock隣接シーンを横断するプログレッシブ・スペシャリストからのキュレーション作品にわたる。Selador Soundsコンピレーション・シリーズはレーベルの主要な編集ドキュメントとして機能し、Seladorイベント・ブランドは英国と大陸EU各地のブティック・ベニューでツアー・ナイトをホストしてきた。SeladorはBedrockとSudbeatファミリーと同じサウンド・ワールドに快適に収まる——忍耐強く、調和的に詳細で、構造的に寛大なプログレッシブ素材——一方でより緊密で著者主導のアイデンティティを維持している。`,
     },
@@ -424,9 +424,9 @@ Seladorのカタログは、ParryとSeaman自身のオリジナル・シング�
     emoji: '🎨',
     category: 'modern',
     banner: 'b-vocal',
-    founded: '2014',
-    hq: 'United Kingdom',
-    founders: ['Tritonal / Will Holland (Enhanced Music ownership)'],
+    founded: '2011',
+    hq: 'London, United Kingdom',
+    founders: ['Will Holland (Enhanced Music)'],
     aliases: ['colorize music', 'colorize records', 'enhanced colorize'],
     subgenres: ['Melodic House', 'Progressive House', 'Vocal Trance'],
     topReleases: [
@@ -447,10 +447,10 @@ Seladorのカタログは、ParryとSeaman自身のオリジナル・シング�
       ja: 'Enhanced Musicのよりディープ／メロディック・ハウス・サブレーベル——EstivaやTritonalのような、ボーカル主導でプログレッシブ隣接の素材の本拠地。',
     },
     bio: {
-      en: `Colorize was launched in 2014 as the deeper, more melodic-house counterpart to Will Holland's Enhanced Music. Where Enhanced has historically operated in the vocal-uplifting trance and progressive trance space (137–138 BPM, mainstage-friendly), Colorize was conceived as the imprint home for slower, more atmospheric productions — typically 122–126 BPM, melodic-house adjacent, with a vocal-led songwriter sensibility.
+      en: `Colorize was launched in 2011 as the deeper, more melodic-house counterpart to Will Holland's Enhanced Music. Where Enhanced has historically operated in the vocal-uplifting trance and progressive trance space (137–138 BPM, mainstage-friendly), Colorize was conceived as the imprint home for slower, more atmospheric productions — typically 122–126 BPM, melodic-house adjacent, with a vocal-led songwriter sensibility.
 
 Through the late 2010s and 2020s, Colorize has grown into one of the more visible boutique outlets for the modern melodic-house-meets-vocal-trance crossover, releasing material from Estiva, Tritonal, Kapera, Robert Nickson (in his deeper register), Trivecta, and many other artists working at the boundary between Anjunadeep-style progressive and vocal-trance heritage. The Colorize compilation series and the touring Colorize Nights event brand have built a devoted audience among listeners who want the emotional sensibility of vocal trance at a slower tempo. The label is part of the wider Enhanced Music family.`,
-      ja: `Colorizeは2014年、Will HollandのEnhanced Musicのよりディープ／メロディック・ハウス・カウンターパートとして発足した。Enhancedが歴史的にボーカル・アップリフティング・トランスとプログレッシブ・トランス空間（137〜138 BPM、メインステージ・フレンドリー）で活動してきたのに対し、Colorizeはよりスローで大気的なプロダクション——典型的に122〜126 BPM、メロディック・ハウス隣接、ボーカル主導のソングライター感性——のためのインプリント本拠地として構想された。
+      ja: `Colorizeは2011年、Will HollandのEnhanced Musicのよりディープ／メロディック・ハウス・カウンターパートとして発足した。Enhancedが歴史的にボーカル・アップリフティング・トランスとプログレッシブ・トランス空間（137〜138 BPM、メインステージ・フレンドリー）で活動してきたのに対し、Colorizeはよりスローで大気的なプロダクション——典型的に122〜126 BPM、メロディック・ハウス隣接、ボーカル主導のソングライター感性——のためのインプリント本拠地として構想された。
 
 2010年代後半から2020年代を通して、Colorizeは現代のメロディック・ハウス・ミーツ・ボーカル・トランス・クロスオーバーのためのより可視性の高いブティック・アウトレットの一つに成長し、Estiva、Tritonal、Kapera、Robert Nickson（彼のよりディープなレジスターで）、Trivecta、Anjunadeepスタイルのプログレッシブとボーカル・トランス遺産の境界で活動するその他多数のアーティストの素材をリリースしてきた。Colorizeコンピレーション・シリーズと巡回するColorize Nightsイベント・ブランドは、よりスロー・テンポでボーカル・トランスの情緒的感性を求めるリスナーの間で熱心なオーディエンスを築いてきた。レーベルはより広いEnhanced Musicファミリーの一部だ。`,
     },
@@ -503,15 +503,15 @@ The label's catalogue has been built primarily around Sean Tyas's own singles an
     emoji: '🏔️',
     category: 'modern',
     banner: 'b-uplifting',
-    founded: '2014',
+    founded: '2017',
     hq: 'Amsterdam, Netherlands (Armada distribution)',
     founders: ['MaRLo'],
     aliases: ['reaching altitude records', 'ra'],
     subgenres: ['Uplifting Trance', 'Tech Trance'],
     topReleases: [
-      { title: 'Hold It Together', artist: 'MaRLo & Jano', year: 2014, type: 'single' },
-      { title: 'Various MaRLo singles and EPs', artist: 'MaRLo', year: '2014+', type: 'multiple' },
-      { title: 'Reaching Altitude compilation series', artist: 'Various / MaRLo', year: '2014+', type: 'series' },
+      { title: 'The Launch', artist: 'MaRLo', year: 2017, type: 'single (debut release)' },
+      { title: 'Various MaRLo singles and EPs', artist: 'MaRLo', year: '2017+', type: 'multiple' },
+      { title: 'Reaching Altitude compilation series', artist: 'Various / MaRLo', year: '2017+', type: 'series' },
       { title: 'MaRLo & Roxanne Emery collaborations', artist: 'MaRLo & Roxanne Emery', year: 'multiple', type: 'multiple' },
     ],
     related: ['armada-music', 'wao138', 'fsoe', 'tytanium-recordings'],
@@ -525,10 +525,10 @@ The label's catalogue has been built primarily around Sean Tyas's own singles an
       ja: 'MaRLoが主宰しArmadaが配給するアップリフティング／テック・エナジー・トランス・インプリント——高BPMでフェスティバル寄りのテック・アップリフティング・サウンドの編集本拠地。',
     },
     bio: {
-      en: `Reaching Altitude was founded in 2014 by Australian-Dutch DJ-producer MaRLo as a focused outlet for the harder, more festival-leaning side of contemporary uplifting trance. Distributed through Armada Music, the imprint sits in the artist-run wing of the Armada family — adjacent to AVA Recordings, Vandit, and Flashover in editorial spirit, with the explicit intent of championing the 138+ BPM uplifting and tech-trance crossover that mainstage festival sets favour.
+      en: `Reaching Altitude was founded in September 2017 by Australian-Dutch DJ-producer MaRLo (debut single "The Launch" released September 22, 2017) as a focused outlet for the harder, more festival-leaning side of contemporary uplifting trance. Distributed through Armada Music, the imprint sits in the artist-run wing of the Armada family — adjacent to AVA Recordings, Vandit, and Flashover in editorial spirit, with the explicit intent of championing the 138+ BPM uplifting and tech-trance crossover that mainstage festival sets favour.
 
 The label's catalogue is built primarily around MaRLo's own productions, supplemented by curated material from peers in the tech-uplifting register — Roxanne Emery (his frequent vocal collaborator), Standerwick, Mark Sixma, and other artists working in the harder mainstream uplifting space. The Reaching Altitude compilation series functions as the label's editorial document, and the Reaching Altitude-branded events at festivals including ASOT, Untold, and EDC have built a global audience for MaRLo's high-energy uplifting sound. Reaching Altitude is one of the most visible artist-run trance labels operating under the Armada distribution umbrella in the late-2010s and 2020s era.`,
-      ja: `Reaching Altitudeは2014年、オーストラリア・オランダのDJプロデューサーMaRLoにより、現代アップリフティング・トランスのよりハードでフェスティバル寄りの側面のための焦点を絞ったアウトレットとして設立された。Armada Musicが配給するインプリントは、Armadaファミリーのアーティスト主導ウィング——AVA Recordings、Vandit、Flashoverと編集精神において隣接する——に位置し、メインステージのフェスティバル・セットが好む138 BPM以上のアップリフティング＆テック・トランス・クロスオーバーを支援するという明示的意図を持つ。
+      ja: `Reaching Altitudeは2017年9月、オーストラリア・オランダのDJプロデューサーMaRLoにより設立された（デビュー・シングル「The Launch」は2017年9月22日リリース）。現代アップリフティング・トランスのよりハードでフェスティバル寄りの側面のための焦点を絞ったアウトレットとして始動。Armada Musicが配給するインプリントは、Armadaファミリーのアーティスト主導ウィング——AVA Recordings、Vandit、Flashoverと編集精神において隣接する——に位置し、メインステージのフェスティバル・セットが好む138 BPM以上のアップリフティング＆テック・トランス・クロスオーバーを支援するという明示的意図を持つ。
 
 レーベルのカタログはMaRLo自身のプロダクションを軸に構築され、テック・アップリフティング・レジスターの同世代——Roxanne Emery（彼の頻繁なボーカル共作者）、Standerwick、Mark Sixma、よりハードなメインストリーム・アップリフティング空間で活動するその他アーティスト——からのキュレーション素材で補完されている。Reaching Altitudeコンピレーション・シリーズはレーベルの編集ドキュメントとして機能し、ASOT、Untold、EDCを含むフェスティバルでのReaching Altitude冠のイベントは、MaRLoのハイエナジー・アップリフティング・サウンドのためのグローバル・オーディエンスを築いてきた。Reaching Altitudeは2010年代後半から2020年代にかけてArmada配給傘下で活動する最も可視性の高いアーティスト主導のトランス・レーベルの一つだ。`,
     },
@@ -548,14 +548,15 @@ The label's catalogue is built primarily around MaRLo's own productions, supplem
     emoji: '🥇',
     category: 'modern',
     banner: 'b-uplifting',
-    founded: '2017',
+    founded: '2014',
     hq: 'United Kingdom (Armada distribution)',
     founders: ['Ben Gold'],
     aliases: ['goldrush', 'goldrush music'],
     subgenres: ['Uplifting Trance', 'Tech Trance'],
     topReleases: [
-      { title: 'Various Ben Gold singles', artist: 'Ben Gold', year: '2017+', type: 'multiple' },
-      { title: 'Goldrush compilation series', artist: 'Various / Ben Gold', year: '2018+', type: 'series' },
+      { title: 'All Or Nothing (feat. Christina Novelli)', artist: 'Ben Gold', year: 2014, type: 'single (debut label release)' },
+      { title: 'Various Ben Gold singles', artist: 'Ben Gold', year: '2014+', type: 'multiple' },
+      { title: 'Goldrush compilation series', artist: 'Various / Ben Gold', year: '2014+', type: 'series' },
       { title: 'Standerwick / Allen Watts split releases', artist: 'Various', year: 'multiple', type: 'multiple' },
       { title: 'Various harder-uplifting peer releases', artist: 'Various', year: 'multiple', type: 'multiple' },
     ],
@@ -566,36 +567,36 @@ The label's catalogue is built primarily around MaRLo's own productions, supplem
       soundcloud: 'https://soundcloud.com/goldrushrec',
     },
     short: {
-      en: 'Ben Gold\'s Armada-distributed uplifting / tech-trance imprint, founded 2017 — a focused outlet for the harder-uplifting and 138 BPM modern sound.',
-      ja: 'Ben GoldのArmada配給アップリフティング／テック・トランス・インプリント（2017年設立）——よりハードなアップリフティングと138 BPM現代サウンドのための焦点を絞ったアウトレット。',
+      en: 'Ben Gold\'s Armada-distributed uplifting / tech-trance imprint, founded 2014 — a focused outlet for the harder-uplifting and 138 BPM modern sound.',
+      ja: 'Ben GoldのArmada配給アップリフティング／テック・トランス・インプリント（2014年設立）——よりハードなアップリフティングと138 BPM現代サウンドのための焦点を絞ったアウトレット。',
     },
     bio: {
-      en: `Goldrush Recordings was launched in 2017 by British DJ-producer Ben Gold as a creative home for his own productions and a curated platform for the harder-uplifting and tech-trance scene around him. Distributed through Armada Music, the imprint sits in the artist-run wing of the Armada family — adjacent to AVA, Vandit, Reaching Altitude, and Flashover in editorial spirit, with editorial discipline taking priority over release-volume.
+      en: `Goldrush Recordings was launched in September 2014 by British DJ-producer Ben Gold (debut release: "All Or Nothing" feat. Christina Novelli, September 15, 2014) as a creative home for his own productions and a curated platform for the harder-uplifting and tech-trance scene around him. Distributed through Armada Music, the imprint sits in the artist-run wing of the Armada family — adjacent to AVA, Vandit, Reaching Altitude, and Flashover in editorial spirit, with editorial discipline taking priority over release-volume.
 
-Through 2017+, Goldrush has released the bulk of Ben Gold's solo singles and EPs, supplemented by curated material from peers in the modern uplifting register — Standerwick, Allen Watts, Bryan Kearney, MaRLo, and other 138 BPM specialists. The Goldrush compilation series functions as the label's editorial document, and the touring Goldrush event brand has hosted nights at uplifting-focused venues across the UK, EU, and US. Goldrush is one of the more recent additions to the artist-run trance label ecosystem under Armada distribution and continues to expand its catalogue across the broader uplifting and tech-trance mainstream.`,
-      ja: `Goldrush Recordingsは2017年、英国のDJプロデューサーBen Goldにより、自身のプロダクションのクリエイティブな本拠地と、彼の周囲のよりハードなアップリフティング＆テック・トランス・シーンのキュレーション・プラットフォームとして発足した。Armada Musicが配給するインプリントは、Armadaファミリーのアーティスト主導ウィング——AVA、Vandit、Reaching Altitude、Flashoverと編集精神において隣接する——に位置し、リリース量よりも編集規律を優先する。
+Through 2014+, Goldrush has released the bulk of Ben Gold's solo singles and EPs, supplemented by curated material from peers in the modern uplifting register — Standerwick, Allen Watts, Bryan Kearney, MaRLo, and other 138 BPM specialists. The Goldrush compilation series functions as the label's editorial document, and the touring Goldrush event brand has hosted nights at uplifting-focused venues across the UK, EU, and US. Goldrush is one of the more recent additions to the artist-run trance label ecosystem under Armada distribution and continues to expand its catalogue across the broader uplifting and tech-trance mainstream.`,
+      ja: `Goldrush Recordingsは2014年9月、英国のDJプロデューサーBen Goldにより発足した（デビュー・リリースは2014年9月15日の「All Or Nothing」feat. Christina Novelli）。自身のプロダクションのクリエイティブな本拠地と、彼の周囲のよりハードなアップリフティング＆テック・トランス・シーンのキュレーション・プラットフォームとして始動。Armada Musicが配給するインプリントは、Armadaファミリーのアーティスト主導ウィング——AVA、Vandit、Reaching Altitude、Flashoverと編集精神において隣接する——に位置し、リリース量よりも編集規律を優先する。
 
-2017年以降、GoldrushはBen Goldのソロ・シングルとEPの大半をリリースし、現代アップリフティング・レジスターの同世代——Standerwick、Allen Watts、Bryan Kearney、MaRLo、その他138 BPMスペシャリスト——からのキュレーション素材で補完してきた。Goldrushコンピレーション・シリーズはレーベルの編集ドキュメントとして機能し、巡回するGoldrushイベント・ブランドは英国、EU、米国のアップリフティング志向ベニューでナイトをホストしてきた。GoldrushはArmada配給傘下のアーティスト主導トランス・レーベル・エコシステムへのより新しい追加の一つで、より広いアップリフティング＆テック・トランス・メインストリーム全体にカタログを拡張し続けている。`,
+2014年以降、GoldrushはBen Goldのソロ・シングルとEPの大半をリリースし、現代アップリフティング・レジスターの同世代——Standerwick、Allen Watts、Bryan Kearney、MaRLo、その他138 BPMスペシャリスト——からのキュレーション素材で補完してきた。Goldrushコンピレーション・シリーズはレーベルの編集ドキュメントとして機能し、巡回するGoldrushイベント・ブランドは英国、EU、米国のアップリフティング志向ベニューでナイトをホストしてきた。GoldrushはArmada配給傘下のアーティスト主導トランス・レーベル・エコシステムへのより新しい追加の一つで、より広いアップリフティング＆テック・トランス・メインストリーム全体にカタログを拡張し続けている。`,
     },
     posts: ['essential-trance-labels-2026', 'best-uplifting-trance-tracks-of-all-time-50', 'what-is-uplifting-trance'],
   },
 
   {
     slug: 'karnage-digital',
-    name: 'KARNAGE Digital',
+    name: 'Kearnage Recordings',
     flag: '🇮🇪',
     emoji: '⚡',
     category: 'modern',
     banner: 'b-tech',
-    founded: '2014',
+    founded: '2010',
     hq: 'Ireland',
     founders: ['Bryan Kearney'],
-    aliases: ['karnage', 'karnage records', 'karnage digital records', 'kearnage', 'kearnage recordings'],
+    aliases: ['karnage', 'karnage records', 'karnage digital', 'kearnage', 'kearnage recordings'],
     subgenres: ['Tech Trance', 'Uplifting Trance', 'Hard Trance'],
     topReleases: [
-      { title: 'Various Bryan Kearney singles and EPs', artist: 'Bryan Kearney', year: '2014+', type: 'multiple' },
+      { title: 'Various Bryan Kearney singles and EPs', artist: 'Bryan Kearney', year: '2010+', type: 'multiple' },
       { title: 'Goodbye-era productions', artist: 'Bryan Kearney', year: 'multiple', type: 'multiple' },
-      { title: 'KARNAGE Sessions compilation series', artist: 'Various', year: '2014+', type: 'series' },
+      { title: 'Karnage Sessions compilation series', artist: 'Various', year: '2010+', type: 'series' },
       { title: 'Will Atkinson / John Askew split releases', artist: 'Various', year: 'multiple', type: 'multiple' },
     ],
     related: ['subculture', 'discover-records', 'vii-records', 'outburst-records'],
@@ -605,16 +606,16 @@ Through 2017+, Goldrush has released the bulk of Ben Gold's solo singles and EPs
       soundcloud: 'https://soundcloud.com/karnagerecords',
     },
     short: {
-      en: 'Bryan Kearney\'s artist-run tech/hard-trance imprint — a focused outlet for the harder, more confrontational end of the 138 BPM modern sound.',
-      ja: 'Bryan Kearneyが主宰するテック／ハード・トランス・インプリント——138 BPM現代サウンドのよりハードでより対立的な端のための焦点を絞ったアウトレット。',
+      en: 'Bryan Kearney\'s artist-run tech/hard-trance imprint, founded 2010 — a focused outlet for the harder, more confrontational end of the 138 BPM modern sound.',
+      ja: 'Bryan Kearneyが2010年に設立したテック／ハード・トランス・インプリント——138 BPM現代サウンドのよりハードでより対立的な端のための焦点を絞ったアウトレット。',
     },
     bio: {
-      en: `KARNAGE Digital was launched in 2014 by Irish DJ-producer Bryan Kearney as a creative outlet for his own productions and a curated platform for the harder, more confrontational side of contemporary trance. Kearney had built his reputation through Subculture residency work and Discover-era releases; KARNAGE gave him a personal imprint to release material that didn't fit neatly into the Subculture or Discover editorial mould — typically harder, faster, and more sonically aggressive than the wider 138 BPM scene.
+      en: `Kearnage Recordings was launched in 2010 by Irish DJ-producer Bryan Kearney as a creative outlet for his own productions and a curated platform for the harder, more confrontational side of contemporary trance. Kearney had built his reputation through Subculture residency work and Discover-era releases; Kearnage gave him a personal imprint to release material that didn't fit neatly into the Subculture or Discover editorial mould — typically harder, faster, and more sonically aggressive than the wider 138 BPM scene.
 
-The catalogue is built primarily around Kearney's solo singles and his collaborations with peers in the harder-trance space — Will Atkinson, John Askew, Sneijder, Steve Allen, and other 138+ BPM specialists. The KARNAGE Sessions compilation series and KARNAGE-branded events at venues across Ireland, the UK, and EU have built a dedicated audience among connoisseurs of harder modern trance. KARNAGE sits comfortably alongside Subculture, Outburst, and VII as part of the harder-trance institutional axis that has kept the modern peak-time tech-trance sound alive against commercial pressure to soften.`,
-      ja: `KARNAGE Digitalは2014年、アイルランドのDJプロデューサーBryan Kearneyにより、自身のプロダクションのクリエイティブなアウトレットと、現代トランスのよりハードでより対立的な側面のキュレーション・プラットフォームとして発足した。KearneyはSubcultureのレジデンシー活動とDiscover時代のリリースを通じて評判を築いていた。KARNAGEは彼に、SubcultureやDiscoverの編集型に綺麗に収まらない素材——典型的により広い138 BPMシーンよりもよりハードで、より速く、より音響的に攻撃的な——をリリースするための個人的インプリントを与えた。
+The catalogue is built primarily around Kearney's solo singles and his collaborations with peers in the harder-trance space — Will Atkinson, John Askew, Sneijder, Steve Allen, and other 138+ BPM specialists. The Karnage Sessions compilation series and Kearnage-branded events at venues across Ireland, the UK, and EU have built a dedicated audience among connoisseurs of harder modern trance. Kearnage sits comfortably alongside Subculture, Outburst, and VII as part of the harder-trance institutional axis that has kept the modern peak-time tech-trance sound alive against commercial pressure to soften.`,
+      ja: `Kearnage Recordingsは2010年、アイルランドのDJプロデューサーBryan Kearneyにより、自身のプロダクションのクリエイティブなアウトレットと、現代トランスのよりハードでより対立的な側面のキュレーション・プラットフォームとして発足した。KearneyはSubcultureのレジデンシー活動とDiscover時代のリリースを通じて評判を築いていた。Kearnageは彼に、SubcultureやDiscoverの編集型に綺麗に収まらない素材——典型的により広い138 BPMシーンよりもよりハードで、より速く、より音響的に攻撃的な——をリリースするための個人的インプリントを与えた。
 
-カタログはKearneyのソロ・シングルと、よりハードなトランス空間の同世代——Will Atkinson、John Askew、Sneijder、Steve Allen、その他138 BPM以上のスペシャリスト——とのコラボレーションを軸に構築されている。KARNAGE Sessionsコンピレーション・シリーズとアイルランド、英国、EU各地のベニューでのKARNAGE冠のイベントは、よりハードな現代トランスの鑑識家の間で熱心なオーディエンスを築いてきた。KARNAGEはSubculture、Outburst、VIIと並んで、軟化への商業的圧力に対して現代ピークタイム・テック・トランス・サウンドを生き残らせてきたよりハードなトランスの制度的軸の一部として快適に収まる。`,
+カタログはKearneyのソロ・シングルと、よりハードなトランス空間の同世代——Will Atkinson、John Askew、Sneijder、Steve Allen、その他138 BPM以上のスペシャリスト——とのコラボレーションを軸に構築されている。Karnage Sessionsコンピレーション・シリーズとアイルランド、英国、EU各地のベニューでのKearnage冠のイベントは、よりハードな現代トランスの鑑識家の間で熱心なオーディエンスを築いてきた。KearnageはSubculture、Outburst、VIIと並んで、軟化への商業的圧力に対して現代ピークタイム・テック・トランス・サウンドを生き残らせてきたよりハードなトランスの制度的軸の一部として快適に収まる。`,
     },
     posts: ['essential-trance-labels-2026', 'best-uplifting-trance-tracks-of-all-time-50', 'what-is-tech-trance'],
   },

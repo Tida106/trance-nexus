@@ -57,7 +57,7 @@ Armadaは「A State of Trance」——ラジオ番組と、2004年以降四半�
     banner: 'b-vocal',
     founded: '2000',
     hq: 'London, United Kingdom',
-    founders: ['Above & Beyond (Jono Grant, Tony McGuinness, Paavo Siljamäki)'],
+    founders: ['Jono Grant', 'Paavo Siljamäki', 'Tony McGuinness (joined later in 2000)'],
     aliases: ['anjuna', 'anjunabeats records'],
     subgenres: ['Vocal Trance', 'Progressive Trance', 'Melodic'],
     topReleases: [
@@ -79,10 +79,10 @@ Armadaは「A State of Trance」——ラジオ番組と、2004年以降四半�
       ja: 'Above & Beyondが主宰するロンドンの伝説的レーベル——ボーカル／プログレッシブ・トランスの本拠地にして、ダンスミュージックで最も尊敬されるアーティスト主導のインプリントの一つ。',
     },
     bio: {
-      en: `Anjunabeats was founded in 2000 by Above & Beyond — Jono Grant, Tony McGuinness, and Paavo Siljamäki — to release the trio's own remix of Madonna's "What It Feels Like for a Girl." That single record set the tone for what would become one of the most distinctive labels in dance music: songwriter-driven, emotionally intelligent vocal and progressive trance with a clear curatorial voice.
+      en: `Anjunabeats was founded in 2000 by Jono Grant and Paavo Siljamäki — initially as a two-man operation — to release their own remix of Chakra's "Home." Tony McGuinness joined the pair shortly after that same year (the trio of Grant, Siljamäki and McGuinness becoming Above & Beyond), and the label's first signature release would be the Above & Beyond remix of Madonna's "What It Feels Like for a Girl." That trajectory set the tone for what would become one of the most distinctive labels in dance music: songwriter-driven, emotionally intelligent vocal and progressive trance with a clear curatorial voice.
 
 Over more than two decades, Anjunabeats has released the bulk of Above & Beyond's catalogue — including the Tri-State (2006), Group Therapy (2011), We Are All We Need (2015), and Common Ground (2018) albums — and signed key artists including Andrew Bayer, Mat Zo, Genix, ilan Bluestone, and Grum. The Anjunabeats Volume mix-compilation series has run continuously since 2003 and is one of the genre's longest-running release series. The label's annual Group Therapy festivals at the Gorge in Washington and Red Rocks in Colorado, along with weekly Group Therapy radio show episodes, have built an extraordinarily devoted global community. In 2005 the label spawned the deeper Anjunadeep imprint as a sister label.`,
-      ja: `Anjunabeatsは2000年、Above & Beyond——Jono Grant、Tony McGuinness、Paavo Siljamäki——が、マドンナの「What It Feels Like for a Girl」のトリオによるリミックスをリリースするために設立した。その1枚のレコードが、ダンスミュージックで最も特徴的なレーベルの一つの方向性を定めた：ソングライター主導の、情緒的に知的なボーカル／プログレッシブ・トランスを、明確なキュレーション的視点で送り出すレーベルである。
+      ja: `Anjunabeatsは2000年、Jono GrantとPaavo Siljamäkiの2人が自身によるChakra「Home」のリミックスをリリースするために設立した。同年中にTony McGuinnessが加わって3人がAbove & Beyondを結成し、レーベル初の象徴的なリリースとなるマドンナ「What It Feels Like for a Girl」のAbove & Beyondリミックスへと繋がっていく。この経緯が、ダンスミュージックで最も特徴的なレーベルの一つの方向性を定めた：ソングライター主導の、情緒的に知的なボーカル／プログレッシブ・トランスを、明確なキュレーション的視点で送り出すレーベルである。
 
 20年超にわたり、Anjunabeatsはアルバム『Tri-State』（2006）、『Group Therapy』（2011）、『We Are All We Need』（2015）、『Common Ground』（2018）を含むAbove & Beyondのカタログの大半をリリースし、Andrew Bayer、Mat Zo、Genix、ilan Bluestone、Grumなど主要アーティストを契約してきた。Anjunabeats Volumeミックス・コンピレーション・シリーズは2003年以来途切れず続いており、ジャンル屈指の長期シリーズの一つだ。ワシントン州The Gorge、コロラド州Red Rocksでの年次Group Therapyフェスと、週次ラジオ番組「Group Therapy」が、極めて熱心なグローバル・コミュニティを構築している。2005年には姉妹レーベルとしてより深いサウンドのAnjunadeepを派生させた。`,
     },
@@ -98,7 +98,7 @@ Over more than two decades, Anjunabeats has released the bulk of Above & Beyond'
     banner: 'b-progressive',
     founded: '1997',
     hq: 'Breda, Netherlands',
-    founders: ['Arny Bink', 'David Lewis'],
+    founders: ['Tiësto (Tijs Verwest)', 'Arny Bink'],
     aliases: ['black hole', 'blackhole recordings'],
     subgenres: ['Progressive Trance', 'Uplifting', 'Vocal Trance'],
     topReleases: [
@@ -120,10 +120,10 @@ Over more than two decades, Anjunabeats has released the bulk of Above & Beyond'
       ja: 'Tiëstoのキャリアを始動させ、「In Search of Sunrise」を築いたオランダのレーベル——プログレッシブとアップリフティング・トランスの基礎的存在。',
     },
     bio: {
-      en: `Black Hole Recordings was founded in 1997 in Breda, Netherlands by Arny Bink and David Lewis — the latter of whom would later co-found Armada Music. The label was Tiësto's home for his most celebrated work, including the Magik mix series, Just Be (2004), and the early In Search of Sunrise compilations that defined the modern long-form trance set. Long after Tiësto departed for his own Musical Freedom imprint, Black Hole has remained one of trance's most enduring labels.
+      en: `Black Hole Recordings was founded in 1997 in Breda, Netherlands by Tiësto (Tijs Verwest) and Arny Bink. The label was Tiësto's home for his most celebrated work, including the Magik mix series, Just Be (2004), and the early In Search of Sunrise compilations that defined the modern long-form trance set. Long after Tiësto departed for his own Musical Freedom imprint, Black Hole has remained one of trance's most enduring labels.
 
 The In Search of Sunrise series passed to Richard Durand and later to Solarstone, becoming a flagship through which Black Hole curates the deeper, more atmospheric end of progressive trance. The label has also been the home of BT, Cosmic Gate (early years), Markus Schulz (early years), Andy Moor, and dozens of other progressive and uplifting trance artists. In 2012 Solarstone launched the Pure Trance series under the Black Hole umbrella. After more than 25 years, the label remains a respected curator of the genre's more refined and patient material — a counterpoint to the more festival-oriented commercial mainstream.`,
-      ja: `Black Hole Recordingsは1997年、オランダ・ブレダでArny BinkとDavid Lewisにより設立された——後者は後にArmada Musicの共同創設者となる。同レーベルはTiëstoの最も称賛された作品の本拠地であり、Magikミックス・シリーズ、『Just Be』（2004）、そして現代の長尺トランス・セットを定義した初期のIn Search of Sunriseコンピレーションを送り出した。Tiëstoが自身のMusical Freedomへ移った後も、Black Holeはトランスで最も持続力のあるレーベルの一つであり続けている。
+      ja: `Black Hole Recordingsは1997年、オランダ・ブレダでTiësto（Tijs Verwest）とArny Binkにより設立された。同レーベルはTiëstoの最も称賛された作品の本拠地であり、Magikミックス・シリーズ、『Just Be』（2004）、そして現代の長尺トランス・セットを定義した初期のIn Search of Sunriseコンピレーションを送り出した。Tiëstoが自身のMusical Freedomへ移った後も、Black Holeはトランスで最も持続力のあるレーベルの一つであり続けている。
 
 In Search of SunriseシリーズはRichard Durandへ、そしてSolarstoneへと引き継がれ、より深く大気的なプログレッシブ・トランスをBlack Holeがキュレーションする旗艦シリーズとなった。BT、Cosmic Gate（初期）、Markus Schulz（初期）、Andy Moor、その他多数のプログレッシブ／アップリフティング・トランス・アーティストの本拠地でもある。2012年にはSolarstoneがBlack Holeの傘下でPure Tranceシリーズを開始した。25年以上を経て、フェスティバル志向の商業メインストリームへの対比として、より洗練され忍耐強いジャンルの素材の尊敬されるキュレーターとして残り続けている。`,
     },
