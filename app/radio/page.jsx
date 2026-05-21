@@ -6,6 +6,19 @@ import { useState } from 'react';
 import { useTranslation } from '@/lib/useTranslation';
 import radio from '@/data/radio.json';
 
+const CARD_THEMES = [
+  '210, 170, 70',   // gold
+  '60, 160, 120',   // emerald
+  '130, 90, 180',   // amethyst
+  '60, 150, 160',   // teal
+  '185, 70, 90',    // ruby
+  '80, 110, 200',   // sapphire
+  '175, 110, 60',   // bronze
+  '200, 95, 55',    // copper
+  '130, 145, 165',  // steel
+  '80, 165, 110',   // jade
+];
+
 export default function RadioPage() {
   const { t, language } = useTranslation();
   const [selectedTab, setSelectedTab] = useState('all');
@@ -103,11 +116,21 @@ export default function RadioPage() {
 
           {/* Radio Grid */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
-            {filteredRadio.map((show, i) => (
+            {filteredRadio.map((show, i) => {
+              const themeColor = CARD_THEMES[radio.indexOf(show) % CARD_THEMES.length];
+              return (
               <div
                 key={i}
-                className="bg-dark-bg2/80 border border-accent-orange/10 rounded-sm p-5 relative hover:border-accent-orange/40 hover:shadow-lg hover:translate-y-[-4px] transition-all"
+                style={{
+                  '--c': themeColor,
+                  background: `linear-gradient(135deg, rgba(15,12,9,0.92) 0%, rgba(${themeColor},0.10) 50%, rgba(8,8,10,0.95) 100%)`,
+                }}
+                className="border border-[rgba(var(--c),0.22)] rounded-sm p-5 relative overflow-hidden transition-all duration-300 hover:translate-y-[-4px] hover:shadow-[0_0_30px_rgba(var(--c),0.35)] hover:border-[rgba(var(--c),0.55)]"
               >
+                <div
+                  className="absolute -right-12 -top-12 w-44 h-44 rounded-full pointer-events-none"
+                  style={{ background: `radial-gradient(circle, rgba(${themeColor},0.18) 0%, transparent 70%)` }}
+                />
                 {show.live && (
                   <div className="absolute top-3 right-3 flex items-center gap-2 bg-accent-red/20 border border-accent-red/50 text-accent-red px-2 py-1 rounded text-xs tracking-widest font-bebas">
                     <div className="w-1 h-1 rounded-full bg-accent-red animate-pulse" />
@@ -156,13 +179,14 @@ export default function RadioPage() {
                     href={show.url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-block font-bebas text-xs tracking-widest mt-3 px-4 py-2 border border-accent-orange/30 text-accent-orange hover:bg-accent-orange/10 transition-all rounded"
+                    className="relative inline-block font-bebas text-xs tracking-widest mt-3 px-4 py-2 border rounded transition-all duration-300 border-[rgba(var(--c),0.45)] text-[rgba(var(--c),1)] hover:bg-[rgba(var(--c),0.10)] hover:border-[rgba(var(--c),0.75)] hover:shadow-[0_0_18px_rgba(var(--c),0.35)]"
                   >
                     ▶ {t('radio.listen')}
                   </a>
                 )}
               </div>
-            ))}
+              );
+            })}
           </div>
         </div>
       </main>
