@@ -40,8 +40,7 @@ const ozoraFestival = {
   labels: ['Iboga Records', 'HOMmega Productions', 'Nano Records', 'Solstice Music'],
 
   editions: [
-    { year: 2024, dates: 'July 29 – August 4' },
-    { year: 2023, dates: 'July 31 – August 6' },
+    { year: 2024, dates: 'July 26 – August 6', note: 'Full festival window including warm-up days' },
     { year: 2022, dates: 'August 1–7' },
     { year: 2019, dates: 'July 29 – August 4' },
     { year: 2004, note: 'Inaugural Ozora Festival edition (succeeding Solipse 1999)' },

@@ -11,6 +11,7 @@ const tomorrowlandWinter = {
   country: 'FR',
 
   dates: {
+    next: { start: '2026-03-21', end: '2026-03-28' },
     typicalMonth: 'March',
     cadence: 'annual',
     note: 'Week-long festival on the slopes of Alpe d\'Huez',
@@ -35,7 +36,9 @@ const tomorrowlandWinter = {
   labels: ['Armada Music', 'Anjunabeats'],
 
   editions: [
-    { year: 2024, dates: 'March 16–22' },
+    { year: 2026, dates: 'March 21–28', note: 'Confirmed next edition' },
+    { year: 2025, dates: 'March 15–22' },
+    { year: 2024, dates: 'March 16–23', note: '4th edition, ~22,000 attendees' },
     { year: 2023, dates: 'March 18–24' },
     { year: 2022, dates: 'March 19–25', note: 'First post-covid edition' },
     { year: 2019, dates: 'March 9–16', note: 'Inaugural edition' },

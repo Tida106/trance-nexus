@@ -60,19 +60,13 @@ import ultraEurope from './ultra-europe';
 import boomFestival from './boom-festival';
 import ozoraFestival from './ozora-festival';
 import universoParalello from './universo-paralello';
-import sonicaFestival from './sonica-festival';
 import hilltopGoa from './hilltop-goa';
 // Batch 4 — specialty / label events
 import subcultureEvents from './subculture-events';
 import pureTranceEvents from './pure-trance-events';
-import anjunabeatsOpenAir from './anjunabeats-open-air';
 import anjunadeepOpenAir from './anjunadeep-open-air';
-import coldharbourDay from './coldharbour-day';
 // Batch 5 — regional editions and historical records
 import sunburnFestival from './sunburn-festival';
-import dreamstateMexico from './dreamstate-mexico';
-import dreamstateSanFrancisco from './dreamstate-san-francisco';
-import maydayFestival from './mayday-festival';
 
 export const events = [
   tomorrowland,
@@ -88,17 +82,11 @@ export const events = [
   boomFestival,
   ozoraFestival,
   universoParalello,
-  sonicaFestival,
   hilltopGoa,
   subcultureEvents,
   pureTranceEvents,
-  anjunabeatsOpenAir,
   anjunadeepOpenAir,
-  coldharbourDay,
   sunburnFestival,
-  dreamstateMexico,
-  dreamstateSanFrancisco,
-  maydayFestival,
 ];
 
 export const eventSlugs = events.map((e) => e.slug);
