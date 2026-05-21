@@ -118,18 +118,20 @@ export default function RadioPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
             {filteredRadio.map((show, i) => {
               const themeColor = CARD_THEMES[radio.indexOf(show) % CARD_THEMES.length];
+              const [r, g, b] = themeColor.split(',').map(s => parseInt(s.trim(), 10));
+              const tone = (f) => `${Math.round(r * f)}, ${Math.round(g * f)}, ${Math.round(b * f)}`;
               return (
               <div
                 key={i}
                 style={{
                   '--c': themeColor,
-                  background: `linear-gradient(135deg, rgba(15,12,9,0.92) 0%, rgba(${themeColor},0.10) 50%, rgba(8,8,10,0.95) 100%)`,
+                  background: `linear-gradient(135deg, rgba(${tone(0.55)},0.94) 0%, rgba(${themeColor},0.52) 50%, rgba(${tone(0.28)},0.96) 100%)`,
                 }}
-                className="border border-[rgba(var(--c),0.22)] rounded-sm p-5 relative overflow-hidden transition-all duration-300 hover:translate-y-[-4px] hover:shadow-[0_0_30px_rgba(var(--c),0.35)] hover:border-[rgba(var(--c),0.55)]"
+                className="border border-[rgba(var(--c),0.45)] rounded-sm p-5 relative overflow-hidden transition-all duration-300 hover:translate-y-[-4px] hover:shadow-[0_0_38px_rgba(var(--c),0.55)] hover:border-[rgba(var(--c),0.85)]"
               >
                 <div
                   className="absolute -right-12 -top-12 w-44 h-44 rounded-full pointer-events-none"
-                  style={{ background: `radial-gradient(circle, rgba(${themeColor},0.18) 0%, transparent 70%)` }}
+                  style={{ background: `radial-gradient(circle, rgba(${themeColor},0.32) 0%, transparent 70%)` }}
                 />
                 {show.live && (
                   <div className="absolute top-3 right-3 flex items-center gap-2 bg-accent-red/20 border border-accent-red/50 text-accent-red px-2 py-1 rounded text-xs tracking-widest font-bebas">
@@ -148,7 +150,7 @@ export default function RadioPage() {
                   by {show.dj}
                 </div>
 
-                <div className="flex gap-3 flex-wrap text-xs text-text-muted mb-3">
+                <div className="flex gap-3 flex-wrap text-xs text-text-light/75 mb-3">
                   <div>🎵 {show.genre}</div>
                   {show.listeners && (
                     <div>👥 {show.listeners} {t('radio.listeners')}</div>
@@ -156,7 +158,7 @@ export default function RadioPage() {
                   <div>📅 {t(`radio.tabs.${show.freq}`)}</div>
                 </div>
 
-                <p className="text-sm text-text-light/50 leading-relaxed mb-3">
+                <p className="text-sm text-text-light/80 leading-relaxed mb-3">
                   {language === 'ja' ? show.descJa : show.descEn}
                 </p>
 
@@ -167,7 +169,7 @@ export default function RadioPage() {
                       {s.time && (
                         <span className="text-text-light/65 font-mono">{s.time}</span>
                       )}
-                      <span className="text-text-muted">
+                      <span className="text-text-light/70">
                         {language === 'ja' ? (s.epJa || s.ep) : (s.epEn || s.ep)}
                       </span>
                     </div>
