@@ -125,13 +125,13 @@ export default function RadioPage() {
                 key={i}
                 style={{
                   '--c': themeColor,
-                  background: `linear-gradient(135deg, rgba(${tone(0.55)},0.94) 0%, rgba(${themeColor},0.52) 50%, rgba(${tone(0.28)},0.96) 100%)`,
+                  background: `linear-gradient(135deg, rgba(${tone(0.78)},0.96) 0%, rgba(${tone(0.58)},0.95) 45%, rgba(${tone(0.50)},0.95) 70%, rgba(${tone(0.36)},0.97) 100%)`,
                 }}
-                className="border border-[rgba(var(--c),0.45)] rounded-sm p-5 relative overflow-hidden transition-all duration-300 hover:translate-y-[-4px] hover:shadow-[0_0_38px_rgba(var(--c),0.55)] hover:border-[rgba(var(--c),0.85)]"
+                className="border border-[rgba(var(--c),0.6)] rounded-sm p-5 relative overflow-hidden transition-all duration-300 hover:translate-y-[-4px] hover:shadow-[0_0_42px_rgba(var(--c),0.60)] hover:border-[rgba(var(--c),0.95)]"
               >
                 <div
                   className="absolute -right-12 -top-12 w-44 h-44 rounded-full pointer-events-none"
-                  style={{ background: `radial-gradient(circle, rgba(${themeColor},0.32) 0%, transparent 70%)` }}
+                  style={{ background: `radial-gradient(circle, rgba(${themeColor},0.45) 0%, transparent 70%)` }}
                 />
                 {show.live && (
                   <div className="absolute top-3 right-3 flex items-center gap-2 bg-accent-red/20 border border-accent-red/50 text-accent-red px-2 py-1 rounded text-xs tracking-widest font-bebas">
@@ -150,7 +150,7 @@ export default function RadioPage() {
                   by {show.dj}
                 </div>
 
-                <div className="flex gap-3 flex-wrap text-xs text-text-light/75 mb-3">
+                <div className="flex gap-3 flex-wrap text-xs text-text-light/90 mb-3">
                   <div>🎵 {show.genre}</div>
                   {show.listeners && (
                     <div>👥 {show.listeners} {t('radio.listeners')}</div>
@@ -158,7 +158,7 @@ export default function RadioPage() {
                   <div>📅 {t(`radio.tabs.${show.freq}`)}</div>
                 </div>
 
-                <p className="text-sm text-text-light/80 leading-relaxed mb-3">
+                <p className="text-sm text-text-light/95 leading-relaxed mb-3">
                   {language === 'ja' ? show.descJa : show.descEn}
                 </p>
 
@@ -169,7 +169,7 @@ export default function RadioPage() {
                       {s.time && (
                         <span className="text-text-light/65 font-mono">{s.time}</span>
                       )}
-                      <span className="text-text-light/70">
+                      <span className="text-text-light/85">
                         {language === 'ja' ? (s.epJa || s.ep) : (s.epEn || s.ep)}
                       </span>
                     </div>
