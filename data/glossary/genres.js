@@ -134,12 +134,24 @@ For me as a listener, psytrance is the part of the trance family I came to last.
       ja: '完全に歌唱されたヴォーカル・パフォーマンスを軸に構築されるトランス——一般にアップリフティングまたはプログレッシブのテンポで、Aメロ・サビの楽曲構造を持つ。',
     },
     definition: {
-      en: `Vocal trance integrates full-length sung vocal performances into the trance arrangement framework — verse, chorus, and often bridge sections, with the breakdown typically used to spotlight the vocal at its most emotionally exposed. The subgenre flowered in the late 1990s and 2000s through Above & Beyond, Tiësto's vocal-led tracks, BT, Markus Schulz, and labels like Black Hole Recordings and Anjunabeats. Vocalists associated with the genre include Emma Hewitt, Susana, Christina Novelli, JES, Zoë Johnston, and Audrey Gallagher. The style ranges from arena-friendly anthems to introspective progressive material, but always foregrounds songwriting craft alongside electronic production.`,
-      ja: `ヴォーカル・トランスは、完全長の歌唱されたヴォーカル・パフォーマンスをトランスのアレンジメントの枠組み——Aメロ、サビ、しばしばブリッジ部分——に統合し、ブレイクダウンは一般にヴォーカルを情緒的に最も露出させてスポットライトを当てるために使用される。サブジャンルは1990年代後半から2000年代にかけて、Above & Beyond、Tiëstoのヴォーカル主導のトラック、BT、Markus Schulz、Black Hole Recordings、Anjunabeatsなどのレーベルを通じて開花した。ジャンルに関連するヴォーカリストにはEmma Hewitt、Susana、Christina Novelli、JES、Zoë Johnston、Audrey Gallagherが含まれる。スタイルはアリーナ向けのアンセムから内省的なプログレッシブ素材まで幅広いが、常に電子音楽プロダクションと並んでソングライティングの工芸を前面に押し出す。`,
+      en: `Vocal trance integrates full-length sung vocal performances into the trance arrangement framework — verse, chorus, and often bridge sections — with the breakdown typically used to spotlight the vocal at its most emotionally exposed. It is not simply trance with vocal samples; the vocal is the structural backbone, and the production is written around the lyric rather than the other way around. Tempos vary because the song does: an arena-ready vocal anthem may sit at 138 BPM, while a progressive vocal piece may sit closer to 128 BPM.
+
+The subgenre took shape in the late 1990s through tracks like Robert Miles' "Children" precursor era and Delerium's "Silence" featuring Sarah McLachlan, then crystallised in the 2000s. Above & Beyond's OceanLab project with vocalist Justine Suissa, formed in 2000, is widely treated as a defining act, releasing on Anjunabeats and Ultra; "Sky Falls Down" was remixed by Armin van Buuren, and "Satellite" reached the UK top 20 in 2004. In parallel Tiësto's vocal-led material, BT's songwriting-focused albums, and Markus Schulz on Coldharbour developed the wider template. Anjunabeats remains the most prolific modern home for the sound.
+
+The production grammar typically inverts standard trance priorities. The breakdown is the song's emotional centre rather than a pause before the drop; the vocal is dry, close-mic'd, and pushed forward in the mix. Instrumental sections are written as response to vocal phrases rather than as autonomous melodic material. Reverbs and delays around the vocal are long and tail-cut to leave room for the next phrase. The chorus often arrives with a re-entry of the full drum bed rather than a synth lead.
+
+For me as a listener, vocal trance is the doorway people come through when they first discover the genre. The Tomorrowland 2018 set that pulled me in had Sun & Moon at its centre — Above & Beyond's Richard Bedford vocal, exactly the kind of writing this subgenre is built on. Seven years of weekly A State of Trance listening later, I have come to value vocal trance specifically for being the part of the family that meets non-trance listeners halfway: the lyric gives the euphoria a name.`,
+      ja: `ヴォーカル・トランスは、完全長の歌唱されたヴォーカル・パフォーマンスをトランスのアレンジメントの枠組み——Aメロ、サビ、しばしばブリッジ部分——に統合し、ブレイクダウンは一般にヴォーカルを情緒的に最も露出させてスポットライトを当てるために使用される。これは単にヴォーカル・サンプルを乗せたトランスではない——ヴォーカルが構造的な背骨であり、プロダクションは歌詞の周りに書かれ、その逆ではない。テンポは楽曲によって変動する：アリーナ向けのヴォーカル・アンセムは138 BPMに位置するかもしれないし、プログレッシブ寄りのヴォーカル曲は128 BPM近くに位置するかもしれない。
+
+サブジャンルは1990年代後半にRobert Milesの「Children」前後の時代やSarah McLachlanをフィーチャーしたDeleriumの「Silence」などを通じて形を取り、2000年代に結晶化した。2000年に結成されたAbove & Beyondのヴォーカリスト・Justine Suissaとのプロジェクト・OceanLabは決定的な存在として広く扱われ、AnjunabeatsとUltraからリリースを重ねた——「Sky Falls Down」はArmin van Buurenによってリミックスされ、「Satellite」は2004年に英国トップ20入りした。並行してTiëstoのヴォーカル主導の素材、BTのソングライティング重視のアルバム、Coldharbour上のMarkus Schulzがより広いテンプレートを発展させた。Anjunabeatsは現代でも最も多産なサウンドの拠点である。
+
+プロダクションの文法は標準的なトランスの優先順位を反転させることが多い。ブレイクダウンはドロップ前の一時停止ではなく、楽曲の情緒的中心である。ヴォーカルはドライで近接マイク、ミックスの前面に押し出される。インストゥルメンタル部分は自律的なメロディック素材ではなくヴォーカル・フレーズへの応答として書かれる。ヴォーカル周りのリバーブとディレイは長く、次のフレーズに余地を残すよう尾を切られる。サビはシンセ・リードではなくドラム・ベッド全体の再入場と共に到来することが多い。
+
+リスナーとしての私にとって、ヴォーカル・トランスは人々がジャンルを最初に発見するときに通る扉だ。私を引き込んだ2018年のTomorrowlandのセットの中心にはSun & Moonがあった——Above & BeyondのRichard Bedfordのヴォーカル、まさにこのサブジャンルが構築されているような書法だ。それから毎週A State of Tranceを聴く7年間を経て、ヴォーカル・トランスをトランス非聴取者と中間で出会うファミリーの一部として特に高く評価するようになった——歌詞がユーフォリアに名前を与えてくれるからだ。`,
     },
-    related: ['trance', 'uplifting-trance', 'progressive-trance', 'anthem', 'breakdown'],
-    artists: ['above-and-beyond', 'dash-berlin', 'gareth-emery', 'solarstone'],
-    posts: ['role-of-vocals-in-trance-music', 'iconic-trance-anthems-that-defined-an-era'],
+    related: ['trance', 'uplifting-trance', 'progressive-trance', 'dream-trance', 'anthem', 'breakdown', 'anjunabeats-anjunadeep'],
+    artists: ['above-and-beyond', 'dash-berlin', 'gareth-emery', 'emma-hewitt', 'christina-novelli', 'susana', 'haliene'],
+    posts: ['role-of-vocals-in-trance-music', 'iconic-trance-anthems-that-defined-an-era', 'what-is-vocal-trance', 'best-vocal-trance-tracks-of-all-time-50', 'iconic-trance-vocalists-voices-behind-anthems', 'above-beyond-anjuna-empire'],
   },
 
   {
