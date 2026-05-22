@@ -104,12 +104,24 @@ For me as a listener, progressive is the trance I reach for at home rather than 
       ja: '転がるトリプレットのベースラインとシュールなサウンドデザインで定義される、トランスから派生した高テンポ（140〜150 BPM）のサイケデリックなジャンル。',
     },
     definition: {
-      en: `Psytrance is a psychedelic offshoot of trance that emerged from the Goa beach party scene in early-1990s India. Its defining features are a rolling triplet bassline (also called a "psy bassline") that creates a galloping rhythm distinct from straight four-on-the-floor trance, tempos in the 140–150 BPM range, and densely-layered surreal sound design that often references altered states of consciousness. Subgenres include full-on (the most melodic, festival-oriented variant), progressive psy (slower, more groove-focused), darkpsy and forest (faster, more abstract), and hi-tech. The scene is centred on outdoor festivals like Boom, Ozora, and Universo Paralello, and has produced major artists including Astrix, Vini Vici, Infected Mushroom, and Talamasca.`,
-      ja: `サイトランスは1990年代初頭のインド・ゴアのビーチ・パーティ・シーンから出現したトランスのサイケデリックな派生ジャンルである。定義的な特徴は、ストレートな四つ打ちトランスとは異なるギャロップのリズムを生み出す転がるトリプレットのベースライン（「サイ・ベースライン」とも呼ばれる）、140〜150 BPMの範囲のテンポ、変性意識状態をしばしば参照する密にレイヤーされたシュールなサウンドデザインである。サブジャンルにはフルオン（最もメロディックでフェスティバル志向のバリアント）、プログレッシブ・サイ（よりスローでグルーヴ重視）、ダークサイ・フォレスト（より速く、より抽象的）、ハイテックが含まれる。シーンはBoom、Ozora、Universo Paralelloなど屋外フェスを中心に展開し、Astrix、Vini Vici、Infected Mushroom、Talamascaらの主要アーティストを生み出してきた。`,
+      en: `Psytrance is a psychedelic offshoot of trance that emerged from the Goa beach party scene in early-1990s India, where European travellers, Israeli ex-military producers, and local sound systems built an outdoor-first style separate from the European club lineage. Its defining features are a rolling 16th-note bassline (the "psy bassline") that creates a galloping rhythm distinct from straight four-on-the-floor trance, tempos in the 140–150 BPM range, and densely layered surreal sound design that openly references altered states of consciousness. Where European trance is engineered for cathedrals of light and lasers, psy is engineered for sun, dust, and 14-hour outdoor sets.
+
+The early-1990s Goa scene gave way to a wider international circuit through the late 1990s, when Israeli labels including HOMmega Productions (founded 1997 in Tel Aviv) industrialised the sound and exported it. Goa trance, the genre's direct ancestor, used long melodic motifs and 303-style acid lines; modern psytrance dropped the explicit Eastern-mode melodies and pushed the bassline forward. Subgenres include full-on (the most melodic, festival-oriented variant), progressive psy (slower, more groove-focused), darkpsy and forest (faster, more abstract), and hi-tech. Boom Festival in Portugal and Ozora in Hungary are the scene's main European anchors. Astrix, Vini Vici, and Infected Mushroom are among the producers who took the sound to global mainstream audiences from the 2010s onward.
+
+Production traits are easy to identify. The kick and bass interlock in a tight 16th-note pattern with the bass on every off-step, producing the unmistakable "boom-tsk-boom-tsk" gallop. Lead synths are FM- or wavetable-based and modulated heavily, often with pitched-down spoken-word samples or filtered atmospheric textures sweeping across the stereo field. Breakdowns are shorter than in uplifting trance and tend to release into bassline rather than into a lead.
+
+For me as a listener, psytrance is the part of the trance family I came to last. The Tomorrowland 2018 moment that pulled me in was uplifting, and most of my weekly A State of Trance listening over the seven years since has been in that lineage. Psy is the cousin I respect from a distance — physically more demanding, less obviously melodic, but on the right outdoor system it produces a different kind of trance state that the European stadium sound cannot quite reach.`,
+      ja: `サイトランスは1990年代初頭のインド・ゴアのビーチ・パーティ・シーンから出現したトランスのサイケデリックな派生ジャンルである。そこではヨーロッパからの旅行者、イスラエルの元軍人プロデューサー、地元のサウンドシステムが、ヨーロッパのクラブ系譜とは別個の屋外優先のスタイルを構築した。定義的な特徴は、ストレートな四つ打ちトランスとは異なるギャロップのリズムを生み出す転がる16分音符のベースライン（「サイ・ベースライン」）、140〜150 BPMの範囲のテンポ、そして変性意識状態をあからさまに参照する密にレイヤーされたシュールなサウンドデザインである。ヨーロッパのトランスが光とレーザーの大聖堂のために設計されているのに対し、サイは太陽、砂塵、14時間の屋外セットのために設計されている。
+
+1990年代初頭のゴア・シーンは1990年代後半に広い国際的サーキットへ道を譲り、その頃HOMmega Productions（1997年テルアビブ設立）を含むイスラエルのレーベルがサウンドを工業化し輸出した。ジャンルの直接の祖先であるゴア・トランスは長いメロディック・モチーフと303スタイルのアシッド・ラインを使ったが、現代のサイトランスは明示的な東洋旋法のメロディを落とし、ベースラインを前面に押し出した。サブジャンルにはフルオン（最もメロディックでフェスティバル志向のバリアント）、プログレッシブ・サイ（よりスローでグルーヴ重視）、ダークサイ・フォレスト（より速く、より抽象的）、ハイテックが含まれる。ポルトガルのBoom FestivalとハンガリーのキーOzoraがシーンの主要なヨーロッパの錨だ。Astrix、Vini Vici、Infected Mushroomらは2010年代以降サウンドをグローバル・メインストリームの観客へ届けたプロデューサーである。
+
+プロダクションの特徴は識別が容易だ。キックとベースは16分音符のタイトなパターンで噛み合い、ベースは各オフ・ステップに置かれ、紛れもない「ブン・チャ・ブン・チャ」のギャロップを生み出す。リードシンセはFMまたはウェーブテーブル方式で重く変調され、しばしばピッチを落とした音声サンプルやステレオフィールドを横切るフィルター処理された大気的テクスチャを伴う。ブレイクダウンはアップリフティングより短く、リードではなくベースラインへ解放される傾向がある。
+
+リスナーとしての私にとって、サイトランスはトランスファミリーで最後に出会った部分だ。私を引き込んだ2018年のTomorrowlandの瞬間はアップリフティングだったし、その後7年間の毎週のA State of Trance聴取の大部分はその系譜にあった。サイは距離をもって尊敬するいとこだ——肉体的により要求が多く、メロディックさは明白でないが、適切な屋外システムの上ではヨーロッパのスタジアム・サウンドが届かない別種のトランス状態を生み出す。`,
     },
-    related: ['trance', 'goa-trance', 'tech-trance', 'bpm', 'mainstage'],
-    artists: ['astrix', 'vini-vici', 'infected-mushroom'],
-    posts: ['what-is-psytrance', 'rise-of-psytrance-goa-to-modern-day', 'top-10-trance-subgenres-explained', 'best-psytrance-tracks-of-all-time-50'],
+    related: ['trance', 'goa-trance', 'tech-trance', 'hard-trance', 'bpm', 'mainstage', 'festival-anthem'],
+    artists: ['astrix', 'vini-vici', 'infected-mushroom', 'ace-ventura', 'captain-hook', 'liquid-soul', 'ranji'],
+    posts: ['what-is-psytrance', 'rise-of-psytrance-goa-to-modern-day', 'top-10-trance-subgenres-explained', 'best-psytrance-tracks-of-all-time-50', 'spirituality-of-trance-why-it-hits-different'],
   },
 
   {
