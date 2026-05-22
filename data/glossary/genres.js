@@ -14,12 +14,24 @@ export const genres = [
       ja: 'メロディ主導の催眠的な電子ダンスミュージック。一般に130〜145 BPMのグルーヴと情緒的なブレイクダウンを軸に構築される。',
     },
     definition: {
-      en: `Trance is a genre of electronic dance music that emerged in early-1990s Germany and the Benelux region as a melody-focused offshoot of acid house and techno. The defining traits are a steady four-on-the-floor pulse (typically 130–145 BPM), repetitive synth motifs that evolve over long arrangements, and an extended breakdown-and-buildup architecture designed to produce a state of euphoric release on the dancefloor — the "trance" the genre is named for. Modern trance encompasses a family of subgenres including uplifting, progressive, vocal, psytrance, tech, and hard variants, each with distinct rhythmic and harmonic conventions while sharing the same fundamental emotional vocabulary.`,
-      ja: `トランスは1990年代初頭のドイツとベネルクス地域で、アシッドハウスとテクノからメロディ重視の派生ジャンルとして登場した電子ダンスミュージックである。定義的な特徴は、一定の四つ打ちパルス（一般に130〜145 BPM）、長尺のアレンジメントを通じて発展する反復的なシンセモチーフ、ダンスフロアでユーフォリックな解放——ジャンル名の由来となった「トランス（恍惚状態）」——を生み出すために設計された長いブレイクダウンとビルドアップの構造である。現代トランスはアップリフティング、プログレッシブ、ボーカル、サイトランス、テック、ハードといったサブジャンル群を包含し、それぞれ独自のリズム・和声規則を持ちながら、同じ基本的な情緒的語彙を共有する。`,
+      en: `Trance is a genre of electronic dance music that emerged in the late 1980s and early 1990s, principally from the Frankfurt techno scene in Germany and the wider Benelux region, as a melody-focused offshoot of acid house and techno. The defining traits are a steady four-on-the-floor pulse (typically 130–145 BPM), repetitive synth motifs that evolve over long arrangements, and an extended breakdown-and-buildup architecture designed to produce a state of euphoric release on the dancefloor — the "trance" the genre is named for. From the start the music has been organised around tension and release rather than groove alone.
+
+The early sound was codified by Frankfurt clubs like Omen and Dorian Gray and by labels such as Eye Q and Harthouse, both co-founded by Sven Väth, alongside the Berlin label MFS. Jam & Spoon, Cosmic Baby, Hardfloor, and Paul van Dyk were among the producers who pushed the template through the mid 1990s, after which the centre of gravity shifted to the Netherlands and the UK. By the end of the decade Tiësto, Ferry Corsten, Armin van Buuren, and Paul Oakenfold had taken trance to mainstage scale, and the music began branching into the subgenres we recognise today: uplifting, progressive, vocal, psytrance, tech, and hard.
+
+Shared production traits across the family are easy to hear once you know what to listen for. Tracks tend to be long — six to nine minutes is normal — to give the breakdown and buildup room to breathe. Lead synths sit in the upper-mid range and lean on supersaw or PWM sawtooth timbres. Pads underneath are heavily sidechained to the kick, creating the pumping bed that drives the emotional lift. The kick-bass relationship is foundational rather than ornamental; the song lives in the melodic layers above it.
+
+I came to trance not as a producer or DJ but as a listener on the dancefloor at Tomorrowland 2018, watching Armin van Buuren's mainstage set. The moment the Sun & Moon breakdown landed I felt something I had not felt from house, techno, or any other electronic music — a specific kind of full-body lift that the genre's architecture seems engineered to produce. Seven years of weekly A State of Trance listening later, I have come to hear the family of subgenres below as different shapes of that same first feeling, and this glossary is built from that listener perspective rather than a producer's.`,
+      ja: `トランスは1980年代後半から1990年代初頭にかけて、主にドイツ・フランクフルトのテクノシーンとより広いベネルクス地域から、アシッドハウスとテクノのメロディ重視の派生ジャンルとして登場した電子ダンスミュージックである。定義的な特徴は、一定の四つ打ちパルス（一般に130〜145 BPM）、長尺のアレンジメントを通じて発展する反復的なシンセモチーフ、そしてダンスフロアでユーフォリックな解放——ジャンル名の由来となった「トランス（恍惚状態）」——を生み出すよう設計された長いブレイクダウンとビルドアップの構造である。当初からこの音楽は、グルーヴだけでなく緊張と解放を中心に組み立てられてきた。
+
+初期サウンドを成文化したのはフランクフルトのOmenやDorian Grayといったクラブ、そしてSven Väthが共同設立したEye QやHarthouse、ベルリンのMFSといったレーベルである。Jam & Spoon、Cosmic Baby、Hardfloor、Paul van Dykらが1990年代半ばまでにテンプレートを推し進め、その後重心はオランダと英国へ移った。10年が終わるころにはTiësto、Ferry Corsten、Armin van Buuren、Paul Oakenfoldがトランスをメインステージ規模へ引き上げ、音楽は今日認識されるサブジャンル群——アップリフティング、プログレッシブ、ボーカル、サイトランス、テック、ハード——へと分岐し始めた。
+
+ファミリー全体に共通するプロダクションの特徴は、聴き方を知れば容易に聴き取れる。トラックは長尺で、6〜9分が標準であり、ブレイクダウンとビルドアップに息をする余地を与える。リードシンセは中高域に位置し、スーパーソウやPWMノコギリ波の音色に頼る。下のパッドはキックに強くサイドチェインされ、情緒的なリフトを駆動するパンプするベッドを生み出す。キックとベースの関係は装飾ではなく基礎であり、楽曲はその上のメロディック・レイヤーに宿る。
+
+私はプロデューサーやDJとしてではなく、2018年のTomorrowlandでArmin van Buurenのメインステージ・セットを見るダンスフロアのリスナーとしてトランスに出会った。Sun & Moonのブレイクダウンが降りてきた瞬間、ハウスやテクノ、他のどんな電子音楽からも感じたことのないもの——ジャンルの構造が生み出すよう設計されているとしか思えない特定の全身的なリフト——を感じた。それから7年間、毎週A State of Tranceを聴き続けるうちに、以下のサブジャンル群はあの最初の感覚の異なる形だと聴き取れるようになった。この用語集はプロデューサーではなくその聴き手の視点から構築されている。`,
     },
-    related: ['uplifting-trance', 'progressive-trance', 'psytrance', 'vocal-trance', 'bpm'],
-    artists: ['armin-van-buuren', 'tiesto', 'paul-van-dyk'],
-    posts: ['what-is-trance-music', 'history-of-trance-music', 'top-10-trance-subgenres-explained', 'why-trance-music-endures'],
+    related: ['uplifting-trance', 'progressive-trance', 'psytrance', 'vocal-trance', 'goa-trance', 'bpm', 'asot'],
+    artists: ['armin-van-buuren', 'tiesto', 'paul-van-dyk', 'ferry-corsten', 'above-and-beyond', 'robert-miles', 'atb'],
+    posts: ['what-is-trance-music', 'history-of-trance-music', 'top-10-trance-subgenres-explained', 'why-trance-music-endures', 'iconic-trance-anthems-that-defined-an-era', 'a-state-of-trance-show-that-changed-everything'],
   },
 
   {
