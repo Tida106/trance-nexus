@@ -74,12 +74,24 @@ For me as a listener, uplifting is the shape of trance closest to what I felt at
       ja: 'ムード、雰囲気、漸進的な和声展開を重視するスローでディープなトランスのサブジャンル（124〜132 BPM）。',
     },
     definition: {
-      en: `Progressive trance is the patient, atmospheric counterpart to uplifting — slower (typically 124–132 BPM), deeper, and built on long-form arrangement principles in which mood and texture develop gradually over many bars. The genre's roots are in early-90s British and German progressive house, but it took its modern form in the 2000s with artists like Sasha & John Digweed, early Tiësto, and Solarstone. Tracks favour subtle melodic motion, monumental synth pads, and breakdowns that resolve into tension rather than instant catharsis. Today the sound has converged with melodic techno via Anjunadeep, Afterlife, and Anyma, blurring the line between progressive trance and the broader melodic-electronic mainstream.`,
-      ja: `プログレッシブ・トランスは、アップリフティングの忍耐強く大気的な対極にあるサブジャンルだ——よりスロー（一般に124〜132 BPM）、よりディープ、そしてムードとテクスチャが多数の小節にわたって漸進的に展開する長尺アレンジメント原理の上に構築される。ジャンルのルーツは90年代初頭の英国とドイツのプログレッシブ・ハウスにあるが、現代の形を獲得したのは2000年代でSasha & John Digweed、初期のTiësto、Solarstoneらの活動による。トラックは繊細なメロディック・モーション、記念碑的なシンセ・パッド、即座のカタルシスではなく緊張へと解決するブレイクダウンを好む。現在ではAnjunadeep、Afterlife、Anymaを介してメロディック・テクノと収束し、プログレッシブ・トランスとより広いメロディック電子音楽メインストリームの境界を曖昧にしている。`,
+      en: `Progressive trance is the patient, atmospheric counterpart to uplifting — slower (typically 124–132 BPM), deeper, and built on long-form arrangement principles in which mood and texture develop gradually over many bars rather than driving toward one euphoric peak. Where uplifting writes about a moment, progressive writes about a journey. The same melodic vocabulary is present, but its emotional release is distributed across the whole track instead of concentrated in a single drop.
+
+The genre's roots are in early-1990s British and German progressive house — the long, evolving DJ sets associated with the Renaissance club nights and labels like Bedrock and Hooj Choons. Sasha and John Digweed's mix series Northern Exposure, released on Ministry of Sound from 1996, is generally treated as the document that codified the sound. Through the 2000s Tiësto's early albums, Solarstone's mix compilations, and Markus Schulz's Coldharbour Recordings pushed it further. In parallel Above & Beyond launched the Anjunadeep sublabel in 2005, which has since hosted Lane 8, Yotto, and Tinlicker, and become a primary modern home for the progressive lineage.
+
+Production traits flip uplifting's priorities. The bassline is usually a long-tail synth rather than a 16th-note roll. Pads are wider and slower-moving, often with internal modulation. Breakdowns resolve into tension or a held atmospheric chord, not a peak lead. Lead synths, when they appear, are processed — heavy reverb, low-pass automation, off-axis stereo — to feel distant rather than soaring. The kick-bass relationship is closer to deep house than to mainstage trance.
+
+For me as a listener, progressive is the trance I reach for at home rather than at festivals. The Tomorrowland 2018 moment that pulled me into the genre was a peak-time uplifting one, but in the seven years of weekly A State of Trance listening since, progressive is the sound I have ended up living with on long evenings — the same emotional vocabulary, but stretched out so it works at low volume and over hours rather than as a single arms-up moment.`,
+      ja: `プログレッシブ・トランスは、アップリフティングの忍耐強く大気的な対極にあるサブジャンルだ——よりスロー（一般に124〜132 BPM）、よりディープ、そしてムードとテクスチャが一つのユーフォリックなピークへ向かうのではなく、多数の小節にわたって漸進的に展開する長尺アレンジメント原理の上に構築される。アップリフティングが一つの瞬間について書くなら、プログレッシブは旅について書く。同じメロディック語彙が存在するが、情緒的解放は単一のドロップに集中するのではなくトラック全体に分散される。
+
+ジャンルのルーツは1990年代初頭の英国とドイツのプログレッシブ・ハウスにある——Renaissanceのクラブ・ナイトとBedrockやHooj Choonsといったレーベルに関連する長尺で展開するDJセットだ。Sasha & John Digweedが1996年にMinistry of Soundから発表したミックスシリーズNorthern Exposureは、一般にサウンドを成文化した文書として扱われる。2000年代を通じてTiëstoの初期アルバム、Solarstoneのミックス・コンピレーション、Markus SchulzのColdharbour Recordingsがさらに推し進めた。並行してAbove & Beyondは2005年にサブレーベルAnjunadeepを立ち上げ、以来Lane 8、Yotto、Tinlickerを抱え、プログレッシブ系譜の現代的な主要拠点となっている。
+
+プロダクションの特徴はアップリフティングの優先順位を反転させる。ベースラインは通常16分音符のロールではなく、長い余韻を持つシンセだ。パッドはより広く、よりゆっくり動き、しばしば内部変調を伴う。ブレイクダウンはピークのリードではなく、緊張や保持された大気的なコードへと解決する。リードシンセが現れる場合、それらは処理されている——重いリバーブ、ローパス・オートメーション、軸を外したステレオ——舞い上がるよりも遠くに感じるように。キックとベースの関係はメインステージ・トランスよりディープ・ハウスに近い。
+
+リスナーとしての私にとって、プログレッシブはフェスティバルではなく家で手を伸ばすトランスだ。私をジャンルに引き込んだ2018年のTomorrowlandの瞬間はピーク時のアップリフティングだったが、それ以降の毎週A State of Tranceを聴く7年間で、私が長い夕方を共に過ごすことになったのはプログレッシブのサウンド——同じ情緒的語彙だが、単一の腕を上げる瞬間ではなく、低音量で何時間にも渡って機能するよう引き伸ばされたサウンド——だった。`,
     },
-    related: ['trance', 'uplifting-trance', 'tech-trance', 'melodic-techno', 'bpm', 'pad'],
-    artists: ['paul-van-dyk', 'tiesto', 'cosmic-gate', 'anyma', 'solarstone'],
-    posts: ['what-is-progressive-trance', 'top-10-trance-subgenres-explained', 'trance-vs-house-vs-techno', 'best-progressive-trance-tracks-of-all-time-50'],
+    related: ['trance', 'uplifting-trance', 'tech-trance', 'melodic-techno', 'balearic-trance', 'bpm', 'pad'],
+    artists: ['sasha', 'john-digweed', 'hernan-cattaneo', 'yotto', 'tinlicker', 'cosmic-gate', 'andrew-bayer'],
+    posts: ['what-is-progressive-trance', 'top-10-trance-subgenres-explained', 'trance-vs-house-vs-techno', 'best-progressive-trance-tracks-of-all-time-50', 'modern-trance-classics-2020s-so-far', 'above-beyond-anjuna-empire'],
   },
 
   {
