@@ -87,7 +87,7 @@ DJ Mag誌ワールドNo.1 DJに史上最多タイの5回（2007、2008、2009、
       { title: 'Just Be', year: 2004, type: 'album' },
       { title: 'Elements of Life', year: 2007, type: 'album' },
       { title: 'The Business', year: 2020, type: 'track' },
-      { title: 'Drifting Away', year: 2022, type: 'track' },
+      { title: '10:35 (with Tate McRae)', year: 2022, type: 'track' },
     ],
     related: ['armin-van-buuren', 'ferry-corsten', 'paul-van-dyk', 'dash-berlin'],
     links: {
@@ -209,7 +209,7 @@ In 2016 he survived a near-fatal fall from the stage at A State of Trance in Utr
       { title: 'Twice in a Blue Moon', year: 2008, type: 'album' },
       { title: 'WKND', year: 2012, type: 'album' },
       { title: 'Blueprint', year: 2017, type: 'album' },
-      { title: 'UNITY', year: 2020, type: 'project' },
+      { title: 'UNITY', year: 2018, type: 'collaboration series' },
     ],
     related: ['armin-van-buuren', 'tiesto', 'paul-van-dyk', 'cosmic-gate'],
     links: {
@@ -232,14 +232,14 @@ In 2016 he survived a near-fatal fall from the stage at A State of Trance in Utr
 
 His Gouryella project with Tiësto produced the eponymous 1999 anthem and helped establish the duo template for trance production. As a solo artist under his own name, he has released eight studio albums spanning Right of Way (2003), L.E.F. (2006), Twice in a Blue Moon (2008), WKND (2012), and Blueprint (2017) — a concept album with an accompanying graphic novel that demonstrated his ambition to push trance beyond the dancefloor.
 
-He founded Flashover Recordings in 2005 and has hosted Corsten's Countdown, his own weekly radio show, since 2007. The UNITY project, launched in 2020, was a year-long collaboration series with friends and peers including Cosmic Gate, Saad Ayub, and Solis & Sean Truby — a celebration of trance community at a time when the world was locked down.
+He founded Flashover Recordings in 2005 and has hosted Corsten's Countdown, his own weekly radio show, since 2007. The UNITY project, launched in 2018, is an ongoing collaboration series with friends and peers including Cosmic Gate, Saad Ayub, and Solis & Sean Truby — a celebration of trance community spirit.
 
 Across three decades, Ferry Corsten has been one of the most consistently inventive producers in trance. He moves fluidly between uplifting, progressive, and hard tech-trance, carries Gouryella forward as a touring live show in its own right, and refuses to settle into any single sound. For producers studying the craft of trance arrangement, his catalogue is essential listening.`,
       ja: `フェリー・コルステンは17歳の1990年からプロダクションを開始。Moonman、System F、Tiëstoとの組Gouryellaなど複数のエイリアスでリリースし、90年代後半のオランダ・トランス爆発期を定義した。System F名義でリリースされた1999年の「Out of the Blue」は、トランス史上最高峰のレコードの一つにして、アップリフティング・サウンドの基礎文書として広く認識されている。
 
 Tiëstoとの「Gouryella」プロジェクトでは1999年の同名アンセムを生み出し、トランスのプロダクション・デュオ形式を確立する助けとなった。本名でのソロ活動では8枚のスタジオアルバムを発表——『Right of Way』（2003）、『L.E.F.』（2006）、『Twice in a Blue Moon』（2008）、『WKND』（2012）、『Blueprint』（2017）はグラフィックノベルを伴うコンセプトアルバムで、トランスをダンスフロアの外へと押し広げる野心を示した。
 
-2005年にFlashover Recordingsを設立、2007年からは自身の週次ラジオ番組「Corsten's Countdown」をホスト。2020年に開始した「UNITY」プロジェクトは、Cosmic Gate、Saad Ayub、Solis & Sean Trubyらとの1年間にわたるコラボシリーズで、世界がロックダウンに沈む中、トランスコミュニティを祝福する企画となった。
+2005年にFlashover Recordingsを設立、2007年からは自身の週次ラジオ番組「Corsten's Countdown」をホスト。2018年に開始した「UNITY」プロジェクトは、Cosmic Gate、Saad Ayub、Solis & Sean Trubyらとの継続的なコラボ・シリーズで、トランスコミュニティの精神を祝福する企画である。
 
 30年にわたり、フェリー・コルステンはトランスで最も一貫して創造的なプロデューサーの一人であり続けている。アップリフティング、プログレッシブ、ハードなテック・トランスの間を流麗に行き来し、Gouryellaを単独のライブ・ショーとして継続させ、いかなる単一のサウンドにも安住しない。トランス・アレンジメントの工芸を学ぶプロデューサーにとって、彼のカタログは必聴である。`,
     },

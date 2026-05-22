@@ -146,7 +146,7 @@ Spotifyのリスナーは月間約34万人で——本格的なリスナー・�
     labels: ['Consequence of Society', 'Pryda Presents', 'Last Night On Earth'],
     topWorks: [
       { title: 'Feel', year: 2017, type: 'track' },
-      { title: 'EPOCH', year: 2018, type: 'track' },
+      { title: 'EPOCH', year: 2017, type: 'track' },
       { title: 'BBC Radio 1 Essential Mix', year: 2021, type: 'mix' },
       { title: 'Pryda Stage @ Tomorrowland (Weekend 2)', year: 2018, type: 'live mix' },
       { title: 'Newcastle ID series', year: '2018–', type: 'mix series' },
@@ -171,14 +171,14 @@ Spotifyのリスナーは月間約34万人で——本格的なリスナー・�
     bio: {
       en: `Cristoph is a Newcastle-based DJ-producer and the head of his own Consequence of Society Recordings label. He emerged in the 2010s with releases on Bedrock, Suara, Noir, and Last Night On Earth that established his reputation as a producer with an unusually polished sense of detail. His technical-yet-emotional approach drew the attention of Eric Prydz, who signed him to his Pryda Presents imprint — a relatively rare honour, since Pryda releases are largely Prydz's own work.
 
-The Pryda releases "Feel" (2017) and "EPOCH" (2018) were the records that pushed Cristoph from respected back-room name to genuine front-line progressive-house producer. Both tracks became Tomorrowland Pryda Stage staples and remain reference points for what melodic-but-disciplined modern progressive sounds like at peak time. The 2018 Pryda Stage Tomorrowland set (Weekend 2) was a particular career milestone, alongside his 2021 BBC Radio 1 Essential Mix — both archived widely and still consulted as benchmarks of the modern progressive set design.
+The Pryda releases "Feel" (2017) and "EPOCH" (Dec 2017) were the records that pushed Cristoph from respected back-room name to genuine front-line progressive-house producer. Both tracks became Tomorrowland Pryda Stage staples and remain reference points for what melodic-but-disciplined modern progressive sounds like at peak time. The 2018 Pryda Stage Tomorrowland set (Weekend 2) was a particular career milestone, alongside his 2021 BBC Radio 1 Essential Mix — both archived widely and still consulted as benchmarks of the modern progressive set design.
 
 His Newcastle ID series — unreleased ID tracks debuted in his sets and slowly rolled out as official releases — has built a following of producer-listeners who treat his unreleased work as evidence of where the scene is going. The Consequence of Society label and compilation series gives that ID material a permanent home and serves as a curatorial outlet for younger artists working in the same space.
 
 His Spotify monthly listeners sit at around 1.1 million, comfortably in the upper bracket of producer-DJs in the progressive-house space, and his global touring schedule covers the major European progressive-house festivals plus regular dates in North America. Among the British producers in the modern progressive-house scene, Cristoph is currently one of the most respected — a working producer whose every track on a peer's set tends to be ID'd within minutes by the audience that follows him.`,
       ja: `Cristophはニューカッスルを拠点とするDJプロデューサーで、自身のConsequence of Society Recordingsレーベルのヘッド。2010年代にBedrock、Suara、Noir、Last Night On Earthからのリリースで登場し、異例にポリッシュされた細部感覚を持つプロデューサーとしての評判を確立した。彼の技術的で情緒的なアプローチはEric Prydzの注目を引き、PrydzのPryda Presentsインプリントへのサイン——比較的稀な栄誉、なぜならPrydaのリリースは大部分がPrydz自身の作品だから。
 
-Prydaリリース「Feel」（2017）と「EPOCH」（2018）は、Cristophを尊敬されるバックルームの名前から真のフロントライン・プログレッシブ・ハウス・プロデューサーへと押し上げたレコードだ。両トラックともTomorrowland Pryda Stageの定番となり、ピークタイムにメロディックだが規律あるモダン・プログレッシブが何であるかの参照点として残っている。2018年のPryda Stage Tomorrowland（Weekend 2）セットは、2021年のBBC Radio 1 Essential Mixと並ぶ特別なキャリア・マイルストーン——両方とも広くアーカイブされ、モダン・プログレッシブ・セット・デザインのベンチマークとして今も参照されている。
+Prydaリリース「Feel」（2017）と「EPOCH」（2017年12月）は、Cristophを尊敬されるバックルームの名前から真のフロントライン・プログレッシブ・ハウス・プロデューサーへと押し上げたレコードだ。両トラックともTomorrowland Pryda Stageの定番となり、ピークタイムにメロディックだが規律あるモダン・プログレッシブが何であるかの参照点として残っている。2018年のPryda Stage Tomorrowland（Weekend 2）セットは、2021年のBBC Radio 1 Essential Mixと並ぶ特別なキャリア・マイルストーン——両方とも広くアーカイブされ、モダン・プログレッシブ・セット・デザインのベンチマークとして今も参照されている。
 
 彼のNewcastle IDシリーズ——彼のセットで初公開されゆっくりと公式リリースとして展開されるID未発表トラック——は、彼の未発表作品をシーンがどこへ向かっているかの証拠として扱うプロデューサー・リスナーのフォロワーを築いた。Consequence of Societyレーベルとコンピレーション・シリーズは、そのIDマテリアルに永久的な拠点を与え、同空間で活動する若手アーティストのキュレーションのアウトレットとして機能する。
 
@@ -265,11 +265,10 @@ Tinlickerはまた、Bandcampセルフ・リリースとワンオフ・プロジ
     labels: ['Afterlife', 'HABITAT', 'Life and Death'],
     topWorks: [
       { title: 'Cagliostro (debut EP)', year: 2012, type: 'EP' },
-      { title: 'Days Gone', year: 2017, type: 'track' },
+      { title: 'Days Gone (EP)', year: 2017, type: 'EP (Afterlife AL010)' },
       { title: 'Walking Away', year: 2020, type: 'track' },
       { title: 'Afterlife Voyage 006 (mix)', year: 2018, type: 'mix' },
-      { title: 'Criseide (HABITAT inaugural release)', year: 2023, type: 'track' },
-      { title: 'Colossal (with Sideral)', year: 2024, type: 'track' },
+      { title: 'Criseide (with Sideral, HABITAT inaugural release)', year: 2023, type: 'track' },
     ],
     related: ['anyma', 'hernan-cattaneo', 'yotto', 'sasha'],
     links: {

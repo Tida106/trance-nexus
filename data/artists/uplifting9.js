@@ -72,8 +72,7 @@ DJ業に加え、ピアノ、ドラム、トロンボーンのマルチ楽器奏
     labels: ['Trancegression Recordings', 'Subculture', 'Kearnage Recordings', 'Vandit', 'FSOE', 'A State of Trance', 'Enhanced Music'],
     topWorks: [
       { title: 'Future Funk', type: 'track' },
-      { title: 'The Astronaut', type: 'track' },
-      { title: 'Spire Essentials Volume 1 (preset pack)', type: 'soundpack' },
+      { title: 'Spire Essentials Volume 1', type: 'Reveal Sound preset pack' },
     ],
     related: ['bryan-kearney', 'sean-tyas', 'john-ocallaghan', 'will-atkinson'],
     links: {
@@ -172,7 +171,7 @@ Collaboration credits include work with Armin van Buuren, Mike Koglin, Mark Sher
       { title: 'Fallen Angel (with Cold Blue feat. Ana Criado)', year: 2011, type: 'track' },
       { title: 'I Can Feel', type: 'track' },
       { title: 'In Search of Sunrise 18 (co-mixed with Markus Schulz & Matt Fax)', year: 2022, type: 'compilation' },
-      { title: 'Find the Sunrise (third artist album)', year: 2024, type: 'album' },
+      { title: 'Find the Sunrise (third artist album)', year: 2021, type: 'album' },
     ],
     related: ['cold-blue', 'ronski-speed', 'markus-schulz', 'above-and-beyond'],
     links: {
@@ -194,12 +193,12 @@ Collaboration credits include work with Armin van Buuren, Mike Koglin, Mark Sher
 
 His 2009 output included three releases that established the catalogue across multiple imprints: "Black Sun" on Euphonic, "Somehow" with tyDi featuring Marcie on Armada Music, and "Freefalling" with Cold Blue on High Contrast Recordings. The 2011 collaboration "Fallen Angel" with Cold Blue featuring Ana Criado (Dennis Sheperd Club Mix) reached number one on the Beatport Trance chart and remains one of the most-referenced uplifting-trance vocal tracks of the early 2010s.
 
-The catalogue now spans four artist albums, with releases distributed via Armada Music, Anjunabeats, Spinnin' Records, Enhanced Music, and Black Hole Recordings, alongside remix work for Armin van Buuren, Above & Beyond, Gareth Emery, Tiësto, Kyau & Albert, and tyDi. In 2022 he co-mixed the In Search of Sunrise 18 compilation with Markus Schulz and Matt Fax for Black Hole's Songbird sub-label — a series originally fronted by Tiësto — and contributed six original productions to the set. His third artist album "Find the Sunrise" was released on Black Hole Recordings in 2024. He is currently based in Sofia, Bulgaria, and has accumulated over 50 million Spotify streams across the catalogue.`,
+The catalogue now spans four artist albums, with releases distributed via Armada Music, Anjunabeats, Spinnin' Records, Enhanced Music, and Black Hole Recordings, alongside remix work for Armin van Buuren, Above & Beyond, Gareth Emery, Tiësto, Kyau & Albert, and tyDi. In 2022 he co-mixed the In Search of Sunrise 18 compilation with Markus Schulz and Matt Fax for Black Hole's Songbird sub-label — a series originally fronted by Tiësto — and contributed six original productions to the set. His third artist album "Find the Sunrise" was released on Black Hole Recordings in 2021. He is currently based in Sofia, Bulgaria, and has accumulated over 50 million Spotify streams across the catalogue.`,
       ja: `デニス・シェパードはエッセン出身のドイツDJ／プロデューサー。2007年にデビュー・シングル「A Tribute To Life」でキャリアを開始し、同曲はTiësto、Ferry Corsten、Armin van Buuren、Paul van Dyk、Markus Schulzから早期の放送サポートを受けた。続いてKyau & AlbertのEuphonic Recordsと契約し、同レーベルは当時の彼をドイツの新興プログレッシブ・トランス・プロデューサーの一人として紹介した。
 
 2009年のアウトプットはカタログを複数のインプリントに確立する3作のリリースを含む——Euphonicからの「Black Sun」、tyDi feat. MarcieとのArmada Music「Somehow」、Cold BlueとのHigh Contrast Recordings「Freefalling」。2011年のCold Blueとのコラボレーション「Fallen Angel feat. Ana Criado」（Dennis Sheperd Club Mix）はBeatport Tranceチャートで1位を獲得し、2010年代前半の最も参照されるアップリフティング・トランス・ボーカル・トラックの一つにとどまっている。
 
-カタログは現在アーティスト・アルバム4作にまたがり、リリースはArmada Music、Anjunabeats、Spinnin' Records、Enhanced Music、Black Hole Recordingsを通じて配給されているほか、Armin van Buuren、Above & Beyond、Gareth Emery、Tiësto、Kyau & Albert、tyDiのリミックス・ワークも擁する。2022年にはBlack HoleのSongbirdサブレーベル向けに「In Search of Sunrise 18」コンピレーションをMarkus SchulzおよびMatt Faxと共同ミックスし——同シリーズはもともとTiëstoが主導したシリーズ——セットに6作のオリジナル・プロダクションを提供した。第三アーティスト・アルバム「Find the Sunrise」は2024年にBlack Hole Recordingsからリリースされた。現在ブルガリアのソフィアを拠点とし、カタログ全体でSpotify累計再生5,000万を超える。`,
+カタログは現在アーティスト・アルバム4作にまたがり、リリースはArmada Music、Anjunabeats、Spinnin' Records、Enhanced Music、Black Hole Recordingsを通じて配給されているほか、Armin van Buuren、Above & Beyond、Gareth Emery、Tiësto、Kyau & Albert、tyDiのリミックス・ワークも擁する。2022年にはBlack HoleのSongbirdサブレーベル向けに「In Search of Sunrise 18」コンピレーションをMarkus SchulzおよびMatt Faxと共同ミックスし——同シリーズはもともとTiëstoが主導したシリーズ——セットに6作のオリジナル・プロダクションを提供した。第三アーティスト・アルバム「Find the Sunrise」は2021年にBlack Hole Recordingsからリリースされた。現在ブルガリアのソフィアを拠点とし、カタログ全体でSpotify累計再生5,000万を超える。`,
     },
     mentionedIn: [],
   },

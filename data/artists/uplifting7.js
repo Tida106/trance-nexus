@@ -61,7 +61,7 @@ His 2025 Coldharbour release "Echoes of the Future" — credited as "Davey Aspre
       { title: 'Empire', year: 2010, type: 'album' },
       { title: 'Unified', year: 2014, type: 'album' },
       { title: 'Black Is The New Yellow', year: 2014, type: 'track' },
-      { title: 'Irufushi', year: 2010, type: 'track' },
+      { title: 'Irufushi', year: 2009, type: 'track' },
     ],
     related: ['above-and-beyond', 'andrew-bayer', 'genix', 'ilan-bluestone'],
     links: {

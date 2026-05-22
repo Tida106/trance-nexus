@@ -8,31 +8,34 @@ export const uplifting5 = [
   {
     slug: 'factor-b',
     name: 'Factor B',
-    flag: '🇬🇧',
+    flag: '🇦🇺',
     emoji: '⚙️',
     genre: 'UPLIFTING',
     banner: 'b-uplifting',
-    tags: ['UPLIFTING', 'TECH UPLIFTING', 'BRITISH'],
-    origin: 'United Kingdom',
+    tags: ['UPLIFTING', 'TECH UPLIFTING', 'AUSTRALIAN'],
+    realName: 'Brendan Blatt',
+    origin: 'Melbourne, Australia',
     activeFrom: '2014',
-    labels: ['Kearnage Recordings', 'Subculture', 'Future Sound of Egypt (FSOE)', 'Black Hole Recordings'],
-    topWorks: [],
+    labels: ['Pure Trance', 'Subculture', 'Future Sound of Egypt (FSOE)', 'Kearnage Recordings'],
+    topWorks: [
+      { title: 'Stratos Galaxias', year: 2014, type: 'track (breakthrough)' },
+    ],
     related: ['bryan-kearney', 'will-atkinson', 'sneijder', 'sean-tyas'],
     links: {
       beatport: 'https://www.beatport.com/search?q=Factor+B',
     },
     sub: { en: 'Uplifting / Tech Uplifting', ja: 'アップリフティング / テック・アップリフティング' },
     short: {
-      en: 'British uplifting producer associated with Bryan Kearney\'s Kearnage Recordings and the modern Subculture / FSOE peak-time scene.',
-      ja: 'Bryan KearneyのKearnage Recordingsと現代Subculture／FSOEピークタイム・シーンに連なる英国のアップリフティング・プロデューサー。',
+      en: 'Melbourne-based Australian uplifting producer associated with Pure Trance, Subculture, FSOE, and Bryan Kearney\'s Kearnage Recordings.',
+      ja: 'Pure Trance、Subculture、FSOE、Bryan KearneyのKearnage Recordingsに連なるメルボルン拠点のオーストラリア人アップリフティング・プロデューサー。',
     },
     style: {
       en: 'Driving 138-140 BPM uplifting with the harder, more rhythmically forward palette that the Kearnage / Subculture editorial direction has refined across the past decade.',
       ja: '138〜140 BPMのドライヴィング・アップリフティングに、Kearnage／Subcultureの編集方針が過去10年で洗練してきたよりハードでリズム前面のパレット。',
     },
     bio: {
-      en: `Factor B is a British uplifting trance producer with a Beatport-charting catalogue across Bryan Kearney's Kearnage Recordings, John O'Callaghan's Subculture, FSOE, and Black Hole Recordings. The catalogue sits in the harder, more rhythmically forward end of modern uplifting — the same Kearnage / Subculture lane that defines the contemporary 138-140 BPM peak-time sound — and his releases have appeared on Subculture episodes and ASOT rotation since the mid-2010s.`,
-      ja: `Factor BはBryan KearneyのKearnage Recordings、John O\'CallaghanのSubculture、FSOE、Black Hole RecordingsにまたがるBeatportチャート入りカタログを持つ英国のアップリフティング・トランス・プロデューサー。カタログは現代アップリフティングのよりハードでリズム前面の側——現代138〜140 BPMピークタイム・サウンドを定義するのと同じKearnage／Subcultureレーン——に位置し、リリースは2010年代半ば以降SubcultureエピソードおよびASOTローテーションに登場している。`,
+      en: `Factor B (real name Brendan Blatt) is a Melbourne-based Australian uplifting trance producer with a Beatport-charting catalogue across Pure Trance, John O'Callaghan's Subculture, FSOE, and Bryan Kearney's Kearnage Recordings. He broke through in mid-2014 with "Stratos Galaxias", and the catalogue has since sat in the harder, more rhythmically forward end of modern uplifting — the same Kearnage / Subculture lane that defines the contemporary 138-140 BPM peak-time sound — with releases appearing on Subculture episodes and ASOT rotation since the mid-2010s.`,
+      ja: `Factor B（本名Brendan Blatt）はPure Trance、John O\'CallaghanのSubculture、FSOE、Bryan KearneyのKearnage RecordingsにまたがるBeatportチャート入りカタログを持つメルボルン拠点のオーストラリア人アップリフティング・トランス・プロデューサー。2014年半ばに「Stratos Galaxias」でブレイクし、以降カタログは現代アップリフティングのよりハードでリズム前面の側——現代138〜140 BPMピークタイム・サウンドを定義するのと同じKearnage／Subcultureレーン——に位置し続けており、リリースは2010年代半ば以降SubcultureエピソードおよびASOTローテーションに登場している。`,
     },
     mentionedIn: [],
   },
@@ -121,10 +124,11 @@ His releases sit in the same tech-uplifting lane as Will Atkinson and the Allen 
     emoji: '🛸',
     genre: 'UPLIFTING',
     banner: 'b-uplifting',
-    tags: ['TECH UPLIFTING', 'PURE TRANCE', 'BRITISH'],
+    tags: ['TECH UPLIFTING', 'COLDHARBOUR', 'BRITISH'],
+    realName: 'Dan Dobson',
     origin: 'United Kingdom',
-    activeFrom: '2015',
-    labels: ['Subculture', 'Future Sound of Egypt (FSOE)', 'Pure Trance'],
+    activeFrom: '2017',
+    labels: ['Coldharbour Recordings', 'Black Hole Recordings', 'Subculture', 'Future Sound of Egypt (FSOE)', 'Pure Trance'],
     topWorks: [],
     related: ['john-ocallaghan', 'will-atkinson', 'bryan-kearney', 'sneijder'],
     links: {
@@ -156,13 +160,13 @@ His releases sit in the same tech-uplifting lane as Will Atkinson and the Allen 
     tags: ['UPLIFTING', 'VOCAL TRANCE', 'DUTCH', 'IN SEARCH OF SUNRISE'],
     realName: 'Richard van Schooneveld',
     origin: 'The Hague, Netherlands',
-    born: '1977',
-    activeFrom: '2002',
+    born: '1976',
+    activeFrom: '2005',
     labels: ['Magik Muzik', 'Black Hole Recordings', 'Armada Music', 'In Search of Sunrise'],
     topWorks: [
-      { title: 'Always the Sun', year: 2008, type: 'album' },
-      { title: 'Wide Awake', year: 2010, type: 'track' },
-      { title: 'In Search of Sunrise (compilation series, vols. 7-12)', year: 2008, type: 'mix' },
+      { title: 'Always the Sun', year: 2009, type: 'album' },
+      { title: 'Wide Awake', year: 2011, type: 'album' },
+      { title: 'In Search of Sunrise (vols. 8-12)', year: '2010–2014', type: 'mix series' },
       { title: 'Always You (with Armin van Buuren & Dicosis)', year: 2026, type: 'track' },
     ],
     related: ['armin-van-buuren', 'tiesto', 'ferry-corsten', 'ruben-de-ronde'],
@@ -179,14 +183,14 @@ His releases sit in the same tech-uplifting lane as Will Atkinson and the Allen 
       ja: '2000年代末のボーカル・アップリフティングおよびプログレッシブ寄りのトランス——忍耐強い長尺アレンジメント、メロディック寛大さ、そしてIn Search of Sunriseシリーズの2期目を定義したキュレーション感性。',
     },
     bio: {
-      en: `Richard Durand, born Richard van Schooneveld in The Hague in 1977, is one of the longest-running producer/DJs in the modern Armada Music ecosystem. He started releasing as Richard Durand on Tiësto's Magik Muzik imprint in the early 2000s and built a steady catalogue across the late-2000s peak of vocal-uplifting trance.
+      en: `Richard Durand, born Richard van Schooneveld in The Hague in 1976, is one of the longest-running producer/DJs in the modern Armada Music ecosystem. He started releasing as Richard Durand on Tiësto's Magik Muzik imprint from 2005 ("Terminal 4") and built a steady catalogue across the late-2000s peak of vocal-uplifting trance.
 
-His most consequential editorial work was taking over the In Search of Sunrise compilation series from Tiësto in 2008 — Durand mixed and curated volumes 7 through 12, carrying the long-running Black Hole series across the period when Tiësto was transitioning out of trance. His 2008 album Always the Sun and tracks including "Wide Awake" (2010) cemented his place in the late-2000s Armada uplifting roster.
+His most consequential editorial work was taking over the In Search of Sunrise compilation series from Tiësto in 2010 — Durand mixed and curated volumes 8 through 12 (plus 13.5 in 2015), carrying the long-running Black Hole series across the period when Tiësto was transitioning out of trance. His 2009 album Always the Sun and 2011 album Wide Awake cemented his place in the late-2000s Armada uplifting roster.
 
 His 2026 collaboration with Armin van Buuren and Dicosis, "Always You," was the official A State of Trance 2026 ELEVATION anthem timed for the 25-year ASOT festival editions at Ahoy Rotterdam — a release that placed Durand alongside van Buuren on the ASOT 25 anniversary moment, more than two decades into his career.`,
-      ja: `リチャード・デュラン、本名Richard van Schooneveld、1977年ハーグ生まれ。現代Armada Musicエコシステムで最も長期にわたって活動するプロデューサー／DJの一人。2000年代初頭にTiëstoのMagik Muzikインプリントからリリースを開始し、2000年代末のボーカル・アップリフティング・トランスのピーク期を通じて安定したカタログを築き上げた。
+      ja: `リチャード・デュラン、本名Richard van Schooneveld、1976年ハーグ生まれ。現代Armada Musicエコシステムで最も長期にわたって活動するプロデューサー／DJの一人。2005年（「Terminal 4」）にTiëstoのMagik Muzikインプリントからリリースを開始し、2000年代末のボーカル・アップリフティング・トランスのピーク期を通じて安定したカタログを築き上げた。
 
-最も帰結的な編集仕事は2008年にTiëstoからIn Search of Sunriseコンピレーション・シリーズを引き継いだこと——Durandは7集から12集をミックス・キュレーションし、Tiëstoがトランスから離脱しつつあった時期にBlack Holeの長期シリーズを運び続けた。2008年のアルバム『Always the Sun』および「Wide Awake」（2010）などのトラックが2000年代末Armadaアップリフティング・ロースターでの地位を確固たるものにした。
+最も帰結的な編集仕事は2010年にTiëstoからIn Search of Sunriseコンピレーション・シリーズを引き継いだこと——Durandは8集から12集（および2015年の13.5）をミックス・キュレーションし、Tiëstoがトランスから離脱しつつあった時期にBlack Holeの長期シリーズを運び続けた。2009年のアルバム『Always the Sun』および2011年の『Wide Awake』が2000年代末Armadaアップリフティング・ロースターでの地位を確固たるものにした。
 
 2026年のArmin van BuurenおよびDicosisとの共作「Always You」は、Ahoy Rotterdamでの25年ASOTフェスティバル版にタイミングを合わせた公式A State of Trance 2026 ELEVATIONアンセム——キャリア20年以上を経て、Durandをvan Buurenと並んでASOT 25周年の瞬間に位置づけたリリース。`,
     },

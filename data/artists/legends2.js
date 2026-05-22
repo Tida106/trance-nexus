@@ -160,13 +160,13 @@ His albums Movin' Melodies (1999), Dedicated (2002), and No Silence (2004) made 
     origin: 'Netherlands',
     born: '—',
     activeFrom: '1998',
-    labels: ['Magik Muzik', 'Anjunabeats', 'High Contrast Recordings'],
+    labels: ['Magik Muzik', 'High Contrast Recordings'],
     topWorks: [
       { title: 'Airwave', year: 1999, type: 'track' },
       { title: 'Awakening', year: 2001, type: 'track' },
-      { title: 'And Then', year: 2004, type: 'track' },
+      { title: 'And Then', year: 2008, type: 'track' },
       { title: 'L.E.D. There Be Light', year: 2008, type: 'track' },
-      { title: 'Symfo', year: 2010, type: 'track' },
+      { title: 'Symfo', year: 2009, type: 'track' },
     ],
     related: ['armin-van-buuren', 'tiesto', 'ferry-corsten', 'atb'],
     links: {
@@ -210,9 +210,8 @@ TiëstoのBlack Hole Recordings、初期のMagik Muzikカタログと深く結�
     topWorks: [
       { title: 'Universal Nation', year: 1998, type: 'track' },
       { title: 'Strange World', year: 1999, type: 'track' },
-      { title: 'Tranceformation', year: 1999, type: 'track' },
-      { title: 'The Legacy', year: 2003, type: 'track' },
-      { title: 'Universal Nation 2020', year: 2020, type: 'track' },
+      { title: 'The Legacy', year: 2001, type: 'track' },
+      { title: 'Tranceformation', year: 2003, type: 'track' },
     ],
     related: ['rank-1', 'paul-van-dyk', 'ferry-corsten', 'armin-van-buuren'],
     links: {
@@ -229,10 +228,10 @@ TiëstoのBlack Hole Recordings、初期のMagik Muzikカタログと深く結�
       ja: 'ハードでアンセミックなアップリフティング・トランス——140 BPM超のドライヴィングなグルーヴ、舞い上がるリード、長尺セットの最大音量タイムに向けたカタルシスあるブレイクダウン。M.I.K.E. PushおよびPlastic Boy名義でも活動。',
     },
     bio: {
-      en: `Mike Dierickx — best known as Push and M.I.K.E. Push — is one of Belgium's most prolific trance producers. Born in 1973, he started releasing on Bonzai Records in the mid-90s and broke through in 1998 with "Universal Nation," whose unmistakable 138-BPM melodic build made it one of the most-played trance records of all time. The track has been a peak-time fixture for over twenty-five years and has been re-released, remixed, and reworked countless times — including a 2020 version that returned it to A State of Trance year-end charts.
+      en: `Mike Dierickx — best known as Push and M.I.K.E. Push — is one of Belgium's most prolific trance producers. Born in 1973, he started releasing on Bonzai Records in the mid-90s and broke through in 1998 with "Universal Nation," whose unmistakable 138-BPM melodic build made it one of the most-played trance records of all time. The track has been a peak-time fixture for over twenty-five years and has been re-released, remixed, and reworked countless times.
 
 Beyond Push, Dierickx has released over 200 records under aliases including M.I.K.E., Plastic Boy, DJ Solar Stone (no relation to Solarstone), and others. He is closely associated with Bonzai Trance Progressive and Armada and has remained an active producer and DJ for nearly three decades. Among Belgian trance acts, only Yves Deruyter rivals him for catalogue depth.`,
-      ja: `マイク・ディエリックス——Push、M.I.K.E. Pushの名で知られる——はベルギーで最も多作なトランス・プロデューサーの一人。1973年生まれ、90年代半ばにBonzai Recordsからリリースを開始し、1998年の「Universal Nation」で大ブレイク。その特徴的な138 BPMのメロディック・ビルドは史上最も再生されたトランス・トラックの一つとなった。同曲は25年以上ピークタイムの定番であり続け、2020年版がA State of Trance年間チャートに復帰するなど、再リリース・リミックスを繰り返し続けている。
+      ja: `マイク・ディエリックス——Push、M.I.K.E. Pushの名で知られる——はベルギーで最も多作なトランス・プロデューサーの一人。1973年生まれ、90年代半ばにBonzai Recordsからリリースを開始し、1998年の「Universal Nation」で大ブレイク。その特徴的な138 BPMのメロディック・ビルドは史上最も再生されたトランス・トラックの一つとなった。同曲は25年以上ピークタイムの定番であり続け、再リリース・リミックスを繰り返し続けている。
 
 Pushに加え、M.I.K.E.、Plastic Boy、DJ Solar Stone（Solarstoneとは別人）など複数の名義で200作以上をリリース。Bonzai Trance ProgressiveとArmadaと深く結びつき、約30年にわたり現役プロデューサー／DJとして活動を続けている。ベルギーのトランス・アクトの中でカタログの深さで彼に肩を並べるのはYves Deruyterのみである。`,
     },
@@ -255,9 +254,9 @@ Pushに加え、M.I.K.E.、Plastic Boy、DJ Solar Stone（Solarstoneとは別人
     topWorks: [
       { title: 'Lizard', year: 1998, type: 'track' },
       { title: 'Komodo (Save a Soul)', year: 1999, type: 'track' },
-      { title: 'Iguana', year: 2000, type: 'track' },
-      { title: 'Pulsar', year: 2001, type: 'track' },
-      { title: 'Like This Like That', year: 2003, type: 'track' },
+      { title: 'Iguana', year: 1999, type: 'track' },
+      { title: 'Pulsar', year: 2000, type: 'track' },
+      { title: 'Like This Like That', year: 2001, type: 'track' },
     ],
     related: ['gigi-dagostino', 'push', 'paul-van-dyk', 'tiesto'],
     links: {

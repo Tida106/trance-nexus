@@ -113,7 +113,7 @@ Bedrock Records, founded in 1999, has released hundreds of titles spanning Digwe
       { title: 'Renaissance: The Mix Collection - South America', year: 2002, type: 'mix album' },
       { title: 'Sudbeat Music (label)', year: '2009–', type: 'label' },
       { title: 'Resident (radio show)', year: '2003–', type: 'radio show' },
-      { title: 'Sunsetstrip (with Soundexile)', year: 2013, type: 'track' },
+      { title: 'Sunsetstrip (with Soundexile)', year: 2019, type: 'Balance Presents album' },
       { title: 'Hernan Cattaneo Sets', year: '2010s–', type: 'live recordings' },
     ],
     related: ['john-digweed', 'sasha', 'nick-warren', 'andrew-bayer'],
@@ -136,7 +136,7 @@ Bedrock Records, founded in 1999, has released hundreds of titles spanning Digwe
 
 His 2002 mix album Renaissance: The Mix Collection - South America brought the so-called "Argentine progressive sound" — long melodic builds, warm chord pads, sun-drenched harmonic content, emotional sundown peaks — to global attention. The Sudbeat Music label, founded in 2009, has become one of the most respected progressive-house imprints in continuous operation, releasing material from Cattáneo himself plus Soundexile, Guy Mantzur, Henry Saiz, Khen, Cid Inc, and the broader South American / Eastern European progressive scene that the label has come to define editorially.
 
-Cattáneo's weekly Resident radio show has been broadcasting since 2003 — making it one of the longest continuously-running progressive-house shows in production alongside Above & Beyond's Group Therapy. His open-air Mandarine Park parties in Buenos Aires regularly run from sunset through sunrise (8-12 hour sets are routine) and have become an annual pilgrimage for progressive-house fans worldwide; the Sunsetstrip series with Soundexile (including the 2013 single of the same name) extends the long-form open-air sensibility into recorded form. Cattáneo has been DJ Mag's #1 in Argentina for over a decade and remains the central figure of the entire South American progressive-house lineage that runs through Khen, Soundexile, Henry Saiz, and the modern Sudbeat / Anjunadeep crossover audience.`,
+Cattáneo's weekly Resident radio show has been broadcasting since 2003 — making it one of the longest continuously-running progressive-house shows in production alongside Above & Beyond's Group Therapy. His open-air Mandarine Park parties in Buenos Aires regularly run from sunset through sunrise (8-12 hour sets are routine) and have become an annual pilgrimage for progressive-house fans worldwide; the Sunsetstrip series with Soundexile (including the 2019 Balance Presents album of the same name) extends the long-form open-air sensibility into recorded form. Cattáneo has been DJ Mag's #1 in Argentina for over a decade and remains the central figure of the entire South American progressive-house lineage that runs through Khen, Soundexile, Henry Saiz, and the modern Sudbeat / Anjunadeep crossover audience.`,
       ja: `エルナン・カッタネオは1990年ブエノスアイレスでDJ活動を開始。2001年にPaul Oakenfoldが自身のCreamレジデント・ナイトに招いたことで国際舞台へ進出。以降Cream、Pacha Buenos Aires、Renaissance各地のレジデントとなり、2002年の『Renaissance: The Mix Collection - South America』でアルゼンチン・プログレッシブ・サウンドを世界的注目に導いた。2009年設立のSudbeat Musicは、現役のプログレッシブ・ハウス・レーベルで最も尊敬される存在の一つとなっている。
 
 ブエノスアイレスのMandarine Parkで開催される屋外パーティーは日没から翌朝まで続くのが定例で、世界中のプログレッシブ・ハウス・ファンにとっての年次巡礼地となっている。アルゼンチンのDJ Mag第1位を10年以上にわたり保持。`,
@@ -158,11 +158,11 @@ Cattáneo's weekly Resident radio show has been broadcasting since 2003 — maki
     activeFrom: '2009',
     labels: ['Anjunabeats', 'Anjunadeep'],
     topWorks: [
-      { title: 'It\'s Artificial (with Matthew Koma)', year: 2011, type: 'track' },
-      { title: 'If It Were You, We\'d Never Leave', year: 2011, type: 'album' },
+      { title: 'It\'s Artificial', year: 2011, type: 'album' },
+      { title: 'If It Were You, We\'d Never Leave', year: 2013, type: 'album' },
       { title: 'In My Last Life', year: 2018, type: 'album' },
       { title: 'It Happened One Night', year: 2020, type: 'album' },
-      { title: 'My Molecule (with Above & Beyond)', year: 2018, type: 'track' },
+      { title: 'Once Lydian', year: 2019, type: 'track' },
     ],
     related: ['above-and-beyond', 'ilan-bluestone', 'genix', 'bt'],
     links: {
@@ -186,7 +186,7 @@ His debut solo album It's Artificial was released on Anjunabeats on 25 July 2011
 Bayer has worked closely with Above & Beyond as a producer and arranger on their second, third, and fourth studio albums (Group Therapy, We Are All We Need, Common Ground), and has scored films and short orchestral pieces under his own name. He releases solo and collaborative material across both the main Anjunabeats label and the Anjunadeep sub-label, performs regularly at ABGT live events, and is one of the few electronic producers whose catalogue rewards full-album listening rather than single-track sampling.`,
       ja: `アンドリュー・ベイヤーはAbove & BeyondのAnjunabeatsに所属するアメリカ人プロデューサー。2011年以降、同レーベルで最も音楽的に野心的な声の一つ。クラシック作曲家としての訓練を受け、緻密な和声書法と生楽器を電子プロダクションに織り込む手法で、他の現代プログレッシブ・トランス勢と一線を画す。
 
-アルバム『If It Were You, We\'d Never Leave』（2011）、『In My Last Life』（2018）、『It Happened One Night』（2020）は現代Anjunabeatsカタログで最も芸術的に完成度の高い作品として広く挙げられる。Above & Beyondの常連コラボレーターでもあり——特に「My Molecule」とアルバム『Common Ground』で——自身名義で映画や短編作品の音楽も手がけている。`,
+アルバム『If It Were You, We\'d Never Leave』（2013）、『In My Last Life』（2018）、『It Happened One Night』（2020）は現代Anjunabeatsカタログで最も芸術的に完成度の高い作品として広く挙げられる。Above & Beyondの常連コラボレーター・共同プロデューサーとして『Common Ground』にも関わり、自身名義で映画や短編作品の音楽も手がけている。`,
     },
     mentionedIn: ['above-beyond-anjuna-empire'],
   },
@@ -252,8 +252,8 @@ Beyond original releases, Genix is a regular at ABGT live events, Anjunadeep / A
     activeFrom: '2012',
     labels: ['Anjunabeats', 'Stoneblue Records'],
     topWorks: [
-      { title: 'Spheres', year: 2017, type: 'album' },
-      { title: 'Sun & Moon (Above & Beyond)', year: 2014, type: 'remix' },
+      { title: 'Spheres', year: 2014, type: 'EP / single' },
+      { title: 'Sun & Moon (Above & Beyond) — Bluestone Remix', year: 2021, type: 'remix' },
       { title: 'Scars (with Andrew Bayer)', year: 2017, type: 'track' },
       { title: 'Daniel in the Lion\'s Den', year: 2018, type: 'track' },
       { title: 'Impulse', year: 2020, type: 'album' },
@@ -299,9 +299,9 @@ Bluestone runs his own Anjunabeats sub-label Stoneblue Records, has performed at
     labels: ['Anjunadeep', 'Odd One Out'],
     topWorks: [
       { title: 'Hyperfall', year: 2018, type: 'album' },
-      { title: 'Aviate', year: 2017, type: 'track' },
+      { title: 'Aviate', year: 2016, type: 'track' },
       { title: 'Walls', year: 2019, type: 'track' },
-      { title: 'Erased Dreams', year: 2020, type: 'EP' },
+      { title: 'Erased Dreams', year: 2022, type: 'EP' },
       { title: 'Odd One Out (label)', year: '2019–', type: 'label' },
     ],
     related: ['andrew-bayer', 'ilan-bluestone', 'hernan-cattaneo', 'genix'],
@@ -339,14 +339,14 @@ In 2019 Yotto launched his own label Odd One Out with the single "Shifter", givi
     tags: ['PROGRESSIVE HOUSE', 'BRITISH', 'LEGEND'],
     realName: 'Nick Warren',
     origin: 'Bristol, England',
-    born: '1962',
+    born: '1968',
     activeFrom: '1992',
     labels: ['Hope Recordings', 'Hooj Choons', 'The Soundgarden'],
     topWorks: [
       { title: 'Way Out West (with Jody Wisternoff)', year: '1995–', type: 'group project' },
       { title: 'Way Out West (album)', year: 1997, type: 'album' },
       { title: 'Global Underground 008: Brazil', year: 1998, type: 'mix album' },
-      { title: 'Global Underground 022: Reykjavik', year: 2002, type: 'mix album' },
+      { title: 'Global Underground 024: Reykjavik', year: 2003, type: 'mix album' },
       { title: 'The Soundgarden (radio show)', year: '2010s–', type: 'radio show' },
     ],
     related: ['john-digweed', 'sasha', 'hernan-cattaneo', 'yotto'],
@@ -366,10 +366,10 @@ In 2019 Yotto launched his own label Odd One Out with the single "Shifter", givi
     bio: {
       en: `Nick Warren is one of the founding figures of the UK progressive-house lineage, and among the original generation that includes Sasha, John Digweed, and Paul Oakenfold he carries one of the most consistent and most-respected catalogues. He started DJing in his native Bristol in the late 1980s and built his early profile through Cream Liverpool residencies and the original Renaissance circuit before forming Way Out West with Jody Wisternoff in 1995 — a partnership that would produce some of the era's most distinctive UK electronica.
 
-Way Out West's self-titled debut album (1997, Distinct'ive Records) bridged trance, breakbeat, and progressive house and remains a landmark of UK electronic music; the catalogue continued through Intensify (2001), Don't Look Now (2004), We Love Machine (2009), and Tuesday Maybe (2017), maintaining a release cadence that few of the duo's contemporaries have sustained. Beyond Way Out West, Warren's solo DJ work crystallised through the Global Underground mix-album series — particularly Global Underground 008: Brazil (1998), 014: Amsterdam, 022: Reykjavik (2002), 040: Shanghai, and the GU Boutique entries — releases widely considered some of the highest-quality DJ mix recordings of the era and reference points for the entire mix-album format.
+Way Out West's self-titled debut album (1997, Distinct'ive Records) bridged trance, breakbeat, and progressive house and remains a landmark of UK electronic music; the catalogue continued through Intensify (2001), Don't Look Now (2004), We Love Machine (2009), and Tuesday Maybe (2017), maintaining a release cadence that few of the duo's contemporaries have sustained. Beyond Way Out West, Warren's solo DJ work crystallised through the Global Underground mix-album series — particularly Global Underground 008: Brazil (1998), 018: Amsterdam, 024: Reykjavik (2003), 040: Shanghai, and the GU Boutique entries — releases widely considered some of the highest-quality DJ mix recordings of the era and reference points for the entire mix-album format.
 
 Warren has run his own Hope Recordings since the early 2000s and continues to host The Soundgarden weekly radio show and the parallel Soundgarden international party series. Among the original UK progressive-house generation, he sits alongside Sasha, Digweed, and Oakenfold as a defining voice — and his sustained relevance into the 2020s, with continued bookings at Anjunadeep Open Air editions, The BPM Festival, Mandarine Park, and the global progressive-house circuit, demonstrates the durability of the long-form Bristol progressive aesthetic he helped originate.`,
-      ja: `ニック・ウォーレンは80年代後半からDJ活動を続け、1995年からはJody WisternoffとともにWay Out Westの半身として制作活動を行っている。90年代末から2000年代初頭のGlobal Undergroundミックスアルバム、特に『Brazil』（1998）と『Reykjavik』（2002）は同時代のDJミックス録音で最高品質の作品の一部として広く評価されている。Way Out Westの同名デビュー作（1997）はトランス、ブレイクビーツ、プログレッシブ・ハウスを橋渡しし、UKエレクトロニカの金字塔となっている。
+      ja: `ニック・ウォーレンは80年代後半からDJ活動を続け、1995年からはJody WisternoffとともにWay Out Westの半身として制作活動を行っている。90年代末から2000年代初頭のGlobal Undergroundミックスアルバム、特に『Brazil』（1998）と『Reykjavik』（2003）は同時代のDJミックス録音で最高品質の作品の一部として広く評価されている。Way Out Westの同名デビュー作（1997）はトランス、ブレイクビーツ、プログレッシブ・ハウスを橋渡しし、UKエレクトロニカの金字塔となっている。
 
 Warrenは自身のHope Recordingsを運営し、ラジオ「The Soundgarden」とパーティーを世界各地で展開し続けている。オリジナルのUKプログレッシブ・ハウス世代の中で、Sasha、Digweed、Oakenfoldと並ぶ定義的な存在。`,
     },

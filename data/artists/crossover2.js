@@ -19,7 +19,7 @@ export const crossover2 = [
     activeFrom: '2016',
     labels: ['Heldeep Records', 'Lyase Recordings'],
     topWorks: [
-      { title: 'Renegade Mastah (with Sander van Doorn)', year: 2017, type: 'track' },
+      { title: 'Renegade Mastah (with Sander van Doorn)', year: 2015, type: 'track (Heldeep debut)' },
     ],
     related: ['maddix', 'sneijder', 'allen-watts', 'mark-sixma'],
     links: {
@@ -37,10 +37,10 @@ export const crossover2 = [
     bio: {
       en: `HI-LO is the dark techno alias of Dutch DJ/producer Oliver Heldens, born in Rotterdam in 1995. The HI-LO project launched in 2016 as a parallel outlet for harder, more techno-forward material than the Heldens-branded house catalogue, and releases on Heldens' own Heldeep Records and the Lyase Recordings sub-label have followed steadily since.
 
-Notable HI-LO releases include the 2017 "Renegade Mastah" collaboration with Sander van Doorn and ongoing collaborations with figures from the wider techno crossover scene. The project sits in the dark progressive / techno register that has overlapped increasingly with the late-2010s and 2020s mainstage trance circuit, and HI-LO sets routinely appear on the same festival mainstage rosters as classic-trance acts.`,
+Notable HI-LO releases include the 2015 "Renegade Mastah" collaboration with Sander van Doorn (Heldeep Records' debut release) and ongoing collaborations with figures from the wider techno crossover scene. The project sits in the dark progressive / techno register that has overlapped increasingly with the late-2010s and 2020s mainstage trance circuit, and HI-LO sets routinely appear on the same festival mainstage rosters as classic-trance acts.`,
       ja: `HI-LOはオランダのDJ／プロデューサーOliver Heldensによるダーク・テクノ名義。1995年ロッテルダム生まれ。HI-LOプロジェクトは、Heldens名義のハウス・カタログよりもハードでテクノ前面の素材を投下する並行アウトレットとして2016年に始動。以降、Heldens自身のHeldeep Recordsおよびサブレーベル Lyase Recordingsからのリリースが継続している。
 
-注目すべきHI-LOリリースには2017年のSander van Doornとの共作「Renegade Mastah」および、より広いテクノ・クロスオーバー・シーンの面々との継続的な共作が含まれる。プロジェクトは2010年代後半および2020年代のメインステージ・トランス・サーキットとますます重なってきたダーク・プログレッシブ／テクノ・レジスターに位置し、HI-LOセットはクラシック・トランス勢と同じフェスティバル・メインステージ・ロースターに常時登場している。`,
+注目すべきHI-LOリリースには2015年のSander van Doornとの共作「Renegade Mastah」（Heldeep Recordsデビュー作）および、より広いテクノ・クロスオーバー・シーンの面々との継続的な共作が含まれる。プロジェクトは2010年代後半および2020年代のメインステージ・トランス・サーキットとますます重なってきたダーク・プログレッシブ／テクノ・レジスターに位置し、HI-LOセットはクラシック・トランス勢と同じフェスティバル・メインステージ・ロースターに常時登場している。`,
     },
     mentionedIn: [],
   },
@@ -54,7 +54,8 @@ Notable HI-LO releases include the 2017 "Renegade Mastah" collaboration with San
     banner: 'b-psytrance',
     tags: ['PSY-TECHNO', 'HARD TECHNO', 'SPANISH', 'ARTCORE'],
     realName: 'Indira Paganotto',
-    origin: 'Spain',
+    origin: 'Las Palmas, Canary Islands, Spain (Madrid-raised)',
+    born: '1992',
     activeFrom: '2018',
     labels: ['ARTCORE Records'],
     topWorks: [],
@@ -110,10 +111,10 @@ Her rise across 2022-2024 placed her among the most-booked names in the modern h
       ja: 'プログレッシブなアレンジメントDNAを持つ2000年代初頭のピークタイム・トランス——長いメロディック・ビルド、寛大なブレイクダウン建築、Magik Muzik／Black Holeの編集方針が当時定義したアップリフティング寄りの構造。',
     },
     bio: {
-      en: `Ralphie B is a Dutch trance producer best known for the 2003 Magik Muzik anthem "Massive" — a Tiësto-supported peak-time track that became a fixture of the In Search of Sunrise era and remained a staple of early-2000s trance retrospective compilations long after release.
+      en: `Ralphie B is a Dutch trance producer best known for the 2003 anthem "Massive" (released on Black Hole's In Trance We Trust sub-label) — a Tiësto-supported peak-time track that became a fixture of the In Search of Sunrise era and remained a staple of early-2000s trance retrospective compilations long after release.
 
 His catalogue spans Tiësto's Magik Muzik imprint and Black Hole Recordings, and the catalogue sits in the early-2000s peak-time trance register that the Magik Muzik / Black Hole editorial direction defined across the period before the genre's late-2000s vocal-uplifting peak.`,
-      ja: `Ralphie Bは2003年のMagik Muzikアンセム「Massive」——TiëstoのサポートでIn Search of Sunrise時代の定番となり、リリースから長く2000年代初頭のトランス・レトロスペクティブ・コンピレーションの定番として残ったピークタイム・トラック——で知られるオランダのトランス・プロデューサー。
+      ja: `Ralphie Bは2003年のアンセム「Massive」（Black HoleのIn Trance We Trustサブレーベルからリリース）——TiëstoのサポートでIn Search of Sunrise時代の定番となり、リリースから長く2000年代初頭のトランス・レトロスペクティブ・コンピレーションの定番として残ったピークタイム・トラック——で知られるオランダのトランス・プロデューサー。
 
 カタログはTiëstoのMagik Muzikインプリントおよびblack Hole Recordingsに広がり、ジャンルの2000年代末ボーカル・アップリフティング・ピーク以前にMagik Muzik／Black Holeの編集方針が当時定義した2000年代初頭のピークタイム・トランス・レジスターに位置する。`,
     },
@@ -129,9 +130,9 @@ His catalogue spans Tiësto's Magik Muzik imprint and Black Hole Recordings, and
     banner: 'b-tech',
     tags: ['HOUSE', 'TRANCE EDITS', 'GERMAN', 'TIKTOK'],
     realName: 'Marlon Hoffstadt',
-    origin: 'Germany',
+    origin: 'Berlin, Germany',
     activeFrom: '2013',
-    labels: ['SAVAGE'],
+    labels: ['Midnight Themes (own label)', 'Capitol Records', 'Retrograde', 'WellDone! Music', 'Club Heart Broken'],
     topWorks: [],
     related: ['hi-lo', 'maddix', 'mark-sixma', 'orjan-nilsen'],
     links: {
@@ -139,8 +140,8 @@ His catalogue spans Tiësto's Magik Muzik imprint and Black Hole Recordings, and
     },
     sub: { en: 'House / Trance Edits', ja: 'ハウス / トランス・エディット' },
     short: {
-      en: 'German DJ/producer working at the house / trance crossover edge — known for trance-anthem edits and the SAVAGE label.',
-      ja: 'ハウス／トランス・クロスオーバーの境界で活動するドイツのDJ／プロデューサー。トランス・アンセムのエディットとSAVAGEレーベルで知られる。',
+      en: 'Berlin-based German DJ/producer working at the house / trance crossover edge — runs his own Midnight Themes label (founded 2017).',
+      ja: 'ハウス／トランス・クロスオーバーの境界で活動するベルリン拠点のドイツのDJ／プロデューサー。自身のMidnight Themesレーベル（2017設立）を運営。',
     },
     style: {
       en: 'House music structure with trance-anthem melodic content folded in — edits and reworks of classic trance leads layered over modern house rhythm, plus original SAVAGE-label material in the same crossover register.',

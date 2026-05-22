@@ -12,12 +12,12 @@ export const uplifting2 = [
     banner: 'b-uplifting',
     tags: ['UPLIFTING', 'TECH TRANCE', 'SCOTTISH'],
     realName: 'Will Atkinson',
-    origin: 'Edinburgh, Scotland',
+    origin: 'Orkney, Scotland',
     born: '1985',
     activeFrom: '2007',
     labels: ['Subculture', 'FSOE', 'Discover Records'],
     topWorks: [
-      { title: 'Vienna', year: 2014, type: 'track' },
+      { title: 'Victims', year: 2014, type: 'track' },
       { title: 'Numb the Pain', year: 2015, type: 'track' },
       { title: 'Mantra', year: 2017, type: 'track' },
       { title: 'Watch the World', year: 2019, type: 'album' },
@@ -39,10 +39,10 @@ export const uplifting2 = [
       ja: '138〜140 BPMのドライヴィングなアップリフティングにテック・トランスの精度——パンチの効いたベースライン、緻密なリズム・プログラミング、情緒を込めたメロディック・ブレイクダウン。',
     },
     bio: {
-      en: `Will Atkinson is one of the most technically accomplished trance producers to emerge from the UK in the 2010s. Born in Edinburgh in 1985, he came up through John O'Callaghan's Subculture orbit and built a reputation for productions that pair the precision of tech-trance with the emotional sweep of classic uplifting. Tracks like "Vienna," "Numb the Pain," and "Mantra" became regular fixtures of A State of Trance and Future Sound of Egypt year-end charts.
+      en: `Will Atkinson is one of the most technically accomplished trance producers to emerge from the UK in the 2010s. Born and raised on Orkney, Scotland in 1985, he came up through John O'Callaghan's Subculture orbit and built a reputation for productions that pair the precision of tech-trance with the emotional sweep of classic uplifting. Tracks like "Victims," "Numb the Pain," and "Mantra" became regular fixtures of A State of Trance and Future Sound of Egypt year-end charts.
 
 His debut album Watch the World (2019) showcased a more song-led side of his writing, and he has since released steadily across Subculture, FSOE, and his own platforms. Among UK trance producers active today, Atkinson is most often mentioned alongside Bryan Kearney and Sean Tyas as a torch-bearer for the technically demanding, melody-first end of the genre.`,
-      ja: `ウィル・アトキンソンは2010年代に英国から登場した最も技術的に優れたトランス・プロデューサーの一人。1985年エディンバラ生まれ、John O\'CallaghanのSubculture人脈から登場し、テック・トランスの精度とクラシック・アップリフティングの情緒的な広がりを併せ持つプロダクションで評価を確立。「Vienna」「Numb the Pain」「Mantra」はA State of TranceおよびFuture Sound of Egyptの年間チャート常連となった。
+      ja: `ウィル・アトキンソンは2010年代に英国から登場した最も技術的に優れたトランス・プロデューサーの一人。1985年スコットランド・オークニー諸島生まれ、John O\'CallaghanのSubculture人脈から登場し、テック・トランスの精度とクラシック・アップリフティングの情緒的な広がりを併せ持つプロダクションで評価を確立。「Victims」「Numb the Pain」「Mantra」はA State of TranceおよびFuture Sound of Egyptの年間チャート常連となった。
 
 デビューアルバム『Watch the World』（2019）はより楽曲重視の側面を見せ、以降もSubculture、FSOE、自身のプラットフォームから安定してリリースを続けている。現役の英国トランス・プロデューサーの中で、Bryan Kearney、Sean Tyasと並ぶ技術志向・メロディ重視派の旗手として頻繁に言及される。`,
     },
@@ -58,7 +58,7 @@ His debut album Watch the World (2019) showcased a more song-led side of his wri
     banner: 'b-uplifting',
     tags: ['UPLIFTING', 'TECH TRANCE', 'BRITISH'],
     realName: 'Robert Davies',
-    origin: 'Cardiff, Wales',
+    origin: 'Wales, United Kingdom',
     born: '1981',
     activeFrom: '2003',
     labels: ['Discover Records', 'Reaching Altitude', 'Spinnin\' Records'],
@@ -104,16 +104,15 @@ Beyond original releases, Activa is a sought-after remixer, with reworks for Bry
     banner: 'b-uplifting',
     tags: ['UPLIFTING', 'LIVE PERFORMANCE', 'ITALIAN'],
     realName: 'Giuseppe Ottaviani',
-    origin: 'Frosinone, Italy',
+    origin: 'Viterbo, Italy',
     born: '1978',
-    activeFrom: '2002',
+    activeFrom: '1999',
     labels: ['Black Hole Recordings', 'GO On Air', 'Vandit Records'],
     topWorks: [
-      { title: 'Linking People', year: 2008, type: 'track' },
+      { title: 'Linking People', year: 2005, type: 'track' },
+      { title: 'Through Your Eyes', year: 2006, type: 'track' },
       { title: 'GO!', year: 2009, type: 'album' },
-      { title: 'Through Your Eyes', year: 2010, type: 'track' },
-      { title: 'Lost in You', year: 2014, type: 'track' },
-      { title: 'Magenta', year: 2017, type: 'album' },
+      { title: 'Magenta', year: 2013, type: 'album' },
     ],
     related: ['paul-van-dyk', 'aly-and-fila', 'andrew-rayel', 'mauro-picotto'],
     links: {
@@ -130,9 +129,9 @@ Beyond original releases, Activa is a sought-after remixer, with reworks for Bry
       ja: 'ライブ演奏のキーボード・リードを軸とした正統派アップリフティング・トランス——シンセサイザー、ドラム・マシン、エフェクターのハードウェア・リグで実演し、DJとライブ・アーティストの境界を曖昧にしている。',
     },
     bio: {
-      en: `Giuseppe Ottaviani is an Italian uplifting trance producer born in Frosinone in 1978, and his career runs across two distinct phases — the NU NRG duo and his solo work — that together place him at the centre of the modern uplifting scene for over two decades. He started in the early 2000s as one half of NU NRG with Daniele Mondello, releasing on Vandit Records and building a reputation across the Vandit / Subliminal label axis before going solo as Giuseppe Ottaviani in 2007.
+      en: `Giuseppe Ottaviani is an Italian uplifting trance producer born in Viterbo in 1978, and his career runs across two distinct phases — the NU NRG duo and his solo work — that together place him at the centre of the modern uplifting scene for over two decades. He started in the late 1990s as one half of NU NRG with Daniele Mondello, releasing on Vandit Records and building a reputation across the Vandit / Subliminal label axis before going solo as Giuseppe Ottaviani in 2007.
 
-His debut solo album GO! (2009) on Paul van Dyk's Vandit Recordings established him as one of the genre's most consistent uplifting producers, with the follow-up albums Magenta (2017) and continuous catalogue through Black Hole Recordings and the GO On Air sub-label that hosts his weekly radio show of the same name. Major releases include "Linking People" (2008), "Through Your Eyes" (2010), "Lost in You" (2014), and the recent Armin van Buuren / Ruben de Ronde / OTTAGON collaboration on the ASOT 2026 compilation.
+His debut solo album GO! (2009) on Paul van Dyk's Vandit Recordings established him as one of the genre's most consistent uplifting producers, with the follow-up album Magenta (2013) and continuous catalogue through Black Hole Recordings and the GO On Air sub-label that hosts his weekly radio show of the same name. Major releases include "Linking People" (2005), "Through Your Eyes" (2006), and the recent Armin van Buuren / Ruben de Ronde / OTTAGON collaboration on the ASOT 2026 compilation.
 
 Ottaviani's signature contribution is his live-performance approach: rather than DJing pre-prepared sets, the "GO Live" format is performed on a custom hardware rig of synthesisers, drum machines, and live effects, with him triggering, layering, and arranging the music in real time. The setup blurs the line between DJ and live artist and has earned him bookings at Tomorrowland, Luminosity, EDC, ASOT festival editions, and Transmission worldwide. The OTTAGON moniker — under which he has released collaborative material in the recent ASOT 2026 cycle — extends the Ottaviani sonic identity into a parallel solo project. Among the producer-DJs operating at the intersection of classic uplifting trance and live performance craft, Giuseppe Ottaviani is one of the few names that has remained relevant across both the late-2000s peak and the modern 2020s revival.`,
       ja: `ジュゼッペ・オッタヴィアーニは2000年代初頭にNU NRGの一員として活動を開始し、2007年にソロ転向。Paul van DykのVandit Recordsからリリースしたデビューアルバム『GO!』（2009）でジャンル屈指の安定したアップリフティング・プロデューサーとしての地位を確立。後にBlack Hole Recordingsに主軸を移し、週次ラジオ「GO On Air」をホスト。
@@ -151,8 +150,8 @@ Ottaviani's signature contribution is his live-performance approach: rather than
     banner: 'b-uplifting',
     tags: ['UPLIFTING', 'PROGRESSIVE', 'DUTCH'],
     realName: 'Ruben de Ronde',
-    origin: 'The Hague, Netherlands',
-    born: '1986',
+    origin: 'Gouda, Netherlands',
+    born: '1982',
     activeFrom: '2007',
     labels: ['Statement!', 'Armada Music', 'A State of Trance'],
     topWorks: [
@@ -178,12 +177,12 @@ Ottaviani's signature contribution is his live-performance approach: rather than
       ja: 'Armin van Buurenのクラシックなアップリフティングと、現代Armadaカタログのよりプログレッシブな側との中間に位置する、洗練されたメロディック・アップリフティング。ボーカル主導のポップ・クロスオーバーから純粋なピークタイム・アップリフティングまで自在にこなす。',
     },
     bio: {
-      en: `Ruben de Ronde, born in The Hague in 1986, is one of the most reliable producers in the modern Armada Music ecosystem and a current co-host of A State of Trance alongside Armin van Buuren. He started releasing on Armada in 2007 and quickly became a fixture of the A State of Trance editorial direction — hosting the Statement! weekly slot on ASOT Radio that grew into his namesake sub-label and the parallel Statement! Recordings imprint that he runs as part of his Armada portfolio.
+      en: `Ruben de Ronde, born in Gouda in 1982, is one of the most reliable producers in the modern Armada Music ecosystem and a current co-host of A State of Trance alongside Armin van Buuren. He started releasing on Armada in 2007 and quickly became a fixture of the A State of Trance editorial direction — hosting the Statement! weekly slot on ASOT Radio that grew into his namesake sub-label and the parallel Statement! Recordings imprint that he runs as part of his Armada portfolio.
 
 His productions span pure peak-time uplifting, vocal-led tracks, and progressive-leaning remixes — a stylistic range that places him at the meeting point of Armin van Buuren's classic ASOT sound and the more progressive end of the modern Armada catalogue. Major releases include "Guitar Track" (2011), "Robot Dance" with Ben Gold (2013), the 2016 collaborative mix album Story of Two Friends with Rodg (which charted in the European dance-album top tens), "Aurora" (2019), and the 2021 Tinlicker "Soon You'll Be Gone" remix. His collaboration network spans Cosmic Gate, Andrew Rayel, Ben Gold, Rodg, and Standerwick, and the Statement!-branded compilation series has run for over a decade.
 
 Beyond his own catalogue, de Ronde is widely respected as an A&R and curator within the Armada group, and his role as a permanent co-host of A State of Trance — alongside Ferry Corsten, Richard Durand, and the rotating ASOT live cast — places him at the centre of the genre's longest-running radio institution. He has performed at A State of Trance live editions worldwide for over a decade, including the 2026 ASOT 25 edition at Ahoy Rotterdam, and his amber.fm trance station and the parallel ASOT podcast presenter work extend his editorial reach beyond pure production into sustained scene-curation territory.`,
-      ja: `ルーベン・デ・ロンド、1986年ハーグ生まれ。現代Armada Musicエコシステムで最も安定したプロデューサーの一人。2007年からリリースを開始し、A State of Trance Radioで自身の冠ブランドとなる「Statement!」枠をホスト。プロダクションは純粋なアップリフティング、ボーカル主導トラック、プログレッシブ寄りのリミックスまで幅広く、Ben Gold、Rodg、Standerwickらと頻繁にコラボしている。
+      ja: `ルーベン・デ・ロンド、1982年ハウダ生まれ。現代Armada Musicエコシステムで最も安定したプロデューサーの一人。2007年からリリースを開始し、A State of Trance Radioで自身の冠ブランドとなる「Statement!」枠をホスト。プロダクションは純粋なアップリフティング、ボーカル主導トラック、プログレッシブ寄りのリミックスまで幅広く、Ben Gold、Rodg、Standerwickらと頻繁にコラボしている。
 
 2016年のRodgとのミックスアルバム『Story of Two Friends』は欧州のダンス・アルバム・チャートのトップ10入り、A State of Trance のライブイベントには10年以上連続で出演している。自身のカタログに加え、Armadaグループ内でA&Rとキュレーターとしても高く評価されている。`,
     },
@@ -199,12 +198,12 @@ Beyond his own catalogue, de Ronde is widely respected as an A&R and curator wit
     banner: 'b-uplifting',
     tags: ['UPLIFTING', 'PSY-TRANCE', 'EMOTIONAL'],
     realName: 'Adam Standerwick',
-    origin: 'Birmingham, England',
+    origin: 'Portishead, near Bristol, England',
     born: '1980',
     activeFrom: '2008',
     labels: ['FSOE', 'Anjunabeats', 'Captured Music'],
     topWorks: [
-      { title: 'FOMO (with Haliene)', year: 2017, type: 'track' },
+      { title: 'FOMO (with Haliene)', year: 2018, type: 'track' },
       { title: 'Shouldn\'t Have Sent That', year: 2019, type: 'track' },
       { title: 'Maybe (with Haliene)', year: 2018, type: 'track' },
       { title: 'Trinity (with Gareth Emery, Haliene)', year: 2018, type: 'track' },
@@ -226,7 +225,7 @@ Beyond his own catalogue, de Ronde is widely respected as an A&R and curator wit
       ja: 'メロディックでボーカル主導のアップリフティング・トランスに、クロスオーバー・ポップの楽曲構成、リズム・プログラミングへの明確なサイ・トランスの影響。「FOMO」は2010年代後半、無数のプロデューサーが追い求めるテンプレートとなった。',
     },
     bio: {
-      en: `Adam Standerwick is a Birmingham-based British producer who spent the first decade of his production career building a steady catalogue on Aly & Fila's Future Sound of Egypt before crossing over to Anjunabeats and Monstercat in the mid-2010s. He started releasing in 2008 on FSOE and built his early profile through the harder 138 BPM Pure Trance / Subculture lineage that surrounded the late-2000s FSOE editorial direction.
+      en: `Adam Standerwick is a Bristol-area British producer (born in Portishead) who spent the first decade of his production career building a steady catalogue on Aly & Fila's Future Sound of Egypt before crossing over to Anjunabeats and Monstercat in the mid-2010s. He started releasing in 2008 on FSOE and built his early profile through the harder 138 BPM Pure Trance / Subculture lineage that surrounded the late-2000s FSOE editorial direction.
 
 His 2017 three-way collaboration with Gareth Emery and vocalist HALIENE on "Saving Light" — released through Garuda and Monstercat — became one of the most-played trance tracks of the year and a HALIENE-era reference point. The follow-up "FOMO" with HALIENE (2018, Black Hole Recordings) defined the modern emotional-uplifting subgenre that combines pop song structure, soaring chorus melody, melodic-bass production polish, and psy-influenced rhythm programming. The 2018 trilogy was completed by "Trinity" (with Gareth Emery and HALIENE) and "Maybe" (with HALIENE), and the 2018 remix of Faithless' "Insomnia" extended his commercial reach beyond the trance circuit.
 

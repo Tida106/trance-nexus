@@ -63,7 +63,7 @@ Ronski Speedのプロダクションはピークタイムの強度よりも、�
     tags: ['VOCAL TRANCE', 'RUSSIAN', 'UPLIFTING'],
     realName: 'Dmitry Almazov',
     origin: 'Moscow, Russia',
-    born: '1979',
+    born: '1982',
     activeFrom: '1999',
     labels: ['Black Hole Recordings', 'Magik Muzik', 'Armada Music'],
     topWorks: [
@@ -90,7 +90,7 @@ Ronski Speedのプロダクションはピークタイムの強度よりも、�
       ja: 'スラブ的な和声色を帯びたメロディック・ボーカル・アップリフティング——情感的な短調進行、フル・オーケストラのパッド、楽曲重視のアプローチ。純粋なトランスとポップ・クロスオーバーの両方を自在にこなす。',
     },
     bio: {
-      en: `Dmitry Almazov, performing as Bobina, is the most internationally successful trance producer to emerge from Russia. Born in Moscow in 1979, he started releasing trance material in 1999 and built his early catalogue through small Eastern European labels before signing to Tiësto's Black Hole Recordings in the mid-2000s. The Black Hole signing brought his production to international attention and aligned him with the Magik Muzik sub-label's vocal-trance editorial direction.
+      en: `Dmitry Almazov, performing as Bobina, is the most internationally successful trance producer to emerge from Russia. Born in Moscow in 1982, he started releasing trance material in 1999 and built his early catalogue through small Eastern European labels before signing to Tiësto's Black Hole Recordings in the mid-2000s. The Black Hole signing brought his production to international attention and aligned him with the Magik Muzik sub-label's vocal-trance editorial direction.
 
 Bobina's albums Time & Tide (2008) and Again (2010) on Black Hole consolidated his international profile, with subsequent records Beautiful Friend (2011), Rhythm of the Dance (2014), and a continuing release calendar through Armada placing him among the most-published trance producers of his generation. His characteristic Slavic harmonic palette — minor-key progressions, full-orchestral pads, song-led structure — gives his catalogue a distinctive sonic identity within the broader European vocal-trance scene, and his collaborations with vocalists including Susana, Tiff Lacey, and Christian Burns have become catalogue references.
 
@@ -111,7 +111,7 @@ Beyond original releases, Bobina hosts the Russian Trancemission radio show, whi
     banner: 'b-vocal',
     tags: ['BALEARIC', 'VOCAL TRANCE', 'GERMAN'],
     realName: 'Rauf Shah',
-    origin: 'Stuttgart, Germany',
+    origin: 'Esslingen am Neckar, Germany (near Stuttgart)',
     born: '1972',
     activeFrom: '1995',
     labels: ['Magic Island Records', 'Black Hole Recordings', 'Sirup Music'],

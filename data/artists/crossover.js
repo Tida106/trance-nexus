@@ -16,11 +16,11 @@ export const crossover = [
     banner: 'b-progressive',
     tags: ['PROGRESSIVE', 'UPLIFTING', 'DUTCH', 'ARMADA'],
     realName: 'Mark van der Velden',
-    origin: 'Netherlands',
-    activeFrom: '2010',
-    labels: ['Armada Music', 'A State of Trance', 'Coldharbour Recordings'],
+    origin: 'Breda, Netherlands',
+    activeFrom: '2007',
+    labels: ['Armada Music', 'A State of Trance', 'Mainstage Music', 'Anjunabeats'],
     topWorks: [
-      { title: 'Got to Believe', year: 2014, type: 'track' },
+      { title: 'You Got To Believe', year: 2014, type: 'track' },
       { title: 'Bring The Fire', year: 2026, type: 'track' },
     ],
     related: ['armin-van-buuren', 'andrew-rayel', 'ruben-de-ronde', 'cosmic-gate'],
@@ -37,10 +37,10 @@ export const crossover = [
       ja: 'メインステージ規模のプログレッシブ・トランス——メロディック・アップリフティング構造を持つドライヴィングな四つ打ち、フェスティバル級のアレンジメント、Armada現代ロースターが軸とするピークタイム・エネルギー。',
     },
     bio: {
-      en: `Mark Sixma is a Dutch DJ/producer, real name Mark van der Velden, who has been releasing on Armada Music since the early 2010s. His catalogue sits between progressive trance and mainstage uplifting, with releases including "Got to Believe" (2014) and a steady stream of singles and remixes through Armada and the A State of Trance imprint.
+      en: `Mark Sixma is a Dutch DJ/producer, real name Mark van der Velden, who has been releasing on Armada Music since the late 2000s. His catalogue sits between progressive trance and mainstage uplifting, with releases including "You Got To Believe" (2014) and a steady stream of singles and remixes through Armada and the A State of Trance imprint.
 
 His 2026 release "Bring The Fire" appears on the Energy mix of the A State of Trance 2026 compilation alongside Armin van Buuren and Lilly Palmer's "Dopamine Machine" — a placement covered in our February and May 2026 monthly chart articles. The track sits in the peak-time festival anthem template that has anchored Sixma's catalogue across the past five years.`,
-      ja: `マーク・シックスマはオランダのDJ／プロデューサー、本名Mark van der Velden。2010年代初頭からArmada Musicでリリースを続けている。カタログはプログレッシブ・トランスとメインステージ・アップリフティングの間に位置し、「Got to Believe」（2014）を含むリリース、ArmadaおよびA State of Tranceインプリントからのシングルおよびリミックスを安定して投下してきた。
+      ja: `マーク・シックスマはオランダのDJ／プロデューサー、本名Mark van der Velden。2000年代末からArmada Musicでリリースを続けている。カタログはプログレッシブ・トランスとメインステージ・アップリフティングの間に位置し、「You Got To Believe」（2014）を含むリリース、ArmadaおよびA State of Tranceインプリントからのシングルおよびリミックスを安定して投下してきた。
 
 2026年リリースの「Bring The Fire」はA State of Trance 2026コンピレーションのEnergyミックスに、Armin van BuurenおよびLilly Palmerの「Dopamine Machine」と並んで収録——本誌の2026年2月および5月の月間チャート記事で扱った配置だ。トラックは過去5年でシックスマのカタログを錨を下ろしてきたピークタイム・フェスティバル・アンセム・テンプレートに位置する。`,
     },
@@ -56,15 +56,16 @@ His 2026 release "Bring The Fire" appears on the Energy mix of the A State of Tr
     banner: 'b-progressive',
     tags: ['PROGRESSIVE', 'TRANCE', 'NORWEGIAN', 'ARMADA'],
     realName: 'Ørjan Nilsen',
-    origin: 'Hammerfest, Norway',
+    origin: 'Kirkenes, Norway',
     born: '1982',
     activeFrom: '2005',
-    labels: ['In My Opinion', 'Armada Music', 'A State of Trance'],
+    labels: ['Armada Music', 'A State of Trance', 'Armind'],
     topWorks: [
-      { title: 'Between the Rays', year: 2009, type: 'track' },
-      { title: 'La Guitarra', year: 2010, type: 'track' },
-      { title: 'So Long Radio', year: 2012, type: 'album' },
-      { title: 'Iconic', year: 2014, type: 'track' },
+      { title: 'La Guitarra', year: 2008, type: 'track' },
+      { title: 'So Long Radio', year: 2010, type: 'track' },
+      { title: 'Between the Rays', year: 2011, type: 'track' },
+      { title: 'In My Opinion', year: 2011, type: 'album' },
+      { title: 'Iconic', year: 2017, type: 'track' },
     ],
     related: ['armin-van-buuren', 'mark-sixma', 'andrew-rayel', 'ruben-de-ronde'],
     links: {
@@ -72,20 +73,20 @@ His 2026 release "Bring The Fire" appears on the Energy mix of the A State of Tr
     },
     sub: { en: 'Trance / Progressive', ja: 'トランス / プログレッシブ' },
     short: {
-      en: 'Norwegian DJ/producer in the Armada / In My Opinion roster, active since the late 2000s and a long-running ASOT family member.',
-      ja: 'Armada／In My Opinionロースターに所属する、Hammerfest出身のノルウェーのDJ／プロデューサー。2000年代後半から活動し、ASOTファミリーの長期メンバー。',
+      en: 'Norwegian DJ/producer on Armada Music, active since the mid-2000s and a long-running ASOT family member.',
+      ja: 'Armada Music所属のキルケネス出身ノルウェーのDJ／プロデューサー。2000年代半ばから活動し、ASOTファミリーの長期メンバー。',
     },
     style: {
       en: 'Genre-spanning trance — uplifting, progressive, electro, and big-room sit comfortably side-by-side in the same set, with strong melodic ear and the kind of arrangement craft that Armada\'s late-2000s peak refined.',
       ja: 'ジャンル横断のトランス——アップリフティング、プログレッシブ、エレクトロ、ビッグルームが同じセット内に違和感なく並び、強力なメロディックの耳と、Armadaの2000年代末ピーク期が洗練したタイプのアレンジメント技術を持つ。',
     },
     bio: {
-      en: `Ørjan Nilsen, born in Hammerfest in 1982, is one of the longest-serving members of the Armada Music / In My Opinion roster. His catalogue spans uplifting, progressive, electro and mainstage tracks, and he has been a consistent presence on A State of Trance episodes since the late 2000s.
+      en: `Ørjan Nilsen, born in Kirkenes in 1982, is one of the longest-serving members of the Armada Music roster. His catalogue spans uplifting, progressive, electro and mainstage tracks, and he has been a consistent presence on A State of Trance episodes since the mid-2000s.
 
-Major releases include "Between the Rays" (2009), "La Guitarra" (2010), the 2012 album So Long Radio, and "Iconic" (2014) — a span that covers the genre's late-2000s peak through the mid-2010s mainstage era. His 2014 collaboration with Armin van Buuren on the In My Opinion sub-label cycle and his frequent ASOT festival edition appearances place him among the core ASOT artists of the Armada modern era.`,
-      ja: `エルヤン・ニルセン、1982年Hammerfest生まれ。Armada Music／In My Opinionロースターに最も長く在籍するメンバーの一人。カタログはアップリフティング、プログレッシブ、エレクトロ、メインステージにまたがり、2000年代後半以降A State of Tranceエピソードの常連となっている。
+Major releases include "La Guitarra" (2008), "So Long Radio" (2010), "Between the Rays" (2011), the 2011 album In My Opinion, and "Iconic" (2017) — a span that covers the genre's late-2000s peak through the late-2010s mainstage era. His frequent ASOT festival edition appearances place him among the core ASOT artists of the Armada modern era.`,
+      ja: `エルヤン・ニルセン、1982年キルケネス（ノルウェー）生まれ。Armada Musicロースターに最も長く在籍するメンバーの一人。カタログはアップリフティング、プログレッシブ、エレクトロ、メインステージにまたがり、2000年代半ば以降A State of Tranceエピソードの常連となっている。
 
-主要リリースには「Between the Rays」（2009）、「La Guitarra」（2010）、2012年のアルバム『So Long Radio』、「Iconic」（2014）——ジャンルの2000年代末ピークから2010年代半ばのメインステージ時代までを跨ぐ期間。Armin van Buurenとの2014年共作およびIn My Opinionサブレーベル・サイクル、ASOTフェスティバル版への頻繁な出演により、Armada現代期のコアASOTアーティストの一人として位置づけられている。`,
+主要リリースには「La Guitarra」（2008）、「So Long Radio」（2010）、「Between the Rays」（2011）、2011年のアルバム『In My Opinion』、「Iconic」（2017）——ジャンルの2000年代末ピークから2010年代後半のメインステージ時代までを跨ぐ期間。ASOTフェスティバル版への頻繁な出演により、Armada現代期のコアASOTアーティストの一人として位置づけられている。`,
     },
     mentionedIn: [],
   },
@@ -132,8 +133,8 @@ Major releases include "Between the Rays" (2009), "La Guitarra" (2010), the 2012
     tags: ['HARD TRANCE', 'UPLIFTING', 'BRITISH', 'OPENMINDED'],
     realName: 'Ben Nicky',
     origin: 'United Kingdom',
-    activeFrom: '2010',
-    labels: ['Xtravaganza Recordings', 'Reaching Altitude', 'Lethal Recordings'],
+    activeFrom: '2007',
+    labels: ['Head F*k', 'Armada Music', 'Spinnin\' Records', 'Ultra', 'Vandit', 'A State of Trance'],
     topWorks: [],
     related: ['bryan-kearney', 'simon-patterson', 'sean-tyas', 'will-atkinson'],
     links: {

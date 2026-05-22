@@ -10,8 +10,8 @@ export const psy = [
     banner: 'b-psytrance',
     tags: ['PSYTRANCE', 'FULL-ON', 'PIONEER'],
     realName: 'Avi Shmailov',
-    origin: 'Tel Aviv, Israel',
-    born: '1980',
+    origin: 'Georgia (born); Tel Aviv, Israel (based)',
+    born: '1981',
     activeFrom: '1999',
     labels: ['HOMmega Productions', 'Trust in Trance Records'],
     topWorks: [
@@ -39,14 +39,14 @@ export const psy = [
       ja: '現代フルオン・サイトランス——ドライヴィングな145 BPMのベース＆キックパターン、複雑にレイヤーされたメロディック・リード、サイトランスのリズム的強度とプログレッシブ・トランスの物語的感性を融合させる映画的アレンジメント。',
     },
     bio: {
-      en: `Avi Shmailov, known to the world as Astrix, is one of the most recognisable faces of modern psytrance. Born in Tel Aviv in 1980, he came up through the explosive late-90s Israeli psytrance scene — a scene which took the genre's Goa roots and pushed them into the higher BPM, more melodic, more arrangement-heavy direction now called full-on. His debut album Eye to Eye (2002) and the follow-up Artcore (2004) helped define that modern full-on sound.
+      en: `Avi Shmailov, known to the world as Astrix, is one of the most recognisable faces of modern psytrance. Born in Georgia (then Georgian SSR) in 1981 and raised in Israel, he came up through the explosive late-90s Israeli psytrance scene — a scene which took the genre's Goa roots and pushed them into the higher BPM, more melodic, more arrangement-heavy direction now called full-on. His debut album Eye to Eye (2002) and the follow-up Artcore (2004) helped define that modern full-on sound.
 
 Through the 2000s and 2010s, Astrix built one of psytrance's most coherent global brands. He has performed at Boom Festival, Ozora, Burning Man, Tomorrowland, and just about every major psytrance event in the world. His Trust in Trance event series, launched in 2014 as a tribute to the influential mid-90s Israeli compilation series of the same name, has become a destination event with editions in Israel and around the world.
 
 Astrix is also notable for his activism on behalf of psytrance and dance music more broadly. He has spoken publicly about the genre's social impact, its capacity for connection, and the political importance of dance culture. He has also crossed over into the broader trance world in ways few psytrance artists have — collaborating with Vini Vici and Armin van Buuren on the 2017 ASOT-favourite "Alienn," which went on to become one of the biggest psy-trance crossover records of the modern era.
 
 Live, his sets are known for narrative pacing — long opening passages that build tension before unleashing peak-time energy. For listeners new to psytrance, his catalogue is a natural entry point: melodic enough to be accessible, technically sophisticated enough to reward deep listening, and connected to the broader trance world in ways that make the bridge between the genres clear.`,
-      ja: `世界に「Astrix」として知られるAvi Shmailovは、現代サイトランスで最も認知される顔の一人だ。1980年テルアビブ生まれ。爆発的な90年代後半のイスラエル・サイトランスシーンを経て登場した——ジャンルのゴア・ルーツを高BPM、よりメロディック、よりアレンジ重視の方向（現在「フルオン」と呼ばれる）へと押し進めたシーン。デビューアルバム『Eye to Eye』（2002）、続く『Artcore』（2004）はその現代フルオン・サウンドの定義を助けた。
+      ja: `世界に「Astrix」として知られるAvi Shmailovは、現代サイトランスで最も認知される顔の一人だ。1981年ジョージア（当時はグルジア・ソビエト社会主義共和国）生まれ、イスラエルで育った。爆発的な90年代後半のイスラエル・サイトランスシーンを経て登場した——ジャンルのゴア・ルーツを高BPM、よりメロディック、よりアレンジ重視の方向（現在「フルオン」と呼ばれる）へと押し進めたシーン。デビューアルバム『Eye to Eye』（2002）、続く『Artcore』（2004）はその現代フルオン・サウンドの定義を助けた。
 
 2000年代から2010年代を通じて、Astrixはサイトランスで最も一貫したグローバル・ブランドを築いた。Boom Festival、Ozora、Burning Man、Tomorrowland、世界のほぼあらゆる主要サイトランスイベントでパフォーマンスを行ってきた。2014年に立ち上げた「Trust in Trance」イベントシリーズは、影響力のあった90年代半ばの同名イスラエル・コンピレーション・シリーズへのオマージュとして始まり、イスラエル国内外で開催されるデスティネーション・イベントとなった。
 
@@ -70,9 +70,9 @@ Astrixはサイトランスとダンスミュージックを擁護するアク�
     banner: 'b-psytrance',
     tags: ['PSYTRANCE', 'FULL-ON', 'CROSSOVER'],
     realName: 'Aviram Saharai & Matan Kadosh',
-    origin: 'Tel Aviv, Israel',
-    born: '2014 (formed)',
-    activeFrom: '2014',
+    origin: 'Afula, Israel',
+    born: '2013 (formed)',
+    activeFrom: '2013',
     labels: ['Iboga Records', 'Armada Music', 'Alteza Records'],
     topWorks: [
       { title: 'Great Spirit (with Armin van Buuren ft. Hilight Tribe)', year: 2017, type: 'track' },
@@ -98,14 +98,14 @@ Astrixはサイトランスとダンスミュージックを擁護するアク�
       ja: 'フェスティバル規模のアレンジメント・バリューを持つ、巨大ルーム向けフルオン・サイトランス——部族的なボーカル・フック、アンセミックなメロディック・リード、サイトランス・サークル外のメインステージでも容易にプレイ可能にする洗練されたプロダクションの輝き。',
     },
     bio: {
-      en: `Vini Vici is the Israeli duo of Aviram Saharai and Matan Kadosh, who began collaborating under the name in 2014. Both members had been active in Israel's psytrance scene for years before forming the project — Saharai as Sesto Sento, Kadosh under various aliases — but it was their work as Vini Vici that broke through to global mainstream attention in a way no psytrance act had before.
+      en: `Vini Vici is the Israeli duo of Aviram Saharai and Matan Kadosh (both from Afula), who began collaborating under the name in 2013. Both members had been active in Israel's psytrance scene for years before forming the project — Saharai as Sesto Sento, Kadosh under various aliases — but it was their work as Vini Vici that broke through to global mainstream attention in a way no psytrance act had before.
 
 Their 2015 track "The Tribe" became a global psytrance anthem, but it was the 2017 collaboration with Armin van Buuren and Hilight Tribe, "Great Spirit," that truly transformed their profile. The track became one of the year's biggest dance music records globally, was named track of the year by Beatport's psytrance chart, and topped charts across multiple territories. It was the first time many mainstream EDM and trance fans had heard psytrance at all — and the genre's Tomorrowland and Ultra appearances multiplied accordingly.
 
 Subsequent collaborations with Talamasca, Liquid Soul, and Astrix consolidated their position at the top of the psytrance hierarchy. Their Alteza imprint, launched in 2019, has signed the next generation of psytrance and progressive psy talent. They have headlined every major psytrance festival in the world (Universo Paralello, Boom, Ozora) and have crossed over to ASOT events, Tomorrowland's main stages, and Burning Man.
 
 Vini Vici's commercial success has not been universally welcomed within the psytrance underground — some purists feel the duo's polished, mainstage-friendly sound betrays the genre's countercultural roots. Whatever side of that debate one falls on, the duo's role in elevating psytrance from a tribal subgenre to a global festival presence is undeniable, and their tracks remain among the most reliable peak-time weapons in any psy-curious DJ's arsenal.`,
-      ja: `Vini ViciはAviram SaharaiとMatan Kadoshによるイスラエルのデュオで、2014年からこの名前で共作を開始した。両メンバーともプロジェクト結成前から数年にわたりイスラエルのサイトランスシーンで活動していた——SaharaiはSesto Sento、Kadoshは複数のエイリアスで——が、これまでどのサイトランス・アクトもなしえなかった形でグローバルなメインストリームの注目を引き寄せたのはVini Vici名義での仕事だった。
+      ja: `Vini ViciはAviram SaharaiとMatan Kadoshによるイスラエルのデュオ（共にアフラ出身）で、2013年からこの名前で共作を開始した。両メンバーともプロジェクト結成前から数年にわたりイスラエルのサイトランスシーンで活動していた——SaharaiはSesto Sento、Kadoshは複数のエイリアスで——が、これまでどのサイトランス・アクトもなしえなかった形でグローバルなメインストリームの注目を引き寄せたのはVini Vici名義での仕事だった。
 
 2015年のトラック「The Tribe」はグローバルなサイトランス・アンセムとなったが、彼らのプロファイルを真に変容させたのは2017年のArmin van Buuren、Hilight Tribeとの共作「Great Spirit」だった。トラックはその年世界的に最大のダンスミュージック・レコードの一つとなり、Beatportのサイトランス・チャートで年間最優秀トラックに選ばれ、複数地域のチャートで首位を獲得。多くのメインストリームのEDMおよびトランス・ファンが初めてサイトランスを聴いた瞬間であり、ジャンルのTomorrowlandやUltraへの登場は飛躍的に増加した。
 
@@ -189,10 +189,10 @@ Infected Mushroomは長寿性でも特筆される。30年にわたり創造的�
     banner: 'b-progressive',
     tags: ['MELODIC TECHNO', 'PROGRESSIVE', 'AUDIOVISUAL'],
     realName: 'Matteo Milleri',
-    origin: 'Milan, Italy / Los Angeles, USA',
-    born: '1991',
+    origin: 'New York City, USA (Italian-American; Italy / Los Angeles based)',
+    born: '1988',
     activeFrom: '2021',
-    labels: ['Afterlife Records', 'Interstellar Recordings'],
+    labels: ['Afterlife Records'],
     topWorks: [
       { title: 'Genesys', year: 2023, type: 'album' },
       { title: 'Genesys II', year: 2023, type: 'album' },
@@ -249,7 +249,7 @@ While not strictly a trance artist by any narrow definition, Anyma's sound is bu
     banner: 'b-progressive',
     tags: ['PROGRESSIVE', 'PURE TRANCE', 'CURATOR'],
     realName: 'Richard Mowatt',
-    origin: 'London, United Kingdom',
+    origin: 'Dudley, United Kingdom',
     born: '1972',
     activeFrom: '1996',
     labels: ['Black Hole Recordings', 'Pure Trance Recordings'],

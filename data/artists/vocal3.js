@@ -192,7 +192,7 @@ Spotify月間リスナーは約8万2千人——快適に中堅層だが、ボ�
     banner: 'b-vocal',
     tags: ['VOCAL TRANCE', 'IRISH', 'FEMALE VOCALIST'],
     realName: 'Audrey Gallagher',
-    origin: 'Antrim, Northern Ireland',
+    origin: 'County Derry, Northern Ireland',
     born: '—',
     activeFrom: '2005',
     labels: ['Subculture', 'Armada Music', 'Black Hole Recordings'],
@@ -219,7 +219,7 @@ Spotify月間リスナーは約8万2千人——快適に中堅層だが、ボ�
       ja: '2000年代後半のクラシックな感性を持つ天使的なボーカル・トランス——クリアな音色のデリバリー、彼女のボーカル・ラインを軸に明示的に構築されたブレイクダウン、そしてDJがセットに情緒的な中心を必要とするときに手を伸ばすタイプのボーカル・アンセムを20年にわたって届ける持続的な能力。',
     },
     bio: {
-      en: `Audrey Gallagher was born in Antrim, Northern Ireland, and broke into the international trance scene through her 2007 collaboration with John O'Callaghan on "Big Sky" — a record that was championed by Armin van Buuren on A State of Trance, voted ASOT Tune of the Year by listener poll, received Irish Dance Music Awards and International Dance Music Awards nominations for Best Trance Single, and remains one of the most-played vocal-trance records of the era nearly twenty years after release.
+      en: `Audrey Gallagher was born in County Derry, Northern Ireland, and broke into the international trance scene through her 2007 collaboration with John O'Callaghan on "Big Sky" — a record that was championed by Armin van Buuren on A State of Trance, voted ASOT Tune of the Year by listener poll, received Irish Dance Music Awards and International Dance Music Awards nominations for Best Trance Single, and remains one of the most-played vocal-trance records of the era nearly twenty years after release.
 
 The "Big Sky" track has continued to spawn remixes well into the 2020s, including the Andrew Rayel remix (2014) and the Asteroid & Paul Skelton remix released on WAO138?! in 2023. Each new version has kept the original vocal performance in active rotation, and the cumulative effect across remixes has placed Gallagher's vocal among the most-broadcasted female vocal performances in trance history.
 
@@ -258,7 +258,7 @@ Spotify月間リスナーは約6万2千人で、大量のフィーチャー・�
       { title: 'Saving Light (with Gareth Emery & Standerwick)', year: 2017, type: 'track' },
       { title: 'A Thousand Seas (with MaRLo)', year: 2018, type: 'track' },
       { title: 'This Life (with Craig Connelly)', year: 2018, type: 'track' },
-      { title: "Echo (with RAM, FSOE777)", year: 2020, type: 'track' },
+      { title: "Echoes (with RAM)", year: 2022, type: 'track' },
       { title: 'Shelter (with Dash Berlin)', year: 2014, type: 'track' },
       { title: 'RØRY solo project', year: '2019–', type: 'project' },
     ],

@@ -70,8 +70,8 @@ In 2018 the project went through a public dispute when Sutorius announced he was
     banner: 'b-tech',
     tags: ['UPLIFTING', 'TECH', 'PURE TRANCE'],
     realName: 'Bryan Kearney',
-    origin: 'Cork, Ireland',
-    born: '1986',
+    origin: 'Dublin, Ireland',
+    born: '1984',
     activeFrom: '2006',
     labels: ['Kearnage Recordings', 'Future Sound of Egypt', 'Subculture'],
     topWorks: [
@@ -98,14 +98,14 @@ In 2018 the project went through a public dispute when Sutorius announced he was
       ja: 'ハードエッジな138 BPMテック・アップリフティング・トランス——ドライヴィングなアシッドベースライン、獰猛なリード、最大限の緊張のために構築されたブレイクダウン。プロダクションもDJセットも妥協なきピークタイム志向。',
     },
     bio: {
-      en: `Bryan Kearney is one of the leading lights of Ireland's surprisingly vibrant trance scene. Born in Cork in 1986, he came up through Cork's club scene before breaking out internationally in the late 2000s with releases on John O'Callaghan's Subculture label. From the start, his sound was uncompromising — fast, hard, technical 138 BPM trance with little patience for the softer melodic side of the genre.
+      en: `Bryan Kearney is one of the leading lights of Ireland's surprisingly vibrant trance scene. Born in Dublin in 1984, he came up through Ireland's club scene before breaking out internationally in the late 2000s with releases on John O'Callaghan's Subculture label. From the start, his sound was uncompromising — fast, hard, technical 138 BPM trance with little patience for the softer melodic side of the genre.
 
 His 2013 track "Goodbye" became a peak-time staple at Subculture and FSOE events worldwide and remains one of the era's defining tech-uplifting records. Later releases like "Pillarmid" and his collaborations with Plumb on "You Are" pushed his sound into more melodic territory while preserving the trademark drive. His Karnage Sessions radio show, founded in 2010, became a flagship for the harder side of modern trance and has hosted guest mixes from virtually every major name in the 138 BPM scene.
 
 Kearney's own Kearnage Recordings imprint has hosted releases from Will Atkinson, Mark Sherry, Allen Watts, and other heavyweights of the tech-trance world, helping to keep the harder 138 BPM tradition alive at a time when much of mainstream trance was softening. The annual KARNAGE event series in London and Dublin has become a pilgrimage for fans of the harder sound.
 
 He is also a constant presence on FSOE, Subculture, and Coldharbour-aligned events globally — a working DJ in the truest sense, on the road most weekends, delivering peak-time energy with a craftsman's discipline. For listeners drawn to trance's harder, faster, more uncompromising end, Bryan Kearney is one of its most reliable champions.`,
-      ja: `ブライアン・カーニーはアイルランドの意外に活気あるトランスシーンを牽引する一人だ。1986年コーク生まれ。コークのクラブシーンを経て、2000年代後半にJohn O'CallaghanのSubcultureレーベルからのリリースで国際的にブレイクした。当初から彼のサウンドは妥協を知らなかった——速く、ハードで、テクニカルな138 BPMトランス。ジャンルのソフトでメロディックな側面にほとんど忍耐を持たなかった。
+      ja: `ブライアン・カーニーはアイルランドの意外に活気あるトランスシーンを牽引する一人だ。1984年ダブリン生まれ。アイルランドのクラブシーンを経て、2000年代後半にJohn O'CallaghanのSubcultureレーベルからのリリースで国際的にブレイクした。当初から彼のサウンドは妥協を知らなかった——速く、ハードで、テクニカルな138 BPMトランス。ジャンルのソフトでメロディックな側面にほとんど忍耐を持たなかった。
 
 2013年のトラック「Goodbye」は世界中のSubcultureとFSOEイベントでピークタイムの定番となり、時代を定義するテック・アップリフティングのレコードの一つとして残っている。続く「Pillarmid」やPlumbとの「You Are」では、トレードマークのドライブを保ちながらもよりメロディックな領域へとサウンドを押し広げた。2010年に開始したラジオ番組「Karnage Sessions」は、現代トランスのハード側のフラッグシップとなり、138 BPMシーンのほぼすべての主要アーティストからのゲストミックスを擁してきた。
 
@@ -129,7 +129,7 @@ He is also a constant presence on FSOE, Subculture, and Coldharbour-aligned even
     banner: 'b-tech',
     tags: ['TECH', 'UPLIFTING', 'PIONEER'],
     realName: "John O'Callaghan",
-    origin: 'Tralee, Ireland',
+    origin: 'Navan, County Meath, Ireland',
     born: '1980',
     activeFrom: '2003',
     labels: ['Subculture', 'Discover Records', 'Armada Music'],
@@ -157,14 +157,14 @@ He is also a constant presence on FSOE, Subculture, and Coldharbour-aligned even
       ja: '映画的なアップリフティング・トランス——技術的、しばしばダークな潜流を伴う。ドライヴィングなベースライン、緻密なアレンジメント、情緒的に複雑なブレイクダウン。セットはメロディックなアップリフティングと、よりダークでハードなSubculture素材を融合させる。',
     },
     bio: {
-      en: `John O'Callaghan is one of the most respected DJ-producers to emerge from Ireland's late-2000s trance boom. Born in Tralee, he started DJing in his teens and broke through internationally in the mid-2000s with releases on Armada and Discover Records. His 2007 vocal collaboration with Audrey Gallagher, "Big Sky," became one of the era's defining vocal-uplifting moments and is still played at peak-time sets today.
+      en: `John O'Callaghan is one of the most respected DJ-producers to emerge from Ireland's late-2000s trance boom. Born in Navan, County Meath, he started DJing in his teens and broke through internationally in the mid-2000s with releases on Armada and Discover Records. His 2007 vocal collaboration with Audrey Gallagher, "Big Sky," became one of the era's defining vocal-uplifting moments and is still played at peak-time sets today.
 
 In 2008 he founded Subculture, a label and event series that became one of the most respected forces in the harder, more technical end of the genre. The Subculture compilation series — mixed by O'Callaghan, often alongside guest DJs like Bryan Kearney — captured the sound that the brand stood for: cinematic, technical, drive-forward trance with emotional depth and zero patience for cheap commercial moves.
 
 His album discography — Out of Nowhere (2010), Never Fade Away (2012), Find Yourself (2018) — explores the full range from hard tech-trance to vocal-led uplifting and contains some of the most ambitious long-form productions in the genre. "Stresstest" (2012) and his many collaborations with Bryan Kearney as Stoneface & Terminal-adjacent productions are essential listening for anyone interested in the technical end of modern trance.
 
 O'Callaghan has been a major touring force at venues including Avalon Hollywood, Output Brooklyn, the Coronet in London, and headlines FSOE and Group Therapy events worldwide. As an Irish DJ on the global stage, he has also helped legitimise Ireland's trance scene as more than just a regional curiosity — alongside Kearney, John Askew (UK), and others, he made 138 BPM tech-uplifting a core sound of the modern era.`,
-      ja: `ジョン・オカラハンはアイルランドの2000年代後半のトランス・ブームから登場した最も尊敬されるDJプロデューサーの一人だ。トラリー生まれ。10代でDJを始め、2000年代半ばにArmadaとDiscover Recordsからのリリースで国際的にブレイクした。2007年のAudrey Gallagherとのボーカル・コラボ「Big Sky」は時代を定義するボーカル・アップリフティングの瞬間の一つとなり、今もピークタイムのセットでプレイされている。
+      ja: `ジョン・オカラハンはアイルランドの2000年代後半のトランス・ブームから登場した最も尊敬されるDJプロデューサーの一人だ。ミース県ナヴァン生まれ。10代でDJを始め、2000年代半ばにArmadaとDiscover Recordsからのリリースで国際的にブレイクした。2007年のAudrey Gallagherとのボーカル・コラボ「Big Sky」は時代を定義するボーカル・アップリフティングの瞬間の一つとなり、今もピークタイムのセットでプレイされている。
 
 2008年にSubcultureを設立——よりハードで技術的なジャンルの側面で最も尊敬される勢力の一つとなったレーベル兼イベントシリーズ。Subcultureコンピレーション・シリーズはO'Callaghanによってミックスされ（しばしばBryan Kearneyのようなゲストとともに）、ブランドが体現するサウンドを捉えた——映画的、技術的、ドライブ志向、情緒的深みを持ち、安易な商業的動きへの忍耐ゼロのトランス。
 
@@ -197,7 +197,7 @@ O'Callaghanはアヴァロン・ハリウッド、Output Brooklyn、ロンドン
       { title: 'Melbourne', year: 2009, type: 'track' },
       { title: 'Rulebreaker', year: 2011, type: 'track' },
       { title: 'Degrees of Freedom', year: 2012, type: 'album' },
-      { title: 'Tytanium Sessions', year: '2008+', type: 'show' },
+      { title: 'Tytanium Sessions', year: '2011+', type: 'show / label' },
       { title: 'Banshee', year: 2018, type: 'track' },
     ],
     related: ['john-ocallaghan', 'bryan-kearney', 'simon-patterson', 'cosmic-gate'],
@@ -218,14 +218,14 @@ O'Callaghanはアヴァロン・ハリウッド、Output Brooklyn、ロンドン
     bio: {
       en: `Sean Tyas, born in New York and now based primarily in Frankfurt, is one of trance's most technically respected producers. After years of underground production work, his 2007 track "Lift" became an instant peak-time anthem — its punchy bass, synthesised hooks, and reference-level mixdown setting a new bar for what tech-uplifting trance could sound like. The track was widely championed by Armin van Buuren and quickly became an ASOT staple.
 
-His Tytanium Recordings label, founded in 2008, became a hub for technically-minded tech-uplifting and progressive trance, signing artists like Darren Porter, Activa, and Standerwick. The Tytanium Sessions radio show, running for over a decade, helped define the modern tech-uplifting palette. Albums like Degrees of Freedom (2012) explored the full range of his sound, from peak-time anthems to deeper progressive workouts.
+His Tytanium Recordings label, founded in 2011, became a hub for technically-minded tech-uplifting and progressive trance, signing artists like Darren Porter, Activa, and Standerwick. The Tytanium Sessions radio show, running for over a decade, helped define the modern tech-uplifting palette. Albums like Degrees of Freedom (2012) explored the full range of his sound, from peak-time anthems to deeper progressive workouts.
 
 Tyas has also been a sought-after collaborator: his work with Bryan Kearney, Simon Patterson, Giuseppe Ottaviani, and others has produced some of the era's most-loved tech-trance records. He is widely regarded as a producer's producer — frequently cited by other artists when asked which contemporary producers they study and respect.
 
 Live, his sets are characterised by relentless drive and surgical mixing. He has played every major trance event from ASOT and Luminosity to Tomorrowland's ASOT stage. While he does not court mainstream attention the way some of his peers do, he is one of the most widely respected DJs in the genre's harder community, and his back catalogue is essential study for anyone interested in modern trance production.`,
       ja: `ショーン・タイアスはニューヨーク生まれ、現在は主にフランクフルト在住。トランスで最も技術的に尊敬されるプロデューサーの一人だ。長年のアンダーグラウンドなプロダクション活動を経て、2007年のトラック「Lift」は即座のピークタイム・アンセムとなった——パンチの効いたベース、シンセ・フック、リファレンス級のミックスダウンが、テック・アップリフティング・トランスの新しい基準を打ち立てた。トラックはアーミン・ヴァン・ビューレンに広く支持され、瞬く間にASOTの定番となった。
 
-2008年に設立したTytanium Recordingsレーベルは、技術志向のテック・アップリフティングとプログレッシブ・トランスのハブとなり、Darren Porter、Activa、Standerwickらのアーティストを契約した。10年以上続くラジオ番組「Tytanium Sessions」は、現代のテック・アップリフティングのパレットを定義する助けとなった。アルバム『Degrees of Freedom』（2012）はピークタイム・アンセムからより深いプログレッシブの試みまで、彼のサウンドの全領域を探求した。
+2011年に設立したTytanium Recordingsレーベルは、技術志向のテック・アップリフティングとプログレッシブ・トランスのハブとなり、Darren Porter、Activa、Standerwickらのアーティストを契約した。10年以上続くラジオ番組「Tytanium Sessions」は、現代のテック・アップリフティングのパレットを定義する助けとなった。アルバム『Degrees of Freedom』（2012）はピークタイム・アンセムからより深いプログレッシブの試みまで、彼のサウンドの全領域を探求した。
 
 タイアスは引っ張りだこのコラボレーターでもある——Bryan Kearney、Simon Patterson、Giuseppe Ottavianiらとの仕事は、時代の最も愛されるテック・トランス・レコードのいくつかを生み出した。彼はプロデューサーのためのプロデューサーとして広く認められている——他のアーティストが現代のどのプロデューサーを研究・尊敬するかと尋ねられた際に頻繁に挙げられる名前だ。
 
@@ -247,13 +247,13 @@ Live, his sets are characterised by relentless drive and surgical mixing. He has
     banner: 'b-tech',
     tags: ['TECH', 'PSY-TECH', 'OPEN UP'],
     realName: 'Simon Patterson',
-    origin: 'Manchester, United Kingdom',
-    born: '1979',
+    origin: 'Belfast, Northern Ireland',
+    born: '1981',
     activeFrom: '2004',
     labels: ['Open Up Records', 'VII', 'Reaction'],
     topWorks: [
-      { title: 'Bulldozer', year: 2008, type: 'track' },
-      { title: 'F16', year: 2010, type: 'track' },
+      { title: 'Bulldozer', year: 2007, type: 'track' },
+      { title: 'F16', year: 2008, type: 'track' },
       { title: 'Open Up', year: '2011+', type: 'show' },
       { title: 'Smack', year: 2017, type: 'track' },
       { title: 'Always (with Lucy Pullin)', year: 2014, type: 'track' },
@@ -275,16 +275,16 @@ Live, his sets are characterised by relentless drive and surgical mixing. He has
       ja: 'アグレッシヴなサイ・テック・トランス——サイトランスから借用した速いハンマー・リズムのベースライン、技術的なミッドレンジのフック、妥協なきピークタイム・エネルギー。トラックは可能な限り最大の部屋のために設計された武器として機能する。',
     },
     bio: {
-      en: `Simon Patterson is one of the most influential figures in the harder, faster, more psychedelic end of trance. Active since the mid-2000s, he came to prominence with releases on Reaction Recordings and his 2008 track "Bulldozer" — a track whose name accurately describes the way it operates on a peak-time dancefloor.
+      en: `Simon Patterson is one of the most influential figures in the harder, faster, more psychedelic end of trance. Active since the mid-2000s, he came to prominence with releases on Reaction Recordings and his 2007 track "Bulldozer" — a track whose name accurately describes the way it operates on a peak-time dancefloor.
 
-Through the late 2000s and early 2010s, Patterson played a key role in establishing what came to be called "psy-tech" or "open-up" trance — a hybrid sound that took the rolling, hammer-rhythm basslines of psytrance and married them to the technical mid-range arrangements and peak-time architecture of tech-trance. Tracks like "F16" (2010) and "Always" with Lucy Pullin (2014) became reference points for the sound, and his 2017 single "Smack" updated the formula for a new generation.
+Through the late 2000s and early 2010s, Patterson played a key role in establishing what came to be called "psy-tech" or "open-up" trance — a hybrid sound that took the rolling, hammer-rhythm basslines of psytrance and married them to the technical mid-range arrangements and peak-time architecture of tech-trance. Tracks like "F16" (2008) and "Always" with Lucy Pullin (2014) became reference points for the sound, and his 2017 single "Smack" updated the formula for a new generation.
 
 His Open Up radio show, launched around 2011, became the central forum for the psy-tech scene, hosting guest mixes from artists like John Askew, Will Atkinson, Sean Tyas, and Activa. The show eventually spun off the Open Up Records imprint and a compilation series. Open Up's distinctive identity — harder, faster, weirder than mainstream uplifting trance — gave a generation of artists and fans a platform.
 
 Patterson is also a key collaborator with Activa (their joint VII label is one of the most respected boutique tech-trance imprints), and his work has influenced everyone from Bryan Kearney to younger psy-tech artists. While he is less commercially visible than the Armada-aligned superstars, in the psy-tech and harder-trance community he is regarded as a foundational figure — a producer whose name on a track is itself a recommendation.`,
-      ja: `サイモン・パターソンはトランスのよりハードで速く、よりサイケデリックな側面で最も影響力のある人物の一人だ。2000年代半ばから活動し、Reaction Recordingsからのリリースと2008年のトラック「Bulldozer」で名声を獲得した——その名前はピークタイムのダンスフロアでの動作を正確に描写している。
+      ja: `サイモン・パターソンはトランスのよりハードで速く、よりサイケデリックな側面で最も影響力のある人物の一人だ。2000年代半ばから活動し、Reaction Recordingsからのリリースと2007年のトラック「Bulldozer」で名声を獲得した——その名前はピークタイムのダンスフロアでの動作を正確に描写している。
 
-2000年代後半から2010年代初頭にかけて、パターソンは後に「サイ・テック」または「オープンアップ」トランスと呼ばれるようになるサウンドを確立する上で中心的役割を果たした——サイトランスの転がるハンマー・リズムのベースラインを、テック・トランスの技術的なミッドレンジ・アレンジメントとピークタイム・アーキテクチャと融合させたハイブリッド・サウンド。「F16」（2010）、Lucy Pullinとの「Always」（2014）はそのサウンドの基準点となり、2017年のシングル「Smack」は新世代のために方程式を更新した。
+2000年代後半から2010年代初頭にかけて、パターソンは後に「サイ・テック」または「オープンアップ」トランスと呼ばれるようになるサウンドを確立する上で中心的役割を果たした——サイトランスの転がるハンマー・リズムのベースラインを、テック・トランスの技術的なミッドレンジ・アレンジメントとピークタイム・アーキテクチャと融合させたハイブリッド・サウンド。「F16」（2008）、Lucy Pullinとの「Always」（2014）はそのサウンドの基準点となり、2017年のシングル「Smack」は新世代のために方程式を更新した。
 
 2011年頃に開始したラジオ番組「Open Up」はサイ・テック・シーンの中心的フォーラムとなり、John Askew、Will Atkinson、Sean Tyas、Activaらのゲストミックスを擁した。番組は最終的にOpen Up Recordsレーベルとコンピレーション・シリーズへとスピンオフした。Open Upの独特なアイデンティティ——メインストリームのアップリフティング・トランスよりもハードで速く、より風変わり——は一世代のアーティストとファンにプラットフォームを与えた。
 

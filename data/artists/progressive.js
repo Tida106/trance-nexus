@@ -17,10 +17,9 @@ export const progressive = [
     topWorks: [
       { title: 'Find Your Harmony', year: 2014, type: 'album' },
       { title: 'Moments', year: 2017, type: 'album' },
-      { title: 'Tacadum', year: 2013, type: 'track' },
+      { title: 'Tacadum', year: 2017, type: 'track' },
       { title: 'EIFORYA (with Armin van Buuren)', year: 2014, type: 'track' },
       { title: 'Dancing Alone', year: 2017, type: 'track' },
-      { title: 'Find Your Harmony Vol. 2', year: 2021, type: 'album' },
     ],
     related: ['armin-van-buuren', 'aly-and-fila', 'cosmic-gate', 'markus-schulz'],
     links: {
@@ -71,14 +70,14 @@ Rayel is also notable for representing Moldova on a global stage — a country w
     tags: ['UPLIFTING', 'EGYPT', 'PURE TRANCE'],
     realName: 'Aly Amr Fathalah & Fadi Wassef Naguib',
     origin: 'Cairo, Egypt',
-    born: '1981 (Aly), 1980 (Fadi)',
+    born: '1981 (both members)',
     activeFrom: '2002',
     labels: ['Future Sound of Egypt', 'FSOE Recordings', 'FSOE Excelsior'],
     topWorks: [
       { title: 'Rising Sun', year: 2010, type: 'album' },
       { title: 'Quiet Storm', year: 2014, type: 'album' },
       { title: 'The Other Shore', year: 2018, type: 'album' },
-      { title: 'Eye of Horus', year: 2007, type: 'track' },
+      { title: 'Eye of Horus', year: 2003, type: 'track' },
       { title: 'Beyond the Lights', year: 2020, type: 'track' },
       { title: 'It Will Be OK', year: 2017, type: 'track' },
     ],
@@ -200,7 +199,7 @@ In 2020 he launched The Saga, a multi-track concept release distributed only via
       { title: 'Wake Your Mind', year: 2011, type: 'album' },
       { title: 'Materia Chapter One/Two', year: 2017, type: 'album' },
       { title: 'Exploration of Space', year: 2002, type: 'track' },
-      { title: 'Be Your Sound', year: 2014, type: 'track' },
+      { title: 'Be Your Sound', year: 2011, type: 'track' },
     ],
     related: ['ferry-corsten', 'paul-van-dyk', 'markus-schulz', 'gareth-emery'],
     links: {

@@ -138,8 +138,8 @@ HewittはSpotify月間リスナーが約56万人と、20年にわたって築い
     banner: 'b-vocal',
     tags: ['VOCAL TRANCE', 'GARETH EMERY', 'FEMALE VOCALIST'],
     realName: 'Christina Novelli',
-    origin: 'London, United Kingdom',
-    born: '—',
+    origin: 'Southampton, United Kingdom (London-based)',
+    born: '1985',
     activeFrom: '2010',
     labels: ['Garuda', 'Armada Music', 'Anjunabeats'],
     topWorks: [
@@ -268,9 +268,6 @@ Susanaの特徴的な貢献は実験ではなく一貫性だ。一部のボー�
       { title: 'Reflections of You (with Trance Classics)', year: 2014, type: 'track' },
       { title: "Loving Overflow (with Aurosonic & AxelPolo)", year: 2017, type: 'track' },
       { title: 'Find Our Way Back Home (with Stargazers)', year: 2018, type: 'track' },
-      { title: '30 Vocal Trance Hits (compilation)', year: 2020, type: 'compilation' },
-      { title: 'Best of Vocal Trance (artist comp)', year: 2017, type: 'compilation' },
-      { title: 'Let Me Know (with Markus Schulz)', year: 2010, type: 'track' },
     ],
     related: ['markus-schulz', 'solarstone', 'cosmic-gate', 'john-ocallaghan'],
     links: {
