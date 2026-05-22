@@ -44,12 +44,24 @@ I came to trance not as a producer or DJ but as a listener on the dancefloor at 
       ja: '138 BPMのグルーヴ、舞い上がるリード、情緒的にカタルシス的なブレイクダウンを軸とするユーフォリックなトランスのサブジャンル。',
     },
     definition: {
-      en: `Uplifting trance is the most emotionally explicit subgenre of trance — designed to deliver moments of euphoric release through soaring lead synths, major-key chord progressions, and breakdowns that build to enormous, cathartic climaxes. The standard tempo is 138 BPM. Productions typically feature a rolling 16th-note bassline, a sidechained pad bed, and a melodic lead that takes over after the breakdown. The sound was largely defined in the late 1990s by Dutch and German producers including Ferry Corsten, Armin van Buuren, and Paul van Dyk, and remains the dominant style at events like A State of Trance and Future Sound of Egypt. Modern guardians of the sound include Aly & Fila, Andrew Rayel, and Bryan Kearney.`,
-      ja: `アップリフティング・トランスは最も情緒的に明示的なトランスのサブジャンルであり、舞い上がるリードシンセ、長調のコード進行、巨大でカタルシス的なクライマックスへと構築されるブレイクダウンを通じて、ユーフォリックな解放の瞬間を届けるよう設計されている。標準テンポは138 BPM。プロダクションは一般に、16分音符の転がるベースライン、サイドチェインされたパッドのベッド、ブレイクダウン後に主導権を握るメロディック・リードを特徴とする。1990年代後半にFerry Corsten、Armin van Buuren、Paul van Dykらオランダ・ドイツのプロデューサーによって大方定義され、A State of TranceやFuture Sound of Egyptといったイベントの主流スタイルとして残っている。現代の守護者にはAly & Fila、Andrew Rayel、Bryan Kearneyが含まれる。`,
+      en: `Uplifting trance is the most emotionally explicit subgenre of trance — designed to deliver moments of euphoric release through soaring lead synths, major-key chord progressions, and breakdowns that build to enormous, cathartic climaxes. The modern standard tempo sits around 138 BPM, fast enough to feel weightless but slow enough that the lead melodies remain singable. Where the early 1990s German sound was darker and more hypnotic, uplifting deliberately pushes everything toward light: bright supersaws, major-key harmony, and emotional rather than physical impact.
+
+The style was forged in the late 1990s and early 2000s by Dutch producers — Ferry Corsten, Armin van Buuren, and Tiësto — building on the Frankfurt blueprint but writing toward bigger, more melodic peaks. Armin's A State of Trance radio show, launched in 2001, became the primary global broadcast channel for the sound, and the annual ASOT events anchored it as a live format. From roughly 2008 the Egyptian duo Aly & Fila and their Future Sound of Egypt label (founded 2009) carried the torch when the broader scene drifted toward electro-house, and producers like Andrew Rayel, Bryan Kearney, and Sean Tyas extended the template through the 2010s.
+
+The production grammar is recognisable within seconds. A rolling 16th-note bassline locks under a four-on-the-floor kick. Sidechained pads create the pumping bed. The breakdown strips everything back to atmosphere and an emotional motif — often a piano, plucks, or a vocal line — then a long, escalating buildup adds layer after layer until the lead synth re-enters, often an octave higher than first heard. The drop is rarely a drop in the EDM sense; it is a re-entry, the return of motion.
+
+For me as a listener, uplifting is the shape of trance closest to what I felt at Tomorrowland 2018 — the body lift, the involuntary arms-up moment when the lead returns from the breakdown. After seven years of weekly A State of Trance listening I have come to recognise this specific feeling as the genre's signature, and uplifting is the subgenre that most directly engineers it. It is also the most demanding to listen to in long sets: the emotional dynamic range is the whole point.`,
+      ja: `アップリフティング・トランスは最も情緒的に明示的なトランスのサブジャンルであり、舞い上がるリードシンセ、長調のコード進行、巨大でカタルシス的なクライマックスへと構築されるブレイクダウンを通じてユーフォリックな解放の瞬間を届けるよう設計されている。現代の標準テンポは138 BPM前後で、無重力に感じるほど速く、しかしリードメロディが歌える程度には遅い。1990年代初頭のドイツのサウンドがより暗く催眠的だったのに対し、アップリフティングは意図的にすべてを光の方向へ押す——明るいスーパーソウ、長調のハーモニー、肉体的というより情緒的なインパクトへと。
+
+スタイルは1990年代後半から2000年代初頭にかけて、Ferry Corsten、Armin van Buuren、Tiëstoというオランダのプロデューサーたちによって、フランクフルトの青写真を基にしながらより大きく、よりメロディックなピークを目指して書き上げられて鍛えられた。Arminが2001年に立ち上げたA State of Tranceラジオショウは、このサウンドの主要なグローバル放送チャンネルとなり、毎年のASOTイベントがそれをライブ形式として定着させた。およそ2008年以降、エジプトのデュオAly & Filaと彼らのFuture Sound of Egyptレーベル（2009年設立）は、より広いシーンがエレクトロハウスへ漂流したときに灯火を担い、Andrew Rayel、Bryan Kearney、Sean Tyasらのプロデューサーが2010年代を通してテンプレートを拡張した。
+
+プロダクションの文法は数秒で識別できる。16分音符の転がるベースラインが四つ打ちキックの下でロックする。サイドチェインされたパッドがパンプするベッドを作り出す。ブレイクダウンはすべてを大気と情緒的モチーフ——多くはピアノ、プラック、ヴォーカルライン——に剥ぎ取り、その後長く昇り続けるビルドアップが層を重ね、リードシンセが最初に聴いたときよりしばしば1オクターブ高く再入場する。ドロップはEDM的な意味でのドロップではなく、再入場であり、運動の復帰である。
+
+リスナーとしての私にとって、アップリフティングは2018年のTomorrowlandで感じたものに最も近いトランスの形だ——身体のリフト、ブレイクダウンからリードが戻ってくる瞬間の不随意な腕を上げる動き。A State of Tranceを毎週聴く7年を経て、この特定の感覚をジャンルのシグネチャとして認識するようになり、アップリフティングはそれを最も直接的に設計するサブジャンルだ。同時に長尺セットで聴くには最も要求の多いサブジャンルでもある——情緒的なダイナミックレンジこそが眼目なのだ。`,
     },
-    related: ['trance', 'vocal-trance', 'progressive-trance', 'buildup', 'breakdown'],
-    artists: ['armin-van-buuren', 'aly-and-fila', 'andrew-rayel', 'ferry-corsten'],
-    posts: ['what-is-uplifting-trance', 'top-10-trance-subgenres-explained', 'iconic-trance-anthems-that-defined-an-era', 'best-uplifting-trance-tracks-of-all-time-50'],
+    related: ['trance', 'vocal-trance', 'progressive-trance', 'hard-trance', 'buildup', 'breakdown', 'asot'],
+    artists: ['armin-van-buuren', 'aly-and-fila', 'andrew-rayel', 'ferry-corsten', 'bryan-kearney', 'sean-tyas', 'dash-berlin'],
+    posts: ['what-is-uplifting-trance', 'top-10-trance-subgenres-explained', 'iconic-trance-anthems-that-defined-an-era', 'best-uplifting-trance-tracks-of-all-time-50', 'anatomy-of-uplifting-trance-anthem', 'a-state-of-trance-show-that-changed-everything'],
   },
 
   {
