@@ -118,19 +118,25 @@ mau5trapカタログはそこから高頻度で展開した——「Analog//DDoS
 
   {
     slug: 'w-and-w',
-    name: 'W&W',
+    name: 'W&amp;W',
     flag: '🇳🇱',
     emoji: '🎆',
     genre: 'UPLIFTING',
     banner: 'b-uplifting',
-    tags: ['BIG ROOM', 'UPLIFTING', 'PSY-TRANCE CROSSOVER', 'DUTCH', 'DUO', 'MAINSTAGE'],
+    tags: ['BIG ROOM', 'UPLIFTING', 'PSY-TRANCE CROSSOVER', 'DUTCH', 'DUO', 'MAINSTAGE', 'NWYR', 'RAVE CULTURE'],
     members: ['Willem van Hanegem Jr.', 'Wardt van der Harst'],
     origin: 'Breda / Dongen, Netherlands',
     activeFrom: '2007',
-    labels: ['Mainstage Music', 'Armada Music', 'Armind'],
+    labels: ['Mainstage Music (own, founded April 2012)', 'Rave Culture (rebrand of Mainstage Music, October 2018)', 'Armada Music', 'Armind'],
     topWorks: [
+      { title: 'Mustang', year: 2008, type: 'track (breakthrough)' },
+      { title: 'The Code', year: 2013, type: 'track' },
+      { title: 'Thunder', year: 2013, type: 'track' },
+      { title: 'Bigfoot', year: 2014, type: 'track (commercial peak)' },
       { title: 'If It Ain\'t Dutch (with Armin van Buuren)', year: 2015, type: 'track' },
+      { title: 'Voltage / Dragon (as NWYR)', year: 2017, type: 'tracks (psy-trance alias)' },
       { title: 'Put Em Up', year: 2017, type: 'track' },
+      { title: 'OIIA OIIA (Spinning Cat)', year: 2025, type: 'track (meme-based)' },
     ],
     related: ['armin-van-buuren', 'maddix', 'vini-vici', 'mark-sixma'],
     links: {
@@ -140,21 +146,29 @@ mau5trapカタログはそこから高頻度で展開した——「Analog//DDoS
     },
     sub: { en: 'Big Room / Uplifting / Psy-Trance Crossover', ja: 'ビッグルーム / アップリフティング / サイ・トランス・クロスオーバー' },
     short: {
-      en: 'Dutch duo (Willem van Hanegem Jr. & Wardt van der Harst) and founders of Mainstage Music. Started in uplifting trance, expanded into big-room and psy-trance crossover; long-running DJ Mag Top 25 presence.',
-      ja: 'オランダのデュオ（Willem van Hanegem Jr.とWardt van der Harst）でMainstage Musicの創設者。アップリフティング・トランスで始動し、ビッグルームおよびサイ・トランス・クロスオーバーへ拡張。DJ Mag Top 25に長期在籍。',
+      en: 'Dutch duo Willem van Hanegem Jr. (b. 1987, Breda) &amp; Wardt van der Harst (b. 1988, Dongen), founders of Mainstage Music (2012; rebranded Rave Culture 2018). Started in uplifting trance, peaked commercially with "Bigfoot" (2014), preserved their 138 BPM lineage via the NWYR psy-trance alias (2017–).',
+      ja: 'オランダのデュオ。Willem van Hanegem Jr.（1987年Breda生まれ）とWardt van der Harst（1988年Dongen生まれ）。Mainstage Music（2012年設立、2018年Rave Cultureへ改名）創設者。アップリフティング・トランスで始動し、「Bigfoot」（2014）で商業的ピークに到達、138 BPMの系譜をNWYRサイ・トランス・エイリアス（2017〜）で保存している。',
     },
     style: {
-      en: 'Mainstage-scale arrangement with a clean lineage back to uplifting trance — the duo\'s sets and recent catalogue fold big-room drop architecture, psy-trance percussion, and uplifting-anthem melodic content into one peak-time format that the Mainstage Music editorial direction has refined across the 2010s and 2020s.',
-      ja: 'アップリフティング・トランスへの明確な系譜を持つメインステージ規模のアレンジメント——デュオのセットおよび近年のカタログは、ビッグルーム・ドロップ建築、サイ・トランス・パーカッション、アップリフティング・アンセムのメロディック・コンテンツを、Mainstage Music編集方針が2010年代〜2020年代に洗練してきた一つのピークタイム形式へと折り込む。',
+      en: 'Mainstage-scale arrangement with a clean lineage back to uplifting trance — the duo\'s sets and recent catalogue fold big-room drop architecture, psy-trance percussion, and uplifting-anthem melodic content into one peak-time format that the Mainstage Music / Rave Culture editorial direction has refined across the 2010s and 2020s.',
+      ja: 'アップリフティング・トランスへの明確な系譜を持つメインステージ規模のアレンジメント——デュオのセットおよび近年のカタログは、ビッグルーム・ドロップ建築、サイ・トランス・パーカッション、アップリフティング・アンセムのメロディック・コンテンツを、Mainstage Music／Rave Culture編集方針が2010年代〜2020年代に洗練してきた一つのピークタイム形式へと折り込む。',
     },
     bio: {
-      en: `W&W are a Dutch DJ and production duo composed of Willem van Hanegem Jr. (Breda, 1987) and Wardt van der Harst (Dongen, 1988), who first met as fans in the crowd at Trance Energy 2007 and began producing together shortly after. The duo founded their own Mainstage Music label in 2012, which has since served as the editorial home for their catalogue and for adjacent producers in the same big-room / uplifting / psy-trance crossover lane.
+      en: `W&amp;W are a Dutch DJ and production duo composed of Willem van Hanegem Jr. (born 25 June 1987 in Breda) and Wardt van der Harst (born 26 December 1988 in Dongen). They first connected via Windows Live Messenger to swap unfinished productions, met in person at Trance Energy 2007 in the Netherlands, and began producing together shortly after — the 2008 single "Mustang" was their first international breakthrough and set the template for the festival-uplifting register that defined their early catalogue.
 
-Their 2015 collaboration with Armin van Buuren, "If It Ain't Dutch", arrived on Mainstage Music and stands among the duo's most-recognised crossover singles. Subsequent releases including "Put Em Up" (2017) extended the catalogue into the big-room and psy-trance-leaning material that has defined the duo's later live programme. W&W have held a long-running presence in the DJ Mag Top 100 — including over a decade inside the Top 25 — and continue to perform and release at the centre of the modern Mainstage / festival circuit.`,
-      ja: `W&WはWillem van Hanegem Jr.（Breda、1987年）とWardt van der Harst（Dongen、1988年）からなるオランダのDJ／プロダクション・デュオ。Trance Energy 2007のオーディエンスでファンとして初対面し、その後まもなく共同制作を開始した。デュオは2012年に自身のレーベルMainstage Musicを設立し、以降、彼らのカタログおよび同じビッグルーム／アップリフティング／サイ・トランス・クロスオーバー・レーンの隣接プロデューサーの編集本拠地として機能している。
+The 2012-2013 stretch was the duo's pivot point. They founded Mainstage Music as an Armada sub-label in April 2012 and used it to publish singles "The Code" (2013), "Thunder" (2013), and the catalogue's commercial peak "Bigfoot" (2014) — at which point the sound had moved decisively from 138 BPM uplifting trance into festival-format big-room house, mirroring the wider mainstage convergence that dominated 2013-2016 dance music. Collaborations with Hardwell, Armin van Buuren and the broader EDM Top 10 followed, and the duo's DJ Mag ranking peaked at 13th in 2016 with continuous Top 20 placement since 2011.
 
-2015年のArmin van Buurenとの共作「If It Ain\'t Dutch」はMainstage Musicからリリースされ、デュオの最も知られたクロスオーバー・シングルの一つとなった。「Put Em Up」（2017）を含むその後のリリースはカタログをデュオの後期ライブ・プログラムを定義することになるビッグルームおよびサイ・トランス寄りの素材へと拡張した。W&WはDJ Mag Top 100に長期在籍し——Top 25内には10年以上——現代のMainstage／フェスティバル・サーキットの中心で活動を続けている。`,
+The pure-trance side of the duo was preserved by launching the NWYR alias in 2017 as a dedicated psychedelic-trance / uplifting outlet, releasing tracks including "Voltage" and "Dragon" that returned to the kind of 138 BPM melodic content the original W&amp;W catalogue had largely vacated. The main label was rebranded to Rave Culture in October 2018 to match the duo's harder, more rave-oriented late-2010s direction, and the catalogue has continued at that pace into the 2020s — including the January 2025 single "OIIA OIIA (Spinning Cat)," built around an internet-meme cat audio loop that became one of the year's most-streamed Dutch dance releases.
+
+Operator's note. W&amp;W are a useful case study in how the festival-scale trance catalogue of the late 2000s split during the EDM era: the main project followed the big-room migration where the money was, while NWYR preserved the 138 BPM melodic ground the duo started on. The personal hook for me is that NWYR "Voltage" and W&amp;W "Bigfoot" sit on the same arrangement skeleton — long build, single hook, hard drop — but with completely different lead instruments and percussion DNA. Listening to them side by side is the cleanest demonstration of how much of 2010s trance was preserved as psychedelic-trance and how much migrated to big-room.`,
+      ja: `W&amp;WはWillem van Hanegem Jr.（1987年6月25日Breda生まれ）とWardt van der Harst（1988年12月26日Dongen生まれ）からなるオランダのDJ／プロダクション・デュオ。最初はWindows Live Messengerで未完成のプロダクションを交換し合うところから始まり、2007年のTrance Energyフェスティバル（オランダ）で初対面、その後すぐ共同制作を開始した——2008年シングル「Mustang」が最初の国際ブレイクスルーとなり、初期カタログを定義したフェスティバル・アップリフティング・レジスターのテンプレートを設定した。
+
+2012〜2013年の期間がデュオのピボット・ポイントとなった。2012年4月にArmadaサブレーベルとしてMainstage Musicを設立し、シングル「The Code」（2013）、「Thunder」（2013）、そしてカタログの商業的ピーク「Bigfoot」（2014）をリリース——この時点でサウンドは138 BPMアップリフティング・トランスからフェスティバル・フォーマットのビッグルーム・ハウスへと決定的に移行し、2013〜2016年のダンス・ミュージックを支配したより広いメインステージ収斂を反映した。Hardwell、Armin van Buuren、より広いEDM Top 10とのコラボが続き、デュオのDJ Magランキングは2016年に13位でピークを記録、2011年以降継続的にTop 20内に位置している。
+
+デュオの純粋トランス側はNWYRエイリアスを2017年にローンチすることで保存された——専用のサイケデリック・トランス／アップリフティング・アウトレットで、「Voltage」「Dragon」などのトラックを通じてオリジナルのW&amp;Wカタログが大半放棄した138 BPMメロディック・コンテンツへと回帰した。メイン・レーベルは2018年10月にRave Cultureへとリブランドされ、デュオのよりハードでよりレイヴ志向の2010年代後半方針に合致した——カタログは2020年代もそのペースで継続している——2025年1月のシングル「OIIA OIIA (Spinning Cat)」（インターネット・ミーム猫オーディオ・ループを軸に構築され、その年最もストリーミングされたダッチ・ダンス・リリースの一つとなった作品）を含む。
+
+オペレーター・ノート：W&amp;Wは2000年代末のフェスティバル規模トランス・カタログがEDM期にどのように分裂したかの有用なケース・スタディである：メイン・プロジェクトは金が流れていたビッグルームへの移行を追い、NWYRはデュオが出発した138 BPMメロディック地盤を保存した。私にとっての個人的フックは、NWYR「Voltage」とW&amp;W「Bigfoot」が同じアレンジメント骨格——長尺ビルド、単一フック、ハード・ドロップ——の上に位置しつつ、完全に異なるリード楽器とパーカッションDNAを持つこと。並べて聴くことは、2010年代トランスがどれだけサイケデリック・トランスとして保存され、どれだけビッグルームに移行したかの最も明瞭なデモンストレーションとなる。`,
     },
-    mentionedIn: [],
+    mentionedIn: ['top-trance-tracks-2010s', 'modern-trance-classics-2020s-so-far', 'defining-trance-anthems-2000s', 'what-is-uplifting-trance'],
   },
 ];
