@@ -12,32 +12,45 @@ export const uplifting5 = [
     emoji: '⚙️',
     genre: 'UPLIFTING',
     banner: 'b-uplifting',
-    tags: ['UPLIFTING', 'TECH UPLIFTING', 'AUSTRALIAN'],
+    tags: ['UPLIFTING', 'CLASSIC TRANCE', 'AUSTRALIAN'],
     realName: 'Brendan Blatt',
-    origin: 'Melbourne, Australia',
+    origin: 'Bayside, Melbourne, Australia',
     activeFrom: '2014',
-    labels: ['Pure Trance', 'Subculture', 'Future Sound of Egypt (FSOE)', 'Kearnage Recordings'],
+    labels: ['Pure Trance', 'Mythology Records', 'Future Sound of Egypt (FSOE)', 'Subculture', 'Amsterdam Trance', 'Blue Soho'],
     topWorks: [
-      { title: 'Stratos Galaxias', year: 2014, type: 'track (breakthrough)' },
+      { title: 'Stratos Galaxias', year: 2015, type: 'track (breakthrough, Mythology)' },
+      { title: 'Theatre of the Mind: Bloom (In Loving Memory)', year: 2025, type: 'album' },
     ],
-    related: ['bryan-kearney', 'will-atkinson', 'sneijder', 'sean-tyas'],
+    related: ['bryan-kearney', 'will-atkinson', 'sneijder', 'sean-tyas', 'solarstone', 'will-rees'],
     links: {
-      beatport: 'https://www.beatport.com/search?q=Factor+B',
+      beatport: 'https://www.beatport.com/artist/factor-b/128934',
     },
-    sub: { en: 'Uplifting / Tech Uplifting', ja: 'アップリフティング / テック・アップリフティング' },
+    sub: { en: 'Classic / Uplifting Trance', ja: 'クラシック / アップリフティング・トランス' },
     short: {
-      en: 'Melbourne-based Australian uplifting producer associated with Pure Trance, Subculture, FSOE, and Bryan Kearney\'s Kearnage Recordings.',
-      ja: 'Pure Trance、Subculture、FSOE、Bryan KearneyのKearnage Recordingsに連なるメルボルン拠点のオーストラリア人アップリフティング・プロデューサー。',
+      en: 'Melbourne-based Australian uplifting producer ("Stratos Galaxias", 2015) associated with Pure Trance, Mythology, FSOE, and Subculture — a self-declared classic-trance revivalist with eight Beatport #1s and the 2025 album Bloom (In Loving Memory).',
+      ja: '「Stratos Galaxias」（2015）で知られるメルボルン拠点のオーストラリア人アップリフティング・プロデューサー。Pure Trance、Mythology、FSOE、Subcultureに連なり、自称クラシック・トランス・リバイバリスト。Beatport 1位を8回獲得し、2025年にアルバム『Bloom (In Loving Memory)』をリリース。',
     },
     style: {
-      en: 'Driving 138-140 BPM uplifting with the harder, more rhythmically forward palette that the Kearnage / Subculture editorial direction has refined across the past decade.',
-      ja: '138〜140 BPMのドライヴィング・アップリフティングに、Kearnage／Subcultureの編集方針が過去10年で洗練してきたよりハードでリズム前面のパレット。',
+      en: 'Classic-era trance values carried into 2020s production: euphoric emotional melodies, orchestral pads, organic instrument layering and driving four-on-the-floor — explicitly anchored in the 1999–early-2000s aesthetic rather than the harder Kearnage / Outburst 140 lane.',
+      ja: '2020年代プロダクションに運ばれたクラシック期トランスの価値観：ユーフォリックなエモーショナル・メロディー、オーケストラル・パッド、生楽器のレイヤリング、ドライヴィングな四つ打ち——よりハードなKearnage／Outburst 140レーンではなく、1999〜2000年代初頭の美学に明示的に錨を下ろす。',
     },
     bio: {
-      en: `Factor B (real name Brendan Blatt) is a Melbourne-based Australian uplifting trance producer with a Beatport-charting catalogue across Pure Trance, John O'Callaghan's Subculture, FSOE, and Bryan Kearney's Kearnage Recordings. He broke through in mid-2014 with "Stratos Galaxias", and the catalogue has since sat in the harder, more rhythmically forward end of modern uplifting — the same Kearnage / Subculture lane that defines the contemporary 138-140 BPM peak-time sound — with releases appearing on Subculture episodes and ASOT rotation since the mid-2010s.`,
-      ja: `Factor B（本名Brendan Blatt）はPure Trance、John O\'CallaghanのSubculture、FSOE、Bryan KearneyのKearnage RecordingsにまたがるBeatportチャート入りカタログを持つメルボルン拠点のオーストラリア人アップリフティング・トランス・プロデューサー。2014年半ばに「Stratos Galaxias」でブレイクし、以降カタログは現代アップリフティングのよりハードでリズム前面の側——現代138〜140 BPMピークタイム・サウンドを定義するのと同じKearnage／Subcultureレーン——に位置し続けており、リリースは2010年代半ば以降SubcultureエピソードおよびASOTローテーションに登場している。`,
+      en: `Factor B is the production alias of Brendan Blatt, a Melbourne-based Australian trance DJ and producer who grew up in Bayside Melbourne and fell in love with trance around age 14 in 1999. He began as a vinyl-collecting DJ before moving into production after a short post-school producing course, and from there self-taught the rest of his studio chain. The catalogue's editorial centre of gravity is explicitly the classic 1999–early-2000s trance sound, which he has repeatedly described in interviews as the lineage he is trying to carry forward.
+
+His breakthrough came when his track "Stratos Galaxias" was picked up by UK duo Neptune Project, who opened their FSOE Colombia set with it in 2014 and then released it on their own Mythology Records in 2015. From there releases ran through Solarstone's Pure Trance (Factor B mixed a Pure Trance compilation for the label), Aly & Fila's Future Sound of Egypt, John O'Callaghan's Subculture, Amsterdam Trance, and Blue Soho — eight Beatport #1s and a touring profile that runs from intimate UK club nights up to Tomorrowland's mainstages. His most personal release to date is the 2025 album Theatre of the Mind: Bloom (In Loving Memory), released 17 January 2025 and dedicated to his late mother and fiancée — a record that pushed the catalogue further into the emotional / introspective uplifting lane.
+
+Within the broader scene Factor B sits among the small group of 2010s-onward producers actively reviving the classic-era uplifting aesthetic from inside the FSOE / Pure Trance editorial network, alongside names like Driftmoon, Darren Porter, and the Always Alive / Abora cluster, distinct from the harder Kearnage / Outburst 140 BPM lane.
+
+Personal listener note: I caught Factor B as part of a Pure Trance mix Solarstone curated when I was deepening my uplifting listening around 2019, and the trait that defined him for me was that the leads on his tracks audibly try to sound like late-1990s / early-2000s trance — long emotional melodies that crest and resolve rather than the modern 138-as-percussion lane. "Stratos Galaxias" is still the cleanest single statement of that approach.`,
+      ja: `Factor Bはメルボルン拠点のオーストラリア人トランスDJ／プロデューサー、Brendan Blattのプロダクション・エイリアス。Bayside Melbourneで育ち、1999年に14歳頃でトランスを愛するようになった。最初はヴァイナル収集型のDJとして始まり、その後高校卒業後の短いプロダクション・コースを経てプロダクションに移行、そこからスタジオ・チェーンの残りを自学した。カタログの編集的重心は明示的にクラシック1999〜2000年代初頭のトランス・サウンドであり、彼は度々インタビューでこの系譜こそが運び続けようとしている系譜だと述べている。
+
+ブレイクスルーはUKデュオNeptune Projectが彼のトラック「Stratos Galaxias」をピックアップし、2014年のFSOEコロンビア・セットのオープナーとして使用、その後2015年に自身のレーベルMythology Recordsからリリースしたことで訪れた。そこからリリースはSolarstoneのPure Trance（Factor BはレーベルのためにPure Tranceコンピを1枚ミックスした）、Aly & FilaのFuture Sound of Egypt、John O'CallaghanのSubculture、Amsterdam Trance、Blue Sohoを通じて展開した——Beatport 1位を8回獲得、ツーリング・プロフィールは英国の親密なクラブ・ナイトからTomorrowlandのメインステージまで及ぶ。これまでで最も個人的なリリースは2025年のアルバム『Theatre of the Mind: Bloom (In Loving Memory)』——2025年1月17日にリリースされ、亡き母と婚約者に捧げられた——カタログをさらにエモーショナル／内省的アップリフティング・レーンに押し進めた作品である。
+
+より広いシーンにおいてFactor Bは、FSOE／Pure Trance編集ネットワークの内部からクラシック期アップリフティング美学を能動的に蘇らせる2010年代以降のプロデューサーの小グループ——Driftmoon、Darren Porter、Always Alive／Aboraクラスターと並ぶ——に位置し、よりハードなKearnage／Outburst 140 BPMレーンとは区別される。
+
+個人的なリスナー・ノート：2019年頃にアップリフティング・リスニングを深めていた時、Solarstoneがキュレートしたピュア・トランス・ミックスの一部として彼を聴き、自分にとって彼を特徴づけた性質は、トラックのリードが1990年代末／2000年代初頭のトランスのように響こうと音響的に試みていること——138をパーカッションとして使う現代レーンではなく、長くてエモーショナルなメロディーが頂点を迎えて解決していくこと——だった。「Stratos Galaxias」はそのアプローチの最も明瞭な単一ステートメントとして今も健在である。`,
     },
-    mentionedIn: [],
+    mentionedIn: ['what-is-uplifting-trance', 'best-uplifting-trance-tracks-of-all-time-50', 'modern-trance-classics-2020s-so-far', 'essential-trance-labels-2026', 'anatomy-of-uplifting-trance-anthem'],
   },
 
   {
