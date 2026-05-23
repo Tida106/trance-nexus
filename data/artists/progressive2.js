@@ -160,7 +160,7 @@ Cattáneo's weekly Resident radio show has been broadcasting since 2003 — maki
 
 ブエノスアイレスのMandarine Parkで開催される屋外パーティーは日没から翌朝まで続くのが定例で、世界中のプログレッシブ・ハウス・ファンにとっての年次巡礼地となっている。アルゼンチンのDJ Mag第1位を10年以上にわたり保持。`,
     },
-    mentionedIn: [],
+    mentionedIn: ['what-is-progressive-trance', 'best-progressive-trance-tracks-of-all-time-50', 'best-trance-tracks-2010s', 'modern-trance-classics-2020s-so-far'],
   },
 
   {
@@ -392,6 +392,6 @@ Warren has run his own Hope Recordings since the early 2000s and continues to ho
 
 Warrenは自身のHope Recordingsを運営し、ラジオ「The Soundgarden」とパーティーを世界各地で展開し続けている。オリジナルのUKプログレッシブ・ハウス世代の中で、Sasha、Digweed、Oakenfoldと並ぶ定義的な存在。`,
     },
-    mentionedIn: [],
+    mentionedIn: ['what-is-progressive-trance', 'best-progressive-trance-tracks-of-all-time-50', 'history-of-trance-music'],
   },
 ];
