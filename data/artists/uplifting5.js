@@ -84,37 +84,49 @@ His 2026 release "Diskotek" appears on the Energy mix of the A State of Trance 2
   {
     slug: 'will-rees',
     name: 'Will Rees',
-    flag: '🇬🇧',
+    flag: '🏴󠁧󠁢󠁷󠁬󠁳󠁿',
     emoji: '🌊',
     genre: 'UPLIFTING',
     banner: 'b-uplifting',
-    tags: ['UPLIFTING', 'TECH UPLIFTING', 'BRITISH'],
-    origin: 'United Kingdom',
-    activeFrom: '2015',
-    labels: ['Future Sound of Egypt (FSOE)', 'Subculture', 'Coldharbour Recordings'],
-    topWorks: [],
-    related: ['allen-watts', 'will-atkinson', 'standerwick', 'sneijder'],
+    tags: ['UPLIFTING', 'TECH TRANCE', 'WELSH'],
+    origin: 'Wales, United Kingdom',
+    activeFrom: '2008',
+    labels: ['Future Sound of Egypt (FSOE)', 'Subculture', 'Kearnage Recordings', 'Outburst Records', 'Armada Music', 'Black Hole Recordings'],
+    topWorks: [
+      { title: 'Pendulum (with Allen Watts)', year: 2025, type: 'track' },
+      { title: 'Fixation', year: 2025, type: 'track' },
+      { title: 'Invert', year: 2025, type: 'track (Outburst)' },
+    ],
+    related: ['allen-watts', 'will-atkinson', 'bryan-kearney', 'sneijder', 'standerwick', 'factor-b'],
     links: {
-      beatport: 'https://www.beatport.com/search?q=Will+Rees',
+      beatport: 'https://www.beatport.com/artist/will-rees/71114',
     },
-    sub: { en: 'Uplifting / Tech Uplifting', ja: 'アップリフティング / テック・アップリフティング' },
+    sub: { en: 'Uplifting / Tech Trance', ja: 'アップリフティング / テック・トランス' },
     short: {
-      en: 'British uplifting producer with FSOE / Subculture / Coldharbour releases and a recurring collaboration history with Allen Watts.',
-      ja: 'FSOE／Subculture／Coldharbourからリリースを重ね、Allen Wattsとの度重なる共作で知られる英国のアップリフティング・プロデューサー。',
+      en: 'Welsh uplifting & tech-trance producer ("the Welsh Wizard") with FSOE, Subculture, Kearnage, and Outburst releases, and a Beatport-charting 2025 Allen Watts collaboration "Pendulum".',
+      ja: 'FSOE、Subculture、Kearnage、Outburstからのリリースを持ち、2025年のAllen Wattsとの共作「Pendulum」がBeatportチャート入りした、ウェールズの「Welsh Wizard」と呼ばれるアップリフティング／テック・トランス・プロデューサー。',
     },
     style: {
-      en: 'Modern 138 BPM uplifting with tech-influenced rhythm programming — sits between the Allen Watts / Will Atkinson tech-uplifting register and the FSOE-aligned mainstream peak-time direction.',
-      ja: 'テック志向のリズム・プログラミングを伴う現代138 BPMアップリフティング——Allen Watts／Will Atkinsonのテック・アップリフティング・レジスターと、FSOE系列の主流ピークタイム方向の中間に位置する。',
+      en: 'Driving 140-142 BPM uplifting and tech-trance — euphoric leads carried over harder, peak-time percussion, sitting between the Allen Watts tech-uplifting register and the Kearnage / FSOE main-floor direction.',
+      ja: '140〜142 BPMのドライヴィング・アップリフティングおよびテック・トランス——よりハードなピークタイム・パーカッションの上に運ばれるユーフォリック・リード。Allen Wattsのテック・アップリフティング・レジスターとKearnage／FSOEメインフロア方向の中間に位置する。',
     },
     bio: {
-      en: `Will Rees is a British uplifting trance producer whose catalogue spans FSOE, Subculture, and Coldharbour Recordings, with a recurring collaboration history with Allen Watts that has placed several joint releases into the modern 138 BPM peak-time rotation.
+      en: `Will Rees is a Welsh trance DJ and producer — sometimes nicknamed "the Welsh Wizard" — specialising in uplifting and tech-trance. He grew up in Wales listening to his older brother's CDs in the late 1990s and studied music technology at college from age 18, then took up a residency at Swansea's Escape (one of Wales's flagship trance clubs at its peak) by age 20. That club residency is the foundation his production career grew out of, with his first commercial releases following in the early 2010s.
 
-His releases sit in the same tech-uplifting lane as Will Atkinson and the Allen Watts catalogue, and the collaboration network places him alongside the broader FSOE / Subculture producer pool that has driven the genre's late-2010s and 2020s release calendar.`,
-      ja: `ウィル・リースはFSOE、Subculture、Coldharbour Recordingsにまたがるカタログを持つ英国のアップリフティング・トランス・プロデューサー。Allen Wattsとの度重なる共作により、複数の共同リリースが現代138 BPMピークタイム・ローテーションに位置づけられている。
+His catalogue runs through several of the modern uplifting and tech-trance label homes: Aly & Fila's Future Sound of Egypt, John O'Callaghan's Subculture, Bryan Kearney's Kearnage Recordings, Mark Sherry's Outburst, plus Black Hole and Armada releases. He has remixed Armin van Buuren, Gareth Emery, Bryan Kearney, Sneijder, Mark Sherry, and Craig Connelly across the catalogue. His 2025 run was particularly visible — the FSOE single "Fixation", the Outburst release "Invert", and the Allen Watts collaboration "Pendulum" (FSOE, 14 March 2025), which hit the No. 1 spot on the Beatport Trance Main Floor chart and was played as an ID on A State of Trance 1214.
 
-リリースはWill AtkinsonやAllen Wattsのカタログと同じテック・アップリフティング・レーンに位置し、コラボレーション・ネットワークはジャンルの2010年代後半および2020年代のリリース・カレンダーを駆動してきたより広いFSOE／Subcultureプロデューサー・プールに彼を位置づける。`,
+Within the broader trance landscape Will Rees sits in the tech-trance / hard-uplifting overlap — the same lane the Kearnage, Outburst and tougher end of the FSOE roster occupies. He's an itinerant touring DJ across the UK, Europe, North and South America rather than a festival-headliner figure, and his profile has grown specifically through that touring + 140-142 BPM peak-time production loop.
+
+Personal listener note: I started weekly ASOT around early 2019, and Will Rees was one of the producer names whose tracks would surface in the back half of the show whenever Armin programmed a harder section. The signature trait I associate with the catalogue is that 140-142 BPM register where the lead is still genuinely euphoric — not a tech-trance lead borrowed from techno but a real uplifting hook — and the percussion underneath does the heavy lifting. "Pendulum" is the cleanest illustration of that approach in the 2025 catalogue.`,
+      ja: `ウィル・リースはウェールズのトランスDJ／プロデューサーで、時に「Welsh Wizard」と呼ばれる、アップリフティングおよびテック・トランスを専門とする人物。1990年代末に兄のCDを聴きながらウェールズで育ち、18歳から大学で音楽技術を学び、その後20歳でウェールズのフラッグシップ・トランス・クラブの一つだったスウォンジーのEscapeでレジデントを務めた。このクラブ・レジデンシーがプロダクション・キャリアの基盤となり、最初の商業リリースは2010年代初頭から続いた。
+
+カタログは現代のアップリフティングおよびテック・トランスのレーベル本拠地の複数を通じて展開する——Aly & FilaのFuture Sound of Egypt、John O'CallaghanのSubculture、Bryan KearneyのKearnage Recordings、Mark SherryのOutburst、加えてBlack HoleおよびArmadaリリース。カタログを通じてArmin van Buuren、Gareth Emery、Bryan Kearney、Sneijder、Mark Sherry、Craig Connellyのリミックスも手掛けている。2025年の動きは特に目立つもので——FSOEシングル「Fixation」、Outburstリリース「Invert」、そしてAllen Wattsとの共作「Pendulum」（FSOE、2025年3月14日）はBeatport Trance Main Floorチャートの1位に到達し、A State of Trance 1214でIDとしてプレイされた。
+
+より広いトランス・ランドスケープにおいて、Will Reesはテック・トランス／ハード・アップリフティングの重なり——Kearnage、Outburst、FSOEロースターのよりハードな側面が占めるのと同じレーン——に位置する。フェスティバル・ヘッドライナー型の人物というよりは、英国、欧州、南北米を巡回するツーリングDJであり、そのツーリングと140〜142 BPMピークタイム・プロダクションのループを通じて具体的にプロフィールを高めてきた。
+
+個人的なリスナー・ノート：2019年初頭から週次でASOTを聴き始めて、Armanがよりハードなセクションを組む時にショーの後半で浮上するプロデューサー名の一人がWill Reesだった。カタログに対して紐づくシグネチャーは、リードが本当にユーフォリック——テクノから借りてきたテック・トランス・リードではなく本物のアップリフティング・フック——でありながら、下のパーカッションが重い仕事を担う140〜142 BPMレジスター。「Pendulum」は2025年カタログにおけるそのアプローチの最も明瞭な例示である。`,
     },
-    mentionedIn: [],
+    mentionedIn: ['what-is-uplifting-trance', 'best-uplifting-trance-tracks-of-all-time-50', 'modern-trance-classics-2020s-so-far', 'essential-trance-labels-2026', 'why-trance-music-endures'],
   },
 
   {
