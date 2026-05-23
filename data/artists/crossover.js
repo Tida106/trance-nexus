@@ -63,11 +63,12 @@ His 2026 release "Bring The Fire" appears on the Energy mix of the A State of Tr
     topWorks: [
       { title: 'La Guitarra', year: 2008, type: 'track' },
       { title: 'So Long Radio', year: 2010, type: 'track' },
-      { title: 'Between the Rays', year: 2011, type: 'track' },
+      { title: 'Lovers Lane', year: 2010, type: 'track' },
       { title: 'In My Opinion', year: 2011, type: 'album' },
-      { title: 'Iconic', year: 2017, type: 'track' },
+      { title: 'No Saint Out of Me', year: 2013, type: 'album' },
+      { title: 'Prism', year: 2018, type: 'album' },
     ],
-    related: ['armin-van-buuren', 'mark-sixma', 'andrew-rayel', 'ruben-de-ronde'],
+    related: ['armin-van-buuren', 'mark-sixma', 'andrew-rayel', 'ruben-de-ronde', 'cosmic-gate', 'ferry-corsten'],
     links: {
       beatport: 'https://www.beatport.com/search?q=Orjan+Nilsen',
     },
@@ -81,14 +82,22 @@ His 2026 release "Bring The Fire" appears on the Energy mix of the A State of Tr
       ja: 'ジャンル横断のトランス——アップリフティング、プログレッシブ、エレクトロ、ビッグルームが同じセット内に違和感なく並び、強力なメロディックの耳と、Armadaの2000年代末ピーク期が洗練したタイプのアレンジメント技術を持つ。',
     },
     bio: {
-      en: `Ørjan Nilsen, born in Kirkenes in 1982, is one of the longest-serving members of the Armada Music roster. His catalogue spans uplifting, progressive, electro and mainstage tracks, and he has been a consistent presence on A State of Trance episodes since the mid-2000s.
+      en: `Ørjan Nilsen is a Norwegian DJ and producer born in 1982 in Kirkenes, a small town in the far north of Norway near the Russian border. He has been a fixture of the Armada Music ecosystem since the mid-2000s, and his catalogue ranges across uplifting, progressive, electro and mainstage trance — the kind of broad sonic identity that the Armada modern era was built on rather than any single subgenre lane.
 
-Major releases include "La Guitarra" (2008), "So Long Radio" (2010), "Between the Rays" (2011), the 2011 album In My Opinion, and "Iconic" (2017) — a span that covers the genre's late-2000s peak through the late-2010s mainstage era. His frequent ASOT festival edition appearances place him among the core ASOT artists of the Armada modern era.`,
-      ja: `エルヤン・ニルセン、1982年キルケネス（ノルウェー）生まれ。Armada Musicロースターに最も長く在籍するメンバーの一人。カタログはアップリフティング、プログレッシブ、エレクトロ、メインステージにまたがり、2000年代半ば以降A State of Tranceエピソードの常連となっている。
+His relationship with Armada began with the 2006 release "Red Woods" under his DJ Governor alias, after which he settled into releasing primarily under his own name. Signature singles include "La Guitarra" (2008), "So Long Radio" and "Lovers Lane" (both 2010), and his three artist albums on Armada: In My Opinion (2011), No Saint Out of Me (2013), and Prism (2018). Across those records and the singles around them he became a regular ID-spot artist on Armin van Buuren's A State of Trance radio show and a recurring booking on the ASOT festival editions.
 
-主要リリースには「La Guitarra」（2008）、「So Long Radio」（2010）、「Between the Rays」（2011）、2011年のアルバム『In My Opinion』、「Iconic」（2017）——ジャンルの2000年代末ピークから2010年代後半のメインステージ時代までを跨ぐ期間。ASOTフェスティバル版への頻繁な出演により、Armada現代期のコアASOTアーティストの一人として位置づけられている。`,
+Nilsen occupies a particular position in the trance ecosystem: not narrowly an uplifting purist, not a fully crossed-over big-room producer, but a Norwegian craftsman who has stayed close to the Armada family through three eras — the late-2000s Dutch-trance peak, the 2010s mainstage convergence, and the current revival period. That long-arc loyalty is what makes him a recognisable "ASOT family" name rather than just another Armada signing.
+
+For the operator, Ørjan's tracks were a steady undercurrent of A State of Trance listening in the years after Tomorrowland 2018 — never the headline anthem of any given episode, but the kind of melodic, slightly off-centre track that you keep recognising as his within a few bars. That signature is the real career.`,
+      ja: `エルヤン・ニルセンは1982年ノルウェー生まれのDJ／プロデューサー。出身地はロシア国境近く、ノルウェー最北部の小さな町キルケネスである。2000年代半ばからArmada Musicエコシステムの定番アーティストとして活動し、カタログはアップリフティング、プログレッシブ、エレクトロ、メインステージ・トランスにまたがる——単一サブジャンルのレーンというより、Armada現代期そのものを支えてきた幅広いサウンド・アイデンティティ。
+
+Armadaとの関係は、2006年DJ Governor名義のリリース「Red Woods」から始まり、その後は主に本名名義でのリリースに落ち着いた。代表シングルには「La Guitarra」（2008）、「So Long Radio」「Lovers Lane」（共に2010）、そしてArmadaから出した3枚のアーティスト・アルバム——『In My Opinion』（2011）、『No Saint Out of Me』（2013）、『Prism』（2018）——がある。これらのアルバムとその周辺シングルを通じて、Armin van BuurenのA State of Tranceラジオショウの常連IDアーティストとなり、ASOTフェスティバル版への定期的なブッキング対象となった。
+
+ニルセンはトランス・エコシステム内で独特の位置を占める：狭義のアップリフティング純粋主義者でもなく、完全にクロスオーバーしたビッグルーム・プロデューサーでもなく、Armadaファミリーに3つの時代を通じて寄り添ってきたノルウェー人クラフツマン——2000年代末オランダ・トランス・ピーク期、2010年代メインステージ収束期、そして現在の復活期。この長期的な忠誠こそが、彼を単なるArmadaサイン・アーティストではなく「ASOTファミリー」の名として認知させている。
+
+オペレーターにとって、エルヤンのトラックはTomorrowland 2018後のA State of Tranceリスニング年月の安定した底流だった——どのエピソードの目玉アンセムでもないが、数小節で「これは彼だ」と認識できるメロディックでわずかに外したトラック。そのシグネチャーこそ実際のキャリアである。`,
     },
-    mentionedIn: [],
+    mentionedIn: ['armin-van-buuren-king-of-trance', 'a-state-of-trance-show-that-changed-everything', 'asot-25-years-anniversary', 'best-trance-tracks-of-all-time-100', 'iconic-trance-anthems-that-defined-an-era'],
   },
 
   {
