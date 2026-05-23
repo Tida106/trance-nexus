@@ -42,8 +42,9 @@ const creamfields = {
     { year: 2023, dates: 'August 24–27' },
     { year: 2022, dates: 'August 25–28' },
     { year: 2019, dates: 'August 22–25' },
-    { year: 2006, note: 'Festival relocated to Daresbury (originally Liverpool / Cheshire varied)' },
-    { year: 1998, note: 'Inaugural edition (Cream Liverpool 5th-anniversary one-off)' },
+    { year: 2006, note: 'Festival relocated to Daresbury Estate, Cheshire' },
+    { year: 1999, note: 'Moved to Liverpool Airfield (Speke), Merseyside' },
+    { year: 1998, note: 'Inaugural edition at Matterley Estate, Winchester, Hampshire (Cream 5th-anniversary one-off; May 2)' },
   ],
 
   official_url: 'https://www.creamfields.com',
