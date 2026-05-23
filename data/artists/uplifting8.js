@@ -63,7 +63,9 @@ In 2017 the project launched its own Armada-affiliated imprint Aerys Records as 
     genre: 'UPLIFTING',
     banner: 'b-uplifting',
     tags: ['UPLIFTING', 'MELODIC TRANCE', 'GERMAN', 'MULTI-LABEL'],
+    realName: 'Thomas Gatzka',
     origin: 'Düsseldorf, Germany',
+    activeFrom: '2011',
     labels: [
       'Armada Music',
       'Black Hole Recordings',
@@ -72,32 +74,44 @@ In 2017 the project launched its own Armada-affiliated imprint Aerys Records as 
       'Universal Nation',
       'Euphonic',
       'Entrancing Music',
-      'Always Alive Recordings',
+      'Suanda Music',
+      'Abora Recordings',
+      'Find Your Harmony',
     ],
-    topWorks: [],
-    related: ['ronski-speed', 'allen-watts', 'ben-gold', 'daxson'],
+    topWorks: [
+      { title: 'More Nights In Neverland', year: 2012, type: 'track' },
+      { title: 'A Morning at the Sea (with DJ Ives M)', year: 2011, type: 'track' },
+      { title: 'Shapes in the Darkness', year: 2014, type: 'track' },
+      { title: 'Into the Ocean', year: 2015, type: 'track' },
+      { title: 'See You Again', year: 2018, type: 'track' },
+    ],
+    related: ['ronski-speed', 'allen-watts', 'ben-gold', 'daxson', 'dim3nsion', 'stoneface-and-terminal'],
     links: {
       beatport: 'https://www.beatport.com/artist/dj-t-h/168845',
       facebook: 'https://www.facebook.com/DeejayT.H.Trance/',
     },
     sub: { en: 'Uplifting / Melodic Trance', ja: 'アップリフティング / メロディック・トランス' },
     short: {
-      en: 'German DJ and producer from Düsseldorf, with releases across a wide spread of trance imprints including Black Hole, AVA, HeavensGate, Euphonic, and Always Alive Recordings.',
-      ja: 'デュッセルドルフ出身のドイツのDJ／プロデューサー。Black Hole、AVA、HeavensGate、Euphonic、Always Alive Recordingsなど幅広いトランス・インプリントにわたるリリースを持つ。',
+      en: 'German DJ and producer Thomas Gatzka, based in Düsseldorf, with releases across a wide spread of trance imprints including Armada, Black Hole, AVA, HeavensGate, Euphonic, Suanda, and Abora Recordings.',
+      ja: 'デュッセルドルフを拠点とするドイツのDJ／プロデューサー、トーマス・ガツカ。Armada、Black Hole、AVA、HeavensGate、Euphonic、Suanda、Abora Recordingsなど幅広いトランス・インプリントにわたるリリースを持つ。',
     },
     style: {
-      en: 'Melodic uplifting trance with progressive arrangement leanings — the kind of harmonic-emphasis breakdown architecture and 138 BPM peak-time structure that the German trance scene has refined across the 2010s and 2020s, with releases tracking through both the AVA / Black Hole editorial line and the Euphonic / Always Alive uplifting circuit.',
-      ja: 'プログレッシブ的なアレンジメント傾向を持つメロディック・アップリフティング・トランス——ドイツ・トランス・シーンが2010年代〜2020年代に洗練してきたタイプの調和的重点を置くブレイクダウン建築と138 BPMピークタイム構造。リリースはAVA／Black Hole編集ラインとEuphonic／Always Aliveアップリフティング・サーキットの両方を経由する。',
+      en: 'Melodic uplifting trance with progressive arrangement leanings — the kind of harmonic-emphasis breakdown architecture and 138 BPM peak-time structure that the German trance scene has refined across the 2010s and 2020s, with releases tracking through both the AVA / Black Hole editorial line and the Euphonic / Suanda / Abora uplifting circuit.',
+      ja: 'プログレッシブ的なアレンジメント傾向を持つメロディック・アップリフティング・トランス——ドイツ・トランス・シーンが2010年代〜2020年代に洗練してきたタイプの調和的重点を置くブレイクダウン建築と138 BPMピークタイム構造。リリースはAVA／Black Hole編集ラインとEuphonic／Suanda／Aboraアップリフティング・サーキットの両方を経由する。',
     },
     bio: {
-      en: `DJ T.H. is a German DJ and producer based in Düsseldorf, working in the uplifting and melodic-progressive trance register. His catalogue is spread across a wide range of trance imprints — Armada Music, Black Hole Recordings, Aly & Fila's AVA Recordings, Woody van Eyden's HeavensGate, Universal Nation, Euphonic, Entrancing Music, and Daniel Kandi's Always Alive Recordings — placing him among the active multi-label contributors to the modern uplifting scene.
+      en: `DJ T.H., real name Thomas Gatzka, is a German DJ and producer based in Düsseldorf, working in the uplifting and melodic-progressive trance register. He grew up in the era of electronic music, took piano lessons for eight years, and entered the international trance scene at the start of the 2010s. A career marker came in 2012 when his track "More Nights In Neverland" received its first support from Armin van Buuren on A State of Trance, opening the editorial channels that have anchored his catalogue ever since.
 
-His live programme has placed him on European trance event circuits including AWAKE Festival, Nature One, Essen Original Festival, We Love Trance, Euphonic Night, and Trance.Mission across the 2010s and 2020s.`,
-      ja: `DJ T.H.はデュッセルドルフを拠点とするドイツのDJ／プロデューサーで、アップリフティングおよびメロディック・プログレッシブ・トランス・レジスターで活動する。カタログはArmada Music、Black Hole Recordings、Aly & FilaのAVA Recordings、Woody van EydenのHeavensGate、Universal Nation、Euphonic、Entrancing Music、Daniel KandiのAlways Alive Recordingsなど幅広いトランス・インプリントにまたがり、現代アップリフティング・シーンへの活動的なマルチレーベル寄稿者の一人として位置している。
+His releases are spread across a notably wide range of trance imprints — Armada Music, Black Hole Recordings, Aly & Fila's AVA Recordings, Woody van Eyden's HeavensGate, Universal Nation, Euphonic, Entrancing Music, Suanda Music, Abora Recordings, and Find Your Harmony — making him one of the more visibly multi-label contributors to the modern uplifting circuit. Catalogue highlights include "A Morning at the Sea" (2011, with DJ Ives M), "Shapes in the Darkness" (2014), "Into the Ocean" (2015), "See You Again" (2018), and a steady run of vocal collaborations with Sharon Valerona, Nadi Sunrise and others through the late 2010s and into the 2020s. Tunes have been supported by Armin van Buuren, Ferry Corsten, Paul van Dyk, Markus Schulz, Aly & Fila, Andrew Rayel, Giuseppe Ottaviani, and Solarstone.
 
-ライブ・プログラムは2010年代〜2020年代を通じてAWAKE Festival、Nature One、Essen Original Festival、We Love Trance、Euphonic Night、Trance.Missionなどヨーロッパのトランス・イベント・サーキットに彼を位置づけてきた。`,
+Within the trance ecosystem DJ T.H. sits in the German uplifting-melodic wing — the lane defined by Euphonic's editorial direction, the Suanda / Abora vocal-uplifting school, and the HeavensGate live circuit. His live programme has placed him on European trance event circuits including AWAKE Festival, Nature One, Essen Original Festival, We Love Trance, Euphonic Night, and Trance.Mission across the 2010s and 2020s. He is not a chart headline name but rather one of the steady multi-label engines that keeps the modern uplifting scene's release flow moving week to week.`,
+      ja: `DJ T.H.（本名トーマス・ガツカ）はデュッセルドルフを拠点とするドイツのDJ／プロデューサーで、アップリフティングおよびメロディック・プログレッシブ・トランス・レジスターで活動する。エレクトロニック・ミュージックの時代に育ち、8年間ピアノを学び、2010年代初頭に国際的なトランス・シーンに参入した。キャリアのマーカーとなったのは2012年——トラック「More Nights In Neverland」がArmin van BuurenによるA State of Tranceで初サポートを受け、以来カタログを支えてきた編集チャンネルが開かれた。
+
+リリースは特に広範なトランス・インプリント——Armada Music、Black Hole Recordings、Aly & FilaのAVA Recordings、Woody van EydenのHeavensGate、Universal Nation、Euphonic、Entrancing Music、Suanda Music、Abora Recordings、Find Your Harmony——に広がり、現代アップリフティング・サーキットにおいて目に見えてマルチレーベルな寄稿者の一人となっている。カタログのハイライトには「A Morning at the Sea」（2011、DJ Ives Mとの共作）、「Shapes in the Darkness」（2014）、「Into the Ocean」（2015）、「See You Again」（2018）、そして2010年代後半から2020年代にかけてのSharon Valerona、Nadi Sunriseらとの安定したヴォーカル・コラボレーション群が含まれる。楽曲はArmin van Buuren、Ferry Corsten、Paul van Dyk、Markus Schulz、Aly & Fila、Andrew Rayel、Giuseppe Ottaviani、Solarstoneらからサポートを受けてきた。
+
+トランス・エコシステム内において、DJ T.H.はドイツのアップリフティング・メロディック側面——Euphonicの編集方針、Suanda／Aboraヴォーカル・アップリフティング派、HeavensGateライブ・サーキットが定義するレーン——に位置する。ライブ・プログラムは2010年代〜2020年代を通じてAWAKE Festival、Nature One、Essen Original Festival、We Love Trance、Euphonic Night、Trance.Missionなどヨーロッパのトランス・イベント・サーキットに彼を位置づけてきた。チャート見出し級の名前ではなく、現代アップリフティング・シーンのリリース・フローを週ごとに動かし続ける安定したマルチレーベル・エンジンの一人である。`,
     },
-    mentionedIn: [],
+    mentionedIn: ['anatomy-of-uplifting-trance-anthem', 'what-is-uplifting-trance', 'essential-trance-labels-2026', 'best-uplifting-trance-tracks-of-all-time-50'],
   },
 
   {
