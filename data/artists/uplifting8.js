@@ -122,22 +122,26 @@ Within the trance ecosystem DJ T.H. sits in the German uplifting-melodic wing �
     genre: 'UPLIFTING',
     banner: 'b-uplifting',
     tags: ['UPLIFTING', 'BIG ROOM', 'GERMAN', 'DUO', 'EUPHONIC', 'FSOE'],
-    members: ['Matthias Gierth', 'Henry Nix'],
-    origin: 'Germany',
+    members: ['Matthias Gierth (Stoneface)', 'Henry Nix (Terminal)'],
+    origin: 'Görlitz, Germany',
     activeFrom: '2004',
     labels: [
-      'Electric Department Records',
+      'Electric Department Records (own label, founded 2004)',
       'Euphonic',
       'Perfecto Records',
       'Flashover Recordings',
       'Future Sound of Egypt (FSOE)',
+      'Armada Music',
     ],
     topWorks: [
-      { title: 'Wide Range', year: 2007, type: 'album' },
-      { title: 'Be Different', year: 2014, type: 'album' },
-      { title: 'Hypogean', type: 'track' },
+      { title: 'Wide Range', year: 2007, type: 'album (Euphonic)' },
+      { title: 'Be Different', year: 2014, type: 'album (Euphonic)' },
+      { title: 'Universelab (with Aly & Fila)', year: 2014, type: 'track (FSOE)' },
+      { title: '10 Years', year: 2015, type: 'best-of compilation (Euphonic)' },
+      { title: 'Hypogean', year: 2016, type: 'track (FSOE, Beatport Trance #1)' },
+      { title: 'Altered Floors', year: 2018, type: 'album (FSOE)' },
     ],
-    related: ['ronski-speed', 'aly-and-fila', 'cosmic-gate', 'paul-van-dyk'],
+    related: ['ronski-speed', 'aly-and-fila', 'cosmic-gate', 'paul-van-dyk', 'dj-t-h', 'darren-porter'],
     links: {
       beatport: 'https://www.beatport.com/artist/stoneface-terminal/8824',
       website: 'http://www.stoneface-terminal.de/',
@@ -145,21 +149,29 @@ Within the trance ecosystem DJ T.H. sits in the German uplifting-melodic wing �
     },
     sub: { en: 'Big Room / Uplifting Trance', ja: 'ビッグルーム / アップリフティング・トランス' },
     short: {
-      en: 'German DJ and production duo (Matthias Gierth and Henry Nix) on Euphonic, with album-length and remix work that has placed the catalogue across Perfecto, Flashover, and FSOE — including the Beatport Trance #1 single "Hypogean".',
-      ja: 'Euphonic所属のドイツのDJ／プロダクション・デュオ（Matthias GierthとHenry Nix）。アルバム尺およびリミックス作品をPerfecto、Flashover、FSOE全域に展開し、Beatport Trance 1位を獲得したシングル「Hypogean」も含む。',
+      en: 'German DJ and production duo from Görlitz (Matthias Gierth and Henry Nix) — schoolmates since the early 2000s, founders of Electric Department Records (2004), long-running Euphonic core artists, and FSOE collaborators on "Universelab" (with Aly & Fila) and the Beatport Trance #1 "Hypogean".',
+      ja: 'ゲルリッツ出身のドイツのDJ／プロダクション・デュオ（Matthias GierthとHenry Nix）。2000年代初頭からの学友で、Electric Department Records（2004年設立）の創設者、Euphonic長期中核アーティスト、FSOEで「Universelab」（Aly & Fila共作）とBeatport Trance 1位の「Hypogean」を手掛けた。',
     },
     style: {
-      en: 'Big-room uplifting with progressive arrangement DNA — full-length album craft, the polished melodic content the Euphonic editorial direction has defined across the 2000s and 2010s, and the kind of remixer technique that has put the duo on Armin van Buuren, Above & Beyond, and Cosmic Gate productions across multiple labels.',
-      ja: 'プログレッシブなアレンジメントDNAを持つビッグルーム・アップリフティング——フル尺アルバム・クラフト、Euphonic編集方針が2000年代〜2010年代に定義してきた洗練されたメロディック・コンテンツ、そして複数レーベルにわたってデュオをArmin van Buuren、Above & Beyond、Cosmic Gateのプロダクションに位置づけてきたリミキサー技術。',
+      en: 'Big-room uplifting with progressive arrangement DNA — full-length album craft, the polished melodic content the Euphonic editorial direction has defined across the 2000s and 2010s, and the kind of remixer technique that has put the duo on Armin van Buuren, Above & Beyond, Paul van Dyk, Tiësto and Cosmic Gate productions across multiple labels.',
+      ja: 'プログレッシブなアレンジメントDNAを持つビッグルーム・アップリフティング——フル尺アルバム・クラフト、Euphonic編集方針が2000年代〜2010年代に定義してきた洗練されたメロディック・コンテンツ、そして複数レーベルにわたってデュオをArmin van Buuren、Above & Beyond、Paul van Dyk、Tiësto、Cosmic Gateのプロダクションに位置づけてきたリミキサー技術。',
     },
     bio: {
-      en: `Stoneface & Terminal are a German DJ and production duo composed of Matthias Gierth and Henry Nix, working together since the mid-2000s. The duo founded their own label Electric Department Records in 2004 and subsequently signed to Euphonic, where they teamed with label-mate Ronski Speed for the joint release "Incognition / Drowning Sunlight".
+      en: `Stoneface & Terminal are a German DJ and production duo composed of Matthias Gierth (Stoneface) and Henry Nix (Terminal), schoolmates from Görlitz on the Polish border who began producing together in the early 2000s. The duo founded their own label Electric Department Records in 2004 and released early tracks "Merkur", "Sidewinder" and "Summerscape / Miami" before signing to Euphonic — at that point already one of the leading German trance labels — and teaming with label-mate Ronski Speed for the joint release "Incognition / Drowning Sunlight" that opened the long Euphonic run.
 
-Their catalogue extends across two artist albums on Euphonic — "Wide Range" (2007) and "Be Different" (2014) — and through release runs on Perfecto Records, Flashover Recordings, and Aly & Fila's Future Sound of Egypt, where the single "Hypogean" reached #1 on the Beatport Trance chart. The duo have also worked as in-demand remixers, with credits on productions by Armin van Buuren, Above & Beyond, and Cosmic Gate.`,
-      ja: `Stoneface & TerminalはMatthias GierthとHenry NixからなるドイツのDJ／プロダクション・デュオ。2000年代半ばから共同制作を行っている。デュオは2004年に自身のレーベルElectric Department Recordsを設立し、その後Euphonicに移籍。レーベル・メイトのRonski Speedと共同リリース「Incognition / Drowning Sunlight」を手掛けた。
+The Euphonic catalogue is anchored by two artist albums — the 2007 debut "Wide Range" and 2014's "Be Different" — and bookended by the 2015 "10 Years" best-of compilation. From the mid-2010s the duo extended visibly into Aly & Fila's Future Sound of Egypt: the December 2014 collaboration with Aly & Fila, "Universelab", was lifted from Aly & Fila's "The Other Shore" album and supported across A State of Trance, and the 2016 solo single "Hypogean" reached #1 on the Beatport Trance chart, which led directly to the duo's 2018 FSOE album "Altered Floors". Across the catalogue they have also issued material on Perfecto Records and Paul Oakenfold's broader editorial channels, on Ferry Corsten's Flashover Recordings, and on Armada Music, and they have built one of the most cited remixer credit-lists of the modern trance era — productions for Armin van Buuren, Paul van Dyk, Tiësto, Above & Beyond, Cosmic Gate and Markus Schulz among many others.
 
-カタログはEuphonicからの2枚のアーティスト・アルバム「Wide Range」（2007）および「Be Different」（2014）にまたがり、Perfecto Records、Flashover Recordings、Aly & FilaのFuture Sound of Egyptを経由するリリース・ランへと拡張される。FSOEからのシングル「Hypogean」はBeatport Trance チャート1位に到達した。デュオはまた需要の高いリミキサーとしても活動し、Armin van Buuren、Above & Beyond、Cosmic Gateのプロダクションに対するクレジットを持つ。`,
+Within the trance ecosystem Stoneface & Terminal sit in the German big-room uplifting wing — the lane that runs through Euphonic's editorial direction and connects to the FSOE 138 mainline via the Aly & Fila friendship. They are not a chart-headline name in the Armin / Above & Beyond sense, but they are one of the steadiest two-decade engines of the modern trance album format and one of the few duos to hold a top-tier place on both the Euphonic and FSOE rosters simultaneously.
+
+Operator's note. For a listener who came up on weekly ASOT and the 2018 Tomorrowland Armin mainstage, Stoneface & Terminal are the duo that explains how the album-length statement still works inside a singles-driven genre. "Be Different" and "Altered Floors" are long-form arrangement craft — patient builds, layered breakdowns, the same Sun & Moon emotional vocabulary stretched across a full-length running order. "Hypogean" then collapses the same craft into a single Beatport-#1 drop, which is the test the rest of the catalogue passes too.`,
+      ja: `Stoneface & TerminalはMatthias Gierth（Stoneface）とHenry Nix（Terminal）からなるドイツのDJ／プロダクション・デュオ。ポーランド国境のゲルリッツ出身の学友で、2000年代初頭から共同制作を行っている。デュオは2004年に自身のレーベルElectric Department Recordsを設立し、初期トラック「Merkur」「Sidewinder」「Summerscape / Miami」をリリースした後、当時すでにドイツを代表するトランス・レーベルの一つだったEuphonicに移籍。レーベル・メイトのRonski Speedと共同リリース「Incognition / Drowning Sunlight」で長きにわたるEuphonicランの幕を開けた。
+
+Euphonicカタログは2枚のアーティスト・アルバム——2007年のデビュー作「Wide Range」と2014年の「Be Different」——を軸とし、2015年のベスト・コンピレーション「10 Years」で両端が締めくくられる。2010年代半ばからはデュオは目に見えてAly & FilaのFuture Sound of Egyptへと拡張した：2014年12月のAly & Filaとの共作「Universelab」はAly & Filaのアルバム『The Other Shore』からのリフトとなりA State of Tranceでサポートされ、2016年のソロ・シングル「Hypogean」はBeatport Trance チャート1位に到達——これが2018年のFSOEアルバム「Altered Floors」へと直接つながった。カタログ全体ではPerfecto RecordsおよびPaul Oakenfoldの広範な編集チャネル、Ferry CorstenのFlashover Recordings、Armada Musicからもリリースを行い、現代トランス時代の最も引用されるリミキサー・クレジット・リストの一つを構築してきた——Armin van Buuren、Paul van Dyk、Tiësto、Above & Beyond、Cosmic Gate、Markus Schulzなど多数のプロダクションを担当。
+
+トランス・エコシステム内において、Stoneface & Terminalはドイツのビッグルーム・アップリフティング側面——Euphonicの編集方針を貫き、Aly & Filaとの友情を通じてFSOEの138メインラインに接続するレーン——に位置する。Armin／Above & Beyondの意味でのチャート見出し級の名前ではないが、現代トランス・アルバム・フォーマットの最も安定した20年エンジンの一つであり、EuphonicおよびFSOEロースターの最上層を同時に保持する数少ないデュオの一つである。
+
+オペレーター・ノート：毎週ASOTおよび2018年Tomorrowland Arminメインステージで育ったリスナーにとって、Stoneface & Terminalはアルバム尺のステートメントがシングル駆動のジャンル内でいかに今も機能するかを説明するデュオである。「Be Different」と「Altered Floors」は長尺アレンジメント・クラフトだ——忍耐強いビルド、層をなすブレイクダウン、Sun & Moonと同じ情緒的語彙がフル尺の構成全体に引き伸ばされている。「Hypogean」はその同じクラフトをBeatport 1位のシングル・ドロップに圧縮し、カタログの残りも同じ試験を通過する。`,
     },
-    mentionedIn: [],
+    mentionedIn: ['what-is-uplifting-trance', 'best-uplifting-trance-tracks-of-all-time-50', 'anatomy-of-uplifting-trance-anthem', 'essential-trance-labels-2026', 'art-of-trance-buildup-production-secrets'],
   },
 ];
