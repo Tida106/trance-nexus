@@ -124,30 +124,41 @@ His releases sit in the same tech-uplifting lane as Will Atkinson and the Allen 
     emoji: '🛸',
     genre: 'UPLIFTING',
     banner: 'b-uplifting',
-    tags: ['TECH UPLIFTING', 'COLDHARBOUR', 'BRITISH'],
+    tags: ['UPLIFTING', 'TECH-TRANCE', 'COLDHARBOUR', 'BRITISH'],
     realName: 'Dan Dobson',
-    origin: 'United Kingdom',
+    origin: 'Manchester, United Kingdom',
     activeFrom: '2017',
-    labels: ['Coldharbour Recordings', 'Black Hole Recordings', 'Subculture', 'Future Sound of Egypt (FSOE)', 'Pure Trance'],
-    topWorks: [],
-    related: ['john-ocallaghan', 'will-atkinson', 'bryan-kearney', 'sneijder'],
+    labels: ['Coldharbour Recordings', 'Black Hole Recordings', 'Future Sound of Egypt (FSOE)'],
+    topWorks: [
+      { title: 'Blackcard', year: 2018, type: 'track' },
+      { title: 'Face the Future', year: 2022, type: 'album' },
+    ],
+    related: ['markus-schulz', 'davey-asprey', 'will-atkinson', 'bryan-kearney', 'standerwick', 'susana'],
     links: {
       beatport: 'https://www.beatport.com/search?q=Daxson',
     },
-    sub: { en: 'Tech-Uplifting / Pure Trance', ja: 'テック・アップリフティング / Pure Trance' },
+    sub: { en: 'Uplifting / Tech-Trance', ja: 'アップリフティング / テック・トランス' },
     short: {
-      en: 'British producer signed to John O\'Callaghan\'s Subculture, working in the tech-uplifting / Pure Trance 140 BPM register.',
-      ja: 'John O\'CallaghanのSubcultureに所属し、テック・アップリフティング／Pure Trance 140 BPMレジスターで活動する英国のプロデューサー。',
+      en: 'Manchester-based British producer on Markus Schulz\'s Coldharbour Recordings, working in the uplifting / tech-trance crossover register.',
+      ja: 'Markus SchulzのColdharbour Recordings所属、マンチェスター拠点の英国プロデューサー。アップリフティング／テック・トランス・クロスオーバー・レジスターで活動。',
     },
     style: {
-      en: 'Driving 140 BPM tech-uplifting with the rhythmic discipline and harder mid-range that the Subculture editorial direction has codified across the past decade.',
-      ja: 'Subcultureの編集方針が過去10年で成文化したリズム的規律とよりハードな中域を持つ、ドライヴィング140 BPMテック・アップリフティング。',
+      en: 'Driving 138-140 BPM uplifting with tech-trance percussive discipline — melodic-emotional lead writing fused with tougher techno elements, in the Coldharbour modern editorial line.',
+      ja: '138〜140 BPMのドライヴィング・アップリフティングとテック・トランス的なパーカッシブな規律——メロディック・エモーショナルなリード・ライティングがよりハードなテクノ要素と融合した、Coldharbour現代編集ラインに位置するサウンド。',
     },
     bio: {
-      en: `Daxson is a British uplifting trance producer signed to John O'Callaghan's Subculture, working in the tech-uplifting / Pure Trance 140 BPM register that the label has refined across the past decade. His catalogue extends through FSOE and the Pure Trance imprint, and his releases sit alongside the broader Subculture roster (Bryan Kearney, Will Atkinson, John O'Callaghan) that defines the modern UK harder-uplifting scene.`,
-      ja: `DaxsonはJohn O\'CallaghanのSubcultureに所属する英国のアップリフティング・トランス・プロデューサー。レーベルが過去10年で洗練してきたテック・アップリフティング／Pure Trance 140 BPMレジスターで活動する。カタログはFSOEおよびPure Tranceインプリントへと広がり、現代の英国ハーダー・アップリフティング・シーンを定義するより広いSubcultureロースター（Bryan Kearney、Will Atkinson、John O\'Callaghan）と並んで位置する。`,
+      en: `Daxson is the trance alias of British producer Dan Dobson, originally from the north-east of the UK and now based in Manchester. He had been releasing music under his own name when he sent the track "Skygarden" to Markus Schulz for the 2016 Transmission set; Schulz responded by suggesting a dedicated alias and a home on his Coldharbour Recordings imprint. The Daxson project launched in 2017 and has been the primary outlet ever since.
+
+His catalogue runs through Coldharbour and parent label Black Hole Recordings, with additional releases through Future Sound of Egypt. The 2018 single "Blackcard" — fusing melodic trance with tougher techno elements — was an early signature track, and his debut artist album Face the Future arrived on Coldharbour in September 2022 as an 18-track set spanning uplifting, vocal, progressive and tech-trance modes, with collaborators including Sue McLaren and Numa. He holds a long-running residency at Rong Events, one of the UK's leading trance nights, and has played Creamfields, Transmission, Dreamstate, EDC Las Vegas, UNTOLD, Ministry of Sound, Luminosity, and the Groove Cruise circuit.
+
+Within the Coldharbour ecosystem Daxson sits as one of the next-generation names that Markus Schulz has publicly identified as core to the label's modern direction, alongside Davey Asprey and the wider Coldharbour roster. His position in the broader UK trance scene is on the more melodic-leaning end of the tech-trance crossover, distinct from the Subculture / Pure Trance 140 BPM lane but adjacent to it through shared event circuits and producer networks.`,
+      ja: `Daxsonは英国のプロデューサーDan Dobsonのトランス・エイリアス。出身は英国北東部で、現在はマンチェスター拠点。元々は本名Dan Dobson名義でリリースしていたが、2016年のTransmissionセット向けにMarkus Schulzに「Skygarden」を送ったところ、Schulzから専用エイリアスとColdharbour Recordingsインプリントでの活動拠点を提案された。Daxsonプロジェクトは2017年に立ち上がり、以来主要なアウトレットとなっている。
+
+カタログはColdharbourおよび親レーベルBlack Hole Recordings、加えてFuture Sound of Egyptを通じて展開する。メロディック・トランスとよりハードなテクノ要素を融合させた2018年のシングル「Blackcard」が初期のシグネチャー・トラックとなり、デビュー・アーティスト・アルバム『Face the Future』は2022年9月にColdharbourから登場——18曲構成でアップリフティング、ヴォーカル、プログレッシブ、テック・トランス・モードにまたがり、Sue McLaren、Numaらとのコラボレーションを含む。英国を代表するトランス・ナイトの一つRong Eventsの長期レジデントを務め、Creamfields、Transmission、Dreamstate、EDC Las Vegas、UNTOLD、Ministry of Sound、Luminosity、Groove Cruiseサーキットに出演している。
+
+Coldharbourエコシステム内において、DaxsonはMarkus Schulzがレーベルの現代方針の中核として公的に指名した次世代名の一人として位置し、Davey Asprey以下のColdharbourロースターと並ぶ。より広い英国トランス・シーンにおいては、テック・トランス・クロスオーバーのメロディック寄り側面に位置し——Subculture／Pure Trance 140 BPMレーンとは区別されつつ、共有されたイベント・サーキットとプロデューサー・ネットワークを通じて隣接している。`,
     },
-    mentionedIn: [],
+    mentionedIn: ['what-is-uplifting-trance', 'best-uplifting-trance-tracks-of-all-time-50', 'modern-trance-classics-2020s-so-far', 'trance-revival-2026'],
   },
 
   {
