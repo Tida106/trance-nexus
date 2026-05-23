@@ -12,37 +12,50 @@ export const crossover3 = [
     genre: 'UPLIFTING',
     banner: 'b-uplifting',
     tags: ['TECH UPLIFTING', 'TECH TRANCE', 'COLOMBIAN', 'COLDHARBOUR'],
-    origin: 'Colombia',
+    realName: 'Robert Alzate',
+    origin: 'Medellín, Antioquia, Colombia',
+    born: '1990',
     activeFrom: '2010',
-    labels: ['Coldharbour Recordings'],
+    labels: ['Coldharbour Recordings', 'Coldharbour Red', 'Armada Music'],
     topWorks: [
-      { title: 'Mind Gamer', year: 2012, type: 'track' },
-      { title: 'Hydra E.P.', year: 2013, type: 'ep' },
-      { title: 'Take Me (with Markus Schulz)', year: 2022, type: 'track' },
+      { title: 'Mind Gamer / The Sky Is Inside You', year: 2012, type: 'track (Coldharbour Red)' },
+      { title: 'Coldharbour presents KhoMha (mix compilation)', year: 2012, type: 'compilation' },
+      { title: 'Hydra', year: 2013, type: 'track (Coldharbour)' },
+      { title: 'Dejavu', year: 2014, type: 'track (Coldharbour)' },
+      { title: 'Take Me (with Markus Schulz)', year: 2022, type: 'track (Coldharbour, X series #4)' },
     ],
-    related: ['markus-schulz', 'davey-asprey', 'omnia', 'cosmic-gate'],
+    related: ['markus-schulz', 'davey-asprey', 'omnia', 'cosmic-gate', 'dim3nsion', 'andrew-rayel'],
     links: {
+      ra: 'https://ra.co/dj/khomha',
       beatport: 'https://www.beatport.com/search?q=KhoMha',
       coldharbour: 'https://www.coldharbourrecordings.com/music/markus-schulz-x-khomha-take-me/',
     },
     sub: { en: 'Tech Uplifting / Tech Trance', ja: 'テック・アップリフティング / テック・トランス' },
     short: {
-      en: 'Colombian DJ/producer and Coldharbour Recordings core artist, known for the bassline-driven tech-trance lineage from "Rainy in the Night" and "Mind Gamer" through to the 2022 Markus Schulz collaboration "Take Me".',
-      ja: 'コロンビアのDJ／プロデューサーで、Coldharbour Recordings中核アーティスト。「Rainy in the Night」や「Mind Gamer」から2022年のMarkus Schulz共作「Take Me」まで、ベースライン主導のテック・トランス系譜で知られる。',
+      en: 'Colombian DJ/producer Robert Alzate (b. 1990, Medellín) — Coldharbour Recordings\' first ever Artist of the Year (2011) and the label\'s long-running Latin-American flag-bearer through "Mind Gamer", "Hydra", and the 2022 Markus Schulz collaboration "Take Me".',
+      ja: 'コロンビアのDJ／プロデューサー、Robert Alzate（1990年メデジン生まれ）。Coldharbour Recordings初のArtist of the Year（2011年）であり、「Mind Gamer」「Hydra」、2022年Markus Schulz共作「Take Me」を通じてレーベルの長期にわたるラテン・アメリカ旗手。',
     },
     style: {
-      en: 'Bassline-driven tech-trance with uplifting harmonic content — the signature Coldharbour register that pairs aggressive low-end architecture with melodic-emphasis breakdowns and 138 BPM peak-time structure.',
-      ja: 'アップリフティング的な調和的コンテンツを持つベースライン主導のテック・トランス——アグレッシブな低音建築とメロディック重視のブレイクダウン、138 BPMピークタイム構造を組み合わせるColdharbourのシグネチャー・レジスター。',
+      en: 'Bassline-driven tech-trance with uplifting harmonic content — the signature Coldharbour register that pairs aggressive low-end architecture with melodic-emphasis breakdowns, generally in the 132–138 BPM band tuned for peak-time room scale.',
+      ja: 'アップリフティング的な調和的コンテンツを伴うベースライン主導のテック・トランス——アグレッシブな低音建築とメロディック重視のブレイクダウンを組み合わせるColdharbourのシグネチャー・レジスター。概ね132〜138 BPM帯でピークタイム・ルーム・スケールに調律されている。',
     },
     bio: {
-      en: `KhoMha is a Colombian DJ and producer with a long-running editorial home at Markus Schulz's Coldharbour Recordings, where he serves as the label's Colombian resident artist. His Coldharbour catalogue stretches from early signings such as "Rainy in the Night" and "Mind Gamer" through the 2013 "Hydra E.P." and on into the 2020s, where the 2022 Markus Schulz collaboration "Take Me" reunited the pair as the fourth installment of Schulz's collaborative X series.
+      en: `KhoMha is the recording name of Colombian DJ and producer Robert Alzate, born 1990 in Medellín, Antioquia. His passion for electronic music ignited at fourteen — influenced by Steve Angello, Deadmau5 and Eric Prydz — and his catalogue progressed from progressive house into tech-trance across the late 2000s. High-school friends gave him the stage name on the joke that he put dancers "into a coma" with his music.
 
-His sound — distinguishable bassline-driven tech-trance with uplifting harmonic content — has become one of the defining Coldharbour signatures across the 2010s and 2020s, and his guestmix appearances on Schulz's Global DJ Broadcast (including the January 2025 episode) have continued his presence on the label's flagship radio platform.`,
-      ja: `KhoMhaはコロンビアのDJ／プロデューサーで、Markus SchulzのColdharbour Recordingsを長期にわたる編集本拠地とし、レーベルのコロンビア人レジデント・アーティストを務める。Coldharbourカタログは初期の「Rainy in the Night」や「Mind Gamer」から2013年「Hydra E.P.」、そして2020年代へと続き、2022年のMarkus Schulz共作「Take Me」はSchulzの共作Xシリーズ第4弾として両者を再結集させた。
+The catalogue's editorial home from the start has been Markus Schulz's Coldharbour Recordings. Schulz named KhoMha the label's first-ever Artist of the Year in 2011, and both Schulz and Matt Darey separately named him their Producer of the Year that same season — credits that assigned him the official remixes of Schulz's "Sinners" and Matt Darey's "Hold Your Breath". The Coldharbour Red sub-label release "Mind Gamer / The Sky Is Inside You" (19 March 2012) was the catalogue breakthrough, followed by the "Coldharbour presents KhoMha" mix compilation later that year — the first time a non-Schulz artist was given that compilation slot. The catalogue continued through "Hydra" (2013, later used in the 2015 Jason Statham film Wild Card), "Drummer", "Dejavu", "Not The Same", "Artie" and "Tanha" across the 2010s. The November 2022 collaboration with Markus Schulz, "Take Me" (with Adina Butar's vocal), reunited the pair as the fourth installment of Schulz's X collaborative series, and KhoMha has continued as a regular guestmix presence on Schulz's Global DJ Broadcast through the 2020s.
 
-サウンド——アップリフティング的な調和的コンテンツを伴う識別可能なベースライン主導テック・トランス——は2010年代〜2020年代を通じてColdharbourを定義するシグネチャーの一つとなり、Schulzの「Global DJ Broadcast」へのゲストミックス出演（2025年1月のエピソードを含む）はレーベル基幹ラジオ・プラットフォームでの彼の存在感を継続させている。`,
+Within the trance ecosystem KhoMha occupies a single, well-defined lane: the Coldharbour resident-artist seat at the bassline-driven tech-trance end of the label's catalogue, alongside Davey Asprey and the Schulz-curated core. His sets carry him through the Coldharbour Day events, Schulz-curated Coldharbour stages at Tomorrowland and Transmission, and the Latin-American festival circuit where he remains one of the region's biggest trance exports.
+
+Operator's note. For a listener anchored to weekly ASOT and the 2018 Tomorrowland Armin mainstage, KhoMha is the working demonstration that "tech-trance" is not just a tempo classification but a specific harmonic posture — uplifting-grade chord pads under a heavier, bass-led rhythm than the FSOE 138 wing produces. "Hydra" and "Take Me" both anchor the same observation: the breakdown could open onto a Sun & Moon-style uplifting drop, but Coldharbour's editorial direction keeps Alzate's productions firmly on the bass-engine side of the line.`,
+      ja: `KhoMhaはコロンビアのDJ／プロデューサー、Robert Alzateのレコーディング名義。1990年アンティオキア県メデジン生まれ。エレクトロニック・ミュージックへの情熱は14歳——Steve Angello、Deadmau5、Eric Prydzの影響——で点火し、カタログは2000年代後半にプログレッシブ・ハウスからテック・トランスへと進展した。高校の友人たちが、彼の音楽がダンサーたちを「コーマ状態」にするという冗談から、このステージ・ネームを彼に与えた。
+
+カタログの編集本拠地は当初からMarkus SchulzのColdharbour Recordings。Schulzは2011年にKhoMhaをレーベル史上初のArtist of the Yearに指名し、SchulzとMatt Dareyは同じシーズンに別個に彼をProducer of the Yearに指名——Schulzの「Sinners」とMatt Dareyの「Hold Your Breath」の公式リミックス担当に彼を任命したクレジットだ。Coldharbour Redサブレーベルからの「Mind Gamer / The Sky Is Inside You」（2012年3月19日）がカタログのブレイクスルー、続いて同年後半に「Coldharbour presents KhoMha」ミックス・コンピレーション——Schulz以外のアーティストがそのコンピレーション枠を与えられた初の事例——が登場した。カタログは2010年代を通じて「Hydra」（2013、後に2015年のJason Statham主演映画『Wild Card』で使用）、「Drummer」、「Dejavu」、「Not The Same」、「Artie」、「Tanha」と続いた。2022年11月のMarkus Schulzとの共作「Take Me」（Adina Butarのヴォーカル）はSchulzのX共作シリーズ第4弾として両者を再結集させ、KhoMhaは2020年代を通じてSchulzのGlobal DJ Broadcastにレギュラーでゲストミックス出演を続けている。
+
+トランス・エコシステム内において、KhoMhaは単一の明確なレーンを占める：レーベル・カタログのベースライン主導テック・トランス側面におけるColdharbourレジデント・アーティスト席で、Davey AspreyやSchulzキュレートの中核と並ぶ。セットは彼をColdharbour Dayイベント、TomorrowlandやTransmissionでのSchulzキュレートColdharbourステージ、そして彼が依然として地域最大のトランス輸出の一人であり続けるラテン・アメリカ・フェスティバル・サーキットへと運ぶ。
+
+オペレーター・ノート：毎週ASOTおよび2018年Tomorrowland Arminメインステージに基盤を置くリスナーにとって、KhoMhaは「テック・トランス」がテンポ分類だけでなく特定の調和的姿勢——FSOE 138側面が生み出すものよりもベース主導の重いリズムの下のアップリフティング級コード・パッド——でもあることの作業上の実証である。「Hydra」と「Take Me」はいずれも同じ観察を裏付ける：ブレイクダウンはSun & Moonスタイルのアップリフティング・ドロップへと開くこともできたが、Coldharbourの編集方針はAlzateのプロダクションを線のベース・エンジン側にしっかりと留め置く。`,
     },
-    mentionedIn: [],
+    mentionedIn: ['what-is-uplifting-trance', 'modern-trance-classics-2020s-so-far', 'essential-trance-labels-2026', 'best-uplifting-trance-tracks-of-all-time-50'],
   },
 
   {
