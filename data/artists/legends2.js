@@ -338,41 +338,57 @@ Operator's note. The operator came into trance through Armin's mainstage at Tomo
     emoji: '🍷',
     genre: 'PROGRESSIVE',
     banner: 'b-progressive',
-    tags: ['ITALODANCE', 'MEDITERRANEAN PROGRESSIVE', 'CLASSIC'],
+    tags: ['ITALODANCE', 'MEDITERRANEAN PROGRESSIVE', 'LENTO VIOLENTO', 'CLASSIC'],
     realName: 'Luigino Celestino Di Agostino',
     origin: 'Turin, Italy',
     born: '1967',
     activeFrom: '1986',
-    labels: ['Media Records', 'BXR', 'ZYX Music', 'Gigi D\'Agostino Planet'],
+    labels: ['Media Records', 'BXR (Media Records)', 'Noise Maker (own label)', 'Noisemaker Hard (own label, founded 2006)', 'Time Records', 'Popron Music'],
     topWorks: [
-      { title: "L'Amour Toujours", year: 1999, type: 'track' },
       { title: 'Bla Bla Bla', year: 1999, type: 'track' },
-      { title: 'The Riddle', year: 1999, type: 'track' },
+      { title: 'Another Way', year: 1999, type: 'track' },
+      { title: "L'Amour Toujours (I'll Fly with You)", year: 1999, type: 'track (1999 album; 2000 single)' },
+      { title: 'The Riddle', year: 2000, type: 'track' },
       { title: 'La Passion', year: 2000, type: 'track' },
-      { title: 'I\'ll Fly with You', year: 1999, type: 'track' },
+      { title: 'Super', year: 2001, type: 'track' },
+      { title: 'Ripassa', year: 2003, type: 'track (Lento Violento)' },
+      { title: 'In My Mind (with Dynoro)', year: 2018, type: 'track' },
+      { title: 'Shadows of the Night (with Boostedkids)', year: 2024, type: 'track (Time Records)' },
     ],
     related: ['mauro-picotto', 'robert-miles', 'atb', 'paul-van-dyk'],
     links: {
       spotify: 'https://open.spotify.com/artist/1OAjDaKgg00KCUYqDe68un',
       beatport: 'https://www.beatport.com/search?q=Gigi+D%27Agostino',
     },
-    sub: { en: 'Italodance / Mediterranean Progressive', ja: 'イタロダンス / メディタレニアン・プログレッシブ' },
+    sub: { en: 'Italodance / Mediterranean Progressive / Lento Violento', ja: 'イタロダンス / メディタレニアン・プログレッシブ / レント・ヴィオレント' },
     short: {
-      en: 'Italian icon whose "L\'Amour Toujours" and "Bla Bla Bla" became inescapable global hits and defined Mediterranean Progressive.',
-      ja: '「L\'Amour Toujours」「Bla Bla Bla」で世界的な大ヒットを生み、メディタレニアン・プログレッシブを定義したイタリアの象徴。',
+      en: "Italian icon whose 1999 album L'Amour Toujours and 1999 single \"Bla Bla Bla\" defined Mediterranean Progressive — and whose 2018 hook on Dynoro's \"In My Mind\" returned him to global streaming charts more than two decades after the original.",
+      ja: '1999年のアルバム『L\'Amour Toujours』とシングル「Bla Bla Bla」でメディタレニアン・プログレッシブを定義したイタリアの象徴。オリジナルから20年以上を経て、2018年のDynoroによる「In My Mind」のフックとしてグローバル・ストリーミング・チャートに戻った。',
     },
     style: {
-      en: 'Warm Mediterranean Progressive — slow-tempo emotional builds, plucked melodic leads, often with French- or English-language vocal samples. Later pioneered the "Lento Violento" slow-hard subgenre.',
-      ja: '暖かなメディタレニアン・プログレッシブ——スロー・テンポの情緒的なビルド、プラックされたメロディック・リード、しばしばフランス語・英語のボーカル・サンプルを伴う。後年は「Lento Violento」というスロー・ハード・サブジャンルを開拓した。',
+      en: 'Warm Mediterranean Progressive — slow-tempo emotional builds, plucked melodic leads, often with French- or English-language vocal samples. Later pioneered the "Lento Violento" slow-hard subgenre via "Ripassa" (2003) and his own Noisemaker Hard imprint (2006).',
+      ja: '暖かなメディタレニアン・プログレッシブ——スロー・テンポの情緒的なビルド、プラックされたメロディック・リード、しばしばフランス語・英語のボーカル・サンプルを伴う。後年は「Ripassa」（2003）と自身のNoisemaker Hardインプリント（2006）を通じて「Lento Violento」スロー・ハード・サブジャンルを開拓した。',
     },
     bio: {
-      en: `Luigino Di Agostino — known to the world as Gigi D'Agostino — is one of the most commercially successful Italian electronic artists of all time. Born in Turin in 1967, he started DJing in the late 80s and emerged as a producer in the mid-90s through Media Records. His 1999 single "Bla Bla Bla" hit #1 across Europe; "L'Amour Toujours" the same year became a generational anthem and remains one of the most-streamed dance tracks ever produced in Italy.
+      en: `Gigi D'Agostino, born Luigino Celestino Di Agostino on 17 December 1967 in Turin to a Salernitan family, is one of the most commercially successful Italian electronic artists of all time and the architect of what he calls "Mediterranean Progressive" — slow-tempo, emotionally direct, melodic dance music descended from the Italian 1990s scene. He started DJing in the late 1980s and emerged as a producer through Media Records and its hard-trance sub-label BXR in the mid-1990s.
 
-D'Agostino is the architect of what he calls "Mediterranean Progressive" — slow-tempo, emotionally direct, melodic dance music — and later developed the "Lento Violento" subgenre (literally "slow violent") that paired half-tempo grooves with hard-trance attitude. His Il Programmino di Gigi mix CDs were essential listening across Italy in the late 90s and early 2000s.`,
-      ja: `ルイジーノ・ディ・アゴスティーノ——通称ジジ・ダゴスティーノ——はイタリア電子音楽史上最も商業的に成功したアーティストの一人。1967年トリノ生まれ、80年代後半からDJを始め、90年代半ばにMedia Records経由でプロデューサーとして登場。1999年シングル「Bla Bla Bla」は欧州各地で1位、同年の「L\'Amour Toujours」は世代的アンセムとなり、イタリア発のダンス・トラックとして史上最も再生された作品の一つで在り続けている。
+His commercial peak arrived at the turn of the millennium. "Bla Bla Bla" (1999) hit number one across continental Europe, and "L'Amour Toujours" (released on the 1999 album of the same name and as the "I'll Fly with You" single in 2000) became a generational anthem that has continued to surface in streaming charts more than a quarter-century after release — most recently as the sampled hook of Dynoro &amp; Gigi D'Agostino's "In My Mind" (2018), itself an international Spotify hit. Adjacent signatures from the same period — "Another Way" (1999), "The Riddle" (2000), "La Passion" (2000), "Super" (2001) — gave the catalogue an unusually high anthem density for a single producer.
 
-彼が「メディタレニアン・プログレッシブ」と呼ぶ——スロー・テンポで情緒的、メロディックなダンス音楽——を開拓し、後年は半テンポのグルーヴにハード・トランスの姿勢を組み合わせた「Lento Violento（直訳：スロー・バイオレント）」サブジャンルを展開。ミックスCD『Il Programmino di Gigi』は90年代末〜2000年代初頭のイタリアで必聴盤だった。`,
+D'Agostino is also credited with codifying "Lento Violento" (literally "slow violent"), a half-tempo subgenre that paired Mediterranean melodic instincts with hard-trance attitude, which he developed via tracks like "Ripassa" (2003) and his own Noisemaker Hard imprint (founded 2006).
+
+A serious health issue removed him from public performance for over two years from roughly 2021. His return at the Sanremo Music Festival on 9 February 2024 — on the Costa Smeralda floating stage — was a national news event in Italy, followed by the Boostedkids collaboration "Shadows of the Night" (Time Records, 5 April 2024) and a return to the European touring circuit through the rest of the year.
+
+Operator's note. D'Agostino's catalogue sits adjacent to but distinct from the German / Dutch trance lineage the rest of this site is built around. The reason "L'Amour Toujours" still works for me twenty-seven years later is the same reason "Children" does: it states one melodic idea, completely, with no second hook crowding the first — and the second half of the track is the listener processing what already happened rather than a build to the next event. That restraint is rarer in 2026 than it was in 1999, which is why these records still arrive cleanly in a chronological-trance listen.`,
+      ja: `ジジ・ダゴスティーノ、本名Luigino Celestino Di Agostino、1967年12月17日トリノでサレルニターノ家庭に生まれる。イタリア電子音楽史上最も商業的に成功したアーティストの一人であり、彼が「メディタレニアン・プログレッシブ」と呼ぶ——スロー・テンポで情緒的、メロディックなダンス音楽、イタリア1990年代シーンから派生したスタイル——の建築家である。1980年代末にDJを始め、1990年代半ばにMedia Recordsおよびそのハード・トランス・サブレーベルBXRを通じてプロデューサーとして登場した。
+
+商業的ピークは世紀の変わり目に訪れた。「Bla Bla Bla」（1999）は欧州大陸全域で1位に上り詰め、「L'Amour Toujours」（1999年の同名アルバムに収録、2000年に「I'll Fly with You」シングルとしてリリース）は世代的アンセムとなり、リリースから四半世紀以上を経てストリーミング・チャートに登場し続けている——直近では2018年のDynoro &amp; Gigi D'Agostino「In My Mind」（自体が国際的Spotifyヒット）のサンプリング・フックとして。同時期の隣接シグネチャー——「Another Way」（1999）、「The Riddle」（2000）、「La Passion」（2000）、「Super」（2001）——は単独プロデューサーとして異常に高いアンセム密度をカタログに与えた。
+
+D'Agostinoはまた「Lento Violento」（直訳：スロー・バイオレント）——メディタレニアンなメロディック本能をハード・トランスの姿勢と組み合わせた半テンポのサブジャンル——の成文化者としてもクレジットされており、「Ripassa」（2003）のようなトラックと自身のNoisemaker Hardインプリント（2006年設立）を通じて発展させた。
+
+深刻な健康問題が彼を2021年頃から2年以上にわたって公的パフォーマンスから引き離した。2024年2月9日のSanremo Music Festivalへの復帰——Costa Smeralda浮上ステージで——はイタリアでの全国ニュースとなり、続いてBoostedkidsとの共作「Shadows of the Night」（Time Records、2024年4月5日）、そして同年の残りを通じた欧州ツーリング・サーキットへの復帰が続いた。
+
+オペレーター・ノート：D'Agostinoのカタログは、このサイトの他の部分が構築されているドイツ／オランダのトランス系譜に隣接しつつも別個に位置する。「L'Amour Toujours」が27年経った今も自分にとって機能する理由は「Children」と同じ理由：1つのメロディック・アイデアが完全に、最初のフックを混雑させる2つ目のフックなしにステートされること——そしてトラックの後半は次のイベントへのビルドではなく、すでに起きたことをリスナーが処理する時間であること。その抑制は2026年現在、1999年よりも稀であり、だからこそこれらのレコードは年代順トランス・リッスンの中で今も清潔に到着する。`,
     },
-    mentionedIn: ['history-of-trance-music', 'iconic-trance-anthems-that-defined-an-era'],
+    mentionedIn: ['history-of-trance-music', 'iconic-trance-anthems-that-defined-an-era', 'best-trance-tracks-1990s', 'defining-trance-anthems-2000s'],
   },
 ];
