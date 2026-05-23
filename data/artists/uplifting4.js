@@ -13,39 +13,60 @@ export const uplifting4 = [
     emoji: '🏜️',
     genre: 'UPLIFTING',
     banner: 'b-uplifting',
-    tags: ['UPLIFTING', 'EGYPTIAN', 'FSOE'],
+    tags: ['UPLIFTING', 'EGYPTIAN', 'ARMADA', 'SUANDA', 'FUTURISING MUSIC'],
     realName: 'Ahmed Helmy',
     origin: 'Alexandria, Egypt',
     activeFrom: '2014',
-    labels: ['Future Sound of Egypt (FSOE)', 'Armada Captivating Sounds', 'A State of Trance'],
-    topWorks: [
-      { title: 'Forever Together (with Mhammed El Alami)', year: 2017, type: 'track' },
-      { title: 'Sahara', year: 2018, type: 'track' },
-      { title: 'Symphony (Suanda)', year: 2020, type: 'track' },
-      { title: 'Insight', year: 2020, type: 'track' },
+    labels: [
+      'Armada Music',
+      'Armind (Armada)',
+      'Black Hole Recordings',
+      'AVA Recordings',
+      'Suanda Music',
+      'RazNitzan Music',
+      'Trance Temple Records',
+      'Futurising Music (own label, founded 2022)',
     ],
-    related: ['aly-and-fila', 'standerwick', 'andrew-rayel', 'will-atkinson'],
+    topWorks: [
+      { title: 'Helena (with Mhammed El Alami)', year: 2018, type: 'track (Suanda Music)' },
+      { title: 'Symphony', year: 2020, type: 'track (Suanda Music)' },
+      { title: 'R4VE 101', year: 2022, type: 'track (Futurising Music)' },
+      { title: 'Rhythm Inside (with Armin van Buuren)', year: 2023, type: 'track (Armada Music)' },
+      { title: 'Afterlife', year: 2024, type: 'track (Armind / Armada)' },
+      { title: "King's Secret Garden", year: 2026, type: 'track (Futurising Music)' },
+    ],
+    related: ['aly-and-fila', 'standerwick', 'andrew-rayel', 'will-atkinson', 'ardi', 'dim3nsion'],
     links: {
-      beatport: 'https://www.beatport.com/search?q=Ahmed+Helmy',
+      beatport: 'https://www.beatport.com/artist/ahmed-helmy/382586',
+      armada: 'https://www.armadamusicpublishing.com/roster/ahmed-helmy',
+      futurising: 'https://futurisingmusic.com/artists/61441242-dec4-4160-aeba-280aa5afec2c',
     },
-    sub: { en: 'Uplifting Trance', ja: 'アップリフティング・トランス' },
+    sub: { en: 'Uplifting Trance / Future Rave', ja: 'アップリフティング・トランス / フューチャー・レイヴ' },
     short: {
-      en: 'Egyptian uplifting trance producer affiliated with Aly & Fila\'s Future Sound of Egypt and a regular on the FSOE Radio rotation.',
-      ja: 'Aly & FilaのFuture Sound of Egyptに所属するエジプトのアップリフティング・トランス・プロデューサー。FSOE Radioの常連。',
+      en: 'Egyptian DJ and producer from Alexandria — long catalogue across Armada, Black Hole, AVA, Suanda and his own Futurising Music label (founded 2022), and the Armin van Buuren collaborator on "Rhythm Inside" (2023, Armada).',
+      ja: 'アレクサンドリア出身のエジプトのDJ／プロデューサー。Armada、Black Hole、AVA、Suandaおよび自身のレーベルFuturising Music（2022年設立）にまたがる長期カタログを持ち、Armin van Buurenとの共作「Rhythm Inside」（2023、Armada）のコラボレーターでもある。',
     },
     style: {
-      en: 'Classic 138 BPM uplifting trance with Egyptian-tonal melodic content — soaring leads, generous breakdowns, and the kind of peak-time arrangement craft that the FSOE editorial direction rewards.',
-      ja: '138 BPMの正統派アップリフティング・トランスにエジプト的な調性のメロディ——舞い上がるリード、寛大なブレイクダウン、FSOEの編集方針が評価するタイプのピークタイム・アレンジメント。',
+      en: 'Modern uplifting trance with Egyptian-tonal melodic content extended into a Future Rave / future-uplifting hybrid — driving four-on-the-floor architecture, generous melodic breakdowns, and the kind of peak-time arrangement craft that the late-2010s Armada / Suanda editorial direction refined and that his own Futurising Music imprint has carried into the 2020s "R4VE" register.',
+      ja: 'フューチャー・レイヴ／フューチャー・アップリフティング・ハイブリッドへと拡張されたエジプト的調性メロディック・コンテンツを伴う現代アップリフティング・トランス——ドライヴィングな四つ打ち建築、寛大なメロディック・ブレイクダウン、2010年代後半のArmada／Suanda編集方針が洗練し、自身のFuturising Musicインプリントが2020年代の「R4VE」レジスターへと運んできたタイプのピークタイム・アレンジメント。',
     },
     bio: {
-      en: `Ahmed Helmy is an Alexandria-born uplifting trance producer who emerged in the mid-2010s through Aly & Fila's Future Sound of Egypt label. His 2017 collaboration with Mhammed El Alami, "Forever Together," became one of the year's most-played FSOE releases, followed by solo singles "Sahara" (2018), "Symphony" (2020, Suanda Music), and "Insight" (2020) that placed him among the FSOE Family's most consistent producers.
+      en: `Ahmed Helmy is a DJ and producer from Alexandria, Egypt, who emerged onto the international trance circuit in the mid-2010s and has since built one of the more visibly multi-label catalogues to come out of the Egyptian trance pipeline. His releases run across Armin van Buuren's Armada Music and the Armind sub-label, Tiësto's Black Hole Recordings, Aly & Fila's AVA Recordings, RazNitzan Music, Mhammed El Alami's Suanda Music, and his own Futurising Music label, which he founded in 2022 as a platform for trance, future-rave, techno and melodic-house material.
 
-Helmy's catalogue has since extended through Armada Captivating Sounds and the A State of Trance imprint, and he is a regular feature on FSOE Radio episodes and the FSOE festival editions across Europe and the Middle East. The Egyptian-tonal melodic content of his productions sits in the same lineage as Aly & Fila's "Eye of Horus," and his work is frequently played out by Armin van Buuren on A State of Trance.`,
-      ja: `アフメド・ヘルミーは2010年代半ばにAly & FilaのFuture Sound of Egyptを通じて登場した、アレクサンドリア出身のアップリフティング・トランス・プロデューサー。2017年のMhammed El Alamiとの共作「Forever Together」がFSOEで最もプレイされたリリースの一つとなり、ソロ・シングル「Sahara」（2018）、「Symphony」（2020、Suanda Music）、「Insight」（2020）と続き、FSOEファミリーで最も安定したプロデューサーの一人となった。
+The catalogue's earlier signature release was "Helena" (2018) with fellow Suanda Music artist Mhammed El Alami, which carried Helmy across the FSOE / Suanda festival circuit and onto A State of Trance editorial play. The solo single "Symphony" (2020, Suanda Music) extended that profile, and a career-marker moment arrived when Armin van Buuren chose Helmy as the official remixer for the ASOT classic "Full Focus". Across the 2020s the project has accelerated through two parallel channels: the Armada / Armind line — culminating in the March 2023 Armada release "Rhythm Inside" co-produced with Armin van Buuren, included on Armin's "Feel Again" album, and the 2024 Armind single "Afterlife" — and his own Futurising Music imprint, where the chart-topping "R4VE 101" (October 2022) launched a recurring "R4VE Series" of tracks that defines the project's contemporary direction. The 2026 release "King's Secret Garden" continues the run on Futurising Music Limited.
 
-その後カタログをArmada Captivating SoundsとA State of Tranceインプリントへと広げ、FSOE Radioのエピソードおよび欧州・中東でのFSOEフェスティバル版に常連出演。プロダクションのエジプト的な調性メロディはAly & Filaの「Eye of Horus」と同じ系譜に位置し、Armin van BuurenのA State of Tranceでも頻繁にプレイされている。`,
+Within the trance ecosystem Ahmed Helmy sits between the FSOE-Suanda uplifting wing and the Armada mainstage line — closer to the Armada / Armind editorial direction than to the FSOE 138 core, with the Futurising R4VE register extending into the same future-rave-meets-uplifting hybrid that Armin van Buuren's recent catalogue has explored. Armin has publicly flagged Helmy as "one of the rising stars in trance" on ASOT 848 and "one of the guys on fire at that moment" on ASOT 839.
+
+Operator's note. For a listener anchored to weekly ASOT and the 2018 Tomorrowland Armin mainstage, Ahmed Helmy is the working example of how the Egyptian-tonal melodic tradition has stretched outward from the FSOE 138 mainline into the Armada / future-uplifting register. "Rhythm Inside" with Armin is the clearest single artefact: the same Sun & Moon emotional vocabulary as the operator's seven-year ASOT diet, but rendered at the slightly slower, Future-Rave-leaning tempo that has anchored Armin's catalogue since the late 2010s — Helmy holding his half of the production cleanly inside that lane.`,
+      ja: `アフメド・ヘルミーはエジプトのアレクサンドリア出身のDJ／プロデューサーで、2010年代半ばに国際トランス・サーキットに登場し、以降エジプト・トランス・パイプラインから出てきた最も目に見えてマルチレーベル的なカタログの一つを構築してきた。リリースはArmin van BuurenのArmada Musicおよびその傘下Armind、TiëstoのBlack Hole Recordings、Aly & FilaのAVA Recordings、RazNitzan Music、Mhammed El AlamiのSuanda Music、そして自身のレーベルFuturising Music——2022年に彼がトランス、フューチャー・レイヴ、テクノ、メロディック・ハウス素材のプラットフォームとして設立——にわたる。
+
+カタログの初期シグネチャー・リリースは2018年のSuanda Musicレーベル・メイトMhammed El Alamiとの共作「Helena」で、ヘルミーをFSOE／Suandaフェスティバル・サーキットおよびA State of Trance編集プレイへと運んだ。ソロ・シングル「Symphony」（2020、Suanda Music）がそのプロフィールを拡張し、Armin van BuurenがASOTクラシック「Full Focus」の公式リミキサーにヘルミーを選んだ際にキャリアのマーカー・モーメントが訪れた。2020年代を通じてプロジェクトは2つの並行チャネルで加速している：Armada／Armindライン——2023年3月Armadaリリース「Rhythm Inside」（Armin van Buurenとの共同プロデュース、Arminのアルバム『Feel Again』に収録）と2024年Armindシングル「Afterlife」で頂点に達する——および自身のFuturising Musicインプリント、そこでチャート・トッピング「R4VE 101」（2022年10月）が現在のプロジェクトの方向性を定義する継続的「R4VE Series」をスタートさせた。2026年リリース「King's Secret Garden」がFuturising Music Limitedでのランを継続する。
+
+トランス・エコシステム内において、Ahmed HelmyはFSOE-Suandaアップリフティング側面とArmadaメインステージ・ラインの間に位置する——FSOE 138コアよりもArmada／Armind編集方向に近く、Futurising R4VEレジスターがArmin van Buurenの近年のカタログが探求してきたフューチャー・レイヴとアップリフティングのハイブリッドへと拡張する。ArminはASOT 848でヘルミーを「トランスのライジング・スターの一人」、ASOT 839で「その瞬間に燃えている男の一人」として公的にフラグを立てている。
+
+オペレーター・ノート：毎週ASOTおよび2018年Tomorrowland Arminメインステージに基盤を置くリスナーにとって、Ahmed Helmyはエジプト的調性メロディック伝統がFSOE 138メインラインからArmada／フューチャー・アップリフティング・レジスターへとどのように外向きに引き伸ばされてきたかの作業上の実例である。Arminとの「Rhythm Inside」が最もクリーンな単一作品だ——オペレーターの7年間のASOT食事と同じSun & Moonの情緒的語彙だが、2010年代後半以降Arminのカタログを支えてきたわずかにスローでフューチャー・レイヴ寄りのテンポでレンダリングされており、ヘルミーはそのレーンの内側で自分の半分のプロダクションをクリーンに保っている。`,
     },
-    mentionedIn: [],
+    mentionedIn: ['what-is-uplifting-trance', 'modern-trance-classics-2020s-so-far', 'new-generation-trance-artists-to-watch-2026', 'best-uplifting-trance-tracks-of-all-time-50', 'essential-trance-labels-2026'],
   },
 
   {
