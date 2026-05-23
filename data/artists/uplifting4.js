@@ -176,35 +176,44 @@ Ferry Tayle名義でのブレイクスルーは2009-2010年、Will HollandのEnh
     emoji: '🌀',
     genre: 'UPLIFTING',
     banner: 'b-uplifting',
-    tags: ['UPLIFTING', 'TECH UPLIFTING', 'POLISH'],
+    tags: ['UPLIFTING', 'POLISH', 'FSOE'],
     realName: 'Adrian Wójcik',
     origin: 'Lublin, Poland',
-    born: '1992',
     activeFrom: '2014',
-    labels: ['Future Sound of Egypt (FSOE)', 'Subculture', 'A State of Trance', 'WAO138?!'],
-    topWorks: [],
-    related: ['aly-and-fila', 'bryan-kearney', 'will-atkinson', 'standerwick'],
+    labels: ['Future Sound of Egypt (FSOE)', 'Subculture', 'A State of Trance', 'WAO138?!', 'Damaged Records', 'SirAdrianMusic'],
+    topWorks: [
+      { title: 'These Words (with Cari)', year: 2015, type: 'track (vocal uplifting)' },
+    ],
+    related: ['aly-and-fila', 'bryan-kearney', 'will-atkinson', 'standerwick', 'ferry-tayle', 'cold-blue'],
     links: {
       beatport: 'https://www.beatport.com/search?q=A.R.D.I.',
     },
     sub: { en: 'Uplifting Trance', ja: 'アップリフティング・トランス' },
     short: {
-      en: 'Uplifting trance producer with releases on FSOE, Subculture, and Black Hole — a Beatport-charting fixture of the modern 138 BPM scene.',
-      ja: 'FSOE、Subculture、Black Holeからリリースするアップリフティング・トランス・プロデューサー。現代138 BPMシーンのBeatportチャート常連。',
+      en: 'Polish uplifting trance producer (real name Adrian Wójcik) from Lublin, with ASOT Future Favorite and FSOE Wonder of the Week wins and releases across FSOE, Subculture, WAO138?!, ASOT and Damaged.',
+      ja: 'ASOT Future FavoriteおよびFSOE Wonder of the Weekを獲得し、FSOE、Subculture、WAO138?!、ASOT、Damagedからリリースする、ルブリン出身のポーランド人アップリフティング・トランス・プロデューサー（本名Adrian Wójcik）。',
     },
     style: {
-      en: 'Mid-tempo to peak-time uplifting in the FSOE / Subculture editorial register — driving four-on-the-floor, melodic breakdowns, and the kind of arrangement craft that places the catalogue inside the modern Pure Trance / 138 lane.',
-      ja: 'FSOE／Subculture編集レジスターの中速〜ピークタイム・アップリフティング——ドライヴィングな四つ打ち、メロディック・ブレイクダウン、現代Pure Trance／138レーンに位置するタイプのアレンジメント。',
+      en: 'Mid-tempo to peak-time uplifting in the FSOE / Subculture editorial register — patient four-on-the-floor, melodic breakdowns, occasional vocal collaborations, and the classical-leaning arrangement craft that places the catalogue inside the modern Pure Trance / 138 lane.',
+      ja: 'FSOE／Subculture編集レジスターの中速〜ピークタイム・アップリフティング——忍耐強い四つ打ち、メロディック・ブレイクダウン、時折のヴォーカル・コラボレーション、現代Pure Trance／138レーンに位置するクラシック寄りのアレンジメント。',
     },
     bio: {
-      en: `A.R.D.I. is an uplifting trance producer with a Beatport-charting catalogue across Aly & Fila's Future Sound of Egypt, John O'Callaghan's Subculture, and Black Hole Recordings. His releases sit firmly in the modern 138 BPM uplifting register and have appeared on FSOE Radio and Subculture episodes through the late 2010s and 2020s.
+      en: `A.R.D.I. is the trance production alias of Adrian Wójcik, a Polish DJ and producer based in Lublin, Poland. He started on piano at age 8 and continued for roughly seven years before moving to software production in 2006 using Reason 4, with his first commercial trance releases following over the next several years and his catalogue ramping up across the mid-2010s.
 
-The catalogue is closer to the FSOE-aligned editorial direction (peak-time uplifting, melodic) than to the harder Subculture / 140 lane, and his collaborator network places him alongside the same FSOE-Family producer pool that has carried the label's release calendar across the past decade.`,
-      ja: `A.R.D.I.はAly & FilaのFuture Sound of Egypt、John O\'CallaghanのSubculture、Black Hole RecordingsにまたがるBeatportチャート入りカタログを持つアップリフティング・トランス・プロデューサー。リリースは現代138 BPMアップリフティング・レジスターにしっかりと位置し、2010年代後半から2020年代を通じてFSOE RadioおよびSubcultureエピソードに登場している。
+His releases run through the core modern uplifting label network: Aly & Fila's Future Sound of Egypt, the WAO138?! sub-imprint, John O'Callaghan's Subculture, Armin van Buuren's A State of Trance label, Damaged Records, and his own SirAdrianMusic. Editorial recognition has come on both major weekly shows — multiple Future Favorite wins on A State of Trance from Armin van Buuren, plus several Wonder of the Week placements on FSOE Radio from Aly & Fila — and the broader support network across the catalogue has included Daniel Kandi, Manuel Le Saux, Aly & Fila, Roger Shah and ReOrder. His 2015 vocal collaboration "These Words" with Cari is one of the catalogue's better-known crossover statements into vocal-uplifting territory.
 
-カタログはよりハードなSubculture／140レーンよりもFSOEと整列した編集方向（ピークタイム・アップリフティング、メロディック）に近く、コラボレーター・ネットワークは過去10年にわたってレーベルのリリース・カレンダーを運んできたのと同じFSOEファミリーのプロデューサー・プールに彼を位置づける。`,
+Within the broader scene A.R.D.I. sits in the classical / FSOE-aligned editorial direction of modern uplifting — peak-time melodic 138 BPM, vocal collaborations, the same lineage as Ferry Tayle, Driftmoon and the wider Polish uplifting cluster — distinct from the harder Kearnage / Outburst 140 lane and from the tech-uplifting Will Atkinson / Allen Watts wing.
+
+Personal listener note: A.R.D.I.'s tracks first crossed my path through Future Favorite voting episodes of ASOT — that's how a lot of the deeper-roster FSOE / WAO138?! names register if you're listening weekly rather than reading Beatport charts. The trait I associate with his catalogue is restraint: the breakdowns hold longer than the modern Beatport-trance norm before resolving, which makes the eventual lead arrival do more work. It's the same patience trait the older Polish and Romanian uplifting producers carry, and it's why the catalogue sounds at home next to Ferry Tayle and the Always Alive cluster.`,
+      ja: `A.R.D.I.はポーランドのDJ／プロデューサー、Adrian Wójcikのトランス・プロダクション・エイリアスで、ポーランド・ルブリンを拠点とする。8歳でピアノを始めて約7年続けた後、2006年にReason 4を使ったソフトウェア・プロダクションへ移行、その後数年で最初の商業トランス・リリースが続き、カタログは2010年代半ばを通じて加速した。
+
+リリースは現代アップリフティングの中核レーベル・ネットワークを通じて展開する：Aly & FilaのFuture Sound of Egypt、WAO138?!サブインプリント、John O'CallaghanのSubculture、Armin van BuurenのA State of Tranceレーベル、Damaged Records、そして自身のSirAdrianMusic。編集的認知は二大週次番組から獲得した——Armin van BuurenのA State of Tranceで複数のFuture Favorite獲得、加えてAly & FilaのFSOE Radioで複数のWonder of the Weekに位置づけ——そしてカタログ全体に及ぶより広いサポート・ネットワークにはDaniel Kandi、Manuel Le Saux、Aly & Fila、Roger Shah、ReOrderが含まれる。2015年のCariとのヴォーカル共作「These Words」はカタログ内で最も知名度の高い、ヴォーカル・アップリフティング領域へのクロスオーバー・ステートメントの一つである。
+
+より広いシーンにおいてA.R.D.I.は現代アップリフティングのクラシカル／FSOE系列の編集方向に位置する——ピークタイム・メロディック138 BPM、ヴォーカル・コラボレーション、Ferry Tayle、Driftmoon、より広いポーランド・アップリフティング・クラスターと同じ系譜——よりハードなKearnage／Outburst 140レーンや、Will Atkinson／Allen Wattsのテック・アップリフティング派閥とは区別される。
+
+個人的なリスナー・ノート：A.R.D.I.のトラックが最初に交差したのはASOTのFuture Favorite投票エピソードを通じてだった——これがBeatportチャートを読むよりも週次でリスニングしている時に多くの深層ロースターのFSOE／WAO138?!名がレジスターされる経路だ。カタログに対して紐づくシグネチャーは抑制——ブレイクダウンが現代Beatport-トランスの標準より長く保持されてから解決し、最終的なリードの到着により多くの仕事をさせる。これは古いポーランドおよびルーマニアのアップリフティング・プロデューサーが運ぶ忍耐の特性と同じであり、カタログがFerry TayleとAlways Aliveクラスターの隣でくつろいで響く理由でもある。`,
     },
-    mentionedIn: [],
+    mentionedIn: ['what-is-uplifting-trance', 'best-uplifting-trance-tracks-of-all-time-50', 'modern-trance-classics-2020s-so-far', 'essential-trance-labels-2026', 'anatomy-of-uplifting-trance-anthem'],
   },
 
   {
