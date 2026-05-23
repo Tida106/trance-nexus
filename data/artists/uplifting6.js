@@ -15,25 +15,35 @@ export const uplifting6 = [
     origin: 'Dublin, Ireland',
     activeFrom: '2012',
     labels: ['Discover Records', 'Future Sound of Egypt (FSOE)', 'Garuda', 'Vision Records'],
-    topWorks: [],
-    related: ['activa', 'will-atkinson', 'sean-tyas', 'simon-patterson'],
+    topWorks: [
+      { title: 'Holding The Light (with Bo Bruce)', year: 2025, type: 'track' },
+    ],
+    related: ['activa', 'will-atkinson', 'sean-tyas', 'simon-patterson', 'bryan-kearney', 'john-ocallaghan'],
     links: {
       beatport: 'https://www.beatport.com/search?q=Paul+Webster',
     },
     sub: { en: 'Uplifting / Tech Uplifting', ja: 'アップリフティング / テック・アップリフティング' },
     short: {
-      en: 'Irish uplifting trance producer with a catalogue across Discover Records, FSOE, Garuda, and Vision Records.',
-      ja: 'Discover Records、FSOE、Garuda、Vision Recordsにわたるカタログを持つアイルランドのアップリフティング・トランス・プロデューサー。',
+      en: 'Irish uplifting trance producer based in Dublin with a catalogue across Discover Records, FSOE, Garuda, Vision Records, and Armada.',
+      ja: 'Discover Records、FSOE、Garuda、Vision Records、Armadaにわたるカタログを持つダブリン拠点のアイルランド人アップリフティング・トランス・プロデューサー。',
     },
     style: {
-      en: 'Tech-uplifting in the Discover / FSOE lineage — driving 138 BPM arrangements with melodic emphasis and the percussive precision the harder-trance scene refined across the period.',
-      ja: 'Discover／FSOE系譜のテック・アップリフティング——メロディック重視のドライヴィング138 BPMアレンジメントと、ハーダー・トランス・シーンが洗練したパーカッシブな精度。',
+      en: 'Tech-uplifting in the Discover / FSOE lineage — driving 138-142 BPM arrangements with melodic emphasis and the percussive precision the harder-trance scene refined across the period.',
+      ja: 'Discover／FSOE系譜のテック・アップリフティング——メロディック重視のドライヴィング138〜142 BPMアレンジメントと、ハーダー・トランス・シーンが洗練したパーカッシブな精度。',
     },
     bio: {
-      en: `Paul Webster is an Irish uplifting trance producer based in Dublin, active since the early 2010s, with a catalogue across Discover Records, FSOE, Garuda, and Vision Records. His releases sit in the tech-uplifting lineage that the Discover scene defined alongside Activa, John Askew, and Sean Tyas, and the catalogue has continued steadily through the FSOE editorial direction in the years since.`,
-      ja: `ポール・ウェブスターは2010年代初頭から活動するダブリン拠点のアイルランド人アップリフティング・トランス・プロデューサー。Discover Records、FSOE、Garuda、Vision Recordsにわたるカタログを持つ。リリースはActiva、John Askew、Sean Tyasと並んでDiscoverシーンが定義したテック・アップリフティング系譜に位置し、その後もFSOE編集方針のもとカタログを安定して継続している。`,
+      en: `Paul Webster is an Irish DJ and producer from Dublin, working in trance and techno-trance. He first discovered electronic music as a teenager in the late 1990s — Judge Jules sets and big-arena Dublin shows like Gatecrasher and God's Kitchen — and entered the world dance circuit as a releasing artist in 2012. His catalogue is spread across Discover Records, Future Sound of Egypt, Garuda, Vision Records, Subculture, and Armada, and he has had visible support over the years from Armin van Buuren, Tiësto, Judge Jules and Paul van Dyk. An early career marker was being booked into Tiësto's Club Life residency at Privilege Ibiza in 2010.
+
+His releases sit in the tech-uplifting lineage that the Discover scene shaped alongside Activa, John Askew, Sean Tyas, Bryan Kearney and John O'Callaghan — driving 138-142 BPM arrangements with melodic emphasis and percussive precision. The 2025 release "Holding The Light" with vocalist Bo Bruce, issued via Armada's A State of Trance / Captivating imprint at 142 BPM, marked one of his higher-profile recent placements and earned support from Will Atkinson and Bryan Kearney. He has been booked at the Luminosity Beach Festival circuit and the wider FSOE / Subculture event ecosystem.
+
+Within the Irish trance scene Paul Webster sits alongside Bryan Kearney and John O'Callaghan as one of the country's continuing contributors to the harder-uplifting and tech-trance wing. His career has stayed editorially focused on that lane rather than chasing crossover formats, and the steady output across multiple labels through more than a decade is the central credential.`,
+      ja: `ポール・ウェブスターはダブリン出身のアイルランド人DJ／プロデューサーで、トランスおよびテクノ・トランスを手掛ける。1990年代末に十代でエレクトロニック・ミュージックに出会い——Judge JulesのセットとGatecrasher、God's Kitchenなどのダブリンの大規模アリーナ・ショー——リリース・アーティストとして世界のダンス・サーキットに参入したのは2012年。カタログはDiscover Records、Future Sound of Egypt、Garuda、Vision Records、Subculture、Armadaにわたり、長年にわたりArmin van Buuren、Tiësto、Judge Jules、Paul van Dykからの可視的サポートを得ている。初期キャリアのマーカーの一つは、2010年のTiëstoのIbiza Privilege「Club Life」レジデンシーへのブッキングだった。
+
+リリースはActiva、John Askew、Sean Tyas、Bryan Kearney、John O'Callaghanと並んでDiscoverシーンが形作ったテック・アップリフティング系譜に位置する——メロディック重視のドライヴィング138〜142 BPMアレンジメントとパーカッシブな精度。ヴォーカリストBo Bruceとの2025年リリース「Holding The Light」——ArmadaのA State of Trance／Captivativeインプリントから142 BPMで発売——は近年の比較的高プロファイルな配置となり、Will AtkinsonおよびBryan Kearneyのサポートを得た。Luminosity Beach Festivalサーキットおよびより広いFSOE／Subcultureイベント・エコシステムに出演している。
+
+アイルランドのトランス・シーンにおいて、ポール・ウェブスターはBryan KearneyおよびJohn O'Callaghanと並んで、国のハーダー・アップリフティングおよびテック・トランス側面への継続的な貢献者の一人として位置する。彼のキャリアはクロスオーバー・フォーマットを追わずそのレーンに編集的に集中し続けており、10年以上にわたる複数レーベルからの安定した出力こそが中心的な信用となっている。`,
     },
-    mentionedIn: [],
+    mentionedIn: ['what-is-uplifting-trance', 'best-uplifting-trance-tracks-of-all-time-50', 'a-state-of-trance-show-that-changed-everything', 'anatomy-of-uplifting-trance-anthem'],
   },
 
   {
