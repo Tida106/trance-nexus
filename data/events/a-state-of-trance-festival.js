@@ -1,8 +1,11 @@
 // A State of Trance Festival — the live festival edition of Armin van
-// Buuren's flagship radio show. The festival relocated from Jaarbeurs
-// Utrecht (its 2011–2023 home, demolished after 2023) to Rotterdam
-// Ahoy starting February 2024. The 2026 edition celebrates 25 years
-// of A State of Trance.
+// Buuren's flagship radio show (which began 1 June 2001). The festival
+// has cycled through Dutch venues: Brabanthallen Den Bosch hosted the
+// landmark ASOT 500 (April 2011) and ASOT 600 (April 2013) editions;
+// Jaarbeurs Utrecht hosted ASOT 800 (Feb 2017), 900 (Feb 2019), 950
+// (Feb 2020) and ASOT 1000 (Sept 2021). The festival relocated to
+// Rotterdam Ahoy starting in February 2024, where the 2026 edition
+// celebrates 25 years of A State of Trance.
 
 const aStateOfTranceFestival = {
   slug: 'a-state-of-trance-festival',
@@ -36,16 +39,25 @@ const aStateOfTranceFestival = {
     'cosmic-gate',
     'ferry-corsten',
     'paul-van-dyk',
+    'markus-schulz',
+    'above-and-beyond',
+    'dash-berlin',
+    'orjan-nilsen',
+    'maddix',
+    'hi-lo',
   ],
   labels: ['Armada Music', 'A State of Trance'],
 
   editions: [
     { year: 2026, dates: 'February 27–28', note: '25 years of A State of Trance (Rotterdam Ahoy)' },
     { year: 2025, dates: 'February 21–22', note: 'Rotterdam Ahoy' },
-    { year: 2024, dates: 'February 2024', note: 'Inaugural Rotterdam Ahoy edition (after Jaarbeurs Utrecht closure)' },
-    { year: 2020, note: 'ASOT 950 (Jaarbeurs Utrecht — final Utrecht edition before covid)' },
+    { year: 2024, dates: 'February 23–24', note: 'Inaugural Rotterdam Ahoy edition' },
+    { year: 2021, dates: 'September 3–4', note: 'ASOT 1000 (Jaarbeurs Utrecht — five areas)' },
+    { year: 2020, note: 'ASOT 950 (Jaarbeurs Utrecht)' },
     { year: 2019, dates: 'February 16', note: 'ASOT 900 (Jaarbeurs Utrecht)' },
     { year: 2017, dates: 'February 18', note: 'ASOT 800 (Jaarbeurs Utrecht)' },
+    { year: 2013, dates: 'April 6', note: 'ASOT 600 — The Expedition (Brabanthallen, Den Bosch)' },
+    { year: 2011, dates: 'April 9', note: 'ASOT 500 (Brabanthallen, Den Bosch)' },
   ],
 
   official_url: 'https://festival.astateoftrance.com',
@@ -54,11 +66,11 @@ const aStateOfTranceFestival = {
 
   en: {
     description:
-      "A State of Trance Festival is the live festival edition of Armin van Buuren's weekly ASOT radio show. Originally held annually at Jaarbeurs Utrecht from 2011 through 2023, the festival relocated to Rotterdam Ahoy from February 2024 onwards following the demolition of Jaarbeurs. The 2026 edition (27–28 February) celebrates 25 years of A State of Trance with a two-day event across five stages. Line-ups span the full uplifting / progressive / tech / vocal / psy axis of the trance genre, with Armin himself closing.",
+      "A State of Trance Festival is the live festival edition of Armin van Buuren's weekly ASOT radio show, which first aired on 1 June 2001. The festival has cycled through Dutch venues: Brabanthallen in Den Bosch hosted the landmark milestone editions ASOT 500 (9 April 2011) and ASOT 600 \"The Expedition\" (6 April 2013, drawing about 30,000 attendees across four stages including the Main Stage and \"Who's Afraid of 138?!\"). Jaarbeurs Utrecht then hosted ASOT 800 (2017), ASOT 900 (2019), ASOT 950 (2020), and the 1000th-episode celebration ASOT 1000 across two nights on 3–4 September 2021 with five areas.\n\nThe festival relocated to Rotterdam Ahoy starting with the inaugural edition there on 23–24 February 2024. The 2026 edition (27–28 February at Rotterdam Ahoy) celebrates 25 years of A State of Trance. Line-ups span the full uplifting, progressive, tech, vocal, and psy-trance spectrum, with Armin himself closing.",
   },
   ja: {
     description:
-      'A State of Trance Festivalは、Armin van Buurenの週刊ASOTラジオ番組のライヴ・フェスティバル版だ。2011年から2023年までユトレヒトのJaarbeursで毎年開催されていたが、Jaarbeurs閉鎖・取り壊しに伴い2024年2月からロッテルダムのAhoyへ移転した。2026年エディション（2月27〜28日）はA State of Trance 25周年を記念する2日間のイベントとなる。ラインアップはトランス・ジャンルのアップリフティング／プログレッシブ／テック／ボーカル／サイの全軸に及び、Armin自身がクロージングを務める。',
+      'A State of Trance Festivalは、Armin van Buurenの週刊ASOTラジオ番組（2001年6月1日初放送）のライヴ・フェスティバル版だ。フェスティバルはオランダ国内の複数の会場を巡回してきた——Den BoschのBrabanthallenはASOT 500（2011年4月9日）とASOT 600「The Expedition」（2013年4月6日、約3万人を集めMain Stageや「Who\'s Afraid of 138?!」を含む4ステージで開催）といった節目のエディションを開催。続いてJaarbeurs UtrechtがASOT 800（2017年）、ASOT 900（2019年）、ASOT 950（2020年）、そして第1000回放送記念のASOT 1000を2021年9月3〜4日に5エリアで2夜にわたり開催した。\n\n2024年2月23〜24日のロッテルダム初開催を機にRotterdam Ahoyへ移転。2026年エディション（2月27〜28日／Rotterdam Ahoy）はA State of Trance 25周年を記念する。ラインアップはアップリフティング、プログレッシブ、テック、ボーカル、サイトランスの全域に及び、Armin自身がクロージングを務める。',
   },
 };
 
