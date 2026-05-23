@@ -245,39 +245,51 @@ Beyond their own catalogue, Avi Nissim and Lior Perlmutter co-founded Trust in T
     emoji: '☁️',
     genre: 'PSYTRANCE',
     banner: 'b-psytrance',
-    tags: ['GOA TRANCE', 'SCANDINAVIAN PSY', 'CLASSIC'],
-    realName: 'Tomas Hedberg',
-    origin: 'Stockholm, Sweden',
-    born: '1972',
-    activeFrom: '1996',
-    labels: ['Iboga Records', 'Phonokol Records'],
+    tags: ['PROGRESSIVE PSYTRANCE', 'SCANDINAVIAN PSY', 'IBOGA', 'CLASSIC'],
+    realName: 'Tomasz Balicki',
+    origin: 'Sweden (born in Poland)',
+    activeFrom: '1998',
+    labels: ['Iboga Records', 'Spiral Trax', 'Tip Records'],
     topWorks: [
-      { title: 'The Only Process', year: 2002, type: 'album' },
-      { title: 'Klangwerk', year: 2007, type: 'album' },
-      { title: 'Watermelon', year: 2002, type: 'track' },
-      { title: 'Coming Out', year: 2007, type: 'track' },
-      { title: 'Atmos - Live Sets', year: '2000s–', type: 'live recordings' },
+      { title: 'The Only Process', year: 1999, type: 'track' },
+      { title: 'Headcleaner', year: 2000, type: 'album' },
+      { title: 'Overlap', year: 2001, type: 'album' },
+      { title: '2nd Brigade', year: 2004, type: 'album' },
+      { title: 'Tour de Trance', year: 2008, type: 'album' },
+      { title: '604', year: 2012, type: 'album' },
     ],
-    related: ['astral-projection', 'symbolic', 'liquid-soul', 'astrix'],
+    related: ['astral-projection', 'symbolic', 'liquid-soul', 'ace-ventura', 'captain-hook'],
     links: {
-      soundcloud: 'https://soundcloud.com/atmotech',
+      soundcloud: 'https://soundcloud.com/atmos-official',
       spotify: 'https://open.spotify.com/artist/6pqvOCqzJlsUWlVjeHBw0v',
       beatport: 'https://www.beatport.com/search?q=Atmos',
     },
-    sub: { en: 'Scandinavian Psytrance', ja: 'スカンディナヴィアン・サイトランス' },
+    sub: { en: 'Scandinavian Progressive Psytrance', ja: 'スカンディナヴィアン・プログレッシブ・サイトランス' },
     short: {
-      en: 'Swedish producer and a key figure in the Scandinavian psytrance lineage with a long catalogue on Iboga Records.',
-      ja: 'スカンディナヴィアン・サイトランス系譜の中心人物の一人であるスウェーデンのプロデューサー。Iboga Recordsからの長期にわたるカタログを持つ。',
+      en: 'Polish-born, Sweden-based producer Tomasz Balicki — one of the originators of the minimal-progressive psytrance form that emerged circa 2000 alongside Vibrasphere and Human Blue.',
+      ja: '2000年頃にVibrasphereやHuman Blueと並んで登場したミニマル・プログレッシブ・サイトランス形態の創始者の一人、ポーランド生まれスウェーデン拠点のプロデューサー、Tomasz Balicki。',
     },
     style: {
-      en: 'Crystalline, melodic full-on psytrance — clean production, plucked acoustic-style elements, and the cooler, less aggressive Scandinavian take on the form.',
-      ja: 'クリスタリンでメロディックなフルオン・サイトランス——クリーンなプロダクション、プラックされたアコースティック調の要素、攻撃性を抑えたスカンディナヴィアン的解釈。',
+      en: 'Deep pulsating beats and basslines combined with subtle, understated melodies and soaring atmospheric textures — the minimal/progressive psy template that displaced the mid-90s Goa full-on aesthetic at the turn of the millennium.',
+      ja: '深く脈打つビートとベースライン、繊細で抑制されたメロディ、舞い上がるアトモスフェリックなテクスチャの組み合わせ——千年紀の変わり目に90年代半ばのゴア・フルオンの美学に取って代わったミニマル／プログレッシブ・サイのテンプレート。',
     },
     bio: {
-      en: `Tomas Hedberg, working as Atmos, is one of the defining figures of the Scandinavian psytrance scene that emerged in the late 90s alongside the more famous Israeli wave. With a long catalogue on Iboga Records, he built a body of work characterised by crystalline melodies and cleaner production than the Israeli mainstream — albums The Only Process (2002) and Klangwerk (2007) are his most-cited works. He continues to perform internationally and remains a touchstone for melodic psy.`,
-      ja: `Atmos名義のトーマス・ヘドベリは、より有名なイスラエル勢と並んで90年代末に登場したスカンディナヴィアン・サイトランス・シーンの定義的人物の一人。Iboga Recordsからの長期にわたるカタログを擁し、イスラエル主流派よりもクリスタリンなメロディとクリーンなプロダクションを特徴とする作品体を築いた——アルバム『The Only Process』（2002）と『Klangwerk』（2007）が代表作として最も頻繁に挙げられる。現在も国際的に演奏を続け、メロディック・サイの基準点として在り続けている。`,
+      en: `Tomasz Balicki, performing as Atmos, is a Polish-born, Sweden-based producer who has been an integral part of the progressive-psytrance scene since the late 1990s. The project debuted with the Rebirth of Cavanaough EP in 1998, and his breakthrough single "The Only Process" (1999, Tip Records) became one of the foundational tracks of the new minimal/progressive psytrance form. Along with fellow Swedish producers Noma, Vibrasphere and Human Blue, Atmos was responsible for introducing and popularising the slower, deeper, less aggressive psy aesthetic that displaced the mid-90s Goa full-on template around the turn of the millennium.
+
+His discography centres on a string of full-length albums released across the 2000s and early 2010s: Headcleaner (2000), Overlap (2001), 2nd Brigade (2004), and Tour de Trance (2008). The 604 double album landed on Iboga Records in 2012 — one CD of new material plus a remix CD that documented both his remixes of others and others' reinterpretations of his tracks, effectively functioning as a midpoint retrospective. He has also released EPs on Iboga including "Where Do I Belong" and "One You Need", anchoring the project in the Iboga editorial line for over a decade.
+
+Within the trance landscape Atmos sits at the Scandinavian / progressive end of psy — the lineage that runs from the late-90s Goa transition through Vibrasphere, Liquid Soul, Ace Ventura, and the modern Iboga roster. The Scandinavian wing was always editorially distinct from the Israeli mainstream — cooler, more architectural, more focused on bassline and atmosphere than on overt melodic peaks — and Atmos is one of the producers who established that distinction in the first place.
+
+For the operator coming to psytrance via the Iboga progressive line, Atmos is the upstream source — the producer whose late-90s/early-2000s output is essentially the reference template that Ace Ventura and Liquid Soul built their projects on top of.`,
+      ja: `Tomasz BalickiはAtmos名義で活動するポーランド生まれ、スウェーデン拠点のプロデューサーで、1990年代末以降プログレッシブ・サイトランス・シーンに不可欠な存在となってきた。プロジェクトは1998年に『Rebirth of Cavanaough』EPでデビュー、ブレイクスルー・シングル「The Only Process」（1999年、Tip Records）は新しいミニマル／プログレッシブ・サイトランス形態の基礎的トラックの一つとなった。スウェーデンの仲間プロデューサーNoma、Vibrasphere、Human Blueと並んで、Atmosは千年紀の変わり目頃に90年代半ばのゴア・フルオン・テンプレートに取って代わった、よりスロー、より深く、より攻撃性の低いサイの美学を導入し普及させる役割を担った。
+
+ディスコグラフィは2000年代から2010年代初頭に発売されたフル・アルバムを中心とする：『Headcleaner』（2000）、『Overlap』（2001）、『2nd Brigade』（2004）、そして『Tour de Trance』（2008）。ダブルアルバム『604』は2012年にIboga Recordsから発売——1枚は新作素材、もう1枚は彼が他者をリミックスしたものと他者が彼のトラックを再解釈したリミックスを収録した1枚で、実質的にミッドポイント・レトロスペクティブとして機能した。Ibogaから「Where Do I Belong」「One You Need」などのEPもリリースしており、プロジェクトを10年以上Iboga編集ラインに錨を下ろしている。
+
+トランスの風景の中でAtmosが占めるのはサイのスカンディナヴィアン／プログレッシブの端——90年代末のゴア移行期からVibrasphere、Liquid Soul、Ace Ventura、そして現代Ibogaロースターへと続く系譜だ。スカンディナヴィアンの一翼は常にイスラエル主流派から編集的に区別されてきた——よりクール、より建築的、メロディックなピークよりベースラインとアトモスフィアに集中する——そしてAtmosはその区別をそもそも確立したプロデューサーの一人である。
+
+Ibogaプログレッシブ・ラインを経由してサイトランスにたどり着いたオペレーターにとって、Atmosは上流の源——その90年代末／2000年代初頭の出力が、Ace VenturaとLiquid Soulがプロジェクトを構築する際の参照テンプレートそのものとなっているプロデューサーだ。`,
     },
-    mentionedIn: ['rise-of-psytrance-goa-to-modern-day'],
+    mentionedIn: ['rise-of-psytrance-goa-to-modern-day', 'what-is-goa-trance', 'what-is-psytrance', 'history-of-trance-music'],
   },
 
   {
