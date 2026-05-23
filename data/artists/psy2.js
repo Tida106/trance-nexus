@@ -149,38 +149,47 @@ Awards and recognition include winning the DJ Awards in Ibiza for the Psy-Trance
     emoji: '🌀',
     genre: 'PSYTRANCE',
     banner: 'b-psytrance',
-    tags: ['FULL-ON PSYTRANCE', 'HOMMEGA', 'ISRAELI'],
-    realName: 'Avner Ranzo',
-    origin: 'Israel',
-    born: '1985',
+    tags: ['PROGRESSIVE PSYTRANCE', 'FULL-ON', 'ISRAELI'],
+    origin: 'Tel Aviv, Israel',
+    born: '1983',
     activeFrom: '2009',
-    labels: ['Hommega Productions', 'Profound Records (as artist)'],
+    labels: ['Phantasm Records', 'Iboga Records', 'HOMmega Productions'],
     topWorks: [
-      { title: 'Genesis', year: 2014, type: 'album' },
-      { title: 'Crystal Skies', year: 2017, type: 'track' },
-      { title: 'Phoenix', year: 2020, type: 'track' },
-      { title: 'Eclipse', year: 2022, type: 'album' },
+      { title: 'DapAnji debut album', year: 2009, type: 'album' },
+      { title: 'Class A (with Ghost Rider) — project launch', year: 2012, type: 'project' },
     ],
-    related: ['astrix', 'vini-vici', 'captain-hook', 'symbolic'],
+    related: ['astrix', 'vini-vici', 'captain-hook', 'ace-ventura', 'symbolic', 'liquid-soul'],
     links: {
       soundcloud: 'https://soundcloud.com/ranji',
       spotify: 'https://open.spotify.com/artist/6Tu0luJL7EoFv1RsHZP30p',
-      beatport: 'https://www.beatport.com/search?q=Ranji',
+      beatport: 'https://www.beatport.com/artist/ranji/62225',
     },
-    sub: { en: 'Full-on Psytrance', ja: 'フルオン・サイトランス' },
+    sub: { en: 'Progressive / Full-on Psytrance', ja: 'プログレッシブ / フルオン・サイトランス' },
     short: {
-      en: 'Israeli producer with releases on Hommega Productions and the Indian label Profound Records — one of the most consistent voices in modern full-on psy.',
-      ja: 'Hommega Productionsおよびインドのレーベル Profound Records からリリースを重ねるイスラエルのプロデューサー。現代フルオン・サイで最も安定した声の一人。',
+      en: 'Israeli producer from Tel Aviv (born 1983) who emerged via the DapAnji project and the Class A duo with Ghost Rider, later moving into progressive psytrance as a solo name.',
+      ja: 'DapAnjiプロジェクトおよびGhost RiderとのデュオClass Aを経て、ソロ名義でプログレッシブ・サイトランスへと移行したテルアビブ出身（1983年生）のイスラエル人プロデューサー。',
     },
     style: {
-      en: 'Energetic full-on psytrance — peak-time melodies, propulsive rolling basslines, and big-room festival energy. Aligned aesthetically with Astrix and Vini Vici.',
-      ja: 'エネルギッシュなフルオン・サイトランス——ピークタイム・メロディ、推進力あるローリング・ベースライン、ビッグルーム志向のフェス・エネルギー。AstrixやVini Viciと美学的に近い。',
+      en: 'Production marked by dynamic take-offs, dramatic breakdowns, and vocal-rich arrangement — sitting on the progressive-to-full-on spectrum with peak-time melodic energy and an open-minded approach to song structure.',
+      ja: 'ダイナミックな離陸、ドラマティックなブレイクダウン、ヴォーカル豊富なアレンジメントが特徴のプロダクション——プログレッシブからフルオンに渡るスペクトラム上に位置し、ピークタイムのメロディック・エナジーと楽曲構造へのオープンマインドなアプローチを持つ。',
     },
     bio: {
-      en: `Avner Ranzo — performing as Ranji — is an Israeli producer with a long catalogue on Hommega Productions and the Mumbai-based Indian psytrance label Profound Records (founded by Spinal Fusion + Radhika Bhanot in 2012). His albums Genesis (2014) and Eclipse (2022) anchor a catalogue that has placed him alongside Astrix and Vini Vici in the modern full-on lineage. He performs regularly at Universo Paralello, Ozora, and Boom.`,
-      ja: `Ranji名義のアヴネル・ランツォはイスラエル人プロデューサーで、Hommega ProductionsおよびSpinal FusionとRadhika Bhanotが2012年に設立したムンバイ拠点のインド・サイトランス・レーベルProfound Recordsから長期にわたるカタログをリリースしている。アルバム『Genesis』（2014）、『Eclipse』（2022）を擁するカタログは、現代フルオン系譜でAstrix、Vini Viciと並ぶ存在として位置づけている。Universo Paralello、Ozora、Boomに常連出演。`,
+      en: `Ranji is an Israeli psytrance producer from Tel Aviv, born in 1983. He first stirred global attention as part of the DapAnji project, whose debut album landed on Phantasm Records in 2009, and his profile grew further through Class A — the duo he formed with Ghost Rider that hit dance floors like a meteor in 2012. Across those two project identities he established himself within the late-2000s / early-2010s Israeli full-on circuit before eventually moving the solo Ranji name toward the more open-minded realm of progressive trance.
+
+The solo catalogue is characterised by crazy breakdowns, dynamic take-offs, and vocal-rich arrangement — a production approach that has placed Ranji alongside the broader Iboga / HOMmega-adjacent progressive-psy circle. He has released and remixed across Iboga Records (including remix work on the Vini Vici & Liquid Soul "Universe Inside Me" co-remix with Ghost Rider), with additional placements through the wider Israeli psy label ecosystem. The Ranji project sits in the lane where modern progressive psytrance reaches its highest production polish, and the catalogue has continued to grow through the 2020s.
+
+Within the trance landscape Ranji occupies the bridge zone between full-on energy and progressive structure — closer to the Iboga editorial line than to Astrix's harder festival full-on, but with more emotional payload than the typical 138 BPM Iboga floor track. He performs across the international psy festival circuit including Universo Paralello, Boom, Ozora, and the Love Explosion festival in Germany.
+
+For an operator who came to psytrance via Vini Vici's Tomorrowland-era ASOT spots and Armin's psy-curious sets, Ranji is the version of the modern Israeli sound where the song-writing comes through clearly — a useful entry point into the deeper Iboga / Phantasm progressive catalogue.`,
+      ja: `Ranjiは1983年テルアビブ生まれのイスラエル人サイトランス・プロデューサー。最初に世界的な注目を集めたのは、デビュー・アルバムが2009年にPhantasm Recordsからリリースされたプロジェクトの一部であるDapAnjiとしての活動を通じてだった。さらにプロフィールを高めたのは、2012年にGhost Riderと結成したデュオClass A——隕石のようにダンスフロアを直撃したプロジェクト。これら二つのプロジェクト・アイデンティティを通じて2000年代末/2010年代初頭のイスラエル・フルオン・サーキット内での地位を確立し、その後ソロ名義Ranjiをよりオープンマインドなプログレッシブ・トランス領域へとシフトさせた。
+
+ソロのカタログはクレイジーなブレイクダウン、ダイナミックな離陸、ヴォーカル豊富なアレンジメントを特徴とする——Iboga/HOMmega隣接のより広いプログレッシブ・サイ圏内にRanjiを位置づけるプロダクション・アプローチだ。Iboga Recordsを通じてリリースおよびリミックス・ワークを重ねており（Ghost RiderとのVini Vici & Liquid Soul「Universe Inside Me」共同リミックスを含む）、より広いイスラエル・サイ・レーベル・エコシステムからの追加配置もある。Ranjiプロジェクトは現代プログレッシブ・サイトランスがプロダクションの磨きの頂点に達するレーンに位置し、カタログは2020年代を通じて拡大を続けている。
+
+トランスの風景の中でRanjiが占めるのは、フルオンのエネルギーとプログレッシブの構造の間の架け橋ゾーン——Astrixのハードなフェスティバル・フルオンより、よりIboga編集ラインに近い位置だが、典型的な138 BPMのIbogaフロア・トラックよりも感情的ペイロードが大きい。Universo Paralello、Boom、Ozora、そしてドイツのLove Explosionフェスティバルを含む国際的サイ・フェスティバル・サーキットで演奏を続けている。
+
+Vini ViciのTomorrowland期のASOT配置とArminのサイに好奇心を寄せたセットを通じてサイトランスにたどり着いたオペレーターにとって、Ranjiはソング・ライティングが明確に伝わってくる現代イスラエル・サウンドのバージョンだ——より深いIboga/Phantasmプログレッシブ・カタログへの有用な入り口である。`,
     },
-    mentionedIn: ['rise-of-psytrance-goa-to-modern-day'],
+    mentionedIn: ['rise-of-psytrance-goa-to-modern-day', 'what-is-psytrance', 'best-psytrance-tracks-of-all-time-50', 'modern-trance-classics-2020s-so-far'],
   },
 
   {
