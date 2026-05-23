@@ -214,36 +214,47 @@ The catalogue is closer to the FSOE-aligned editorial direction (peak-time uplif
     emoji: '❄️',
     genre: 'UPLIFTING',
     banner: 'b-uplifting',
-    tags: ['UPLIFTING', 'GERMAN'],
+    tags: ['UPLIFTING', 'CLASSIC TRANCE', 'GERMAN'],
+    realName: 'Tobias Schuh',
     origin: 'Germany',
-    activeFrom: '2005',
-    labels: ['Vandit Records', 'Discover Records', 'Black Hole Recordings'],
+    activeFrom: '2006',
+    labels: ['In Trance We Trust', 'Black Hole Recordings', 'Future Sound of Egypt (FSOE)', 'Subculture', 'Kearnage Recordings', 'Damaged Records'],
     topWorks: [
-      { title: 'Mile End', year: 2008, type: 'track' },
-      { title: 'Heading Home', year: 2010, type: 'track' },
-      { title: 'Mirage', year: 2014, type: 'track' },
+      { title: '11 Days (with Del Mar)', year: 2007, type: 'track (breakthrough)' },
+      { title: 'Seven Ways (with Del Mar)', year: 2007, type: 'track' },
+      { title: 'Winter', year: 2019, type: 'album' },
+      { title: 'Summer Chills', year: 2020, type: 'album' },
+      { title: 'Mountain', year: 2025, type: 'album' },
     ],
-    related: ['paul-van-dyk', 'will-atkinson', 'activa', 'sean-tyas'],
+    related: ['paul-van-dyk', 'will-atkinson', 'activa', 'sean-tyas', 'bryan-kearney', 'factor-b'],
     links: {
-      beatport: 'https://www.beatport.com/search?q=Cold+Blue',
+      beatport: 'https://www.beatport.com/artist/cold-blue/6306',
     },
-    sub: { en: 'Uplifting Trance', ja: 'アップリフティング・トランス' },
+    sub: { en: 'Uplifting / Classic Trance', ja: 'アップリフティング / クラシック・トランス' },
     short: {
-      en: 'German uplifting trance producer with a long catalogue across Paul van Dyk\'s Vandit, Discover, and Black Hole Recordings.',
-      ja: 'Paul van DykのVandit、Discover、Black Hole Recordingsに長期カタログを持つドイツのアップリフティング・トランス・プロデューサー。',
+      en: 'German trance producer (real name Tobias Schuh) active since 2006, breaking through with "11 Days" / "Seven Ways" on In Trance We Trust, now a Black Hole albums artist (Winter, Summer Chills, Mountain).',
+      ja: '2006年から活動するドイツのトランス・プロデューサー（本名Tobias Schuh）。In Trance We Trustからの「11 Days」／「Seven Ways」でブレイクし、現在はBlack Holeのアルバム・アーティスト（『Winter』『Summer Chills』『Mountain』）。',
     },
     style: {
-      en: 'Classic late-2000s / early-2010s uplifting — melodic leads, patient pad-led breakdowns, and the kind of arrangement aesthetic that the Vandit / Discover Records lineage carried through the 138 BPM peak years.',
-      ja: '2000年代末〜2010年代初頭の正統派アップリフティング——メロディック・リード、忍耐強いパッド主導ブレイクダウン、Vandit／Discover Records系譜が138 BPMピーク期を通して運んだタイプのアレンジメント美学。',
+      en: 'Pure uplifting and tech-trance with a "quality over quantity" production philosophy — long-form melodic arrangements, patient breakdowns, and the In Trance We Trust / Black Hole lineage of melodic peak-time trance carried into the modern era.',
+      ja: '「Quality over Quantity（量より質）」プロダクション哲学を持つ正統派アップリフティング及びテック・トランス——長尺メロディック・アレンジメント、忍耐強いブレイクダウン、In Trance We Trust／Black Holeの系譜のメロディック・ピークタイム・トランスを現代に運ぶ。',
     },
     bio: {
-      en: `Cold Blue is a German uplifting trance producer who built a steady catalogue across Paul van Dyk's Vandit Records, Discover Records, and Black Hole Recordings from the mid-2000s onward. His releases including "Mile End" (2008), "Heading Home" (2010), and "Mirage" (2014) sit in the classic uplifting register that the Vandit / Discover Records lineage refined through the 138 BPM peak years.
+      en: `Cold Blue is the trance production alias of Tobias Schuh, a German producer active since 2006 whose catalogue has run through Black Hole Recordings (and its In Trance We Trust sub-label), Future Sound of Egypt, Subculture, Kearnage and Damaged. His debut single "11 Days" — a collaboration with Del Mar released on In Trance We Trust in 2007 — was supported by both Tiësto and Armin van Buuren, and the follow-up "Seven Ways" (also with Del Mar) consolidated his place on the late-2000s ITWT roster.
 
-His catalogue has continued steadily across the past decade and a half, placing him among the longer-running uplifting producers active across the German and UK label networks.`,
-      ja: `コールド・ブルーは2000年代半ばからPaul van DykのVandit Records、Discover Records、Black Hole Recordingsで安定したカタログを築いてきたドイツのアップリフティング・トランス・プロデューサー。「Mile End」（2008）、「Heading Home」（2010）、「Mirage」（2014）を含むリリースは、Vandit／Discover Records系譜が138 BPMピーク期に洗練したクラシック・アップリフティング・レジスターに位置する。
+The defining trait of his catalogue is a self-described "quality over quantity" approach: releases are spaced out, and the long-form artist albums have been the primary output of the past decade. Three landmark studio albums on Black Hole — Winter (2019), Summer Chills (2020) and Mountain (2025) — mark him out as one of the few producers in the genre who actually completes coherent album-length statements rather than dripping out singles. His releases land regularly on A State of Trance and across the broader Black Hole / ITWT compilation network.
 
-過去15年以上にわたってカタログを安定して継続し、ドイツおよび英国のレーベル・ネットワークで活動する最も長期にわたるアップリフティング・プロデューサーの一人として位置づけられる。`,
+Within the German trance scene Cold Blue sits in the classical melodic-uplifting lineage that runs through ITWT and Black Hole — distinct from the Paul van Dyk / Vandit Berlin tech-trance line, distinct from the harder Kearnage 140 BPM lane, and closer to the patient pad-led arrangement school that the late-2000s ITWT roster defined.
+
+Personal listener note: I caught "Seven Ways" on a Tiësto-era In Search of Sunrise compilation in my deeper-trance phase around 2019 and Cold Blue's tracks are the ones I associate specifically with patience — the breakdowns are longer than the modern norm, the lead doesn't arrive in a hurry, and the arrangement trusts a single melodic idea to carry several minutes. Mountain (2025) extends that approach into a coherent album-length argument and is the cleanest entry point to his current sound.`,
+      ja: `コールド・ブルーはドイツのプロデューサーTobias Schuhのトランス・プロダクション・エイリアスで、2006年から活動を続け、カタログはBlack Hole Recordings（およびそのIn Trance We Trustサブレーベル）、Future Sound of Egypt、Subculture、Kearnage、Damagedを通じて展開してきた。デビュー・シングル「11 Days」——Del Marとの共作で2007年にIn Trance We Trustからリリース——はTiëstoおよびArmin van Buurenの両方からサポートを受け、続編「Seven Ways」（こちらもDel Marとの共作）が2000年代末のITWTロースターでの地位を固めた。
+
+カタログの定義的な特徴は彼自身が「Quality over Quantity」と呼ぶアプローチ：リリースは間隔を空けており、長尺アーティスト・アルバムが過去10年の主要アウトプットだった。Black Holeでの三つのランドマーク的スタジオ・アルバム——『Winter』（2019）、『Summer Chills』（2020）、『Mountain』（2025）——は、彼をジャンル内で実際に首尾一貫したアルバム長のステートメントを完成させる数少ないプロデューサーの一人として印づけている。リリースは定期的にA State of Trance、およびより広いBlack Hole／ITWTコンピレーション・ネットワークに登場する。
+
+ドイツのトランス・シーンにおいて、Cold BlueはITWTおよびBlack Holeを貫くクラシカル・メロディック・アップリフティング系譜に位置する——Paul van Dyk／Vanditベルリン・テック・トランス・ラインからは区別され、よりハードなKearnage 140 BPMレーンからも区別され、2000年代末ITWTロースターが定義した忍耐強いパッド主導アレンジメント派に近い。
+
+個人的なリスナー・ノート：2019年頃のディープ・トランス段階でTiëstoのIn Search of Sunriseコンピで「Seven Ways」を聴き、Cold Blueのトラックを自分が特に紐づけるのは忍耐——ブレイクダウンが現代の標準より長く、リードが急いで到達せず、アレンジメントが一つのメロディック・アイデアに数分間を運ばせる信頼——だった。『Mountain』（2025）はそのアプローチを首尾一貫したアルバム長の論述に拡張しており、彼の現在のサウンドへの最も明瞭な入口である。`,
     },
-    mentionedIn: [],
+    mentionedIn: ['what-is-uplifting-trance', 'best-uplifting-trance-tracks-of-all-time-50', 'defining-trance-anthems-2000s', 'essential-trance-labels-2026', 'modern-trance-classics-2020s-so-far'],
   },
 ];
