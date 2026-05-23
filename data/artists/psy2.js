@@ -274,42 +274,51 @@ Beyond their own catalogue, Avi Nissim and Lior Perlmutter co-founded Trust in T
   {
     slug: 'symbolic',
     name: 'Symbolic',
-    flag: '🇧🇷',
+    flag: '🇮🇱',
     emoji: '🔱',
     genre: 'PSYTRANCE',
     banner: 'b-psytrance',
-    tags: ['FULL-ON PSYTRANCE', 'BRAZILIAN', 'PEAK-TIME'],
-    realName: 'Gustavo Adamovich',
-    origin: 'Brazil (Universo Paralello-affiliated)',
-    born: '—',
-    activeFrom: '2003',
-    labels: ['Hommega Productions', 'Sun Station Records'],
+    tags: ['PROGRESSIVE PSYTRANCE', 'IBOGA', 'ISRAELI'],
+    realName: 'Ilan Shemi',
+    origin: 'Israel',
+    activeFrom: '2011',
+    labels: ['Iboga Records', 'Echoes Records'],
     topWorks: [
-      { title: 'Adventure', year: 2007, type: 'album' },
-      { title: 'Spectrum', year: 2010, type: 'album' },
-      { title: 'Symbolic Live (Universo Paralello)', year: '2010s–', type: 'live recordings' },
-      { title: 'Twisted Reality', year: 2013, type: 'track' },
-      { title: 'Future Past', year: 2017, type: 'track' },
+      { title: 'Crystal Clear', year: 2012, type: 'track' },
+      { title: 'Dr. Lupo (Symbolic Remix) — Ace Ventura & Rocky', year: 2012, type: 'remix' },
+      { title: 'Prime Time EP (with Ace Ventura)', year: 2013, type: 'track' },
     ],
-    related: ['ranji', 'astral-projection', 'astrix', 'liquid-soul'],
+    related: ['ace-ventura', 'liquid-soul', 'captain-hook', 'ranji', 'astrix'],
     links: {
       soundcloud: 'https://soundcloud.com/symbolicmusic',
       spotify: 'https://open.spotify.com/artist/0oUwhzCzcC6VAaKSFG55U3',
-      beatport: 'https://www.beatport.com/search?q=Symbolic',
+      beatport: 'https://www.beatport.com/artist/symbolic/213958',
     },
-    sub: { en: 'Full-on / Peak-time Psytrance', ja: 'フルオン / ピークタイム・サイトランス' },
+    sub: { en: 'Progressive Psytrance', ja: 'プログレッシブ・サイトランス' },
     short: {
-      en: 'Brazilian-rooted full-on project, long associated with Universo Paralello and the South American festival scene.',
-      ja: 'ブラジルにルーツを持つフルオン・プロジェクト。Universo Paraleloと南米フェスティバル・シーンに長く関わっている。',
+      en: 'Israeli progressive-psytrance project established in 2011 by Ilan Shemi and DJ Osho, with releases on Iboga Records.',
+      ja: '2011年にIlan ShemiとDJ Oshoが立ち上げ、Iboga Recordsからリリースを行うイスラエルのプログレッシブ・サイトランス・プロジェクト。',
     },
     style: {
-      en: 'Driving, peak-time full-on psytrance — bright melodic leads, propulsive bass programming, and the festival-stage energy associated with the South American psy circuit.',
-      ja: 'ドライヴィングなピークタイム・フルオン・サイトランス——明るいメロディック・リード、推進力あるベース・プログラミング、南米サイ・サーキットと結びつくフェス・ステージ的エネルギー。',
+      en: 'Psychedelic progressive psytrance — heavy fat basslines, mechanical rhythms, crunchy grooves, and a dancefloor-first focus aligned with the Iboga progressive editorial line.',
+      ja: 'サイケデリック・プログレッシブ・サイトランス——重く太いベースライン、メカニカルなリズム、クランチーなグルーヴ、Iboga編集ラインに沿うダンスフロア・ファーストな志向。',
     },
     bio: {
-      en: `Symbolic is a long-running Brazilian full-on psytrance project that has been a fixture of Universo Paralello and the wider South American festival circuit since the mid-2000s. The albums Adventure (2007) and Spectrum (2010) helped define the bright, propulsive style of full-on associated with the South American scene. The project has gone through line-up changes but continues to release and perform under the Symbolic name.`,
-      ja: `Symbolicは2000年代半ばからUniverso Paralelloと広く南米フェスティバル・サーキットの定番として活動を続けるブラジルの長期フルオン・サイトランス・プロジェクト。アルバム『Adventure』（2007）と『Spectrum』（2010）は南米シーンと結びついた明るく推進力ある特徴的なフルオン・スタイルの確立に貢献した。プロジェクトはラインナップ変更を経ながらSymbolic名義でリリースと演奏を継続している。`,
+      en: `Symbolic is an Israeli progressive-psytrance project established in mid-2011 by Ilan Shemi and Oshry Ben Simon (DJ Osho), who met during their service in the Israeli Army and shared a passion for the dynamic sounds of trance. The two joined together in the studio with a clear direction toward pure psychedelic progressive trance, and the project has since evolved with Ilan Shemi as the current face of Symbolic.
+
+The project's first signing "Crystal Clear" was placed on the compilation Dance Computer on Iboga Records (compiled by Ace Ventura), and their follow-up — a remix for Ace Ventura & Rocky's "Dr. Lupo" on Echoes Records — reached number one on Beatport's Psy-Trance Downloads Chart for several weeks and became an international dancefloor anthem. In March 2013 Symbolic released the Prime Time EP on Iboga Records: a two-track set whose title track was made with Ace Ventura, paired with a remix of Vertical Mode's "Lazer Shot". Prime Time was chosen as one of Beatport's Top 10 Psy-Trance tracks of 2013, cementing the project's status within the Iboga progressive ecosystem.
+
+Within the trance landscape Symbolic sit in the same Iboga-defined progressive-psy circle as Ace Ventura, Liquid Soul, and Captain Hook — a generation of Israeli producers operating in the 138 BPM zone between full-on energy and progressive-house architecture. The project has been booked at Dreamstate SoCal, Ozora, and Boom-circuit events, and the catalogue continues to grow primarily through Iboga and adjacent label releases.
+
+For the operator coming to psytrance from years of Armin-led uplifting and ASOT, Symbolic represents the more groove-led, less melodically-saturated side of the modern Israeli sound — the lane where the kick-bass interlock matters more than the soaring lead, and where the Iboga editorial discipline keeps the production tight.`,
+      ja: `SymbolicはIlan ShemiとOshry Ben Simon（DJ Osho）が2011年半ばに立ち上げたイスラエルのプログレッシブ・サイトランス・プロジェクト。二人はイスラエル軍での兵役中に出会い、トランスのダイナミックなサウンドに対する情熱を共有していた。純粋なサイケデリック・プログレッシブ・トランスへの明確な方向性のもとスタジオで結成され、現在はIlan ShemiがSymbolicの顔として活動を主導している。
+
+プロジェクト最初のサイニング「Crystal Clear」はAce Venturaが編纂したIboga Recordsのコンピレーション『Dance Computer』に収録された。続いてEchoes Recordsからリリースされたリミックス——Ace Ventura & Rockyの「Dr. Lupo」のリミックス——はBeatportのサイトランス・ダウンロード・チャートで数週間1位を維持し、国際的なダンスフロア・アンセムとなった。2013年3月にはIboga Recordsから『Prime Time』EPをリリース——タイトル・トラックはAce Venturaとの共作、もう一曲はVertical Modeの「Lazer Shot」のリミックスという2曲構成のセットで、『Prime Time』は2013年のBeatportサイトランス・トップ10に選出され、Ibogaプログレッシブ・エコシステム内でのプロジェクトの地位を確立した。
+
+トランスの風景の中でSymbolicは、Ace Ventura、Liquid Soul、Captain Hookと同じIbogaが定義するプログレッシブ・サイの圏内に位置する——フルオンのエネルギーとプログレッシブ・ハウスの建築の間、138 BPMゾーンで活動するイスラエルのプロデューサー世代だ。プロジェクトはDreamstate SoCal、Ozora、Boom系列のイベントにブッキングされており、カタログは主にIbogaおよび関連レーベルからのリリースを通じて拡大を続けている。
+
+Arminを中心としたアップリフティングとASOTで何年も過ごした後にサイトランスにたどり着いたオペレーターにとって、Symbolicは現代イスラエル・サウンドのよりグルーヴ主導でメロディック飽和度の低い側を代表する——舞い上がるリードよりキックとベースの噛み合わせが効く側、Ibogaの編集規律がプロダクションを引き締めているレーンだ。`,
     },
-    mentionedIn: ['rise-of-psytrance-goa-to-modern-day'],
+    mentionedIn: ['rise-of-psytrance-goa-to-modern-day', 'what-is-psytrance', 'best-psytrance-tracks-of-all-time-50', 'top-10-trance-subgenres-explained'],
   },
 ];
