@@ -95,27 +95,39 @@ Their releases sit in the mid-tempo vocal-uplifting register that bridges the FS
     realName: 'Miikka Leinonen (FIN) & Juraj Klička (SVK)',
     origin: 'Finland / Slovakia',
     activeFrom: '2013',
-    labels: ['Future Sound of Egypt (FSOE)', 'Subculture', 'Always Alive Recordings'],
-    topWorks: [],
-    related: ['ferry-tayle', 'aly-and-fila', 'standerwick', 'will-atkinson'],
+    labels: ['Abora Recordings', 'Driftmoon Audio', 'Future Sound of Egypt (FSOE)', 'Always Alive Recordings'],
+    topWorks: [
+      { title: '(R)Evolution', year: 2016, type: 'album' },
+      { title: 'Invictus', year: 2020, type: 'album' },
+      { title: 'Moonstruck', year: 2024, type: 'album' },
+    ],
+    related: ['ferry-tayle', 'aly-and-fila', 'standerwick', 'will-atkinson', 'giuseppe-ottaviani', 'darren-porter'],
     links: {
       beatport: 'https://www.beatport.com/search?q=Driftmoon',
       website: 'https://www.driftmoonofficial.com',
     },
     sub: { en: 'Orchestral Uplifting Trance', ja: 'オーケストラ・アップリフティング・トランス' },
     short: {
-      en: 'Finnish-Slovakian uplifting trance duo working in the orchestral end of the FSOE / Subculture / Always Alive editorial direction.',
-      ja: 'FSOE／Subculture／Always Alive編集方針のオーケストラ寄り側で活動するフィンランド・スロバキア人デュオ。',
+      en: 'Finnish-Slovakian uplifting trance duo working in the orchestral-cinematic end of the Abora / FSOE / Always Alive editorial direction.',
+      ja: 'Abora／FSOE／Always Alive編集方針のオーケストラ・映画的側面で活動するフィンランド・スロバキア人デュオ。',
     },
     style: {
-      en: 'Orchestral-leaning uplifting trance — strings-pad architecture, long melodic builds, and the kind of cinematic arrangement craft that places the catalogue alongside Ferry Tayle and the Always Alive roster.',
-      ja: 'オーケストラ寄りのアップリフティング・トランス——ストリングス・パッド建築、長尺メロディック・ビルド、Ferry TayleやAlways Aliveロースターと並ぶタイプの映画的アレンジメント。',
+      en: 'Orchestral-leaning uplifting trance — strings-pad architecture, long melodic builds, and the kind of cinematic arrangement craft that places the catalogue alongside Ferry Tayle and the broader Abora / Always Alive roster.',
+      ja: 'オーケストラ寄りのアップリフティング・トランス——ストリングス・パッド建築、長尺メロディック・ビルド、Ferry Tayleやより広いAbora／Always Aliveロースターと並ぶタイプの映画的アレンジメント。',
     },
     bio: {
-      en: `Driftmoon is a Finnish-Slovakian uplifting trance duo (Miikka Leinonen from Finland and Juraj Klička from Slovakia) with a catalogue across Aly & Fila's Future Sound of Egypt, John O'Callaghan's Subculture, and Ferry Tayle's Always Alive Recordings. Their releases sit in the orchestral-uplifting lane — strings-pad architecture, long melodic builds, and the kind of cinematic arrangement craft that places the catalogue alongside Ferry Tayle and the broader Always Alive roster.`,
-      ja: `DriftmoonはAly & FilaのFuture Sound of Egypt、John O\'CallaghanのSubculture、Ferry TayleのAlways Alive Recordingsにまたがるカタログを持つフィンランド・スロバキア人デュオ（Miikka Leinonen [フィンランド] + Juraj Klička [スロバキア]）。リリースはストリングス・パッド建築、長尺メロディック・ビルド、Ferry Tayleやより広いAlways Aliveロースターと並ぶタイプの映画的アレンジメントを持つオーケストラ・アップリフティング・レーンに位置する。`,
+      en: `Driftmoon is a Finnish-Slovakian uplifting trance duo composed of Miikka Leinonen (Finland) and Juraj Klička (Slovakia). The project's editorial home is Abora Recordings — the long-running orchestral / uplifting / progressive trance imprint where Juraj Klička also serves as A&R Manager — and the duo runs their own sub-imprint Driftmoon Audio under the Abora umbrella to showcase their full stylistic range from cinematic orchestral material through to dancefloor uplifting.
+
+Their discography includes the studio albums (R)Evolution (2016), Invictus (2020), and Moonstruck (2024). Invictus in particular is a story-driven 20-track set featuring collaborations with Eco, Robert Nickson, Julie Thompson, Ferry Tayle, and Giuseppe Ottaviani among others — a collaborator list that maps the duo's position in the orchestral-uplifting wing of the scene. They have had early support from Armin van Buuren on A State of Trance, with additional releases across FSOE and Ferry Tayle's Always Alive Recordings, and they have continued to release through the 2020s with the project still firmly anchored to the Abora editorial line.
+
+Within the trance ecosystem Driftmoon belong to the cinematic / orchestral wing — the lane where Ferry Tayle, Darren Porter and the wider Always Alive / Abora rosters operate. That lane has stayed editorially distinct from both the FSOE 138 mainline and the Anjunabeats progressive school, and Driftmoon are one of the projects defining its current shape.`,
+      ja: `DriftmoonはMiikka Leinonen（フィンランド）とJuraj Klička（スロバキア）によるフィンランド・スロバキア人アップリフティング・トランス・デュオ。プロジェクトの編集本拠地はAbora Recordings——長年運営されているオーケストラ／アップリフティング／プログレッシブ・トランス・インプリント、Juraj Klička自身がA&Rマネージャーも務める——で、デュオは映画的オーケストラ素材からダンスフロア・アップリフティングまでの幅広い様式的レンジを展示するため、Abora傘下の自身のサブインプリント「Driftmoon Audio」も運営している。
+
+ディスコグラフィにはスタジオ・アルバム『(R)Evolution』（2016）、『Invictus』（2020）、『Moonstruck』（2024）が含まれる。特に『Invictus』はEco、Robert Nickson、Julie Thompson、Ferry Tayle、Giuseppe Ottavianiらとのコラボレーションをフィーチャーしたストーリー駆動型20曲セット——共演者リストそのものが、シーンのオーケストラ・アップリフティング側面におけるデュオの位置を地図化している。Armin van BuurenのA State of Tranceからは初期の段階からサポートを得ており、FSOEおよびFerry TayleのAlways Alive Recordingsからの追加リリースもあり、2020年代も引き続きリリースを継続——プロジェクトはAbora編集ラインに堅固に錨を下ろしたままだ。
+
+トランス・エコシステム内において、Driftmoonは映画的／オーケストラ側面——Ferry Tayle、Darren Porter、より広いAlways Alive／Aboraロースターが活動するレーン——に属する。このレーンはFSOEの138メインラインおよびAnjunabeatsプログレッシブ派とは編集的に区別され続けており、Driftmoonはその現在の形を定義しているプロジェクトの一つである。`,
     },
-    mentionedIn: [],
+    mentionedIn: ['what-is-uplifting-trance', 'best-uplifting-trance-tracks-of-all-time-50', 'modern-trance-classics-2020s-so-far', 'essential-trance-labels-2026'],
   },
 
   {
