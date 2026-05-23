@@ -13,17 +13,16 @@ export const uplifting2 = [
     tags: ['UPLIFTING', 'TECH TRANCE', 'SCOTTISH'],
     realName: 'Will Atkinson',
     origin: 'Orkney, Scotland',
-    born: '1985',
     activeFrom: '2007',
-    labels: ['Subculture', 'FSOE', 'Discover Records'],
+    labels: ['Subculture', 'FSOE', 'Black Hole Recordings', 'Victims Helpline'],
     topWorks: [
       { title: 'Victims', year: 2014, type: 'track' },
       { title: 'Numb the Pain', year: 2015, type: 'track' },
-      { title: 'Mantra', year: 2017, type: 'track' },
-      { title: 'Watch the World', year: 2019, type: 'album' },
-      { title: 'When the Lights Go Out', year: 2021, type: 'track' },
+      { title: 'BBC Radio 1 Residency', year: 2017, type: 'milestone' },
+      { title: 'Victims Helpline (own label)', year: 2018, type: 'label' },
+      { title: 'Last King of Scotland', year: 2020, type: 'album' },
     ],
-    related: ['john-ocallaghan', 'sean-tyas', 'bryan-kearney', 'simon-patterson'],
+    related: ['john-ocallaghan', 'sean-tyas', 'bryan-kearney', 'simon-patterson', 'paul-van-dyk', 'allen-watts'],
     links: {
       soundcloud: 'https://soundcloud.com/willatkinson',
       spotify: 'https://open.spotify.com/artist/5FXLHhKgStv36wfwXMhTWt',
@@ -39,14 +38,22 @@ export const uplifting2 = [
       ja: '138〜140 BPMのドライヴィングなアップリフティングにテック・トランスの精度——パンチの効いたベースライン、緻密なリズム・プログラミング、情緒を込めたメロディック・ブレイクダウン。',
     },
     bio: {
-      en: `Will Atkinson is one of the most technically accomplished trance producers to emerge from the UK in the 2010s. Born and raised on Orkney, Scotland in 1985, he came up through John O'Callaghan's Subculture orbit and built a reputation for productions that pair the precision of tech-trance with the emotional sweep of classic uplifting. Tracks like "Victims," "Numb the Pain," and "Mantra" became regular fixtures of A State of Trance and Future Sound of Egypt year-end charts.
+      en: `Will Atkinson grew up on Orkney, the remote archipelago off the north coast of Scotland — a roughly 22,000-person islands group that has produced exactly one internationally booked trance DJ, and he is it. He has said in multiple interviews that he was mixing records at age eight and producing at age eleven, and his self-released debut "Cloud Surfing" travelled to UK trance shows entirely on the strength of MySpace and SoundCloud uploads from a teenager working alone on an island.
 
-His debut album Watch the World (2019) showcased a more song-led side of his writing, and he has since released steadily across Subculture, FSOE, and his own platforms. Among UK trance producers active today, Atkinson is most often mentioned alongside Bryan Kearney and Sean Tyas as a torch-bearer for the technically demanding, melody-first end of the genre.`,
-      ja: `ウィル・アトキンソンは2010年代に英国から登場した最も技術的に優れたトランス・プロデューサーの一人。1985年スコットランド・オークニー諸島生まれ、John O\'CallaghanのSubculture人脈から登場し、テック・トランスの精度とクラシック・アップリフティングの情緒的な広がりを併せ持つプロダクションで評価を確立。「Victims」「Numb the Pain」「Mantra」はA State of TranceおよびFuture Sound of Egyptの年間チャート常連となった。
+The Subculture-era breakthrough came with "Victims," released on John O'Callaghan's Subculture label on 4 August 2014 — a 138 BPM uplifting track with BBC Radio 1 plays and direct support from Subculture's full headline rotation (O'Callaghan, Patterson, Kearney). The follow-up "Numb the Pain" landed on Subculture on 16 March 2015 (often miscredited as a Christina Novelli collaboration; her "Numb" is a separate 2020 release). He completed a BBC Radio 1 Residency in 2017, founded the Victims Helpline label in 2018, and released his debut album Last King of Scotland through Black Hole Recordings on 6 November 2020 — a seventeen-track set featuring Paul van Dyk ("Awakening"), JES, Gary Go, and Cari Golden.
 
-デビューアルバム『Watch the World』（2019）はより楽曲重視の側面を見せ、以降もSubculture、FSOE、自身のプラットフォームから安定してリリースを続けている。現役の英国トランス・プロデューサーの中で、Bryan Kearney、Sean Tyasと並ぶ技術志向・メロディ重視派の旗手として頻繁に言及される。`,
+Atkinson's catalogue spans Subculture, FSOE, Black Hole, Perfecto Fluoro, Armada, and the Victims Helpline imprint, and his touring profile covers Dreamstate, A State of Trance, Luminosity, and Subculture's international rotation. The sound has shifted across the decade toward what he calls "trance and funky techno" — peak-time uplifting fused with techno's percussive discipline.
+
+Operator's note. The reason Will Atkinson hits differently from Aly & Fila or Bryan Kearney — both 138 BPM uplifting standard-bearers the operator listens to weekly through A State of Trance — is the rhythm section. Aly & Fila write to the breakdown; the kick exists to support the chord pads and the eventual lead. Kearney goes harder on tempo but stays inside uplifting's harmonic comfort zone. Atkinson treats the kick and the off-beat as the foreground, the lead as decoration on top of a moving rhythmic engine — which is why "Victims" and "Numb the Pain" feel closer to a peak-time techno set than to a classic uplifting hour. Hearing him programmed late in an FSOE episode versus mid-set on ASOT is the audible proof that uplifting in 2026 has split into a melody-first lane (Ferry Tayle, Allen Watts) and a rhythm-first lane (Atkinson, Daxson), and he is the cleanest example of how the rhythm-first lane sounds.`,
+      ja: `ウィル・アトキンソンはスコットランド本土北方のオークニー諸島育ち——人口約22,000人のこの遠隔群島が輩出した国際的にブッキングされるトランスDJは彼ひとりだけだ。複数のインタビューで本人は8歳でミックスを開始、11歳でプロダクションを開始したと語っており、自主リリースのデビュー作「Cloud Surfing」は孤島で独学する10代がMySpaceとSoundCloudのアップロードだけで英国トランス・シーンに到達した作品である。
+
+Subculture時代のブレイクスルーはJohn O'CallaghanのSubcultureから2014年8月4日にリリースされた「Victims」——BBC Radio 1のオンエアとSubcultureヘッドラインローテーション全員（O'Callaghan、Simon Patterson、Bryan Kearney）の直接支持を獲得した138 BPMアップリフティング。続く「Numb the Pain」はSubcultureから2015年3月16日にリリース（Christina Novelliとのコラボとして誤伝されることが多いが、Novelliのトラック「Numb」は彼女自身のMuse Musicからの2020年の別リリース）。2017年にBBC Radio 1レジデンシーを完遂、2018年にはよりハードで実験的なアウトプットの編集本拠地としてVictims Helplineレーベルを設立、2020年11月6日にはBlack Hole RecordingsからデビューアーティストアルバムLast King of Scotlandをリリース——Paul van Dyk（「Awakening」）、JES、Gary Go、Cari Golden、Perplexer「Acid Folk」のWill Atkinsonリワークを含む全17曲構成。
+
+アトキンソンのカタログはSubculture、FSOE、Black Hole、Perfecto Fluoro、Armada、Spinnin'、自身のVictims Helplineインプリントにまたがり、ツアー・プロフィールはDreamstate、A State of Trance、Luminosity、Subcultureの国際ローテーション全域に及ぶ。サウンドはこの10年で本人が「トランスとファンキー・テクノ」と呼ぶ方向——テクノのパーカッシブな規律と融合したピークタイム・アップリフティング——にシフトし、近年のライブ・セットはクロスオーバー方向にますます傾斜している。
+
+オペレーター・ノート：ウィル・アトキンソンがAly & FilaやBryan Kearney——両者ともA State of Tranceを通じてオペレーターが毎週聴いている138 BPMアップリフティングの旗手——と違って響くのは、リズム・セクションの扱いだ。Aly & Filaはブレイクダウンを起点に書く——キックはコード・パッドと最終的なリードを支えるために存在する。Kearneyはテンポでより攻めるがアップリフティングの調和的快適圏内に留まる。アトキンソンはキックとオフビートを前景、リードを動くリズム・エンジン上の装飾として扱う——これが「Victims」や「Numb the Pain」がクラシックなアップリフティング・アワーよりもピークタイム・テクノ・セットに近く聴こえる理由だ。FSOEエピソード末尾でかかるアトキンソンとASOT中盤でかかるそれを聴き比べると、2026年のアップリフティングがメロディ優先レーン（Ferry Tayle、Allen Watts）とリズム優先レーン（アトキンソン、Daxson）に分岐したことの可聴な証拠が得られる——そして彼はリズム優先レーンがどう響くかの最もクリアな例だ。`,
     },
-    mentionedIn: [],
+    mentionedIn: ['what-is-uplifting-trance', 'anatomy-of-uplifting-trance-anthem', 'best-uplifting-trance-tracks-of-all-time-50', 'modern-trance-classics-2020s-so-far', 'iconic-trance-anthems-that-defined-an-era'],
   },
 
   {
