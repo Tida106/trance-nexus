@@ -99,7 +99,7 @@ Davies launched his own Borderline Music imprint in 2010 to release a more uniqu
 Beyond original releases, Activa is a sought-after remixer, with reworks for Bryan Kearney, John O'Callaghan, Simon Patterson, and a wide spread of the Discover and Subculture rosters. His VII collaboration with Simon Patterson sits at the centre of the modern psy-tech aesthetic, and his continued A&R work at Discover plus his Borderline Music output mean he wears a producer-and-curator dual identity that few of his peers maintain at this length of career. Activa remains one of the most reliable touring names in the harder trance space.`,
       ja: `Activa名義のロバート・デイヴィスは2000年代初頭にカーディフのクラブ・シーンから登場し、Discover Recordsと契約。同レーベルはJohn O\'CallaghanのSubcultureと並んで2000年代末のテック・トランス・サウンドを定義した。「I Won\'t Stop」「Slap」「Touched」でSubcultureナイトと国際的なテック・トランス・サーキットの常連となり、John O\'Callaghan、Bryan Kearney、Simon Pattersonらのリミックスも手がけている。20年以上にわたり現役プロデューサーとして活動を続けている。`,
     },
-    mentionedIn: [],
+    mentionedIn: ['what-is-tech-trance', 'what-is-uplifting-trance', 'best-uplifting-trance-tracks-of-all-time-50'],
   },
 
   {
@@ -198,7 +198,7 @@ Beyond his own catalogue, de Ronde is widely respected as an A&R and curator wit
 
 2016年のRodgとのミックスアルバム『Story of Two Friends』は欧州のダンス・アルバム・チャートのトップ10入り、A State of Trance のライブイベントには10年以上連続で出演している。自身のカタログに加え、Armadaグループ内でA&Rとキュレーターとしても高く評価されている。`,
     },
-    mentionedIn: [],
+    mentionedIn: ['a-state-of-trance-show-that-changed-everything', 'armin-asot-25-years-of-influence', 'what-is-uplifting-trance', 'asot-25-years-anniversary'],
   },
 
   {
@@ -246,6 +246,6 @@ Subsequent releases including "Shouldn't Have Sent That" (2019) and his continui
 
 その後もHaliene、Gareth Emeryとのコラボを継続し、FSOEとAnjuna両カタログの主要トラックのリミックスを手がけている。「エモーショナル・アップリフティング」が現代の独自サブジャンルとして確立する流れと深く結びついた存在。`,
     },
-    mentionedIn: [],
+    mentionedIn: ['what-is-uplifting-trance', 'best-uplifting-trance-tracks-of-all-time-50', 'modern-trance-classics-2020s-so-far', 'anatomy-of-uplifting-trance-anthem'],
   },
 ];
