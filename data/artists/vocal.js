@@ -50,7 +50,7 @@ Ronski Speed has built his catalogue through partnerships with vocalists Sir Adr
 
 Ronski Speedのプロダクションはピークタイムの強度よりも、暖かさと情緒的な誠実さで特徴づけられる——2000年代半ばのAnjunabeats、Black Holeボーカル・トランス時代を定義したサウンドである。`,
     },
-    mentionedIn: [],
+    mentionedIn: ['what-is-vocal-trance', 'role-of-vocals-in-trance-music', 'best-vocal-trance-tracks-of-all-time-50'],
   },
 
   {
@@ -99,7 +99,7 @@ Beyond original releases, Bobina hosts the Russian Trancemission radio show, whi
 
 欧州各地でチャート入りし、世界の主要フェスに出演。現代において、Artyと並びロシア・トランスを国際的なスケールで代表する存在。現在もArmadaとBlack Holeからのリリースを続けている。`,
     },
-    mentionedIn: [],
+    mentionedIn: ['what-is-uplifting-trance', 'what-is-vocal-trance', 'a-state-of-trance-show-that-changed-everything'],
   },
 
   {
@@ -147,6 +147,6 @@ Beyond Sunlounger, Shah's Magic Island Records imprint launched in 2007 has rele
 
 Shahが運営するMagic Island Recordsと長期放送中のラジオ「Magic Island - Music for Balearic People」は2007年以来の定番で、Sunlounger、ソロ作品、同志のアーティストを織り交ぜたセットを週次で展開している。現在も録音と国際ツアーを継続中。`,
     },
-    mentionedIn: [],
+    mentionedIn: ['what-is-balearic-trance', 'what-is-vocal-trance', 'ibiza-and-trance-love-story', 'role-of-vocals-in-trance-music'],
   },
 ];
