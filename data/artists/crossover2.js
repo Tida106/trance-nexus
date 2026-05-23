@@ -113,35 +113,49 @@ Within the trance ecosystem Indira Paganotto sits at the psy-techno crossover ed
     emoji: '🎵',
     genre: 'PROGRESSIVE',
     banner: 'b-progressive',
-    tags: ['PROGRESSIVE', 'UPLIFTING', 'DUTCH', 'CLASSIC'],
+    tags: ['CLASSIC TRANCE', 'PROGRESSIVE', 'DUTCH', 'IN TRANCE WE TRUST'],
+    realName: 'Ralph Barendse',
+    aka: 'Midway, Alpha Breed, Mekx',
     origin: 'Netherlands',
-    activeFrom: '2002',
-    labels: ['Magik Muzik', 'Black Hole Recordings'],
+    born: '1977-04-06',
+    activeFrom: '1999',
+    labels: ['In Trance We Trust', 'Black Hole Recordings', 'Deal Records'],
     topWorks: [
-      { title: 'Massive', year: 2003, type: 'track' },
+      { title: 'Massive', year: 2003, type: 'track (anthem, ITWT)' },
+      { title: 'Monkey Forest (as Midway)', year: 2003, type: 'track' },
+      { title: 'Amazon (as Midway)', year: 2005, type: 'track' },
+      { title: 'Gravitation (with Frank Waanders as Collide1)', year: 2025, type: 'track' },
     ],
-    related: ['tiesto', 'ferry-corsten', 'paul-van-dyk', 'richard-durand'],
+    related: ['tiesto', 'ferry-corsten', 'paul-van-dyk', 'richard-durand', 'armin-van-buuren'],
     links: {
-      beatport: 'https://www.beatport.com/search?q=Ralphie+B',
+      beatport: 'https://www.beatport.com/artist/ralphie-b/2980',
     },
     sub: { en: 'Classic Trance / Progressive', ja: 'クラシック・トランス / プログレッシブ' },
     short: {
-      en: 'Dutch trance producer best known for the 2003 Magik Muzik anthem "Massive" — a Tiësto-supported peak-time staple of the early-2000s era.',
-      ja: '2003年のMagik Muzikアンセム「Massive」——Tiëstoのサポートを得て2000年代初頭のピークタイムの定番となったトラック——で知られるオランダのトランス・プロデューサー。',
+      en: 'Dutch trance producer (real name Ralph Barendse, also Midway and Alpha Breed) best known for the 2003 In Trance We Trust anthem "Massive" — a Tiësto-signed track Armin van Buuren played in the very first episode of ASOT.',
+      ja: '2003年のIn Trance We Trustアンセム「Massive」（Tiëstoが契約し、Armin van BuurenがASOT第1回エピソードでプレイしたトラック）で知られるオランダのトランス・プロデューサー（本名Ralph Barendse、Midway、Alpha Breed名義も）。',
     },
     style: {
-      en: 'Early-2000s peak-time trance with progressive arrangement DNA — long melodic builds, generous breakdown architecture, and the kind of uplifting-leaning structure that the Magik Muzik / Black Hole editorial direction defined across the period.',
-      ja: 'プログレッシブなアレンジメントDNAを持つ2000年代初頭のピークタイム・トランス——長いメロディック・ビルド、寛大なブレイクダウン建築、Magik Muzik／Black Holeの編集方針が当時定義したアップリフティング寄りの構造。',
+      en: 'Early-2000s peak-time trance with progressive arrangement DNA — long melodic builds, generous breakdown architecture, and the uplifting-leaning structure that the In Trance We Trust / Black Hole editorial direction defined across the period.',
+      ja: 'プログレッシブなアレンジメントDNAを持つ2000年代初頭のピークタイム・トランス——長いメロディック・ビルド、寛大なブレイクダウン建築、In Trance We Trust／Black Holeの編集方針が当時定義したアップリフティング寄りの構造。',
     },
     bio: {
-      en: `Ralphie B is a Dutch trance producer best known for the 2003 anthem "Massive" (released on Black Hole's In Trance We Trust sub-label) — a Tiësto-supported peak-time track that became a fixture of the In Search of Sunrise era and remained a staple of early-2000s trance retrospective compilations long after release.
+      en: `Ralphie B is the trance alias of Ralph Barendse, a Dutch DJ and producer born 6 April 1977. His route into electronic music ran through the demoscene — he made his first digital music with music tracker software in the early 1990s and released tracks via the tracker group "Explizit" from 1996 under the aliases "Mad Max" / "Mekx". His first commercial records arrived in 1999 under the name Alpha Breed on Deal Records, and the Ralphie B and Midway aliases followed shortly after.
 
-His catalogue spans Tiësto's Magik Muzik imprint and Black Hole Recordings, and the catalogue sits in the early-2000s peak-time trance register that the Magik Muzik / Black Hole editorial direction defined across the period before the genre's late-2000s vocal-uplifting peak.`,
-      ja: `Ralphie Bは2003年のアンセム「Massive」（Black HoleのIn Trance We Trustサブレーベルからリリース）——TiëstoのサポートでIn Search of Sunrise時代の定番となり、リリースから長く2000年代初頭のトランス・レトロスペクティブ・コンピレーションの定番として残ったピークタイム・トラック——で知られるオランダのトランス・プロデューサー。
+His defining release is "Massive", signed to Tiësto's In Trance We Trust sub-label of Black Hole Recordings and released on 13 September 2003. The track was supported across the upper tier of the early-2000s trance scene and — significantly — was one of the tracks Armin van Buuren played in the very first episode of A State of Trance, placing it among the genuine charter records of the ASOT brand. As Midway he continued on In Trance We Trust through "Monkey Forest", "Inca", and "Amazon", and his remix portfolio across the same period covered Armin van Buuren, Tiësto, Solarstone, Dario G and 4 Strings.
 
-カタログはTiëstoのMagik Muzikインプリントおよびblack Hole Recordingsに広がり、ジャンルの2000年代末ボーカル・アップリフティング・ピーク以前にMagik Muzik／Black Holeの編集方針が当時定義した2000年代初頭のピークタイム・トランス・レジスターに位置する。`,
+Within the early-2000s Dutch trance ecosystem Barendse sits one tier below the Tiësto / Ferry Corsten / Armin headline trio but inside the same In Trance We Trust / Black Hole editorial network that drove the era's peak-time output. He has continued releasing — including the 2025 Collide1 project with Frank Waanders ("Gravitation", In Trance We Trust) — keeping a presence in the modern label catalogue more than two decades after "Massive".
+
+Personal listener note: I picked up "Massive" on an old In Search of Sunrise / In Trance We Trust trace when I was filling in the early-2000s catalogue around 2019, and the trait that stuck was the breakdown architecture — it gives the melodic idea a much longer runway than the modern 138 standard, which is exactly why the track has survived twenty-plus years of trance retrospectives. It is the type of arrangement the genre largely stopped writing after the late-2000s vocal-uplifting peak.`,
+      ja: `Ralphie Bはオランダ人DJ／プロデューサー、Ralph Barendseのトランス・エイリアス、1977年4月6日生まれ。エレクトロニック・ミュージックへの経路はデモシーンを通じてのものだった——1990年代初頭にミュージック・トラッカー・ソフトウェアで最初のデジタル音楽を作り、1996年からトラッカー・グループ「Explizit」を通じてエイリアス「Mad Max」／「Mekx」名義でトラックをリリースした。初の商業レコードは1999年にDeal RecordsからAlpha Breed名義でリリースされ、その後すぐにRalphie Bおよびmidwayエイリアスが続いた。
+
+定義的なリリースは「Massive」——TiëstoのIn Trance We Trustサブレーベル（Black Hole Recordings）と契約し、2003年9月13日にリリースされた。トラックは2000年代初頭トランス・シーンの上位層からサポートを受け、そして重要なことに——Armin van BuurenがA State of Trance第1回エピソードでプレイしたトラックの一つであり、ASOTブランドの真の創設レコードの一つに位置づけられた。Midway名義ではIn Trance We Trustを通じて「Monkey Forest」、「Inca」、「Amazon」を継続し、同時期のリミックス・ポートフォリオはArmin van Buuren、Tiësto、Solarstone、Dario G、4 Stringsを網羅した。
+
+2000年代初頭のオランダ・トランス・エコシステム内において、BarendseはTiësto／Ferry Corsten／Arminヘッドライン・トリオより一段下に位置するが、同時代のピークタイム・アウトプットを駆動した同じIn Trance We Trust／Black Hole編集ネットワークの内部にいる。リリースは継続しており——Frank Waandersとの2025年Collide1プロジェクト（「Gravitation」、In Trance We Trust）を含む——「Massive」から20年以上経た現代のレーベル・カタログにおいてもプレゼンスを保ち続けている。
+
+個人的なリスナー・ノート：2019年頃に2000年代初頭のカタログを埋めていた時、古いIn Search of Sunrise／In Trance We Trustの痕跡で「Massive」を拾い、心に残ったのはブレイクダウン建築——メロディック・アイデアに現代138標準よりずっと長い助走を与えていること——これこそ20年以上のトランス・レトロスペクティブを生き残った理由だ。2000年代末のボーカル・アップリフティング・ピーク以降、ジャンルがほぼ書かなくなったタイプのアレンジメントである。`,
     },
-    mentionedIn: [],
+    mentionedIn: ['history-of-trance-music', 'defining-trance-anthems-2000s', 'iconic-trance-anthems-that-defined-an-era', 'best-uplifting-trance-tracks-of-all-time-50', 'why-trance-music-endures'],
   },
 
   {
