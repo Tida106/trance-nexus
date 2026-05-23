@@ -109,12 +109,11 @@ Beyond original releases, Activa is a sought-after remixer, with reworks for Bry
     activeFrom: '1999',
     labels: ['Black Hole Recordings', 'GO On Air', 'Vandit Records'],
     topWorks: [
-      { title: 'Linking People', year: 2005, type: 'track' },
-      { title: 'Through Your Eyes', year: 2006, type: 'track' },
       { title: 'GO!', year: 2009, type: 'album' },
       { title: 'Magenta', year: 2013, type: 'album' },
+      { title: 'Evolver', year: 2019, type: 'album' },
     ],
-    related: ['paul-van-dyk', 'aly-and-fila', 'andrew-rayel', 'mauro-picotto'],
+    related: ['paul-van-dyk', 'aly-and-fila', 'andrew-rayel', 'solarstone', 'ruben-de-ronde', 'armin-van-buuren'],
     links: {
       soundcloud: 'https://soundcloud.com/giuseppeottaviani',
       beatport: 'https://www.beatport.com/search?q=Giuseppe+Ottaviani',
@@ -129,16 +128,22 @@ Beyond original releases, Activa is a sought-after remixer, with reworks for Bry
       ja: 'ライブ演奏のキーボード・リードを軸とした正統派アップリフティング・トランス——シンセサイザー、ドラム・マシン、エフェクターのハードウェア・リグで実演し、DJとライブ・アーティストの境界を曖昧にしている。',
     },
     bio: {
-      en: `Giuseppe Ottaviani is an Italian uplifting trance producer born in Viterbo in 1978, and his career runs across two distinct phases — the NU NRG duo and his solo work — that together place him at the centre of the modern uplifting scene for over two decades. He started in the late 1990s as one half of NU NRG with Daniele Mondello, releasing on Vandit Records and building a reputation across the Vandit / Subliminal label axis before going solo as Giuseppe Ottaviani in 2007.
+      en: `Giuseppe Ottaviani is an Italian DJ and producer born 12 November 1978 in Viterbo, a small town north of Rome. He began studying piano at the age of four and was trained in classical music as a teenager before discovering electronic music and starting to play DJ sets at local clubs and on radio in the mid-1990s. That classical-into-electronic trajectory is audible in the keyboard-led structure of nearly everything he has released since.
 
-His debut solo album GO! (2009) on Paul van Dyk's Vandit Recordings established him as one of the genre's most consistent uplifting producers, with the follow-up album Magenta (2013) and continuous catalogue through Black Hole Recordings and the GO On Air sub-label that hosts his weekly radio show of the same name. Major releases include "Linking People" (2005), "Through Your Eyes" (2006), and the recent Armin van Buuren / Ruben de Ronde / OTTAGON collaboration on the ASOT 2026 compilation.
+In 1999 he joined Andrea Ribeca and Giacomo Miccichè to form NU NRG, the trio that began releasing on Paul van Dyk's Vandit Records in 2001 and won the Trance Award for Best Live Act in 2004, 2006 and 2007. Ottaviani started his solo career in parallel from 2005, eventually focusing on it full time. His debut solo album GO! arrived on Vandit in 2009, followed by Magenta (2013) and Evolver (2019). In February 2011 he launched his GO On Air radio show, which has since grown into a full label and weekly programme on DI.FM and other syndicators. Alongside the solo discography he holds the long-running Pure NRG duo with Solarstone, focused on classic uplifting reinterpretations.
 
-Ottaviani's signature contribution is his live-performance approach: rather than DJing pre-prepared sets, the "GO Live" format is performed on a custom hardware rig of synthesisers, drum machines, and live effects, with him triggering, layering, and arranging the music in real time. The setup blurs the line between DJ and live artist and has earned him bookings at Tomorrowland, Luminosity, EDC, ASOT festival editions, and Transmission worldwide. The OTTAGON moniker — under which he has released collaborative material in the recent ASOT 2026 cycle — extends the Ottaviani sonic identity into a parallel solo project. Among the producer-DJs operating at the intersection of classic uplifting trance and live performance craft, Giuseppe Ottaviani is one of the few names that has remained relevant across both the late-2000s peak and the modern 2020s revival.`,
-      ja: `ジュゼッペ・オッタヴィアーニは2000年代初頭にNU NRGの一員として活動を開始し、2007年にソロ転向。Paul van DykのVandit Recordsからリリースしたデビューアルバム『GO!』（2009）でジャンル屈指の安定したアップリフティング・プロデューサーとしての地位を確立。後にBlack Hole Recordingsに主軸を移し、週次ラジオ「GO On Air」をホスト。
+Ottaviani's signature contribution is the live-performance approach. Rather than DJing pre-prepared sets, his GO Live format is performed on a custom hardware rig of synthesisers, drum machines, sequencers and live effects, with him triggering, layering and arranging the music in real time. The setup blurs the line between DJ and live artist and has earned him bookings at Tomorrowland, Luminosity, A State of Trance festival editions, Dreamstate, and Transmission. Within the uplifting wing of trance he is one of the few names who has stayed both technically curious and commercially current across the late-2000s peak, the mid-2010s mainstage years, and the current revival.
 
-オッタヴィアーニの最大の特徴はそのライブ・パフォーマンス・アプローチにある——事前準備のDJセットではなく、「GO Live」ショーではシンセ、ドラム・マシン、ライブ・エフェクトのカスタム・ハードウェア・リグで実演し、リアルタイムで音楽をトリガーしアレンジする。このフォーマットによりTomorrowland、Luminosity、ASOTなど世界中の主要イベントに出演している。`,
+For the operator, hearing a Giuseppe Ottaviani 138 set after Tomorrowland 2018 was the moment "live-played trance" stopped feeling like a marketing line and started feeling like a structural difference — the chord changes land slightly off-grid because they are being played, and that small humanness is what makes a GO set sound like a GO set.`,
+      ja: `ジュゼッペ・オッタヴィアーニは1978年11月12日、ローマ北方の小都市ヴィテルボに生まれたイタリアのDJ／プロデューサー。4歳でピアノを始め、十代でクラシック音楽を学んだ後にエレクトロニック・ミュージックに出会い、1990年代半ばに地元クラブとラジオでDJを始めた。クラシックからエレクトロニックへというこの軌跡は、彼が以降リリースしてきたほぼ全ての作品の鍵盤主導の構造に聴き取ることができる。
+
+1999年、Andrea Ribeca、Giacomo Miccichèと組んでNU NRGを結成。3人はPaul van DykのVandit Recordsから2001年にリリースを開始し、Trance Award最優秀ライブ・アクト賞を2004年、2006年、2007年に受賞した。オッタヴィアーニは2005年からソロ活動を並行して開始し、後に専念。Vanditから出したソロ・デビューアルバム『GO!』（2009）、続く『Magenta』（2013）、『Evolver』（2019）と続く。2011年2月にラジオ番組「GO On Air」を立ち上げ、現在はDI.FM他で週次配信されるレーベル兼番組へと成長させた。ソロと並行してSolarstoneとのデュオPure NRGも長期継続中で、こちらは正統派アップリフティング再解釈に特化している。
+
+オッタヴィアーニの最大の特徴はライブ・パフォーマンス・アプローチにある——事前準備のDJセットではなく、「GO Live」フォーマットではシンセサイザー、ドラム・マシン、シーケンサー、ライブ・エフェクトのカスタム・ハードウェア・リグで実演し、リアルタイムで音楽をトリガー、レイヤリング、アレンジする。このセットアップによりDJとライブ・アーティストの境界が曖昧になり、Tomorrowland、Luminosity、A State of Tranceフェスティバル版、Dreamstate、Transmissionへの出演を得てきた。トランスのアップリフティング側面において、2000年代末ピーク期、2010年代中盤のメインステージ年代、現在の復活期を通じて技術的好奇心と商業的時宜性の両方を維持してきた数少ない名前の一人である。
+
+オペレーターにとって、Tomorrowland 2018の後にジュゼッペ・オッタヴィアーニの138セットを聴いた瞬間は、「ライブ演奏されるトランス」がマーケティング・コピーから構造的な違いとして実感に変わった瞬間だった——コード・チェンジが微妙にグリッドから外れて着地するのは、それが実際に演奏されているからであり、その小さな人間性こそがGOセットをGOセットたらしめている。`,
     },
-    mentionedIn: [],
+    mentionedIn: ['what-is-uplifting-trance', 'anatomy-of-uplifting-trance-anthem', 'best-uplifting-trance-tracks-of-all-time-50', 'a-state-of-trance-show-that-changed-everything', 'iconic-trance-anthems-that-defined-an-era'],
   },
 
   {
