@@ -54,33 +54,44 @@ Notable HI-LO releases include the 2015 "Renegade Mastah" collaboration with San
     banner: 'b-psytrance',
     tags: ['PSY-TECHNO', 'HARD TECHNO', 'SPANISH', 'ARTCORE'],
     realName: 'Indira Paganotto',
-    origin: 'Las Palmas, Canary Islands, Spain (Madrid-raised)',
-    born: '1992',
+    origin: 'Las Palmas, Canary Islands, Spain (Madrid-based)',
+    born: '1992-05-30',
     activeFrom: '2018',
-    labels: ['ARTCORE Records'],
-    topWorks: [],
-    related: ['anyma', 'mind-against', 'astrix', 'vini-vici'],
+    labels: ['ARTCORE Records', 'Second State (Pan-Pot)', 'Trip Recordings (Nina Kraviz)'],
+    topWorks: [
+      { title: 'ARTCORE label launch', year: 2022, type: 'milestone' },
+      { title: 'Tomorrowland Mainstage debut', year: 2023, type: 'milestone' },
+      { title: 'Coachella debut (Yuma tent)', year: 2025, type: 'milestone' },
+      { title: 'Hï Ibiza residency', year: 2025, type: 'milestone' },
+    ],
+    related: ['anyma', 'mind-against', 'astrix', 'vini-vici', 'infected-mushroom', 'ace-ventura'],
     links: {
+      website: 'https://indirapaganotto.com/',
+      wikipedia: 'https://en.wikipedia.org/wiki/Indira_Paganotto',
       beatport: 'https://www.beatport.com/search?q=Indira+Paganotto',
     },
     sub: { en: 'Psy-Techno / Hard Techno', ja: 'サイ・テクノ / ハード・テクノ' },
     short: {
-      en: 'Spanish DJ/producer and founder of ARTCORE Records, working in the psy-techno / hard techno crossover that has shaped a substantial slice of the early-2020s festival circuit.',
-      ja: 'スペインのDJ／プロデューサーで、ARTCORE Recordsの創設者。2020年代初頭のフェスティバル・サーキットの相当部分を形作ったサイ・テクノ／ハード・テクノ・クロスオーバーで活動。',
+      en: 'Spanish DJ/producer (b. 1992, Las Palmas, Madrid-based), daughter of a Goa-trance DJ, founder of ARTCORE Records (2022) — the editorial home of the modern psy-techno / hard techno crossover.',
+      ja: '1992年Las Palmas生まれ、マドリード拠点のスペインDJ／プロデューサー。Goaトランスを手掛けていた父を持ち、2022年に現代サイ・テクノ／ハード・テクノ・クロスオーバーの編集本拠地ARTCORE Recordsを設立。',
     },
     style: {
       en: 'Hard, fast, psychedelic-leaning techno — Goa-trance lineage in the harmonic content, hard-techno BPM in the rhythm section, and the kind of festival-mainstage drop architecture that the early-2020s techno revival has rewarded.',
       ja: 'ハードで速く、サイケデリック寄りのテクノ——調和的コンテンツにゴア・トランス系譜、リズム・セクションにハード・テクノBPM、2020年代初頭のテクノ・リバイバルが評価してきたフェスティバル・メインステージ・ドロップ建築。',
     },
     bio: {
-      en: `Indira Paganotto is a Spanish DJ/producer and founder of ARTCORE Records, working at the intersection of psy-trance, hard techno, and contemporary festival mainstage music. Her catalogue and ARTCORE editorial direction sit in the psy-techno crossover lane that has reshaped the early-2020s festival circuit — the same broader convergence that has placed Vini Vici, Astrix and the wider psy-trance lineage onto stages they did not previously share with mainstream techno acts.
+      en: `Indira Paganotto is a Spanish DJ and producer born 30 May 1992 in Las Palmas, Canary Islands, and based in Madrid. Her musical lineage is direct: her father is a Spanish DJ who spent ten years playing Goa trance in India during the 1980s while working with Doctors Without Borders, and her childhood library was his collection of disco, jazz, acid house and Goa music. Her mother, Italian, preferred classical and opera — the contrast that became the formative musical environment. Initially she pushed back against her father's Goa records as "hippie dad" music and turned instead to Detroit techno and Chicago house, teaching herself to mix and produce in parallel.
 
-Her rise across 2022-2024 placed her among the most-booked names in the modern hard-techno / psy-techno lane, and the ARTCORE imprint operates as both an editorial home for her own releases and a curatorial platform for adjacent producers in the same crossover space.`,
-      ja: `Indira Paganottoはスペインのプロデューサー／DJで、ARTCORE Recordsの創設者。サイ・トランス、ハード・テクノ、そして現代のフェスティバル・メインステージ・ミュージックの交差点で活動する。彼女のカタログとARTCOREの編集方針は、2020年代初頭のフェスティバル・サーキットを再形成してきたサイ・テクノ・クロスオーバー・レーン——Vini ViciやAstrix、より広いサイ・トランス系譜をそれまで共有しなかったメインストリーム・テクノのステージに位置づけた、より広い収束——に位置する。
+The catalogue's editorial breakthrough was the June 2022 launch of her own label, ARTCORE — an imprint built explicitly to host the psy-techno hybrid sound she had crystallised, on the basis that there was no existing psy-techno editorial home. Earlier in the trajectory she had released on Pan-Pot's Second State and Nina Kraviz's Trip Recordings, the labels that anchored her early international circulation. Her 2023 Tomorrowland mainstage debut was followed by a 2024 Tomorrowland mainstage return, the 2025 Tomorrowland Winter mainstage, a 2025 Hï Ibiza residency, an ARTCORE-curated Tomorrowland 2025 stage, and her 2025 Coachella debut in the Yuma tent — a touring profile that includes Awakenings, Amnesia Ibiza, Circoloco, EXIT Festival, Pacha Barcelona, Shelter Amsterdam, Fabric London, EDC Las Vegas, and Space Miami.
 
-2022〜2024年の急上昇により、現代ハード・テクノ／サイ・テクノ・レーンで最もブッキングされる名前の一人となり、ARTCOREインプリントは彼女自身のリリース本拠地として、また同じクロスオーバー空間の隣接プロデューサーのキュレーション・プラットフォームとして機能している。`,
+Within the trance ecosystem Indira Paganotto sits at the psy-techno crossover edge — the lane where the Goa / psy lineage that runs through Astrix, Vini Vici and the Iboga Records family converges with the early-2020s hard-techno revival. ARTCORE operates as both an editorial home for her own releases and a curatorial platform for adjacent producers in the same crossover space, and she is one of the names — alongside Anyma's Afterlife direction and the wider Mind Against / Tale Of Us orbit — that explains how the converged festival mainstage of 2026 actually sounds.`,
+      ja: `インディラ・パガノットは1992年5月30日カナリア諸島ラス・パルマス生まれ、マドリードを拠点とするスペインのDJ／プロデューサー。音楽的系譜は直接的だ：父はスペイン人DJで、1980年代に国境なき医師団の仕事と並行して10年間インドのゴアでGoaトランスを回しており、彼女の幼少期のライブラリは父の所有していたディスコ、ジャズ、アシッド・ハウス、ゴア・ミュージックのコレクションだった。イタリア人の母はクラシックとオペラを好み——その対比こそが形成的な音楽環境となった。当初は父のGoa盤を「ヒッピー親父」の音楽として拒絶し、代わりにデトロイト・テクノおよびシカゴ・ハウスに傾倒、自学でミックスとプロダクションを並行して習得した。
+
+カタログの編集的ブレイクスルーは2022年6月の自身のレーベルARTCOREの設立——彼女が結晶化させたサイ・テクノ・ハイブリッド・サウンドを受け入れる既存の編集本拠地が存在しなかったという根拠に基づき、明示的にそれをホストするために構築されたインプリント。それ以前の軌跡では、初期の国際的流通を支えたPan-PotのSecond StateやNina KravizのTrip Recordingsからもリリースを行なっていた。2023年のTomorrowlandメインステージ・デビューに続き、2024年のTomorrowlandメインステージ復帰、2025年のTomorrowland Winterメインステージ、2025年のHï Ibizaレジデンシー、ARTCOREキュレートのTomorrowland 2025ステージ、Yumaテントでの2025年Coachellaデビューを果たした——AwakeningsやAmnesia Ibiza、Circoloco、EXIT Festival、Pacha Barcelona、Shelter Amsterdam、Fabric London、EDC Las Vegas、Space Miamiを含むツアー・プロフィールである。
+
+トランス・エコシステム内において、インディラ・パガノットはサイ・テクノ・クロスオーバーの境界——Astrix、Vini Vici、より広いIboga Recordsファミリーを通じて流れるGoa／サイ系譜が、2020年代初頭のハード・テクノ・リバイバルと収束するレーン——に位置する。ARTCOREは彼女自身のリリース本拠地として、また同じクロスオーバー空間の隣接プロデューサーのキュレーション・プラットフォームとして機能しており、彼女はAnymaのAfterlife方向およびより広いMind Against／Tale Of Us圏と並んで、2026年の収束したフェスティバル・メインステージが実際にどう響くかを説明する名前の一人である。`,
     },
-    mentionedIn: [],
+    mentionedIn: ['what-is-psytrance', 'what-is-tech-trance', 'trance-vs-house-vs-techno', 'female-djs-reshaping-trance-scene', 'top-10-female-trance-djs-2026'],
   },
 
   {
