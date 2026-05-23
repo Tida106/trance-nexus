@@ -8,15 +8,19 @@
 
 ## デプロイ先
 
-**GitHub Pages**にデプロイされている（Vercelではない）。
+**GitHub Pages**にデプロイされている（Vercelではない）。配信は `Tida106/trance-nexus` リポジトリのカスタムドメイン経由。
 
-- 公開URL: **https://tida106.github.io/trance-nexus/**
+- 公開URL（canonical）: **https://trance-nexus.com/**
 - リポジトリ: `Tida106/trance-nexus`
 - ビルド: Next.js の static export（`out/` ディレクトリ）を Pages が配信
-- パスは `/trance-nexus/<route>` の形（basePath 付き）
+- カスタムドメイン: `public/CNAME` で `trance-nexus.com` 指定、DNS A レコードは GitHub Pages anycast（185.199.108-111.153）に向き、HTTPS 稼働中
+- basePath は **空**（カスタムドメイン配信のため）。URL は `/<route>` の形（`/trance-nexus/<route>` ではない）
+- `https://tida106.github.io/trance-nexus/` は GitHub Pages の自動 301 で apex（`trance-nexus.com`）に転送される（古いライブURL想定で記述しないこと）
+- canonical/OG/JSON-LD/hreflang/sitemap/robots/CNAME すべて `https://trance-nexus.com` で整合
+- AdSense publisher ID (`pub-4224563062633828`) は `trance-nexus.com` に紐付け済み
 
-ライブ確認が必要なときは上記URLを使用すること。
-`trance-nexus.com`（DNS未設定）や `trance-nexus.vercel.app`（DEPLOYMENT_NOT_FOUND）は使わない。
+ライブ確認は上記 canonical URL を使用すること。
+`trance-nexus.vercel.app` は使わない（DEPLOYMENT_NOT_FOUND、Vercel ではない）。
 push後はPagesの再ビルドに1〜2分かかる場合がある。
 
 ---
