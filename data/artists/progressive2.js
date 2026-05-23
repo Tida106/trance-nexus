@@ -16,38 +16,48 @@ export const progressive2 = [
     origin: 'Bangor, Wales',
     born: '1969',
     activeFrom: '1989',
-    labels: ['Last Night On Earth', 'Deconstruction', 'Global Underground'],
+    labels: ['Last Night On Earth (own, founded 2011)', 'Excession Records (own, founded 1998)', 'Deconstruction', 'Renaissance Records', 'Global Underground'],
     topWorks: [
-      { title: 'Northern Exposure (with John Digweed)', year: 1996, type: 'mix series' },
-      { title: 'Xpander EP', year: 1999, type: 'EP' },
+      { title: 'Northern Exposure (with John Digweed)', year: '1996–1999', type: 'mix series' },
+      { title: 'Xpander EP', year: 1999, type: 'EP (Deconstruction)' },
       { title: 'Airdrawndagger', year: 2002, type: 'album' },
       { title: 'Involver (mix album)', year: 2004, type: 'mix album' },
       { title: 'Scene Delete', year: 2016, type: 'album' },
+      { title: 'Da Vinci Genius', year: 2024, type: 'album' },
     ],
     related: ['john-digweed', 'bt', 'hernan-cattaneo', 'nick-warren'],
     links: {
+      website: 'https://djsasha.com',
       soundcloud: 'https://soundcloud.com/sashaofficial',
       spotify: 'https://open.spotify.com/artist/6u4jLGLPuarS3i2XWHVxoS',
-      beatport: 'https://www.beatport.com/search?q=Sasha',
+      beatport: 'https://www.beatport.com/artist/sasha/2675',
     },
     sub: { en: 'Progressive House', ja: 'プログレッシブ・ハウス' },
     short: {
-      en: 'Welsh DJ-producer who, with John Digweed, defined progressive house through the Northern Exposure mix-CD series.',
-      ja: 'John Digweedとともに『Northern Exposure』ミックスCDシリーズでプログレッシブ・ハウスを定義したウェールズのDJプロデューサー。',
+      en: 'Welsh DJ-producer (b. 1969, Bangor) who, with John Digweed, defined progressive house through the Northern Exposure mix-CD series (1996-1999), and whose Xpander EP, Airdrawndagger and Involver remain canonical references for the form.',
+      ja: 'ウェールズ・バンゴア生まれ（1969年）のDJ／プロデューサー。John Digweedとともに『Northern Exposure』ミックスCDシリーズ（1996〜1999）でプログレッシブ・ハウスを定義し、『Xpander EP』『Airdrawndagger』『Involver』が同形式の正典的参照として残り続けている。',
     },
     style: {
       en: 'Long-form progressive house — slowly evolving 8-to-12-minute tracks, hypnotic basslines, and a sound design palette that helped invent the "deep, melodic, building" template that countless producers continue to chase.',
       ja: '長尺のプログレッシブ・ハウス——8〜12分かけて緩やかに展開するトラック、催眠的なベースライン、後続の無数のプロデューサーが追求し続ける「ディープ／メロディック／ビルディング」テンプレートを発明した音響設計パレット。',
     },
     bio: {
-      en: `Alexander Coe — known the world over as Sasha — is one of the most influential figures in dance music history. Born in Bangor, Wales in 1969 and raised in Manchester, he came up through the late-80s Hacienda scene and broke nationally as a resident at the Shelley's Laserdome rave nights. His Northern Exposure mix-CD series with John Digweed (1996, 1997, 1999) defined progressive house as a distinct subgenre, and his Xpander EP (1999) and Airdrawndagger album (2002) cemented his reputation as a producer capable of full-length artistic statements.
+      en: `Alexander Paul Coe — known the world over as Sasha — is one of the most influential figures in dance music history. Born in Bangor, Wales on 4 September 1969 and raised in Manchester, he discovered electronic dance music at The Haçienda in 1988 and began DJing in late 1989. His residency at Shelley's Laserdrome in Stoke-on-Trent in 1990 made him a national figure within the UK rave circuit before he was twenty-one, and the Renaissance (Mansfield) residency that followed was the room where the long-form, slow-developing DJ set that would later be called "progressive house" was effectively invented.
 
-Sasha was the first DJ to be nominated for a Grammy and has held global resident roles at clubs from Twilo to Avalon to Hï Ibiza. His Last Night On Earth label has run since 2014 and his Scene Delete (2016) album reasserted his relevance to a younger generation of melodic-house producers.`,
-      ja: `アレクサンダー・コー——世界中でSashaの名で知られる——はダンス・ミュージック史で最も影響力のある人物の一人。1969年ウェールズ・バンゴア生まれ、マンチェスター育ち。80年代末のHaciendaシーンから登場し、Shelley's Laserdomeレジデントとして全国区に。John Digweedとの『Northern Exposure』ミックスCDシリーズ（1996／1997／1999）はプログレッシブ・ハウスを独立したサブジャンルとして定義し、『Xpander EP』（1999）と『Airdrawndagger』（2002）でフル尺の芸術的ステートメントを描けるプロデューサーとしての地位を確立した。
+The mid-1990s partnership with John Digweed gave Sasha his most consequential editorial work. The Northern Exposure mix-CD series (1996, 1997, 1999) defined progressive house as a distinct subgenre and remains the canonical reference for the form, and the New York Twilo residency the pair shared from the late 1990s into 2001 carried that aesthetic across the Atlantic into the American underground. As a producer Sasha then turned the same instincts toward album-length work — Xpander EP (Deconstruction, 1999), the artist album Airdrawndagger (2002), the mix album Involver (2004) which redefined what a single-deck DJ mix could be, and the late-career resurgence Scene Delete (2016).
 
-Sashaはグラミー賞にノミネートされた史上初のDJで、Twilo、Avalon、Hï Ibizaなど世界各地のクラブでレジデントを務めてきた。自身のLast Night On Earthレーベルは2014年から運営され、『Scene Delete』（2016）は新世代のメロディック・ハウス・プロデューサーに対する自身の有意性を再宣言した作品となった。`,
+He was voted DJ Magazine's World No. 1 DJ in 2000 and Grammy-nominated for his "Watching Cars Go By" remix — among the first DJs the Recording Academy formally recognised. He founded Excession Records in 1998 and his current label Last Night On Earth in 2011, launching it with the 'Cut Me Down' single. Now based in Spain, he has remained productive through the 2020s with the Da Vinci Genius album (November 2024), the HiFiHi EP, "Hold On" and "Dead Synthy" through 2025, and the 2026 single "Love Is All You Need."
+
+Operator's note. Sasha sits at the seam between this site's two main editorial lines — the trance lineage on one side and the progressive house lineage on the other — and is the producer who arguably wrote the rules for the long-form melodic-electronic DJ set that both inherit from. The personal hook for me is that "Xpander" still works as a structural template in 2026: a melody that takes seven minutes to arrive and then states itself once, settles, and goes home. That is the line of inheritance the modern Anjuna / Cercle / Afterlife progressive ecosystems all trace back to.`,
+      ja: `アレクサンダー・ポール・コー——世界中でSashaの名で知られる——はダンス・ミュージック史で最も影響力のある人物の一人。1969年9月4日ウェールズ・バンゴア生まれ、マンチェスター育ち。1988年にHaçiendaで電子ダンス・ミュージックに出会い、1989年末にDJを始めた。1990年のStoke-on-TrentにあるShelley's Laserdromeでのレジデンシーが21歳前にして英国レイヴ・サーキット内で全国的な存在へと押し上げ、続くRenaissance（Mansfield）でのレジデンシーは、後に「プログレッシブ・ハウス」と呼ばれることになる長尺で漸進的に展開するDJセットが事実上発明された会場となった。
+
+1990年代半ばのJohn Digweedとのパートナーシップが彼に最も帰結的な編集仕事を与えた。Northern ExposureミックスCDシリーズ（1996／1997／1999）はプログレッシブ・ハウスを独立したサブジャンルとして定義し、形式の正典的参照として残り続けている。同時期に二人が共有したニューヨークのTwiloレジデンシー（1990年代後半〜2001年）は、その美学を大西洋を越えてアメリカ・アンダーグラウンドに運んだ。プロデューサーとしてSashaは同じ本能をアルバム尺の作品に向けた——『Xpander EP』（Deconstruction、1999）、アーティスト・アルバム『Airdrawndagger』（2002）、シングル・デッキDJミックスとは何かを再定義した『Involver』（2004）、そして後期キャリアの復活作『Scene Delete』（2016）。
+
+2000年にDJ Magazine誌で世界No.1 DJに投票され、「Watching Cars Go By」リミックスでグラミー賞ノミネート——レコーディング・アカデミーが公式に認めた最初のDJ陣の一人となった。1998年にExcession Recordsを設立、2011年に現行レーベルLast Night On Earthを「Cut Me Down」シングルを最初のリリースとして開業した。現在はスペイン在住で、2020年代も生産的に活動し続けている——アルバム『Da Vinci Genius』（2024年11月）、HiFiHi EP、2025年の「Hold On」「Dead Synthy」、そして2026年シングル「Love Is All You Need」。
+
+オペレーター・ノート：Sashaは、このサイトの二大編集ラインの継ぎ目——一方のトランス系譜と他方のプログレッシブ・ハウス系譜——に位置しており、両者がそこから継承する長尺メロディック電子DJセットのルールを実質的に書いたプロデューサーである。私にとっての個人的フックは、「Xpander」が2026年に構造的テンプレートとして依然機能していること：メロディが到来するまで7分かかり、その後1度だけステートされ、落ち着いて、家に帰る。これこそ、現代のAnjuna／Cercle／Afterlifeプログレッシブ・エコシステムすべてが起源として辿り得る継承の線である。`,
     },
-    mentionedIn: ['history-of-trance-music', 'a-state-of-trance-show-that-changed-everything'],
+    mentionedIn: ['history-of-trance-music', 'a-state-of-trance-show-that-changed-everything', 'what-is-progressive-trance', 'best-progressive-trance-tracks-of-all-time-50'],
   },
 
   {
