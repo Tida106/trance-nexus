@@ -1,7 +1,6 @@
-// Pure Trance Events — Solarstone's Pure Trance brand party series.
-// Curated around the "back-to-classics" pure trance ethos that
-// Solarstone codified through the Pure Trance Recordings imprint and
-// his weekly Pure Trance radio show.
+// Pure Trance Events — Solarstone's Pure Trance touring brand. This
+// page is a short stub; full Pure Trance context (label, radio show,
+// tour concept, compilations) is covered on the Solarstone artist page.
 
 const pureTranceEvents = {
   slug: 'pure-trance-events',
@@ -10,6 +9,7 @@ const pureTranceEvents = {
   category: 'label',
   region: 'EU',
   country: 'GB',
+  mergedInto: 'solarstone',
 
   dates: {
     typicalMonth: 'varies',
@@ -39,9 +39,9 @@ const pureTranceEvents = {
 
   editions: [
     { year: 2024, note: 'Pure Trance multi-city tour (UK / NL / US)' },
-    { year: 2023, note: 'Pure Trance 10-year-anniversary edition / Vol. 10 launch' },
+    { year: 2023, note: 'Pure Trance Vol. 10 tenth-volume anniversary edition' },
     { year: 2019, note: 'Pure Trance V album launch tour' },
-    { year: 2012, note: 'Launch of Pure Trance Recordings and first compilation (with Orkidea, November)' },
+    { year: 2012, note: 'Launch of Pure Trance Recordings and Vol. 1 compilation with Orkidea (November 19, 2012)' },
   ],
 
   official_url: 'https://puretrance.com',
@@ -50,11 +50,11 @@ const pureTranceEvents = {
 
   en: {
     description:
-      "Pure Trance is Solarstone's brand-and-event series, curated around the back-to-classics pure-trance ethos he codified through the Pure Trance Recordings label and his weekly Pure Trance radio show. The events run as recurring touring nights — UK and continental Europe primarily, with US editions — and are line-up'd around the Pure Trance roster of Solarstone, Allen Watts, Standerwick, and rotating uplifting-and-tech guests. The Pure Trance ethos rejects the EDM-adjacent compression of the genre and centres long-form mixing, classic 138 BPM tempo, and the original trance-arrangement structural template.",
+      "Pure Trance is Solarstone's brand-and-event series, not a fixed annual festival. For the full Pure Trance story — label history (founded 2012 with Orkidea in partnership with Black Hole Recordings), weekly Pure Trance Radio show, and compilation series — see the Solarstone artist page.\n\nThe touring events run as recurring extended-set nights across the UK and continental Europe with select US editions, curated around the open-to-close pure-trance ethos and a roster of Solarstone, Allen Watts, Standerwick, and rotating uplifting-and-tech guests.",
   },
   ja: {
     description:
-      'Pure TranceはSolarstoneのブランド兼イベント・シリーズで、彼がPure Trance Recordingsレーベルと週刊Pure Tranceラジオ番組を通じて成文化した「back-to-classics」ピュア・トランス精神を中心にキュレーションされる。イベントは反復のツアー・ナイトとして運営される——英国と大陸ヨーロッパが中心で、米国エディションも擁する——Solarstone、Allen Watts、Standerwickのピュア・トランス・ロスターと、ローテーションのアップリフティング＆テック・ゲストでラインアップされる。Pure Trance精神はジャンルのEDM隣接的圧縮を拒否し、長尺ミキシング、クラシックな138 BPMテンポ、オリジナルのトランス・アレンジメント構造的テンプレートを中心化する。',
+      "Pure TranceはSolarstoneのブランド兼イベント・シリーズで、固定の年次フェスティバルではない。Pure Tranceの全容——レーベル史（2012年にBlack Hole Recordingsと提携してOrkideaとともに設立）、週刊Pure Tranceラジオ番組、コンピレーション・シリーズ——についてはSolarstoneアーティスト・ページを参照。\n\nツアー・イベントは英国と大陸ヨーロッパを中心とする延長セット・ナイトとして反復運営され、米国にも選択的エディションを擁する。オープン・トゥ・クローズのピュア・トランス精神を中心にキュレーションされ、ロスターはSolarstone、Allen Watts、Standerwick、ローテーションのアップリフティング＆テック・ゲスト。",
   },
 };
 

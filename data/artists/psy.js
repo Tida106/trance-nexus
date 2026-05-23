@@ -283,14 +283,18 @@ Through the 2000s and 2010s, Solarstone built a body of work — Rain Stars Eter
 
 In 2012 he launched Pure Trance — a compilation series, a label, and an event brand explicitly committed to keeping the original progressive-trance sound alive. The Pure Trance compilations (now well into double digits, with each volume mixed by Solarstone alongside guest curators including Bryan Kearney and Vlind) have become a benchmark for connoisseurs. The associated Pure Trance Recordings label has signed many of the genre's most respected progressive artists.
 
-Solarstone is also notable for his work as a label A&R, mentor, and elder statesman of the British progressive scene. He is widely cited by younger artists as a key influence and as a model for how to remain creatively vital and artistically principled across multiple eras of a genre that has often pulled in commercial directions. For listeners interested in trance as a serious long-form art form rather than as festival fuel, his catalogue is required listening.`,
+Solarstone is also notable for his work as a label A&R, mentor, and elder statesman of the British progressive scene. He is widely cited by younger artists as a key influence and as a model for how to remain creatively vital and artistically principled across multiple eras of a genre that has often pulled in commercial directions. For listeners interested in trance as a serious long-form art form rather than as festival fuel, his catalogue is required listening.
+
+The Pure Trance brand now operates as a multi-strand movement. Pure Trance Recordings was founded in 2012 by Solarstone with Orkidea in partnership with Black Hole Recordings, launching with the flagship compilation Solarstone presents Pure Trance Vol. 1 (co-mixed by Solarstone and Orkidea, released 19 November 2012). The weekly Pure Trance Radio show is a long-running fixture and reached Episode 465 in October 2025. The Pure Trance touring concept runs sold-out editions across the UK, mainland Europe, and the US, curated around extended open-to-close and long-form set formats aligned with the pure-trance ethos. The compilation series reached its tenth-volume anniversary (Vol. 10) in 2023.`,
       ja: `リチャード・モワット——Solarstone——は英国トランスで最も一貫して尊敬される人物の一人だ。90年代半ばから活動し、英国プログレッシブ・トランスの最初の波のパイオニアたちと並んで台頭した。1999年のトラック「Seven Cities」（ボーカルはJES）は史上最高峰のボーカル・トランス・レコードの一つとして広く認識されており、「Out of the Blue」「For an Angel」と並んでトランスのベストリストに頻繁に登場する。
 
 2000年代から2010年代を通じて、Solarstoneは——『Rain Stars Eternal』（2010）、『Pure』（2012）、『Touchstone』（2018）——プログレッシブ・トランスを最も洗練された忍耐強い形で探求する作品群を築いた。彼のサウンドは、ジャンルのマキシマリズムへの傾向を拒絶し、ゆっくり構築され集中的な聴取に応える長尺で大気的なアレンジメントを優先する。トランスのよりハードで明らかにユーフォリックな側面で成熟した世代のファンにとって、Solarstoneはジャンルのより深いプログレッシブの伝統への重要なエントリーポイントとなってきた。
 
 2012年に「Pure Trance」を立ち上げた——オリジナルのプログレッシブ・トランス・サウンドを生かし続けることに明示的にコミットしたコンピレーション・シリーズ、レーベル、イベント・ブランド。Pure Tranceコンピレーション（現在は二桁の巻数に達し、各巻はSolarstoneとBryan Kearney、Vlindなどのゲスト・キュレーターによって共同ミックスされる）は鑑識者の基準となった。関連レーベルPure Trance Recordingsはジャンルで最も尊敬されるプログレッシブ・アーティストの多くを契約してきた。
 
-Solarstoneはレーベル A&R、メンター、英国プログレッシブシーンの長老としての仕事でも特筆される。若いアーティストから重要な影響として、また、しばしば商業的方向に引っ張られるジャンルの複数の時代にわたって創造的に活力を保ち、芸術的に信念ある姿勢を保つモデルとして広く言及される。フェスティバル燃料としてではなく真摯な長尺芸術形式としてのトランスに興味を持つリスナーにとって、彼のカタログは必聴である。`,
+Solarstoneはレーベル A&R、メンター、英国プログレッシブシーンの長老としての仕事でも特筆される。若いアーティストから重要な影響として、また、しばしば商業的方向に引っ張られるジャンルの複数の時代にわたって創造的に活力を保ち、芸術的に信念ある姿勢を保つモデルとして広く言及される。フェスティバル燃料としてではなく真摯な長尺芸術形式としてのトランスに興味を持つリスナーにとって、彼のカタログは必聴である。
+
+Pure Tranceブランドは現在、複数の柱からなる運動である。Pure Trance Recordingsレーベルは2012年にBlack Hole Recordingsと提携してSolarstoneがOrkideaとともに設立し、旗艦コンピレーション『Solarstone presents Pure Trance Vol. 1』（SolarstoneとOrkideaによる共同ミックス、2012年11月19日リリース）でスタートした。週刊Pure Tranceラジオ番組は2025年10月のEpisode 465まで継続するなど長期運営されている。Pure Tranceツアー・コンセプトは英国、大陸ヨーロッパ、米国でソールドアウトのエディションを擁し、ピュア・トランス精神に沿った長尺オープン・トゥ・クローズ／延長セット・フォーマットでキュレーションされる。2023年にはコンピレーション・シリーズが10巻記念（Vol. 10）に到達した。`,
     },
     mentionedIn: [
       'iconic-trance-anthems-that-defined-an-era',
