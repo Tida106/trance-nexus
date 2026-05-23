@@ -188,16 +188,17 @@ ATBのカタログはカジュアルなリスナーが1曲だけ知るタイプ�
     realName: 'Benno de Goeij & Piet Bervoets',
     origin: 'Netherlands',
     born: '—',
-    activeFrom: '1998',
-    labels: ['Magik Muzik', 'High Contrast Recordings'],
+    activeFrom: '1999',
+    labels: ['Magik Muzik', 'High Contrast Recordings', 'Black Hole Recordings'],
     topWorks: [
       { title: 'Airwave', year: 1999, type: 'track' },
-      { title: 'Awakening', year: 2001, type: 'track' },
-      { title: 'And Then', year: 2008, type: 'track' },
-      { title: 'L.E.D. There Be Light', year: 2008, type: 'track' },
-      { title: 'Symfo', year: 2009, type: 'track' },
+      { title: 'Sensation Anthem 2003', year: 2003, type: 'track' },
+      { title: 'Beats At Rank-1 Dotcom (Trance Energy 2005 anthem)', year: 2004, type: 'track' },
+      { title: 'And Then (with Jochen Miller)', year: 2008, type: 'track' },
+      { title: 'L.E.D. There Be Light (Trance Energy 2009 anthem)', year: 2008, type: 'track' },
+      { title: 'Symfo (Sunrise Festival 2009 anthem)', year: 2009, type: 'track' },
     ],
-    related: ['armin-van-buuren', 'tiesto', 'ferry-corsten', 'atb'],
+    related: ['armin-van-buuren', 'tiesto', 'ferry-corsten', 'atb', 'paul-van-dyk', 'push'],
     links: {
       soundcloud: 'https://soundcloud.com/rank1official',
       spotify: 'https://open.spotify.com/artist/1eQe86RbDKRIiGZk08r9YJ',
@@ -213,14 +214,22 @@ ATBのカタログはカジュアルなリスナーが1曲だけ知るタイプ�
       ja: 'クリーンでメロディックなアップリフティング・トランス。ピークタイムのエネルギー、シグネチャーのプラック・シンセ、そしてA State of Trance年間ミックスを10年以上支えた高揚感あるブレイクダウン。',
     },
     bio: {
-      en: `Rank 1 is the Dutch production duo of Benno de Goeij and Piet Bervoets, formed in 1998. Their second single "Airwave" (1999) became one of the defining trance anthems of the era — a clean, plucked melodic build that influenced nearly every Dutch uplifting track that followed. They followed it with a string of similarly anthemic productions including "Awakening," "And Then," "Symsonic," and "L.E.D. There Be Light," the last of which Tiësto used as the opening track for his Olympics-spec Tour of Lights stage production.
+      en: `Rank 1 is the Dutch production duo of Piet Bervoets and Benno de Goeij. The two had been working together since 1997, but the Rank 1 name was launched in 1999 — and "Airwave," released that year, is the track that defined them. Built around a clean, ascending plucked-synth lead over a euphoric four-bar build, "Airwave" became the first Dutch dance track to top the European Dance Chart, reached the UK top ten, and was licensed in over forty countries within twelve months. It has been re-voted as the all-time #1 track in multiple subsequent Trance Top 1000 community polls, and it remains the textbook example of the Dutch Anthem Trance template.
 
-Closely associated with Tiësto's Black Hole Recordings and the early Magik Muzik catalogue, Rank 1 helped define the muscular, mainstage Dutch trance sound that dominated festivals through the mid-2000s. They continue to perform and release sporadically — usually around major Trance Energy / A State of Trance milestones — and remain a cornerstone reference for any conversation about Dutch trance history.`,
-      ja: `Rank 1は1998年結成のオランダ人プロデューサー・デュオ、Benno de GoeijとPiet Bervoetsによるユニット。2作目シングル「Airwave」（1999）は同時代を代表するトランス・アンセムとなり、その後のほぼ全てのダッチ・アップリフティング作品に影響を与えたクリーンでプラック主体のメロディック・ビルドを確立した。続く「Awakening」「And Then」「Symsonic」「L.E.D. There Be Light」も同様にアンセム化し、最後の作品はTiëstoがオリンピック規模の「Tour of Lights」ステージのオープニングに採用した。
+The rest of the catalogue sits in close orbit around festival event-anthem commissions. "Sensation Anthem 2003" was the official theme for ID&T's flagship event that year; "Beats At Rank-1 Dotcom" — a deliberate move toward a harder, more tech-trance register — was picked up as Trance Energy's 2005 theme; "L.E.D. There Be Light" became the Trance Energy 2009 anthem and was used in EDC's 2009 advertising; "Symfo" followed five months later as the Sunrise Festival 2009 theme. The duo released across Tiësto's Black Hole catalogue and the Magik Muzik / High Contrast imprints throughout the 2000s, and they were a recurring booking on A State of Trance Year-Mix tours and ASOT festival editions.
 
-TiëstoのBlack Hole Recordings、初期のMagik Muzikカタログと深く結びつき、2000年代半ばのフェス・シーンを席巻したマッシブなメインステージ・ダッチ・トランス・サウンドの定義に貢献した。Trance Energy / A State of Tranceの節目にあわせて散発的にライブとリリースを続けており、ダッチ・トランス史を語る際の基準点であり続けている。`,
+Benno de Goeij's parallel career adds another layer of context. From the late 2000s onward he became Armin van Buuren's principal in-studio co-producer, and from 2012 he was the second half of Armin's Gaia alias — a partnership that ran through the 2019 Moons of Jupiter album and continued until roughly 2023-24 (after which de Goeij stops appearing in the Armin singles credits). That means Rank 1's productions and Armin's mid-period studio output share half a brain, which goes a long way toward explaining the family resemblance between the two catalogues' melodic instinct.
+
+Operator's note. The operator's weekly ASOT habit started after Tomorrowland 2018, so Rank 1's anthem-tier catalogue arrived as flashback content via Armin's Classics segments rather than as live releases. What makes "Airwave" still land in 2026 is that the plucked-lead riff resolves on a single emotionally settled note rather than the modern uplifting habit of stacking three competing melodic layers in the same eight bars — it's one idea, fully stated, and the rest of the track is build and decay. That structural restraint is the line of inheritance the operator hears most clearly between Rank 1 and the Armin / Gaia productions of the early 2010s, and it's why "Airwave" sits comfortably alongside "Sun & Moon" or "In and Out of Love" in a chronological-trance playlist twenty-seven years later.`,
+      ja: `Rank 1はオランダのプロデューサー・デュオ、Piet BervoetsとBenno de Goeijによるユニット。二人は1997年から共同作業を続けていたが、Rank 1名義は1999年に立ち上がり——同年リリースの「Airwave」が彼らを定義した。ユーフォリックな4小節ビルドの上に立ち上がるクリーンなプラック・シンセ・リードを軸にした「Airwave」は欧州ダンス・チャートのトップに上り詰めた史上初のダッチ・ダンス・トラックとなり、UKトップ10入りを果たし、12ヶ月以内に40カ国以上でライセンスされた。その後のTrance Top 1000コミュニティ投票でも繰り返し1位に再選されており、ダッチ・アンセム・トランス・テンプレートの教科書事例として残っている。
+
+カタログの残りはフェスティバル・イベント・アンセム委託の周囲を密接に周回する。「Sensation Anthem 2003」はその年のID&Tフラッグシップ・イベントの公式テーマとなり、「Beats At Rank-1 Dotcom」——よりハードでテック・トランス寄りのレジスターへ意図的に移動した作品——はTrance Energy 2005テーマに採用、「L.E.D. There Be Light」はTrance Energy 2009アンセム兼EDC 2009広告音源、「Symfo」は5ヶ月後にSunrise Festival 2009テーマとして続いた。2000年代を通じてTiëstoのBlack Holeカタログ、およびMagik Muzik／High Contrastインプリントからリリースし、A State of Trance Year-MixツアーとASOTフェスティバル版に定期的にブッキングされた。
+
+Benno de Goeijの並行キャリアがさらにコンテキストを加える。2000年代末以降、彼はArmin van Buurenの主要なスタジオ共同プロデューサーとなり、2012年からはArminのGaia名義の片翼を担った——2019年アルバム『Moons of Jupiter』を経て、おおむね2023〜24年まで続いたパートナーシップである（その後de Goeijの名はArminのシングルのクレジットから消える）。つまりRank 1のプロダクションとArminの中期スタジオ作品は半分の脳を共有しており、両カタログのメロディック本能の家族的類似はこれで大方説明がつく。
+
+オペレーター・ノート：オペレーターの毎週ASOT習慣は2018年Tomorrowland以後に始まったため、Rank 1のアンセム級カタログはライブ・リリースではなくArminのClassicsセグメントを通じたフラッシュバック・コンテンツとして到着した。「Airwave」が2026年に依然として効くのは、プラック・リード・リフが情緒的に落ち着いた単一の音で解決すること——3つの競合メロディック・レイヤーを同じ8小節に積み重ねる現代アップリフティングの習慣ではなく——一つのアイデアが完全にステートされ、トラックの残りはビルドと減衰だからだ。この構造的な抑制こそ、オペレーターがRank 1と2010年代初頭のArmin／Gaiaプロダクションの間に最も明瞭に聴き取れる継承の線であり、「Airwave」が「Sun & Moon」や「In and Out of Love」と並んで時系列トランス・プレイリストに27年後も違和感なく収まる理由である。`,
     },
-    mentionedIn: ['history-of-trance-music', 'iconic-trance-anthems-that-defined-an-era'],
+    mentionedIn: ['history-of-trance-music', 'iconic-trance-anthems-that-defined-an-era', 'a-state-of-trance-show-that-changed-everything', 'best-trance-tracks-1990s', 'defining-trance-anthems-2000s'],
   },
 
   {
