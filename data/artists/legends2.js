@@ -239,41 +239,52 @@ Benno de Goeijの並行キャリアがさらにコンテキストを加える。
     emoji: '🔥',
     genre: 'UPLIFTING',
     banner: 'b-uplifting',
-    tags: ['UPLIFTING', 'HARD TRANCE', 'BELGIAN'],
-    realName: 'Mike Dierickx',
+    tags: ['UPLIFTING', 'HARD TRANCE', 'BELGIAN', 'BONZAI', 'PURE TRANCE NEON'],
+    realName: 'Mike Dierickx (born Dirk Dierickx; legally renamed 2000)',
     origin: 'Antwerp, Belgium',
     born: '1973',
-    activeFrom: '1995',
-    labels: ['Bonzai Records', 'Black Hole Recordings', 'Armada Music'],
+    activeFrom: '1996',
+    labels: ['Bonzai Records', 'Lightning Records (Bonzai)', 'Push Forward (own label)', 'Pure Trance NEON', 'FSOE', 'Filth on Acid', 'Armada Music', "ID&amp;T - High Contrast Recordings", 'Avex Records (Japan)'],
     topWorks: [
-      { title: 'Universal Nation', year: 1998, type: 'track' },
-      { title: 'Strange World', year: 1999, type: 'track' },
-      { title: 'The Legacy', year: 2001, type: 'track' },
-      { title: 'Tranceformation', year: 2003, type: 'track' },
+      { title: 'Universal Nation', year: 1998, type: 'track (Bonzai)' },
+      { title: 'Strange World', year: 2000, type: 'track (Bonzai)' },
+      { title: 'The Legacy', year: 2001, type: 'track (UK #22)' },
+      { title: 'Tranceformation (vs. Globe)', year: 2003, type: 'track' },
+      { title: 'Neon Life', year: 2020, type: 'album (Push Forward)' },
+      { title: 'Scope', year: 2022, type: 'album' },
+      { title: 'Back When We Believed', year: 2026, type: 'track (Pure Trance NEON)' },
     ],
-    related: ['rank-1', 'paul-van-dyk', 'ferry-corsten', 'armin-van-buuren'],
+    related: ['rank-1', 'paul-van-dyk', 'ferry-corsten', 'armin-van-buuren', 'solarstone'],
     links: {
       spotify: 'https://open.spotify.com/artist/2Xy6YLSsHR6TdBUFm5bnLR',
       beatport: 'https://www.beatport.com/search?q=Push',
     },
     sub: { en: 'Hard / Energy Trance', ja: 'ハード / エナジー・トランス' },
     short: {
-      en: 'Belgian producer behind "Universal Nation" — one of trance\'s most enduring anthems and a peak-time staple for 25+ years.',
-      ja: '「Universal Nation」を生んだベルギーのプロデューサー。25年以上ピークタイム定番として愛され続けるトランス史最重要アンセムの一つ。',
+      en: 'Antwerp-born Belgian producer (b. 1973) behind "Universal Nation" (Bonzai, 1998) — one of trance\'s most enduring anthems — operating across 85+ aliases including Push, M.I.K.E., M.I.K.E. Push, and Plastic Boy. Returned in March 2026 with "Back When We Believed" on Solarstone\'s Pure Trance NEON sub-label.',
+      ja: '1973年アントワープ生まれのベルギー人プロデューサー。「Universal Nation」（Bonzai、1998）でトランス史上最も持続力のあるアンセムの一つを生み出した。Push、M.I.K.E.、M.I.K.E. Push、Plastic Boyなど85以上のエイリアスを使い分け、2026年3月にSolarstoneのPure Trance NEONサブレーベルから「Back When We Believed」で復帰した。',
     },
     style: {
-      en: 'Hard, anthemic uplifting trance — driving 140+ BPM grooves, soaring leads, and the kind of cathartic breakdowns built for the loudest hour of a long set. Also operates as M.I.K.E. Push and Plastic Boy.',
-      ja: 'ハードでアンセミックなアップリフティング・トランス——140 BPM超のドライヴィングなグルーヴ、舞い上がるリード、長尺セットの最大音量タイムに向けたカタルシスあるブレイクダウン。M.I.K.E. PushおよびPlastic Boy名義でも活動。',
+      en: 'Hard, anthemic uplifting trance — driving 138-140 BPM grooves, soaring plucked-synth leads, and the kind of cathartic breakdowns built for the loudest hour of a long set. The Push alias is reserved for the most anthemic uplifting work; M.I.K.E. for darker, more techno-leaning material.',
+      ja: 'ハードでアンセミックなアップリフティング・トランス——138〜140 BPMのドライヴィングなグルーヴ、舞い上がるプラック・シンセ・リード、長尺セットの最大音量タイムに向けたカタルシスあるブレイクダウン。Push名義は最もアンセミックなアップリフティング作品に取っておかれ、M.I.K.E.名義はよりダークでテクノ寄りの素材用となる。',
     },
     bio: {
-      en: `Mike Dierickx — best known as Push and M.I.K.E. Push — is one of Belgium's most prolific trance producers. Born in 1973, he started releasing on Bonzai Records in the mid-90s and broke through in 1998 with "Universal Nation," whose unmistakable 138-BPM melodic build made it one of the most-played trance records of all time. The track has been a peak-time fixture for over twenty-five years and has been re-released, remixed, and reworked countless times.
+      en: `Mike Dierickx — best known as Push and M.I.K.E. Push, born Dirk Dierickx in Antwerp on 20 February 1973 and legally renamed Mike Dierickx in 2000 — is one of the most prolific producers in Belgian trance history. He has released under more than eighty-five aliases across three decades, including Push, M.I.K.E., Plastic Boy, Absolute, Solar Factor, Return of the Native, and Cosmo Kid, with the Push alias reserved for his most anthemic uplifting work and M.I.K.E. for darker, more techno-leaning material.
 
-Beyond Push, Dierickx has released over 200 records under aliases including M.I.K.E., Plastic Boy, DJ Solar Stone (no relation to Solarstone), and others. He is closely associated with Bonzai Trance Progressive and Armada and has remained an active producer and DJ for nearly three decades. Among Belgian trance acts, only Yves Deruyter rivals him for catalogue depth.`,
-      ja: `マイク・ディエリックス——Push、M.I.K.E. Pushの名で知られる——はベルギーで最も多作なトランス・プロデューサーの一人。1973年生まれ、90年代半ばにBonzai Recordsからリリースを開始し、1998年の「Universal Nation」で大ブレイク。その特徴的な138 BPMのメロディック・ビルドは史上最も再生されたトランス・トラックの一つとなった。同曲は25年以上ピークタイムの定番であり続け、再リリース・リミックスを繰り返し続けている。
+His career changed in 1998 with "Universal Nation" on Bonzai Records — a 138 BPM melodic-build trance record whose plucked-lead motif became one of the most-played peak-time anthems in the genre's history and earned multiple dance music awards plus platinum status for 25,000+ vinyl units sold. "Strange World" followed on Bonzai in 2000, "The Legacy" charted at #22 in the UK in 2001, and "Tranceformation" with Globe in 2003 closed out his early canonical period. He has remixed Sinéad O'Connor, Moby, Armin van Buuren, Bomfunk MC's and Ayumi Hamasaki across the catalogue, sat as a key figure in the Bonzai Trance Progressive editorial line through the 2000s, and released across labels including ID&amp;T-High Contrast, Avex (Japan), Atom, Filth on Acid, FSOE, and Armada Music.
 
-Pushに加え、M.I.K.E.、Plastic Boy、DJ Solar Stone（Solarstoneとは別人）など複数の名義で200作以上をリリース。Bonzai Trance ProgressiveとArmadaと深く結びつき、約30年にわたり現役プロデューサー／DJとして活動を続けている。ベルギーのトランス・アクトの中でカタログの深さで彼に肩を並べるのはYves Deruyterのみである。`,
+The 2020s have been productive rather than nostalgic. The Push Forward imprint became his primary label home, releasing the Neon Life album (2020), the Scope album (2022), and the Mark Sherry collaboration "Big Things Have Small Beginnings" (2022). His March 2026 single "Back When We Believed" on Solarstone's Pure Trance NEON sub-label marked a return to the long-form melodic-build template that defined the Universal Nation era, and is the lead single for the Known Universe album scheduled for summer 2026.
+
+Operator's note. Push is the producer whose name surfaces every time a long-running ASOT or Subculture set reaches the hour when the room needs an anthem everyone in it already knows. The personal hook for me is that "Universal Nation" still does that work in 2026 — the lead motif is recognised within four bars by anyone who has spent any time in trance at all, and the rest of the track is the room collectively confirming what it already heard. "Back When We Believed" is the cleanest recent illustration that he still knows how to write that recognition into a record from scratch.`,
+      ja: `マイク・ディエリックス——Push、M.I.K.E. Pushの名で知られ、本名Dirk Dierickxとして1973年2月20日アントワープに生まれ、2000年に法的にMike Dierickxへ改名——はベルギーのトランス史で最も多作なプロデューサーの一人。30年間にわたって85以上のエイリアスでリリースを行ってきた——Push、M.I.K.E.、Plastic Boy、Absolute、Solar Factor、Return of the Native、Cosmo Kidなど——Push名義は最もアンセミックなアップリフティング作品用、M.I.K.E.名義はよりダークでテクノ寄りの素材用に取っておかれる。
+
+キャリアは1998年のBonzai Recordsからの「Universal Nation」で一変した——138 BPMのメロディック・ビルドのトランス・レコードで、そのプラック・リードのモチーフはジャンル史上最もプレイされたピークタイム・アンセムの一つとなり、複数のダンス・ミュージック・アワードを受賞、25,000枚以上のヴァイナル販売でプラチナ・ステータスを獲得した。2000年にBonzaiから「Strange World」が続き、「The Legacy」が2001年に英国チャート22位、「Tranceformation」（vs. Globe）が2003年に登場して初期の正典期を締めくくった。カタログを通じてSinéad O'Connor、Moby、Armin van Buuren、Bomfunk MC's、浜崎あゆみらのリミックスを手掛け、2000年代のBonzai Trance Progressive編集ラインのキー人物として位置し、ID&amp;T-High Contrast、Avex（日本）、Atom、Filth on Acid、FSOE、Armada Musicなどのレーベルからリリースした。
+
+2020年代はノスタルジックではなく生産的な期間となった。Push Forwardインプリントが主要レーベル本拠地となり、アルバム『Neon Life』（2020）、『Scope』（2022）、Mark Sherryとの共作「Big Things Have Small Beginnings」（2022）をリリースした。2026年3月のシングル「Back When We Believed」はSolarstoneのPure Trance NEONサブレーベルから登場し、Universal Nation期を定義した長尺メロディック・ビルド・テンプレートへの回帰を印し、2026年夏予定のアルバム『Known Universe』のリード・シングルとなる。
+
+オペレーター・ノート：Pushは、長尺ASOT／Subcultureセットが部屋全員がすでに知っているアンセムを必要とする時間に到達するたびに名前が浮上するプロデューサー。私にとっての個人的フックは、「Universal Nation」が2026年もまだその仕事をこなしていること——リードのモチーフは、トランスに少しでも触れた経験のある誰にとっても4小節以内に認識され、トラックの残りは部屋がすでに聞いたことを集団的に確認する時間となる。「Back When We Believed」は、彼が今もその認識をゼロから1枚のレコードに書き込む方法を知っていることの最も明瞭な近作例である。`,
     },
-    mentionedIn: ['history-of-trance-music', 'iconic-trance-anthems-that-defined-an-era'],
+    mentionedIn: ['history-of-trance-music', 'iconic-trance-anthems-that-defined-an-era', 'best-trance-tracks-1990s', 'best-trance-tracks-march-2026', 'what-is-hard-trance'],
   },
 
   {
