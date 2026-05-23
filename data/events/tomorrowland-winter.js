@@ -41,7 +41,7 @@ const tomorrowlandWinter = {
     { year: 2024, dates: 'March 16–23', note: '4th edition, ~22,000 attendees' },
     { year: 2023, dates: 'March 18–24' },
     { year: 2022, dates: 'March 19–25', note: 'First post-covid edition' },
-    { year: 2019, dates: 'March 9–16', note: 'Inaugural edition' },
+    { year: 2019, dates: 'March 13–15', note: 'Inaugural edition (music programme; full 7-day package March 9–16)' },
   ],
 
   official_url: 'https://www.tomorrowland.com/en/winter',
