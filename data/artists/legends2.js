@@ -249,16 +249,17 @@ Pushに加え、M.I.K.E.、Plastic Boy、DJ Solar Stone（Solarstoneとは別人
     realName: 'Mauro Picotto',
     origin: 'Cavour, Italy',
     born: '1966',
-    activeFrom: '1991',
-    labels: ['BXR', 'Media Records', 'Bakerloo Records', 'Alchemy'],
+    activeFrom: '1984',
+    labels: ['BXR', 'Media Records', 'Bakerloo Music', 'Alchemy Records'],
     topWorks: [
-      { title: 'Lizard', year: 1998, type: 'track' },
-      { title: 'Komodo (Save a Soul)', year: 1999, type: 'track' },
+      { title: 'Lizard (Gonna Get You)', year: 1998, type: 'track' },
       { title: 'Iguana', year: 1999, type: 'track' },
+      { title: 'Komodo (Save a Soul)', year: 2000, type: 'track' },
       { title: 'Pulsar', year: 2000, type: 'track' },
       { title: 'Like This Like That', year: 2001, type: 'track' },
+      { title: 'Meganite (event series)', year: '2003–', type: 'event' },
     ],
-    related: ['gigi-dagostino', 'push', 'paul-van-dyk', 'tiesto'],
+    related: ['gigi-dagostino', 'push', 'paul-van-dyk', 'tiesto', 'rank-1', 'armin-van-buuren'],
     links: {
       soundcloud: 'https://soundcloud.com/mauro_picotto',
       spotify: 'https://open.spotify.com/artist/0MNSDAOCHF7f2ZfAYxZ9bp',
@@ -274,14 +275,22 @@ Pushに加え、M.I.K.E.、Plastic Boy、DJ Solar Stone（Solarstoneとは別人
       ja: 'ドライヴィングでパーカッシヴなイタリアン・ハード・トランスに、スライドするアルペジオのリード・シンセ——彼が「リザード」シグネチャー・サウンドとして展開した一連の関連トラック（Lizard、Komodo、Iguana、Pulsar）の核。',
     },
     bio: {
-      en: `Mauro Picotto, born in Cavour in northern Italy in 1966, is one of the most internationally successful Italian trance producers in history. Coming up through Gianfranco Bortolotti's Media Records / BXR stable in the early 90s, he broke through globally with "Lizard" in 1998 — a track whose unforgettable sliding-arpeggio lead became the template for Italian hard trance. He extended the idea into a loose "lizard family" trilogy with Komodo, Iguana, and Pulsar, all of which charted across Europe and became staples of trance Year Mixes.
+      en: `Mauro Picotto was born on 25 December 1966 in Cavour, near Turin in northern Italy, into a family of stonemasons and dancers — his father's CRW mason's yard later gave him a trance-side alias. He started DJing in 1984 and came up through the Italian Euro-house group R.A.F. before joining Gianfranco Bortolotti's Media Records as a producer. In 1996 Bortolotti made him a Media partner, and "Bakerloo Symphony" hit #1 in Italy for eight consecutive weeks — the breakthrough that set up the BXR sub-label run.
 
-Beyond his own productions Picotto was a sought-after remixer and a fixture at Italian super-clubs Cocoricò and Insomnia, and his Meganite events ran for years across Ibiza and Italy. He continues to release on Bakerloo and Alchemy.`,
-      ja: `マウロ・ピコット、1966年北イタリア・カヴール生まれ。Gianfranco BortolottiのMedia Records／BXRから90年代初頭に登場し、1998年の「Lizard」で世界的にブレイク——スライドするアルペジオのリードはイタリアン・ハード・トランスの定型となった。Komodo、Iguana、Pulsarへと続く「リザード・ファミリー」三部作は欧州各地でチャート入りし、トランス年間ミックスの定番に。
+The "reptilian trilogy" is the spine of the catalogue. "Lizard (Gonna Get You)" came first, released on BXR (cat. 1048) in 1998 — Picotto has said he first dropped it on acetate at Ultimo Impero on 7 December 1997, and the released version hit the UK top 30, anchored that year's Gatecrasher rotation, and turned the sliding-arpeggio synth into a permanent fixture of Italian hard trance. "Iguana" followed on BXR 1078 in 1999 (UK #39), and "Komodo (Save a Soul)" landed on BXR 1094 on 16 May 2000 — the UK #13 placing remains his highest solo chart position. "Pulsar" (2000) and "Like This Like That" (2001) extended the run into the early 2000s. He left Media Records in 2002 to launch Bakerloo Music and the Alchemy Records imprint (founded with Riccardo Ferri in 2003) and started the Meganite event brand the same year — a club-party platform that ran for years across Cocoricò Riccione, Ibiza, Miami, and across the global super-club circuit.
 
-自身のプロダクションに加え、リミキサーとしても引っ張りだことなり、イタリアのスーパークラブCocoricòとInsomniaのレジデント、Meganiteイベントもイビザとイタリアで長期間展開した。現在もBakerlooとAlchemyからリリースを続けている。`,
+Picotto continues to release through Alchemy and Bakerloo in 2026 and is regularly booked across the techno-revival mainstage that has rediscovered the percussive hard-trance / techno bridge his late-90s catalogue helped engineer.
+
+Operator's note. The operator came into trance through Armin's mainstage at Tomorrowland 2018, so Picotto is a backwards discovery — the kind of name you hit when you start asking why the kick on certain late-90s ASOT classics has that specific Italian-club thump rather than the cleaner Dutch attack. "Komodo" lives next to Push's "Universal Nation" in the operator's playlists, and what makes it land in 2026 is that the sliding-arpeggio lead has nothing to do with the chord-pad-and-vocal palette that dominates modern trance — it's pure percussive, mainstage-Italian energy, and hearing it back-to-back with a contemporary uplifting set is the cleanest reminder of what the genre lost (and is now selectively recovering through the techno-revival crossover) when the late-2000s vocal-uplifting wave took over.`,
+      ja: `マウロ・ピコットは1966年12月25日、北イタリア・トリノ近郊カヴール生まれ。石工とダンサーの家系で、父が経営した石工所CRWの名は後にピコットのトランス・サイドプロジェクトのエイリアスとなった。1984年からDJを開始し、イタリアのユーロハウス・グループR.A.F.（「Self Control」やマドンナ作と紐づく「Like a Prayer」リワーク群）を経てGianfranco BortolottiのMedia Recordsにプロデューサーとして加入。1996年にはBortolottiが彼をMedia Recordsグループのパートナーに迎え、同年「Bakerloo Symphony」が8週連続イタリア1位を記録——これがその後のBXRサブレーベル展開の起点となった。
+
+「レプタイル三部作」はこのカタログの背骨だ。「Lizard (Gonna Get You)」はBXR（cat. 1048）から1998年にリリース——ピコット本人によれば1997年12月7日にUltimo Imperoでアセテートを初投下、UKトップ30入りし、同年Gatecrasherのローテーションを牽引、スライドするアルペジオ・シンセをイタリアン・ハード・トランスの定型として定着させた。「Iguana」がBXR 1078で1999年に続き（UK #39）、「Komodo (Save a Soul)」はBXR 1094で2000年5月16日にリリース——UK #13は彼のソロ・キャリア最高位として残っている。「Pulsar」（2000）、「Like This Like That」（2001）でこの流れは2000年代初頭まで延長された。2002年にMedia Recordsを離脱、Bakerloo Musicを立ち上げ、2003年にはRiccardo Ferriと共にAlchemy Recordsを設立、同年Meganiteイベント・ブランドも開始——Cocoricò Riccione、Ibiza、Miamiをはじめ世界のスーパークラブ・サーキットで長期展開した。
+
+2026年現在もAlchemyおよびBakerlooからリリースを継続しており、ピコットの90年代末カタログが構築に貢献したパーカッシブなハード・トランス／テクノ橋脚を再発見しつつあるテクノ・リバイバル・メインステージで定常的にブッキングされている。同世代のイタリア電子音楽輸出においてトランス主流時代のチャート規模で彼に肩を並べるのはRobert Miles、Gigi D'Agostino、そしてMedia同僚のGigiのみである。
+
+オペレーター・ノート：オペレーターは2018年TomorrowlandのArminメインステージからトランスに入っているため、ピコットは後付けの発見だ——90年代末のASOTクラシックの一部に乗るキックの「特定のイタリアン・クラブ的なドン」が、なぜクリーンなダッチ・アタックではないのかを問い始めた時にぶつかる名前。「Komodo」はオペレーターのプレイリストでPushの「Universal Nation」やBXR Mediaカタログの隣に位置し、2026年に響くのは、スライドするアルペジオ・リードが現代トランスを支配するコード・パッド＋ボーカルのメロディック・パレットと一切関係ない、純粋にパーカッシブなメインステージ・イタリアン・エナジーだから——現代のアップリフティング・セットと交互に聴くことが、ジャンルが2000年代末ボーカル・アップリフティング波で失った（そして今テクノ・リバイバル・クロスオーバーを通じて選択的に回復しつつある）ものへの最もクリアなリマインダーとなる。`,
     },
-    mentionedIn: ['history-of-trance-music'],
+    mentionedIn: ['history-of-trance-music', 'iconic-trance-anthems-that-defined-an-era', 'best-trance-tracks-1990s', 'defining-trance-anthems-2000s', 'why-trance-music-endures'],
   },
 
   {
