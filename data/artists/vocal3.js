@@ -386,7 +386,7 @@ Her catalogue continues into the mid-2020s, including "Viva L'Opera" with Armin 
       { title: 'Luminous', year: 2025, type: 'track' },
       { title: 'Freeq', year: 2026, type: 'track' },
     ],
-    related: ['above-and-beyond', 'ronski-speed', 'super8-and-tab', 'cosmic-gate'],
+    related: ['above-and-beyond', 'ronski-speed', 'super8-and-tab', 'cosmic-gate', 'paul-van-dyk', 'tinlicker'],
     links: {
       spotify: 'https://open.spotify.com/artist/0pyi4vNCq5T6GgV1rt7ncc',
       beatport: 'https://www.beatport.com/artist/kyau-and-albert/38975',
@@ -402,17 +402,17 @@ Her catalogue continues into the mid-2020s, including "Viva L'Opera" with Armin 
       ja: '長尺のリード・シンセ設計とフックを軸にしたソングライティングを基盤に構築されたメロディック・ヴォーカル・トランス。デュオの幾つかのシングルではSteven Albertがリード・ボーカルにクレジットされている。カタログはボーカル・トランス、メロディック・プログレッシブ、そして近年はテック・トランス／ドライヴィング・プログレッシブ領域へと推移しつつ、Euphonic Recordsのメロディック・トランス系譜とより広いAnjunabeats／Armada放送サーキットに繋ぎ止められている。',
     },
     bio: {
-      en: `Kyau & Albert is the German trance duo of Ralph Kyau and Steven Moebius Albert, who first met in the summer of 1994 and released their debut single "Let Me In" in 1996. In 1997 they founded Euphonic Records, which has remained continuously active since and is among the longest-running melodic-trance imprints. The duo originally recorded as "Kyau vs. Albert" and renamed to the current "Kyau & Albert" billing in 2006.
+      en: `Kyau & Albert is the German trance duo of Ralph Kyau and Steven Moebius Albert, two producers who first met in the summer of 1994 and released their debut single "Let Me In" in 1996. Ralph Kyau had been active in the German underground techno-and-trance circuit since the early 1990s — he had co-founded the small Harmony Recordings label with DJ Shandy in 1993 and put out his first record "Modulation Experiments" the same year — while Steven Albert was building his own production studio in parallel. After the two met, their studios merged and the project took shape under the name "Kyau vs. Albert", renamed to the current "Kyau & Albert" billing in 2006.
 
-The catalogue includes the studio albums "Here We Are Now" (2004), "Worldvibe" (2006), and "15 Years" (2012), and singles "Outside" (2001), "Velvet Morning" (2003), "Made Of Sun" (2004), and "Are You Fine?" (2006). The 2010 Anjunabeats collaboration "Anphonic" with Above & Beyond — released on Anjunabeats Volume 8 — is among the most-broadcast tracks of the catalogue. Their monthly radio show "Euphonic Sessions" has been distributed via AH.FM and DI.FM and re-broadcast across the wider trance-radio network.
+In 1997 they founded Euphonic Records, which is widely cited as the longest continuously-running trance label in the world. Beyond their own catalogue, Euphonic has been the launch home for Ronski Speed and Sonorous, among others, and is the imprint around which the German melodic-trance lineage has clustered for nearly three decades. Signature Kyau & Albert tracks include "Outside" (2001), "Velvet Morning" (2003), "Made Of Sun" (2004), "Are You Fine?" (2006), and "Walk Down" — alongside the studio albums Here We Are Now (2004), Worldvibe (2006), and 15 Years (2012). Their 2010 Anjunabeats collaboration "Anphonic" with Above & Beyond, released on Anjunabeats Volume 8, is among the most-broadcast tracks in the catalogue and the clearest link between the German melodic lineage and the British progressive-trance world.
 
-They appeared in the DJ Magazine Top 100 DJs poll for four consecutive years between 2007 and 2010. More recent output continues on Euphonic Records and Anjunabeats, including "Luminous" (Euphonic, 2025) — featured in Markus Schulz's "In Search of Sunrise 21" — and "Freeq" (Euphonic, 2026). Their Spotify monthly listener count sits around 154K across the catalogue.`,
-      ja: `Kyau & Albertは、1994年夏に初めて出会い1996年にデビュー・シングル「Let Me In」をリリースしたRalph KyauおよびSteven Moebius Albertによるドイツのトランス・デュオ。1997年にEuphonic Recordsを設立し、同レーベルはそれ以来継続的に活動しており、メロディック・トランス・インプリントの中で最も長く運営されているものの一つとなっている。デュオは当初「Kyau vs. Albert」名義でレコーディングしており、2006年に現在の「Kyau & Albert」表記へと改名した。
+The duo charted in the DJ Magazine Top 100 DJs poll four years running from 2007 to 2010, hosted the long-running Euphonic Sessions monthly radio show across AH.FM and DI.FM, and have continued releasing through the 2020s, including "Luminous" (Euphonic, 2025) and "Freeq" (Euphonic, 2026). Within the trance landscape they represent a particular German strand — melodic, vocal-inflected, patient in build — that connects the early-2000s Euphonic golden era to the current revival, and that has stayed editorially independent rather than getting absorbed into any of the larger label conglomerates.`,
+      ja: `Kyau & Albertは、Ralph KyauおよびSteven Moebius Albertによるドイツのトランス・デュオ。1994年夏に二人が初めて出会い、1996年にデビュー・シングル「Let Me In」をリリースして始まった。Ralph Kyauは1990年代初頭からドイツのアンダーグラウンド・テクノ／トランス・サーキットで活動しており、1993年にDJ Shandyと小規模レーベル「Harmony Recordings」を共同設立し、同年に初リリース「Modulation Experiments」を出していた一方、Steven Albertは独自にプロダクション・スタジオを構築していた。出会いの後、二人のスタジオが統合され、プロジェクトは「Kyau vs. Albert」名義として形を成し、2006年に現在の「Kyau & Albert」表記へ改名された。
 
-カタログはスタジオ・アルバム「Here We Are Now」（2004）、「Worldvibe」（2006）、「15 Years」（2012）、およびシングル「Outside」（2001）、「Velvet Morning」（2003）、「Made Of Sun」（2004）、「Are You Fine?」（2006）を含む。2010年のAnjunabeatsからのAbove & Beyondとのコラボレーション「Anphonic」——Anjunabeats Volume 8に収録——はカタログで最も放送されているトラックの一つ。月例ラジオ番組「Euphonic Sessions」はAH.FMおよびDI.FMを通じて配信されており、より広いトランス・ラジオ・ネットワークで再放送されている。
+1997年にはEuphonic Recordsを設立し、同レーベルは現存する世界最長運営のトランス・レーベルとして広く認知されている。自身のカタログに加え、EuphonicはRonski Speed、Sonorousなどのローンチ・ホームともなっており、ドイツのメロディック・トランス系譜がほぼ30年にわたって集積してきたインプリントである。代表的なKyau & Albertトラックは「Outside」（2001）、「Velvet Morning」（2003）、「Made Of Sun」（2004）、「Are You Fine?」（2006）、「Walk Down」など。スタジオ・アルバムには『Here We Are Now』（2004）、『Worldvibe』（2006）、『15 Years』（2012）がある。2010年のAnjunabeatsからのAbove & Beyondとのコラボレーション「Anphonic」（Anjunabeats Volume 8収録）はカタログで最も放送されているトラックの一つで、ドイツのメロディック系譜とイギリスのプログレッシブ・トランス世界を最も明確に繋ぐ作品である。
 
-DJ Magazine Top 100 DJs投票には2007年から2010年まで4年連続で登場した。より最近のアウトプットはEuphonic RecordsおよびAnjunabeatsから継続しており、Markus Schulzの「In Search of Sunrise 21」に収録された「Luminous」（Euphonic／2025）および「Freeq」（Euphonic／2026）を含む。Spotify月間リスナー数はカタログ全体で約15万4千人。`,
+デュオはDJ Magazine Top 100 DJs投票に2007年から2010年まで4年連続でランクインし、AH.FMおよびDI.FMで長年継続してきた月例ラジオ番組「Euphonic Sessions」をホスト。2020年代にもリリースを継続しており、「Luminous」（Euphonic／2025）、「Freeq」（Euphonic／2026）などがある。トランス・ランドスケープにおいて彼らは独特のドイツ系譜——メロディック、ヴォーカル色を帯びた、ビルドが忍耐強い——を代表しており、2000年代初頭のEuphonic黄金期から現在の復活期までを繋ぎ、大手レーベル・コングロマリットに吸収されず編集的独立を保ち続けてきた。`,
     },
-    mentionedIn: [],
+    mentionedIn: ['what-is-vocal-trance', 'best-vocal-trance-tracks-of-all-time-50', 'iconic-trance-vocalists-voices-behind-anthems', 'essential-trance-labels-2026', 'defining-trance-anthems-2000s'],
   },
 ];
