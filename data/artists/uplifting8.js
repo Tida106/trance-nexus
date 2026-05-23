@@ -22,14 +22,15 @@ export const uplifting8 = [
     members: ['Agustin Servente', 'Matias Faint (Matias Chavez)'],
     origin: 'Argentina',
     activeFrom: '2006',
-    labels: ['Aerys Records', 'Armada Music', 'A State of Trance'],
+    labels: ['Aerys Records', 'Armada Music', 'Mainstage Music', 'Soundpiercing', 'A State of Trance'],
     topWorks: [
-      { title: 'Paradise Garage', type: 'track' },
-      { title: 'Aerys', type: 'track' },
-      { title: 'Game Over', type: 'track' },
-      { title: 'Trance World, Vol. 17 (mix compilation)', type: 'compilation' },
+      { title: 'Paradise Garage', year: 2008, type: 'track (Soundpiercing / Armada)' },
+      { title: 'Game Over', year: 2013, type: 'track (Mainstage Music / Armada)' },
+      { title: 'Aerys', year: 2014, type: 'track (Armada Music)' },
+      { title: 'Trance World, Vol. 17 (mix compilation)', year: 2014, type: 'compilation (Armada)' },
+      { title: 'Mechanizer', year: 2017, type: 'track (Aerys Records / Armada)' },
     ],
-    related: ['armin-van-buuren', 'markus-schulz', 'w-and-w', 'omnia'],
+    related: ['armin-van-buuren', 'markus-schulz', 'w-and-w', 'omnia', 'mark-sixma', 'orjan-nilsen'],
     links: {
       beatport: 'https://www.beatport.com/artist/heatbeat/28545',
       armada: 'https://www.armadamusic.com/news/team-argentina-alpha-omega-out-now',
@@ -37,22 +38,30 @@ export const uplifting8 = [
     },
     sub: { en: 'Tech Uplifting / Energetic Trance', ja: 'テック・アップリフティング / エネルジェティック・トランス' },
     short: {
-      en: 'Argentinian trance project formed in 2006 by Agustin Servente and Matias Faint, signed long-term to Armada Music and operating their own Armada-affiliated imprint Aerys Records since 2017.',
-      ja: '2006年にAgustin ServenteとMatias Faintによって結成されたアルゼンチンのトランス・プロジェクト。Armada Musicに長期所属し、2017年以降は自身のArmada関連レーベルAerys Recordsを運営。',
+      en: 'Argentinian trance project formed in 2006 by Agustin Servente and Matias Faint (Matias Chavez), signed long-term to Armada Music and operating their own Armada-affiliated imprint Aerys Records since 2017 — continuing as Matias Faint\'s solo project after the duo\'s 2018 separation.',
+      ja: '2006年にAgustin ServenteとMatias Faint（Matias Chavez）によって結成されたアルゼンチンのトランス・プロジェクト。Armada Musicに長期所属し、2017年以降は自身のArmada関連レーベルAerys Recordsを運営——2018年のデュオ解散後はMatias Faintのソロ・プロジェクトとして継続。',
     },
     style: {
-      en: 'Energetic, peak-time trance with Latin-American melodic motifs woven into the lead lines — driving 138 BPM arrangements, big-room-leaning drop architecture, and the Armada-aligned production polish that has placed the catalogue on A State of Trance and the wider mainstage circuit since the late 2000s.',
-      ja: 'リード・ラインに織り込まれたラテン・アメリカ的メロディック・モチーフを伴うエネルギッシュなピークタイム・トランス——ドライヴィングな138 BPMアレンジメント、ビッグルーム寄りのドロップ建築、2000年代末以降カタログをA State of Tranceおよびより広いメインステージ・サーキットに位置づけてきたArmada系のプロダクション洗練。',
+      en: 'Energetic, peak-time trance with Latin-American melodic motifs woven into the lead lines — driving 135–138 BPM arrangements, big-room-leaning drop architecture, and the Armada-aligned production polish that has placed the catalogue on A State of Trance and the wider mainstage circuit since the late 2000s.',
+      ja: 'リード・ラインに織り込まれたラテン・アメリカ的メロディック・モチーフを伴うエネルギッシュなピークタイム・トランス——ドライヴィングな135〜138 BPMアレンジメント、ビッグルーム寄りのドロップ建築、2000年代末以降カタログをA State of Tranceおよびより広いメインステージ・サーキットに位置づけてきたArmada系のプロダクション洗練。',
     },
     bio: {
-      en: `Heatbeat is an Argentinian trance project formed in 2006 by Agustin Servente and Matias Faint (real name Matias Chavez), based in Buenos Aires. The duo signed to Armin van Buuren's Armada Music and built a catalogue across the late 2000s and 2010s anchored by tracks including "Paradise Garage", "Ask the Angels", "Aerys", and "Game Over", with continued support from the A State of Trance editorial circuit and the Armada mainstage roster.
+      en: `Heatbeat is an Argentinian trance and electro-house production project formed in 2006 by Agustin Servente and Matias Chavez, the latter recording under the alias Matias Faint. The Buenos Aires-based duo emerged out of the late-2000s South American trance pipeline that fed into the major Northern-Hemisphere labels, and by 2008 they had landed their first headline catalogue moment with "Paradise Garage" — released through Armada's Soundpiercing imprint and circulated widely across the Armin van Buuren editorial channels that would define the catalogue from that point on.
 
-In 2017 the project launched its own Armada-affiliated imprint Aerys Records as a platform for Argentinian and Latin American producers, and the catalogue extended through compilation and mix-CD work including "Trance World, Vol. 17" mixed for Armada. Following the duo's separation in 2018, Heatbeat continues as Matias Faint's solo project and remains active on the Armada release schedule.`,
-      ja: `Heatbeatは2006年にAgustin ServenteとMatias Faint（本名Matias Chavez）によって結成されたアルゼンチンのトランス・プロジェクト。ブエノスアイレスを拠点とする。デュオはArmin van BuurenのArmada Musicと契約し、2000年代末〜2010年代にかけて「Paradise Garage」、「Ask the Angels」、「Aerys」、「Game Over」を軸にカタログを構築。A State of Trance編集サーキットおよびArmadaメインステージ陣営から継続的なサポートを得てきた。
+The 2010s built out the project's mainstage profile. The duo placed in DJ Mag's Top 100 at number 81 in 2012, completed their first worldwide tour the same year, and launched their own radio show; the catalogue itself extended through "Ask the Angels", "Rocker Monster", "Chow Mein", "Bloody Moon" and "Cell" before two anchor singles defined the project's mid-period identity — "Game Over" (2013), released through W&W's Mainstage Music in coordination with Armada and lifted onto A State of Trance 2013, and the self-titled "Aerys" (December 2014) on Armada Music Albums. In 2014 the duo were given the prestigious "Trance World, Vol. 17" mix-compilation slot. Three years later, in 2017, Heatbeat launched their own Armada-affiliated imprint Aerys Records as a platform specifically for Argentinian and Latin American producers, with their own "Mechanizer" among the inaugural releases.
 
-2017年にはアルゼンチンおよびラテン・アメリカのプロデューサーのためのプラットフォームとして自身のArmada関連レーベルAerys Recordsを設立し、カタログはArmadaのためにミックスした「Trance World, Vol. 17」を含むコンピレーションおよびミックスCD作品へと拡張された。2018年のデュオ解散後、HeatbeatはMatias Faintのソロ・プロジェクトとして継続し、Armadaリリース・スケジュール上で活動を続けている。`,
+Within the trance ecosystem Heatbeat sit in the Armada-aligned tech-uplifting lane — closer to the W&W / Mark Sixma / Orjan Nilsen mainstage register than to either the FSOE 138 mainline or the Anjunabeats progressive school. Following Agustin Servente's departure in 2018 the project has continued as Matias Faint's solo vehicle, with the Aerys Records imprint and ongoing Armada release schedule keeping the catalogue active across the late 2010s and into the 2020s.
+
+Operator's note. For a listener anchored to weekly ASOT and the 2018 Tomorrowland Armin mainstage, Heatbeat are the Argentine cousin of the W&W / Orjan Nilsen mainstage line — the same Armada arrangement polish, but with a Latin-American melodic vocabulary tilting the lead lines slightly off the Dutch axis. "Game Over" and "Aerys" both pass the test the operator listens for: the breakdown opens onto a Sun & Moon-grade emotional climb, then the drop lands with the kind of low-end weight that the South American tech-uplifting school refined across the early 2010s.`,
+      ja: `Heatbeatは2006年にAgustin ServenteとMatias Chavez（後者はMatias Faint名義でレコーディング）によって結成されたアルゼンチンのトランス／エレクトロ・ハウス・プロダクション・プロジェクト。ブエノスアイレスを拠点とするデュオは、北半球の主要レーベルに供給する2000年代後半の南米トランス・パイプラインから登場し、2008年には「Paradise Garage」——ArmadaのSoundpiercingインプリントを通じてリリースされ、以降カタログを定義することになるArmin van Buuren編集チャンネルで広く流通——でカタログ初の見出し級モーメントを獲得した。
+
+2010年代はプロジェクトのメインステージ・プロフィールを構築した。デュオは2012年にDJ Mag Top 100の81位に入り、同年初の世界ツアーを完遂、自身のラジオ・ショウもスタートさせた。カタログ自体は「Ask the Angels」、「Rocker Monster」、「Chow Mein」、「Bloody Moon」、「Cell」を経て、2つのアンカー・シングルがプロジェクトの中期アイデンティティを定義する——「Game Over」（2013、W&WのMainstage MusicからArmadaと連携してリリースされA State of Trance 2013に収録）、そしてセルフ・タイトル「Aerys」（2014年12月、Armada Music Albums）。2014年にはデュオは権威ある「Trance World, Vol. 17」ミックス・コンピレーション枠を与えられた。その3年後、2017年にHeatbeatはアルゼンチンおよびラテン・アメリカのプロデューサー専用プラットフォームとして自身のArmada関連レーベルAerys Recordsを立ち上げ、自身の「Mechanizer」が初期リリースの一つとなった。
+
+トランス・エコシステム内において、HeatbeatはArmadaに整列したテック・アップリフティング・レーン——FSOEの138メインラインやAnjunabeatsプログレッシブ派よりも、W&W／Mark Sixma／Orjan Nilsenのメインステージ・レジスターに近いレーン——に位置する。2018年のAgustin Servente離脱後、プロジェクトはMatias Faintのソロ・ヴィークルとして継続し、Aerys Recordsインプリントと継続的なArmadaリリース・スケジュールが2010年代後半から2020年代にかけてカタログを活発に保っている。
+
+オペレーター・ノート：毎週ASOTおよび2018年Tomorrowland Arminメインステージに基盤を置くリスナーにとって、HeatbeatはW&W／Orjan Nilsenメインステージ・ラインのアルゼンチン版従兄弟である——同じArmadaアレンジメント洗練だが、ラテン・アメリカ的メロディック語彙がリード・ラインをオランダ軸からわずかに傾ける。「Game Over」と「Aerys」はいずれもオペレーターが聴き分けるテストを通過する：ブレイクダウンはSun & Moon級の情緒的上昇へと開き、ドロップは2010年代初頭の南米テック・アップリフティング派が洗練した種類の低音の重量で着地する。`,
     },
-    mentionedIn: [],
+    mentionedIn: ['what-is-uplifting-trance', 'best-uplifting-trance-tracks-of-all-time-50', 'iconic-trance-anthems-that-defined-an-era', 'essential-trance-labels-2026', 'top-trance-tracks-2010s'],
   },
 
   {
