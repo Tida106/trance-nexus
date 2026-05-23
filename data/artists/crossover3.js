@@ -65,40 +65,55 @@ Operator's note. For a listener anchored to weekly ASOT and the 2018 Tomorrowlan
     emoji: '🌌',
     genre: 'TECH',
     banner: 'b-tech',
-    tags: ['TECHNO', 'TECH TRANCE', 'AMERICAN', 'MAU5TRAP', 'IN MEMORIAM'],
-    realName: 'Garret Lockhart',
-    origin: 'Virginia, United States',
-    born: '1990',
+    tags: ['TECHNO', 'TECH TRANCE', 'AMERICAN', 'MAU5TRAP', 'ARMADA', 'IN MEMORIAM'],
+    realName: 'Garrett Falls Lockhart',
+    origin: 'Richmond, Virginia, United States',
+    born: '1990-05-16',
+    died: '2020-11-23',
     activeFrom: '2017',
     activePeriod: '2017–2020',
-    labels: ['mau5trap', 'Armada Music'],
+    labels: ['mau5trap', 'Armada Music', 'Label 444 (own imprint, founded 2020)'],
     topWorks: [
-      { title: 'ACID 444 (EP)', year: 2019, type: 'ep' },
-      { title: 'Audio Dust', year: 2018, type: 'track' },
+      { title: 'Rootkit (EP, incl. "Audio Dust" / "PassiveX")', year: 2018, type: 'ep (mau5trap)' },
+      { title: 'Violence (with Grimes)', year: 2019, type: 'track (Miss Anthropocene, 4AD)' },
+      { title: 'ACID 444 (EP)', year: 2019, type: 'ep (mau5trap)' },
+      { title: 'NRG 444 (EP)', year: 2020, type: 'ep (mau5trap)' },
+      { title: 'AM 444 (EP)', year: 2020, type: 'ep (mau5trap)' },
+      { title: 'In My Head (Part I & II)', year: 2020, type: 'track (Armada Music)' },
+      { title: 'Warehouse Summer (with Lights)', year: 2022, type: 'album (posthumous, Armada Music)' },
     ],
-    related: ['hi-lo', 'maddix', 'anyma', 'mind-against'],
+    related: ['hi-lo', 'maddix', 'anyma', 'mind-against', 'armin-van-buuren'],
     links: {
       beatport: 'https://www.beatport.com/search?q=i_o',
       apple: 'https://music.apple.com/us/artist/i-o/1331392476',
+      wikipedia: 'https://en.wikipedia.org/wiki/I_o_(musician)',
     },
     sub: { en: 'Techno / Tech Trance (active 2017–2020)', ja: 'テクノ / テック・トランス（活動期間 2017–2020）' },
     short: {
-      en: 'American producer (Garret Lockhart) whose 2017–2020 catalogue on mau5trap and Armada placed dark techno and trance in productive dialogue, anchored by the 2019 mau5trap "ACID 444" EP.',
-      ja: '米国のプロデューサー（Garret Lockhart）。2017–2020年のmau5trapおよびArmadaにおけるカタログは、ダーク・テクノとトランスを生産的な対話に置き、2019年のmau5trap「ACID 444」EPを軸とした。',
+      en: 'American producer Garrett Falls Lockhart (Richmond, Virginia, 1990–2020) — debuted the i_o moniker on mau5trap in December 2017, anchored 2019–2020 with the three-part "444" EP series (ACID 444 / NRG 444 / AM 444), and signed to Armada Music in August 2020 shortly before his death.',
+      ja: '米国のプロデューサー、Garrett Falls Lockhart（バージニア州リッチモンド、1990–2020）。2017年12月にmau5trapからi_o名義をデビューさせ、2019–2020年を3部構成「444」EPシリーズ（ACID 444／NRG 444／AM 444）で支え、死の直前の2020年8月にArmada Musicと契約した。',
     },
     style: {
       en: 'Fast, dark techno with trance-melodic content folded in — the kind of acid-driven, peak-time architecture that the late-2010s mau5trap editorial direction championed and that anticipated the techno-trance crossover register the early-2020s mainstage circuit would eventually adopt at scale.',
       ja: 'トランス的メロディック・コンテンツを折り込んだ速くダークなテクノ——2010年代末のmau5trap編集方針が支持し、2020年代初頭のメインステージ・サーキットがやがて大規模に採用することになるテクノ・トランス・クロスオーバー・レジスターを先取りした、アシッド主導でピークタイム的な建築。',
     },
     bio: {
-      en: `i_o was the recording name of American producer Garret Lockhart, a Virginia-based artist whose catalogue across 2017–2020 placed dark techno, acid, and trance-melodic content in productive dialogue. His mau5trap output anchored a distinctive lane within Deadmau5's editorial direction, and the 2019 three-part EP series — opening with "ACID 444" — became the definitive document of the project's fast-paced, acid-driven aesthetic. He also released through Armada and collaborated with names including Tommy Trash and Grimes across the active period.
+      en: `i_o was the recording name of American DJ and producer Garrett Falls Lockhart, born 16 May 1990 in Richmond, Virginia. He attended St. Stephen's Episcopal School in Austin, Texas, performed as GLock through his George Washington University years (2009–2013), then relocated to Los Angeles to attend the Icon Collective music production school and released between 2013 and 2017 under the Fawks alias on Ministry of Sound and Ultra Music. The i_o moniker debuted in December 2017 on mau5trap's "We Are Friends, Vol. 7" compilation with the track "Warning", quickly followed by the Tommy Trash collaboration "Oxygen" the same month.
 
-The catalogue prefigured the techno-trance crossover register that the early-2020s festival mainstage circuit would later adopt at scale, and the back catalogue continues to circulate widely through the streaming and DJ-tool ecosystem. Active period: 2017–2020. (Garret Lockhart, 1990–2020.)`,
-      ja: `i_oは米国のプロデューサー、Garret Lockhartのレコーディング名義。バージニアを拠点とするアーティストで、2017〜2020年のカタログはダーク・テクノ、アシッド、そしてトランス的なメロディック・コンテンツを生産的な対話に置いた。mau5trapからの出力はDeadmau5の編集方針内で独自のレーンを確立し、2019年の3部構成EPシリーズ——「ACID 444」で幕を開けた——はプロジェクトの速くアシッド主導の美学を決定づけるドキュメントとなった。Armadaからもリリースし、活動期間中はTommy TrashやGrimesらと共作も行った。
+The mau5trap catalogue from there ran at high cadence — the "Analog//DDoS" EP (February 2018), the "Rootkit" EP (May 2018, including "Audio Dust" and "PassiveX"), "Fatal Error" (August 2018), "Low" (November 2018), then "Death by Techno" (May 2019) and "House of God" (August 2019) — before the project reached its definitive form with the three-part "444" EP series: "ACID 444" (November 2019), "NRG 444" (February 2020) and "AM 444" (May 2020), each containing four tracks and named after an obscure New York underground venue. Lockhart's collaboration with Grimes, "Violence", was released in 2019 on her album "Miss Anthropocene" and peaked at #19 on the Billboard Dance/Electronic Songs chart in March 2020. In August 2020 he signed exclusively to Armada Music — debuting with the two-part single "In My Head" and launching his own Label 444 imprint as a home for darker material — and released "Révolution" the same month before his sudden death on 23 November 2020 from a fatal arrhythmia caused by late-stage Hashimoto's thyroiditis, aged 30. The posthumous album "Warehouse Summer" with Lights followed on Armada Music in November 2022.
 
-カタログは2020年代初頭のフェスティバル・メインステージ・サーキットが後に大規模に採用することになるテクノ・トランス・クロスオーバー・レジスターを先取りし、バック・カタログはストリーミングおよびDJツール・エコシステムを通じて広く流通し続けている。活動期間: 2017–2020。（Garret Lockhart, 1990–2020.）`,
+Within the trance ecosystem i_o sits at the techno-trance border — closer to the mau5trap / HI-LO acid-techno register than to either the FSOE 138 mainline or the Anjunabeats progressive school, but with melodic-content moves that anticipated the techno-trance crossover register the early-2020s mainstage circuit (Maddix, Indira Paganotto, Anyma) would later adopt at scale.
+
+Operator's note. For a listener anchored to weekly ASOT and the 2018 Tomorrowland Armin mainstage, i_o is the working demonstration of how the techno-trance border was being rebuilt in real time during the late 2010s. The "444" trilogy's acid-driven peak-time arrangements pass close enough to the FSOE 138 register that Armin played the catalogue out on ASOT, and the official i_o remix of Armin's "Mr. Navigator" stands as the cleanest single artefact of that dialogue — the operator's seven-year ASOT diet recognising the same drop dynamics rendered through the harder mau5trap lens.`,
+      ja: `i_oは米国のDJ／プロデューサー、Garrett Falls Lockhartのレコーディング名義。1990年5月16日バージニア州リッチモンド生まれ。テキサス州オースティンのSt. Stephen's Episcopal Schoolに通い、ジョージ・ワシントン大学時代（2009–2013）にはGLock名義で活動、その後ロサンゼルスに移ってIcon Collective音楽プロダクション・スクールに通い、2013–2017年はFawks名義でMinistry of SoundおよびUltra Musicからリリースを行っていた。i_o名義は2017年12月mau5trapの「We Are Friends, Vol. 7」コンピレーションに収録されたトラック「Warning」でデビュー、同月にTommy Trashとの共作「Oxygen」が続いた。
+
+mau5trapカタログはそこから高頻度で展開した——「Analog//DDoS」EP（2018年2月）、「Rootkit」EP（2018年5月、「Audio Dust」「PassiveX」収録）、「Fatal Error」（2018年8月）、「Low」（2018年11月）、続いて「Death by Techno」（2019年5月）、「House of God」（2019年8月）——そしてプロジェクトは3部構成「444」EPシリーズで決定版の形態に到達した：「ACID 444」（2019年11月）、「NRG 444」（2020年2月）、「AM 444」（2020年5月）、各4トラック収録で、ニューヨークのある無名アンダーグラウンド会場にちなんで命名された。Grimesとの共作「Violence」は2019年に彼女のアルバム『Miss Anthropocene』に収録され、2020年3月のBillboard Dance/Electronic Songsチャートで19位を記録した。2020年8月にArmada Musicと独占契約し——2パートのシングル「In My Head」でデビューし、よりダークな素材の本拠地として自身のLabel 444インプリントを立ち上げ——同月に「Révolution」をリリースした後、2020年11月23日、後期橋本病による致死性不整脈のため享年30で急逝した。Lightsとの遺作アルバム『Warehouse Summer』は2022年11月にArmada Musicから続いた。
+
+トランス・エコシステム内において、i_oはテクノ・トランスの境界に位置する——FSOEの138メインラインやAnjunabeatsプログレッシブ派よりもmau5trap／HI-LOアシッド・テクノ・レジスターに近いが、メロディック・コンテンツの動きは2020年代初頭のメインステージ・サーキット（Maddix、Indira Paganotto、Anyma）が後に大規模に採用することになるテクノ・トランス・クロスオーバー・レジスターを先取りしていた。
+
+オペレーター・ノート：毎週ASOTおよび2018年Tomorrowland Arminメインステージに基盤を置くリスナーにとって、i_oはテクノ・トランス境界が2010年代末にリアルタイムでいかに再構築されつつあったかの作業上の実証である。「444」三部作のアシッド主導ピークタイム・アレンジメントはFSOE 138レジスターに十分近く、ArminはASOTでカタログをプレイした。Arminの「Mr. Navigator」のi_o公式リミックスはその対話の最もクリーンな単一作品として残る——オペレーターの7年間のASOT食事が、より硬いmau5trapレンズを通してレンダリングされた同じドロップ・ダイナミクスを認識する。`,
     },
-    mentionedIn: [],
+    mentionedIn: ['modern-trance-classics-2020s-so-far', 'trance-vs-house-vs-techno', 'top-10-trance-subgenres-explained', 'new-generation-trance-artists-to-watch-2026'],
   },
 
   {
