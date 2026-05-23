@@ -1,10 +1,7 @@
-// Ultra Europe — the European edition of the Miami-rooted Ultra
-// Music Festival brand, held annually in mid-July in Split, Croatia
-// (with associated beach-and-island events around Hvar and Brač).
-// The festival relocated from Poljud Stadium to the larger Park
-// Mladeži stadium for the 2024 edition. Trance reaches the festival
-// via the Resistance and (in years it has run) A State of Trance
-// stages.
+// Ultra Europe — European branch of the Ultra Music Festival brand,
+// held annually in mid-July in Split, Croatia. This page is a
+// short stub; comprehensive Ultra coverage lives on the main Ultra
+// Music Festival page (slug: ultra-music-festival-miami).
 
 const ultraEurope = {
   slug: 'ultra-europe',
@@ -13,6 +10,7 @@ const ultraEurope = {
   category: 'mega',
   region: 'EU',
   country: 'HR',
+  mergedInto: 'ultra-music-festival-miami',
 
   dates: {
     next: { start: '2026-07-10', end: '2026-07-12' },
@@ -42,11 +40,11 @@ const ultraEurope = {
 
   editions: [
     { year: 2026, dates: 'July 10–12' },
-    { year: 2024, dates: 'July 12–14', note: 'First edition at Park Mladeži (relocated from Poljud Stadium)' },
-    { year: 2023, dates: 'July 7–9', note: 'Final Poljud Stadium edition' },
-    { year: 2022, dates: 'July 8–10', note: 'Poljud Stadium' },
-    { year: 2019, dates: 'July 12–14', note: 'Poljud Stadium' },
-    { year: 2013, note: 'Inaugural edition (first European Ultra)' },
+    { year: 2024, dates: 'July 12–14', note: 'Park Mladeži' },
+    { year: 2023, dates: 'July 7–9', note: 'Park Mladeži' },
+    { year: 2022, dates: 'July 8–10', note: 'Park Mladeži' },
+    { year: 2019, dates: 'July 12–14', note: 'First edition at Park Mladeži (relocated from Poljud Stadium)' },
+    { year: 2013, note: 'Inaugural edition (first European Ultra), Poljud Stadium' },
   ],
 
   official_url: 'https://ultraeurope.com',
@@ -55,11 +53,11 @@ const ultraEurope = {
 
   en: {
     description:
-      "Ultra Europe is the European edition of the Ultra Music Festival brand, held annually in mid-July in Split, Croatia, since the inaugural 2013 edition. The festival relocated from Poljud Stadium to the larger Park Mladeži for 2024. The three-night main festival is followed by the Destination Ultra island events at Hvar and Brač, extending the run into a week-long Adriatic dance experience. Trance reaches Ultra Europe via the Resistance stage and (in years it has been programmed) the A State of Trance stage, with Armin van Buuren, Above & Beyond, and Paul van Dyk as recurring closers.",
+      "Ultra Europe is the European branch of the Ultra Music Festival brand. For comprehensive coverage of the Ultra series — including the original Miami festival since 1999 — see the main Ultra Music Festival page.\n\nUltra Europe debuted in Split, Croatia in 2013 at the Poljud Stadium and relocated in 2019 to the adjacent Park Mladeži, less than a kilometre away, after Hajduk Split's concerns about pitch damage. The three-night main festival is followed by the Destination Ultra island events on Brač, Hvar, and Vis, using Split as a base for a week-long Adriatic circuit.",
   },
   ja: {
     description:
-      'Ultra EuropeはUltra Music Festivalブランドのヨーロッパ版で、2013年の創設エディション以来毎年7月中旬にクロアチアのスプリトで開催される。2024年からはより広いPark Mladežiへ会場移転（Poljud Stadiumから）。3夜のメイン・フェスティバルの後にHvarとBračでのDestination Ultra島イベントが続く。トランスはResistanceステージと（プログラムされている年は）A State of Tranceステージを通じてUltra Europeに到達し、Armin van Buuren、Above & Beyond、Paul van Dykが反復のクローザーだ。',
+      "Ultra EuropeはUltra Music Festivalブランドのヨーロッパ版である。Miami創設の1999年からの本家を含むUltraシリーズ全体の解説は、メインのUltra Music Festivalページを参照。\n\nUltra Europeは2013年にクロアチアのスプリトでPoljud Stadiumから始まり、Hajduk Splitのピッチ損傷への懸念を受けて、2019年に隣接するPark Mladeži（1km未満の距離）へ移転した。3夜のメイン・フェスティバルの後、Brač、Hvar、Visで展開されるDestination Ultra島イベントが続き、スプリトを拠点にした週単位のアドリア海サーキットを形成する。",
   },
 };
 
