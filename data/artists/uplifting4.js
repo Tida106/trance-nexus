@@ -55,38 +55,52 @@ Helmy's catalogue has since extended through Armada Captivating Sounds and the A
     emoji: '🌌',
     genre: 'PROGRESSIVE',
     banner: 'b-progressive',
-    tags: ['PROGRESSIVE', 'MELODIC', 'SPANISH'],
-    origin: 'Spain',
-    activeFrom: '2014',
-    labels: ['Coldharbour Recordings', 'Armada Music'],
+    tags: ['PROGRESSIVE', 'UPLIFTING', 'SPANISH', 'FLASHOVER', 'COLDHARBOUR'],
+    realName: 'Borja Iglesias Touceda',
+    origin: 'Vigo, Galicia, Spain',
+    born: '1988-03-23',
+    activeFrom: '2010',
+    labels: ['Flashover Recordings', 'Coldharbour Recordings', 'Armada Music', 'A State of Trance', 'Black Hole Recordings', 'In Trance We Trust', 'Pure Trance', 'Bemind Records (own label)', 'Spinnin\' Records'],
     topWorks: [
-      { title: 'Catorce', year: 2019, type: 'track' },
-      { title: 'Adagio in G Minor', year: 2023, type: 'track' },
-      { title: 'Phoenix', year: 2023, type: 'track' },
-      { title: 'Ardora (with Daxson)', year: 2024, type: 'track' },
+      { title: 'Origami', year: 2015, type: 'track (Flashover)' },
+      { title: 'Mangata', year: 2016, type: 'track (Flashover)' },
+      { title: 'Dopamina', year: 2017, type: 'track (Flashover)' },
+      { title: 'Catorce', year: 2019, type: 'track (Coldharbour)' },
+      { title: 'Adagio in G Minor', year: 2023, type: 'track (Coldharbour / ASOT 2023 compilation)' },
+      { title: 'Ardora (with Daxson)', year: 2024, type: 'track (Coldharbour)' },
     ],
-    related: ['markus-schulz', 'cosmic-gate', 'andrew-rayel', 'estiva'],
+    related: ['markus-schulz', 'ferry-corsten', 'cosmic-gate', 'andrew-rayel', 'estiva', 'daxson'],
     links: {
-      beatport: 'https://www.beatport.com/search?q=DIM3NSION',
+      website: 'https://dim3nsionmusic.com/',
+      beatport: 'https://www.beatport.com/artist/dim3nsion/99405',
+      bemind: 'https://bemindrecords.com/artists/dim3nsion',
     },
-    sub: { en: 'Progressive / Melodic Trance', ja: 'プログレッシブ / メロディック・トランス' },
+    sub: { en: 'Progressive / Uplifting Trance', ja: 'プログレッシブ / アップリフティング・トランス' },
     short: {
-      en: 'Spanish producer signed to Markus Schulz\'s Coldharbour Recordings, working in the melodic progressive register.',
-      ja: 'Markus SchulzのColdharbour Recordingsに所属するスペインのプロデューサー。メロディック・プログレッシブの領域で活動。',
+      en: 'Spanish DJ/producer Borja Iglesias Touceda (b. 1988, Vigo) — signed to Ferry Corsten\'s Flashover Recordings in 2010, later a Coldharbour core artist, and founder of his own Bemind Records.',
+      ja: 'スペインのDJ／プロデューサー、Borja Iglesias Touceda（1988年ビゴ生まれ）。2010年にFerry CorstenのFlashover Recordingsと契約、後にColdharbour中核アーティスト、自身のBemind Recordsを運営。',
     },
     style: {
-      en: 'Melodic progressive trance with film/TV-character-named tracks — long-form arrangements, cinematic breakdown architecture, and the kind of slower-tempo melodic content that the Coldharbour editorial direction has refined over the past decade.',
-      ja: 'フィルム／TV登場人物に因んだトラック・タイトルが特徴のメロディック・プログレッシブ・トランス——長尺アレンジメント、映画的ブレイクダウン建築、ColdharbourがOver the past decadeに洗練してきたタイプの低テンポ・メロディック・コンテンツ。',
+      en: 'Mainstage-ready euphoric trance with a Galician craftsman\'s patience — Flashover-school melodic builds and Coldharbour-grade breakdown architecture, weighted slightly slower than 138 BPM peak-time and tuned for arrangement clarity rather than peak-time aggression.',
+      ja: 'ガリシア人クラフトマンの忍耐を備えたメインステージ仕様のユーフォリック・トランス——Flashover派のメロディック・ビルドとColdharbour級ブレイクダウン建築、138 BPMピークタイムよりわずかにスロー寄り、ピークタイムの攻撃性ではなくアレンジメントの明晰さに調律されている。',
     },
     bio: {
-      en: `DIM3NSION is a Spanish DJ/producer (real name Borja Iglesias Touceda, from Vigo) who emerged in the mid-2010s and signed with Markus Schulz's Coldharbour Recordings, becoming a fixture of the label's modern progressive output. Verified Coldharbour and ASOT releases — including "Catorce" (2019), "Adagio in G Minor" (2023), "Phoenix" (2023), and the 2024 "Ardora" collaboration with Daxson — establish him as one of the label's consistent voices.
+      en: `DIM3NSION is the recording name of Spanish DJ and producer Borja Iglesias Touceda, born 23 March 1988 and raised in the coastal Galician city of Vigo. His professional career as an electronic music producer began in 2010 when he signed to Ferry Corsten's Flashover Recordings as a bedroom-producer signing, and the Corsten mentorship has remained a through-line of the catalogue ever since.
 
-His releases sit in the slower, more cinematic end of progressive trance, and the catalogue has continued through Armada Music and A State of Trance episodes alongside the Schulz-curated Coldharbour Sessions cycle. DIM3NSION's editorial direction places him alongside Estiva and the Coldharbour-adjacent progressive producers who define the label's late-2010s and 2020s sound.`,
-      ja: `DIM3NSIONは2010年代半ばに登場し、Markus SchulzのColdharbour Recordingsと契約したスペインのDJ／プロデューサー（本名Borja Iglesias Touceda、ビゴ出身）。「Catorce」（2019）、「Adagio in G Minor」（2023）、「Phoenix」（2023）、Daxsonとの共作「Ardora」（2024）など、Coldharbour／ASOTでの確認済みリリースで、レーベルの安定した中核アーティストの地位を築いた。
+The Flashover run defines the first half of the catalogue. "Origami" (2015) and the stellar follow-up "Mangata" (February 2016) signalled the step-up that brought him onto the international circuit; the third in the trilogy, "Dopamina" (2017), became the only outside-Corsten production ever played in Ferry Corsten's Gouryella live shows, a credit that effectively marked him as the heir-apparent inside that label's editorial direction. He has also issued the Flashover collaboration "Safe With Me" (2018) with Ferry Corsten under the latter's UNITY project, and Solarstone signed his "Voorpret" to the prestigious Pure Trance label. From the late 2010s onward, the catalogue extended into Markus Schulz's Coldharbour Recordings, where he became one of the label's reliable producers — "Catorce" (September 2019) was the introduction, "Adagio in G Minor" (June 2023) was lifted onto Armin van Buuren's A State of Trance 2023 compilation, and "Ardora" (2024) with Daxson kept the run going. He also founded his own label Bemind Records, focused on melodic techno, trance and future-rave, as a platform for his own releases and signed adjacent producers.
 
-リリースはプログレッシブ・トランスのよりスローで映画的な側に位置し、カタログはArmada MusicおよびA State of Tranceエピソードを通じて、SchulzキュレーションのColdharbour Sessionsサイクルと並んで継続している。`,
+Within the trance ecosystem DIM3NSION sits in the Flashover / Coldharbour progressive lane — closer to the Corsten and Schulz editorial direction than to the FSOE 138 mainline or the Anjunabeats school. His tracks have been played out by Ferry Corsten, Armin van Buuren, Markus Schulz and Tiësto, and the Bemind imprint extends his reach as a curator of the same melodic-progressive sensibility.
+
+Operator's note. For the listener who came up on weekly ASOT and the 2018 Tomorrowland Armin mainstage, DIM3NSION's catalogue reads as the patient cousin of the headline anthem — the same emotional vocabulary as a Sun & Moon climb but rendered at the slightly slower, more arrangement-led tempo that the Flashover-school producers refined. "Adagio in G Minor" on the 2023 ASOT compilation is the clearest single example: the same drop dynamics the operator has waited for inside seven years of ASOT mixes, just played with more breathing room.`,
+      ja: `DIM3NSIONはスペインのDJ／プロデューサー、Borja Iglesias Toucedaのレコーディング名義。1988年3月23日生まれ、ガリシアの港湾都市ビゴで育った。エレクトロニック・ミュージック・プロデューサーとしてのプロ・キャリアは2010年、ベッドルーム・プロデューサーとしてFerry CorstenのFlashover Recordingsと契約したことから始まり、Corstenのメンターシップは以降カタログを貫く一本の線として残っている。
+
+Flashoverでの活動がカタログ前半を定義する。「Origami」（2015）と続く秀作「Mangata」（2016年2月）が国際サーキットへの飛躍を告げ、三部作の三作目「Dopamina」（2017）はFerry CorstenのGouryellaライブ・ショウで演奏されたCorsten本人以外による唯一のプロダクションとなった——同レーベル編集方針の中で事実上の後継者として彼を位置づけたクレジットだ。Ferry CorstenのUNITYプロジェクトとしてFlashover共作「Safe With Me」（2018）もリリースし、SolarstoneはDIM3NSIONの「Voorpret」を権威あるPure Tranceレーベルにサインした。2010年代後半以降、カタログはMarkus SchulzのColdharbour Recordingsへと拡張し、レーベルの信頼できるプロデューサーの一人となった——「Catorce」（2019年9月）が導入、「Adagio in G Minor」（2023年6月）はArmin van BuurenのA State of Trance 2023コンピレーションに収録、Daxsonとの「Ardora」（2024）がそのランを継続させた。自身のレーベルBemind Recordsも設立し、メロディック・テクノ、トランス、フューチャー・レイヴに焦点を絞り、自身のリリースと隣接プロデューサーのプラットフォームとして運営している。
+
+トランス・エコシステム内において、DIM3NSIONはFlashover／Coldharbourプログレッシブ・レーン——FSOEの138メインラインやAnjunabeats派よりも、CorstenおよびSchulzの編集方針に近いレーン——に位置する。トラックはFerry Corsten、Armin van Buuren、Markus Schulz、Tiëstoらにプレイされ、Bemindインプリントは同じメロディック・プログレッシブ感性のキュレーターとしての彼のリーチを拡張する。
+
+オペレーター・ノート：毎週ASOTおよび2018年Tomorrowland Arminメインステージで育ったリスナーにとって、DIM3NSIONのカタログは見出しアンセムの忍耐強い従兄弟として読める——Sun & Moonの上昇と同じ情緒的語彙が、Flashover派プロデューサーが洗練した、わずかにスローでアレンジメント主導のテンポでレンダリングされている。2023年ASOTコンピレーション収録の「Adagio in G Minor」はその最もクリーンな単一例：7年間のASOTミックスでオペレーターが待ち続けてきたのと同じドロップ・ダイナミクスが、より息継ぎの余裕を持って演奏されている。`,
     },
-    mentionedIn: [],
+    mentionedIn: ['what-is-progressive-trance', 'best-progressive-trance-tracks-of-all-time-50', 'modern-trance-classics-2020s-so-far', 'essential-trance-labels-2026'],
   },
 
   {
