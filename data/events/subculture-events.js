@@ -1,7 +1,6 @@
-// Subculture Events — John O'Callaghan's Subculture brand party
-// series. Recurring one-night events held primarily in the UK and
-// Ireland (the duo's home territory), with select international
-// editions in the Netherlands, Germany, and the US.
+// Subculture Events — John O'Callaghan's touring brand. This page is
+// a short stub; full Subculture context (label, radio show, tour
+// concept) is covered on the John O'Callaghan artist page.
 
 const subcultureEvents = {
   slug: 'subculture-events',
@@ -10,6 +9,7 @@ const subcultureEvents = {
   category: 'label',
   region: 'EU',
   country: 'GB',
+  mergedInto: 'john-ocallaghan',
 
   dates: {
     typicalMonth: 'varies',
@@ -18,8 +18,8 @@ const subcultureEvents = {
   },
 
   venue: {
-    // Anchor on Ministry of Sound, London — long-running Subculture
-    // residency host venue.
+    // Anchor on Ministry of Sound, London — documented host venue for
+    // Subculture episodes (e.g. Subculture 078 live, June 2013).
     name: 'Ministry of Sound (recurring host venue)',
     address: '103 Gaunt St, London SE1 6DP',
     country: 'GB',
@@ -51,11 +51,11 @@ const subcultureEvents = {
 
   en: {
     description:
-      "Subculture is John O'Callaghan's uplifting-and-tech-trance brand, originally established as a sublabel on Black Hole Recordings in 2010 with O'Callaghan as resident. The brand has since expanded into recurring one-night events held primarily in the UK and Ireland with select international editions in the Netherlands, Germany, and the US. A recurring artist roster of Bryan Kearney, Will Atkinson, Sneijder, Simon Patterson, and Standerwick joins O'Callaghan as resident headliners. Subculture remains a fixture of the contemporary 138 BPM scene's club-night calendar.",
+      "Subculture is a touring trance brand led by John O'Callaghan, not a fixed annual festival. For the full Subculture story — label history, radio show, tour residencies — see the John O'Callaghan artist page.\n\nThe Subculture Recordings imprint was founded in January 2010 as a Black Hole Recordings sublabel, and the brand's touring events run as recurring one-night shows primarily across the UK and Ireland, with documented London editions at The Gallery, Ministry of Sound.",
   },
   ja: {
     description:
-      'SubcultureはJohn O\'Callaghanのアップリフティング＆テック・トランス・ブランドで、もともと2010年にBlack Hole Recordingsのサブレーベルとして設立された（O\'Callaghanがレジデント）。その後、英国とアイルランドを中心に反復の一夜イベントへと拡張し、オランダ、ドイツ、米国に選択的な国際エディションを擁する。Bryan Kearney、Will Atkinson、Sneijder、Simon Patterson、Standerwickの反復アーティスト・ロスターがO\'Callaghanとともにレジデント・ヘッドライナーとして加わる。Subcultureは現代138 BPMシーンのクラブ・ナイト・カレンダーの定番として残っている。',
+      "SubcultureはJohn O'Callaghanが率いるトランスのツアー・ブランドで、固定の年次フェスティバルではない。Subcultureの全容——レーベル史、ラジオ番組、ツアー・レジデンシー——についてはJohn O'Callaghanアーティスト・ページを参照。\n\nSubculture Recordingsレーベルは2010年1月にBlack Hole Recordingsのサブレーベルとして設立され、ブランドのツアー・イベントは英国とアイルランドを中心とする反復の一夜公演として運営されている。ロンドンではMinistry of SoundのThe Galleryで開催された記録がある。",
   },
 };
 

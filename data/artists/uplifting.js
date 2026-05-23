@@ -163,14 +163,18 @@ In 2008 he founded Subculture, a label and event series that became one of the m
 
 His album discography — Out of Nowhere (2010), Never Fade Away (2012), Find Yourself (2018) — explores the full range from hard tech-trance to vocal-led uplifting and contains some of the most ambitious long-form productions in the genre. "Stresstest" (2012) and his many collaborations with Bryan Kearney as Stoneface & Terminal-adjacent productions are essential listening for anyone interested in the technical end of modern trance.
 
-O'Callaghan has been a major touring force at venues including Avalon Hollywood, Output Brooklyn, the Coronet in London, and headlines FSOE and Group Therapy events worldwide. As an Irish DJ on the global stage, he has also helped legitimise Ireland's trance scene as more than just a regional curiosity — alongside Kearney, John Askew (UK), and others, he made 138 BPM tech-uplifting a core sound of the modern era.`,
+O'Callaghan has been a major touring force at venues including Avalon Hollywood, Output Brooklyn, the Coronet in London, and headlines FSOE and Group Therapy events worldwide. As an Irish DJ on the global stage, he has also helped legitimise Ireland's trance scene as more than just a regional curiosity — alongside Kearney, John Askew (UK), and others, he made 138 BPM tech-uplifting a core sound of the modern era.
+
+The Subculture brand is now a multi-strand operation: the Subculture Radio show launched in 2007 and continued as a long-running monthly podcast, with episode numbering already in the high teens by early 2008; the Subculture Recordings imprint was formally established as a Black Hole Recordings sublabel in January 2010; and the Subculture touring concept now runs as a recurring one-night event series across the UK and Ireland with select editions in mainland Europe and the US. Documented appearances under the Subculture banner include The Gallery at Ministry of Sound in London, which O'Callaghan has played repeatedly across the 2010s.`,
       ja: `ジョン・オカラハンはアイルランドの2000年代後半のトランス・ブームから登場した最も尊敬されるDJプロデューサーの一人だ。ミース県ナヴァン生まれ。10代でDJを始め、2000年代半ばにArmadaとDiscover Recordsからのリリースで国際的にブレイクした。2007年のAudrey Gallagherとのボーカル・コラボ「Big Sky」は時代を定義するボーカル・アップリフティングの瞬間の一つとなり、今もピークタイムのセットでプレイされている。
 
 2008年にSubcultureを設立——よりハードで技術的なジャンルの側面で最も尊敬される勢力の一つとなったレーベル兼イベントシリーズ。Subcultureコンピレーション・シリーズはO'Callaghanによってミックスされ（しばしばBryan Kearneyのようなゲストとともに）、ブランドが体現するサウンドを捉えた——映画的、技術的、ドライブ志向、情緒的深みを持ち、安易な商業的動きへの忍耐ゼロのトランス。
 
 アルバム・ディスコグラフィ——『Out of Nowhere』（2010）、『Never Fade Away』（2012）、『Find Yourself』（2018）——はハードなテック・トランスからボーカル主導のアップリフティングまで全領域を探求し、ジャンルで最も野心的な長尺プロダクションのいくつかを含む。「Stresstest」（2012）、Bryan KearneyとのStoneface & Terminal隣接的な数々のコラボは、現代トランスのテクニカル側面に興味のある人にとって必聴である。
 
-O'Callaghanはアヴァロン・ハリウッド、Output Brooklyn、ロンドンのCoronetなどでツアーする主要勢力で、世界中のFSOEとGroup Therapyイベントをヘッドラインしている。グローバルステージのアイルランド人DJとして、彼はアイルランドのトランスシーンを地域的好奇心以上のものとして正当化する助けにもなった——Kearney、John Askew（英）らとともに、138 BPMテック・アップリフティングを現代の中核サウンドにした。`,
+O'Callaghanはアヴァロン・ハリウッド、Output Brooklyn、ロンドンのCoronetなどでツアーする主要勢力で、世界中のFSOEとGroup Therapyイベントをヘッドラインしている。グローバルステージのアイルランド人DJとして、彼はアイルランドのトランスシーンを地域的好奇心以上のものとして正当化する助けにもなった——Kearney、John Askew（英）らとともに、138 BPMテック・アップリフティングを現代の中核サウンドにした。
+
+Subcultureブランドは現在、複数の柱を持つ運営となっている。Subculture Radio番組は2007年に開始され、長期続く月例ポッドキャストとして継続しており、2008年初頭にはエピソード番号がすでに10番台後半に達していた。Subculture Recordingsレーベルは2010年1月にBlack Hole Recordingsのサブレーベルとして正式に設立された。Subcultureツアー・コンセプトは現在、英国とアイルランドを中心に反復の一夜イベント・シリーズとして運営されており、ヨーロッパ大陸と米国に選択的なエディションを擁する。Subcultureの名義での記録された出演にはロンドンのMinistry of SoundのThe Galleryが含まれ、O'Callaghanは2010年代を通して繰り返しプレイしている。`,
     },
     mentionedIn: [
       'iconic-trance-anthems-that-defined-an-era',
