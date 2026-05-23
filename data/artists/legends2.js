@@ -21,15 +21,16 @@ export const legends2 = [
     origin: 'Rockville, Maryland, USA',
     born: '1971',
     activeFrom: '1995',
-    labels: ['Perfecto Records', 'Black Hole Recordings', 'Reflective Records'],
+    labels: ['Perfecto Records', 'Black Hole Recordings', 'Reflective Records', 'Nettwerk'],
     topWorks: [
       { title: 'IMA', year: 1995, type: 'album' },
       { title: 'ESCM', year: 1997, type: 'album' },
+      { title: 'Flaming June (with Paul van Dyk)', year: 1997, type: 'track' },
       { title: 'Movement in Still Life', year: 1999, type: 'album' },
-      { title: 'Emotional Technology', year: 2003, type: 'album' },
-      { title: 'These Hopeful Machines', year: 2010, type: 'album' },
+      { title: 'These Hopeful Machines (Grammy-nominated)', year: 2010, type: 'album' },
+      { title: 'All Hail the Silence — Daggers (with Christian Burns)', year: 2019, type: 'album' },
     ],
-    related: ['sasha', 'paul-van-dyk', 'andrew-bayer', 'tiesto'],
+    related: ['sasha', 'paul-van-dyk', 'andrew-bayer', 'tiesto', 'john-digweed', 'ferry-corsten'],
     links: {
       soundcloud: 'https://soundcloud.com/BT',
       spotify: 'https://open.spotify.com/artist/64MoFdq8ORI3V98AR5SPWL',
@@ -37,22 +38,30 @@ export const legends2 = [
     },
     sub: { en: 'Progressive Trance / IDM', ja: 'プログレッシブ・トランス / IDM' },
     short: {
-      en: 'American progressive innovator who invented the "stutter edit" and helped define late-90s emotional trance.',
-      ja: '「スタッター・エディット」を発明したアメリカのプログレッシブ革新者。90年代後半の情緒的トランスを定義した。',
+      en: 'American progressive innovator who patented the stutter-edit technique and helped define late-90s emotional trance.',
+      ja: 'スタッター・エディット技法の特許を保有するアメリカのプログレッシブ革新者。90年代後半の情緒的トランスを定義した。',
     },
     style: {
       en: 'Cinematic progressive trance with intricate vocal chops, complex programming, and a singular emotional palette. Crosses freely between trance, IDM, breakbeat, and orchestral electronica.',
       ja: '映画的なプログレッシブ・トランスに、緻密なボーカル・チョップと複雑なプログラミング、そして唯一無二の情緒的パレット。トランス・IDM・ブレイクビーツ・オーケストラ電子音楽の間を自在に行き来する。',
     },
     bio: {
-      en: `Brian Transeau — known professionally as BT — is among the most musically literate producers in electronic music history. Born in Maryland in 1971 and trained at the Berklee College of Music, he emerged in the mid-90s through Sasha and John Digweed's North American DJ tours and Paul Oakenfold's Perfecto label. His debut IMA (1995) introduced the lush, classically-inflected sound that would define his career; ESCM (1997) and Movement in Still Life (1999) cemented him as the era's premier progressive producer.
+      en: `Brian Wayne Transeau — known professionally as BT — was born in Rockville, Maryland on 4 October 1971 and trained at the Berklee College of Music in synthesis and composition. He came up through the mid-90s North American club circuit via Sasha and John Digweed's tours and Paul Oakenfold's Perfecto label, and his debut IMA (1995, released on Perfecto / Reflective) introduced the classically-inflected, sample-dense production style — long-form arrangement, layered synth pads, gospel-choir vocal samples — that placed him a step away from European trance's chord-and-lead template from the start.
 
-He invented and named the "stutter edit," a granular vocal-chop technique now standard in pop and dance production, and built the Stutter Edit and BreakTweaker software plugins that made the technique accessible to other producers. Beyond electronic music, BT has scored Hollywood films, produced for Madonna, Sting, and NSYNC, and continues to release across club tracks, ambient longform, and orchestral works.`,
-      ja: `ブライアン・トランソー——アーティスト名BT——は電子音楽史で最も音楽的に教養あるプロデューサーの一人。1971年メリーランド州生まれ、バークリー音楽大学で訓練を受け、90年代半ばにSashaとJohn DigweedのDJツアーとPaul OakenfoldのPerfectoレーベル経由で登場。デビュー作『IMA』（1995）で、彼のキャリアを定義することになる豊潤でクラシカルなサウンドを世に問い、『ESCM』（1997）と『Movement in Still Life』（1999）で当時のプログレッシブの第一人者としての地位を確立した。
+The catalogue runs through ESCM (1997, with the BT-and-Paul-van-Dyk co-produced single "Flaming June" — UK #19, often miscited as a PvD remix), Movement in Still Life (1999), Emotional Technology (2003), and These Hopeful Machines (2010 — Grammy-nominated for Best Electronic/Dance Album). Outside the artist albums, BT has scored Hollywood films, produced for Madonna, Sting, and *NSYNC, and released Daggers (18 Jan 2019) with Christian Burns as the All Hail the Silence project — a synth-pop record cut entirely to tape from modular synths with no computer in the signal chain.
 
-「スタッター・エディット」を発明・命名し、現代のポップ／ダンス音楽で標準となった同技法を他のプロデューサーが使えるよう同名プラグインを開発。電子音楽の枠を超え、ハリウッド映画の音楽を手がけ、Madonna、Sting、NSYNCらをプロデュース。クラブトラックからアンビエント、オーケストラ作品まで幅広く発表し続けている。`,
+The technique most often associated with him — the "stutter edit," the granular gated-repeat vocal-chop trick now standard across pop and EDM — is more precisely sourced than the usual "BT invented it" framing suggests. BT holds patents on the underlying real-time digital-audio manipulation method and built the technique into a commercial plugin via his company Sonik Architects; iZotope acquired Sonik Architects in December 2010, and the Stutter Edit plugin shipped at Winter NAMM 2011 as an iZotope / BT product (Stutter Edit 2 followed in 2020). The technique as audible artifact predates the plugin name across ESCM and Movement in Still Life.
+
+Operator's note. Most producer's-producer reputations are abstract — you have to take it on faith that the engineering matters. With BT it's directly audible: drop any track from ESCM or Movement in Still Life into a 2026 mainstage trance set and the orchestral layering, the granular vocal chops, and the sample density across the stereo field feel like a different lineage to anything programmed by Armin or Andrew Rayel. What the operator hears in BT and doesn't hear elsewhere is the pre-trance-mainstream integration of orchestral and electronic textures — the same instinct running through Andrew Bayer's catalogue, but BT was doing it in 1997 from a Berklee composition background. The Stutter Edit lineage is the secondary story; the primary one is that the modern Anjuna composer-led aesthetic has a Maryland-by-way-of-Boston source code.`,
+      ja: `ブライアン・ウェイン・トランソー——アーティスト名BT——は1971年10月4日メリーランド州ロックヴィル生まれ。バークリー音楽大学でシンセシスと作曲の訓練を受けた。1990年代半ばにSashaおよびJohn Digweedの北米ツアーとPaul OakenfoldのPerfectoレーベル経由で北米クラブ・サーキットに登場。デビュー作『IMA』（1995年、Perfecto／Reflectiveからリリース）は、クラシカルなインフレクションとサンプル密度の高いプロダクション・スタイル——長尺のアレンジメント、レイヤードなシンセ・パッド、ゴスペル・クワイヤのボーカル・サンプル——を導入し、当初から欧州トランスのコード＋リード型テンプレートから一歩離れた立ち位置を取った。
+
+カタログは『ESCM』（1997、BT＆Paul van Dyk共同制作のシングル「Flaming June」——UK #19、PvDリミックスとして誤伝されることが多い——を収録）、『Movement in Still Life』（1999）、『Emotional Technology』（2003）、『These Hopeful Machines』（2010——第53回グラミー賞Best Electronic/Dance Album部門にノミネート）と続く。アーティスト・アルバム以外でも、ハリウッド映画（『The Fast and the Furious』『Stealth』『Monster』）のスコアを手がけ、Madonna、Sting、*NSYNC（「Pop」）のプロデュースを担当、2019年1月18日にはChristian BurnsとのAll Hail the Silenceプロジェクトでアルバム『Daggers』をリリース——信号系統にコンピュータを介さず、モジュラー・シンセからテープに直接録音されたシンセポップ作品である。
+
+彼に最も結び付けられる技法——「スタッター・エディット」、現代のポップおよびEDMプロダクションで標準化された粒状ゲート反復のボーカル・チョップ・トリック——は、通常の「BTが発明した」というフレーミングが示唆するより精密にソース確認される必要がある。BTはリアルタイム・デジタル・オーディオ操作の基盤手法について複数の特許を保有し、自身のソフトウェア会社Sonik Architectsを通じて完成商用プラグインとして実装。iZotopeは2010年12月にSonik Architectsを買収し、Stutter Editプラグインは2011年Winter NAMMでiZotope／BT製品として公開出荷、Stutter Edit 2は2020年に続いた。技法自体は可聴な痕跡として、プラグイン名称以前にBT自身の『ESCM』および『Movement in Still Life』のプロダクションに既に存在していた。
+
+オペレーター・ノート：多くの「プロデューサーズ・プロデューサー」評価は抽象的だ——エンジニアリングが重要だという話を信頼ベースで受け取る必要がある。BTの場合それは直接可聴だ：『ESCM』や『Movement in Still Life』からどのトラックでも取り出して2026年のメインステージ・トランス・セットに置けば、オーケストラ・レイヤリング、粒状ボーカル・チョップ、ステレオ・フィールド全体のサンプル密度が、ArminやAndrew Rayelのプログラミングとは別系譜のように響く。オペレーターがBTに聴き取れて他では聴き取れないのは、トランス・メインストリーム以前のオーケストラと電子テクスチャの統合——Andrew Bayerのカタログを貫くのと同じ本能だが、BTは1997年にバークリーの作曲背景からそれをやっていた、「メロディック・プログレッシブ」というラベルが存在する前に。スタッター・エディット系譜は副次的な物語であり、主要な物語は、現代のAnjunaの作曲家主導美学全体がメリーランド経由ボストン発のソース・コードを持っているということだ。`,
     },
-    mentionedIn: [],
+    mentionedIn: ['bt-stutter-edit-changed-music-tech', 'history-of-trance-music', 'art-of-trance-buildup-production-secrets', 'essential-vst-plugins-trance-production', 'iconic-trance-anthems-that-defined-an-era'],
   },
 
   {
