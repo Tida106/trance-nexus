@@ -102,11 +102,13 @@ Anjunabeatsからの2枚のアーティスト・アルバム「Empire」（2010�
     labels: ['Armind', 'Armada Music'],
     topWorks: [
       { title: 'Tuvan', year: 2009, type: 'track' },
+      { title: 'Aisha', year: 2010, type: 'track' },
+      { title: 'Status Excessu D (ASOT 500 Anthem)', year: 2011, type: 'track' },
+      { title: 'Stellar', year: 2011, type: 'track' },
       { title: 'Empire of Hearts', year: 2014, type: 'track' },
-      { title: 'Stellar', year: 2016, type: 'track' },
       { title: 'Moons of Jupiter', year: 2019, type: 'album' },
     ],
-    related: ['armin-van-buuren', 'ferry-corsten', 'andrew-rayel', 'paul-van-dyk'],
+    related: ['armin-van-buuren', 'ferry-corsten', 'andrew-rayel', 'paul-van-dyk', 'ruben-de-ronde', 'cosmic-gate'],
     links: {
       beatport: 'https://www.beatport.com/search?q=Gaia+Armin+van+Buuren',
       wikipedia: 'https://en.wikipedia.org/wiki/Gaia_(band)',
@@ -121,14 +123,22 @@ Anjunabeatsからの2枚のアーティスト・アルバム「Empire」（2010�
       ja: '長尺のプログレッシブおよびアップリフティング・トランス——拡張されたブレイクダウン建築、スロー・ビルドのメロディック構造、メインのArmin van Buuren名義でリリースされるよりポップ寄りの素材からGaiaカタログを区別する忍耐強いアレンジメント・クラフト。',
     },
     bio: {
-      en: `Gaia is the trance-purist side project of Armin van Buuren and longtime studio collaborator Benno de Goeij. The Gaia name first appeared on Armin's catalogue at the turn of the 2000s and has since served as the dedicated outlet for the duo's longer-form progressive and uplifting trance material — the kind of patient, breakdown-led architecture that sits a step away from the more pop-leaning singles released under the main Armin van Buuren name.
+      en: `Gaia is the trance-purist alias of Armin van Buuren and his longtime studio collaborator Benno de Goeij. Armin first used the Gaia name in 2000 as a solo alias, and the project later evolved into a duo with de Goeij — the same producer who has co-engineered much of Armin's main-name catalogue. From the start Gaia served as the dedicated outlet for the duo's longer-form, instrumental, breakdown-led trance — material that prioritises arrangement craft over the radio-format singles released under the main Armin van Buuren name. The project is a Dutch trance-band entity entirely separate from any other artist or band named Gaia.
 
-The signature Gaia tracks — "Tuvan" (2009), "Empire of Hearts" (2014), "Stellar" (2016) — became fixtures of the A State of Trance live circuit, and the project's first full-length studio album "Moons of Jupiter" arrived in 2019 with twenty-one tracks each named after a moon of Jupiter. Live Gaia performances place Armin and Benno on stage together, and the project remains an active editorial home within Armin's broader Armind / Armada output for material that prioritises trance craft over crossover format.`,
-      ja: `GaiaはArmin van Buurenと長年のスタジオ・コラボレーターBenno de Goeijによるトランス純粋主義サイドプロジェクト。Gaia名義は2000年代の変わり目にArminのカタログに初登場し、以降、メインのArmin van Buuren名義でリリースされるよりポップ寄りのシングルから一歩離れた忍耐強いブレイクダウン主導の建築——デュオの長尺プログレッシブおよびアップリフティング・トランス素材の専用アウトレットとして機能している。
+The catalogue is small but high-impact. "Tuvan" (2009) was the first widely circulated single, followed by "Aisha" (2010), the A State of Trance 500 anthem "Status Excessu D" (2011), "Stellar" (2011), and "Empire of Hearts" (2014). After several years of relative quiet, the duo's debut studio album Moons of Jupiter arrived on Armada in June 2019, structured as twenty-one tracks each named after one of Jupiter's moons. The album effectively reframed Gaia as a long-arc trance-album project rather than just an occasional anthem release.
 
-代表的なGaiaトラック——「Tuvan」（2009）、「Empire of Hearts」（2014）、「Stellar」（2016）——はA State of Tranceライブ・サーキットの定番となり、プロジェクト初のフル尺スタジオ・アルバム「Moons of Jupiter」は2019年にリリース、各トラックが木星の衛星にちなんで命名された21曲で構成されている。Gaiaのライブ・パフォーマンスではArminとBennoが共にステージに立ち、プロジェクトはクロスオーバー形式よりもトランス・クラフトを優先する素材のためのアクティブな編集本拠地として、ArminのArmind／Armadaのより広い出力内で機能し続けている。`,
+Within the broader Armin van Buuren ecosystem, Gaia is the dedicated home for "pure trance" — the format Armin has continued to defend even as the main name has crossed into mainstage and pop. For long-running ASOT listeners the Gaia singles function as the radio show's signature anchor moments, the ones used to bookend big episodes and ASOT 500 / 600 / 1000 themes. The project sits at the centre of the modern trance canon, alongside Armin's solo run, the ASOT show itself, and the wider Armada family.
+
+For the operator, "Tuvan" and "Empire of Hearts" were the Armin tracks that made it clear that uplifting trance was the format that mattered — not the radio singles. Seven years of weekly ASOT listening keeps returning to that small Gaia catalogue.`,
+      ja: `GaiaはArmin van Buurenと長年のスタジオ・コラボレーターBenno de Goeijによるトランス純粋主義名義。Arminは2000年にGaia名義を最初にソロ・エイリアスとして使用し、プロジェクトは後にde Goeij——Armin本名カタログの多くを共同エンジニアリングしてきた同じプロデューサー——とのデュオへと発展した。当初からGaiaは、Armin van Buuren本名でリリースされるラジオ・フォーマットのシングルからアレンジメント・クラフトを優先する長尺・インストゥルメンタル・ブレイクダウン主導のトランス素材専用アウトレットとして機能してきた。同名の他のアーティストやバンドとは完全に別のオランダのトランス・バンド名義である。
+
+カタログは小規模だがインパクトは大きい。「Tuvan」（2009）が広く流通した最初のシングルであり、「Aisha」（2010）、A State of Trance 500のアンセム「Status Excessu D」（2011）、「Stellar」（2011）、「Empire of Hearts」（2014）と続いた。比較的静かな数年の後、デュオのデビュー・スタジオ・アルバム『Moons of Jupiter』が2019年6月にArmadaから登場——21曲がそれぞれ木星の衛星にちなんで命名された構成だ。このアルバムは事実上、Gaiaを単なる時折のアンセム・リリースではなく長期的なトランス・アルバム・プロジェクトとして再定義した。
+
+より広いArmin van Buurenエコシステム内において、Gaiaは「純粋トランス」の専用本拠地——本名名義がメインステージやポップへとクロスオーバーしていく中でも、Arminが守り続けてきたフォーマットである。長年のASOTリスナーにとって、Gaiaのシングル群はラジオショウのシグネチャー・アンカー・モーメントとして機能し、大型エピソードやASOT 500／600／1000のテーマを締めくくる存在となっている。プロジェクトはArminのソロ・ラン、ASOTショウ本体、より広いArmadaファミリーとともに、現代トランス・キャノンの中心に位置する。
+
+オペレーターにとって、「Tuvan」と「Empire of Hearts」こそ「アップリフティング・トランスというフォーマットが重要なのだ」——ラジオ・シングルではなく——と腑に落ちさせたArminのトラックだった。7年間の毎週ASOTリスニングは、その小規模なGaiaカタログに繰り返し戻ってくる。`,
     },
-    mentionedIn: [],
+    mentionedIn: ['armin-van-buuren-king-of-trance', 'a-state-of-trance-show-that-changed-everything', 'asot-25-years-anniversary', 'iconic-trance-anthems-that-defined-an-era', 'best-uplifting-trance-tracks-of-all-time-50'],
   },
 
   {
