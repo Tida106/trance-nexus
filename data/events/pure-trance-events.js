@@ -39,9 +39,9 @@ const pureTranceEvents = {
 
   editions: [
     { year: 2024, note: 'Pure Trance multi-city tour (UK / NL / US)' },
-    { year: 2023, note: 'Pure Trance 15-year-anniversary edition' },
+    { year: 2023, note: 'Pure Trance 10-year-anniversary edition / Vol. 10 launch' },
     { year: 2019, note: 'Pure Trance V album launch tour' },
-    { year: 2009, note: 'First Pure Trance-branded events (Solarstone resident)' },
+    { year: 2012, note: 'Launch of Pure Trance Recordings and first compilation (with Orkidea, November)' },
   ],
 
   official_url: 'https://puretrance.com',
