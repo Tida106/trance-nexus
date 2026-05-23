@@ -97,37 +97,41 @@ His releases sit in the slower, more cinematic end of progressive trance, and th
     genre: 'UPLIFTING',
     banner: 'b-uplifting',
     tags: ['UPLIFTING', 'ORCHESTRAL', 'FRENCH'],
-    origin: 'France',
+    realName: 'Ludovic Meyer',
+    origin: 'Strasbourg, Alsace, France',
+    born: '1982',
     activeFrom: '2007',
     labels: ['Always Alive Recordings', 'Enhanced Music', 'Future Sound of Egypt (FSOE)'],
     topWorks: [
       { title: "L'Acrobat (with Static Blue)", year: 2010, type: 'track' },
-      { title: 'The Way', year: 2014, type: 'album' },
-      { title: 'The Last Unicorn (with Dan Stone)', year: 2016, type: 'album' },
-      { title: 'Apex', year: 2018, type: 'track' },
+      { title: 'The Wizard', year: 2014, type: 'album' },
     ],
-    related: ['aly-and-fila', 'standerwick', 'andrew-rayel', 'will-atkinson'],
+    related: ['aly-and-fila', 'standerwick', 'andrew-rayel', 'will-atkinson', 'driftmoon', 'darren-porter'],
     links: {
       beatport: 'https://www.beatport.com/search?q=Ferry+Tayle',
     },
     sub: { en: 'Orchestral Uplifting Trance', ja: 'オーケストラ・アップリフティング・トランス' },
     short: {
-      en: 'French uplifting producer and founder of Always Alive Recordings, known for the orchestral concept-album The Last Unicorn with Dan Stone.',
-      ja: 'Always Alive Recordingsの創設者で、Dan Stoneとのオーケストラ・コンセプト・アルバム『The Last Unicorn』で知られるフランス出身のアップリフティング・プロデューサー。',
+      en: 'French uplifting producer and founder of Always Alive Recordings, known for orchestral-leaning concept-length albums in the Enhanced / Always Alive editorial line.',
+      ja: 'Always Alive Recordingsの創設者で、Enhanced／Always Alive編集ラインのオーケストラ寄りコンセプト尺アルバムで知られるフランス出身のアップリフティング・プロデューサー。',
     },
     style: {
       en: 'Orchestral-leaning uplifting trance — strings-pad architecture, long melodic builds, and conceptual album-length structures that lean closer to film score than peak-time DJ tools.',
       ja: 'オーケストラ寄りのアップリフティング・トランス——ストリングス・パッド建築、長尺メロディック・ビルド、ピークタイム向けDJツールよりも映画スコアに近いコンセプト・アルバム構造。',
     },
     bio: {
-      en: `Ferry Tayle is a French uplifting trance producer who has been releasing since the late 2000s and went on to found Always Alive Recordings as a home for the more melodic, orchestral end of the genre. His 2014 album The Way and the 2016 collaboration album The Last Unicorn with Dan Stone established him as one of the few uplifting producers working at album length, with conceptual structures that lean closer to film score than peak-time DJ tools.
+      en: `Ferry Tayle is the French uplifting trance producer Ludovic Meyer, born in 1982 and based in Strasbourg in the Alsace region of France. He started musical life on jazz saxophone from the age of seven before discovering electronic music through Jean-Michel Jarre, and bought his first DJ decks in 1999. His earliest commercial releases came in the late 2000s, including the Cape Town production duo project whose 2008 album Aviateur was an early uplifting-scene critical success.
 
-His catalogue has continued through Always Alive, Enhanced Music, and FSOE, and his earlier work — including "L'Acrobat" (2010, with Static Blue) and a long string of remixes — established the lush orchestral-uplifting template that the Always Alive roster has refined since.`,
-      ja: `フェリー・テイルは2000年代後半から活動するフランスのアップリフティング・トランス・プロデューサー。ジャンルのよりメロディックでオーケストラ的な側の本拠地としてAlways Alive Recordingsを設立した。2014年のアルバム『The Way』とDan Stoneとの2016年共作アルバム『The Last Unicorn』により、ピークタイムDJツールよりも映画スコアに近いコンセプチュアルな構造を持つ、アルバム尺で活動する数少ないアップリフティング・プロデューサーの一人となった。
+The breakthrough as Ferry Tayle came in 2009-2010 via Will Holland's Enhanced label, where the Static Blue collaboration "L'Acrobat" (2010) quickly became an uplifting anthem. He went on to found Always Alive Recordings as his own label — a home for the more melodic, orchestral-leaning end of the genre — and his second studio album The Wizard arrived on Always Alive on 7 July 2014, a multi-collaborator set with Driftmoon, Daniel Kandi, Hannah Ray, Suncatcher and others that remains the most-cited single statement of his catalogue. He has continued releasing through Always Alive and into the FSOE editorial orbit across the years since.
 
-カタログはAlways Alive、Enhanced Music、FSOEを通じて継続。「L'Acrobat」（2010、Static Blueとの共作）を含む初期作および多数のリミックス作品が、Always Aliveロースターがその後洗練していく豊かなオーケストラ・アップリフティング・テンプレートを確立した。`,
+Within trance Ferry Tayle sits in the cinematic / orchestral uplifting lane — the lineage that runs through Driftmoon, Darren Porter, and the Always Alive / Abora cluster, distinct from both the FSOE 138 mainline and the Anjunabeats progressive school. The Always Alive imprint he runs is itself one of the defining homes for that aesthetic, and the catalogue he has built across roughly fifteen years gives the lane its through-line.`,
+      ja: `フェリー・テイルは、フランス・アルザス地方ストラスブール拠点のアップリフティング・トランス・プロデューサー、本名Ludovic Meyer、1982年生まれ。7歳でジャズ・サックスから音楽人生をスタートし、Jean-Michel Jarreを通じてエレクトロニック・ミュージックに出会った後、1999年に初めてのDJデッキを購入。最初期の商業リリースは2000年代後半で、2008年のアルバム『Aviateur』がアップリフティング・シーンで批評的成功を収めたプロダクション・デュオ「Cape Town」プロジェクトを含む。
+
+Ferry Tayle名義でのブレイクスルーは2009-2010年、Will HollandのEnhancedレーベルを通じて訪れた——Static Blueとのコラボレーション「L'Acrobat」（2010）が瞬く間にアップリフティング・アンセムとなった。その後、自身のレーベルとしてAlways Alive Recordings——よりメロディックでオーケストラ寄りのジャンル側面の本拠地——を設立。第2作スタジオ・アルバム『The Wizard』は2014年7月7日にAlways Aliveから登場した。Driftmoon、Daniel Kandi、Hannah Ray、Suncatcherらとの多コラボレーター作品集で、カタログにおける最も引用される単一ステートメントとして残り続けている。以降もAlways AliveおよびFSOE編集圏を通じてリリースを継続している。
+
+トランス内において、Ferry Tayleは映画的／オーケストラ・アップリフティング・レーンに位置する——Driftmoon、Darren Porter、Always Alive／Aboraクラスターを貫く系譜であり、FSOEの138メインラインおよびAnjunabeatsプログレッシブ派の両方と区別される。彼が運営するAlways Aliveインプリント自体がその美学の定義的本拠地の一つであり、約15年にわたって築いてきたカタログがこのレーンの一貫した筋を提供している。`,
     },
-    mentionedIn: [],
+    mentionedIn: ['what-is-uplifting-trance', 'best-uplifting-trance-tracks-of-all-time-50', 'anatomy-of-uplifting-trance-anthem', 'essential-trance-labels-2026', 'modern-trance-classics-2020s-so-far'],
   },
 
   {
