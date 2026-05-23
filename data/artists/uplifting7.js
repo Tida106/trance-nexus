@@ -164,37 +164,49 @@ For the operator, "Tuvan" and "Empire of Hearts" were the Armin tracks that made
     emoji: '🌌',
     genre: 'UPLIFTING',
     banner: 'b-uplifting',
-    tags: ['UPLIFTING', 'PROGRESSIVE TRANCE', 'UKRAINIAN', 'ARMADA'],
+    tags: ['UPLIFTING', 'PROGRESSIVE TRANCE', 'UKRAINIAN', 'ARMADA', 'COLDHARBOUR'],
     realName: 'Evgeny Smirnov',
     origin: 'Donetsk, Ukraine',
-    born: '1987',
-    activeFrom: '2011',
-    labels: ['Armada Music', 'Armada Captivating Sounds', 'A State of Trance'],
+    born: '1987-05-18',
+    activeFrom: '2008',
+    labels: ['Armada Music', 'Coldharbour Recordings', 'Armada Captivating Sounds', 'A State of Trance'],
     topWorks: [
-      { title: 'The Fusion', year: 2014, type: 'track' },
+      { title: 'Infina', year: 2012, type: 'track (Coldharbour)' },
+      { title: 'The Fusion (with IRA)', year: 2012, type: 'track (Coldharbour)' },
+      { title: 'The Light', year: 2013, type: 'track (Coldharbour)' },
+      { title: 'Halo (feat. Melissa Loretta)', year: 2013, type: 'track (Armada)' },
+      { title: 'For The First Time (feat. Tilde)', year: 2014, type: 'track (Armada)' },
     ],
-    related: ['armin-van-buuren', 'andrew-rayel', 'markus-schulz', 'standerwick'],
+    related: ['armin-van-buuren', 'andrew-rayel', 'markus-schulz', 'khomha', 'standerwick', 'dim3nsion'],
     links: {
       beatport: 'https://www.beatport.com/artist/omnia/64311',
       wikipedia: 'https://en.wikipedia.org/wiki/Omnia_(DJ)',
     },
     sub: { en: 'Uplifting / Progressive Trance', ja: 'アップリフティング / プログレッシブ・トランス' },
     short: {
-      en: 'Ukrainian DJ/producer (real name Evgeny Smirnov) on Armada Music, known for the 2014 anthem "The Fusion" — a Beatport Trance #1 supported widely across the ASOT circuit.',
-      ja: 'Armada Music所属のウクライナのDJ／プロデューサー（本名Evgeny Smirnov）。2014年のアンセム「The Fusion」（Beatport Trance #1、ASOTサーキット全域でサポート）で知られる。',
+      en: 'Ukrainian DJ/producer Evgeny Smirnov (b. 18 May 1987, Donetsk) — first Ukrainian DJ to enter the DJ Mag Top 100 (#58 in 2012, #48 in 2013), Armada and Coldharbour core artist known for "Infina", "The Fusion" (with IRA), and "The Light".',
+      ja: 'ウクライナのDJ／プロデューサー、Evgeny Smirnov（1987年5月18日ドネツク生まれ）。DJ Mag Top 100入りを果たした初のウクライナ人DJ（2012年58位、2013年48位）。「Infina」、「The Fusion」（IRA共作）、「The Light」で知られるArmadaおよびColdharbour中核アーティスト。',
     },
     style: {
-      en: 'Modern uplifting trance with progressive-house arrangement leanings — melodic-emphasis breakdowns, Armada-Captivating-Sounds-aligned production polish, and the kind of peak-time structural craft that placed his 2010s output on the ASOT main stage and Armada Captivating Sounds editorial roster.',
-      ja: 'プログレッシブ・ハウス的なアレンジメント傾向を持つ現代アップリフティング・トランス——メロディック重視のブレイクダウン、Armada Captivating Sounds系のプロダクション洗練、そして彼の2010年代の出力をASOTメインステージとArmada Captivating Sounds編集ロースターに位置づけたピークタイム構造クラフト。',
+      en: 'Modern uplifting trance with progressive-house arrangement leanings — melodic-emphasis breakdowns, the Armada / Coldharbour-aligned production polish that defined the 2012–2014 ASOT mainline, and a mid-2010s shift toward more vocal-led, progressive-leaning material as the broader Armada catalogue moved in the same direction.',
+      ja: 'プログレッシブ・ハウス的なアレンジメント傾向を持つ現代アップリフティング・トランス——メロディック重視のブレイクダウン、2012〜2014年のASOTメインラインを定義したArmada／Coldharbour系プロダクション洗練、そしてArmadaカタログ全体が同じ方向へと動く中で、2010年代半ばによりヴォーカル主導でプログレッシブ寄りの素材へのシフト。',
     },
     bio: {
-      en: `Omnia, real name Evgeny Smirnov, is a Ukrainian DJ and producer from Donetsk, born in 1987. His productions began gaining international traction in 2011 with early support from Armin van Buuren and Markus Schulz, and his 2014 release "The Fusion" reached #1 on the Beatport Trance chart and remained inside the chart's top fifty for over six months — one of the defining trance singles of the year.
+      en: `Omnia is the recording name of Ukrainian DJ and producer Evgeny Smirnov, born 18 May 1987 in Donetsk. He began producing in 2006 at the age of nineteen and by the end of that decade his tracks and remixes were already being played out by Armin van Buuren, Markus Schulz and Above & Beyond. He signed to Armada Music and the affiliated Coldharbour Recordings, and his trajectory through the early 2010s placed him at the centre of the Armada-Coldharbour editorial axis that defined a substantial portion of the ASOT main-stage repertoire across the 2012–2014 period.
 
-His catalogue is anchored at Armada Music, with releases also flowing through Armada Captivating Sounds and the A State of Trance imprint, and his live schedule has placed him on Tomorrowland, Ultra Music Festival, and ASOT main-stage line-ups. He has also appeared twice in the DJ Mag Top 100 DJs poll across the mid-2010s.`,
-      ja: `Omnia（本名Evgeny Smirnov）はドネツク出身のウクライナのDJ／プロデューサー。1987年生まれ。プロダクションは2011年にArmin van BuurenとMarkus Schulzの早期サポートを得て国際的に注目を集め始め、2014年のリリース「The Fusion」はBeatport Trance チャート1位に到達、6か月以上にわたってチャート上位50位以内にとどまった——その年を代表するトランス・シングルの一つ。
+The catalogue's first peak ran through three Coldharbour anchors. "Infina" (2012) was the breakthrough solo single; "The Fusion" with IRA followed in March 2012 on Coldharbour Recordings and became one of the year's most-played anthems in the Coldharbour / ASOT circuit; "The Light" arrived in March 2013 on Coldharbour and pushed the project further into the upper Beatport Trance chart positions. Armada then anchored the next phase — "Halo" (2013) featuring Melissa Loretta and "For The First Time" (2014) featuring Tilde signalled the deliberate shift toward vocal-led, progressive-leaning material that mirrored the broader Armada catalogue's direction during the mid-2010s. He entered the DJ Mag Top 100 DJs poll at #58 in 2012 — the first Ukrainian DJ ever to do so — and rose to #48 in 2013, with further appearances across the mid-2010s.
 
-カタログはArmada Musicに本拠を置き、Armada Captivating SoundsおよびA State of Tranceインプリントからもリリース。ライブ・スケジュールはTomorrowland、Ultra Music Festival、ASOTメインステージのラインナップに彼を位置づけてきた。2010年代半ばにはDJ Mag Top 100 DJs投票にも2度ランクインしている。`,
+Within the trance ecosystem Omnia sits in the Armada-Coldharbour uplifting / progressive crossover wing — the lane that runs through Andrew Rayel and parallel-track Coldharbour-aligned producers including KhoMha. His sets across Tomorrowland, Ultra, and ASOT main-stage line-ups across the 2010s carried him well past the regional-DJ category his Donetsk origin might have suggested, and the back catalogue has continued to circulate widely through ASOT editions and the Armada / Coldharbour radio-show ecosystem in the years since.
+
+Operator's note. For the operator who came up on weekly ASOT, "The Fusion" and "Infina" are part of the 2012–2014 ASOT register that defined what uplifting trance sounded like at peak — euphoric breakdowns, generous lead lines, the kind of production polish that the Coldharbour editorial direction was rewarding at the time. Omnia's mid-2010s shift toward vocal-progressive material is the same shift the operator's weekly ASOT listening tracked across the same period — Armada moving outward, the genre's centre of gravity drifting with it — and Omnia is one of the cleanest case studies of how a producer rode that transition without losing the original audience.`,
+      ja: `Omniaはウクライナのドネツク出身のDJ／プロデューサー、Evgeny Smirnovのレコーディング名義。1987年5月18日生まれ。19歳の2006年にプロデュースを始め、2010年代初頭までにはトラックおよびリミックスがArmin van Buuren、Markus Schulz、Above & Beyondらによって既に頻繁にプレイされていた。Armada Musicおよび関連レーベルColdharbour Recordingsと契約し、2010年代初頭の軌跡は彼を、2012〜2014年期のASOTメインステージ・レパートリーの相当部分を定義したArmada-Coldharbour編集軸の中心へと位置づけた。
+
+カタログの最初のピークは3つのColdharbourアンカーを通って走った。「Infina」（2012）がブレイクスルーのソロ・シングル；IRAとの共作「The Fusion」は2012年3月にColdharbour Recordingsから登場し、Coldharbour／ASOTサーキットでその年最もプレイされたアンセムの一つとなった；「The Light」は2013年3月にColdharbourから到着し、プロジェクトをさらにBeatport Trance チャートの上位ポジションへと押し上げた。次にArmadaが続く局面を支えた——「Halo」（2013、Melissa Loretta参加）と「For The First Time」（2014、Tilde参加）が、2010年代半ばのArmadaカタログ全体の方向性を反映した、ヴォーカル主導でプログレッシブ寄りの素材への意図的なシフトを告げた。DJ Mag Top 100 DJs投票には2012年に58位で初登場——史上初のウクライナ人DJとして——、2013年には48位に上昇、2010年代半ばを通じてさらにランクインを続けた。
+
+トランス・エコシステム内において、OmniaはArmada-Coldharbourアップリフティング／プログレッシブ・クロスオーバー側面——Andrew Rayel、そしてKhoMhaを含む並列軌道のColdharbour整列プロデューサーを貫くレーン——に位置する。2010年代を通じてのTomorrowland、Ultra、ASOTメインステージのセットは、彼のドネツク出身が示唆しえた地域DJのカテゴリーをはるかに超えて運び、バック・カタログは以降の年月にわたってASOTエディションおよびArmada／Coldharbourラジオショウ・エコシステムを通じて広く流通し続けている。
+
+オペレーター・ノート：毎週ASOTで育ったオペレーターにとって、「The Fusion」と「Infina」はピーク期のアップリフティング・トランスがどう響いたかを定義した2012〜2014年ASOTレジスターの一部だ——ユーフォリックなブレイクダウン、寛大なリード・ライン、当時Coldharbour編集方針が評価していたタイプのプロダクション洗練。Omniaの2010年代半ばのヴォーカル・プログレッシブ素材へのシフトは、オペレーターの毎週ASOTリスニングが同じ時期に追跡した同じシフトだ——Armadaが外側へと動き、ジャンルの重心がそれとともに漂流していった——そしてOmniaは元のオーディエンスを失わずにその移行を乗り切ったプロデューサーの最もクリーンなケース・スタディの一つである。`,
     },
-    mentionedIn: [],
+    mentionedIn: ['what-is-uplifting-trance', 'best-uplifting-trance-tracks-of-all-time-50', 'iconic-trance-anthems-that-defined-an-era', 'top-trance-tracks-2010s', 'art-of-trance-buildup-production-secrets'],
   },
 ];
