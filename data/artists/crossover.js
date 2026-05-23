@@ -15,36 +15,50 @@ export const crossover = [
     genre: 'PROGRESSIVE',
     banner: 'b-progressive',
     tags: ['PROGRESSIVE', 'UPLIFTING', 'DUTCH', 'ARMADA'],
-    realName: 'Mark van der Velden',
+    realName: 'Mark Frederik Sixma',
     origin: 'Breda, Netherlands',
-    activeFrom: '2007',
-    labels: ['Armada Music', 'A State of Trance', 'Mainstage Music', 'Anjunabeats'],
+    born: '1983',
+    activeFrom: '2008',
+    labels: ['Armada Music', 'A State of Trance', 'Captivating Sounds (Armada)', 'Armind (Armada)', 'Mainstage Music', 'Revealed Recordings', 'Black Hole Recordings'],
     topWorks: [
-      { title: 'You Got To Believe', year: 2014, type: 'track' },
-      { title: 'Bring The Fire', year: 2026, type: 'track' },
+      { title: 'Fade 2 Black (as Mark Sixma presents M6)', year: 2008, type: 'track (Captivating Sounds)' },
+      { title: 'Requiem', year: 2013, type: 'track' },
+      { title: 'Chased (with Andrew Rayel)', year: 2015, type: 'track' },
+      { title: 'Panta Rhei (with Armin van Buuren)', year: 2015, type: 'track' },
+      { title: 'Sinfonia', year: 2018, type: 'track' },
+      { title: 'Bring The Fire', year: 2026, type: 'track (ASOT 2026 Energy mix)' },
     ],
-    related: ['armin-van-buuren', 'andrew-rayel', 'ruben-de-ronde', 'cosmic-gate'],
+    related: ['armin-van-buuren', 'andrew-rayel', 'ruben-de-ronde', 'cosmic-gate', 'orjan-nilsen'],
     links: {
-      beatport: 'https://www.beatport.com/search?q=Mark+Sixma',
+      website: 'https://www.marksixma.com',
+      beatport: 'https://www.beatport.com/artist/mark-sixma/90431',
     },
     sub: { en: 'Progressive / Mainstage Trance', ja: 'プログレッシブ / メインステージ・トランス' },
     short: {
-      en: 'Dutch producer in the modern Armada Music ecosystem, working between progressive trance and peak-time mainstage uplifting.',
-      ja: '現代のArmada Musicエコシステムで、プログレッシブ・トランスとピークタイムのメインステージ・アップリフティングの間で活動するオランダのプロデューサー。',
+      en: 'Breda-born Dutch trance producer (b. 1983), classically piano-trained, originally signed to Armada Music via his 2008 M6-alias debut "Fade 2 Black" and known for "Requiem" (2013), "Chased" with Andrew Rayel (2015) and "Panta Rhei" with Armin van Buuren (2015).',
+      ja: 'ブレダ出身のオランダのトランス・プロデューサー（1983年生まれ）。クラシック・ピアノで訓練を受け、2008年のM6名義デビュー作「Fade 2 Black」を経てArmada Musicと契約。「Requiem」（2013）、Andrew Rayelとの「Chased」（2015）、Armin van Buurenとの「Panta Rhei」（2015）で知られる。',
     },
     style: {
-      en: 'Mainstage-scale progressive trance — driving four-on-the-floor with melodic-uplifting structure, festival-grade arrangement, and the kind of peak-time energy the Armada modern roster is built around.',
-      ja: 'メインステージ規模のプログレッシブ・トランス——メロディック・アップリフティング構造を持つドライヴィングな四つ打ち、フェスティバル級のアレンジメント、Armada現代ロースターが軸とするピークタイム・エネルギー。',
+      en: 'Mainstage-scale progressive trance — driving four-on-the-floor with melodic-uplifting structure, festival-grade arrangement, and the kind of peak-time energy the Armada modern roster is built around. Classical-piano-trained melodic instincts surface across the catalogue.',
+      ja: 'メインステージ規模のプログレッシブ・トランス——メロディック・アップリフティング構造を持つドライヴィングな四つ打ち、フェスティバル級のアレンジメント、Armada現代ロースターが軸とするピークタイム・エネルギー。クラシック・ピアノで訓練を受けたメロディック本能がカタログ全体に現れる。',
     },
     bio: {
-      en: `Mark Sixma is a Dutch DJ/producer, real name Mark van der Velden, who has been releasing on Armada Music since the late 2000s. His catalogue sits between progressive trance and mainstage uplifting, with releases including "You Got To Believe" (2014) and a steady stream of singles and remixes through Armada and the A State of Trance imprint.
+      en: `Mark Sixma, born Mark Frederik Sixma on 23 February 1983 in Breda, Netherlands, is a Dutch trance and house producer who studied classical piano as a child and built his initial reputation under the alias M6 in the late 2000s. The 2008 release "Fade 2 Black" — on Armada's Captivating Sounds sub-label and credited to "Mark Sixma presents M6" — earned A State of Trance Tune of the Week and led to his Armada signing, after which he progressively shifted his primary output to the Mark Sixma name.
 
-His 2026 release "Bring The Fire" appears on the Energy mix of the A State of Trance 2026 compilation alongside Armin van Buuren and Lilly Palmer's "Dopamine Machine" — a placement covered in our February and May 2026 monthly chart articles. The track sits in the peak-time festival anthem template that has anchored Sixma's catalogue across the past five years.`,
-      ja: `マーク・シックスマはオランダのDJ／プロデューサー、本名Mark van der Velden。2000年代末からArmada Musicでリリースを続けている。カタログはプログレッシブ・トランスとメインステージ・アップリフティングの間に位置し、「You Got To Believe」（2014）を含むリリース、ArmadaおよびA State of Tranceインプリントからのシングルおよびリミックスを安定して投下してきた。
+His catalogue peaked in the mid-2010s with the tracks that still define him: "Requiem" (2013) — described in the genre press as the most-played trance track of 2013 — followed by "Adagio for Strings" (2014), the Andrew Rayel collaboration "Chased" (2015), and "Panta Rhei" with Armin van Buuren (2015). Later signatures include "Sinfonia" (2018) and "X" (2019), and he has remained an in-rotation Armada artist across both A State of Trance programming and the wider Armada singles calendar. Beyond Armada he has released through Mainstage Music (W&amp;W's label), Revealed Recordings (Hardwell's imprint), and Black Hole Recordings, and his collaborator network spans Armin van Buuren, Andrew Rayel, W&amp;W, Faruk Sabanci and Ferry Corsten.
 
-2026年リリースの「Bring The Fire」はA State of Trance 2026コンピレーションのEnergyミックスに、Armin van BuurenおよびLilly Palmerの「Dopamine Machine」と並んで収録——本誌の2026年2月および5月の月間チャート記事で扱った配置だ。トラックは過去5年でシックスマのカタログを錨を下ろしてきたピークタイム・フェスティバル・アンセム・テンプレートに位置する。`,
+His 2026 output continues at that pace. "Bring The Fire" is track 41 on the A State of Trance 2026 compilation (released 8 May 2026), sitting at 148 BPM in E Major in the Energy mix — and the "Bring Back The Techno" collaboration with Ørjan Nilsen and Nilsix arrived on Armind earlier in the year. Both releases place him alongside the producers who define the Armada modern direction more than eighteen years after the M6-era debut.
+
+Operator's note. Sixma is one of the producers whose Armada output sits in the specific zone where progressive trance touches the harder, faster mainstage register — 145-148 BPM, melodic hook still doing the emotional work but the rhythm section carrying real festival weight. The personal hook for me is that his classical-piano background shows up audibly: even on the harder tracks the melodic lines resolve like a piano piece — they go somewhere and then settle — rather than the modern habit of looping a four-bar lead until the drop arrives.`,
+      ja: `マーク・シックスマ、本名Mark Frederik Sixma、1983年2月23日オランダ・ブレダ生まれ。幼少期にクラシック・ピアノを学んだオランダのトランス／ハウス・プロデューサーで、2000年代末にエイリアスM6名義で初期評判を築いた。2008年リリース「Fade 2 Black」——ArmadaのCaptivating SoundsサブレーベルからのMark Sixma presents M6名義——がA State of TranceのTune of the Weekを獲得、Armadaとの契約に繋がり、その後主要アウトプットを徐々にMark Sixma名義へとシフトした。
+
+カタログは2010年代半ばにピークを迎え、現在も彼を定義するトラックを残した：「Requiem」（2013）——ジャンル誌に2013年に最もプレイされたトランス・トラックと評された作品——に続いて「Adagio for Strings」（2014）、Andrew Rayelとの共作「Chased」（2015）、そしてArmin van Buurenとの「Panta Rhei」（2015）。後期のシグネチャー作品には「Sinfonia」（2018）と「X」（2019）が含まれ、A State of Tranceのプログラミングと広いArmadaシングル・カレンダーの両方でローテーション内のArmadaアーティストとして残り続けてきた。Armadaの外では、Mainstage Music（W&amp;Wのレーベル）、Revealed Recordings（Hardwellのインプリント）、Black Hole Recordingsからもリリースを持ち、コラボレーター・ネットワークはArmin van Buuren、Andrew Rayel、W&amp;W、Faruk Sabanci、Ferry Corstenにまたがる。
+
+2026年のアウトプットもそのペースを継続している。「Bring The Fire」はA State of Trance 2026コンピレーション（2026年5月8日リリース）のトラック41として、Energyミックス内にE Majorの148 BPMで位置している——加えてØrjan NilsenとNilsixとの共作「Bring Back The Techno」が同年早期にArmindから登場した。両リリースはM6期のデビューから18年以上を経てArmada現代方針を定義するプロデューサー陣に彼を並置するものだ。
+
+オペレーター・ノート：シックスマは、Armadaアウトプットがプログレッシブ・トランスがよりハードでより速いメインステージ・レジスターに触れる特定のゾーン——145〜148 BPM、メロディック・フックが依然として感情的仕事を担いつつリズム・セクションがリアルなフェスティバル重量を運ぶゾーン——に位置するプロデューサーの一人。個人的なフックは、クラシック・ピアノのバックグラウンドが音響的に現れていること：ハードなトラックでも、メロディック・ラインがドロップが到来するまで4小節リードをループさせる現代の習慣ではなく、ピアノ曲のように解決する——どこかに行ってから落ち着く——こと。`,
     },
-    mentionedIn: ['best-trance-tracks-february-2026', 'best-trance-tracks-may-2026'],
+    mentionedIn: ['best-trance-tracks-february-2026', 'best-trance-tracks-may-2026', 'a-state-of-trance-show-that-changed-everything', 'what-is-progressive-trance'],
   },
 
   {
