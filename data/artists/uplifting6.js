@@ -187,35 +187,47 @@ For the operator who started listening to ASOT in 2018, this is the inverse phen
     name: 'Laura van Dam',
     flag: '🇳🇱',
     emoji: '✨',
-    genre: 'UPLIFTING',
-    banner: 'b-uplifting',
-    tags: ['UPLIFTING', 'VOCAL TRANCE', 'DUTCH', 'ARMADA'],
+    genre: 'PROGRESSIVE',
+    banner: 'b-progressive',
+    tags: ['PROGRESSIVE', 'MELODIC TECHNO', 'TRANCE', 'DUTCH', 'ARMADA', 'ANJUNABEATS'],
     realName: 'Laura van Dam',
-    origin: 'Netherlands',
+    origin: 'Amsterdam, Netherlands',
     activeFrom: '2017',
-    labels: ['Armada Music', 'Armada Captivating Sounds', 'A State of Trance'],
-    topWorks: [],
-    related: ['armin-van-buuren', 'ruben-de-ronde', 'standerwick', 'haliene'],
+    labels: ['Anjunabeats', 'Armada Music', 'AFTR:HRS', 'Enhanced Music', 'ZeroThree (Toolroom)', 'Epic247', 'Smash Deep', 'Protocol Recordings', 'DOORN Records'],
+    topWorks: [
+      { title: 'More Love', type: 'track' },
+      { title: 'Dawn', year: 2023, type: 'track' },
+      { title: 'Blow Up The Speakers', year: 2023, type: 'track' },
+      { title: 'This Feeling', year: 2024, type: 'track' },
+      { title: 'How Does It Feel', year: 2024, type: 'track' },
+    ],
+    related: ['armin-van-buuren', 'above-and-beyond', 'yotto', 'miss-monique', 'tinlicker', 'cristoph'],
     links: {
-      beatport: 'https://www.beatport.com/search?q=Laura+van+Dam',
+      website: 'https://lauravandam.nl/',
+      beatport: 'https://www.beatport.com/artist/laura-van-dam/820925',
+      soundcloud: 'https://soundcloud.com/lauravandamofficial',
     },
-    sub: { en: 'Vocal Uplifting Trance', ja: 'ボーカル・アップリフティング・トランス' },
+    sub: { en: 'Progressive / Melodic Crossover', ja: 'プログレッシブ / メロディック・クロスオーバー' },
     short: {
-      en: 'Dutch DJ/producer in the Armada family, with releases through Armada Captivating Sounds and inclusion on the ASOT Year Mix 2025.',
-      ja: 'Armadaファミリーに連なるオランダのDJ／プロデューサー。Armada Captivating Soundsからリリースし、ASOT Year Mix 2025に収録された。',
+      en: 'Amsterdam-based Dutch DJ/producer working at the progressive house / melodic techno / trance crossover edge — released through Anjunabeats, Armada, AFTR:HRS, Enhanced, and Smash Deep, and main-support DJ for Armin van Buuren and Above & Beyond.',
+      ja: 'プログレッシブ・ハウス／メロディック・テクノ／トランス・クロスオーバーの境界で活動するアムステルダム拠点のオランダ人DJ／プロデューサー。Anjunabeats、Armada、AFTR:HRS、Enhanced、Smash Deepからリリースし、Armin van BuurenおよびAbove & Beyondのメイン・サポートDJを務める。',
     },
     style: {
-      en: 'Modern Armada-aligned vocal uplifting — melodic, song-led, with the polished production sensibility that the Captivating Sounds editorial direction has refined across recent years.',
-      ja: '現代のArmada系ボーカル・アップリフティング——メロディックで楽曲主導、Captivating Soundsの編集方針が近年洗練してきた洗練されたプロダクション感性。',
+      en: 'Progressive house, melodic techno and trance folded into a single set DNA — deep, driving rhythm sections with melodic-trance breakdown architecture, the polished song-led arrangement craft that the Anjunabeats and Armada editorial directions have refined across the late 2010s and 2020s.',
+      ja: 'プログレッシブ・ハウス、メロディック・テクノ、トランスを単一のセットDNAに折り込む——メロディック・トランスのブレイクダウン建築を持つ深くドライヴィングなリズム・セクション、Anjunabeatsおよび Armadaの編集方針が2010年代後半〜2020年代に洗練してきた楽曲主導の洗練されたアレンジメント・クラフト。',
     },
     bio: {
-      en: `Laura van Dam is a Dutch DJ and producer in the Armada Music family, releasing through Armada Captivating Sounds and the broader Armada / A State of Trance editorial direction. Her work was included on the A State of Trance Year Mix 2025, placing her among the producers Armin van Buuren highlighted in the year-end retrospective alongside the broader Armada modern uplifting roster.
+      en: `Laura van Dam is a Dutch DJ and producer based in Amsterdam, working at the progressive house / melodic techno / trance crossover edge. She fell in love with electronic music at the age of twelve, and her music career broke open at seventeen when she won a DJ contest at the Blue Marlin Ibiza. She graduated in Electronic Music Production and studied Audio Engineering at the SAE Institute in Amsterdam — a formal-training background that distinguishes her from much of the festival-name peer group.
 
-The catalogue sits in the modern vocal-uplifting register — melodic, song-led, polished production — and is part of the steady late-2010s / early-2020s expansion of the female DJ/producer pool that Captivating Sounds has supported within the wider Armada portfolio.`,
-      ja: `ローラ・ヴァン・ダムはArmada Musicファミリーに連なるオランダのDJ／プロデューサー。Armada Captivating Soundsおよびより広いArmada／A State of Trance編集方針のもとリリースを行う。A State of Trance Year Mix 2025に作品が収録され、年末レトロスペクティブでArmin van Buurenがハイライトしたプロデューサー陣——より広いArmada現代アップリフティング・ロースター——の一人として位置づけられた。
+Her releases are spread across an unusually broad label set for an artist in her career bracket: Above & Beyond's Anjunabeats, Armada Music, Tiësto's AFTR:HRS, Enhanced Music, Toolroom's ZeroThree progressive imprint, Epic247 Recordings, Dimitri Vegas & Like Mike's Smash Deep, Nicky Romero's Protocol Recordings, and Sander van Doorn's DOORN Records. Catalogue highlights include her Smash Deep debut "More Love", her 2023 AFTR:HRS debut "Dawn", "Blow Up The Speakers" on Epic247 closing out the same year, and the 2024 Enhanced singles "This Feeling" and "How Does It Feel". She hosts the weekly Capture Radio podcast / radio show, which airs on SLAM in the Netherlands and blends trance, techno and progressive house across each episode.
 
-カタログは現代のボーカル・アップリフティング・レジスター——メロディックで楽曲主導、洗練されたプロダクション——に位置し、Captivating Soundsがより広いArmadaポートフォリオ内でサポートしてきた女性DJ／プロデューサー陣の2010年代後半／2020年代初頭の安定した拡大の一部となっている。`,
+Within the trance ecosystem Laura van Dam sits at the modern crossover edge — closer to the progressive/melodic-techno school of Anjunabeats and the Armada modern roster than to the FSOE 138 uplifting mainline, but with an explicit trance influence that has placed her on main-support slots for Armin van Buuren and Above & Beyond and on bookings at Tomorrowland, Ultra, EDC, Sziget, Red Rocks, Brooklyn Mirage and Ushuaïa Ibiza. 1001Tracklists labelled her "The Future of Dance" — a tag that maps onto the broader 2020s emergence of female progressive / melodic-trance producers reshaping the converged festival mainstage.`,
+      ja: `ローラ・ヴァン・ダムはアムステルダムを拠点とするオランダのDJ／プロデューサーで、プログレッシブ・ハウス／メロディック・テクノ／トランス・クロスオーバーの境界で活動する。12歳でエレクトロニック・ミュージックに惹かれ、17歳でBlue Marlin IbizaのDJコンテストに優勝して音楽キャリアが本格化した。アムステルダムのSAE InstituteでElectronic Music Productionの学位を取得し、Audio Engineeringも学んだ——フェスティバル・ネーム系の同世代の多くから彼女を際立たせる正規教育の経歴である。
+
+リリースは彼女のキャリア・ブラケットのアーティストにしては異例に広範なレーベル群に広がる：Above & BeyondのAnjunabeats、Armada Music、TiëstoのAFTR:HRS、Enhanced Music、ToolroomのプログレッシブインプリントZeroThree、Epic247 Recordings、Dimitri Vegas & Like MikeのSmash Deep、Nicky RomeroのProtocol Recordings、Sander van DoornのDOORN Records。カタログのハイライトにはSmash Deepデビュー作「More Love」、2023年のAFTR:HRSデビュー作「Dawn」、同年末のEpic247からの「Blow Up The Speakers」、2024年のEnhancedシングル「This Feeling」「How Does It Feel」が含まれる。週次ポッドキャスト／ラジオショー「Capture Radio」をホストし、オランダのSLAMで放送され、各エピソードでトランス、テクノ、プログレッシブ・ハウスをブレンドしている。
+
+トランス・エコシステム内において、ローラ・ヴァン・ダムは現代クロスオーバーの境界——FSOEの138アップリフティング・メインラインよりはAnjunabeatsのプログレッシブ／メロディック・テクノ派およびArmada現代ロースターに近いが、明示的なトランスの影響を持つ——に位置する。これが彼女をArmin van BuurenおよびAbove & Beyondのメイン・サポート・スロット、そしてTomorrowland、Ultra、EDC、Sziget、Red Rocks、Brooklyn Mirage、Ushuaïa Ibizaのブッキングに位置づけてきた。1001Tracklistsは「The Future of Dance」というタグを付与した——収束したフェスティバル・メインステージを再形成する女性プログレッシブ／メロディック・トランス・プロデューサーの2020年代の出現というより広い文脈にマッピングされるタグである。`,
     },
-    mentionedIn: [],
+    mentionedIn: ['female-djs-reshaping-trance-scene', 'top-10-female-trance-djs-2026', 'new-generation-trance-artists-to-watch-2026', 'modern-trance-classics-2020s-so-far', 'women-in-trance-pioneers-modern-stars'],
   },
 ];
