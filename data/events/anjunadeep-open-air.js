@@ -2,9 +2,10 @@
 // arena/touring shows, programmed around the deeper / progressive /
 // melodic-techno-adjacent Anjunadeep roster (Lane 8, Yotto, Ben
 // Böhmer, Tinlicker, James Grant & Jody Wisternoff). The London
-// edition launched at The Drumsheds in 2021 and has subsequently
-// rotated outdoor venues — Finsbury Park (2023, 2024) and the Old
-// Royal Naval College Greenwich (2025).
+// edition debuted at Three Mills Island in August 2018, returned to
+// the same venue in 2019, and after the covid pause has rotated
+// outdoor venues — The Drumsheds (2021), Finsbury Park (2023, 2024)
+// and the Old Royal Naval College, Greenwich (2025).
 
 const anjunadeepOpenAir = {
   slug: 'anjunadeep-open-air',
@@ -43,7 +44,8 @@ const anjunadeepOpenAir = {
     { year: 2024, dates: 'August 4', note: 'Finsbury Park — Above & Beyond, CRi, Eli & Fur, James Grant & Jody Wisternoff' },
     { year: 2023, dates: 'August 13', note: 'Finsbury Park' },
     { year: 2021, note: 'The Drumsheds — post-covid restart edition' },
-    { year: 2018, note: 'First Anjunadeep Open Air London' },
+    { year: 2019, dates: 'August 11', note: 'Three Mills Island — second edition' },
+    { year: 2018, dates: 'August 12', note: 'Three Mills Island — first Anjunadeep Open Air London' },
   ],
 
   official_url: 'https://anjunadeep.com/events/open-air-london',
@@ -52,11 +54,11 @@ const anjunadeepOpenAir = {
 
   en: {
     description:
-      "Anjunadeep Open Air is the Anjunadeep label's flagship outdoor event series, programmed around the deeper / progressive / melodic-techno-adjacent Anjunadeep roster — Lane 8, Yotto, Ben Böhmer, Tinlicker, James Grant & Jody Wisternoff. The London edition launched at The Drumsheds in 2021 and has since rotated outdoor venues — Finsbury Park in 2023 and 2024 (Above & Beyond, CRi, Eli & Fur, JGJW), then the Old Royal Naval College in Greenwich for the 2025 edition. New York and other international editions are staged at outdoor amphitheatre and pier locations. The events sit at the intersection of progressive trance and melodic techno that defines the modern Anjunadeep sound.",
+      "Anjunadeep Open Air is the Anjunadeep label's flagship outdoor event series, programmed around the deeper / progressive / melodic-techno-adjacent Anjunadeep roster — Lane 8, Yotto, Ben Böhmer, Tinlicker, James Grant & Jody Wisternoff. The London edition debuted at Three Mills Island in August 2018 and returned to the same venue in 2019; after the covid pause it restarted at The Drumsheds in 2021 and has since rotated outdoor venues — Finsbury Park in 2023 and 2024 (Above & Beyond, CRi, Eli & Fur, JGJW), then the Old Royal Naval College in Greenwich for the 2025 edition. New York and other international editions are staged at outdoor amphitheatre and pier locations. The events sit at the intersection of progressive trance and melodic techno that defines the modern Anjunadeep sound.",
   },
   ja: {
     description:
-      'Anjunadeep Open AirはAnjunadeepレーベルの旗艦野外イベント・シリーズで、よりディープ／プログレッシブ／メロディック・テクノ隣接のAnjunadeepロスター——Lane 8、Yotto、Ben Böhmer、Tinlicker、James Grant & Jody Wisternoff——を中心にプログラムされる。ロンドン版は2021年にThe Drumshedsで始動し、その後野外会場をローテーション——2023年と2024年はFinsbury Park（Above & Beyond、CRi、Eli & Fur、JGJW）、2025年はGreenwichのOld Royal Naval Collegeへ。ニューヨーク版その他国際エディションは野外アンフィシアターとピア立地で開催される。イベントは現代Anjunadeepサウンドを定義するプログレッシブ・トランスとメロディック・テクノの交差点に位置する。',
+      'Anjunadeep Open AirはAnjunadeepレーベルの旗艦野外イベント・シリーズで、よりディープ／プログレッシブ／メロディック・テクノ隣接のAnjunadeepロスター——Lane 8、Yotto、Ben Böhmer、Tinlicker、James Grant & Jody Wisternoff——を中心にプログラムされる。ロンドン版は2018年8月にThree Mills Islandでデビューし、2019年も同会場で開催。コロナ禍を経て2021年にThe Drumshedsで再始動し、その後野外会場をローテーション——2023年と2024年はFinsbury Park（Above & Beyond、CRi、Eli & Fur、JGJW）、2025年はGreenwichのOld Royal Naval Collegeへ。ニューヨーク版その他国際エディションは野外アンフィシアターとピア立地で開催される。イベントは現代Anjunadeepサウンドを定義するプログレッシブ・トランスとメロディック・テクノの交差点に位置する。',
   },
 };
 
