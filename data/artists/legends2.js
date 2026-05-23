@@ -73,18 +73,20 @@ Operator's note. Most producer's-producer reputations are abstract — you have 
     banner: 'b-progressive',
     tags: ['DREAM TRANCE', 'CLASSIC', 'LEGEND'],
     realName: 'Roberto Concina',
-    origin: 'Fleurier, Switzerland (raised in Friuli, Italy)',
+    origin: 'Fleurier, Switzerland (raised in Fagagna, Italy)',
     born: '1969',
     activeFrom: '1994',
-    labels: ['DBX Records', 'Deconstruction', 'Salt Records'],
+    labels: ['DBX Records', 'Platipus Records', 'Deconstruction', 'S:alt Records'],
     topWorks: [
       { title: 'Children', year: 1995, type: 'track' },
       { title: 'Dreamland', year: 1996, type: 'album' },
       { title: 'Fable', year: 1996, type: 'track' },
+      { title: 'One and One (with Maria Nayler)', year: 1996, type: 'track' },
       { title: '23am', year: 1997, type: 'album' },
       { title: 'Organik', year: 2001, type: 'album' },
+      { title: 'Thirteen', year: 2011, type: 'album' },
     ],
-    related: ['atb', 'paul-van-dyk', 'tiesto', 'ferry-corsten'],
+    related: ['atb', 'paul-van-dyk', 'tiesto', 'ferry-corsten', 'gigi-dagostino', 'bt'],
     links: {
       spotify: 'https://open.spotify.com/artist/2YVF0Ou5zIc4mpgtLIlGN0',
       beatport: 'https://www.beatport.com/search?q=Robert+Miles',
@@ -99,14 +101,22 @@ Operator's note. Most producer's-producer reputations are abstract — you have 
       ja: 'メランコリックなピアノ・リードを暖かい4つ打ちグルーヴに乗せた——ドリーム・トランスの原型的テンプレート。後年はアンビエント、ワールドミュージック、エレクトロニカへと移行した。',
     },
     bio: {
-      en: `Roberto Concina — born in Switzerland in 1969 and raised in Friuli, northern Italy — created one of the most recognisable instrumental records in electronic music history with "Children" in 1995. The track was reportedly written as a "calming" mix to slow down crowds at the end of nights at Italian raves, where car accidents on the drive home had become a serious concern. It became a global #1, sold over five million copies, and effectively invented the "dream trance" subgenre.
+      en: `Roberto Concina — known to the world as Robert Miles — was born on 3 November 1969 in Fleurier, Switzerland to Italian parents, and moved as a young boy to Fagagna, a small town in the Friuli region of northern Italy roughly 100 km from Venice. He worked the late-1980s Italian club circuit as a DJ before turning to production, and the track that defined his career began life in 1993 in his home studio: a piano-led, slow-tempo instrumental designed for the very specific job of ending DJ sets.
 
-His debut album Dreamland (1996) sold over twelve million copies; the follow-up 23am (1997) and the more experimental Organik (2001) showed an artist increasingly interested in ambient, world, and live-instrument production. Miles spent his later years running the OpenLab radio station in Ibiza and championing experimental electronic music. He died in 2017, but "Children" remains a permanent fixture of trance retrospectives.`,
-      ja: `ロベルト・コンチーナ——1969年スイス生まれ、イタリア北部フリウリ育ち——は1995年の「Children」で電子音楽史上最も認知度の高いインストゥルメンタル作品の一つを生み出した。同曲はイタリアのレイブで夜明けの帰宅時の事故が深刻化していたことを受け、聴衆を鎮める目的で書かれたと言われる。世界1位を獲得、500万枚以上を売り上げ、事実上「ドリーム・トランス」というサブジャンルを発明した。
+"Children" was first released in January 1995 in Italy on Joe T. Vanelli's DBX label as part of the four-track Soundtracks EP — an initial pressing that moved only around 3,000 copies. Through Vanelli, Simon Berry of UK label Platipus Records heard the track in Miami and picked it up; Platipus issued the international 12-inch in November 1995, and the licence then passed to Deconstruction for the major-label release that hit #1 across more than a dozen countries in early 1996 and sold over five million copies worldwide. The debut album Dreamland (1996) — including "Fable" and the Maria Nayler vocal "One and One" — went on to global platinum status, and effectively founded the "dream trance" subgenre.
 
-デビューアルバム『Dreamland』（1996）は1200万枚以上を売り上げ、続く『23am』（1997）と実験色の強い『Organik』（2001）はアンビエント、ワールド、生楽器演奏への関心の深まりを示した。後年はイビザでラジオ局OpenLabを運営し実験的電子音楽を支援。2017年に逝去したが「Children」は今もトランス回顧展の不動の名曲である。`,
+Miles was explicit in interviews about the origin story. He pointed to two inspirations: photographs of child victims of the Balkans war his father brought back from an aid mission in Yugoslavia, and what Italian press called the strage di sabato sera — the regular weekend death toll of young clubbers driving home from Italian raves. "Children" was designed as a closing record to bring crowds down before the drive home. After Dreamland he moved away from the chart-pop frame: 23am (1997) opened the catalogue toward live instruments and worldier textures, Organik (2001) was an ambient/world-influenced album with Bill Laswell among the collaborators, and his final solo record Thirteen (2011) came out on his own S:alt imprint as a blend of ambient electronics, alternative rock, and progressive-rock instrumentation. From 2013 he ran OpenLab.fm, an Ibiza-based radio station and arts platform dedicated to ambient, IDM, and experimental electronic music. He died of stage-four metastatic cancer in Ibiza on 9 May 2017, aged 47.
+
+Operator's note. The operator came into trance via Armin's Tomorrowland 2018 mainstage, so the dream-trance lineage gets approached backwards — through later uplifting that quietly cites it. What "Children" still does in 2026 that almost nothing else in the catalogue does is hand the entire emotional weight of the track to a single melancholic piano line over a slow 4/4, with no drop in the modern sense and no vocal. Drop it into a Sun & Moon-era ASOT rebroadcast and the piano-as-lead instinct that runs through twenty years of trance breakdowns suddenly has a single visible source. Miles' later move to S:alt and OpenLab makes more sense from this end too — once the trick has been done, repeating it would have cheapened it, so he stopped.`,
+      ja: `ロベルト・コンチーナ——世界中でロバート・マイルズの名で知られる——は1969年11月3日、スイスのフルーリエでイタリア人の両親のもとに生まれ、幼少期に北イタリア・フリウリ地方の小さな町ファガーニャ（ヴェネツィアから約100km）に移住した。1980年代後半からイタリアのクラブ・サーキットでDJとして活動した後プロダクションへ移行。彼のキャリアを定義することになるトラックは1993年に自宅スタジオで生まれた——ピアノを主軸とするスロー・テンポのインストゥルメンタル、DJセットを締めくくるという極めて具体的な目的のために設計された曲である。
+
+「Children」はまず1995年1月、Joe T. VanelliのDBXレーベルから4曲入りEP『Soundtracks』の一部としてイタリアでリリースされた——初回プレスはおよそ3,000枚に留まる地味なスタートだった。Vanelli経由でUKレーベルPlatipus RecordsのSimon Berryがマイアミでこの曲を耳にし買い付け、Platipusは1995年11月にインターナショナル12インチを発売、その後ライセンスがDeconstructionに渡り1996年初頭のメジャー・リリースで12カ国以上の1位を獲得、全世界で500万枚以上を売り上げた。デビュー・アルバム『Dreamland』（1996）——「Fable」とMaria Nayler参加の「One and One」を含む——はワールドワイドでプラチナ級の成功を収め、「ドリーム・トランス」というサブジャンルを事実上創設した。
+
+マイルズは曲の起源についてインタビューで明確に語っている。インスピレーション源は二つ——父親がユーゴスラビアの人道支援ミッションから持ち帰ったバルカン戦争の児童被害者の写真、そしてイタリアの新聞が strage di sabato sera と呼んだ問題——イタリア・レイブから帰宅する若者の週末の交通事故死である。「Children」はセットを締めくくり、運転前に観客のテンションを落とすためのクロージング・レコードとして設計された。『Dreamland』以降は彼はチャート・ポップの枠組みから離れる：『23am』（1997）はカタログを生楽器とよりワールドな質感へ開き、『Organik』（2001）はBill Laswellをはじめとする共演陣を迎えたアンビエント／ワールド色の濃いアルバム、そして最後のソロ作『Thirteen』（2011）は彼自身のS:altインプリントからアンビエント・エレクトロニクス、オルタナティブ・ロック、プログレッシブ・ロック楽器の混合作としてリリースされた。2013年からはイビザを拠点にアンビエント、IDM、実験的電子音楽専門のラジオ局兼アート・プラットフォームOpenLab.fmを運営。2017年5月9日、イビザでステージ4の転移性がんにより47歳で死去した。
+
+オペレーター・ノート：オペレーターはArminの2018年Tomorrowlandメインステージからトランスに入っているため、ドリーム・トランス系譜は逆向きに——それを密かに引用する後のアップリフティングを通じて——接近されることになる。「Children」が2026年現在も他のほぼあらゆるカタログでは出来ない仕事をしているのは、トラックの感情的重量の全てを、スロー4/4の上のメランコリックなピアノ・ライン一本に委ねている点だ——現代的な意味のドロップもボーカルもない。Sun & Moon時代のASOT再放送に投下すれば、20年分のトランス・ブレイクダウンを貫く「リードとしてのピアノ」の本能に唯一の可視的なソースが現れる。マイルズが後年S:altとOpenLabに移ったことも、この側から見るとより筋が通る——あのトリックは既に完遂されていて、繰り返せば安く見えるから、彼は止めたのだ。`,
     },
-    mentionedIn: ['iconic-trance-anthems-that-defined-an-era', 'history-of-trance-music'],
+    mentionedIn: ['iconic-trance-anthems-that-defined-an-era', 'history-of-trance-music', 'best-trance-tracks-1990s', 'what-is-dream-trance', 'best-trance-tracks-of-all-time-100'],
   },
 
   {
