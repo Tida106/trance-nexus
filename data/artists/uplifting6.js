@@ -53,35 +53,40 @@ Within the Irish trance scene Paul Webster sits alongside Bryan Kearney and John
     emoji: '🎛️',
     genre: 'UPLIFTING',
     banner: 'b-uplifting',
-    tags: ['UPLIFTING', 'VOCAL UPLIFTING', 'DUTCH', 'DUO'],
-    origin: 'Netherlands',
+    tags: ['UPLIFTING', 'TRANCE 138', 'DUTCH-BELGIAN', 'DUO'],
+    members: ['Xander van Dommelen (XiJaro, NL)', 'Anthony Reyers (Pitch, BE)'],
+    origin: 'Netherlands / Belgium',
     activeFrom: '2014',
-    labels: ['Future Sound of Egypt (FSOE)', 'Subculture', 'A State of Trance'],
+    labels: ['Future Sound of Egypt (FSOE)', "Who's Afraid Of 138?!", 'Subculture', 'Grotesque', 'Rielism', 'AVA White', 'Abora Recordings'],
     topWorks: [
       { title: 'I Have Friends Everywhere', year: 2026, type: 'track' },
     ],
-    related: ['aly-and-fila', 'standerwick', 'will-atkinson', 'ruben-de-ronde'],
+    related: ['aly-and-fila', 'standerwick', 'will-atkinson', 'ruben-de-ronde', 'driftmoon', 'ferry-tayle'],
     links: {
       beatport: 'https://www.beatport.com/search?q=XiJaro+%26+Pitch',
     },
-    sub: { en: 'Vocal Uplifting / Tech Uplifting', ja: 'ボーカル・アップリフティング / テック・アップリフティング' },
+    sub: { en: 'Uplifting Trance / 138', ja: 'アップリフティング・トランス / 138' },
     short: {
-      en: 'Dutch duo with FSOE and Subculture releases, working in the modern mid-tempo vocal-uplifting register.',
-      ja: 'FSOEおよびSubcultureからのリリースを持つオランダのデュオ。現代の中速ボーカル・アップリフティング・レジスターで活動。',
+      en: 'Dutch-Belgian uplifting trance duo (Xander van Dommelen and Anthony Reyers) active since 2014 across FSOE, Who\'s Afraid Of 138?!, Subculture and Grotesque.',
+      ja: '2014年から活動するオランダ・ベルギー人アップリフティング・トランス・デュオ（Xander van DommelenおよびAnthony Reyers）。FSOE、Who\'s Afraid Of 138?!、Subculture、Grotesqueにまたがって活動。',
     },
     style: {
-      en: 'Mid-tempo vocal-led uplifting trance — 138-140 BPM arrangements with vocal-forward structure that bridges the FSOE main roster and the harder Subculture / Pure Trance lane.',
-      ja: '中速ボーカル主導のアップリフティング・トランス——FSOEメイン・ロースターとよりハードなSubculture／Pure Tranceレーンを橋渡しする、ボーカル前面構造の138〜140 BPMアレンジメント。',
+      en: 'Uplifting trance in the 138-140 BPM register — emotive lead-melody writing with FSOE-classic structural DNA, working across both instrumental peak-time and vocal arrangements.',
+      ja: '138〜140 BPMレジスターのアップリフティング・トランス——FSOEクラシックの構造的DNAを持つエモーティブなリード・メロディ・ライティング、インストゥルメンタルのピークタイムとボーカル・アレンジメントの両方で活動。',
     },
     bio: {
-      en: `XiJaro & Pitch are a Dutch uplifting trance duo whose catalogue spans Aly & Fila's Future Sound of Egypt and John O'Callaghan's Subculture. Their 2026 FSOE release "I Have Friends Everywhere" extended the duo's mid-tempo vocal-tech-trance lineage and was featured in our March 2026 chart article alongside the FSOE Argento launch and the Push reactivation.
+      en: `XiJaro & Pitch are a Dutch-Belgian uplifting trance duo composed of Xander van Dommelen (XiJaro, Netherlands) and Anthony Reyers (Pitch, Belgium). Anthony is a blind Belgian DJ — a detail that has been part of the duo's public identity since they formed in 2014. They came together specifically to produce uplifting trance, and the project has spent the decade since racking up releases on essentially every label that defines the modern uplifting wing of the genre.
 
-Their releases sit in the mid-tempo vocal-uplifting register that bridges the FSOE main roster's peak-time direction and the harder Subculture / Pure Trance / 138 lane, and the duo has appeared on FSOE Radio and ASOT episodes through the late 2010s and 2020s.`,
-      ja: `XiJaro & PitchはAly & FilaのFuture Sound of EgyptとJohn O\'CallaghanのSubcultureにまたがるカタログを持つオランダのアップリフティング・トランス・デュオ。2026年のFSOEリリース「I Have Friends Everywhere」はデュオの中速ボーカル・テック・トランス系譜を拡張し、FSOE Argento発進やPush再活性化と並んで本誌の2026年3月チャート記事で特集された。
+Their catalogue spans Aly & Fila's Future Sound of Egypt and the FSOE-affiliated Who's Afraid Of 138?!, John O'Callaghan's Subculture, Marcel Woods' Grotesque, Sander van Doorn's Rielism, AVA White, and Abora Recordings. Support has come from Armin van Buuren, John O'Callaghan, Aly & Fila, Paul van Dyk, Ferry Corsten, Menno de Jong, Sean Tyas, and RAM, which is roughly a complete read of the uplifting / 138 producer-DJ network the duo operates within. The February 2026 FSOE release "I Have Friends Everywhere" — 140 BPM, premiered on FSOE 952 — is one of the more recent high-profile placements and was featured in our March 2026 chart article alongside the FSOE Argento launch and the Push reactivation. Alongside the studio work they host the monthly Open Minds podcast / radio show, which moves across deep house, progressive, big-room, tech, uplifting trance and drum & bass.
 
-リリースはFSOEメイン・ロースターのピークタイム方向とよりハードなSubculture／Pure Trance／138レーンを橋渡しする中速ボーカル・アップリフティング・レジスターに位置し、デュオは2010年代後半から2020年代を通じてFSOE RadioおよびASOTエピソードに出演している。`,
+Within the trance ecosystem XiJaro & Pitch sit in the FSOE / 138 wing — the lane defined by Aly & Fila's editorial direction, the Who's Afraid Of 138?! sub-label, and the wider Subculture / Pure Trance / Grotesque circuit. They are one of the more consistent names that has stayed in that lane through both the late-2010s peak and the current revival period.`,
+      ja: `XiJaro & PitchはXander van Dommelen（XiJaro、オランダ）とAnthony Reyers（Pitch、ベルギー）によるオランダ・ベルギー人アップリフティング・トランス・デュオ。Anthonyは盲目のベルギー人DJであり、これは2014年の結成以来デュオの公的アイデンティティの一部となっているディテール。アップリフティング・トランスを制作するために結集し、結成以来の10年間で、ジャンルの現代アップリフティング側面を定義するほぼ全てのレーベルに渡るリリース実績を積み上げてきた。
+
+カタログはAly & FilaのFuture Sound of EgyptおよびFSOE関連のWho's Afraid Of 138?!、John O'CallaghanのSubculture、Marcel WoodsのGrotesque、Sander van DoornのRielism、AVA White、Abora Recordingsにまたがる。サポートはArmin van Buuren、John O'Callaghan、Aly & Fila、Paul van Dyk、Ferry Corsten、Menno de Jong、Sean Tyas、RAMから得ており、これはデュオが活動するアップリフティング／138プロデューサーDJネットワークのほぼ完全な読み出しに相当する。2026年2月のFSOEリリース「I Have Friends Everywhere」——140 BPM、FSOE 952で初公開——は近年の比較的高プロファイルな配置の一つで、FSOE Argento発進やPush再活性化と並んで本誌の2026年3月チャート記事で特集された。スタジオ作品に並んで月例ポッドキャスト／ラジオショー「Open Minds」をホストし、ディープ・ハウス、プログレッシブ、ビッグルーム、テック、アップリフティング・トランス、ドラムン・ベースの間を行き来する。
+
+トランス・エコシステム内において、XiJaro & PitchはFSOE／138側面に位置する——Aly & Filaの編集方針、Who's Afraid Of 138?!サブレーベル、より広いSubculture／Pure Trance／Grotesqueサーキットが定義するレーン。2010年代後半のピーク期と現在の復活期の両方を通じてそのレーンに留まり続けてきた、より一貫した名前の一つである。`,
     },
-    mentionedIn: ['best-trance-tracks-march-2026'],
+    mentionedIn: ['what-is-uplifting-trance', 'best-uplifting-trance-tracks-of-all-time-50', 'best-trance-tracks-march-2026', 'modern-trance-classics-2020s-so-far', 'trance-revival-2026'],
   },
 
   {
