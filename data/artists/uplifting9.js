@@ -55,7 +55,7 @@ Beyond DJing she is a multi-instrumentalist — piano, drums, and trombone — a
 
 DJ業に加え、ピアノ、ドラム、トロンボーンのマルチ楽器奏者であり、そのプロダクション背景がトラックを純粋なドロップ駆動ではなくメロディックおよびハーモニックに寄せる理由であると述べている。Spotify月間リスナー基盤は約1万7千人、Twitchフォロワーは約2万5千人で、彼女のスタジオおよびストリーミング・セットを中心に継続的な視聴オーディエンスを構築している。`,
     },
-    mentionedIn: [],
+    mentionedIn: ['best-trance-festivals-asia-complete-guide', 'top-10-female-trance-djs-2026', 'what-is-uplifting-trance', 'female-djs-reshaping-trance-scene'],
   },
 
   {
@@ -101,7 +101,7 @@ Beyond release work he operates as a sound designer with the Spire Essentials an
 
 リリース・ワークに加え、Freshly Squeezed SamplesおよびReveal Soundを通じて配布されるSpire Essentialsおよびトランス・スターター・バンドル・プリセット・パック（後者はSean Tyasとの共同プロデュース）を擁するサウンド・デザイナーとして活動している。Spotify月間リスナー基盤は約19万2千人で、クロスオーバーやボーカル・コラボレーションではなく、ほぼ完全にアップリフティング・トランス・リリース・ワークの上に構築されたオーディエンスを反映している。現在ドイツ拠点。`,
     },
-    mentionedIn: [],
+    mentionedIn: ['what-is-uplifting-trance', 'best-uplifting-trance-tracks-of-all-time-50', 'modern-trance-classics-2020s-so-far', 'anatomy-of-uplifting-trance-anthem'],
   },
 
   {
@@ -151,7 +151,7 @@ Collaboration credits include work with Armin van Buuren, Mike Koglin, Mark Sher
 
 コラボレーション・クレジットはArmin van Buuren、Mike Koglin、Mark Sherry、Alex M.O.R.P.H.、Langeとの仕事を含み、カタログはBryan KearneyのKGM放送およびより広いテック・トランス編集サーキットで継続的に支持されている。Spotify月間リスナー約29万人で、Tempo Giustoは2010年代〜2020年代で最も放送されているフィンランドのトランス・エクスポート。`,
     },
-    mentionedIn: [],
+    mentionedIn: ['what-is-tech-trance', 'modern-trance-classics-2020s-so-far', 'top-trance-tracks-2010s'],
   },
 
   {
@@ -200,6 +200,6 @@ The catalogue now spans four artist albums, with releases distributed via Armada
 
 カタログは現在アーティスト・アルバム4作にまたがり、リリースはArmada Music、Anjunabeats、Spinnin' Records、Enhanced Music、Black Hole Recordingsを通じて配給されているほか、Armin van Buuren、Above & Beyond、Gareth Emery、Tiësto、Kyau & Albert、tyDiのリミックス・ワークも擁する。2022年にはBlack HoleのSongbirdサブレーベル向けに「In Search of Sunrise 18」コンピレーションをMarkus SchulzおよびMatt Faxと共同ミックスし——同シリーズはもともとTiëstoが主導したシリーズ——セットに6作のオリジナル・プロダクションを提供した。第三アーティスト・アルバム「Find the Sunrise」は2021年にBlack Hole Recordingsからリリースされた。現在ブルガリアのソフィアを拠点とし、カタログ全体でSpotify累計再生5,000万を超える。`,
     },
-    mentionedIn: [],
+    mentionedIn: ['what-is-uplifting-trance', 'what-is-progressive-trance', 'modern-trance-classics-2020s-so-far', 'best-uplifting-trance-tracks-of-all-time-50'],
   },
 ];
