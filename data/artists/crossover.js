@@ -159,33 +159,44 @@ For the operator, the Hardwell-Maddix "Take Me Away" rework is exactly the kind 
     emoji: '🎯',
     genre: 'UPLIFTING',
     banner: 'b-uplifting',
-    tags: ['HARD TRANCE', 'UPLIFTING', 'BRITISH', 'OPENMINDED'],
-    realName: 'Ben Nicky',
-    origin: 'United Kingdom',
+    tags: ['HARD TRANCE', 'UPLIFTING', 'OPENMINDED', 'BRITISH', 'HEADFUK'],
+    realName: 'Benjamin Nikki Reginald Wederell',
+    origin: 'Bristol, United Kingdom',
+    born: '1989',
     activeFrom: '2007',
-    labels: ['Head F*k', 'Armada Music', 'Spinnin\' Records', 'Ultra', 'Vandit', 'A State of Trance'],
-    topWorks: [],
-    related: ['bryan-kearney', 'simon-patterson', 'sean-tyas', 'will-atkinson'],
+    labels: ['Head F**k', 'Anjunabeats', 'Armada Music', 'Spinnin\' Records', 'Smash The House', 'Ultra Music'],
+    topWorks: [
+      { title: 'The One (with Cass Fox)', year: 2011, type: 'track' },
+      { title: 'Anywhere (feat. Chloe)', year: 2016, type: 'track' },
+      { title: 'Headf**k mash-up series', year: 2013, type: 'series' },
+    ],
+    related: ['bryan-kearney', 'simon-patterson', 'sean-tyas', 'will-atkinson', 'maddix', 'allen-watts'],
     links: {
-      beatport: 'https://www.beatport.com/search?q=Ben+Nicky',
+      website: 'https://www.bennicky.co.uk/',
+      beatport: 'https://www.beatport.com/artist/ben-nicky/67136',
+      wikipedia: 'https://en.wikipedia.org/wiki/Ben_Nicky_(DJ)',
     },
     sub: { en: 'Hard Trance / Openminded', ja: 'ハード・トランス / Openminded' },
     short: {
-      en: 'British DJ/producer known for the Headf**k mashup series and an openminded mainstage approach — hard trance, hardstyle, and uplifting in the same set.',
-      ja: '「Headf**k」マッシュアップ・シリーズと、ハード・トランス／ハードスタイル／アップリフティングを同じセットに混ぜるオープンマインデッドなメインステージ・アプローチで知られる英国のDJ／プロデューサー。',
+      en: 'British DJ/producer (real name Benjamin Wederell, b. 1989, Bristol) known for the Head F**k mash-up series launched 2013, and an open-format set DNA spanning trance, hard dance, and techno from 125 to 200 BPM.',
+      ja: '本名Benjamin Wederell（1989年ブリストル生）、2013年に始動した「Head F**k」マッシュアップ・シリーズと、125〜200 BPMにわたるトランス／ハード・ダンス／テクノを横断するオープン・フォーマットのセットDNAで知られる英国のDJ／プロデューサー。',
     },
     style: {
-      en: 'Hard trance and harder peak-time material with mashup-driven set construction — the openminded approach treats genre boundaries as something to ignore in favour of pure energy.',
-      ja: 'マッシュアップ主導のセット構成を持つハード・トランスとハーダー・ピークタイム素材——オープンマインデッドなアプローチは、純粋なエネルギーのためにジャンル境界を無視する。',
+      en: 'Open-format hard trance and trance-leaning peak-time material — mashup-driven set construction, BPM range that runs from 125 to 200, and an editorial stance that treats trance / hard dance / techno boundaries as something to ignore in favour of energy.',
+      ja: 'オープン・フォーマットなハード・トランスおよびトランス寄りピークタイム素材——マッシュアップ主導のセット構成、125〜200 BPMにわたるBPMレンジ、トランス／ハード・ダンス／テクノの境界をエネルギーのために無視する編集スタンス。',
     },
     bio: {
-      en: `Ben Nicky is a British DJ/producer best known for the Headf**k mashup series and an "openminded" mainstage approach that mixes hard trance, hardstyle, big-room, and uplifting in the same set without regard for genre boundaries. His catalogue spans Xtravaganza Recordings, Reaching Altitude, and his own Lethal Recordings imprint, and he has performed at Tomorrowland and the major UK festival circuit through the 2010s and into the 2020s.
+      en: `Ben Nicky, real name Benjamin Nikki Reginald Wederell, is a British DJ and producer from Bristol, born 14 July 1989. He started DJing as a teenager in the mid-2000s and entered the release circuit in 2007, releasing his first trance track "Dirty Dancefloor" at twenty-one. A 2011 collaboration with Cass Fox, "The One", was highlighted by Mixmag as a memorable tune and earned support from Paul van Dyk, Tiësto and Armin van Buuren — the first generation of editorial backing that has anchored his career since.
 
-The harder end of trance — Subculture, Pure Trance NEON, Kearnage — and the harder mainstage circuit overlap on his sets, and his collaboration network places him alongside Bryan Kearney, Simon Patterson, and the broader UK harder-trance scene.`,
-      ja: `ベン・ニッキーは、ハード・トランス、ハードスタイル、ビッグルーム、アップリフティングを同じセット内でジャンル境界を顧みずに混ぜる「Openminded」メインステージ・アプローチと「Headf**k」マッシュアップ・シリーズで知られる英国のDJ／プロデューサー。カタログはXtravaganza Recordings、Reaching Altitude、自身のLethal Recordingsインプリントに広がり、2010年代から2020年代を通じてTomorrowlandおよび英国主要フェスティバル・サーキットに出演している。
+In 2013 he launched his own Head F**k label as a dedicated outlet for the mash-up series of the same name, taking the generic mash-up format and layering it with effects, samples and sound design — early Head F**k releases included reworks of Porter Robinson's "Language" and Tiësto and Eddie Bitar's "Lethal Industry" branded "Lethal Roller-coaster". The 2016 breakout was "Anywhere" featuring Chloe, which topped the Beatport trance chart and crossed ten million Spotify streams. In May 2019 he made his BBC Radio 1 Essential Mix debut with a two-hour session, and that same year he was nominated for a DJ Award in the Trance category. His earlier release catalogue includes work for Anjunabeats alongside Greg Downey and Christian Burns, alongside Armada and Smash The House placements, and he has played Tomorrowland, EDC Las Vegas and the major UK festival circuit through the 2010s and 2020s.
 
-トランスのよりハードな側——Subculture、Pure Trance NEON、Kearnage——とよりハードなメインステージ・サーキットが彼のセットで重なり合い、コラボレーション・ネットワークはBryan Kearney、Simon Patterson、より広い英国ハーダー・トランス・シーンに彼を位置づける。`,
+Within the trance ecosystem Ben Nicky occupies the open-format harder edge — his sets cover 125 to 200 BPM and route through trance, techno, hard dance and happy hardcore in the same hour, with Armin van Buuren publicly describing him as "one of the hardest working DJs in the industry" and Diplo crediting him as "leader of a new movement". The harder UK trance lane — Subculture, Pure Trance NEON, Kearnage — and the harder mainstage circuit overlap directly on his sets, and his collaboration network places him alongside Bryan Kearney, Simon Patterson and the broader UK harder-trance scene.`,
+      ja: `ベン・ニッキー（本名Benjamin Nikki Reginald Wederell）は1989年7月14日生まれ、ブリストル出身の英国人DJ／プロデューサー。2000年代半ばに十代でDJを始め、2007年にリリース・サーキットへ参入。21歳で初のトランス・トラック「Dirty Dancefloor」を発表した。2011年のCass Foxとの共作「The One」はMixmagに記憶に残る一曲としてハイライトされ、Paul van Dyk、Tiësto、Armin van Buurenからサポートを獲得——以来キャリアを支えてきた第一世代の編集的バックアップである。
+
+2013年には同名のマッシュアップ・シリーズ専用アウトレットとして自身のレーベル「Head F**k」を立ち上げ、ジェネリックなマッシュアップ・フォーマットにエフェクト、サンプル、サウンド・デザインを重ねる手法を確立した——初期Head F**kリリースにはPorter Robinsonの「Language」のリワーク、TiëstoとEddie Bitarの「Lethal Industry」を「Lethal Roller-coaster」と冠したリワークなどが含まれる。2016年のブレイクスルーはChloeをフィーチャーした「Anywhere」——Beatportトランス・チャート1位、Spotifyストリーム1000万を突破した。2019年5月にはBBC Radio 1のEssential Mixで2時間セッションをデビューさせ、同年にはDJ Award Tranceカテゴリにノミネートされている。初期のリリース・カタログにはGreg DowneyおよびChristian Burnsと並んだAnjunabeats作品、ArmadaおよびSmash The Houseでの配置が含まれ、2010年代〜2020年代を通じてTomorrowland、EDC Las Vegasおよび英国主要フェスティバル・サーキットに出演している。
+
+トランス・エコシステム内において、ベン・ニッキーはオープン・フォーマットのハーダー・エッジを占める——セットは125〜200 BPMをカバーし、1時間のうちにトランス、テクノ、ハード・ダンス、ハッピー・ハードコアを横断する。Armin van Buurenは彼を「業界で最も働き者のDJの一人」と公に評し、Diplo は「新しいムーブメントのリーダー」と認めている。よりハードな英国トランス・レーン——Subculture、Pure Trance NEON、Kearnage——とよりハードなメインステージ・サーキットが彼のセットで直接重なり、コラボレーション・ネットワークはBryan Kearney、Simon Patterson、より広い英国ハーダー・トランス・シーンに彼を位置づける。`,
     },
-    mentionedIn: [],
+    mentionedIn: ['trance-revival-2026', 'what-is-hard-trance', 'history-of-trance-music', 'top-10-trance-subgenres-explained', 'iconic-trance-anthems-that-defined-an-era'],
   },
 ];
