@@ -107,29 +107,49 @@ Armadaとの関係は、2006年DJ Governor名義のリリース「Red Woods」�
     emoji: '⚡',
     genre: 'TECH',
     banner: 'b-tech',
-    tags: ['RAW TRANCE', 'TECH-HOUSE', 'DUTCH'],
+    tags: ['TECHNO-RAVE', 'BIG ROOM', 'ACID', 'DUTCH'],
+    realName: 'Pablo Rindt',
     origin: 'Netherlands',
+    born: '1990',
     activeFrom: '2017',
-    labels: ['Revealed Recordings', 'Heldeep Records', 'Smash The House'],
-    topWorks: [],
-    related: ['hi-lo', 'sneijder', 'allen-watts', 'mark-sixma'],
+    labels: ['Revealed Recordings', 'Spinnin\' Records', 'Armada Music', 'Rave Culture', 'Extatic (XTTC)'],
+    topWorks: [
+      { title: 'Ecstasy', year: 2019, type: 'track' },
+      { title: 'Revolution (with Hardwell & Timmy Trumpet)', year: 2022, type: 'track' },
+      { title: 'ACID (with Hardwell feat. Luciana)', year: 2023, type: 'track' },
+      { title: 'Take Me Away Again (with Hardwell)', year: 2024, type: 'track' },
+    ],
+    related: ['hi-lo', 'i-o', 'w-and-w', 'mark-sixma', 'orjan-nilsen'],
     links: {
-      beatport: 'https://www.beatport.com/search?q=Maddix',
+      website: 'https://maddixmusic.com',
+      beatport: 'https://www.beatport.com/artist/maddix/379699',
     },
-    sub: { en: 'Raw Trance / Tech-House', ja: 'ロウ・トランス / テック・ハウス' },
+    sub: { en: 'Techno-Rave / Big Room / Acid', ja: 'テクノレイヴ / ビッグ・ルーム / アシッド' },
     short: {
-      en: 'Dutch producer signed to Hardwell\'s Revealed Recordings, working in the raw/tech-trance crossover register that has driven a substantial slice of the modern festival mainstage.',
-      ja: 'HardwellのRevealed Recordingsに所属するオランダのプロデューサー。現代フェスティバル・メインステージの相当部分を駆動してきたロウ／テック・トランス・クロスオーバー・レジスターで活動。',
+      en: 'Dutch producer Pablo Rindt (b. 1990) signed to Hardwell\'s Revealed Recordings — a genre-breaking techno-rave sound infused with big room and trance influences, and co-founder of the Extatic (XTTC) imprint.',
+      ja: 'HardwellのRevealed Recordingsに所属するオランダ人プロデューサー、Pablo Rindt（1990年生）。ビッグ・ルームとトランスの影響を取り込んだジャンルを越境するテクノ・レイヴ・サウンド、そしてExtatic（XTTC）インプリントの共同創設者。',
     },
     style: {
-      en: 'Hard, percussive raw-trance and tech-house with festival-mainstage drops — the kind of high-energy, lower-melodic, rhythmically-forward production that the late-2010s and 2020s mainstage circuit has increasingly converged toward.',
-      ja: 'フェスティバル・メインステージのドロップを持つハードでパーカッシブなロウ・トランスとテック・ハウス——2010年代後半および2020年代のメインステージ・サーキットがますます収束してきた、ハイ・エナジー、低メロディック、リズム前面のプロダクション。',
+      en: 'Hard-hitting techno-rave with acid-revival textures and big-room drop architecture — high-energy, percussive, harmonically lean, and explicitly aimed at the converged modern festival mainstage between trance, techno, and tech-house.',
+      ja: 'アシッド・リバイバルのテクスチャとビッグ・ルームのドロップ・アーキテクチャを持つハード・ヒッティングなテクノ・レイヴ——ハイ・エナジー、パーカッシブ、ハーモニックにリーン、トランス、テクノ、テック・ハウスの間で収束した現代フェスティバル・メインステージに明示的に照準を合わせている。',
     },
     bio: {
-      en: `Maddix is a Dutch producer signed to Hardwell's Revealed Recordings, with additional releases through Oliver Heldens' Heldeep Records and Dimitri Vegas & Like Mike's Smash The House. His catalogue sits in the raw-trance / tech-house crossover register that defines a substantial slice of the modern festival mainstage — harder, more percussive, less melodically forward than classic uplifting, and aligned with the broader mainstage convergence between trance, techno, and tech-house that has shaped the late-2010s and 2020s circuit.`,
-      ja: `MaddixはHardwellのRevealed Recordingsに所属するオランダのプロデューサー。Oliver HeldensのHeldeep Records、Dimitri Vegas & Like MikeのSmash The Houseからもリリースを行う。カタログは現代フェスティバル・メインステージの相当部分を定義するロウ・トランス／テック・ハウス・クロスオーバー・レジスターに位置する——クラシック・アップリフティングよりもハードでパーカッシブ、メロディック前面ではなく、トランス、テクノ、テック・ハウスの間でメインステージが収束してきた2010年代後半および2020年代サーキットのより広い動きと整列している。`,
+      en: `Maddix is the project of Dutch producer Pablo Rindt, born December 3, 1990. He grew up playing djembe, piano and drums, got into electronic dance music and FL Studio in high school, and started releasing under the Maddix name in the late 2010s before crystallising his current core sound around 2018. The breakout was 2019's "Ecstasy" — the track widely credited as the start of the harder-hitting techno-rave direction he has been refining ever since, with hard techno kicks, acid-revival textures, and an organic evolution toward the trance/techno crossover that has defined the late-2010s and 2020s mainstage.
+
+His catalogue spans Hardwell's Revealed Recordings, Spinnin' Records, Armada Music, Rave Culture, Oliver Heldens' Heldeep, and Dimitri Vegas & Like Mike's Smash The House. The Revealed partnership has been the most consistent thread: high-profile collaborations include "Revolution" with Hardwell and Timmy Trumpet, the 2023 acid-techno single "ACID" with Hardwell featuring Luciana, the 4 Strings "Take Me Away" remix and its 2024 follow-up "Take Me Away Again", and the 2022 Hardwell / Blasterjaxx / Maddix collaboration "16". Solo singles "Heute Nacht" and "My Gasoline" extended the catalogue, and in 2023 he launched his own label Extatic (XTTC) in partnership with Revealed. By 2023 he was ranked #95 on DJ Mag's Top 100 DJs, #11 Most Played Producer on 1001Tracklists, and #7 Best Selling Techno Artist on Beatport.
+
+Within the trance landscape Maddix occupies the crossover edge — closer to techno and big-room than to ASOT-mainline trance, but the trance influence is explicit and is what makes his "Take Me Away" rework with Hardwell work the way it does. He is one of the names that explains how the trance / techno / tech-house mainstage convergence actually sounds in 2026.
+
+For the operator, the Hardwell-Maddix "Take Me Away" rework is exactly the kind of track that A State of Trance has spent the past three years gradually re-incorporating — the bridge between Tomorrowland 2018-era big-room and the current revival's harder-edged direction.`,
+      ja: `Maddixはオランダ人プロデューサー、Pablo Rindt（1990年12月3日生まれ）のプロジェクト。ジェンベ、ピアノ、ドラムを演奏する環境で育ち、高校でエレクトロニック・ダンス・ミュージックとFL Studioに出会い、2010年代後半にMaddix名義でリリースを開始。2018年頃に現在のコア・サウンドを結晶化させた。ブレイクスルーは2019年の「Ecstasy」——以来洗練を続けてきたよりハード・ヒッティングなテクノ・レイヴ方向の出発点として広く認知されている一曲で、ハードなテクノ・キック、アシッド・リバイバルのテクスチャ、2010年代後半から2020年代のメインステージを定義してきたトランス／テクノ・クロスオーバーへの有機的進化を伴う。
+
+カタログはHardwellのRevealed Recordings、Spinnin\' Records、Armada Music、Rave Culture、Oliver HeldensのHeldeep、Dimitri Vegas & Like MikeのSmash The Houseに広がる。Revealedとのパートナーシップは最も一貫したスレッドだ：ハイ・プロファイルなコラボレーションにはHardwellとTimmy Trumpetとの「Revolution」、2023年のアシッド・テクノ・シングル「ACID」（Hardwell feat. Luciana）、4 Strings「Take Me Away」のリミックスとその2024年続編「Take Me Away Again」、2022年のHardwell／Blasterjaxx／Maddixコラボ「16」がある。ソロ・シングル「Heute Nacht」「My Gasoline」がカタログを拡張し、2023年にはRevealedとのパートナーシップで自身のレーベルExtatic（XTTC）を立ち上げた。2023年時点でDJ Mag Top 100 DJsで95位、1001Tracklistsで最多プレイ・プロデューサー第11位、Beatportのベスト・セリング・テクノ・アーティスト第7位にランク。
+
+トランスの風景の中でMaddixが占めるのはクロスオーバーの縁——ASOTメインラインのトランスよりテクノおよびビッグ・ルームに近いが、トランスの影響は明示的であり、Hardwellとの「Take Me Away」リワークが機能する理由そのものだ。彼は2026年のトランス／テクノ／テック・ハウス・メインステージ収束が実際にどう響くかを説明する名前の一人である。
+
+オペレーターにとって、Hardwell-Maddixの「Take Me Away」リワークはまさに、A State of Tranceが過去3年間かけて段階的に再取り込みしてきたタイプのトラックだ——Tomorrowland 2018期のビッグ・ルームと現在の復活期のよりハードな方向の間の架け橋である。`,
     },
-    mentionedIn: [],
+    mentionedIn: ['modern-trance-classics-2020s-so-far', 'iconic-trance-anthems-that-defined-an-era', 'best-trance-tracks-of-all-time-100', 'essential-trance-labels-2026'],
   },
 
   {
