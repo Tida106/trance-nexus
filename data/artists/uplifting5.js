@@ -205,41 +205,49 @@ Coldharbourエコシステム内において、DaxsonはMarkus Schulzがレー�
     banner: 'b-uplifting',
     tags: ['UPLIFTING', 'VOCAL TRANCE', 'DUTCH', 'IN SEARCH OF SUNRISE'],
     realName: 'Richard van Schooneveld',
-    origin: 'The Hague, Netherlands',
+    origin: 'Amsterdam, Netherlands',
     born: '1976',
     activeFrom: '2005',
-    labels: ['Magik Muzik', 'Black Hole Recordings', 'Armada Music', 'In Search of Sunrise'],
+    labels: ['Magik Muzik (Black Hole)', 'Black Hole Recordings', 'Songbird (Black Hole)', 'Terminal 4', 'Armada Music', 'A State of Trance (Armada)'],
     topWorks: [
-      { title: 'Always the Sun', year: 2009, type: 'album' },
+      { title: 'Make Me Scream', year: 2005, type: 'track (Terminal 4 — tech-trance debut)' },
+      { title: 'Always the Sun', year: 2009, type: 'album (Magik Muzik / Black Hole)' },
       { title: 'Wide Awake', year: 2011, type: 'album' },
-      { title: 'In Search of Sunrise (vols. 8-12)', year: '2010–2014', type: 'mix series' },
-      { title: 'Always You (with Armin van Buuren & Dicosis)', year: 2026, type: 'track' },
+      { title: 'In Search of Sunrise vols. 8-12 (+ 13.5)', year: '2010-2015', type: 'mix series (Black Hole)' },
+      { title: 'Richard Durand Versus the World', year: 2012, type: 'album' },
+      { title: 'The Air We Breathe', year: 2018, type: 'album' },
+      { title: 'Reactivate', year: 2022, type: 'album' },
+      { title: 'Always You (A State of Trance 2026 ELEVATION Anthem) (with Armin van Buuren &amp; Dicosis)', year: 2026, type: 'track (ASOT)' },
     ],
     related: ['armin-van-buuren', 'tiesto', 'ferry-corsten', 'ruben-de-ronde'],
     links: {
-      beatport: 'https://www.beatport.com/search?q=Richard+Durand',
+      beatport: 'https://www.beatport.com/artist/richard-durand/18513',
     },
     sub: { en: 'Vocal Uplifting / In Search of Sunrise', ja: 'ボーカル・アップリフティング / In Search of Sunrise' },
     short: {
-      en: 'Dutch trance veteran best known for taking over the In Search of Sunrise compilation series from Tiësto, with a long catalogue across Magik Muzik, Black Hole, and Armada.',
-      ja: 'TiëstoからIn Search of Sunriseコンピレーション・シリーズを引き継いだことで知られるオランダのトランス・ベテラン。Magik Muzik、Black Hole、Armadaに長期にわたるカタログを持つ。',
+      en: 'Amsterdam-born Dutch trance veteran (b. 1976) best known for taking over the In Search of Sunrise compilation series from Tiësto for volumes 8 through 13.5 (2010-2015), and co-author of the 2026 ASOT 25 ELEVATION anthem "Always You" with Armin van Buuren &amp; Dicosis.',
+      ja: 'アムステルダム出身のオランダ人トランス・ベテラン（1976年生まれ）。TiëstoからIn Search of Sunriseコンピレーション・シリーズを8集〜13.5集（2010〜2015）にわたり引き継いだことで知られ、2026年ASOT 25周年ELEVATIONアンセム「Always You」をArmin van Buuren &amp; Dicosisと共作した。',
     },
     style: {
       en: 'Late-2000s vocal-uplifting and progressive-leaning trance — patient long-form arrangements, melodic generosity, and the curatorial sensibility that defined the In Search of Sunrise series\' second decade.',
       ja: '2000年代末のボーカル・アップリフティングおよびプログレッシブ寄りのトランス——忍耐強い長尺アレンジメント、メロディック寛大さ、そしてIn Search of Sunriseシリーズの2期目を定義したキュレーション感性。',
     },
     bio: {
-      en: `Richard Durand, born Richard van Schooneveld in The Hague in 1976, is one of the longest-running producer/DJs in the modern Armada Music ecosystem. He started releasing as Richard Durand on Tiësto's Magik Muzik imprint from 2005 ("Terminal 4") and built a steady catalogue across the late-2000s peak of vocal-uplifting trance.
+      en: `Richard Durand, born Richard van Schooneveld on 5 April 1976 in Amsterdam, is one of the longest-running producer/DJs in the modern trance ecosystem. His career began in 2005 with the tech-trance single "Make Me Scream" on the Terminal 4 label, after which Tiësto named him "Tip for the Top" in DJ Magazine in 2007 — the boost that opened the doors to Tiësto's Magik Muzik / Black Hole Recordings imprint where the bulk of his catalogue would emerge.
 
-His most consequential editorial work was taking over the In Search of Sunrise compilation series from Tiësto in 2010 — Durand mixed and curated volumes 8 through 12 (plus 13.5 in 2015), carrying the long-running Black Hole series across the period when Tiësto was transitioning out of trance. His 2009 album Always the Sun and 2011 album Wide Awake cemented his place in the late-2000s Armada uplifting roster.
+His most consequential editorial work was taking over the In Search of Sunrise compilation series from Tiësto in 2010 — Durand mixed and curated Volume 8 (South Africa, 2010), Volume 9 (India, 2011), Volume 10 (Australia, 2012), Volume 11 (Las Vegas, 2013), Volume 12 (Dubai, 2014), and the 2015 Volume 13.5 (Amsterdam), carrying the long-running Black Hole series across the period when Tiësto was transitioning out of trance. Alongside the compilation series, his studio albums on Magik Muzik / Black Hole established him as one of the late-2000s and 2010s Armada-affiliated uplifting roster's most prolific names — Always the Sun (2009), Wide Awake (2011), Richard Durand Versus the World (2012), The Air We Breathe (2018), and Reactivate (2022).
 
-His 2026 collaboration with Armin van Buuren and Dicosis, "Always You," was the official A State of Trance 2026 ELEVATION anthem timed for the 25-year ASOT festival editions at Ahoy Rotterdam — a release that placed Durand alongside van Buuren on the ASOT 25 anniversary moment, more than two decades into his career.`,
-      ja: `リチャード・デュラン、本名Richard van Schooneveld、1976年ハーグ生まれ。現代Armada Musicエコシステムで最も長期にわたって活動するプロデューサー／DJの一人。2005年（「Terminal 4」）にTiëstoのMagik Muzikインプリントからリリースを開始し、2000年代末のボーカル・アップリフティング・トランスのピーク期を通じて安定したカタログを築き上げた。
+His 2026 collaboration with Armin van Buuren and Dicosis, "Always You," is the official A State of Trance 2026 ELEVATION anthem, released on 26-27 February 2026 to coincide with the 25th-anniversary ASOT festival editions at Ahoy Rotterdam — and is the first time van Buuren and Durand have officially teamed up on a project after two decades of parallel Armada / Black Hole catalogues. The track debuted live during Armin's ASOT stage set at Ultra Music Festival and quickly became a recurring closer through the spring 2026 ASOT 25 tour.
 
-最も帰結的な編集仕事は2010年にTiëstoからIn Search of Sunriseコンピレーション・シリーズを引き継いだこと——Durandは8集から12集（および2015年の13.5）をミックス・キュレーションし、Tiëstoがトランスから離脱しつつあった時期にBlack Holeの長期シリーズを運び続けた。2009年のアルバム『Always the Sun』および2011年の『Wide Awake』が2000年代末Armadaアップリフティング・ロースターでの地位を確固たるものにした。
+Operator's note. Durand's editorial signature for me is the In Search of Sunrise sensibility carried forward: patient first hour, melodic-vocal middle section, peak-time uplifting close — a programming logic descended directly from Tiësto's late-1990s mix CDs but kept alive across the 2010s when most of the trance scene had abandoned it for festival-format setlists. "Always You" lands hardest if you have ever sat through a full ISOS Durand mix; the melodic logic is the same logic, twenty years on.`,
+      ja: `リチャード・デュラン、本名Richard van Schooneveld、1976年4月5日アムステルダム生まれ。現代トランス・エコシステムで最も長期にわたって活動するプロデューサー／DJの一人。キャリアは2005年のテック・トランス・シングル「Make Me Scream」をTerminal 4レーベルからリリースして始まり、その後2007年にTiëstoがDJ Magazineで彼を「Tip for the Top」に指名——TiëstoのMagik Muzik／Black Hole Recordingsインプリント、すなわち彼のカタログの大半が登場する場所への扉を開いた後押しとなった。
 
-2026年のArmin van BuurenおよびDicosisとの共作「Always You」は、Ahoy Rotterdamでの25年ASOTフェスティバル版にタイミングを合わせた公式A State of Trance 2026 ELEVATIONアンセム——キャリア20年以上を経て、Durandをvan Buurenと並んでASOT 25周年の瞬間に位置づけたリリース。`,
+最も帰結的な編集仕事は2010年にTiëstoからIn Search of Sunriseコンピレーション・シリーズを引き継いだこと——DurandはVolume 8（South Africa、2010）、Volume 9（India、2011）、Volume 10（Australia、2012）、Volume 11（Las Vegas、2013）、Volume 12（Dubai、2014）、そして2015年のVolume 13.5（Amsterdam）をミックス・キュレーションし、Tiëstoがトランスから離脱しつつあった時期にBlack Holeの長期シリーズを運び続けた。コンピレーション・シリーズと並行して、Magik Muzik／Black Holeでのスタジオ・アルバムが彼を2000年代末〜2010年代Armada系列アップリフティング・ロースターで最も多作な名前の一つとして確立した——『Always the Sun』（2009）、『Wide Awake』（2011）、『Richard Durand Versus the World』（2012）、『The Air We Breathe』（2018）、『Reactivate』（2022）。
+
+2026年のArmin van BuurenおよびDicosisとの共作「Always You」は、Ahoy Rotterdamでの25周年ASOTフェスティバル版にタイミングを合わせた公式A State of Trance 2026 ELEVATIONアンセム——2026年2月26〜27日にリリース——であり、20年にわたる並行Armada／Black Holeカタログを経てvan BuurenとDurandが公式に1つのプロジェクトでチームを組んだ初の機会となった。トラックはArminのUltra Music FestivalでのASOTステージ・セットでライブ・デビューし、2026年春のASOT 25ツアー全体を通じて頻繁なクローザーとなった。
+
+オペレーター・ノート：Durandの編集的シグネチャーは、In Search of Sunriseの感性を運び続けてきたこと：忍耐強い最初の1時間、メロディック・ヴォーカル中盤セクション、ピークタイム・アップリフティングのクロージング——Tiëstoの1990年代末ミックスCDから直接降下し、トランス・シーンの大半がフェスティバル・フォーマットのセットリストに切り替えた2010年代を通じて生き続けたプログラミング論理である。「Always You」はISOS Durandミックスを通しで聴いた経験があれば最も強く着地する：メロディック・ロジックは20年を経ても同じロジックだからだ。`,
     },
-    mentionedIn: ['best-trance-tracks-february-2026', 'best-trance-tracks-may-2026'],
+    mentionedIn: ['best-trance-tracks-february-2026', 'best-trance-tracks-may-2026', 'a-state-of-trance-show-that-changed-everything', 'asot-25-years-anniversary', 'armin-asot-25-years-of-influence'],
   },
 ];
