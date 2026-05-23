@@ -57,13 +57,14 @@ His 2025 Coldharbour release "Echoes of the Future" — credited as "Davey Aspre
     activeFrom: '2005',
     labels: ['Anjunabeats'],
     topWorks: [
+      { title: 'First Aid', year: 2005, type: 'track' },
       { title: 'Helsinki Scorchin\'', year: 2006, type: 'track' },
+      { title: 'Irufushi', year: 2009, type: 'track' },
       { title: 'Empire', year: 2010, type: 'album' },
       { title: 'Unified', year: 2014, type: 'album' },
       { title: 'Black Is The New Yellow', year: 2014, type: 'track' },
-      { title: 'Irufushi', year: 2009, type: 'track' },
     ],
-    related: ['above-and-beyond', 'andrew-bayer', 'genix', 'ilan-bluestone'],
+    related: ['above-and-beyond', 'andrew-bayer', 'genix', 'ilan-bluestone', 'yotto', 'cosmic-gate'],
     links: {
       beatport: 'https://www.beatport.com/artist/super8-and-tab/93336',
       anjunabeats: 'https://anjunabeats.com/artists/57330-super8-tab',
@@ -78,14 +79,18 @@ His 2025 Coldharbour release "Echoes of the Future" — credited as "Davey Aspre
       ja: 'ハイブリッド・トランス——プログレッシブなアレンジメントDNAとリズム・セクションのエレクトロ・ハウス的パンチ、1990年代末〜2000年代初頭のフィンランド・トランス系譜から引き出された調和的コンテンツ、Anjunabeats編集方針が2000年代〜2010年代に定義した洗練されたメロディック・クラフト。',
     },
     bio: {
-      en: `Super8 & Tab are a Finnish trance production and DJ duo composed of Miika Eloranta (Super8) and Janne Mansnerus (Tab), producing together since 2005 and signed long-term to Above & Beyond's Anjunabeats. The duo helped kickstart the "hybrid trance" sound with their 2006 debut "Helsinki Scorchin'" and have since stood as one of the signature acts on the Anjunabeats roster, earning sustained support from Above & Beyond and the wider label core.
+      en: `Super8 & Tab are a Finnish trance production-and-DJ duo composed of Miika Eloranta (Super8) and Janne Mansnerus (Tab). The two met while working out of the same recording complex in Helsinki and began producing together in 2005. Their first joint release, "First Aid", appeared on Above & Beyond's Anjunabeats label in 2005, and they have stayed signed long-term to that imprint ever since — making them one of the longest-running act-label relationships in the wider trance world.
 
-Their two artist albums on Anjunabeats — "Empire" (2010) and "Unified" (2014) — extended the catalogue across full-length progressive-trance form, while singles including "Irufushi", "Black Is The New Yellow", "Let Go" and "No Frontiers" became staples of the late-2000s and 2010s Anjunabeats live and radio circuit. The duo also curated "Super8 & Tab Presents: 20 Years Of Anjunabeats" as part of the label's anniversary editorial programme.`,
-      ja: `Super8 & TabはMiika Eloranta（Super8）とJanne Mansnerus（Tab）からなるフィンランドのトランス・プロダクション／DJデュオ。2005年から共同制作を行い、Above & BeyondのAnjunabeatsに長期所属している。2006年のデビュー作「Helsinki Scorchin\'」で「ハイブリッド・トランス」サウンドを牽引し、以来Anjunabeatsロースターを代表するアクトの一つとして君臨。Above & Beyondおよびレーベル中核から継続的なサポートを得ている。
+The breakthrough came in 2006 with "Helsinki Scorchin'", an Anjunabeats instrumental widely credited with kickstarting the "hybrid trance" sound — the fusion of progressive-trance arrangement DNA with electro-house rhythmic punch and the harmonic content of the late-90s/early-2000s Finnish trance lineage. The track is still routinely cited as one of the most iconic instrumentals in the Anjunabeats catalogue, and was reissued in a 2019 self-remix. Their two artist albums on Anjunabeats — Empire (2010) and Unified (2014) — extended the catalogue into full-length progressive trance, both topping the Beatport trance album chart, while singles including "Irufushi", "Black Is The New Yellow", and "Let Go" became staples of the late-2000s and 2010s Anjunabeats live and radio circuit. They have played EDC, Ultra, Tomorrowland and A State of Trance, and have charted in DJ Magazine's Top 100 across multiple years.
 
-Anjunabeatsからの2枚のアーティスト・アルバム「Empire」（2010）および「Unified」（2014）はカタログをフル尺のプログレッシブ・トランス形式に拡張し、「Irufushi」、「Black Is The New Yellow」、「Let Go」、「No Frontiers」などのシングルは2000年代末〜2010年代のAnjunabeatsライブおよびラジオ・サーキットの定番となった。レーベルの周年編集プログラムの一環として「Super8 & Tab Presents: 20 Years Of Anjunabeats」のキュレーションも手掛けた。`,
+Within the Anjunabeats family Super8 & Tab represent the more uplifting, peak-time end of the label's progressive lineage — the bridge between Above & Beyond's vocal-anchored core and the harder Anjuna export that came later via Ilan Bluestone, Andrew Bayer and Genix. The duo also curated Super8 & Tab Presents: 20 Years Of Anjunabeats as part of the label's anniversary editorial programme, a credit that sums up how deeply embedded they are in the imprint's institutional memory.`,
+      ja: `Super8 & TabはMiika Eloranta（Super8）とJanne Mansnerus（Tab）からなるフィンランドのトランス・プロダクション／DJデュオ。ヘルシンキの同じレコーディング・コンプレックスで活動していた二人は2005年から共同制作を開始した。最初の共同リリース「First Aid」は2005年にAbove & BeyondのAnjunabeatsレーベルから登場し、以来同インプリントに長期所属——より広いトランス世界において最も長く続くアクト／レーベル関係の一つとなっている。
+
+ブレイクスルーは2006年の「Helsinki Scorchin'」——プログレッシブ・トランスのアレンジメントDNAとエレクトロ・ハウスのリズミック・パンチ、1990年代末〜2000年代初頭のフィンランド・トランス系譜の調和的コンテンツを融合させた「ハイブリッド・トランス」サウンドを牽引したと広く認知されているAnjunabeatsのインストゥルメンタル。同曲は今もAnjunabeatsカタログ屈指のアイコニックなインストゥルメンタルの一つとして引用され続けており、2019年にはセルフ・リミックスも再発された。Anjunabeatsからの2枚のアーティスト・アルバム『Empire』（2010）と『Unified』（2014）はカタログをフル尺のプログレッシブ・トランスへ拡張し、両作品ともBeatportトランス・アルバム・チャート首位を獲得。シングル「Irufushi」、「Black Is The New Yellow」、「Let Go」などは2000年代末〜2010年代Anjunabeatsライブおよびラジオ・サーキットの定番となった。EDC、Ultra、Tomorrowland、A State of Tranceに出演し、DJ Magazine Top 100にも複数年ランクインしている。
+
+Anjunabeatsファミリー内において、Super8 & Tabはレーベルのプログレッシブ系譜のよりアップリフティングでピークタイム寄りの一翼を代表する——Above & Beyondのヴォーカル中核と、後にIlan Bluestone、Andrew Bayer、Genixを通じて登場するより硬派なAnjuna輸出との橋渡しである。デュオはレーベルの周年編集プログラムの一環として『Super8 & Tab Presents: 20 Years Of Anjunabeats』のキュレーションも手掛けており、このクレジット一つでインプリントの制度的記憶にどれほど深く埋め込まれているかが示されている。`,
     },
-    mentionedIn: [],
+    mentionedIn: ['above-beyond-anjuna-empire', 'what-is-progressive-trance', 'best-progressive-trance-tracks-of-all-time-50', 'defining-trance-anthems-2000s', 'iconic-trance-anthems-that-defined-an-era'],
   },
 
   {
