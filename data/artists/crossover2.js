@@ -151,33 +151,52 @@ His catalogue spans Tiësto's Magik Muzik imprint and Black Hole Recordings, and
     emoji: '🎛️',
     genre: 'TECH',
     banner: 'b-tech',
-    tags: ['HOUSE', 'TRANCE EDITS', 'GERMAN', 'TIKTOK'],
+    tags: ['HARD HOUSE', 'TRANCE REVIVAL', 'GERMAN', 'DJ DADDY TRANCE'],
     realName: 'Marlon Hoffstadt',
+    aka: 'DJ Daddy Trance',
     origin: 'Berlin, Germany',
-    activeFrom: '2013',
-    labels: ['Midnight Themes (own label)', 'Capitol Records', 'Retrograde', 'WellDone! Music', 'Club Heart Broken'],
-    topWorks: [],
-    related: ['hi-lo', 'maddix', 'mark-sixma', 'orjan-nilsen'],
+    born: '1994',
+    activeFrom: '2012',
+    labels: ['Midnight Themes (own label, founded 2017)', 'Retrograde (own label)', 'Method 808', 'Capitol Records', 'WellDone! Music', 'Stil Vor Talent', 'OFF Recordings'],
+    topWorks: [
+      { title: 'Shake That (with Dansson)', year: 2013, type: 'track' },
+      { title: 'Midnight Themes 001 (EP)', year: 2017, type: 'ep (label debut)' },
+      { title: 'Planet Love', year: 2020, type: 'album (Midnight Themes)' },
+      { title: "It's That Time (as DJ Daddy Trance)", year: 2023, type: 'track (Method 808)' },
+      { title: 'Tell Me Daddy (with Coach Harrison)', year: 2024, type: 'track (Method 808)' },
+      { title: 'All Yours (EP)', year: 2025, type: 'ep' },
+    ],
+    related: ['hi-lo', 'maddix', 'indira-paganotto', 'mark-sixma', 'orjan-nilsen', 'ben-nicky'],
     links: {
-      beatport: 'https://www.beatport.com/search?q=Marlon+Hoffstadt',
+      beatport: 'https://www.beatport.com/artist/marlon-hoffstadt/211050',
+      bandcamp: 'https://marlonhoffstadt.bandcamp.com/',
+      soundcloud: 'https://soundcloud.com/marlonhoffstadt',
     },
-    sub: { en: 'House / Trance Edits', ja: 'ハウス / トランス・エディット' },
+    sub: { en: 'Hard House / Trance Revival', ja: 'ハード・ハウス / トランス・リバイバル' },
     short: {
-      en: 'Berlin-based German DJ/producer working at the house / trance crossover edge — runs his own Midnight Themes label (founded 2017).',
-      ja: 'ハウス／トランス・クロスオーバーの境界で活動するベルリン拠点のドイツのDJ／プロデューサー。自身のMidnight Themesレーベル（2017設立）を運営。',
+      en: 'Berlin DJ/producer (b. 1994) who pivoted from deep-house origins into a hard-house / trance-revival lane under his "DJ Daddy Trance" alias — the "It\'s That Time" (2023, Method 808) viral catalyst was named the year\'s biggest dancefloor filler and made him Billboard\'s No. 1 Most Played DJ at ADE 2024.',
+      ja: 'ベルリン拠点のDJ／プロデューサー（1994年生）。ディープ・ハウス出身から「DJ Daddy Trance」名義でハード・ハウス／トランス・リバイバル・レーンへとピヴォット。2023年Method 808の「It\'s That Time」がその年最大のフロア・キラーと評され、Billboardの2024 ADEで「最もプレイされたDJ」第1位に選ばれた。',
     },
     style: {
-      en: 'House music structure with trance-anthem melodic content folded in — edits and reworks of classic trance leads layered over modern house rhythm, plus original SAVAGE-label material in the same crossover register.',
-      ja: 'トランス・アンセムのメロディック・コンテンツを折り込んだハウス音楽の構造——現代ハウス・リズムの上にクラシック・トランス・リードのエディットおよびリワークを重ね、加えて同じクロスオーバー・レジスターのSAVAGEレーベル・オリジナル素材。',
+      en: 'Hard, fast 140–150 BPM dance music that fuses hard-house pump, classic-rave whistle and chord stabs, eurodance sentimentality, and the kind of melodic-trance break-and-drop architecture that the 2023–2025 revival has rewarded — produced primarily under the "DJ Daddy Trance" alter ego that frames the project as deliberate, knowing rave nostalgia.',
+      ja: '140〜150 BPM帯のハードで速いダンス・ミュージック——ハード・ハウスのパンプ、クラシック・レイヴのホイッスル／コード・スタブ、ユーロダンスの感傷、そして2023〜2025年のリバイバルが評価してきたメロディック・トランス的ブレイク＆ドロップ建築を融合させる。「DJ Daddy Trance」というオルター・エゴで意図的かつ自覚的なレイヴ・ノスタルジアとしてフレーミングされる。',
     },
     bio: {
-      en: `Marlon Hoffstadt is a German DJ/producer who has been releasing house music since the early 2010s and operates the SAVAGE label as an editorial home for the house / trance-edit crossover material that has driven a substantial slice of his recent catalogue. His work pairs modern house rhythm with melodic content drawn directly from the classic trance and rave-anthem catalogue, and the resulting reworks have travelled widely through TikTok-driven discovery cycles in the 2020s.
+      en: `Marlon Hoffstadt is a Berlin-born, Berlin-based German DJ/producer (b. 1994) who has been working in dance music since 2012. He started attending Berlin parties at fifteen and produced his first EP at seventeen during his A-levels, releasing the debut "You and a Love Stoned Ghost" EP on the Berlin imprint EVAMORE MUSIC in 2012; the 2013 collaboration "Shake That" with Dansson became the most-Shazamed track in Ibiza that year and earned him an early "future star" call-out from BBC Radio 1's Pete Tong. By 2013 he had also signed to Capitol Records via a Goodlife / MC3 partnership.
 
-The crossover places Hoffstadt alongside the broader contemporary German club scene — house, breakbeat, and trance edits sharing the same set context — and the SAVAGE imprint extends his editorial reach into curating adjacent producers operating in the same lane.`,
-      ja: `マーロン・ホフシュタットは2010年代初頭からハウス音楽をリリースしているドイツのDJ／プロデューサー。最近のカタログの相当部分を駆動してきたハウス／トランス・エディット・クロスオーバー素材の編集本拠地として、SAVAGEレーベルを運営している。作品は現代ハウスのリズムとクラシック・トランス／レイヴ・アンセム・カタログから直接引用されたメロディック・コンテンツを組み合わせ、リワークは2020年代のTikTok駆動の発見サイクルで広く拡散している。
+Across the 2010s he released widely on Stil Vor Talent, OFF Recordings, Play It Down, Suol, and his own imprints WellDone! and the deep-house focused Retrograde. The editorial centre of gravity shifted decisively in 2017 with the launch of Midnight Themes — his Berlin label and the home for the "Planet Love" debut album in March 2020 — and then again, more visibly, with the 2023 reinvention as "DJ Daddy Trance". The single "It's That Time" (released April 2023 on Method 808 at 147 BPM, described by press as "2023's biggest dancefloor filler") generated remixes by Dimension, Kolter and Fisher, crossed 50 million Spotify streams, and turned the alias into a touring entity in its own right. The 2024 "Tell Me Daddy" (with Coach Harrison) extended the format; the July 2025 "All Yours" EP, anchored by "Turn It Up" with UK producer Jacob Manson, kept the lane open. Billboard ranked him the No. 1 most-played DJ at ADE 2024.
 
-クロスオーバーによりホフシュタットは、ハウス、ブレイクビート、トランス・エディットが同じセット文脈を共有するより広い現代ドイツ・クラブ・シーンに位置づけられ、SAVAGEインプリントは同じレーンで活動する隣接プロデューサーのキュレーションへと編集的リーチを広げる。`,
+Within the scene Hoffstadt sits at the trance-revival edge of the post-2022 hard-house wave — the lane where the Method 808 / Repopulate Mars / Sara Landry adjacent rave revival meets the chord-stab and breakdown architecture that the classic-trance catalogue invented. The "DJ Daddy Trance" alias is the explicit framing device: he runs the project as deliberate, knowing rave-anthem nostalgia rather than period reverence, with the phone-free Savour The Moment events at Berlin's Salon Zur Wilden Renate functioning as the live home for the same sensibility.
+
+Operator's note. The operator who came up on weekly ASOT and the 2018 Tomorrowland Armin mainstage tracks the 2020s mainstage by which classic-trance signifiers still travel — what crosses over from the chord-stab dialect onto a 145 BPM hard-house drop. Hoffstadt's "DJ Daddy Trance" lane is one of the cleanest answers: the whistle, the pump, the breakdown-then-drop architecture all read as direct quotation from the 1996–2002 rave catalogue, played straight at 2025 festival scale. It is not trance, but it is the trance vocabulary in a working modern form.`,
+      ja: `マーロン・ホフシュタットはベルリン生まれ、ベルリン拠点のドイツ人DJ／プロデューサー（1994年生）。2012年以降ダンス・ミュージックで活動している。15歳でベルリンのパーティーに通い始め、Aレベル（独：Abitur）期間中の17歳で初EPを制作、2012年にベルリンのレーベルEVAMORE MUSICからデビューEP「You and a Love Stoned Ghost」をリリース。2013年のDanssonとの共作「Shake That」はその年のイビサで最もShazamされたトラックとなり、BBC Radio 1のPete Tongから早くも「future star」と呼ばれた。2013年にはGoodlife／MC3パートナーシップを通じてCapitol Recordsにもサイン。
+
+2010年代を通じてStil Vor Talent、OFF Recordings、Play It Down、Suol、自身のWellDone!およびディープ・ハウス系Retrogradeから広くリリースした。編集的重心は2017年のMidnight Themes設立——ベルリンのレーベルで、2020年3月のデビュー・アルバム『Planet Love』の本拠地——で決定的にシフトし、2023年の「DJ Daddy Trance」への再発明でさらに目に見えてシフトした。シングル「It's That Time」（2023年4月Method 808リリース、147 BPM、報道で「2023年最大のフロア・キラー」と評された）はDimension、Kolter、Fisherのリミックスを生み、Spotifyで5,000万ストリームを超え、このエイリアスを単独のツアー・エンティティに変えた。2024年「Tell Me Daddy」（Coach Harrisonとの共作）がフォーマットを延伸し、2025年7月の「All Yours」EP——UKプロデューサーJacob Mansonとの「Turn It Up」を軸とした——がそのレーンを開き続けている。BillboardはADE 2024で彼を「最もプレイされたDJ」第1位にランクした。
+
+シーン内でHoffstadtは2022年以降のハード・ハウス波のトランス・リバイバル境界に位置する——Method 808／Repopulate Mars／Sara Landry隣接のレイヴ・リバイバルが、クラシック・トランスのカタログが発明したコード・スタブとブレイクダウン建築と出会うレーンだ。「DJ Daddy Trance」名義は明示的なフレーミング装置：プロジェクトを年代崇拝ではなく、意図的で自覚的なレイヴ・アンセム・ノスタルジアとして運営し、ベルリンSalon Zur Wilden Renateでの携帯禁止イベント「Savour The Moment」が同じ感性のライブ拠点となる。
+
+オペレーター・ノート：毎週ASOTと2018年TomorrowlandメインステージのArminで育ったオペレーターは、2020年代メインステージをクラシック・トランス記号が今もどう旅するかで追跡する——コード・スタブの方言から145 BPMハード・ハウス・ドロップへと何が横断するか。Hoffstadtの「DJ Daddy Trance」レーンはその最もクリーンな答えの一つ：ホイッスル、パンプ、ブレイクダウン→ドロップ建築のすべてが1996〜2002年のレイヴ・カタログからの直接引用として読め、2025年のフェスティバル規模で正面から演じられる。トランスではない、しかしトランスの語彙の現代的に機能する形である。`,
     },
-    mentionedIn: [],
+    mentionedIn: ['trance-revival-2026', 'what-is-hard-trance', 'modern-trance-classics-2020s-so-far', 'new-generation-trance-artists-to-watch-2026'],
   },
 ];
