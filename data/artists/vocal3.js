@@ -312,17 +312,21 @@ Spotify月間リスナーは約24万人で、彼女のソングライター・�
     emoji: '✨',
     genre: 'VOCAL',
     banner: 'b-vocal',
-    tags: ['VOCAL TRANCE', 'FEMALE VOCALIST', 'ARMADA', 'BLACK HOLE'],
+    tags: ['VOCAL TRANCE', 'FEMALE VOCALIST', 'ARMADA', 'BLACK HOLE', 'UKRAINIAN'],
     realName: 'Natalia Sibekina',
-    origin: 'Ukraine / Russia',
-    activeFrom: '2009',
-    labels: ['Armada Music', 'Black Hole Recordings', 'Spinnin\' Records', 'Suanda', 'Interplay'],
+    origin: 'Kyiv, Ukraine',
+    born: '1982',
+    activeFrom: '2006 (Italian pop) / 2013 (trance breakthrough)',
+    labels: ['Armada Music', 'A State of Trance (Armada)', 'Black Hole Recordings', "Spinnin' Records", 'Suanda Music', 'Interplay Records', 'Garuda', 'Angelu Music'],
     topWorks: [
-      { title: 'Dreams (with Alex M.O.R.P.H.)', year: 2013, type: 'track' },
-      { title: 'The Reason (with Alex M.O.R.P.H.)', year: 2014, type: 'track' },
-      { title: 'Addicted (with Bobina)', year: 2015, type: 'track' },
-      { title: 'Shine (with RAM & Talla 2XLC)', year: 2021, type: 'track' },
-      { title: "Viva L'Opera (with Armin van Buuren)", year: 2024, type: 'track' },
+      { title: 'Che donna vorrei', year: 2006, type: 'track (Italian-language pop debut)' },
+      { title: 'Dreams (with Alex M.O.R.P.H.)', year: 2013, type: 'track (ASOT — Beatport Trance Top 5)' },
+      { title: 'The Reason (with Alex M.O.R.P.H.)', year: 2014, type: 'track (ASOT)' },
+      { title: 'Addicted (with Bobina)', year: 2015, type: "track (Spinnin')" },
+      { title: 'Shine (with RAM &amp; Talla 2XLC)', year: 2021, type: 'track (ASOT Tune of the Year 2021 — #6)' },
+      { title: "Viva L'Opera (with Armin van Buuren)", year: 2024, type: 'track (ASOT Ibiza 2024)' },
+      { title: 'Freedom\'s Call / Breathe', year: 2025, type: 'tracks' },
+      { title: 'Shattered / Beauty Within', year: 2026, type: 'tracks' },
     ],
     related: ['armin-van-buuren', 'bobina', 'roger-shah', 'ronski-speed'],
     links: {
@@ -332,26 +336,30 @@ Spotify月間リスナーは約24万人で、彼女のソングライター・�
     },
     sub: { en: 'Vocal Trance / Uplifting', ja: 'ボーカル・トランス / アップリフティング' },
     short: {
-      en: 'Russian-Ukrainian vocalist with a long-running Armada and Black Hole catalogue — "Shine" with RAM & Talla 2XLC placed sixth in A State of Trance Tune of the Year 2021.',
-      ja: 'Armada／Black Holeでの長期カタログを持つロシア／ウクライナのボーカリスト。RAM ＆ Talla 2XLCとの「Shine」はA State of Trance Tune of the Year 2021で第6位に入った。',
+      en: 'Kyiv-born Ukrainian vocalist (b. 1982) whose mid-2010s ASOT/Armada catalogue with Alex M.O.R.P.H., Bobina, RAM and Talla 2XLC placed her among the most active female vocalists in modern trance — "Shine" reached #6 in A State of Trance Tune of the Year 2021.',
+      ja: 'キエフ出身のウクライナ人ボーカリスト（1982年生まれ）。Alex M.O.R.P.H.、Bobina、RAM、Talla 2XLCらとの2010年代半ばのASOT／Armadaカタログによって現代トランスで最も活動的な女性ボーカリストの一人に位置し、「Shine」はA State of Trance Tune of the Year 2021で第6位を獲得した。',
     },
     style: {
       en: 'Operatic-leaning vocal trance with a wide dynamic range — comfortable on both peak-time uplifting arrangements and the more melodic, mid-tempo Black Hole / Suanda end of the spectrum. Her catalogue prioritises hook-led songwriting over vocal acrobatics, which is part of why her records age well across the various trance sub-styles she has appeared on.',
       ja: '広いダイナミック・レンジを持つオペラ寄りのボーカル・トランス。ピークタイムのアップリフティング・アレンジメントとよりメロディックでミッドテンポなBlack Hole／Suanda寄りの両方で機能する。フックを軸にしたソングライティングを重視するカタログは、彼女が登場した様々なトランス・サブスタイル全体でレコードが古びにくい理由の一つとなっている。',
     },
     bio: {
-      en: `Natalie Gioia, born Natalia Sibekina, is a Russian-Ukrainian electronic music vocalist who has been active in trance since around 2009 after a background in pop and Italian-language repertoire. Her breakthrough came through the partnership with Alex M.O.R.P.H.: "Dreams" (2013) reached the Beatport Trance Top 5 and was included on Armin van Buuren's "Universal Religion Chapter 7", with the follow-up "The Reason" (2014) released on A State of Trance.
+      en: `Natalie Gioia, born Natalia Sibekina on 16 May 1982 in Kyiv, is a Ukrainian-Russian electronic music vocalist and songwriter whose career runs through nearly the entire modern trance-vocal canon. She grew up in the small Russian town of Armavir, and her path into electronic music was indirect — while touring in Africa she met the Italian impresario Flavio Demichelis, signing an Italian-language contract that produced her 2006 single "Che donna vorrei." She returned to Ukraine in 2009, where she met her husband Valeriy Sibekin, and that change in personal circumstance reset her musical direction toward EDM and trance.
 
-The subsequent decade saw her vocals featured across most major trance labels — Armada Music, Black Hole Recordings, Spinnin' Records, Suanda Music, Interplay Records, and Garuda — in collaboration with Bobina ("Addicted", 2015), Roger Shah, Eximinds, Rene Ablaze, Roman Messer, and others. The 2021 release "Shine" with RAM and Talla 2XLC reached number six in the A State of Trance Tune of the Year listener vote, one of the highest-ranking vocal-trance placements of that year.
+Her first EDM collaboration appeared on the Angelu label, immediately attracting producers EDU and Tucandeo. The Alex M.O.R.P.H. partnership followed and produced her breakthrough: "Dreams" (2013) was released on A State of Trance, reached the Beatport Trance Top 5, and was included on Armin van Buuren's Universal Religion Chapter 7. "The Reason" (2014) followed on ASOT, the Bobina collaboration "Addicted" (2015) on Spinnin', and across the late 2010s her vocals appeared on releases through Armada, Black Hole Recordings, Suanda Music, Interplay Records and Garuda, in partnership with Roger Shah, Eximinds, Rene Ablaze, Roman Messer and others. "Shine" with RAM &amp; Talla 2XLC reached number six in the A State of Trance Tune of the Year 2021 listener vote — among the highest-ranking vocal-trance placements of that year.
 
-Her catalogue continues into the mid-2020s, including "Viva L'Opera" with Armin van Buuren on the A State of Trance Ibiza 2024 compilation. Her Spotify monthly listener count of roughly 115K reflects a sustained, engaged audience that follows trance-vocal releases rather than crossover pop, placing her among the most consistently active female vocalists in the genre's 2010s–2020s catalogue.`,
-      ja: `ナタリー・ジョイア（本名Natalia Sibekina）はロシア／ウクライナのエレクトロニック・ミュージック・ボーカリスト。ポップおよびイタリア語レパートリーの背景を経て、2009年頃からトランス・シーンで活動している。Alex M.O.R.P.H.とのパートナーシップによってブレイクし、「Dreams」（2013）はBeatport Trance Top 5に達し、Armin van Buurenの「Universal Religion Chapter 7」に収録された。続編「The Reason」（2014）はA State of Tranceからリリースされた。
+Her catalogue has continued at the same pace through the mid-2020s. "Viva L'Opera" with Armin van Buuren appeared on the A State of Trance Ibiza 2024 compilation, "Freedom's Call" and "Breathe" followed in 2025, and "Shattered" and "Beauty Within" arrived in 2026. Her sustained Spotify monthly listener base in the six-figure range reflects an audience that follows trance-vocal releases specifically rather than chart pop — placing her among the most consistently active female vocalists in the genre's 2010s-2020s catalogue, comparable in productivity to Christina Novelli and Audrey Gallagher.
 
-その後の10年間で彼女のボーカルはトランスの主要レーベル全体——Armada Music、Black Hole Recordings、Spinnin' Records、Suanda Music、Interplay Records、Garuda——に登場し、Bobina（「Addicted」2015）、Roger Shah、Eximinds、Rene Ablaze、Roman Messerらと協業した。2021年のRAMおよびTalla 2XLCとのリリース「Shine」はA State of Trance Tune of the Yearリスナー投票で第6位に達し、その年最高位のボーカル・トランス・ランクの一つとなった。
+Operator's note. Gioia's voice sits in the operatic-leaning register where it is doing genuine emotional work rather than ornamenting an instrumental. The hook for me is that her vocal lines are recognisably written like songs — verse-chorus structure, a real lyrical idea developing across the track — rather than as a single floating pad-of-vowels held over a drop, which is the default for most modern vocal-trance releases. That songwriting discipline is why her late-2010s catalogue still listens cleanly in 2026.`,
+      ja: `ナタリー・ジョイア、本名Natalia Sibekina、1982年5月16日キエフ生まれ。ウクライナ・ロシアのエレクトロニック・ミュージック・ボーカリスト／ソングライターで、彼女のキャリアは現代トランス・ヴォーカル正典のほぼ全域を貫いている。ロシアの小さな町Armavirで育ち、彼女のエレクトロニック・ミュージックへの道は間接的だった——アフリカでツアー中にイタリアの興行師Flavio Demichelisに出会い、イタリア語契約を結び、2006年のシングル「Che donna vorrei」を生み出した。2009年にウクライナに戻り、そこで夫のValeriy Sibekinに出会ったことが、彼女の音楽的方向性をEDMとトランスへとリセットした。
 
-カタログは2020年代半ばまで続いており、A State of Trance Ibiza 2024コンピレーションに収録されたArmin van Buurenとの「Viva L'Opera」を含む。Spotify月間リスナー約11万5千人は、クロスオーバー・ポップではなくトランス・ボーカル・リリースを追う持続的に関与したオーディエンスを反映しており、彼女をジャンルの2010年代〜2020年代のカタログで最も継続的に活動する女性ボーカリストの一人に位置づけている。`,
+彼女の最初のEDMコラボはAngelu労ベルに登場し、即座にプロデューサーのEDUとTucandeoの注目を集めた。続くAlex M.O.R.P.H.とのパートナーシップが彼女のブレイクスルーを生んだ：「Dreams」（2013）はA State of Tranceからリリースされ、Beatport Trance Top 5に到達、Armin van BuurenのUniversal Religion Chapter 7に収録された。「The Reason」（2014）がASOTから続き、Bobinaとの共作「Addicted」（2015）がSpinnin'から、2010年代後半を通じて彼女のヴォーカルはArmada、Black Hole Recordings、Suanda Music、Interplay Records、Garudaからのリリースに登場し、Roger Shah、Eximinds、Rene Ablaze、Roman Messerらとのパートナーシップとなった。RAM &amp; Talla 2XLCとの「Shine」はA State of Trance Tune of the Year 2021リスナー投票で第6位に達した——その年最高位のヴォーカル・トランス・ランクの一つだ。
+
+カタログは2020年代半ばを通じて同じペースで継続している。Armin van Buurenとの「Viva L'Opera」がA State of Trance Ibiza 2024コンピレーションに登場、「Freedom's Call」と「Breathe」が2025年に続き、「Shattered」と「Beauty Within」が2026年に到来した。Spotify月間リスナー数が6桁台で持続しているのは、チャート・ポップではなくトランス・ヴォーカル・リリースを具体的に追うオーディエンスを反映しており——Christina NovelliやAudrey Gallagherと比肩する生産性で、彼女をジャンルの2010年代〜2020年代カタログで最も継続的に活動する女性ボーカリストの一人に位置づける。
+
+オペレーター・ノート：Gioiaの声はオペラ寄りのレジスターに位置し、楽器を装飾するのではなく本物の感情的仕事をこなしている。私にとってのフックは、彼女のヴォーカル・ラインが認識可能に楽曲のように書かれていること——ヴァース・コーラス構造、トラック全体を通じて発展するリアルなリリカル・アイデア——現代のヴォーカル・トランス・リリースのデフォルトであるドロップ越しに保持される単一の浮遊する母音パッドではない。そのソングライティングの規律こそ、彼女の2010年代後半カタログが2026年も清潔に聴ける理由である。`,
     },
-    mentionedIn: [],
+    mentionedIn: ['what-is-vocal-trance', 'role-of-vocals-in-trance-music', 'iconic-trance-vocalists-voices-behind-anthems', 'best-vocal-trance-tracks-of-all-time-50'],
   },
 
   // Added 2026-05-12 — Kyau & Albert (DE duo, Euphonic founders).
