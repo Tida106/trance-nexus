@@ -11,37 +11,48 @@ export const uplifting7 = [
     emoji: '🌟',
     genre: 'UPLIFTING',
     banner: 'b-uplifting',
-    tags: ['UPLIFTING', 'TECH UPLIFTING', 'BRITISH', 'COLDHARBOUR'],
+    tags: ['UPLIFTING', 'TECH UPLIFTING', 'BRITISH', 'COLDHARBOUR', 'FSOE'],
     realName: 'Davey Asprey',
-    origin: 'Walsall, United Kingdom',
+    origin: 'Walsall, West Midlands, United Kingdom',
+    born: '1986',
     activeFrom: '2014',
-    labels: ['Coldharbour Recordings', 'Black Hole Recordings', 'Armada Music'],
+    labels: ['Coldharbour Recordings', 'Future Sound of Egypt (FSOE)', 'Black Hole Recordings', 'Armada Music', 'Damaged Records'],
     topWorks: [
+      { title: 'The Rapture', year: 2016, type: 'track' },
+      { title: 'Fallout', year: 2017, type: 'track' },
+      { title: 'The Game', type: 'track' },
+      { title: 'Edgerunners', year: 2023, type: 'track' },
       { title: 'Echoes of the Future (presents kaimira & Poly Powder)', year: 2025, type: 'track' },
     ],
-    related: ['markus-schulz', 'standerwick', 'will-atkinson', 'driftmoon'],
+    related: ['markus-schulz', 'standerwick', 'will-atkinson', 'driftmoon', 'allen-watts', 'ben-gold'],
     links: {
+      website: 'https://www.davey-asprey.com/',
       beatport: 'https://www.beatport.com/artist/davey-asprey/140792',
+      coldharbour: 'https://www.coldharbourrecordings.com/artists/davey-asprey/',
       soundcloud: 'https://soundcloud.com/daveyaspreyofficial',
     },
     sub: { en: 'Uplifting / Tech Uplifting', ja: 'アップリフティング / テック・アップリフティング' },
     short: {
-      en: 'British uplifting/tech-trance producer in the Coldharbour Recordings circle, with releases through Black Hole and Armada Music.',
-      ja: 'Coldharbour Recordings圏で活動する英国のアップリフティング／テック・トランス・プロデューサー。Black HoleおよびArmada Musicからもリリース。',
+      en: 'British uplifting/tech-trance producer from Walsall (b. 1986), best known for "The Rapture" (FSOE, 2016) and "Fallout" (Armada/ASOT, 2017), with a long-running place in Markus Schulz\'s Coldharbour core circle.',
+      ja: 'Walsall出身（1986年生）の英国アップリフティング／テック・トランス・プロデューサー。「The Rapture」（FSOE、2016）および「Fallout」（Armada／ASOT、2017）で知られ、Markus SchulzのColdharbour中核圏に長く位置する。',
     },
     style: {
       en: 'Uplifting trance with the percussive, tech-leaning architecture that the Coldharbour editorial direction has refined under Markus Schulz — driving 138 BPM arrangements, melodic-emphasis breakdowns, and the kind of peak-time structural craft that the British harder-trance scene has cultivated across the 2010s and 2020s.',
       ja: 'Markus SchulzのもとでColdharbour編集方針が洗練してきたパーカッシブでテック寄りの建築を持つアップリフティング・トランス——ドライヴィングな138 BPMアレンジメント、メロディック重視のブレイクダウン、英国ハーダー・トランス・シーンが2010年代〜2020年代に培ってきたタイプのピークタイム構造。',
     },
     bio: {
-      en: `Davey Asprey is a UK-based trance DJ and producer from Walsall in the West Midlands, working in the uplifting and tech-trance register. His catalogue spans Markus Schulz's Coldharbour Recordings, Black Hole Recordings, and Armada Music, and he sits in the Coldharbour core circle alongside Markus Schulz himself, KhoMha, and the wider tech-uplifting roster the label has built across the 2010s and 2020s.
+      en: `Davey Asprey is a UK-based trance DJ and producer from Walsall in the West Midlands, born 13 May 1986. He built his appetite for music young — steered by his mother's New Wave collection — and his early interest in electronic music progressed into trance, eventually leading him to Ibiza to see Eddie Halliwell at Amnesia. His first gig at Nailed in Leicester opened the floodgates, and a decade of UK underground residency work followed before his releases broke internationally. By 2012 he had already been named BPM Artist of the Month and BPM DJ of the Year.
 
-His 2025 Coldharbour release "Echoes of the Future" — credited as "Davey Asprey presents kaimira & Poly Powder" — extended his catalogue under his alias-presents project format and continued the steady output rate that has placed him among the active modern names in the Coldharbour stable.`,
-      ja: `デイヴィー・アスプレーはWest MidlandsのWalsall出身、英国を拠点とするトランスDJ／プロデューサーで、アップリフティングおよびテック・トランス・レジスターで活動する。カタログはMarkus SchulzのColdharbour Recordings、Black Hole Recordings、Armada Musicにまたがり、Markus Schulz本人、KhoMha、そしてレーベルが2010年代〜2020年代に築いてきたより広いテック・アップリフティング・ロースターと並んでColdharbour中核圏に位置する。
+The catalogue's editorial breakthrough was 2016's "The Rapture" on Aly & Fila's Future Sound of Egypt, which hit Beatport's top ten sellers of the year. The 2017 follow-up "Fallout" on Armada / A State of Trance became one of the defining tracks of that year, appearing on the ASOT 2017 Year Mix. Subsequent releases span Markus Schulz's Coldharbour Recordings — where he sits in the core circle alongside Schulz himself and KhoMha — plus Black Hole Recordings, Armada Music, and Damaged Records (the 2023 release "Edgerunners"). The 2025 Coldharbour release "Echoes of the Future" was credited as "Davey Asprey presents kaimira & Poly Powder", extending his catalogue under an alias-presents project format.
 
-2025年のColdharbourリリース「Echoes of the Future」——「Davey Asprey presents kaimira & Poly Powder」名義——はエイリアス・プレゼンツ形式のカタログを拡張し、Coldharbour陣営の活動的な現代名の一人として彼を位置づけてきた安定した出力レートを継続している。`,
+Within the trance ecosystem Davey Asprey sits in the British tech-uplifting wing — the lane defined by the Coldharbour editorial direction, the harder side of FSOE, and the Damaged / Subculture peer circle. His sets have placed him on Dreamstate, Luminosity, and the broader Armada / FSOE festival schedule across the 2010s and 2020s. He is one of the steady second-tier names — not a chart-headline producer but consistently present across the labels that define the modern uplifting and tech-trance lane.`,
+      ja: `デイヴィー・アスプレーはWest MidlandsのWalsall出身、英国を拠点とするトランスDJ／プロデューサーで、1986年5月13日生まれ。音楽への嗜好は早くから——母親のニュー・ウェイヴ・コレクションに導かれて——築かれ、エレクトロニック・ミュージックへの初期の関心はトランスへと進展、やがてイビサのAmnesiaでEddie Halliwellを観るために渡航するに至る。レスターのNailedでの初ギグが堰を切り、リリースが国際的にブレイクするまでに英国アンダーグラウンドでの10年のレジデンシー・ワークが積み重なった。2012年までにBPM誌のArtist of the MonthおよびDJ of the Yearの両方を獲得している。
+
+カタログの編集的ブレイクスルーは2016年、Aly & FilaのFuture Sound of Egyptからリリースされた「The Rapture」——その年のBeatportトップ10セラーに入った一曲だ。2017年の続編「Fallout」はArmada／A State of Tranceから登場し、同年を代表するトラックの一つとなりASOT 2017 Year Mixに収録された。その後のリリースはMarkus SchulzのColdharbour Recordings——Schulz本人やKhoMhaと並ぶ中核圏に位置する——に加えBlack Hole Recordings、Armada Music、Damaged Records（2023年「Edgerunners」）に広がる。2025年のColdharbourリリース「Echoes of the Future」は「Davey Asprey presents kaimira & Poly Powder」名義でクレジットされ、エイリアス・プレゼンツ形式のカタログを拡張した。
+
+トランス・エコシステム内において、デイヴィー・アスプレーは英国テック・アップリフティング側面——Coldharbourの編集方針、FSOEのよりハードな側、そしてDamaged／Subculture仲間圏が定義するレーン——に位置する。セットは2010年代〜2020年代を通じてDreamstate、Luminosity、より広いArmada／FSOEフェスティバル・スケジュールに彼を位置づけてきた。チャート見出し級プロデューサーではないが、現代アップリフティングおよびテック・トランス・レーンを定義するレーベル群に一貫して存在し続ける、安定した第二層の名前の一人である。`,
     },
-    mentionedIn: [],
+    mentionedIn: ['anatomy-of-uplifting-trance-anthem', 'what-is-uplifting-trance', 'essential-trance-labels-2026', 'best-uplifting-trance-tracks-of-all-time-50', 'modern-trance-classics-2020s-so-far'],
   },
 
   {
