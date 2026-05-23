@@ -130,17 +130,19 @@ Operator's note. The operator came into trance via Armin's Tomorrowland 2018 mai
     realName: 'André Tanneberger',
     origin: 'Freiberg, Saxony, Germany',
     born: '1973',
-    activeFrom: '1996',
-    labels: ['Kontor Records', 'Sony Music', 'Black Hole Recordings'],
+    activeFrom: '1993',
+    labels: ['Kontor Records', 'Radikal Records', 'Sony Music', 'Black Hole Recordings'],
     topWorks: [
       { title: '9 PM (Till I Come)', year: 1998, type: 'track' },
       { title: 'Movin\' Melodies', year: 1999, type: 'album' },
+      { title: 'Killer (Adamski/Seal cover)', year: 1999, type: 'track' },
+      { title: 'Two Worlds', year: 2000, type: 'album' },
       { title: 'Dedicated', year: 2002, type: 'album' },
       { title: 'No Silence', year: 2004, type: 'album' },
       { title: 'Trilogy', year: 2007, type: 'album' },
-      { title: 'Your Love (9 PM)', year: 2021, type: 'track' },
+      { title: 'Your Love (9PM) (with Topic & A7S)', year: 2021, type: 'track' },
     ],
-    related: ['paul-van-dyk', 'robert-miles', 'tiesto', 'ferry-corsten'],
+    related: ['paul-van-dyk', 'robert-miles', 'tiesto', 'ferry-corsten', 'armin-van-buuren', 'gigi-dagostino'],
     links: {
       website: 'https://atb-music.com/',
       soundcloud: 'https://soundcloud.com/atb-music',
@@ -157,14 +159,22 @@ Operator's note. The operator came into trance via Armin's Tomorrowland 2018 mai
       ja: 'プラックト・アコースティック・ギターのリード、ボーカルフック、ポップ寄りの構成を軸とした暖かく情緒的なメロディック・トランス——クラブのエネルギーを失わずメインストリーム・ラジオでも受け入れられる音楽性。',
     },
     bio: {
-      en: `André Tanneberger — known as ATB — was born in Freiberg, East Germany in 1973 and grew up listening to electronic music smuggled across the Berlin Wall. He started producing in the early 90s and broke through in 1998 with "9 PM (Till I Come)," whose iconic plucked-guitar lead became one of the most-played trance tracks ever and reached #1 in the UK and across Europe.
+      en: `André Tanneberger — better known by the initials ATB — was born on 26 February 1973 in Freiberg, in what was then East Germany. His parents moved the family west in 1984, and in the late 1980s the teenage Tanneberger began frequenting the Tarm Center club in Bochum, where DJ Thomas Kukula (General Base) was an early influence. His first production project, Sequential One — named after the Sequential Pro One synth he was working on — released the debut single "Let Me Hear You" in February 1993 and ran across two albums through 1998 before the lineup dissolved.
 
-His albums Movin' Melodies (1999), Dedicated (2002), and No Silence (2004) made him one of the genre's most consistent hitmakers, and the seven-album Trilogy run cemented his reputation as a producer who could deliver both club energy and radio-friendly melody. ATB has consistently appeared in DJ Mag's Top 100 since 1999 and continues to release new material — the 2021 reworking "Your Love (9 PM)" with Topic and A7S returned him to global charts twenty-three years after the original.`,
-      ja: `アンドレ・タンネベルガー——ATBの名で知られる——は1973年東ドイツ・フライベルク生まれ。ベルリンの壁を越えて密輸された電子音楽を聴いて育ち、90年代初頭に制作を開始。1998年の「9 PM (Till I Come)」のアイコニックなプラックト・ギターのリードはトランス史上最も再生されたトラックの一つとなり、英国と欧州各地でチャート1位を獲得した。
+The solo ATB project launched at the very end of 1998 with "9 PM (Till I Come)," released by Kontor Records in Germany on 26 October 1998 (and through Radikal Records in North America). The lead synth — an unmistakable rapid-pluck riff that pop history tends to remember as an acoustic guitar — went to #1 on the UK Singles Chart and the Irish Singles Chart and into the top ten across Australia, Italy, Norway, Denmark and Greece. It established the post-"Children" template for melodic-trance crossover: warm, mid-tempo, instantly hummable, and engineered to live on daytime radio as comfortably as a club closing slot. The debut album Movin' Melodies (1999) extended it with "Don't Stop!" and a trance reworking of Adamski & Seal's "Killer."
 
-『Movin' Melodies』（1999）、『Dedicated』（2002）、『No Silence』（2004）はジャンル屈指の安定したヒットメーカーとしての地位を確立し、7枚のアルバムからなるTrilogy企画はクラブのエネルギーとラジオ向けメロディの両立を証明。1999年以降DJ Mag Top 100常連で、2021年にはTopic & A7Sとの「Your Love (9 PM)」リワークで原曲から23年後のグローバル・チャート復帰を果たした。`,
+ATB's catalogue is unusually deep for a producer most casual listeners know through one track. Two Worlds (2000) used a double-CD club / chillout split that became a personal format; Dedicated (2002), Addicted to Music (2003), No Silence (2004), and the seven-album Trilogy / Future Memories arc carried him through the 2000s as a fixture of DJ Mag's Top 100. He runs his own ATB Studio operation and Sony / Kontor distribution; the 2021 collaboration "Your Love (9PM)" with Topic and A7S reactivated the original "9 PM" hook and entered the top ten in eighteen countries, returning him to global charts twenty-three years after the source single.
+
+Operator's note. The operator's path into trance is post-2018 ASOT, and the immediate effect of going back to ATB's late-90s catalogue from that direction is realising how much of the modern uplifting top-line — the bright, plucked, melodically-self-contained lead — is descended from "9 PM" rather than from the harder Dutch trance line. Drop "9 PM" between two 2026 Armada singles and the kinship is structural, not nostalgic: the same arc of build, melodic statement, and emotional release, just at a slightly slower BPM and with the pluck programmed live to MIDI rather than sequenced as a soft-synth preset. The Topic / A7S "Your Love (9PM)" rework is the cleanest evidence that the original lead still works once you swap the genre frame — which is the operator's working definition of a permanent trance hook.`,
+      ja: `アンドレ・タンネベルガー——ATBの頭文字で知られる——は1973年2月26日、当時の東ドイツ・フライベルクで生まれた。一家は1984年に西ドイツへ移住、80年代後半に十代のタンネベルガーはボーフムのクラブTarm Centerに通い始め、DJ Thomas Kukula（General Base）から早期の影響を受けた。最初のプロダクション・プロジェクト、Sequential One——彼が当時使用していたSequential Pro Oneシンセに因んで命名——は1993年2月にデビュー・シングル「Let Me Hear You」をリリース、2枚のアルバムを通じて1998年までラインナップを維持した後解散した。
+
+ソロ名義のATBプロジェクトは1998年末に立ち上がり、「9 PM (Till I Come)」がドイツのKontor Recordsから1998年10月26日にリリースされた（北米はRadikal Records経由）。ポップ史が「アコースティック・ギター」として記憶しがちなあの誤認されやすい高速プラック・リードは、UKシングル・チャートおよびアイルランド・シングル・チャートで1位を獲得し、オーストラリア、イタリア、ノルウェー、デンマーク、ギリシャでトップ10入り。「Children」以後のメロディック・トランス・クロスオーバーの定型を確立した——暖かく、ミッド・テンポで、瞬時にハミングできて、クラブの締めくくり枠と同じくらい違和感なく昼間のラジオに居れるよう設計されている。デビュー・アルバム『Movin' Melodies』（1999）は「Don't Stop!」とAdamski & Seal「Killer」のトランス・リワークでこの方向性を拡張した。
+
+ATBのカタログはカジュアルなリスナーが1曲だけ知るタイプのプロデューサーとしては異例に深い。『Two Worlds』（2000）はクラブ／チルアウトの2枚組という個人的フォーマットを採用、『Dedicated』（2002）、『Addicted to Music』（2003）、『No Silence』（2004）、そして7枚にわたる『Trilogy』／『Future Memories』のアーク全体を通じて、彼はDJ Mag Top 100の常連として2000年代を駆け抜けた。自身のATB Studioを運営しSony／Kontorの流通体制を持ち、2021年のTopicおよびA7Sとの共作「Your Love (9PM)」は原曲のフックを再起動して18カ国でトップ10入り、原曲リリースから23年後のグローバル・チャート復帰を果たした。
+
+オペレーター・ノート：オペレーターのトランス入りは2018年以後のASOTで、その方向からATBの90年代末カタログを遡って聴き直すことの即時の効果は、現代アップリフティングのトップ・ライン——明るく、プラックされ、メロディとして自己完結したリード——のどれほど多くが、よりハードなダッチ・トランス系譜ではなく「9 PM」を祖先としているかを認識することだ。「9 PM」を2026年のArmadaシングル2曲の間に挟むと、親族関係はノスタルジーではなく構造的に現れる：同じビルド／メロディック・ステートメント／情緒的解放のアーク、わずかに遅いBPMとソフト・シンセのプリセットではなくライブMIDIにプログラミングされたプラック。Topic／A7S「Your Love (9PM)」リワークは、ジャンル枠を交換しても原曲のリードがなお機能することの最もクリアな証拠だ——これがオペレーターの「永続するトランスのフック」の作業定義である。`,
     },
-    mentionedIn: ['history-of-trance-music', 'iconic-trance-anthems-that-defined-an-era'],
+    mentionedIn: ['history-of-trance-music', 'iconic-trance-anthems-that-defined-an-era', 'best-trance-tracks-1990s', 'defining-trance-anthems-2000s', 'iconic-trance-vocalists-voices-behind-anthems'],
   },
 
   {
