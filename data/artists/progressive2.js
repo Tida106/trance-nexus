@@ -67,10 +67,11 @@ Sashaはグラミー賞にノミネートされた史上初のDJで、Twilo、Av
       { title: 'Northern Exposure (with Sasha)', year: 1996, type: 'mix series' },
       { title: 'Global Underground 006: Sydney', year: 1998, type: 'mix album' },
       { title: 'Bedrock - Heaven Scent', year: 1999, type: 'track' },
-      { title: 'Transitions (radio show)', year: '2005–', type: 'radio show' },
-      { title: 'Live in...', year: '2012–', type: 'live mix series' },
+      { title: 'Bedrock Records (label, founded with Nick Muir)', year: 1999, type: 'label' },
+      { title: 'Transitions (radio show)', year: '2004–', type: 'radio show' },
+      { title: 'Live in... series', year: '2012–', type: 'live mix series' },
     ],
-    related: ['sasha', 'nick-warren', 'hernan-cattaneo', 'bt'],
+    related: ['sasha', 'nick-warren', 'hernan-cattaneo', 'bt', 'andrew-bayer', 'yotto'],
     links: {
       soundcloud: 'https://soundcloud.com/john-digweed',
       spotify: 'https://open.spotify.com/artist/3xnDktxhudJR2Wv3HZDQ9W',
@@ -86,14 +87,22 @@ Sashaはグラミー賞にノミネートされた史上初のDJで、Twilo、Av
       ja: 'ディープで催眠的なプログレッシブ・ハウス——容赦ないリズミック・ドライヴ、緻密な長尺アレンジメント、Sashaよりも暗いテック寄りのパレット。セットはしばしば6時間以上に及ぶ。',
     },
     bio: {
-      en: `John Digweed grew up DJing in Hastings, England, and started recording mixes for Mixmag in the early 90s before partnering with Sasha for the Northern Exposure series. His own catalogue — through Bedrock Records, the Global Underground series, and his Transitions radio show — has run continuously for over thirty years. Digweed was a long-time resident at New York's Twilo (alongside Sasha) and Heaven in London, and his marathon sets are foundational to how progressive house is performed today.
+      en: `John Digweed was born in Hastings, England on 1 January 1967 and started DJing at age fifteen, running his own raves on Hastings Pier through the late 1980s — bookings included Carl Cox and The Prodigy before either was a national name. He moved to London in 1987 to chase club residencies, then in 1992 secured the booking that defined the rest of his career: the residency at Renaissance in Derby, where he met fellow Renaissance resident Alexander Coe (Sasha). The Sasha & Digweed partnership that grew out of that residency produced the Northern Exposure mix-CD series (volume one released 27 September 1996) — the two-disc concept set that took the long-form progressive-house aesthetic out of the club and into the home-listening market.
 
-Bedrock Records, founded in 1999, has released hundreds of titles spanning Digweed's progressive-house lineage and the tech-leaning end of the spectrum. Transitions, broadcasting weekly since 2005, remains one of the most respected mix shows in dance music.`,
-      ja: `ジョン・ディグウィードはイングランド南東部ヘイスティングス出身。90年代初頭からMixmag誌のミックスを担当し、その後Sashaと組んで『Northern Exposure』シリーズを制作した。Bedrock Records、Global Undergroundシリーズ、ラジオ「Transitions」を通じて自身のカタログは30年以上にわたり継続している。ニューヨークTwilo（Sashaと共同）、ロンドンHeavenの長期レジデントを務め、彼のマラソン・セットは今日のプログレッシブ・ハウスの演奏様式の基盤となっている。
+In 1999 Digweed and Nick Muir founded Bedrock Records and released "Heaven Scent" as the label's catalogue-one launch — a UK top-40 hit, a Trainspotting / Groove soundtrack placement, and one of the most-cited progressive-house anthems of the era. Bedrock has since run continuously for over twenty-five years across the deep, tech-leaning progressive lineage Digweed has championed throughout. His Global Underground 006: Sydney (1998) was the GU brand's first full US release and remains a reference point for the entire mix-album format.
 
-1999年設立のBedrock Recordsは、ディグウィードのプログレッシブ・ハウス系譜とテック寄りのスペクトラムを横断する数百のタイトルをリリース。2005年から週次で放送中の「Transitions」はダンス・ミュージックで最も尊敬されるミックス番組の一つで在り続けている。`,
+Transitions — Digweed's weekly radio show — launched in September 2004 (often misdated to 2005 because the Kiss FM syndication rolled out in 2006) and has broadcast continuously ever since, crossing the 900-episode mark in late 2021. With Sasha he held the legendary Twilo NYC residency from 1999 to 2001, was DJ Mag's #1 in 2001, and his marathon six-to-eight-hour sets remain foundational to how progressive house is performed in 2026.
+
+Operator's note. Coming to progressive house from a primary trance frame — A State of Trance every week since Tomorrowland 2018 — what hits about a Transitions episode is how patient the bass programming is. Most "progressive" shows in 2026 are really melodic-progressive house at slower tempo: chord pads, breakdowns, a vocal. Transitions doesn't apologise for being four-to-the-floor for eighty minutes with harmonic content moving in slow, dub-techno-sized increments. It's the same long-form discipline that runs through Bedrock — the label is the textbook for what "deep, rolling, mood-over-melody" sounds like, and it's the corrective to the Anjuna-style melodic-progressive the operator otherwise lives in. If Andrew Bayer is the composer end of the spectrum, Digweed is the architect end, and the contrast makes both legible.`,
+      ja: `ジョン・ディグウィードは1967年1月1日イングランド南東部ヘイスティングス生まれ。15歳からDJを始め、80年代末にはヘイスティングス・ピアで自主レイヴを運営——Carl CoxやThe Prodigyを全国区になる前にブッキングしていた。1987年にロンドンへ移住、1992年にはダービーのRenaissanceでレジデンシーを獲得——そこで同じRenaissanceレジデントのアレクサンダー・コー（Sasha）と出会う。このパートナーシップから生まれた『Northern Exposure』ミックスCD（vol.1は1996年9月27日リリース）は、長尺プログレッシブ・ハウス美学をクラブからホーム・リスニング市場へと持ち出した2枚組コンセプト・セットとなった。
+
+1999年、ディグウィードはNick Muirと共にBedrock Recordsを設立し、レーベル第一弾として「Heaven Scent」をリリース——UKトップ40入り、映画『Trainspotting』および『Groove』へのサウンドトラック起用を経て、同時代を代表するプログレッシブ・ハウス・アンセムの一つとなった。Bedrockはその後25年以上連続稼働し、ディグウィードが牽引するディープでテック寄りのプログレッシブ系譜にまたがる数百のタイトルをリリースしている。『Global Underground 006: Sydney』（1998）はGUブランド初のフルUSリリースで、Boxedコンピレーションと並びミックスアルバム・フォーマット全体のリファレンスとなっている。
+
+ラジオ番組「Transitions」は2004年9月にスタート（2006年のKiss FMシンジケーションを起点とした誤情報で「2005年」と記載されることが多い）、以来週次で放送を継続し、2021年末には900回を突破した。Sashaと共にニューヨークTwiloで1999〜2001年の伝説的レジデンシーを務め、2001年にはDJ Mag第1位を獲得。6〜8時間に及ぶマラソン・セットは2026年のプログレッシブ・ハウスの演奏様式の基盤となっている。BedrockはHernan Cattaneo、Nick Warren、Guy Mantzurを含むより広いプログレッシブ・ハウス・エコシステムの編集本拠地であり続けている。
+
+オペレーター・ノート：トランスを起点として——2018年Tomorrowland以降毎週A State of Tranceを聴き続けて——プログレッシブ・ハウスに向かう時、Transitionsを聴いて毎回打たれるのはベース・プログラミングの忍耐強さだ。2026年の「プログレッシブ」を名乗る番組の多くは、実際にはテンポを落としたメロディック・プログレッシブ・ハウス——コード・パッド、ブレイクダウン、ボーカル——だ。Transitionsは80分間4つ打ちで通し、調和的コンテンツがダブ・テクノ並みの極小増分で動くことに一切の言い訳をしない。これはBedrockのカタログ全体に通底する長尺の規律であり、同レーベルは「深く、転がり、メロディよりムード」がどう響くかの教科書である。普段聴くAnjuna的なメロディック・プログレッシブへの対比軸として機能し、Andrew Bayerが作曲家側ならディグウィードは建築家側——その対比こそ両者を可読にする。`,
     },
-    mentionedIn: ['history-of-trance-music'],
+    mentionedIn: ['history-of-trance-music', 'what-is-progressive-trance', 'best-progressive-trance-tracks-of-all-time-50', 'top-10-trance-subgenres-explained'],
   },
 
   {
