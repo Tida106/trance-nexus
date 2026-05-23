@@ -16,12 +16,16 @@ export const crossover2 = [
     realName: 'Oliver Heldens',
     origin: 'Rotterdam, Netherlands',
     born: '1995',
-    activeFrom: '2016',
-    labels: ['Heldeep Records', 'Lyase Recordings'],
+    activeFrom: '2015',
+    labels: ['Heldeep Records', 'Lyase Recordings', 'Filth on Acid', 'Drumcode', 'mau5trap', 'HILOMATIK'],
     topWorks: [
-      { title: 'Renegade Mastah (with Sander van Doorn)', year: 2015, type: 'track (Heldeep debut)' },
+      { title: 'Renegade Mastah', year: 2015, type: 'track (HI-LO solo / Heldeep debut)' },
+      { title: 'Athena', year: 2021, type: 'track' },
+      { title: 'String Theory (with Reinier Zonneveld)', year: 2021, type: 'track' },
+      { title: 'Samsara (with Reinier Zonneveld)', year: 2022, type: 'track' },
+      { title: 'WANNA GO BANG (Drumcode)', year: '2020s', type: 'track' },
     ],
-    related: ['maddix', 'sneijder', 'allen-watts', 'mark-sixma'],
+    related: ['maddix', 'sneijder', 'allen-watts', 'mark-sixma', 'indira-paganotto', 'anyma'],
     links: {
       beatport: 'https://www.beatport.com/search?q=HI-LO',
     },
@@ -35,14 +39,22 @@ export const crossover2 = [
       ja: 'プログレッシブ・トランスのブレイクダウンDNAを持つダークでパーカッシブなテクノ——フェスティバル・メインステージ規模に設計されたドロップ、メロディック・トランスよりも疎な調和的コンテンツ、ピークタイム・アップリフティングよりも密なリズム・コンテンツ。',
     },
     bio: {
-      en: `HI-LO is the dark techno alias of Dutch DJ/producer Oliver Heldens, born in Rotterdam in 1995. The HI-LO project launched in 2016 as a parallel outlet for harder, more techno-forward material than the Heldens-branded house catalogue, and releases on Heldens' own Heldeep Records and the Lyase Recordings sub-label have followed steadily since.
+      en: `HI-LO is the techno alias of Dutch DJ/producer Oliver Heldens, born in Rotterdam on 1 February 1995. The name is a palindrome — "Oli H" reversed — and the project launched in July 2015 as a solo, parallel outlet for harder material than the Heldens-branded future-house catalogue (which by 2015 had already crossed over with "Gecko" and "Koala"). The first HI-LO release, "Renegade Mastah", landed on 20 July 2015 as the catalogue-one debut for Heldens' own newly-launched Heldeep Records — a solo track (often miscredited as a Sander van Doorn collaboration; Heldens-and-van Doorn's "This" is a separate 2014 release under the Heldens main name).
 
-Notable HI-LO releases include the 2015 "Renegade Mastah" collaboration with Sander van Doorn (Heldeep Records' debut release) and ongoing collaborations with figures from the wider techno crossover scene. The project sits in the dark progressive / techno register that has overlapped increasingly with the late-2010s and 2020s mainstage trance circuit, and HI-LO sets routinely appear on the same festival mainstage rosters as classic-trance acts.`,
-      ja: `HI-LOはオランダのDJ／プロデューサーOliver Heldensによるダーク・テクノ名義。1995年ロッテルダム生まれ。HI-LOプロジェクトは、Heldens名義のハウス・カタログよりもハードでテクノ前面の素材を投下する並行アウトレットとして2016年に始動。以降、Heldens自身のHeldeep Recordsおよびサブレーベル Lyase Recordingsからのリリースが継続している。
+HI-LO started in the bass-house / future-house lane but the project's editorial centre of gravity shifted decisively into techno across 2020-2022. The pivot was the collaboration series with Reinier Zonneveld — initiated when Heldens cold-DMed Zonneveld on Instagram with HI-LO demos — which has produced "Saw of Olympus", "Balearic Mornings", "String Theory" (2021), "Samsara" and "Nirvana" (Dec 2022), and "Flying Octopus" across Zonneveld's Filth on Acid imprint and Heldens' own labels. The catalogue has since extended onto mau5trap ("Zeus") and Drumcode ("WANNA GO BANG") — canonical techno-label placements that anchor HI-LO's transition into bona-fide techno.
 
-注目すべきHI-LOリリースには2015年のSander van Doornとの共作「Renegade Mastah」（Heldeep Recordsデビュー作）および、より広いテクノ・クロスオーバー・シーンの面々との継続的な共作が含まれる。プロジェクトは2010年代後半および2020年代のメインステージ・トランス・サーキットとますます重なってきたダーク・プログレッシブ／テクノ・レジスターに位置し、HI-LOセットはクラシック・トランス勢と同じフェスティバル・メインステージ・ロースターに常時登場している。`,
+Heldens performs HI-LO as a touring-distinct entity (dark visuals, peak-time techno rooms, Awakenings / ADE / Tomorrowland mainstage runs distinct from Oliver Heldens-branded house sets) and the project routinely shares festival stages with Anyma, Indira Paganotto, Maddix, and the broader techno-trance crossover roster.
+
+Operator's note. For a trance listener post-Tomorrowland-2018 who watches the modern mainstage converge, HI-LO is one of the cleanest pieces of evidence that the genre boundary the operator grew up assuming — trance over here, techno over there — has collapsed in the 2020s mainstage. A HI-LO drop on the 2025 Tomorrowland mainstage does not sound categorically different to a Vini Vici psy-trance drop on the same stage; the BPM, the kick programming, the breakdown architecture, the festival-scale drop release are all rendered in the same dialect. What Oliver Heldens demonstrates with this alias is that the harmonic content (techno's deliberate sparseness vs trance's chord-pad fullness) is now the only dependable genre marker — every other production parameter has fused. HI-LO sets sit next to Maddix, Indira Paganotto, and Anyma in the operator's recent listening for exactly this reason: they are the working definition of "what mainstage 2026 actually sounds like."`,
+      ja: `HI-LOはオランダのDJ／プロデューサーOliver Heldensのテクノ名義。1995年2月1日ロッテルダム生まれ。名前は「Oli H」の逆読みでパリンドロームになっている。プロジェクトはHeldens名義のフューチャー・ハウス・カタログ（2015年時点で既に「Gecko」「Koala」でクロスオーバーしていた）よりもハードな素材を投下するソロの並行アウトレットとして2015年7月に始動。HI-LO第一作「Renegade Mastah」は2015年7月20日にHeldens自身が新設したHeldeep Recordsのカタログ第一弾としてリリースされた——ソロ・トラックである（Sander van Doornとの共作として誤伝されることが多いが、Heldens＆van Doornの「This」は2014年のHeldens本名義の別リリース）。
+
+HI-LOはHeldensが本名義の評価を築いていたバス・ハウス／フューチャー・ハウス・レーンで始まったが、2020〜2022年にプロジェクトの編集的重心は決定的にテクノへとシフトした。転回点はReinier Zonneveldとのコラボレーション・シリーズ——HeldensがInstagram DMでZonneveldにHI-LOデモを送ったことから始まった——で、ZonneveldのFilth on Acidインプリントおよび自身のレーベルを通じて「Saw of Olympus」「Balearic Mornings」「Existencia」「String Theory」（2021）、「Samsara」「Nirvana」（2022年12月）、「Flying Octopus」をリリースしてきた。2021年のソロ作「Athena」は新サブレーベルHILOMATIKからリリースされ、その後カタログはmau5trap（Deadmau5レーベル、「Zeus」）およびDrumcode（Adam Beyerの旗艦、「WANNA GO BANG」）にも拡張——HI-LOのハウス・サイドプロジェクトから正式なテクノ・オペレーターへの転身を支える正典的テクノ・レーベル配置である。
+
+HeldensはHI-LOをツアー的に分離したエンティティとして演じる（ダーク・ビジュアル、ピークタイム・テクノ・ルーム、Oliver Heldens名義のハウス・セットとは別個のAwakenings／ADE／Tomorrowlandメインステージ出演）。プロジェクトは定常的にAnyma、Indira Paganotto、Maddix、より広いテクノ・トランス・クロスオーバー・ロースターとフェスティバル・ステージを共有している。
+
+オペレーター・ノート：2018年Tomorrowland以降のトランス・リスナーで、現代メインステージの収束を観察してきた者にとって、HI-LOは育って当然視してきたジャンル境界——こちら側にトランス、あちら側にテクノ——が2020年代メインステージで崩壊したことの最もクリーンな証拠の一つだ。2025年Tomorrowlandメインステージ上のHI-LOドロップは、同じステージ上のVini Viciサイトランス・ドロップとカテゴリ的に異なって響かない；BPM、キック・プログラミング、ブレイクダウン建築、フェス規模のドロップ・リリースはすべて同じ方言でレンダリングされる。Oliver Heldensがこのエイリアスで示しているのは、調和的コンテンツ（テクノの意図的な疎さ vs トランスのコード・パッド充実）が今や唯一の頼れるジャンル・マーカーであり——他のプロダクション・パラメータはすべて融合した、ということだ。HI-LOセットがオペレーターの近年のリスニングでMaddix、Indira Paganotto、Anymaの隣に位置するのはまさにこの理由による：それらが「2026年のメインステージが実際にどう響くか」の作業上の定義なのだ。`,
     },
-    mentionedIn: [],
+    mentionedIn: ['trance-vs-house-vs-techno', 'modern-trance-classics-2020s-so-far', 'new-generation-trance-artists-to-watch-2026', 'top-10-trance-subgenres-explained'],
   },
 
   {
