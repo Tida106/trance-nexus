@@ -60,38 +60,48 @@ Personal listener note: I caught Factor B as part of a Pure Trance mix Solarston
     emoji: '🎚️',
     genre: 'UPLIFTING',
     banner: 'b-uplifting',
-    tags: ['TECH TRANCE', 'UPLIFTING', 'SCOTTISH'],
+    tags: ['TECH TRANCE', 'UPLIFTING', 'SCOTTISH', 'ARIA DIGITAL', 'ARMADA'],
     realName: 'David Forbes',
     origin: 'Glasgow, Scotland',
-    activeFrom: '1999',
-    labels: ['Maelstrom Recordings', 'Discover Records', 'FSOE Argento', 'Black Hole Recordings'],
+    activeFrom: '1993',
+    labels: ['Aria Digital (own label)', 'Armada Music', "Who's Afraid Of 138?! (Armada)", 'Black Hole Recordings', 'Subculture', 'Outburst Records', 'Eve Records', 'Xtrahard (Public Domain)'],
     topWorks: [
-      { title: 'Questions Must Be Asked', year: 2003, type: 'track' },
-      { title: 'Apache', year: 2005, type: 'track' },
-      { title: 'Diskotek', year: 2026, type: 'track' },
+      { title: 'Questions (Must Be Asked)', year: 2000, type: 'track (Eve Records)' },
+      { title: 'Operation Blade (with Public Domain)', year: 2000, type: 'track (Xtrahard)' },
+      { title: 'Armour (Ciaran McAuley &amp; Audrey Gallagher — David Forbes Remix)', year: 2023, type: 'remix (Black Hole)' },
+      { title: 'Diskotek', year: 2026, type: "track (Who's Afraid Of 138?!)" },
     ],
     related: ['will-atkinson', 'activa', 'sean-tyas', 'bryan-kearney'],
     links: {
-      beatport: 'https://www.beatport.com/search?q=David+Forbes',
+      website: 'http://www.david-forbes.com',
+      beatport: 'https://www.beatport.com/artist/david-forbes/12335',
     },
     sub: { en: 'Tech Trance / Uplifting', ja: 'テック・トランス / アップリフティング' },
     short: {
-      en: 'Scottish trance veteran active since the late 1990s, founder of Maelstrom Recordings, and a returning name on the FSOE Argento sub-imprint.',
-      ja: '1990年代末から活動を続けるスコットランドのトランス・ベテラン。Maelstrom Recordingsの創設者で、FSOE Argentoサブインプリントの常連。',
+      en: 'Glaswegian trance veteran whose career began in 1993 as a hardcore/gabba producer at Hanger 13, transitioned to trance via Public Domain\'s 2000 hit "Operation Blade," and has been signed exclusively to Armada Music since 2010.',
+      ja: '1993年にHanger 13でハードコア／ガバ・プロデューサーとしてキャリアを開始し、2000年のPublic Domainによるヒット曲「Operation Blade」を経てトランスへ移行、2010年以降Armada Musicに専属契約しているグラスゴーのトランス・ベテラン。',
     },
     style: {
-      en: 'Tech-trance and peak-time uplifting with tribal, percussive arrangement DNA — a sound carried directly from the early-2000s UK trance club circuit into the modern Subculture / FSOE editorial direction.',
-      ja: '部族的でパーカッシブなアレンジメントDNAを持つテック・トランスとピークタイム・アップリフティング——2000年代初頭の英国トランス・クラブ・サーキットから現代のSubculture／FSOE編集方向へと直接運ばれてきたサウンド。',
+      en: 'Tech-trance and peak-time uplifting with rave-rooted percussive DNA — a sound that audibly carries hardcore-era club muscle memory into a 138 BPM trance context, sitting between the Subculture / Outburst tech-trance lane and the harder uplifting register John O\'Callaghan and Mark Sherry continue to define.',
+      ja: 'レイヴに根差したパーカッシブなDNAを持つテック・トランスとピークタイム・アップリフティング——ハードコア期のクラブ筋肉記憶を138 BPMトランス文脈に音響的に運ぶサウンドで、Subculture／Outburstのテック・トランス・レーンとJohn O\'Callaghanおよびマーク・シェリーが定義し続けるハードなアップリフティング・レジスターの間に位置する。',
     },
     bio: {
-      en: `David Forbes is a Scottish trance producer who has been active since the late 1990s and runs the long-standing Maelstrom Recordings imprint. His early-2000s peak-time tracks including "Questions Must Be Asked" (2003) and "Apache" (2005) became fixtures of the UK trance club circuit, and his catalogue has continued steadily through Discover Records, Black Hole, and most recently Aly & Fila's FSOE Argento sub-imprint.
+      en: `David Forbes is a Glaswegian DJ and producer whose trance career runs through more than a quarter-century of UK club history. He started at age 17 spinning records at Glasgow's Mayfair before becoming a resident at Hanger 13, the legendary Scottish hardcore venue, in the mid-1990s — where he released over twenty hardcore and gabba records as "Davie Forbes". His first commercial output came via Combined Forces in Holland and Noom Records in Germany in 1993, with subsequent Limbo-label releases as Propulsion and Tecra catching the attention of Nick Warren, Christopher Lawrence and John "00" Fleming.
 
-His 2026 release "Diskotek" appears on the Energy mix of the A State of Trance 2026 compilation — a placement that signals his continued relevance to the modern Pure Trance / FSOE-aligned 138 BPM scene more than two decades into his career.`,
-      ja: `デヴィッド・フォーブスは1990年代末から活動を続けるスコットランドのトランス・プロデューサー。長年Maelstrom Recordingsインプリントを運営している。「Questions Must Be Asked」（2003）や「Apache」（2005）など2000年代初頭のピークタイム・トラックは英国トランス・クラブ・サーキットの定番となり、カタログはDiscover Records、Black Hole、そして直近ではAly & FilaのFSOE Argentoサブインプリントを通じて安定して継続している。
+The transition to trance crystallised at the turn of the millennium. As Hal Stucker he released "The World Is Flat" on Telica in 1999, and as one third of Public Domain he co-wrote "Operation Blade (Bass In The Place...)" — the 2000 Xtrahard single that licensed into the Wesley Snipes Blade film and sold over 250,000 copies. His own solo trance breakthrough arrived the same year with "Questions (Must Be Asked)" on Eve Records, a record that still surfaces in retrospective canon lists. He runs Aria Digital, his own imprint covering up-tempo, uplifting and tech trance, and has been the creative force behind it for over a decade.
 
-2026年リリースの「Diskotek」はA State of Trance 2026コンピレーションのEnergyミックスに収録——これはキャリア20年以上を経てもなお現代のPure Trance／FSOE系列138 BPMシーンに関連性を持ち続けていることを示す配置である。`,
+Since 2010 Forbes has been signed exclusively to Armin van Buuren's Armada Music group, releasing across Armada and its sub-labels — most recently "Diskotek" on Who's Afraid Of 138?! (10 May 2026, WAO138447), which Armin selected for the Energy mix of the A State of Trance 2026 compilation. He played Area Two at the ASOT 2026 Festival at Ahoy Rotterdam on 28 February 2026, more than twenty-five years after his first trance release. Black Hole has been a regular remix outlet — his 2023 rework of Ciaran McAuley &amp; Audrey Gallagher's "Armour" appeared there — and the catalogue sits between the Subculture / Outburst tech-trance lane and the harder uplifting register John O'Callaghan and Mark Sherry continue to define.
+
+Operator's note. Forbes is one of the producers whose name surfaces when Armin's late-show programming swings toward the 138-as-club-tool register rather than the late-90s-emotional one. The personal hook for me is that the catalogue audibly carries Hanger 13 muscle memory into a 138 BPM context: the rhythm section drives like a rave record even when the lead is doing emotional trance work, and "Diskotek" is the cleanest 2026 illustration of that DNA twenty-five years on.`,
+      ja: `デヴィッド・フォーブスはグラスゴー出身のDJ／プロデューサーで、そのトランス・キャリアは英国クラブ史の四半世紀以上にわたる。17歳でGlasgowのMayfairクラブでレコードを回し始め、その後1990年代半ばに伝説的なスコットランドのハードコア会場Hanger 13のレジデントとなった——そこでエイリアス「Davie Forbes」名義で20曲以上のハードコアおよびガバ・レコードをリリースした。最初の商業リリースは1993年のオランダのCombined Forcesとドイツのレジェンダリー・レーベルNoom Recordsを通じてで、その後スコットランドのLimboレーベルからPropulsion／Tecra名義のリリースがNick Warren、Christopher Lawrence、John "00" Flemingらの注目を集めた。
+
+トランスへの移行は世紀の変わり目に結晶化した。Hal Stucker名義で「The World Is Flat」を1999年にTelicaからリリース、Public Domainの三分の一として「Operation Blade (Bass In The Place...)」——2000年のXtrahardシングルで、Wesley SnipesのBlade映画にライセンスされ25万枚以上を売り上げた作品——を共作した。彼自身のソロ・トランス・ブレイクスルーは同年、Eve Recordsからの「Questions (Must Be Asked)」で訪れ、現在も回顧的カノン・リストに登場し続けるレコードとなった。彼はアップテンポ、アップリフティング、テック・トランスをカバーする自身のインプリントAria Digitalを運営しており、10年以上にわたってその創造的中核を担っている。
+
+2010年以降、ForbesはArmin van BuurenのArmada Musicグループに専属契約しており、Armadaおよびそのサブレーベルからリリースを続けている——直近では2026年5月10日にWho's Afraid Of 138?!（WAO138447）からリリースされた「Diskotek」が、ArminによってA State of Trance 2026コンピレーションのEnergyミックスに採用された。2026年2月28日にはAhoy RotterdamでのASOT 2026 FestivalのArea Twoステージに出演——初トランス・リリースから25年以上を経ての登壇である。Black Holeは定期的なリミックス・アウトレットで——2023年のCiaran McAuley &amp; Audrey Gallagher「Armour」リワークがそこに登場——カタログ全体としてはSubculture／Outburstのテック・トランス・レーンとJohn O'Callaghanおよびマーク・シェリーが定義し続けるハードなアップリフティング・レジスターの間に位置する。
+
+オペレーター・ノート：Forbesは、Arminの後半セット・プログラミングが1990年代末のエモーショナル・レジスターよりも「138をクラブ・ツールとして使う」レジスターに振れる時に名前が浮上するプロデューサーの一人だ。私にとっての個人的フックは、カタログがHanger 13の筋肉記憶を138 BPM文脈に音響的に運んでいること：リードがエモーショナル・トランス・ワークをこなしている時でもリズム・セクションはレイヴ・レコードのように駆動する。「Diskotek」はそのDNAが四半世紀を経てもなお読み取れる2026年における最もクリーンな例示である。`,
     },
-    mentionedIn: ['best-trance-tracks-may-2026', 'best-trance-tracks-february-2026'],
+    mentionedIn: ['best-trance-tracks-may-2026', 'best-trance-tracks-february-2026', 'what-is-tech-trance', 'what-is-uplifting-trance'],
   },
 
   {
