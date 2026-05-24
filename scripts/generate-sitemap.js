@@ -111,7 +111,7 @@ const TAG_PAGES = fs.existsSync(TAG_FILE)
 const PAGES = [
   { url: '/',          changefreq: 'daily',  priority: '1.0' },
   { url: '/radio',     changefreq: 'weekly', priority: '0.8' },
-  { url: '/events',    changefreq: 'daily',  priority: '0.9' },
+  { url: '/events',    changefreq: 'weekly', priority: '0.8' },
   { url: '/artists',   changefreq: 'weekly', priority: '0.8' },
   { url: '/labels',    changefreq: 'weekly', priority: '0.8' },
   { url: '/glossary',  changefreq: 'weekly', priority: '0.7' },
