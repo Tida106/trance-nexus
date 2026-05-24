@@ -43,6 +43,9 @@ export default function SetlistsPage() {
               {t('setlists.title')}
             </h1>
             <div className="w-20 h-1 bg-gradient-to-r from-accent-red via-accent-orange to-transparent" />
+            <p className="mt-5 max-w-3xl text-sm md:text-base text-text-light/70 font-barlow leading-relaxed">
+              {t('setlists.subtitle')}
+            </p>
           </div>
 
           {/* Search */}
