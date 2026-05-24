@@ -2648,24 +2648,6 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/events/ozora-festival"/>
   </url>
   <url>
-    <loc>https://trance-nexus.com/events/pure-trance-events</loc>
-    <lastmod>2026-05-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/events/pure-trance-events"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/events/pure-trance-events"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/events/pure-trance-events"/>
-  </url>
-  <url>
-    <loc>https://trance-nexus.com/events/subculture-events</loc>
-    <lastmod>2026-05-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/events/subculture-events"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/events/subculture-events"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/events/subculture-events"/>
-  </url>
-  <url>
     <loc>https://trance-nexus.com/events/sunburn-festival</loc>
     <lastmod>2026-05-24</lastmod>
     <changefreq>weekly</changefreq>
@@ -2691,15 +2673,6 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/events/tomorrowland"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/events/tomorrowland"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/events/tomorrowland"/>
-  </url>
-  <url>
-    <loc>https://trance-nexus.com/events/ultra-europe</loc>
-    <lastmod>2026-05-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://trance-nexus.com/events/ultra-europe"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://trance-nexus.com/events/ultra-europe"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://trance-nexus.com/events/ultra-europe"/>
   </url>
   <url>
     <loc>https://trance-nexus.com/events/ultra-music-festival-miami</loc>

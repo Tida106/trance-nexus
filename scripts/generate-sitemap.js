@@ -50,7 +50,27 @@ const LABEL_PAGES = collectSlugs('labels').map((slug) => ({
   priority: '0.7',
 }));
 
-const EVENT_PAGES = collectSlugs('events').map((slug) => ({
+// Event collection: skip stub pages that carry `mergedInto` — these are
+// intentionally redirected to a canonical artist page (e.g. subculture-events
+// → john-ocallaghan, pure-trance-events → solarstone, ultra-europe →
+// ultra-music-festival-miami) and are noindex'd in app/events/[slug]/page.jsx.
+// Keeping them out of the sitemap aligns the crawl signal with the robots meta.
+function collectEventSlugsExcludingMerged() {
+  const dir = path.join(__dirname, '..', 'data', 'events');
+  if (!fs.existsSync(dir)) return [];
+  const slugs = [];
+  for (const file of fs.readdirSync(dir)) {
+    if (!file.endsWith('.js') || file === 'index.js') continue;
+    const content = fs.readFileSync(path.join(dir, file), 'utf8');
+    const slugMatch = /slug:\s*['"]([a-z0-9-]+)['"]/.exec(content);
+    if (!slugMatch) continue;
+    if (/mergedInto:\s*['"]/.test(content)) continue;
+    slugs.push(slugMatch[1]);
+  }
+  return slugs;
+}
+
+const EVENT_PAGES = collectEventSlugsExcludingMerged().map((slug) => ({
   url: `/events/${slug}`,
   changefreq: 'weekly',
   priority: '0.7',

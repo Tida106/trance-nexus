@@ -22,7 +22,7 @@ export async function generateMetadata({ params }) {
 
   const ogImage = { url: e.og_image || `/og/events/${slug}.png`, width: 1200, height: 630, alt: e.name };
 
-  return {
+  const metadata = {
     title: `${title} | TRANCE NEXUS`,
     description: desc,
     openGraph: {
@@ -48,6 +48,17 @@ export async function generateMetadata({ params }) {
       },
     },
   };
+
+  // Events with `mergedInto` are intentional stub pages that redirect
+  // editorial weight to a canonical artist profile (e.g. subculture-events
+  // → john-ocallaghan, pure-trance-events → solarstone). They exist for
+  // historical breadcrumb purposes but should not be indexed independently
+  // to avoid thin-content duplicates with the merged target.
+  if (e.mergedInto) {
+    metadata.robots = { index: false, follow: true };
+  }
+
+  return metadata;
 }
 
 function eventJsonLd(e) {
