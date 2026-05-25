@@ -178,16 +178,12 @@ Awards and recognition include winning the DJ Awards in Ibiza for the Psy-Trance
 
 The solo catalogue is characterised by crazy breakdowns, dynamic take-offs, and vocal-rich arrangement — a production approach that has placed Ranji alongside the broader Iboga / HOMmega-adjacent progressive-psy circle. He has released and remixed across Iboga Records (including remix work on the Vini Vici & Liquid Soul "Universe Inside Me" co-remix with Ghost Rider), with additional placements through the wider Israeli psy label ecosystem. The Ranji project sits in the lane where modern progressive psytrance reaches its highest production polish, and the catalogue has continued to grow through the 2020s.
 
-Within the trance landscape Ranji occupies the bridge zone between full-on energy and progressive structure — closer to the Iboga editorial line than to Astrix's harder festival full-on, but with more emotional payload than the typical 138 BPM Iboga floor track. He performs across the international psy festival circuit including Universo Paralello, Boom, Ozora, and the Love Explosion festival in Germany.
-
-For an operator who came to psytrance via Vini Vici's Tomorrowland-era ASOT spots and Armin's psy-curious sets, Ranji is the version of the modern Israeli sound where the song-writing comes through clearly — a useful entry point into the deeper Iboga / Phantasm progressive catalogue.`,
+Within the trance landscape Ranji occupies the bridge zone between full-on energy and progressive structure — closer to the Iboga editorial line than to Astrix's harder festival full-on, but with more emotional payload than the typical 138 BPM Iboga floor track. He performs across the international psy festival circuit including Universo Paralello, Boom, Ozora, and the Love Explosion festival in Germany.`,
       ja: `Ranjiは1983年テルアビブ生まれのイスラエル人サイトランス・プロデューサー。最初に世界的な注目を集めたのは、デビュー・アルバムが2009年にPhantasm Recordsからリリースされたプロジェクトの一部であるDapAnjiとしての活動を通じてだった。さらにプロフィールを高めたのは、2012年にGhost Riderと結成したデュオClass A——隕石のようにダンスフロアを直撃したプロジェクト。これら二つのプロジェクト・アイデンティティを通じて2000年代末/2010年代初頭のイスラエル・フルオン・サーキット内での地位を確立し、その後ソロ名義Ranjiをよりオープンマインドなプログレッシブ・トランス領域へとシフトさせた。
 
 ソロのカタログはクレイジーなブレイクダウン、ダイナミックな離陸、ヴォーカル豊富なアレンジメントを特徴とする——Iboga/HOMmega隣接のより広いプログレッシブ・サイ圏内にRanjiを位置づけるプロダクション・アプローチだ。Iboga Recordsを通じてリリースおよびリミックス・ワークを重ねており（Ghost RiderとのVini Vici & Liquid Soul「Universe Inside Me」共同リミックスを含む）、より広いイスラエル・サイ・レーベル・エコシステムからの追加配置もある。Ranjiプロジェクトは現代プログレッシブ・サイトランスがプロダクションの磨きの頂点に達するレーンに位置し、カタログは2020年代を通じて拡大を続けている。
 
-トランスの風景の中でRanjiが占めるのは、フルオンのエネルギーとプログレッシブの構造の間の架け橋ゾーン——Astrixのハードなフェスティバル・フルオンより、よりIboga編集ラインに近い位置だが、典型的な138 BPMのIbogaフロア・トラックよりも感情的ペイロードが大きい。Universo Paralello、Boom、Ozora、そしてドイツのLove Explosionフェスティバルを含む国際的サイ・フェスティバル・サーキットで演奏を続けている。
-
-Vini ViciのTomorrowland期のASOT配置とArminのサイに好奇心を寄せたセットを通じてサイトランスにたどり着いたオペレーターにとって、Ranjiはソング・ライティングが明確に伝わってくる現代イスラエル・サウンドのバージョンだ——より深いIboga/Phantasmプログレッシブ・カタログへの有用な入り口である。`,
+トランスの風景の中でRanjiが占めるのは、フルオンのエネルギーとプログレッシブの構造の間の架け橋ゾーン——Astrixのハードなフェスティバル・フルオンより、よりIboga編集ラインに近い位置だが、典型的な138 BPMのIbogaフロア・トラックよりも感情的ペイロードが大きい。Universo Paralello、Boom、Ozora、そしてドイツのLove Explosionフェスティバルを含む国際的サイ・フェスティバル・サーキットで演奏を続けている。`,
     },
     mentionedIn: ['rise-of-psytrance-goa-to-modern-day', 'what-is-psytrance', 'best-psytrance-tracks-of-all-time-50', 'modern-trance-classics-2020s-so-far'],
   },
@@ -278,16 +274,12 @@ Beyond their own catalogue, Avi Nissim and Lior Perlmutter co-founded Trust in T
 
 His discography centres on a string of full-length albums released across the 2000s and early 2010s: Headcleaner (2000), Overlap (2001), 2nd Brigade (2004), and Tour de Trance (2008). The 604 double album landed on Iboga Records in 2012 — one CD of new material plus a remix CD that documented both his remixes of others and others' reinterpretations of his tracks, effectively functioning as a midpoint retrospective. He has also released EPs on Iboga including "Where Do I Belong" and "One You Need", anchoring the project in the Iboga editorial line for over a decade.
 
-Within the trance landscape Atmos sits at the Scandinavian / progressive end of psy — the lineage that runs from the late-90s Goa transition through Vibrasphere, Liquid Soul, Ace Ventura, and the modern Iboga roster. The Scandinavian wing was always editorially distinct from the Israeli mainstream — cooler, more architectural, more focused on bassline and atmosphere than on overt melodic peaks — and Atmos is one of the producers who established that distinction in the first place.
-
-For the operator coming to psytrance via the Iboga progressive line, Atmos is the upstream source — the producer whose late-90s/early-2000s output is essentially the reference template that Ace Ventura and Liquid Soul built their projects on top of.`,
+Within the trance landscape Atmos sits at the Scandinavian / progressive end of psy — the lineage that runs from the late-90s Goa transition through Vibrasphere, Liquid Soul, Ace Ventura, and the modern Iboga roster. The Scandinavian wing was always editorially distinct from the Israeli mainstream — cooler, more architectural, more focused on bassline and atmosphere than on overt melodic peaks — and Atmos is one of the producers who established that distinction in the first place.`,
       ja: `Tomasz BalickiはAtmos名義で活動するポーランド生まれ、スウェーデン拠点のプロデューサーで、1990年代末以降プログレッシブ・サイトランス・シーンに不可欠な存在となってきた。プロジェクトは1998年に『Rebirth of Cavanaough』EPでデビュー、ブレイクスルー・シングル「The Only Process」（1999年、Tip Records）は新しいミニマル／プログレッシブ・サイトランス形態の基礎的トラックの一つとなった。スウェーデンの仲間プロデューサーNoma、Vibrasphere、Human Blueと並んで、Atmosは千年紀の変わり目頃に90年代半ばのゴア・フルオン・テンプレートに取って代わった、よりスロー、より深く、より攻撃性の低いサイの美学を導入し普及させる役割を担った。
 
 ディスコグラフィは2000年代から2010年代初頭に発売されたフル・アルバムを中心とする：『Headcleaner』（2000）、『Overlap』（2001）、『2nd Brigade』（2004）、そして『Tour de Trance』（2008）。ダブルアルバム『604』は2012年にIboga Recordsから発売——1枚は新作素材、もう1枚は彼が他者をリミックスしたものと他者が彼のトラックを再解釈したリミックスを収録した1枚で、実質的にミッドポイント・レトロスペクティブとして機能した。Ibogaから「Where Do I Belong」「One You Need」などのEPもリリースしており、プロジェクトを10年以上Iboga編集ラインに錨を下ろしている。
 
-トランスの風景の中でAtmosが占めるのはサイのスカンディナヴィアン／プログレッシブの端——90年代末のゴア移行期からVibrasphere、Liquid Soul、Ace Ventura、そして現代Ibogaロースターへと続く系譜だ。スカンディナヴィアンの一翼は常にイスラエル主流派から編集的に区別されてきた——よりクール、より建築的、メロディックなピークよりベースラインとアトモスフィアに集中する——そしてAtmosはその区別をそもそも確立したプロデューサーの一人である。
-
-Ibogaプログレッシブ・ラインを経由してサイトランスにたどり着いたオペレーターにとって、Atmosは上流の源——その90年代末／2000年代初頭の出力が、Ace VenturaとLiquid Soulがプロジェクトを構築する際の参照テンプレートそのものとなっているプロデューサーだ。`,
+トランスの風景の中でAtmosが占めるのはサイのスカンディナヴィアン／プログレッシブの端——90年代末のゴア移行期からVibrasphere、Liquid Soul、Ace Ventura、そして現代Ibogaロースターへと続く系譜だ。スカンディナヴィアンの一翼は常にイスラエル主流派から編集的に区別されてきた——よりクール、より建築的、メロディックなピークよりベースラインとアトモスフィアに集中する——そしてAtmosはその区別をそもそも確立したプロデューサーの一人である。`,
     },
     mentionedIn: ['rise-of-psytrance-goa-to-modern-day', 'what-is-goa-trance', 'what-is-psytrance', 'history-of-trance-music'],
   },
@@ -329,16 +321,12 @@ Ibogaプログレッシブ・ラインを経由してサイトランスにたど
 
 The project's first signing "Crystal Clear" was placed on the compilation Dance Computer on Iboga Records (compiled by Ace Ventura), and their follow-up — a remix for Ace Ventura & Rocky's "Dr. Lupo" on Echoes Records — reached number one on Beatport's Psy-Trance Downloads Chart for several weeks and became an international dancefloor anthem. In March 2013 Symbolic released the Prime Time EP on Iboga Records: a two-track set whose title track was made with Ace Ventura, paired with a remix of Vertical Mode's "Lazer Shot". Prime Time was chosen as one of Beatport's Top 10 Psy-Trance tracks of 2013, cementing the project's status within the Iboga progressive ecosystem.
 
-Within the trance landscape Symbolic sit in the same Iboga-defined progressive-psy circle as Ace Ventura, Liquid Soul, and Captain Hook — a generation of Israeli producers operating in the 138 BPM zone between full-on energy and progressive-house architecture. The project has been booked at Dreamstate SoCal, Ozora, and Boom-circuit events, and the catalogue continues to grow primarily through Iboga and adjacent label releases.
-
-For the operator coming to psytrance from years of Armin-led uplifting and ASOT, Symbolic represents the more groove-led, less melodically-saturated side of the modern Israeli sound — the lane where the kick-bass interlock matters more than the soaring lead, and where the Iboga editorial discipline keeps the production tight.`,
+Within the trance landscape Symbolic sit in the same Iboga-defined progressive-psy circle as Ace Ventura, Liquid Soul, and Captain Hook — a generation of Israeli producers operating in the 138 BPM zone between full-on energy and progressive-house architecture. The project has been booked at Dreamstate SoCal, Ozora, and Boom-circuit events, and the catalogue continues to grow primarily through Iboga and adjacent label releases.`,
       ja: `SymbolicはIlan ShemiとOshry Ben Simon（DJ Osho）が2011年半ばに立ち上げたイスラエルのプログレッシブ・サイトランス・プロジェクト。二人はイスラエル軍での兵役中に出会い、トランスのダイナミックなサウンドに対する情熱を共有していた。純粋なサイケデリック・プログレッシブ・トランスへの明確な方向性のもとスタジオで結成され、現在はIlan ShemiがSymbolicの顔として活動を主導している。
 
 プロジェクト最初のサイニング「Crystal Clear」はAce Venturaが編纂したIboga Recordsのコンピレーション『Dance Computer』に収録された。続いてEchoes Recordsからリリースされたリミックス——Ace Ventura & Rockyの「Dr. Lupo」のリミックス——はBeatportのサイトランス・ダウンロード・チャートで数週間1位を維持し、国際的なダンスフロア・アンセムとなった。2013年3月にはIboga Recordsから『Prime Time』EPをリリース——タイトル・トラックはAce Venturaとの共作、もう一曲はVertical Modeの「Lazer Shot」のリミックスという2曲構成のセットで、『Prime Time』は2013年のBeatportサイトランス・トップ10に選出され、Ibogaプログレッシブ・エコシステム内でのプロジェクトの地位を確立した。
 
-トランスの風景の中でSymbolicは、Ace Ventura、Liquid Soul、Captain Hookと同じIbogaが定義するプログレッシブ・サイの圏内に位置する——フルオンのエネルギーとプログレッシブ・ハウスの建築の間、138 BPMゾーンで活動するイスラエルのプロデューサー世代だ。プロジェクトはDreamstate SoCal、Ozora、Boom系列のイベントにブッキングされており、カタログは主にIbogaおよび関連レーベルからのリリースを通じて拡大を続けている。
-
-Arminを中心としたアップリフティングとASOTで何年も過ごした後にサイトランスにたどり着いたオペレーターにとって、Symbolicは現代イスラエル・サウンドのよりグルーヴ主導でメロディック飽和度の低い側を代表する——舞い上がるリードよりキックとベースの噛み合わせが効く側、Ibogaの編集規律がプロダクションを引き締めているレーンだ。`,
+トランスの風景の中でSymbolicは、Ace Ventura、Liquid Soul、Captain Hookと同じIbogaが定義するプログレッシブ・サイの圏内に位置する——フルオンのエネルギーとプログレッシブ・ハウスの建築の間、138 BPMゾーンで活動するイスラエルのプロデューサー世代だ。プロジェクトはDreamstate SoCal、Ozora、Boom系列のイベントにブッキングされており、カタログは主にIbogaおよび関連レーベルからのリリースを通じて拡大を続けている。`,
     },
     mentionedIn: ['rise-of-psytrance-goa-to-modern-day', 'what-is-psytrance', 'best-psytrance-tracks-of-all-time-50', 'top-10-trance-subgenres-explained'],
   },

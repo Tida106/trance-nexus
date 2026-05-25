@@ -47,16 +47,12 @@ export const crossover = [
 
 His catalogue peaked in the mid-2010s with the tracks that still define him: "Requiem" (2013) — described in the genre press as the most-played trance track of 2013 — followed by "Adagio for Strings" (2014), the Andrew Rayel collaboration "Chased" (2015), and "Panta Rhei" with Armin van Buuren (2015). Later signatures include "Sinfonia" (2018) and "X" (2019), and he has remained an in-rotation Armada artist across both A State of Trance programming and the wider Armada singles calendar. Beyond Armada he has released through Mainstage Music (W&amp;W's label), Revealed Recordings (Hardwell's imprint), and Black Hole Recordings, and his collaborator network spans Armin van Buuren, Andrew Rayel, W&amp;W, Faruk Sabanci and Ferry Corsten.
 
-His 2026 output continues at that pace. "Bring The Fire" is track 41 on the A State of Trance 2026 compilation (released 8 May 2026), sitting at 148 BPM in E Major in the Energy mix — and the "Bring Back The Techno" collaboration with Ørjan Nilsen and Nilsix arrived on Armind earlier in the year. Both releases place him alongside the producers who define the Armada modern direction more than eighteen years after the M6-era debut.
-
-Operator's note. Sixma is one of the producers whose Armada output sits in the specific zone where progressive trance touches the harder, faster mainstage register — 145-148 BPM, melodic hook still doing the emotional work but the rhythm section carrying real festival weight. The personal hook for me is that his classical-piano background shows up audibly: even on the harder tracks the melodic lines resolve like a piano piece — they go somewhere and then settle — rather than the modern habit of looping a four-bar lead until the drop arrives.`,
+His 2026 output continues at that pace. "Bring The Fire" is track 41 on the A State of Trance 2026 compilation (released 8 May 2026), sitting at 148 BPM in E Major in the Energy mix — and the "Bring Back The Techno" collaboration with Ørjan Nilsen and Nilsix arrived on Armind earlier in the year. Both releases place him alongside the producers who define the Armada modern direction more than eighteen years after the M6-era debut.`,
       ja: `マーク・シックスマ、本名Mark Frederik Sixma、1983年2月23日オランダ・ブレダ生まれ。幼少期にクラシック・ピアノを学んだオランダのトランス／ハウス・プロデューサーで、2000年代末にエイリアスM6名義で初期評判を築いた。2008年リリース「Fade 2 Black」——ArmadaのCaptivating SoundsサブレーベルからのMark Sixma presents M6名義——がA State of TranceのTune of the Weekを獲得、Armadaとの契約に繋がり、その後主要アウトプットを徐々にMark Sixma名義へとシフトした。
 
 カタログは2010年代半ばにピークを迎え、現在も彼を定義するトラックを残した：「Requiem」（2013）——ジャンル誌に2013年に最もプレイされたトランス・トラックと評された作品——に続いて「Adagio for Strings」（2014）、Andrew Rayelとの共作「Chased」（2015）、そしてArmin van Buurenとの「Panta Rhei」（2015）。後期のシグネチャー作品には「Sinfonia」（2018）と「X」（2019）が含まれ、A State of Tranceのプログラミングと広いArmadaシングル・カレンダーの両方でローテーション内のArmadaアーティストとして残り続けてきた。Armadaの外では、Mainstage Music（W&amp;Wのレーベル）、Revealed Recordings（Hardwellのインプリント）、Black Hole Recordingsからもリリースを持ち、コラボレーター・ネットワークはArmin van Buuren、Andrew Rayel、W&amp;W、Faruk Sabanci、Ferry Corstenにまたがる。
 
-2026年のアウトプットもそのペースを継続している。「Bring The Fire」はA State of Trance 2026コンピレーション（2026年5月8日リリース）のトラック41として、Energyミックス内にE Majorの148 BPMで位置している——加えてØrjan NilsenとNilsixとの共作「Bring Back The Techno」が同年早期にArmindから登場した。両リリースはM6期のデビューから18年以上を経てArmada現代方針を定義するプロデューサー陣に彼を並置するものだ。
-
-オペレーター・ノート：シックスマは、Armadaアウトプットがプログレッシブ・トランスがよりハードでより速いメインステージ・レジスターに触れる特定のゾーン——145〜148 BPM、メロディック・フックが依然として感情的仕事を担いつつリズム・セクションがリアルなフェスティバル重量を運ぶゾーン——に位置するプロデューサーの一人。個人的なフックは、クラシック・ピアノのバックグラウンドが音響的に現れていること：ハードなトラックでも、メロディック・ラインがドロップが到来するまで4小節リードをループさせる現代の習慣ではなく、ピアノ曲のように解決する——どこかに行ってから落ち着く——こと。`,
+2026年のアウトプットもそのペースを継続している。「Bring The Fire」はA State of Trance 2026コンピレーション（2026年5月8日リリース）のトラック41として、Energyミックス内にE Majorの148 BPMで位置している——加えてØrjan NilsenとNilsixとの共作「Bring Back The Techno」が同年早期にArmindから登場した。両リリースはM6期のデビューから18年以上を経てArmada現代方針を定義するプロデューサー陣に彼を並置するものだ。`,
     },
     mentionedIn: ['best-trance-tracks-february-2026', 'best-trance-tracks-may-2026', 'a-state-of-trance-show-that-changed-everything', 'what-is-progressive-trance'],
   },
@@ -100,16 +96,12 @@ Operator's note. Sixma is one of the producers whose Armada output sits in the s
 
 His relationship with Armada began with the 2006 release "Red Woods" under his DJ Governor alias, after which he settled into releasing primarily under his own name. Signature singles include "La Guitarra" (2008), "So Long Radio" and "Lovers Lane" (both 2010), and his three artist albums on Armada: In My Opinion (2011), No Saint Out of Me (2013), and Prism (2018). Across those records and the singles around them he became a regular ID-spot artist on Armin van Buuren's A State of Trance radio show and a recurring booking on the ASOT festival editions.
 
-Nilsen occupies a particular position in the trance ecosystem: not narrowly an uplifting purist, not a fully crossed-over big-room producer, but a Norwegian craftsman who has stayed close to the Armada family through three eras — the late-2000s Dutch-trance peak, the 2010s mainstage convergence, and the current revival period. That long-arc loyalty is what makes him a recognisable "ASOT family" name rather than just another Armada signing.
-
-For the operator, Ørjan's tracks were a steady undercurrent of A State of Trance listening in the years after Tomorrowland 2018 — never the headline anthem of any given episode, but the kind of melodic, slightly off-centre track that you keep recognising as his within a few bars. That signature is the real career.`,
+Nilsen occupies a particular position in the trance ecosystem: not narrowly an uplifting purist, not a fully crossed-over big-room producer, but a Norwegian craftsman who has stayed close to the Armada family through three eras — the late-2000s Dutch-trance peak, the 2010s mainstage convergence, and the current revival period. That long-arc loyalty is what makes him a recognisable "ASOT family" name rather than just another Armada signing.`,
       ja: `エルヤン・ニルセンは1982年ノルウェー生まれのDJ／プロデューサー。出身地はロシア国境近く、ノルウェー最北部の小さな町キルケネスである。2000年代半ばからArmada Musicエコシステムの定番アーティストとして活動し、カタログはアップリフティング、プログレッシブ、エレクトロ、メインステージ・トランスにまたがる——単一サブジャンルのレーンというより、Armada現代期そのものを支えてきた幅広いサウンド・アイデンティティ。
 
 Armadaとの関係は、2006年DJ Governor名義のリリース「Red Woods」から始まり、その後は主に本名名義でのリリースに落ち着いた。代表シングルには「La Guitarra」（2008）、「So Long Radio」「Lovers Lane」（共に2010）、そしてArmadaから出した3枚のアーティスト・アルバム——『In My Opinion』（2011）、『No Saint Out of Me』（2013）、『Prism』（2018）——がある。これらのアルバムとその周辺シングルを通じて、Armin van BuurenのA State of Tranceラジオショウの常連IDアーティストとなり、ASOTフェスティバル版への定期的なブッキング対象となった。
 
-ニルセンはトランス・エコシステム内で独特の位置を占める：狭義のアップリフティング純粋主義者でもなく、完全にクロスオーバーしたビッグルーム・プロデューサーでもなく、Armadaファミリーに3つの時代を通じて寄り添ってきたノルウェー人クラフツマン——2000年代末オランダ・トランス・ピーク期、2010年代メインステージ収束期、そして現在の復活期。この長期的な忠誠こそが、彼を単なるArmadaサイン・アーティストではなく「ASOTファミリー」の名として認知させている。
-
-オペレーターにとって、エルヤンのトラックはTomorrowland 2018後のA State of Tranceリスニング年月の安定した底流だった——どのエピソードの目玉アンセムでもないが、数小節で「これは彼だ」と認識できるメロディックでわずかに外したトラック。そのシグネチャーこそ実際のキャリアである。`,
+ニルセンはトランス・エコシステム内で独特の位置を占める：狭義のアップリフティング純粋主義者でもなく、完全にクロスオーバーしたビッグルーム・プロデューサーでもなく、Armadaファミリーに3つの時代を通じて寄り添ってきたノルウェー人クラフツマン——2000年代末オランダ・トランス・ピーク期、2010年代メインステージ収束期、そして現在の復活期。この長期的な忠誠こそが、彼を単なるArmadaサイン・アーティストではなく「ASOTファミリー」の名として認知させている。`,
     },
     mentionedIn: ['armin-van-buuren-king-of-trance', 'a-state-of-trance-show-that-changed-everything', 'asot-25-years-anniversary', 'best-trance-tracks-of-all-time-100', 'iconic-trance-anthems-that-defined-an-era'],
   },
@@ -152,16 +144,12 @@ Armadaとの関係は、2006年DJ Governor名義のリリース「Red Woods」�
 
 His catalogue spans Hardwell's Revealed Recordings, Spinnin' Records, Armada Music, Rave Culture, Oliver Heldens' Heldeep, and Dimitri Vegas & Like Mike's Smash The House. The Revealed partnership has been the most consistent thread: high-profile collaborations include "Revolution" with Hardwell and Timmy Trumpet, the 2023 acid-techno single "ACID" with Hardwell featuring Luciana, the 4 Strings "Take Me Away" remix and its 2024 follow-up "Take Me Away Again", and the 2022 Hardwell / Blasterjaxx / Maddix collaboration "16". Solo singles "Heute Nacht" and "My Gasoline" extended the catalogue, and in 2023 he launched his own label Extatic (XTTC) in partnership with Revealed. By 2023 he was ranked #95 on DJ Mag's Top 100 DJs, #11 Most Played Producer on 1001Tracklists, and #7 Best Selling Techno Artist on Beatport.
 
-Within the trance landscape Maddix occupies the crossover edge — closer to techno and big-room than to ASOT-mainline trance, but the trance influence is explicit and is what makes his "Take Me Away" rework with Hardwell work the way it does. He is one of the names that explains how the trance / techno / tech-house mainstage convergence actually sounds in 2026.
-
-For the operator, the Hardwell-Maddix "Take Me Away" rework is exactly the kind of track that A State of Trance has spent the past three years gradually re-incorporating — the bridge between Tomorrowland 2018-era big-room and the current revival's harder-edged direction.`,
+Within the trance landscape Maddix occupies the crossover edge — closer to techno and big-room than to ASOT-mainline trance, but the trance influence is explicit and is what makes his "Take Me Away" rework with Hardwell work the way it does. He is one of the names that explains how the trance / techno / tech-house mainstage convergence actually sounds in 2026.`,
       ja: `Maddixはオランダ人プロデューサー、Pablo Rindt（1990年12月3日生まれ）のプロジェクト。ジェンベ、ピアノ、ドラムを演奏する環境で育ち、高校でエレクトロニック・ダンス・ミュージックとFL Studioに出会い、2010年代後半にMaddix名義でリリースを開始。2018年頃に現在のコア・サウンドを結晶化させた。ブレイクスルーは2019年の「Ecstasy」——以来洗練を続けてきたよりハード・ヒッティングなテクノ・レイヴ方向の出発点として広く認知されている一曲で、ハードなテクノ・キック、アシッド・リバイバルのテクスチャ、2010年代後半から2020年代のメインステージを定義してきたトランス／テクノ・クロスオーバーへの有機的進化を伴う。
 
 カタログはHardwellのRevealed Recordings、Spinnin\' Records、Armada Music、Rave Culture、Oliver HeldensのHeldeep、Dimitri Vegas & Like MikeのSmash The Houseに広がる。Revealedとのパートナーシップは最も一貫したスレッドだ：ハイ・プロファイルなコラボレーションにはHardwellとTimmy Trumpetとの「Revolution」、2023年のアシッド・テクノ・シングル「ACID」（Hardwell feat. Luciana）、4 Strings「Take Me Away」のリミックスとその2024年続編「Take Me Away Again」、2022年のHardwell／Blasterjaxx／Maddixコラボ「16」がある。ソロ・シングル「Heute Nacht」「My Gasoline」がカタログを拡張し、2023年にはRevealedとのパートナーシップで自身のレーベルExtatic（XTTC）を立ち上げた。2023年時点でDJ Mag Top 100 DJsで95位、1001Tracklistsで最多プレイ・プロデューサー第11位、Beatportのベスト・セリング・テクノ・アーティスト第7位にランク。
 
-トランスの風景の中でMaddixが占めるのはクロスオーバーの縁——ASOTメインラインのトランスよりテクノおよびビッグ・ルームに近いが、トランスの影響は明示的であり、Hardwellとの「Take Me Away」リワークが機能する理由そのものだ。彼は2026年のトランス／テクノ／テック・ハウス・メインステージ収束が実際にどう響くかを説明する名前の一人である。
-
-オペレーターにとって、Hardwell-Maddixの「Take Me Away」リワークはまさに、A State of Tranceが過去3年間かけて段階的に再取り込みしてきたタイプのトラックだ——Tomorrowland 2018期のビッグ・ルームと現在の復活期のよりハードな方向の間の架け橋である。`,
+トランスの風景の中でMaddixが占めるのはクロスオーバーの縁——ASOTメインラインのトランスよりテクノおよびビッグ・ルームに近いが、トランスの影響は明示的であり、Hardwellとの「Take Me Away」リワークが機能する理由そのものだ。彼は2026年のトランス／テクノ／テック・ハウス・メインステージ収束が実際にどう響くかを説明する名前の一人である。`,
     },
     mentionedIn: ['modern-trance-classics-2020s-so-far', 'iconic-trance-anthems-that-defined-an-era', 'best-trance-tracks-of-all-time-100', 'essential-trance-labels-2026'],
   },

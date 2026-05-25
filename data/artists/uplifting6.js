@@ -168,16 +168,12 @@ Within the trance ecosystem Driftmoon belong to the cinematic / orchestral wing 
 
 He began running his own branded nights in Liverpool in 2018 as a student, playing alongside techno names like Jay Lumen, T78 and Umek to build a profile, then continued promoting locally in Northern Ireland after moving home during the pandemic. The breakout release was "1999" on Ben Hemsley's bebé recordings — a high-energy emotional banger built around the late-90s Balearic-trance template that scored his first Beatport top-ten and was widely picked up across the trance-revival circuit. Subsequent releases have placed him across Armada, Rave Alert, DOOF, Dreamstate Records (Insomniac), and Polyamor Berlin, and he played the Void Stage at Dreamstate SoCal 2025.
 
-Within the trance ecosystem Matty Ralph sits in the rave-revival lane alongside Ben Hemsley, Hannah Laing, Rozie, and Tyler Jack — a generation of younger producers explicitly rebuilding the late-90s sound rather than continuing the FSOE / Anjuna mainline. The lane has been one of the most commercially visible parts of the 2024-2026 trance resurgence, and Matty Ralph is one of its more editorially focused names.
-
-For the operator who started listening to ASOT in 2018, this is the inverse phenomenon — producers raised on the sounds of the previous generation rebuilding them for the current festival floor. "1999" specifically maps onto the same emotional register that Paul van Dyk's late-90s catalogue sits in, which is the whole point of the project.`,
+Within the trance ecosystem Matty Ralph sits in the rave-revival lane alongside Ben Hemsley, Hannah Laing, Rozie, and Tyler Jack — a generation of younger producers explicitly rebuilding the late-90s sound rather than continuing the FSOE / Anjuna mainline. The lane has been one of the most commercially visible parts of the 2024-2026 trance resurgence, and Matty Ralph is one of its more editorially focused names.`,
       ja: `マッティ・ラルフは北アイルランド、ファーマナ州出身のプロデューサーで、クラシック・トランスへの生涯にわたる愛着が現在のレイヴ・リバイバルのペースセッターとして彼を位置付けている。年上の兄を通じて『Godskitchen Classics』『Euphoria』、Paul van Dykの『Reflections』などのコンピレーションでダンス・ミュージックに早くから触れ、1990年代末〜2000年代初頭のバレアリック・トランス期——おおよそ1998〜2004年——が、今日のカタログを今なお駆動する形成的なリファレンス・ポイントとなった。
 
 2018年、学生時代にリヴァプールで自身のブランド・ナイトを運営し始め、Jay Lumen、T78、Umekといったテクノ系の名前と並んでプレイしてプロフィールを築いた。その後、パンデミック中に北アイルランドに戻ってからは地元でプロモートを続けた。ブレイクスルーとなったリリースはBen Hemsleyの bebé recordings からの「1999」——1990年代末バレアリック・トランス・テンプレートを軸に構築されたハイ・エナジーな感情爆発の一曲で、彼にBeatportでの初のトップ10入りをもたらし、トランス・リバイバル・サーキット全体で広く採り上げられた。後続のリリースはArmada、Rave Alert、DOOF、Dreamstate Records（Insomniac）、Polyamor Berlinに広がり、Dreamstate SoCal 2025のVoidステージにも出演した。
 
-トランス・エコシステム内において、マッティ・ラルフはBen Hemsley、Hannah Laing、Rozie、Tyler Jackと並ぶレイヴ・リバイバルのレーンに位置する——FSOEやAnjunaのメインラインを継続するのではなく、明示的に1990年代末のサウンドを再構築しようとする若い世代のプロデューサー陣。このレーンは2024〜2026年のトランス復活期において最も商業的に可視化された部分の一つであり、マッティ・ラルフはそのなかでも編集的に焦点の絞られた名前の一人である。
-
-2018年からASOTを聴き始めたオペレーターにとって、これは逆方向の現象だ——前世代のサウンドのもとで育ったプロデューサー陣が、現在のフェスティバル・フロアのためにそれらを再構築している。「1999」はとくにPaul van Dykの1990年代末カタログが座っているのと同じ感情レジスターにマッピングされ、それこそがこのプロジェクトの全てだ。`,
+トランス・エコシステム内において、マッティ・ラルフはBen Hemsley、Hannah Laing、Rozie、Tyler Jackと並ぶレイヴ・リバイバルのレーンに位置する——FSOEやAnjunaのメインラインを継続するのではなく、明示的に1990年代末のサウンドを再構築しようとする若い世代のプロデューサー陣。このレーンは2024〜2026年のトランス復活期において最も商業的に可視化された部分の一つであり、マッティ・ラルフはそのなかでも編集的に焦点の絞られた名前の一人である。`,
     },
     mentionedIn: ['what-is-uplifting-trance', 'iconic-trance-anthems-that-defined-an-era', 'modern-trance-classics-2020s-so-far', 'best-trance-tracks-of-all-time-100'],
   },
