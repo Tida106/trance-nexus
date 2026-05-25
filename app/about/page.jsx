@@ -34,26 +34,9 @@ function AboutEN() {
           TRANCE NEXUS is an independent portal documenting trance music&apos;s history and present.
         </p>
         <p className="mb-2">
-          The site is run by a trance fan based in Japan. After witnessing Armin van Buuren&apos;s
-          performance at Tomorrowland 2018, I became a weekly listener of A State of Trance and
-          have been immersed in trance music ever since.
+          The site is run by an independent trance fan. The operator started listening to trance
+          and listens to A State of Trance every week.
         </p>
-        <figure className="mt-5 mb-2">
-          <figcaption className="text-xs text-accent-orange/90 tracking-wider mb-2 font-bebas">
-            The set that got me hooked on trance
-          </figcaption>
-          <div className="relative w-full overflow-hidden rounded-md border border-accent-orange/20 bg-black" style={{ aspectRatio: '16 / 9' }}>
-            <iframe
-              src="https://www.youtube-nocookie.com/embed/79nFO8dTJfY"
-              title="Armin van Buuren live at Tomorrowland 2018"
-              loading="lazy"
-              allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerPolicy="strict-origin-when-cross-origin"
-              allowFullScreen
-              className="absolute inset-0 w-full h-full"
-            />
-          </div>
-        </figure>
         <p>
           The goal of this site is to serve as an entry point for those new to the genre, and a
           place to revisit for longtime fans. Artists, labels, tracks, terminology, and three
@@ -124,7 +107,7 @@ function AboutEN() {
       <section>
         <h2 className="font-bebas text-xl tracking-widest text-accent-orange mb-3">6. About the Operator</h2>
         <p>
-          TRANCE NEXUS is independently operated by a single trance fan based in Japan. It is not
+          TRANCE NEXUS is independently operated by a single trance fan. It is not
           affiliated with any label, promoter, festival, or radio station. All editorial decisions,
           design, code, and data curation are handled in-house. If you&apos;d like to support the
           site, the best things you can do are: share an article, follow on social, or use our
@@ -154,26 +137,9 @@ function AboutJA() {
           TRANCE NEXUS は、トランスミュージックの歴史と現在を記録する独立ポータルサイトです。
         </p>
         <p className="mb-2">
-          運営者は日本在住の日本人です。2018年 Tomorrowland でのアーミン・ヴァン・ブーレンのパフォーマンスを
-          目にしたことをきっかけに、A State of Trance（ASOT）の毎週視聴者となり、それ以来トランスミュージックに
-          深く傾倒してきました。
+          運営者は一人のトランスファンです。トランスを聴き始め、現在は A State of Trance を
+          毎週視聴しています。
         </p>
-        <figure className="mt-5 mb-2">
-          <figcaption className="text-xs text-accent-orange/90 tracking-wider mb-2 font-bebas">
-            私がトランスに夢中になるきっかけとなったセット
-          </figcaption>
-          <div className="relative w-full overflow-hidden rounded-md border border-accent-orange/20 bg-black" style={{ aspectRatio: '16 / 9' }}>
-            <iframe
-              src="https://www.youtube-nocookie.com/embed/79nFO8dTJfY"
-              title="Armin van Buuren live at Tomorrowland 2018"
-              loading="lazy"
-              allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerPolicy="strict-origin-when-cross-origin"
-              allowFullScreen
-              className="absolute inset-0 w-full h-full"
-            />
-          </div>
-        </figure>
         <p>
           このサイトは、トランスというジャンルをまだ知らない人にとっての入り口になり、
           長年のファンにとっては記憶を辿る場所になることを目指しています。
@@ -243,7 +209,7 @@ function AboutJA() {
       <section>
         <h2 className="font-bebas text-xl tracking-widest text-accent-orange mb-3">6. 運営者について</h2>
         <p>
-          TRANCE NEXUS は、日本を拠点とする一人のトランスファンによって個人運営されています。
+          TRANCE NEXUS は、一人のトランスファンによって個人運営されています。
           特定のレーベル・プロモーター・フェス・ラジオ局とは一切提携していません。
           編集判断・デザイン・コード・データキュレーションのすべてを内製で行っています。
           サイトを応援していただける方は、記事のシェア・SNSでのフォロー・楽曲やチケット購入時の
