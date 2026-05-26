@@ -48,7 +48,7 @@ const boomFestival = {
 
   editions: [
     { year: 2027, dates: 'July 18–25', note: 'Next confirmed edition (New Moon)' },
-    { year: 2023, dates: 'July 20–27', note: 'Consecutive post-covid edition; 39,452 attendees from 169 countries' },
+    { year: 2023, dates: 'July 20–27', note: 'Consecutive post-covid edition; ~39,000 attendees from 177 countries' },
     { year: 2022, dates: 'July 22–29', note: 'First post-covid edition' },
     { year: 2018, dates: 'July 22–29' },
     { year: 2016, dates: 'August 11–18' },
