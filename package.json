@@ -20,7 +20,6 @@
     "verify:all": "npm run verify:artist-links && npm run verify:amazon-asins",
     "scrape": "node scrapers/update-all.js",
     "scrape:radio": "node scrapers/scrape-radio.js",
-    "scrape:setlists": "node scrapers/scrape-setlists.js",
     "scrape:events": "node scrapers/scrape-events.js",
     "post:x": "node scrapers/post-x.js",
     "schedule": "node scrapers/scheduler.js"

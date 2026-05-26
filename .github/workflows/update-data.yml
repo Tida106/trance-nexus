@@ -31,7 +31,6 @@ jobs:
       - name: Run scrapers
         run: |
           node scrapers/scrape-radio.js
-          node scrapers/scrape-setlists.js
           node scrapers/scrape-events.js
         continue-on-error: true
 

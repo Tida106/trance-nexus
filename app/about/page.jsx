@@ -52,7 +52,6 @@ function AboutEN() {
           <li><strong className="text-text-light">Artists</strong> — profiles of legendary and emerging trance DJs and producers</li>
           <li><strong className="text-text-light">Labels</strong> — coverage of Armada, Anjunabeats, Black Hole, FSOE, Iboga, and other key imprints</li>
           <li><strong className="text-text-light">Radio Shows</strong> — schedules for ASOT, Group Therapy, Future Sound of Egypt, and more</li>
-          <li><strong className="text-text-light">Setlists</strong> — tracklists pulled from the world&apos;s biggest trance sets</li>
           <li><strong className="text-text-light">Editorial</strong> — long-form articles on subgenres, history, production, and culture</li>
         </ul>
       </section>
@@ -240,7 +239,7 @@ export default function AboutPage() {
       email: CONTACT_EMAIL,
       description: isJA
         ? 'トランスミュージック情報ポータル — リリース、イベント、アーティスト、ラジオ番組、セットリストを網羅。'
-        : 'Trance music information portal — releases, events, artists, radio shows, and setlists.',
+        : 'Trance music information portal — releases, events, artists, and radio shows.',
       sameAs: [],
     },
   };

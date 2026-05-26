@@ -10,15 +10,14 @@ import { artists } from '@/data/artists/index';
 import { labels } from '@/data/labels/index';
 import { glossary } from '@/data/glossary/index';
 import radioData from '@/data/radio.json';
-import setlistsData from '@/data/setlists.json';
 import { events as eventsData } from '@/data/events/index';
 import ArtistCard from '@/components/ArtistCard';
 import HeroSearchBar from '@/components/HeroSearchBar';
 
-// Robust array length for the JSON feeds — radio/setlists/events JSON
-// files have alternated between bare arrays and object-wrapped exports
-// across scrapes, so coerce both shapes to a number rather than blow up
-// the home build if the next scrape lands as an object.
+// Robust array length for the JSON feeds — radio/events JSON files have
+// alternated between bare arrays and object-wrapped exports across
+// scrapes, so coerce both shapes to a number rather than blow up the
+// home build if the next scrape lands as an object.
 const sizeOf = (data) => {
   if (Array.isArray(data)) return data.length;
   if (data && typeof data === 'object') return Object.keys(data).length;
@@ -77,7 +76,6 @@ export default function Home() {
   const stats = [
     { value: artists.length,         label: t('home.stats.artists') },
     { value: sizeOf(radioData),      label: t('home.stats.radio') },
-    { value: sizeOf(setlistsData),   label: t('home.stats.setlists') },
     { value: sizeOf(eventsData),     label: t('home.stats.events') },
   ].filter((s) => s.value > 0);
 
@@ -161,7 +159,7 @@ export default function Home() {
     name: 'TRANCE NEXUS',
     alternateName: 'トランスネクサス',
     url: 'https://trance-nexus.com',
-    description: 'Comprehensive trance music portal covering artists, radio shows, setlists, and events worldwide',
+    description: 'Comprehensive trance music portal covering artists, radio shows, and events worldwide',
     inLanguage: ['en', 'ja'],
     potentialAction: {
       '@type': 'SearchAction',
@@ -756,10 +754,9 @@ export default function Home() {
 
       {/* ─────────────────────────────────────────────────────────────
           DISCOVER — compact tile row pointing at the remaining
-          surfaces (Labels, Setlists, Radio) the prescribed home
-          layout doesn't dedicate sections to. Keeps those areas
-          discoverable from the home without dedicating full vertical
-          space to each.
+          surfaces (Labels, Radio) the prescribed home layout doesn't
+          dedicate sections to. Keeps those areas discoverable from
+          the home without dedicating full vertical space to each.
           ───────────────────────────────────────────────────────── */}
       <section id="discover" className="cv-auto relative z-10 py-16 px-6 md:px-12 bg-dark-bg2/50">
         <div className="max-w-5xl mx-auto">
@@ -769,7 +766,7 @@ export default function Home() {
             </h2>
             <div className="w-16 h-1 bg-gradient-to-r from-accent-red via-accent-orange to-transparent mx-auto" />
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             <Link
               href="/labels"
               className="group bg-dark-bg2/70 border border-orange-900/20 rounded-sm p-5 text-center hover:border-accent-orange/50 hover:translate-y-[-2px] transition-all"
@@ -780,18 +777,6 @@ export default function Home() {
               </div>
               <div className="text-xs text-text-muted mt-1">
                 {isJA ? 'Anjunabeats、FSOE、Black Hole 他' : 'Anjunabeats, FSOE, Black Hole & more'}
-              </div>
-            </Link>
-            <Link
-              href="/setlists"
-              className="group bg-dark-bg2/70 border border-orange-900/20 rounded-sm p-5 text-center hover:border-accent-orange/50 hover:translate-y-[-2px] transition-all"
-            >
-              <div className="text-3xl mb-2">🎵</div>
-              <div className="font-bebas text-base tracking-widest text-white group-hover:text-accent-orange transition-colors">
-                {isJA ? 'セットリスト' : 'Setlists'}
-              </div>
-              <div className="text-xs text-text-muted mt-1">
-                {isJA ? '最新のDJセット' : 'Latest DJ sets'}
               </div>
             </Link>
             <Link

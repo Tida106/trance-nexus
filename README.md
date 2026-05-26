@@ -1,6 +1,6 @@
 # TRANCE NEXUS — Trance Music Information Portal
 
-トランスミュージック情報の総合ポータルサイト。アーティスト情報、ラジオ番組スケジュール、セットリスト、イベント情報を自動収集・更新するシステム。
+トランスミュージック情報の総合ポータルサイト。アーティスト情報、ラジオ番組スケジュール、イベント情報を自動収集・更新するシステム。
 
 ## 🎵 プロジェクト概要
 
@@ -10,7 +10,7 @@
 - 💿 **20レーベル** - レーベル史、所属アーティスト、代表作
 - 📰 **40記事** - 歴史・サブジャンル解説・アーティスト特集・DJ機材ガイドの長尺ブログ
 - 📚 **40用語集** - ジャンル・プロダクション・DJ・カルチャー用語の定義
-- 📻 ラジオ番組／🎵 セットリスト／🎉 イベントの自動収集スクレイパー（拡張中）
+- 📻 ラジオ番組／🎉 イベントの自動収集スクレイパー（拡張中）
 
 数値は `data/` 内の実データから build 時に算出（`app/page.jsx` の hero stats）。コンテンツ追加で自動更新されます。
 
@@ -32,12 +32,10 @@ trance-nexus/
 ├── data/
 │   ├── artists.json               # アーティストマスターデータ
 │   ├── radio.json                 # ラジオ番組データ
-│   ├── setlists.json              # セットリストデータ
 │   ├── events.json                # イベントデータ
 │   └── backup/                    # 旧データバックアップ
 ├── scrapers/
 │   ├── scrape-radio.js            # ラジオスケジュール取得
-│   ├── scrape-setlists.js         # セットリスト取得（1001tracklists）
 │   ├── scrape-events.js           # イベント情報取得
 │   ├── update-all.js              # 全スクレイパー一括実行
 │   └── scheduler.js               # cron自動実行設定
@@ -49,8 +47,6 @@ trance-nexus/
 │   │   └── page.jsx               # アーティスト一覧ページ
 │   ├── radio/
 │   │   └── page.jsx               # ラジオ番組ページ
-│   ├── setlists/
-│   │   └── page.jsx               # セットリストページ
 │   └── events/
 │       └── page.jsx               # イベント情報ページ
 ├── components/
@@ -84,7 +80,6 @@ npm run scrape
 
 # 個別実行
 npm run scrape:radio
-npm run scrape:setlists
 npm run scrape:events
 ```
 
@@ -205,22 +200,6 @@ NEXT_PUBLIC_API_URL=https://trance-nexus.vercel.app
     {"day": "FRI", "time": "21:00 CET", "ep": "毎週"}
   ],
   "desc": "説明文..."
-}
-```
-
-### setlists.json
-```json
-{
-  "event": "ASOT 1100",
-  "dj": "Armin van Buuren",
-  "date": "2026年3月15日",
-  "venue": "Utrecht, NL",
-  "duration": "2h 00m",
-  "type": "live",
-  "tracks": [
-    {"n": 1, "t": "トラック名", "time": "0:00"}
-  ],
-  "more": 47
 }
 ```
 

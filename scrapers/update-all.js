@@ -3,7 +3,6 @@ const { execSync } = require('child_process');
 async function runScrapers() {
   const scrapers = [
     { name: 'Radio Shows', script: 'scrapers/scrape-radio.js' },
-    { name: 'Setlists', script: 'scrapers/scrape-setlists.js' },
     { name: 'Events', script: 'scrapers/scrape-events.js' },
     { name: 'X Auto-post', script: 'scrapers/post-x.js' },
   ];

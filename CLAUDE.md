@@ -36,11 +36,9 @@ trance-nexus/
 ├── data/
 │   ├── artists.json       ← アーティストマスターデータ
 │   ├── radio.json         ← ラジオ番組データ
-│   ├── setlists.json      ← セットリストデータ
 │   └── events.json        ← イベントデータ
 ├── scrapers/
 │   ├── scrape-radio.js    ← ラジオスケジュール取得
-│   ├── scrape-setlists.js ← セットリスト取得（1001tracklists）
 │   ├── scrape-events.js   ← イベント情報取得
 │   └── update-all.js      ← 全スクレイパー一括実行
 ├── src/
@@ -48,7 +46,6 @@ trance-nexus/
 │   │   ├── page.jsx       ← トップページ
 │   │   ├── artists/
 │   │   ├── radio/
-│   │   ├── setlists/
 │   │   └── events/
 │   └── components/
 └── public/
@@ -70,8 +67,10 @@ npm install cheerio axios node-cron
 
 ## Step 2 — データファイル作成
 
-`data/artists.json`, `data/radio.json`, `data/setlists.json`, `data/events.json` を作成。
-`trance-nexus.html` 内の `ARTISTS`, `RADIO`, `SETLISTS`, `EVENTS` 定数からJSONに変換して初期データとして使うこと。
+`data/artists.json`, `data/radio.json`, `data/events.json` を作成。
+`trance-nexus.html` 内の `ARTISTS`, `RADIO`, `EVENTS` 定数からJSONに変換して初期データとして使うこと。
+
+> **注記:** 旧 `/setlists` ページと `data/setlists.json` / `scrapers/scrape-setlists.js` は2026-05に完全削除済み。当時のJSONは4件すべて捏造（実在の番組名・DJ名に架空の日付/会場/曲名を被せたもの）でスクレイパーも動作実態がなかったため、復活は禁止。トラックリスト集約を再開する場合は実セット由来のデータ＋出典明記が必須。
 
 ---
 
@@ -101,12 +100,6 @@ async function main() {
 main();
 ```
 
-### scrapers/scrape-setlists.js
-- 対象: https://www.1001tracklists.com
-- 取得内容: 各アーティストの最新セットリスト（トラック名・時刻・イベント名）
-- `data/artists.json` のアーティストリストをループして取得
-- robots.txt を必ず確認し、禁止されているパスはスキップすること
-
 ### scrapers/scrape-events.js
 - 対象: https://www.residentadvisor.net/events （trance ジャンルフィルター）
 - 取得内容: イベント名・日付・会場・出演アーティスト・チケットURL
@@ -116,7 +109,7 @@ main();
 全スクレイパーを順番に実行する統合スクリプト。
 ```js
 const { execSync } = require('child_process');
-['scrape-radio','scrape-setlists','scrape-events'].forEach(s => {
+['scrape-radio','scrape-events'].forEach(s => {
   console.log(`▶ Running ${s}...`);
   execSync(`node scrapers/${s}.js`, { stdio: 'inherit' });
 });
@@ -132,7 +125,7 @@ console.log('🎉 All data updated!');
 
 ### app/page.jsx — ヒーローセクション
 - フラメのアニメーション背景
-- 統計数値（アーティスト数・番組数・セットリスト数・イベント数）
+- 統計数値（アーティスト数・番組数・イベント数）
 
 ### app/artists/page.jsx
 - `data/artists.json` を読み込んで表示
@@ -142,10 +135,6 @@ console.log('🎉 All data updated!');
 - `data/radio.json` を読み込み
 - フィーチャーショー（ASOT）をヒーローカードで大きく表示
 - Weekly/Biweekly/Monthlyタブ
-
-### app/setlists/page.jsx
-- `data/setlists.json` を読み込み
-- トラックリスト展開UI（最初は5曲、「もっと見る」で全曲）
 
 ### app/events/page.jsx
 - `data/events.json` を読み込み
@@ -186,7 +175,6 @@ console.log('🕐 Scheduler running...');
     "start": "next start",
     "scrape": "node scrapers/update-all.js",
     "scrape:radio": "node scrapers/scrape-radio.js",
-    "scrape:setlists": "node scrapers/scrape-setlists.js",
     "scrape:events": "node scrapers/scrape-events.js",
     "schedule": "node scrapers/scheduler.js"
   }

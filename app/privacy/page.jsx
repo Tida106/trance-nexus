@@ -21,7 +21,7 @@ function PrivacyEN() {
         <h2 className="font-bebas text-xl tracking-widest text-accent-orange mb-3">1. Overview</h2>
         <p>
           TRANCE NEXUS (&ldquo;this site&rdquo;) is a fan-made trance music information portal providing
-          artist profiles, radio show schedules, setlists, and event information. This Privacy
+          artist profiles, radio show schedules, and event information. This Privacy
           Policy explains how we handle information collected through your use of the site.
         </p>
       </section>

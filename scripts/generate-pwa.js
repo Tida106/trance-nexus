@@ -200,7 +200,7 @@ function generateManifest() {
     name: 'TRANCE NEXUS — Trance Music Portal',
     short_name: 'TRANCE NEXUS',
     description:
-      'Comprehensive trance music portal: artists, labels, radio shows, setlists, festivals, and long-form journalism.',
+      'Comprehensive trance music portal: artists, labels, radio shows, festivals, and long-form journalism.',
     start_url: p('/'),
     scope: p('/'),
     id: p('/'),

@@ -42,7 +42,6 @@ export default function Navigation() {
         {[
           { label: t('nav.artists'), href: '/artists' },
           { label: t('nav.radio'), href: '/radio' },
-          { label: t('nav.setlists'), href: '/setlists' },
           { label: t('nav.events'), href: '/events' },
           { label: t('nav.about'), href: '/about' },
         ].map((link) => (

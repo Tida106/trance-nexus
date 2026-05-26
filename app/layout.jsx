@@ -178,7 +178,7 @@ export default function RootLayout({ children }) {
               '@type': 'Organization',
               name: 'TRANCE NEXUS',
               url: 'https://trance-nexus.com',
-              description: 'Trance Music Information Portal covering artists, radio shows, setlists, and events worldwide',
+              description: 'Trance Music Information Portal covering artists, radio shows, and events worldwide',
               email: 'hello.sacredjapan@gmail.com',
               inLanguage: ['en', 'ja'],
             }),
