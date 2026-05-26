@@ -47,7 +47,7 @@ const luminosityBeachFestival = {
   labels: ['FSOE Recordings', 'Subculture', 'Pure Trance Recordings', 'VII Records'],
 
   editions: [
-    { year: 2026, dates: 'June 25–28', note: "Beachclub Bernie's, Zandvoort — ~140 artists across the bill" },
+    { year: 2026, dates: 'June 25–28', note: "Beachclub Bernie's, Zandvoort — 120+ artists across the bill" },
     { year: 2025, dates: 'June 26–29' },
     { year: 2024, dates: 'June 27–30', note: "Beachclub Bernie's, Zandvoort" },
     { year: 2020, note: 'Cancelled (Covid-19)' },
@@ -60,11 +60,11 @@ const luminosityBeachFestival = {
 
   en: {
     description:
-      "Luminosity Beach Festival is the canonical Dutch outdoor trance festival, run by Luminosity Events. The organisation was founded in 2006 and the first edition followed in 2007 on the Dutch coast; the festival has been held annually since, except for 2020 when it was cancelled due to Covid-19. It has cycled through nearby beachclubs (Beachclub Fuel in Bloemendaal aan Zee earlier, Beachclub Bernie's in Zandvoort from 2024 onwards) and runs as a four-day late-June event.\n\nIt is widely regarded as the spiritual home of contemporary uplifting and tech-trance, with FSOE, Subculture, Pure Trance, and VII Records all hosting stages. The 2026 edition (25–28 June at Beachclub Bernie's, Zandvoort) features around 140 artists across the bill — headliners include Aly & Fila, John O'Callaghan, Bryan Kearney, Ferry Corsten, Markus Schulz, Paul van Dyk, Giuseppe Ottaviani, Mauro Picotto, and Will Atkinson.",
+      "Luminosity Beach Festival is the canonical Dutch outdoor trance festival, run by Luminosity Events. The organisation was founded in 2006 and the first edition followed in 2007 on the Dutch coast; the festival has been held annually since, except for 2020 when it was cancelled due to Covid-19. It has cycled through nearby beachclubs (Beachclub Fuel in Bloemendaal aan Zee earlier, Beachclub Bernie's in Zandvoort from 2024 onwards) and runs as a four-day late-June event.\n\nIt is widely regarded as the spiritual home of contemporary uplifting and tech-trance, with FSOE, Subculture, Pure Trance, and VII Records all hosting stages. The 2026 edition (25&ndash;28 June at Beachclub Bernie's, Zandvoort) features over 120 artists across the bill &mdash; headliners include Aly &amp; Fila, John O'Callaghan, Bryan Kearney, Ferry Corsten, Markus Schulz, Paul van Dyk, Giuseppe Ottaviani, Mauro Picotto, and Will Atkinson.",
   },
   ja: {
     description:
-      'Luminosity Beach Festivalはオランダのカノニカルな野外トランス・フェスティバルで、Luminosity Eventsが運営する。同団体は2006年に設立され、初回エディションは2007年にオランダの海岸で開催された。以降毎年開催されているが、2020年はコロナ禍で中止となった。近郊のビーチクラブを巡回しており（初期はブルメンダール・アン・ゼーのBeachclub Fuel、2024年以降はザントフォールトのBeachclub Bernie\'s）、6月下旬の4日間イベントとして運営される。\n\n現代アップリフティング＆テック・トランスの精神的故郷と広く見なされており、FSOE、Subculture、Pure Trance、VII Recordsがそれぞれステージを運営する。2026年エディション（6月25〜28日／Beachclub Bernie\'s, Zandvoort）には約140アーティストが出演し、ヘッドライナーにはAly & Fila、John O\'Callaghan、Bryan Kearney、Ferry Corsten、Markus Schulz、Paul van Dyk、Giuseppe Ottaviani、Mauro Picotto、Will Atkinsonが含まれる。',
+      'Luminosity Beach Festivalはオランダのカノニカルな野外トランス・フェスティバルで、Luminosity Eventsが運営する。同団体は2006年に設立され、初回エディションは2007年にオランダの海岸で開催された。以降毎年開催されているが、2020年はコロナ禍で中止となった。近郊のビーチクラブを巡回しており（初期はブルメンダール・アン・ゼーのBeachclub Fuel、2024年以降はザントフォールトのBeachclub Bernie\'s）、6月下旬の4日間イベントとして運営される。\n\n現代アップリフティング＆テック・トランスの精神的故郷と広く見なされており、FSOE、Subculture、Pure Trance、VII Recordsがそれぞれステージを運営する。2026年エディション（6月25〜28日／Beachclub Bernie\'s, Zandvoort）には120名超のアーティストが出演し、ヘッドライナーにはAly &amp; Fila、John O\'Callaghan、Bryan Kearney、Ferry Corsten、Markus Schulz、Paul van Dyk、Giuseppe Ottaviani、Mauro Picotto、Will Atkinsonが含まれる。',
   },
 };
 
