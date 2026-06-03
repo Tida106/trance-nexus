@@ -1,6 +1,10 @@
 // Lightweight listing data — no article body content.
 // Newest first. Keep in sync with data/blog/posts.js when adding articles.
 export const listing = [
+  // Batch 14: Returnee-targeted Then & Now retrospective (2008 vs 2026)
+  { slug: 'trance-then-and-now-2008-2026', date: '2026-06-03', readTime: 9, tags: ['history', 'analysis', 'culture'],
+    en: { title: 'Then & Now — How Trance Changed from 2008 to 2026', excerpt: 'I came back to trance in 2018, pulled in by Armin van Buuren\'s Tomorrowland mainstage set, and discovered the scene had moved on without me. This is the eighteen-year story between the 2008 commercial peak, the 2010s dip when EDM took the centre, and the 2026 revival — five axes laid side by side.' },
+    ja: { title: '18年でトランスはどう変わったか — 2008年と2026年を比べて', excerpt: '2018年のTomorrowlandでArmin van Buurenのセットに引き戻されて戻ってきたとき、シーンは記憶とはまるで別物になっていた。2008年の商業ピーク、EDMが中心を取った2010年代の沈降、そして2026年のリバイバル ― 18年の物語を、5つの軸で並べて見る。' } },
   // Batch 13 (cont.): ASOT 25th anniversary focus piece
   { slug: 'asot-25-years-anniversary', date: '2026-05-21', readTime: 9, tags: ['history', 'culture', 'analysis'],
     en: { title: 'A State of Trance Turns 25: The Show That Defined a Genre', excerpt: 'A State of Trance turned twenty-five in 2026. From a 2001 launch on ID&T Radio to a weekly Thursday broadcast reaching tens of millions across 150+ stations in 84 countries, ASOT has become the institutional centre of trance music — and the Rotterdam Ahoy anniversary marks the moment.' },

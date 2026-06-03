@@ -49,6 +49,8 @@ const ARTICLES = [
   // Batch 13: 2026 mid-year state-of-the-genre revival roundup
   { slug: 'trance-revival-2026',                       title: 'Trance Revival 2026: Why the Genre Is Back' },
   { slug: 'asot-25-years-anniversary',                 title: 'A State of Trance Turns 25: The Show That Defined a Genre' },
+  // Batch 14: Returnee-targeted Then & Now retrospective
+  { slug: 'trance-then-and-now-2008-2026',             title: 'Then & Now: How Trance Changed from 2008 to 2026' },
 ];
 
 function esc(str) {
