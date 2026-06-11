@@ -61,69 +61,6 @@ export async function generateMetadata({ params }) {
   return metadata;
 }
 
-function eventJsonLd(e) {
-  // schema.org Event — only emit fields we have. Use the next-edition
-  // dates if available; otherwise fall back to the most-recent past
-  // edition as the canonical date so the JSON-LD remains valid (an
-  // Event without startDate would be schema-invalid).
-  let startDate = e.dates?.next?.start;
-  let endDate = e.dates?.next?.end || startDate;
-  if (!startDate && e.editions?.length) {
-    // Try to pull a year from the first edition entry
-    const yr = e.editions[0].year;
-    if (yr) startDate = `${yr}-01-01`;
-  }
-  if (!startDate) return null;
-
-  const performers = (e.headliners || [])
-    .map((slug) => getArtistBySlug(slug))
-    .filter(Boolean)
-    .map((a) => ({ '@type': 'PerformingGroup', name: a.name }));
-
-  const schema = {
-    '@context': 'https://schema.org',
-    '@type': e.dates?.next?.start ? 'Event' : 'EventSeries',
-    name: e.name,
-    description: e.en?.description,
-    startDate,
-    endDate,
-    eventStatus: e.status === 'past' ? 'https://schema.org/EventPostponed' : 'https://schema.org/EventScheduled',
-    eventAttendanceMode: 'https://schema.org/OfflineEventAttendanceMode',
-    image: e.og_image ? `https://trance-nexus.com${e.og_image}` : undefined,
-    url: `https://trance-nexus.com/events/${e.slug}`,
-    location: e.venue
-      ? {
-          '@type': 'Place',
-          name: e.venue.name,
-          address: {
-            '@type': 'PostalAddress',
-            streetAddress: e.venue.address,
-            addressCountry: e.venue.country,
-          },
-          geo: e.venue.lat != null && e.venue.lng != null ? {
-            '@type': 'GeoCoordinates',
-            latitude: e.venue.lat,
-            longitude: e.venue.lng,
-          } : undefined,
-        }
-      : undefined,
-    organizer: {
-      '@type': 'Organization',
-      name: 'TRANCE NEXUS',
-      url: 'https://trance-nexus.com',
-    },
-    performer: performers.length ? performers : undefined,
-    offers: e.ticket_url
-      ? {
-          '@type': 'Offer',
-          url: e.ticket_url,
-          availability: 'https://schema.org/InStock',
-        }
-      : undefined,
-  };
-  return schema;
-}
-
 export default async function EventPage({ params }) {
   const { slug } = await params;
   const event = getEventBySlug(slug);
@@ -134,17 +71,5 @@ export default async function EventPage({ params }) {
     .map((s) => getArtistBySlug(s))
     .filter(Boolean);
 
-  const schema = eventJsonLd(event);
-
-  return (
-    <>
-      {schema && (
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-        />
-      )}
-      <EventDetail event={event} headliners={headliners} related={related} />
-    </>
-  );
+  return <EventDetail event={event} headliners={headliners} related={related} />;
 }

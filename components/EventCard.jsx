@@ -15,6 +15,7 @@ function statusStyle(s) {
     case 'upcoming':
       return { bg: 'bg-accent-orange/15', border: 'border-accent-orange/40', text: 'text-accent-orange' };
     case 'annual':
+    case 'biennial':
       return { bg: 'bg-accent-amber/10', border: 'border-accent-amber/30', text: 'text-accent-amber' };
     case 'past':
     default:
@@ -24,9 +25,15 @@ function statusStyle(s) {
 
 function statusLabel(s, isJA) {
   if (isJA) {
-    return s === 'upcoming' ? '開催予定' : s === 'annual' ? '毎年開催' : '終了';
+    if (s === 'upcoming') return '開催予定';
+    if (s === 'annual') return '毎年開催';
+    if (s === 'biennial') return '隔年開催';
+    return '終了';
   }
-  return s === 'upcoming' ? 'UPCOMING' : s === 'annual' ? 'ANNUAL' : 'PAST';
+  if (s === 'upcoming') return 'UPCOMING';
+  if (s === 'annual') return 'ANNUAL';
+  if (s === 'biennial') return 'BIENNIAL';
+  return 'PAST';
 }
 
 function formatDates(dates, isJA) {

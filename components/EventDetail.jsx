@@ -27,8 +27,22 @@ function osmExternalUrl(lat, lng) {
 }
 
 function statusLabel(s, isJA) {
-  if (isJA) return s === 'upcoming' ? '開催予定' : s === 'annual' ? '毎年開催' : '終了';
-  return s === 'upcoming' ? 'UPCOMING' : s === 'annual' ? 'ANNUAL' : 'PAST';
+  if (isJA) {
+    if (s === 'upcoming') return '開催予定';
+    if (s === 'annual') return '毎年開催';
+    if (s === 'biennial') return '隔年開催';
+    return '終了';
+  }
+  if (s === 'upcoming') return 'UPCOMING';
+  if (s === 'annual') return 'ANNUAL';
+  if (s === 'biennial') return 'BIENNIAL';
+  return 'PAST';
+}
+
+function pickLocalized(field, isJA) {
+  if (field == null) return null;
+  if (typeof field === 'string') return field;
+  return isJA ? (field.ja || field.en) : (field.en || field.ja);
 }
 
 export default function EventDetail({ event, headliners, related }) {
@@ -133,6 +147,11 @@ export default function EventDetail({ event, headliners, related }) {
                     {isJA ? '公式サイト →' : 'Official site →'}
                   </a>
                 )}
+                {pickLocalized(event.ticket_note, isJA) && (
+                  <div className="text-text-muted text-xs mt-2 leading-relaxed">
+                    {pickLocalized(event.ticket_note, isJA)}
+                  </div>
+                )}
               </div>
             </div>
 
@@ -147,8 +166,13 @@ export default function EventDetail({ event, headliners, related }) {
             {headliners && headliners.length > 0 && (
               <section className="mb-8">
                 <h2 className="font-bebas text-2xl tracking-widest text-white mb-3">
-                  {isJA ? 'ヘッドライナー' : 'Headliners'}
+                  {pickLocalized(event.headlinerLabel, isJA) || (isJA ? 'ヘッドライナー' : 'Headliners')}
                 </h2>
+                {pickLocalized(event.headlinerNote, isJA) && (
+                  <p className="text-text-muted text-sm mb-4 leading-relaxed">
+                    {pickLocalized(event.headlinerNote, isJA)}
+                  </p>
+                )}
                 <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
                   {headliners.map((a) => (
                     <Link
