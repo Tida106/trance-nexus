@@ -25,6 +25,8 @@ yarn-error.log*
 
 # build / verification logs
 /logs/
+build-fast.log
+build.log
 
 # local env files
 .env*.local
