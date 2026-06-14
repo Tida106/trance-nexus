@@ -147,7 +147,7 @@ export const listing = [
     en: { title: 'Female Trance DJs Reshaping the Scene in 2026 — Top Producers', excerpt: 'In 2026, the most important question about women in trance is not whether they are present — they are — but what their continued prominence means for the future shape of the genre.' },
     ja: { title: 'トランスシーンを再構築する女性DJたち', excerpt: '2026年、トランスにおける女性についての最も重要な問いは、彼女たちが存在するかどうかではない——存在する——彼女たちの継続的な著名さがジャンルの未来の形にとって何を意味するか、だ。' } },
   { slug: 'new-generation-trance-artists-to-watch-2026', date: '2026-05-24', readTime: 8, tags: ['artists', 'analysis'],
-    en: { title: 'New Generation Trance Artists to Watch in 2026 — Top Producer Picks', excerpt: 'Every era of trance has had artists who arrived early enough that listeners can claim they were paying attention before things got big. These are the names worth knowing in 2026.' },
+    en: { title: 'New Generation Trance Artists to Watch in 2026: ARTBAT, Will Atkinson & More', excerpt: 'Every era of trance has had artists who arrived early enough that listeners can claim they were paying attention before things got big. These are the names worth knowing in 2026.' },
     ja: { title: '新世代：2026年に注目すべきトランスアーティスト', excerpt: 'トランスのあらゆる時代には、リスナーが大きくなる前から注意を払っていたと主張できるほど早く到着したアーティストがいた。2026年に知る価値のある名前。' } },
   { slug: 'miss-monique-rising-progressive-star', date: '2026-05-23', readTime: 7, tags: ['artists', 'culture'],
     en: { title: 'Miss Monique — Biography, Best Tracks & Progressive House Rise', excerpt: 'Miss Monique\'s rise from a Kyiv DJ uploading mixes to YouTube to one of the most-followed progressive DJs in the world is one of the genre\'s most distinctive 2020s success stories.' },

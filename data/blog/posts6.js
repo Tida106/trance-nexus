@@ -97,8 +97,8 @@ export const posts6 = [
     slug: 'new-generation-trance-artists-to-watch-2026',
     date: '2026-05-24', readTime: 8, tags: ['artists', 'analysis'],
     en: {
-      title: 'New Generation Trance Artists to Watch in 2026 — Top Producer Picks',
-      description: 'The eight trance artists at the leading edge in 2026 — newer producers and DJs whose recent work is reshaping the conversation about the genre\'s future.',
+      title: 'New Generation Trance Artists to Watch in 2026: ARTBAT, Will Atkinson & More',
+      description: 'Who are the newer trance artists worth knowing in 2026? From ARTBAT to Will Atkinson, these are the names reshaping the genre\'s next chapter.',
       excerpt: 'Every era of trance has had artists who arrived early enough that listeners can claim they were paying attention before things got big. These are the names worth knowing in 2026.',
       content: [
         { heading: 'Why Watch the Newer Names', body: '<p>The trance scene\'s legacy artists — Armin, Above & Beyond, Paul van Dyk, Aly & Fila — continue to release excellent music and dominate the festival circuit. Watching them is rewarding. But the genre\'s long-term direction is set by artists who are still building their careers. Tracking the names below now means hearing how trance is evolving in real time, before consensus forms around the artists who will define the second half of the 2020s. None of these artists are obscure — most are already well-known to scene insiders — but for a casual listener who has not yet engaged with the post-2020 newer-generation trance roster, this is the starting point.</p>' },
