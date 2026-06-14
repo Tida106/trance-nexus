@@ -289,14 +289,14 @@ Tiëstoとの「Gouryella」プロジェクトでは1999年の同名アンセム
       ja: 'ソングライター主導のボーカル・トランス。哀愁あるコード進行、親密なアコースティック・テクスチャ、観客を一つにするボーカルフック。「Group Therapy」ラジオブランドとアコースティック・アルバムが、サウンドをダンスフロアの遥か先へと拡張する。',
     },
     bio: {
-      en: `Above & Beyond is the London-based trio of Jono Grant, Tony McGuinness, and Paavo Siljamäki. The group came together in 2000 after Grant and Siljamäki, then students at the Royal College of Music, were brought in to remix Madonna's "What It Feels Like for a Girl." That remix — credited to Above & Beyond — launched one of the most influential careers in trance.
+      en: `Above & Beyond is the London-based trio of Jono Grant, Tony McGuinness, and Paavo Siljamäki. The group came together in 2000 when Tony McGuinness, then a marketing manager at Warner Music, recruited Grant and Siljamäki to help complete a remix for Chakra's "Home." That collaboration became the foundation of one of the most influential careers in trance — their subsequent remix of Madonna's "What It Feels Like for a Girl" was so well-received that Madonna shot the music video to their version.
 
 In 2000 the trio also founded Anjunabeats, the label that would grow into a global brand encompassing the deeper, more atmospheric Anjunadeep imprint, sold-out Group Therapy festival editions at the Gorge in Washington, and a weekly radio show that consistently ranks among the most-listened-to in dance music. Their studio albums — Tri-State (2006), Group Therapy (2011), We Are All We Need (2015), and Common Ground (2018) — produced anthems including "Sun & Moon," "Thing Called Love," and "On a Good Day."
 
 What sets Above & Beyond apart is their commitment to songcraft. Working with vocalists like Zoë Johnston and Richard Bedford, they have produced a body of vocal trance that doubles as proper songwriting — material strong enough to stand stripped down on their two acoustic albums, performed at the Royal Albert Hall and the Hollywood Bowl. Few electronic acts have crossed into that territory so successfully.
 
 They are also among the most articulate voices for the emotional power of trance. Their Group Therapy concept — the idea that the dancefloor is a place of communal vulnerability and release — has shaped a generation of fans and given the genre a vocabulary for its emotional impact. To listen to Above & Beyond is to be reminded why this music matters.`,
-      ja: `Above & Beyondは、Jono Grant、Tony McGuinness、Paavo Siljamäkiからなるロンドン拠点のトリオである。GrantとSiljamäkiが英国王立音楽大学の学生だった2000年、マドンナの「What It Feels Like for a Girl」のリミックス案件に呼ばれたことが結成の契機となった。Above & Beyond名義でクレジットされたそのリミックスが、トランス史上最も影響力のあるキャリアの一つの始まりだった。
+      ja: `Above & Beyondは、Jono Grant、Tony McGuinness、Paavo Siljamäkiからなるロンドン拠点のトリオである。結成の契機は2000年、当時Warner Musicのマーケティングマネージャーだったトニー・マクギネスがGrantとSiljamäkiにChakraの「Home」リミックスを依頼したことだった。この共同作業がトランス史上最も影響力あるキャリアの土台となり、その後手がけたマドンナの「What It Feels Like for a Girl」のリミックスはマドンナ本人が気に入り、ミュージック・ビデオに採用されるほどの出来栄えだった。
 
 同2000年、トリオは「Anjunabeats」レーベルを設立。これは後により深く大気的なサブレーベル「Anjunadeep」、ワシントン州The Gorgeでのソールドアウトの「Group Therapy」フェスティバル、そしてダンスミュージックで常に最も聴かれる週次ラジオ番組へと成長するグローバルブランドへと拡大した。スタジオアルバム『Tri-State』（2006）、『Group Therapy』（2011）、『We Are All We Need』（2015）、『Common Ground』（2018）からは「Sun & Moon」「Thing Called Love」「On a Good Day」などのアンセムを生み出した。
 
