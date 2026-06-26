@@ -1,0 +1,34 @@
+/* Override Tailwind's @keyframes pulse — stronger fade (0.3 vs 0.5)
+   for the equalizer bar and live-dot effects on this page only. */
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.3;
+  }
+}
+
+/* ── Featured radio show hero card rainbow background ─────────────
+   Moved from globals.css — only used on /radio page. */
+.featured-rainbow {
+  background:
+    linear-gradient(180deg, rgba(6, 4, 2, 0.30) 0%, rgba(6, 4, 2, 0.22) 50%, rgba(6, 4, 2, 0.36) 100%),
+    linear-gradient(
+      120deg,
+      #4e2380 0%,
+      #1f3a82 25%,
+      #1d6e7a 50%,
+      #8a6420 75%,
+      #8a2638 100%
+    );
+  background-size: 100% 100%, 220% 220%;
+  background-position: 0 0, 0% 50%;
+  animation: featuredRainbowDrift 22s ease-in-out infinite;
+}
+@keyframes featuredRainbowDrift {
+  0%   { background-position: 0 0, 0% 50%; }
+  50%  { background-position: 0 0, 100% 50%; }
+  100% { background-position: 0 0, 0% 50%; }
+}

@@ -26,7 +26,7 @@ module.exports = {
       fontFamily: {
         'bebas': ['var(--font-bebas)', 'Bebas Neue', 'sans-serif'],
         'barlow': ['var(--font-barlow)', 'Barlow Condensed', 'sans-serif'],
-        'jp': ['var(--font-noto-jp)', 'Hiragino Kaku Gothic ProN', 'Yu Gothic UI', 'Meiryo', 'sans-serif'],
+        'jp': ['Noto Sans JP', 'Hiragino Kaku Gothic ProN', 'Yu Gothic UI', 'Meiryo', 'sans-serif'],
       },
     },
   },

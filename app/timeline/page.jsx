@@ -1,3 +1,4 @@
+import './timeline.css';
 import TimelineClient from '@/components/TimelineClient';
 import { events, eras } from '@/data/timeline';
 

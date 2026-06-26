@@ -2,12 +2,8 @@ import './globals.css';
 import { LanguageProvider } from '@/lib/useTranslation';
 import Script from 'next/script';
 import DeferredChrome from '@/components/DeferredChrome';
-import { Bebas_Neue, Barlow_Condensed, Noto_Sans_JP } from 'next/font/google';
+import { Bebas_Neue, Barlow_Condensed } from 'next/font/google';
 
-// Self-hosted via next/font: eliminates the render-blocking @import to
-// fonts.googleapis.com and the follow-on hop to fonts.gstatic.com. Fonts
-// are inlined into a same-origin CSS file, automatically preloaded, and
-// emit zero CLS thanks to the size-adjust fallback metrics.
 const bebas = Bebas_Neue({
   weight: '400',
   subsets: ['latin'],
@@ -19,16 +15,6 @@ const barlow = Barlow_Condensed({
   subsets: ['latin'],
   display: 'swap',
   variable: '--font-barlow',
-});
-// Noto Sans JP is large; never preload it. Browsers fetch it only on pages
-// that actually render Japanese characters, falling back to system JP fonts
-// (Hiragino / Yu Gothic / Meiryo) until then. This keeps the first paint
-// fast on English pages without hurting Japanese readability.
-const notoJP = Noto_Sans_JP({
-  weight: ['400', '700'],
-  preload: false,
-  display: 'swap',
-  variable: '--font-noto-jp',
 });
 
 const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH || '';
@@ -128,7 +114,7 @@ export const viewport = {
 };
 
 export default function RootLayout({ children }) {
-  const fontVars = `${bebas.variable} ${barlow.variable} ${notoJP.variable}`;
+  const fontVars = `${bebas.variable} ${barlow.variable}`;
   // Initial render uses lang="en" to match LanguageProvider's initial state.
   // Once the client hydrates and reads the saved preference from
   // localStorage, useTranslation flips document.documentElement.lang. The
