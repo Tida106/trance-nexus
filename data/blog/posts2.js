@@ -153,5 +153,60 @@ export const posts2 = [
         { heading: 'リスナーからの視点 — ビルドアップが身体にすること', body: '<p>この記事はプロデューサーのマニュアルだ。だからこそ、それらのテクニックが「受け取る側」で何をするのかも添えておきたい。私の入り口はそちら側だったからだ——DAWの後ろではなく、リスナーとして。プロダクションの語彙がない時、サイドチェインLFOの深さも、8バーのスネアロールのベロシティカーブも知らない。ただ、他のどんな音楽もしたことのない何かが身体にされている、それだけが分かる。</p><p>A State of Trance を聴き重ねるうちに、上のテクニックに名前を付けられるようになる——そして名前は効果を減じない。説明するだけだ。フィルターを閉じていくブレイクダウンが、時間を宙吊りにする。4〜8バーのホワイトノイズライザーが、胸を不随意に締めつける。ドロップ直前の1バーの沈黙が、ドロップを「ようやく吐き出した息」のような力で着地させる。これらは比喩ではない——テクニックが生み出すよう設計された生理的効果だ。トランスのビルドアップは、ポピュラー音楽で最も精密に設計された感情的イベントの一つだ。あなたが一つ作るとき、ただ音を並べているのではない——リスナーの神経系に一つの瞬間を設計している。その責任を真剣に受け止めてほしい。戻ってき続けるリスナーが戻ってきている理由は、まさにそれなのだから。</p>' }
       ]
     }
+  },
+  {
+    slug: 'universo-paralello-2026-guide',
+    date: '2026-06-30',
+    readTime: 10,
+    tags: ['events', 'guide', 'festival'],
+    en: {
+      title: 'Universo Paralello 2026: Dates, Location & How to Get There',
+      description: 'Everything you need to plan your trip to Universo Paralello 2026–2027 — confirmed dates, how to reach Praia de Pratigi, accommodation options, and what to bring.',
+      excerpt: 'UP19 runs 27 December 2026 – 4 January 2027 at Praia de Pratigi, Bahia. Here is everything you need to plan your trip — getting there, where to stay, and what to pack.',
+      content: [
+        {
+          heading: 'The Basics',
+          body: '<p>Universo Paralello 19 (UP19) is confirmed for <strong>27 December 2026 – 4 January 2027</strong> at <strong>Praia de Pratigi, Ituberá, Bahia, Brazil</strong>. The festival runs for nine days and eight nights, with camping included in the ticket price. The lineup has not yet been announced — check the <a href="https://universoparalello.org" target="_blank" rel="noopener">official site</a> for updates.</p>'
+        },
+        {
+          heading: 'How to Get There',
+          body: '<p>Pratigi is a remote beach on the southern coast of Bahia — getting there is part of the experience. There are two airport options:</p><ul><li><strong>Salvador (SSA)</strong> — the main gateway, with more international connections. Transfer time to Pratigi is approximately 3–4 hours.</li><li><strong>Ilhéus (IOS)</strong> — closer to the site, but fewer flights and typically higher fares. Worth checking if you are coming from within Brazil.</li></ul><p>The official transfer operator is <strong>BR Oriente</strong>, a festival partner since 2006. They run air-conditioned coaches directly from Salvador Airport to Pratigi, with an information stand at the airport on arrival. Two service levels are available: regular coaches and a VIP option with reclining seats, drinks, and limited capacity. Book in advance — demand is high during the festival period. The final leg from the Pratigi roundabout to the festival entrance can be covered on foot, or by buggy (approximately R$20 per person).</p><p>For those driving, the access road is the BR-250 from Ituberá — note that this road includes a long unpaved section that becomes difficult in wet weather (the festival takes place during the Brazilian summer rainy season).</p>'
+        },
+        {
+          heading: 'Accommodation',
+          body: '<p>There are three main options:</p><ul><li><strong>Festival camping (included in ticket)</strong> — the standard option. Five camping areas distributed across the site, close to the stages and food areas. No extra cost. Expect noise around the clock.</li><li><strong>Vila Mundo (premium camping)</strong> — an upgraded camping area within the festival grounds, available as a separate package. Includes breakfast, hot showers, secure storage, and internet access. Purchase requires a separate ticket in addition to the festival entry.</li><li><strong>Village accommodation</strong> — houses and rooms in the village of Pratigi, rented by local residents. More comfortable and quieter, but a walk from the stages. Book early — supply is limited and prices rise sharply closer to the event.</li></ul>'
+        },
+        {
+          heading: 'Tickets',
+          body: '<p>Tickets are sold in phased batches through <strong>Ingresse</strong> (the official ticketing platform). Each ticket is digital and registered to the buyer by name; one name transfer is permitted via the app. Entry requires both the QR code (smartphone presentation is fine — no printing needed) and a valid photo ID. Ticket sales are currently on hold — monitor the official site and the festival\'s Instagram (<a href="https://instagram.com/universoparalello" target="_blank" rel="noopener">@universoparalello</a>) for batch announcements.</p>'
+        },
+        {
+          heading: 'What to Bring',
+          body: '<p>A few practical notes for international attendees:</p><ul><li><strong>Cash (Brazilian reais)</strong> — there are no ATMs on site. The nearest banks are in Ituberá. Withdraw enough before you arrive; most vendors on site are cash only.</li><li><strong>Mobile signal</strong> — some carriers lose signal entirely for the duration of the festival. Check coverage in advance; download offline maps of the area.</li><li><strong>Sun and rain protection</strong> — late December in Bahia is hot, humid, and subject to tropical downpours. Sunscreen, a hat, a rain poncho, and waterproof bags for electronics are all necessary.</li><li><strong>Ear protection</strong> — nine days of continuous music across multiple stages. Quality earplugs (Loop, Eargasm, or equivalent) are strongly recommended.</li><li><strong>Camping gear</strong> — tent, sleeping mat, and a light sleeping bag or sheet. Tent and gear rental is available on site if you are travelling light.</li></ul>'
+        },
+        {
+          heading: 'The Festival',
+          body: '<p><a href="/events/universo-paralello">Universo Paralello</a> is Brazil\'s flagship psytrance festival and one of the largest gatherings of the global psytrance scene, drawing around 20,000 attendees from across the world. It runs across multiple stages with over 200 hours of continuous music, alongside workshops, holistic therapies, art installations, a craft market, and a food court operating around the clock. The site occupies two kilometres of Pratigi beach within the Atlantic Forest — one of the most biodiverse ecosystems on the planet. The festival has a strong sustainability focus and long-standing ties to the local community of Ituberá.</p>'
+        },
+        {
+          heading: "A Listener's Note",
+          body: '<p>I have not attended Universo Paralello in person. What I can say is that UP is the festival that appears most consistently in the research I do for this site — in set recordings, in interviews with psytrance artists, in the tracklists of the records I follow through ASOT and the wider scene. It occupies a specific place in the psytrance world that no other event quite replicates: a genuinely remote location, a genuinely international crowd, and a lineup that draws from the deeper end of the global psytrance catalogue rather than the festival-circuit mainstream. If you are planning to go, the practical notes above should give you a starting point. The official site and the UP community forums will have more current detail as the event approaches.</p>'
+        }
+      ]
+    },
+    ja: {
+      title: 'Universo Paralello 2026：日程・場所・アクセス完全ガイド',
+      description: 'UP19（2026年12月27日〜2027年1月4日）参加のための完全ガイド。Praia de Pratigiへのアクセス、宿泊、持ち物リストをまとめた。',
+      excerpt: 'UP19は2026年12月27日〜2027年1月4日、バイーア州Praia de Pratigiで開催。旅程計画に必要な情報——アクセス・宿泊・持ち物——をまとめた。',
+      content: [
+        { heading: '基本情報', body: '<p>Universo Paralello 19（UP19）は<strong>2026年12月27日〜2027年1月4日</strong>、ブラジル・バイーア州イトゥベラの<strong>Praia de Pratigi</strong>での開催が確定している。9日間8泊のフェスティバルで、キャンプエリアはチケット代に含まれる。ラインナップはまだ発表されていない。最新情報は<a href="https://universoparalello.org" target="_blank" rel="noopener">公式サイト</a>で確認を。</p>' },
+        { heading: 'アクセス', body: '<p>Pratigiはバイーア州南部の僻地ビーチで、「辿り着くこと自体が体験の一部」と言われる。最寄り空港は2つ：</p><ul><li><strong>サルバドール（SSA）</strong>——国際線接続が多いメインゲートウェイ。Pratigiまでの移動時間は約3〜4時間。</li><li><strong>イレウス（IOS）</strong>——現地により近いが便数が少なく料金が高め。国内線利用者向け。</li></ul><p>公式送迎業者は<strong>BR Oriente</strong>（2006年からの公式パートナー）。サルバドール空港からPratigiまで直行する冷房付きコーチを運行。空港到着ロビーに案内スタンドあり。通常便とVIP便（リクライニングシート・飲み物付き・限定席）の2種類。需要が高いため早めの予約を推奨。フェス入口まで最後の数百メートルは徒歩、またはバギー（約R$20/人）で移動。</p>' },
+        { heading: '宿泊', body: '<p>主な選択肢は3つ：</p><ul><li><strong>フェスティバルキャンプ（チケット代込み）</strong>——標準オプション。会場内に5つのキャンプエリア。ステージや飲食エリアに近い。追加料金なし。24時間音楽は鳴り続ける。</li><li><strong>Vila Mundo（プレミアムキャンプ）</strong>——会場内の上位グレードキャンプ。朝食・温水シャワー・荷物保管・インターネット付き。フェスチケットとは別途購入が必要。</li><li><strong>村の宿泊施設</strong>——Pratigi村の住民が貸し出す民家・部屋。快適で静かだがステージまで距離あり。早めの予約必須、直前は価格が急騰する。</li></ul>' },
+        { heading: 'チケット', body: '<p>チケットは公式プラットフォーム<strong>Ingresse</strong>で段階的に販売される。デジタル・実名登録制で、アプリ経由で1回の名義変更が可能。入場にはQRコード（スマホ提示でOK、印刷不要）と顔写真付き身分証明書が必要。現在は販売停止中——公式サイトと公式Instagram（<a href="https://instagram.com/universoparalello" target="_blank" rel="noopener">@universoparalello</a>）で次のバッチ情報を確認すること。</p>' },
+        { heading: '持ち物リスト', body: '<p>国際参加者向けの実用メモ：</p><ul><li><strong>現金（ブラジルレアル）</strong>——会場内にATMなし。最寄り銀行はItuberá市街。到着前に十分な現金を引き出すこと。会場内の多くのベンダーは現金のみ。</li><li><strong>モバイル回線</strong>——フェス期間中に完全圏外になるキャリアがある。事前に確認し、エリアのオフラインマップをダウンロードしておくこと。</li><li><strong>日焼け・雨対策</strong>——12月末のバイーアは高温多湿、スコールが多い。日焼け止め・帽子・レインポンチョ・電子機器用防水バッグは必需品。</li><li><strong>耳栓</strong>——200時間以上の連続音楽。Loop、Eargasmなど高品質の耳栓を強く推奨。</li><li><strong>キャンプ用品</strong>——テント・マット・軽量シュラフ。会場内にレンタルあり。</li></ul>' },
+        { heading: 'フェスティバルについて', body: '<p><a href="/events/universo-paralello">Universo Paralello</a>はブラジルの旗艦サイトランスフェスティバルで、世界中から約2万人が集まる南米最大のサイトランスシーンの集結地。200時間以上の連続音楽を複数ステージで展開するほか、ワークショップ、ホリスティックセラピー、アートインスタレーション、クラフトマーケット、24時間営業の飲食エリアを備える。会場はPratigiビーチの2kmを地球上で最も生物多様性の高い生態系のひとつである大西洋森林の中に確保。強いサステナビリティへの姿勢とItuberá地域コミュニティとの長年の連携が特徴。</p>' },
+        { heading: 'リスナーからの視点', body: '<p>私自身はUniverso Paralelloに実際に参加したことはない。ただ、このサイトのリサーチを通じて最も頻繁に登場するフェスティバルがUPだということは言える——セット録音、アーティストインタビュー、ASOTや周辺シーンで追っているレコードのトラックリストの中に、常にUPが現れる。他のどのイベントとも異なる独自の位置を、サイトランスの世界で占めている：真に遠隔地にある場所、真に国際的な観客、そしてフェスティバル回路のメインストリームではなくグローバルサイトランスカタログの深い部分から引く。参加を検討しているなら、上記の実用メモが出発点になるはず。公式サイトとUPコミュニティフォーラムに、イベントが近づくにつれてより最新の情報が集まるだろう。</p>' }
+      ]
+    }
   }
 ];
