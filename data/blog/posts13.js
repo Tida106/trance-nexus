@@ -14,6 +14,50 @@
 
 export const posts13 = [
   {
+    slug: 'trance-festivals-summer-2026-guide',
+    date: '2026-07-16',
+    readTime: 6,
+    tags: ['tomorrowland', 'luminosity', 'ozora', 'psytrance', 'travel'],
+    en: {
+      title: 'Summer 2026 Trance Festival Guide — Tomorrowland, Luminosity Beach & OZORA',
+      description: 'A comprehensive guide to the top 3 summer trance festivals of 2026.',
+      excerpt: 'A comprehensive guide to the top 3 summer trance festivals of 2026. Whether you crave massive mainstream stages, pure beachside trance, or deep psychedelic journeys, discover which festival suits your vibe best.',
+      content: [
+        {
+          heading: '1. Tomorrowland Belgium 2026',
+          body: '<p>ベルギーのBoomで開催されるTomorrowlandは、世界最大級のメガフェスですが、トランスファンにとっても聖地です。</p>'
+        },
+        {
+          heading: '2. Luminosity Beach Festival 2026',
+          body: '<p>オランダで開催される、純度100%のトランスに没頭できる唯一無二のビーチフェスです。</p>'
+        },
+        {
+          heading: '3. OZORA Festival 2026',
+          body: '<p>ハンガリーで開催される、12日間にわたり24時間ノンストップでサイケデリックを体験する神秘的なフェスです。</p>'
+        }
+      ]
+    },
+    ja: {
+      title: '2026年夏フェス完全ガイド — トランス好きが選ぶべき3タイプ',
+      description: '2026年夏の3大トランスフェスティバル完全ガイド。',
+      excerpt: '2026年夏の3大トランスフェスティバル完全ガイド。巨大なメインストリーム、純度100%のビーチトランス、そして深いサイケデリック体験まで、あなたのバイブスに最適なフェスを紹介します。',
+      content: [
+        {
+          heading: '1. Tomorrowland Belgium 2026',
+          body: '<p>ベルギーのBoomで開催されるTomorrowlandは、世界最大級のメガフェスですが、トランスファンにとっても聖地です。</p>'
+        },
+        {
+          heading: '2. Luminosity Beach Festival 2026',
+          body: '<p>オランダで開催される、純度100%のトランスに没頭できる唯一無二のビーチフェスです。</p>'
+        },
+        {
+          heading: '3. OZORA Festival 2026',
+          body: '<p>ハンガリーで開催される、12日間にわたり24時間ノンストップでサイケデリックを体験する神秘的なフェスです。</p>'
+        }
+      ]
+    }
+  },
+  {
     slug: 'what-is-trance-music',
     date: '2026-05-08', readTime: 9, tags: ['guide', 'subgenres', 'what-is'],
     definedTerm: {
