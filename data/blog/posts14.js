@@ -520,5 +520,58 @@ export const posts14 = [
       ]
     }
   }
+  , // ← ★直前の記事との区切りのカンマ
+  {
+    slug: 'asot-london-drumsheds-2026',
+    date: '2026-08-13',
+    readTime: 12,
+    tags: ['asot', 'london', 'armin-van-buuren', 'festival', 'indoor-trance'],
+    en: {
+      title: 'A State of Trance London 2026: The Industrial Awakening at Drumsheds',
+      description: 'ASOT celebrates its 25th anniversary with its first-ever standalone UK indoor festival at London\'s Drumsheds. Discover the raw brutalist aesthetic, the F2F lineup, and the cutting-edge AV production.',
+      excerpt: 'On November 14, 2026, A State of Trance makes history by bringing its 25th-anniversary celebration to a massive former IKEA warehouse in London. Dive into the collision of pristine arena-trance and raw UK warehouse rave culture.',
+      content: [
+        {
+          heading: 'A Historic Milestone: ASOT 25 Hits the UK',
+          body: '<p>Throughout the evolution of electronic dance music, Armin van Buuren’s <strong>A State of Trance (ASOT)</strong> has reigned as the cultural cornerstone for the global trance community. In 2026, as the brand celebrates a monumental 25 years of existence, ASOT is orchestrating a massive paradigm shift in the UK scene. On <strong>November 14, 2026</strong>, ASOT will host its first-ever standalone indoor festival in the United Kingdom.</p><p>Historically, ASOT\'s presence in the UK has been tethered to stage takeovers at outdoor festivals like Creamfields or traditional club nights. However, by commandeering a colossal industrial space to build a fully immersive, multi-stage ASOT universe, the organizers are bridging a crucial gap. Taking the highly polished, emotional sound that ASOT has spent 25 years cultivating and injecting it directly into the gritty roots of British warehouse rave culture represents a bold new chapter for the franchise.</p>'
+        },
+        {
+          heading: 'The Venue: The Industrial Leviathan of Drumsheds',
+          body: '<p>The chosen battleground for this monumental event is <strong>Drumsheds</strong>, a staggering 608,000-square-foot venue located in the Meridian Water district of North London. Operated by Broadwick Live—the visionary team behind the legendary Printworks—this 15,000-capacity leviathan was famously repurposed from a former massive IKEA flagship store. Drumsheds retains a raw, brutalist aesthetic defined by exposed steel beams, massive loading bays, and endless expanses of concrete.</p><p>Unlike the pristine international arenas ASOT typically utilizes (such as the Jaarbeurs or Ahoy Rotterdam), Drumsheds offers a purely underground atmosphere. The main floor, <strong>Room X</strong>, boasts a 10,000-person capacity and soaring 14.5-meter ceilings. Managing the acoustics of such a cavernous concrete space is notoriously difficult. However, Broadwick Live executed sweeping acoustic improvements for the 2025/2026 season, installing extensive dampening panels and an industry-standard <strong>d&amp;b audiotechnik sound system</strong>. Furthermore, strategically placed infra-bass delay speakers ensure that even attendees at the very back of the 14.5m-high room will feel the exact same chest-rattling physical bass pressure as those riding the rail.</p>'
+        },
+        {
+          heading: 'A Lineup Calibrated for the Dark Room',
+          body: '<p>The elite lineup curated for this warehouse edition is a masterclass in atmospheric adaptation. At the center of the night is a historic <strong>"Face to Face" (F2F)</strong> set between <strong>Armin van Buuren</strong> and Italian maestro <strong>Giuseppe Ottaviani</strong>. Ottaviani brings his acclaimed <strong>"OTTAGON"</strong> live setup to the stage—eschewing traditional DJing for live hardware synthesizers, drum machines, and real-time track reconstruction. Watching Armin’s elite mixing collide with Giuseppe’s live improvisation will create an unprecedented level of creative tension on the main stage.</p><p>The supporting cast is equally tailored for the industrial void. Dutch pioneer <strong>Ferry Corsten</strong> will provide a set bridging 25 years of euphoric legacy with his modern cinematic soundscapes. The legendary German duo <strong>Cosmic Gate</strong> brings a heavy, driving progressive trance sound that perfectly suits the dark, booming acoustics of a warehouse environment. <strong>Andrew Rayel</strong> will showcase his deeper, cinematic <strong>"Extasia"</strong> alias, pulling back from aggressive big-room drops to deliver intricate, vocal-driven melodies. Meanwhile, ASOT co-host <strong>Ruben de Ronde</strong> expertly commands the buildup. The inclusion of new-generation heavy hitters like <strong>Ben Hemsley</strong> and <strong>Funk Tribu</strong> further proves that ASOT is fully embracing the high-BPM, techno-infused trance revival currently sweeping the UK.</p>'
+        },
+        {
+          heading: 'Audio-Visual Overload: Cyberpunk in a Concrete Shell',
+          body: '<p>ASOT is universally renowned for its mind-bending audio-visual production, traditionally orchestrated by the Dutch visual collective <strong>"The Art of Light."</strong> Their design philosophy focuses on obliterating the physical boundary between the artist and the crowd. By utilizing massive arrays of high-powered fixtures like the Ayrton Ghibli, they create complex, three-dimensional mid-air textures.</p><p>Deploying this pristine, high-tech laser and lighting topography inside a brutalist concrete shell creates a breathtaking cyberpunk contrast. High-intensity beams will reflect off exposed steel pillars and bare concrete walls, generating a decadent, sensory-overloading immersion that polished arenas simply cannot replicate. To understand the sheer scale of the 2026 production, one only needs to witness the recent ASOT 2026 live sets broadcasted in 4K HDR. The footage captures an insane crowd energy, hypnotic AI-driven visuals, and geometric lasers cutting through the darkness. When this stadium-level cinematic production is confined within the walls of a London warehouse, the intensity will undoubtedly multiply tenfold.</p><div style="margin-top: 2rem; position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.youtube.com/embed/REc9bbV8zFU" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
+        }
+      ]
+    },
+    ja: {
+      title: 'A State of Trance London 2026：Drumshedsで覚醒するインダストリアルな熱狂',
+      description: 'ASOTがブランド設立25周年を記念し、元IKEAの巨大倉庫「Drumsheds」にてUK初の単独屋内フェスを開催。F2Fセットやd&b audiotechnikによる音響革命など、その全貌に迫る。',
+      excerpt: '2026年11月14日、A State of Tranceが歴史を塗り替える。25周年を祝うASOT史上初の英国単独屋内フェスティバルが実現。洗練されたアリーナトランスと、剥き出しのUKウェアハウス・カルチャーが激突するDrumshedsの深淵へ。',
+      content: [
+        {
+          heading: '歴史的マイルストーン：ASOT 25周年が英国上陸',
+          body: '<p>エレクトロニック・ダンス・ミュージックの進化において、Armin van Buurenが主宰する<strong>A State of Trance (ASOT)</strong> は、世界のトランス・コミュニティを牽引する絶対的な基盤として君臨してきた。ブランド設立25周年という歴史的節目を迎える2026年、ASOTは英国のダンスミュージックシーンにおいて記念碑的なパラダイムシフトを起こす。<strong>2026年11月14日</strong>、ASOT史上初となる英国での単独屋内フェスティバルが開催されるのだ。</p><p>これまで英国におけるASOTは、Creamfieldsのような野外フェスティバルのステージテイクオーバーや単発のクラブイベントに留まっていた。しかし今回、巨大なインダストリアル空間を完全に占拠し、マルチステージの没入型ASOTユニバースを構築することで、極めて洗練されたアリーナ・トランスのサウンドと、英国のウェアハウス・レイブカルチャーが持つ無骨なルーツを見事に融合させる。これはASOTフランチャイズにとって、野心に満ちた新たなチャプターの幕開けである。</p>'
+        },
+        {
+          heading: '会場の解剖学：インダストリアルの巨大獣「Drumsheds」',
+          body: '<p>今回の歴史的イベントの舞台に選ばれたのは、北ロンドンのメリディアン・ウォーター地区に位置する総面積60万8,000平方フィートの巨大ベニュー、<strong>Drumsheds</strong>だ。伝説的なクラブPrintworksを手掛けたBroadwick Liveによって運営されるこの最大収容人数15,000人の空間は、IKEAの大型フラッグシップ店舗を改装して作られたことで有名である。Drumshedsには、むき出しの鉄骨、巨大な搬入口、そして果てしなく広がるコンクリートの床によって定義される、生のブルータリスト的（粗野で巨大なコンクリート建築的）な美学がそのまま残されている。</p><p>ASOTが通常使用するJaarbeursやAhoy Rotterdamのような磨き上げられた国際展示場とは異なり、Drumshedsは純粋なアンダーグラウンドの空気を放っている。メインフロアである<strong>Room X</strong>は、10,000人の収容能力と14.5メートルもの高い天井を誇る。これほど巨大なコンクリート空間の音響を制御することは極めて困難だが、Broadwick Liveは2025/2026シーズンに向けて大規模な音響改修を断行。広範な吸音パネルと業界標準の<strong>d&amp;b audiotechnik製サウンドシステム</strong>を導入し、さらに中間地点にインフラベース（超低音）用のディレイスピーカー群を配置することで、14.5mの天井を持つ巨大空間の最後尾にいても、最前列と同等の胸を打つような物理的な低音の圧力を得られるよう緻密に設計されている。</p>'
+        },
+        {
+          heading: 'ダークルームに最適化されたエリート・ラインナップ',
+          body: '<p>このウェアハウス・エディションのために厳選されたラインナップは、空間の雰囲気に適応するマスタークラスの構成となっている。この夜の核となるのは、<strong>Armin van Buuren</strong>とイタリアのマエストロ<strong>Giuseppe Ottaviani</strong>によるASOT史上初の<strong>「Face to Face (F2F)」</strong>セットだ。Ottavianiは、従来のDJスタイルを捨て、ハードウェア・シンセサイザーとドラムマシンを駆使してリアルタイムでトラックを生演奏・再構築する絶賛のライブセットアップ<strong>「OTTAGON」</strong>をステージに持ち込む。Arminのエリート級のミキシングとGiuseppeの即興的なライブパフォーマンスが激突することで、メインステージにはかつてない予測不可能な緊張感が生まれるだろう。</p><p>メインステージを支える重鎮たちも、この空間特性に完璧に合致している。ダッチ・トランスのパイオニア<strong>Ferry Corsten</strong>は、25年のクラシックな多幸感と現代のシネマティックなサウンドを繋ぐセットを披露。伝説のドイツ人デュオ<strong>Cosmic Gate</strong>の執拗に繰り返される重厚でダークなプログレッシブ・サウンドは、巨大なコンクリート空間にこれ以上ないほど親和性が高い。<strong>Andrew Rayel</strong>は、爆発的なビッグルーム・ドロップから一歩退き、より深く内省的なメロディを描写する別名義<strong>「Extasia」</strong>を披露する。序盤の完璧なビルドアップはASOTラジオの共同ホスト<strong>Ruben de Ronde</strong>が担い、さらに<strong>Ben Hemsley</strong>や<strong>Funk Tribu</strong>といった新世代のアーティストの起用は、ASOTが現在のUKシーンを席巻する高速テクノ/ハードトランス・リバイバルの潮流を完全に吸収していることを証明している。</p>'
+        },
+        {
+          heading: 'AVプロダクションの過負荷：コンクリート空間に現れるサイバーパンク',
+          body: '<p>ASOTは、オランダの世界的視覚演出チーム<strong>「The Art of Light」</strong>が手掛ける、常軌を逸したオーディオビジュアル・プロダクションで世界的に有名だ。彼らのデザイン哲学は、アーティストと観客という物理的な境界線を完全に曖昧にすることにある。Ayrton Ghibliのような高出力LEDフィクスチャーを大量に駆使し、空中に立体的な光のテクスチャを構築するのだ。</p><p>この極めて洗練されたハイテクなレーザーと照明のトポグラフィーを、ブルータリスト的なコンクリートの殻の中に展開することで、息をのむようなサイバーパンク的コントラストが生み出される。強烈なビームが剥き出しの鉄骨やコンクリートの壁に乱反射する様は、通常の洗練されたアリーナでは絶対に得られない退廃的な没入感を生み出す。2026年のプロダクションの圧倒的なスケールを理解するには、4K HDRで配信された最近のASOT 2026ライブセットを見るだけで十分だ。その映像には、群衆の狂気的なエネルギー、催眠的なAI駆動のビジュアル、そして暗闇を切り裂く幾何学的なレーザーが収められている。このスタジアムレベルのシネマティックな演出がロンドンのウェアハウスの壁の中に閉じ込められたとき、その強烈な視覚的トランス状態は間違いなく10倍にも跳ね上がるだろう。</p><div style="margin-top: 2rem; position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.youtube.com/embed/REc9bbV8zFU" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
+        }
+      ]
+    }
+  }
 ];
 
