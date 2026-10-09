@@ -4,6 +4,11 @@ on:
   push:
     branches:
       - main
+  # Daily rebuild so build-time logic (e.g. hiding ended events) stays fresh.
+  # Runs after update-data.yml (03:00 UTC) has had time to push data changes.
+  # Needed because pushes made with GITHUB_TOKEN do not trigger the push event above.
+  schedule:
+    - cron: '0 4 * * *'
   workflow_dispatch:
 
 permissions:
