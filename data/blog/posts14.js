@@ -710,6 +710,73 @@ export const posts14 = [
         }
       ]
     }
+  }  , // ← ★直前の記事との区切りのカンマ
+  {
+    slug: 'asot-london-2026-guide',
+    date: '2026-10-10',
+    readTime: 6,
+    tags: ['asot', 'london', 'guide', 'festival', 'armin-van-buuren'],
+    en: {
+      title: 'A State of Trance London 2026 Guide: Lineup, Access & Venue Rules',
+      description: 'A first-timer guide to A State of Trance London on 14 November 2026 at Drumsheds: lineup, getting there, venue rules and the UK ETA for overseas visitors.',
+      excerpt: 'A State of Trance London takes place on Saturday 14 November 2026 at Drumsheds. Here is what first-time visitors need to know: the lineup, how to get to Meridian Water, bag and ID rules, and the ETA for travellers from overseas.',
+      content: [
+        {
+          heading: '1. The Event at a Glance',
+          body: `<p><strong>A State of Trance London</strong> takes place on <strong>Saturday 14 November 2026</strong> at <strong>Drumsheds</strong> in London, from 13:00 to 22:30. The event is 18+. It celebrates 25 years of A State of Trance, and the venue describes it as &ldquo;the first ever indoor ASOT festival in the UK&rdquo;. The rooms are called X ROOM, Y ROOM and Z ROOM.</p><p>The official pages are <a href="https://drumshedslondon.com/event/a-state-of-trance/" target="_blank" rel="noopener">Drumsheds&rsquo; event page</a> and <a href="https://festival.astateoftrance.com/london/" target="_blank" rel="noopener">festival.astateoftrance.com/london</a>. The latter also lists a two-night hotel package; check the official site for details. For the background to the anniversary, see our article <a href="/blog/asot-25-years-anniversary">A State of Trance Turns 25</a>, or the <a href="/events/asot-london">ASOT London entry in our events calendar</a>.</p>`,
+        },
+        {
+          heading: '2. The Lineup',
+          body: `<p>The official lineup, as listed: Amber Broos b2b Lawton, Andrew Rayel presents Extasia, Arielle, Armin van Buuren, Armin van Buuren F2F Giuseppe Ottaviani, Ben Hemsley, Cosmic Gate, Dan Harrison, Deveraux, Ferry Corsten, Funk Tribu, GIA, Jordan Tilstone, Luvstruck, MDDLTN, Modeā, Olive Anguz, Pegassi, River, Ruben de Ronde, Sarah de Warren, Sophie Sugar, The Rocketman, Thick As Thieves and Will Atkinson.</p><p>Two billings are paired sets: <a href="/artists/armin-van-buuren">Armin van Buuren</a> F2F <a href="/artists/giuseppe-ottaviani">Giuseppe Ottaviani</a>, and Amber Broos b2b Lawton. Andrew Rayel appears as <a href="/artists/andrew-rayel">Andrew Rayel</a> presents Extasia. Other names with artist pages on this site include <a href="/artists/ferry-corsten">Ferry Corsten</a>, <a href="/artists/cosmic-gate">Cosmic Gate</a>, <a href="/artists/ruben-de-ronde">Ruben de Ronde</a> and <a href="/artists/will-atkinson">Will Atkinson</a>. Check the official pages for the latest running order.</p>`,
+        },
+        {
+          heading: '3. Getting There',
+          body: `<p>Drumsheds is at Meridian Water, N18 3HF, with the entrance on Meridian Way. The nearest station is <strong>Meridian Water</strong>, about a 5-minute walk from the venue. Trains take about 20 minutes from Liverpool Street and about 30 minutes from Stratford.</p><ul><li><strong>Victoria line:</strong> change at Tottenham Hale onto a Greater Anglia train. The venue states that Tottenham Hale is not within walking distance of Drumsheds.</li><li><strong>Shuttle bus:</strong> a shuttle runs between Tottenham Hale station and the venue; it is available to buy in advance via Kaboodle.</li><li><strong>Buses:</strong> route 341 (from Waterloo) and route 192 (from Tottenham Hale) stop at Glover Drive.</li><li><strong>Driving:</strong> there is no car park, and arriving by car is not recommended.</li><li><strong>Good to know:</strong> the rear three carriages of the train do not open their doors at Meridian Water.</li></ul><p>See the <a href="https://drumshedslondon.com/location/" target="_blank" rel="noopener">Drumsheds location page</a> for the full travel information.</p>`,
+        },
+        {
+          heading: '4. Venue Rules and What to Bring',
+          body: `<ul><li><strong>Bags:</strong> bags and backpacks larger than A4 (21 &times; 30 cm) cannot be brought in. Prohibited items cannot be stored in the lockers either.</li><li><strong>Payments:</strong> the venue is fully cashless; card and contactless only.</li><li><strong>Lockers:</strong> e-lockers must be booked in advance and tend to sell out. Medium suits 1&ndash;2 people and Large suits 2&ndash;3 people.</li><li><strong>Re-entry:</strong> there is no re-entry.</li><li><strong>ID:</strong> bring valid photo ID such as a passport. If your ticket carries a name, it must match your ID.</li><li><strong>Food:</strong> the outdoor area, The Yard, has food from Voodoo Ray&rsquo;s, Flock, Nanny Bill&rsquo;s and others.</li><li><strong>Water:</strong> the venue advises drinking water regularly, around half a pint per hour, and also warns that drinking too much can be dangerous.</li><li><strong>Accessibility:</strong> contact access@drumshedslondon.com with any questions.</li></ul><p>Details are on the <a href="https://drumshedslondon.com/essential-info/" target="_blank" rel="noopener">Essential Info</a> and <a href="https://drumshedslondon.com/faq/" target="_blank" rel="noopener">FAQ</a> pages.</p>`,
+        },
+        {
+          heading: '5. Travelling from Overseas: the UK ETA',
+          body: `<p>Visitors from visa-exempt countries such as Japan need an Electronic Travel Authorisation (ETA) to enter the UK; it has been mandatory since 25 February 2026. Apply at <a href="https://www.gov.uk/eta" target="_blank" rel="noopener">gov.uk/eta</a>. The fee is &pound;20 and the ETA is valid for two years. Beware of imitation sites. The Embassy of Japan in the UK has a <a href="https://www.uk.emb-japan.go.jp/itpr_ja/ETA.html" target="_blank" rel="noopener">page on the ETA</a> (in Japanese).</p>`,
+        },
+        {
+          heading: "A Listener's Note",
+          body: `<p>I listen to A State of Trance every week, which is why this event is on my calendar.</p>`,
+        },
+      ],
+    },
+    ja: {
+      title: 'A State of Trance London 2026 ガイド：ラインナップ・アクセス・会場ルール',
+      description: '2026年11月14日にDrumshedsで開催されるA State of Trance Londonの初心者向けガイド。ラインナップ、アクセス、会場ルール、海外からのETAをまとめました。',
+      excerpt: 'A State of Trance Londonは2026年11月14日（土）にDrumshedsで開催。初めて行く人向けに、ラインナップ、Meridian Waterへのアクセス、バッグ・ID・キャッシュレスのルール、海外からのETAを整理します。',
+      content: [
+        {
+          heading: '1. イベント概要',
+          body: `<p><strong>A State of Trance London</strong>は<strong>2026年11月14日（土）</strong>、ロンドンの<strong>Drumsheds</strong>で13:00〜22:30に開催されます。18歳以上限定。A State of Trance 25周年を祝う公演で、会場ページでは「the first ever indoor ASOT festival in the UK」と紹介されています。ルームはX ROOM、Y ROOM、Z ROOMです。</p><p>公式情報は<a href="https://drumshedslondon.com/event/a-state-of-trance/" target="_blank" rel="noopener">Drumshedsのイベントページ</a>と<a href="https://festival.astateoftrance.com/london/" target="_blank" rel="noopener">festival.astateoftrance.com/london</a>で確認できます。後者には2泊のホテルパッケージの案内もあるので、詳細は公式サイトでご確認ください。25周年の背景は<a href="/blog/asot-25-years-anniversary">A State of Trance 25周年</a>の記事、日程は<a href="/events/asot-london">イベント・カレンダーのASOT Londonのページ</a>もどうぞ。</p>`,
+        },
+        {
+          heading: '2. ラインナップ',
+          body: `<p>公式表記のラインナップ：Amber Broos b2b Lawton / Andrew Rayel presents Extasia / Arielle / Armin van Buuren / Armin van Buuren F2F Giuseppe Ottaviani / Ben Hemsley / Cosmic Gate / Dan Harrison / Deveraux / Ferry Corsten / Funk Tribu / GIA / Jordan Tilstone / Luvstruck / MDDLTN / Modeā / Olive Anguz / Pegassi / River / Ruben de Ronde / Sarah de Warren / Sophie Sugar / The Rocketman / Thick As Thieves / Will Atkinson。</p><p>ペアでの表記は2組。<a href="/artists/armin-van-buuren">Armin van Buuren</a> F2F <a href="/artists/giuseppe-ottaviani">Giuseppe Ottaviani</a>と、Amber Broos b2b Lawtonです。Andrew Rayelは<a href="/artists/andrew-rayel">Andrew Rayel</a> presents Extasiaとして出演します。当サイトにアーティストページがあるのは、ほかに<a href="/artists/ferry-corsten">Ferry Corsten</a>、<a href="/artists/cosmic-gate">Cosmic Gate</a>、<a href="/artists/ruben-de-ronde">Ruben de Ronde</a>、<a href="/artists/will-atkinson">Will Atkinson</a>などです。最新のタイムテーブルは公式ページでご確認ください。</p>`,
+        },
+        {
+          heading: '3. アクセス',
+          body: `<p>Drumshedsの住所はMeridian Water, N18 3HF、入口はMeridian Wayです。最寄りは<strong>Meridian Water駅</strong>で、会場まで徒歩約5分。Liverpool Streetから約20分、Stratfordから約30分です。</p><ul><li><strong>Victoria線を使う場合：</strong>Tottenham HaleでGreater Angliaに乗り換えます。Tottenham Haleから会場まで徒歩では行けないと公式が明記しています。</li><li><strong>シャトルバス：</strong>Tottenham Hale駅と会場を結ぶシャトルバスがあり、Kaboodleで事前購入できます。</li><li><strong>路線バス：</strong>341番（Waterloo発）と192番（Tottenham Hale発）がGlover Driveに停車します。</li><li><strong>車：</strong>駐車場はなく、車での来場は推奨されていません。</li><li><strong>ご注意：</strong>列車の後方3両は、Meridian Water駅でドアが開きません。</li></ul><p>詳しくは<a href="https://drumshedslondon.com/location/" target="_blank" rel="noopener">Drumshedsのアクセスページ</a>をご覧ください。</p>`,
+        },
+        {
+          heading: '4. 会場ルールと持ち物',
+          body: `<ul><li><strong>バッグ：</strong>A4（21×30cm）より大きいバッグ・リュックは持ち込めません。禁止品はロッカーにも預けられません。</li><li><strong>支払い：</strong>完全キャッシュレス（カード・タッチ決済のみ）です。</li><li><strong>ロッカー：</strong>e-lockerは事前予約制で、売り切れやすいとのこと。Mediumは1〜2人、Largeは2〜3人向けです。</li><li><strong>再入場：</strong>できません。</li><li><strong>ID：</strong>パスポートなど有効な写真付きIDが必要です。名前入りチケットの場合はIDと一致している必要があります。</li><li><strong>フード：</strong>屋外エリア「The Yard」にVoodoo Ray&rsquo;s、Flock、Nanny Bill&rsquo;sなどが出店します。</li><li><strong>水分補給：</strong>公式は、こまめな水分補給（1時間にハーフパイント程度が目安）を勧めるとともに、飲みすぎも危険だと注意を呼びかけています。</li><li><strong>アクセシビリティ：</strong>お問い合わせはaccess@drumshedslondon.comまで。</li></ul><p>詳細は<a href="https://drumshedslondon.com/essential-info/" target="_blank" rel="noopener">Essential Info</a>と<a href="https://drumshedslondon.com/faq/" target="_blank" rel="noopener">FAQ</a>をご確認ください。</p>`,
+        },
+        {
+          heading: '5. 海外から行く人へ：英国のETA',
+          body: `<p>日本などビザ免除国の旅行者が英国に入国するには、電子渡航認証（ETA）が必要です。2026年2月25日から必須化されました。申請は<a href="https://www.gov.uk/eta" target="_blank" rel="noopener">gov.uk/eta</a>から。費用は£20、有効期間は2年です。模倣サイトにご注意ください。在英国日本国大使館にも<a href="https://www.uk.emb-japan.go.jp/itpr_ja/ETA.html" target="_blank" rel="noopener">ETAの案内ページ</a>があります。</p>`,
+        },
+        {
+          heading: "A Listener's Note",
+          body: `<p>私は毎週A State of Tranceを聴いています。このイベントが気になっているのも、そのためです。</p>`,
+        },
+      ],
+    },
   }
 ];
-

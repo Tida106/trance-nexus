@@ -1,6 +1,10 @@
 // Lightweight listing data — no article body content.
 // Newest first. Keep in sync with data/blog/posts.js when adding articles.
 export const listing = [
+  // Batch 14: ASOT London 2026 first-timer guide
+  { slug: 'asot-london-2026-guide', date: '2026-10-10', readTime: 6, tags: ['asot', 'london', 'guide', 'festival', 'armin-van-buuren'],
+    en: { title: 'A State of Trance London 2026 Guide: Lineup, Access & Venue Rules', excerpt: 'A State of Trance London takes place on Saturday 14 November 2026 at Drumsheds. Here is what first-time visitors need to know: the lineup, how to get to Meridian Water, bag and ID rules, and the ETA for travellers from overseas.' },
+    ja: { title: 'A State of Trance London 2026 ガイド：ラインナップ・アクセス・会場ルール', excerpt: 'A State of Trance Londonは2026年11月14日（土）にDrumshedsで開催。初めて行く人向けに、ラインナップ、Meridian Waterへのアクセス、バッグ・ID・キャッシュレスのルール、海外からのETAを整理します。' } },
   // Batch 14: Returnee-targeted Then & Now retrospective (2008 vs 2026)
   { slug: 'trance-then-and-now-2008-2026', date: '2026-06-03', readTime: 9, tags: ['history', 'analysis', 'culture'],
     en: { title: 'Then & Now — How Trance Changed from 2008 to 2026', excerpt: 'I came back to trance in 2018, pulled in by Armin van Buuren\'s Tomorrowland mainstage set, and discovered the scene had moved on without me. This is the eighteen-year story between the 2008 commercial peak, the 2010s dip when EDM took the centre, and the 2026 revival — five axes laid side by side.' },
