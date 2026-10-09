@@ -90,7 +90,7 @@ export default async function BlogPostPage({ params }) {
     keywords: post.tags.join(', '),
     url: `https://trance-nexus.com/blog/${post.slug}`,
     datePublished: post.date,
-    dateModified: post.date,
+    dateModified: post.updated || post.date,
     inLanguage: ['en', 'ja'],
     author: {
       '@type': 'Organization',
