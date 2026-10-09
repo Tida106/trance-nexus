@@ -27,7 +27,7 @@ export const metadata = {
   // hreflang annotate the alternate. JA visitors still see JA chrome on the
   // page itself via useTranslation; what changes here is what crawlers see
   // before any client-side language switch runs.
-  description: 'The comprehensive trance music portal — artists, record labels, monthly charts, radio shows, festivals, and 60+ in-depth articles covering 30 years of trance.',
+  description: 'The comprehensive trance music portal — artists, record labels, monthly charts, radio shows, festivals, and 70+ in-depth articles covering 30 years of trance.',
   metadataBase: new URL('https://trance-nexus.com'),
   manifest: `${BASE_PATH}/manifest.webmanifest`,
   applicationName: 'TRANCE NEXUS',
@@ -57,7 +57,7 @@ export const metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    site: '@trancenexus',
+    site: '@trance_nexus',
     images: ['/og-image.png'],
   },
   alternates: {

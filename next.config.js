@@ -14,6 +14,7 @@ const nextConfig = {
   // raw fetch/script src does not.
   env: {
     NEXT_PUBLIC_BASE_PATH: process.env.BASE_PATH ?? '',
+    NEXT_PUBLIC_BUILD_DATE: new Date().toISOString().slice(0, 10),
   },
   compiler: {
     removeConsole: process.env.NODE_ENV === 'production'

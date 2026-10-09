@@ -24,46 +24,10 @@ const sizeOf = (data) => {
   return 0;
 };
 
+// Build-time date (YYYY-MM-DD) used to hide events that have already ended.
+const TODAY = process.env.NEXT_PUBLIC_BUILD_DATE;
+
 const NewsletterForm = dynamic(() => import('@/components/NewsletterForm'), { ssr: false });
-
-// ---------- inline ad slot --------------------------------------------------
-//
-// AdSense auto-ads inject into the page on their own based on the ad
-// script in app/layout.jsx, but explicit slots give us control over
-// where ads land in the long content flow. Each slot renders a
-// minimal placeholder; AdSense's ad.googletagmanager script is
-// already responsible for filling them once approved. The placeholder
-// height keeps CLS budget under control (the slot reserves space
-// before the ad renders).
-//
-// `format`:
-//   - 'banner'      90 px tall, full-width
-//   - 'inline'     250 px tall, full-width  (mid-content rectangle)
-
-function AdSlot({ id, format = 'banner', label = 'Advertisement', className = '' }) {
-  const minH = format === 'inline' ? 'min-h-[250px]' : 'min-h-[90px]';
-  return (
-    <aside
-      aria-label={label}
-      className={`relative z-10 px-12 py-6 ${className}`}
-    >
-      <div className="max-w-7xl mx-auto">
-        <div className="text-[10px] tracking-widest text-text-muted/50 font-bebas mb-1.5 text-center">
-          {label.toUpperCase()}
-        </div>
-        <div
-          id={id}
-          data-ad-slot={format}
-          className={`border border-orange-900/15 bg-dark-bg2/30 rounded-sm ${minH} flex items-center justify-center`}
-        >
-          <span className="text-text-muted/30 text-xs tracking-widest font-bebas">
-            ad slot · {format}
-          </span>
-        </div>
-      </div>
-    </aside>
-  );
-}
 
 // ---------- component ------------------------------------------------------
 
@@ -129,6 +93,10 @@ export default function Home() {
   // end. Past events filtered out.
   const upcomingEvents = [...eventsData]
     .filter((e) => e.status !== 'past')
+    .filter((e) => {
+      const last = e.dates?.next?.end || e.dates?.next?.start;
+      return !last || last >= TODAY;
+    })
     .sort((a, b) => {
       const av = a.dates?.next?.start ? new Date(a.dates.next.start).getTime() : Infinity;
       const bv = b.dates?.next?.start ? new Date(b.dates.next.start).getTime() : Infinity;
@@ -279,11 +247,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Ad slot 1 — between the hero/CTA cluster and the content
-          flow. AdSense auto-ads will fill once the placement passes
-          policy review. */}
-      <AdSlot id="home-ad-top" format="banner" />
-
       {/* ─────────────────────────────────────────────────────────────
           a) LATEST POSTS (6) — moved to lead the content flow under
           the Hero. On mobile we present
@@ -388,9 +351,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      {/* Ad slot 2 — mid-content rectangle. */}
-      <AdSlot id="home-ad-mid-1" format="inline" />
 
       {/* ─────────────────────────────────────────────────────────────
           c) LATEST MONTHLY CHART — single big banner. The most
@@ -591,9 +551,6 @@ export default function Home() {
           </div>
         </section>
       )}
-
-      {/* Ad slot 3 — between All-Time Best canon and the genre browser. */}
-      <AdSlot id="home-ad-mid-2" format="banner" />
 
       {/* ─────────────────────────────────────────────────────────────
           g) BROWSE BY GENRE — entry points into the "What is X"
