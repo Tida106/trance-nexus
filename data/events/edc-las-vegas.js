@@ -14,9 +14,10 @@ const edcLasVegas = {
   country: 'US',
 
   dates: {
+    next: { start: '2027-05-14', end: '2027-05-23' },
     typicalMonth: 'May',
     cadence: 'annual',
-    note: 'Three-night festival in mid-to-late May',
+    note: 'Three-night festival in mid-to-late May; 2027 runs as two weekends (May 14–16 and May 21–23)',
   },
 
   venue: {
@@ -53,17 +54,17 @@ const edcLasVegas = {
     { year: 1997, note: 'EDC debut at Shrine Expo Hall, Los Angeles (Insomniac / Pasquale Rotella)' },
   ],
 
-  official_url: 'https://lasvegas.electricdaisycarnival.com',
-  ticket_url: 'https://lasvegas.electricdaisycarnival.com/passes',
+  official_url: 'https://lasvegas.edc.com',
+  ticket_url: 'https://lasvegas.edc.com',
   og_image: '/og/events/edc-las-vegas.png',
 
   en: {
     description:
-      "EDC Las Vegas is Insomniac's flagship US festival — three nights at the Las Vegas Motor Speedway each May, drawing more than 500,000 attendees across the weekend in 2024 (it is the largest electronic dance music festival in North America). EDC was founded in 1997 by Pasquale Rotella at the Shrine Expo Hall in Los Angeles and relocated to the Las Vegas Motor Speedway in 2011.\n\nThe festival is organised around themed stages including the kineticFIELD main stage and circuitGROUNDS. The dedicated trance stage, quantumVALLEY, debuted in 2017 and is presented in partnership with Insomniac's Dreamstate brand, programmed across the uplifting, progressive, tech, and psy-trance spectrum. Aly & Fila have played quantumVALLEY repeatedly (including 2017, 2019, 2021, 2022) and Andrew Rayel has appeared in recent editions; Paul van Dyk, Gareth Emery and Darude are confirmed on the 2026 quantumVALLEY bill, while Armin van Buuren and Above & Beyond have appeared on the kineticFIELD main stage. The 2027 edition has been officially announced as the festival's first two-weekend format (14–16 + 21–23 May).",
+      "EDC Las Vegas is Insomniac's flagship US festival — three nights at the Las Vegas Motor Speedway each May, drawing more than 500,000 attendees across the weekend in 2024 (it is the largest electronic dance music festival in North America). EDC was founded in 1997 by Pasquale Rotella at the Shrine Expo Hall in Los Angeles and relocated to the Las Vegas Motor Speedway in 2011.\n\nThe festival is organised around themed stages including the kineticFIELD main stage and circuitGROUNDS. The dedicated trance stage, quantumVALLEY, debuted in 2017 and is presented in partnership with Insomniac's Dreamstate brand, programmed across the uplifting, progressive, tech, and psy-trance spectrum. Aly & Fila have played quantumVALLEY repeatedly (including 2017, 2019, 2021, 2022) and Andrew Rayel has appeared in recent editions; Armin van Buuren and Above & Beyond have appeared on the kineticFIELD main stage. The 2027 edition has been officially announced as the festival's first two-weekend format (14–16 + 21–23 May) at the Las Vegas Motor Speedway.",
   },
   ja: {
     description:
-      'EDC Las VegasはInsomniacの旗艦米国フェスティバルで、毎年5月にLas Vegas Motor Speedwayで3夜開催される。2024年は週末を通して50万人を超える来場者を集め、北米最大の電子ダンス・ミュージック・フェスティバルとなっている。EDCは1997年にPasquale RotellaがロサンゼルスのShrine Expo Hallで創設し、2011年にLas Vegas Motor Speedwayへ移転した。\n\nフェスティバルはテーマ別のステージで構成されており、メインステージのkineticFIELDとcircuitGROUNDSなどがある。専用トランス・ステージのquantumVALLEYは2017年にデビューし、InsomniacのDreamstateブランドとのパートナーシップで運営され、アップリフティング、プログレッシブ、テック、サイトランスの全域でプログラムされる。Aly & FilaはquantumVALLEYに繰り返し出演（2017、2019、2021、2022年など）し、Andrew Rayelも近年のエディションに登場している。2026年のquantumVALLEYにはPaul van Dyk、Gareth Emery、Darudeが出演を確認しており、Armin van BuurenとAbove & BeyondはkineticFIELDメインステージに出演してきた。2027年エディションはフェスティバル初の2週末フォーマット（5月14〜16日＋21〜23日）として公式発表されている。',
+      'EDC Las VegasはInsomniacの旗艦米国フェスティバルで、毎年5月にLas Vegas Motor Speedwayで3夜開催される。2024年は週末を通して50万人を超える来場者を集め、北米最大の電子ダンス・ミュージック・フェスティバルとなっている。EDCは1997年にPasquale RotellaがロサンゼルスのShrine Expo Hallで創設し、2011年にLas Vegas Motor Speedwayへ移転した。\n\nフェスティバルはテーマ別のステージで構成されており、メインステージのkineticFIELDとcircuitGROUNDSなどがある。専用トランス・ステージのquantumVALLEYは2017年にデビューし、InsomniacのDreamstateブランドとのパートナーシップで運営され、アップリフティング、プログレッシブ、テック、サイトランスの全域でプログラムされる。Aly & FilaはquantumVALLEYに繰り返し出演（2017、2019、2021、2022年など）し、Andrew Rayelも近年のエディションに登場している。Armin van BuurenとAbove & BeyondはkineticFIELDメインステージに出演してきた。2027年エディションはフェスティバル初の2週末フォーマット（5月14〜16日＋21〜23日／Las Vegas Motor Speedway）として公式発表されている。',
   },
 };
 

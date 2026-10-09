@@ -26,7 +26,7 @@ const boomFestival = {
   },
 
   venue: {
-    name: 'Boomland (Idanha-a-Nova lakeside)',
+    name: 'Boomland',
     address: 'Herdade da Granja, Idanha-a-Nova, Castelo Branco District',
     country: 'PT',
     lat: 39.9806,

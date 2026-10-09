@@ -67,6 +67,11 @@ import pureTranceEvents from './pure-trance-events';
 import anjunadeepOpenAir from './anjunadeep-open-air';
 // Batch 5 — regional editions and historical records
 import sunburnFestival from './sunburn-festival';
+// Batch 6 — 2026–27 season additions
+import asotLondon from './asot-london';
+import transmissionNetherlands from './transmission-netherlands';
+import unkonsciousFestival from './unkonscious-festival';
+import fsoe1000Uk from './fsoe-1000-uk';
 
 export const events = [
   tomorrowland,
@@ -87,6 +92,10 @@ export const events = [
   pureTranceEvents,
   anjunadeepOpenAir,
   sunburnFestival,
+  asotLondon,
+  transmissionNetherlands,
+  unkonsciousFestival,
+  fsoe1000Uk,
 ];
 
 export const eventSlugs = events.map((e) => e.slug);

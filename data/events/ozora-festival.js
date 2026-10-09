@@ -13,10 +13,10 @@ const ozoraFestival = {
   country: 'HU',
 
   dates: {
-    next: { start: '2026-07-27', end: '2026-08-04' },
+    next: { start: '2027-07-23', end: '2027-08-03' },
     typicalMonth: 'July–August',
     cadence: 'annual',
-    note: 'Week-long festival, last week of July into early August',
+    note: 'Week-long festival, late July into early August; 2027 runs July 23 – August 3',
   },
 
   venue: {
@@ -43,6 +43,7 @@ const ozoraFestival = {
   labels: ['Iboga Records', 'HOMmega Productions', 'Nano Records', 'Solstice Music'],
 
   editions: [
+    { year: 2027, dates: 'July 23 – August 3', note: 'Dádpuszta, Hungary' },
     { year: 2026, dates: 'July 27 – August 4', note: 'Gates open July 24; opening ceremony July 27' },
     { year: 2024, dates: 'July 26 – August 6', note: 'Full festival window including warm-up days' },
     { year: 2022, dates: 'August 1–7' },
@@ -58,11 +59,11 @@ const ozoraFestival = {
 
   en: {
     description:
-      "Ozora Festival is the Hungarian psytrance festival held annually at Dádpuszta in central Hungary, and described by Trax Magazine as the principal hub of psytrance culture in Europe. The site's psytrance lineage traces to the 1999 Solipse Festival, a gathering organised around the total solar eclipse of 11 August 1999 that drew roughly 15,000-20,000 attendees. Solipse had a sequel in Zambia in 2001 (timed to the 21 June total eclipse), but the Hungarian site lay dormant until the first Ozora Festival in 2004, after which it has run annually.\n\nThe 2026 edition runs July 27 to August 4 (gates open July 24). Ozora is staged across multiple thematic areas: the main Ozora Stage for psytrance and progressive, the Dome for chill-out and psybient, Pumpui for techno and house, Dragon Nest for live and world-music programming, and Ambyss for deep atmospheric soundscapes. Permanent clay-and-wood structures on site include the Mirador lookout-and-visionary-art tower, the Chambok House lecture hall, and the Artisans workshop area. Astrix, Captain Hook, Ace Ventura, Liquid Soul, Ranji, Vini Vici, and Infected Mushroom are recurring headliners.",
+      "Ozora Festival is the Hungarian psytrance festival held annually at Dádpuszta in central Hungary, and described by Trax Magazine as the principal hub of psytrance culture in Europe. The site's psytrance lineage traces to the 1999 Solipse Festival, a gathering organised around the total solar eclipse of 11 August 1999 that drew roughly 15,000-20,000 attendees. Solipse had a sequel in Zambia in 2001 (timed to the 21 June total eclipse), but the Hungarian site lay dormant until the first Ozora Festival in 2004, after which it has run annually.\n\nThe 2027 edition runs July 23 to August 3. Ozora is staged across multiple thematic areas: the main Ozora Stage for psytrance and progressive, the Dome for chill-out and psybient, Pumpui for techno and house, Dragon Nest for live and world-music programming, and Ambyss for deep atmospheric soundscapes. Permanent clay-and-wood structures on site include the Mirador lookout-and-visionary-art tower, the Chambok House lecture hall, and the Artisans workshop area. Astrix, Captain Hook, Ace Ventura, Liquid Soul, Ranji, Vini Vici, and Infected Mushroom are recurring headliners.",
   },
   ja: {
     description:
-      "Ozora Festivalはハンガリーのサイトランス・フェスティバルで、毎年ハンガリー中部のDádpusztaで開催される。Trax Magazineはこのフェスティバルを「ヨーロッパのサイトランス文化の主要なハブ」と評する。サイトのサイトランス系譜は、1999年8月11日の皆既日食を中心に組織されたSolipse Festivalに遡り、約15,000-20,000人の参加者を集めた。Solipseは2001年にザンビア（6月21日の皆既日食に合わせて）で続編が開催されたが、ハンガリーのサイトは2004年の最初のOzora Festivalまで休眠し、以来毎年開催されている。\n\n2026年エディションは7月27日から8月4日まで（ゲート開放は7月24日）。Ozoraは複数のテーマ別エリアで展開される——サイトランスとプログレッシブのメインOzora Stage、チルアウトとサイビエントのDome、テクノとハウスのPumpui、ライヴとワールドミュージックのDragon Nest、深いアトモスフェリック・サウンドスケープのAmbyss。サイトには恒久的な粘土と木の構造物として、展望台兼ヴィジョナリー・アート・タワーのMirador、講義ホールのChambok House、ワークショップ・エリアのArtisansがある。Astrix、Captain Hook、Ace Ventura、Liquid Soul、Ranji、Vini Vici、Infected Mushroomが反復のヘッドライナーだ。",
+      "Ozora Festivalはハンガリーのサイトランス・フェスティバルで、毎年ハンガリー中部のDádpusztaで開催される。Trax Magazineはこのフェスティバルを「ヨーロッパのサイトランス文化の主要なハブ」と評する。サイトのサイトランス系譜は、1999年8月11日の皆既日食を中心に組織されたSolipse Festivalに遡り、約15,000-20,000人の参加者を集めた。Solipseは2001年にザンビア（6月21日の皆既日食に合わせて）で続編が開催されたが、ハンガリーのサイトは2004年の最初のOzora Festivalまで休眠し、以来毎年開催されている。\n\n2027年エディションは7月23日から8月3日まで。Ozoraは複数のテーマ別エリアで展開される——サイトランスとプログレッシブのメインOzora Stage、チルアウトとサイビエントのDome、テクノとハウスのPumpui、ライヴとワールドミュージックのDragon Nest、深いアトモスフェリック・サウンドスケープのAmbyss。サイトには恒久的な粘土と木の構造物として、展望台兼ヴィジョナリー・アート・タワーのMirador、講義ホールのChambok House、ワークショップ・エリアのArtisansがある。Astrix、Captain Hook、Ace Ventura、Liquid Soul、Ranji、Vini Vici、Infected Mushroomが反復のヘッドライナーだ。",
   },
 };
 
