@@ -311,47 +311,51 @@ export const posts14 = [
   {
     slug: 'dreamstate-socal-2026-complete-guide',
     date: '2026-07-29',
-    readTime: 7,
+    readTime: 2,
     tags: ['dreamstate', 'festival', 'insomniac', 'north-america'],
     en: {
-      title: 'Dreamstate SoCal 2026 Complete Guide — Lineup, Dates &amp; What to Expect',
-      description: 'The ultimate guide to Dreamstate SoCal 2026, featuring the lineup, new stages, and Above &amp; Beyond&#39;s Anjunabeats Classics set.',
-      excerpt: 'North America&#39;s premier all-trance festival returns for its 11th edition. Discover the lineup highlights, new stages, and everything you need to know about Dreamstate SoCal 2026.',
+      title: 'Dreamstate SoCal 2026 Guide — Dates, Venue and Lineup',
+      description: 'Dreamstate SoCal 2026 takes place on November 20–21 at the Queen Mary Waterfront in Long Beach. Basics, stages and lineup highlights, including Above & Beyond\'s Anjunabeats Classics set.',
+      excerpt: 'Dreamstate SoCal returns for its 11th edition on November 20–21, 2026 at the Queen Mary Waterfront in Long Beach. Here are the basics and the lineup highlights.',
       content: [
         {
-          heading: '1. The 11th Edition of North America&#39;s Premier Trance Festival',
-          body: '<p>Dreamstate SoCal returns for its 11th edition, cementing its status as North America&#39;s ultimate all-trance destination. With the official lineup revealed on July 9th, this year promises an unforgettable gathering of legendary figures and exciting newcomers under the Californian sky.</p>'
+          heading: '1. Event Basics',
+          body: '<ul><li><strong>Edition:</strong> 11th</li><li><strong>Dates:</strong> November 20–21, 2026</li><li><strong>Venue:</strong> Queen Mary Waterfront, Long Beach, CA</li><li><strong>Organizer:</strong> Insomniac</li></ul><p>According to EDM Tunes, the 2026 edition has over 70 acts across four stages. The new additions are the Long Beach Amphitheater and Beatbox\'s Art Car stage, which features local trance artists.</p>'
         },
         {
-          heading: '2. Event Basics &amp; New Stages',
-          body: '<ul><li><strong>Dates:</strong> November 20-21, 2026</li><li><strong>Venue:</strong> Queen Mary Waterfront, Long Beach, CA</li><li><strong>Organizer:</strong> Insomniac</li></ul><p>The 2026 edition features over 70 acts across 4 stages, including the newly added Long Beach Amphitheater. Additionally, attendees can look forward to a brand-new Beatbox Art Car stage dedicated entirely to featuring local trance artists.</p>'
+          heading: '2. Above & Beyond: Anjunabeats Classics',
+          body: '<p><a href="/artists/above-and-beyond">Above &amp; Beyond</a> are billed for an "Anjunabeats Classics" set rather than their usual format. EDM Tunes says it focuses on the label\'s mid-2000s catalog.</p>'
         },
         {
-          heading: '3. Highlight: Above &amp; Beyond&#39;s Special Set',
-          body: '<p>A major draw this year is <a href="/artists/above-and-beyond">Above &amp; Beyond</a> performing an exclusive &quot;Anjunabeats Classics&quot; set. Departing from their usual format, the trio will dive deep into the label&#39;s early to mid-2000s catalog, offering a deeply nostalgic journey for longtime fans.</p>'
+          heading: '3. Lineup Highlights',
+          body: '<p>Names on the announced lineup include Solarstone, Key4050 (Bryan Kearney + John O\'Callaghan), Dash Berlin, Andy Moor, <a href="/artists/john-00-fleming">John 00 Fleming</a>, Vini Vici and MaRLo. <a href="/artists/paul-van-dyk">Paul van Dyk</a> is listed presenting "The Essence of Acid".</p><p>Other billed acts and b2b sets include Ferry Corsten + Marsh, Aaron Hibell (Live), Alpha 9 + Ilan Bluestone, JOA, Infected Mushroom, Neelix, Astrix, BT + Matt FAX, Giorgia Angiuli, Mauro Picotto and Warp Brothers.</p>'
         },
         {
-          heading: '4. A Legendary Lineup',
-          body: '<p>The roster is packed with trance royalty. Expect monumental performances from Solarstone, Key4050, Dash Berlin, Andy Moor, <a href="/artists/john-00-fleming">John 00 Fleming</a>, Vini Vici, and MaRLo. <a href="/artists/paul-van-dyk">Paul van Dyk</a> will also present his special &quot;The Essence Of Acid&quot; project.</p><p>Other massive b2b sets and live acts include Ferry Corsten + Marsh, Aaron Hibell, Alpha 9 + Ilan Bluestone, JOA, Infected Mushroom, Neelix, Astrix, BT + Matt FAX, Giorgia Angiuli, Mauro Picotto, and Warp Brothers.</p>'
-        },
-        {
-          heading: '5. Exciting Debuts',
-          body: '<p>Dreamstate 2026 also welcomes fresh faces to its stages: Ukrainian melodic techno duo ARTBAT, Italian techno producer Enrico Sangiuliano, and Belgian producer Pegassi, who is known for seamlessly blending Eurodance, techno, and trance.</p>'
-        },
-        {
-          heading: '6. The Unique Vibe of the North American Scene',
-          body: '<p>Ever since my own entry into the trance world at the Tomorrowland 2018 mainstage, I&#39;ve been fascinated by how the North American scene has evolved differently from Europe. While I haven&#39;t yet had the chance to attend Dreamstate SoCal in person, the unique rave culture cultivated by Insomniac and their dedication to top-tier production make this a bucket-list event for any trance fan. Be sure to check out our <a href="/events">events calendar</a> for more details on the upcoming festival season.</p>'
+          heading: '4. Debuts',
+          body: '<p>EDM Identity lists ARTBAT, Enrico Sangiuliano and Pegassi as Dreamstate debuts. Check the <a href="/events">events calendar</a> for the festival season, and the official Insomniac page for day-by-day schedules and tickets.</p>'
         }
       ]
     },
     ja: {
-      title: 'Dreamstate SoCal 2026 完全ガイド — ラインナップ・日程・見どころ',
-      description: 'Dreamstate SoCal 2026の完全ガイド。ラインナップ、新ステージ、Above &amp; BeyondのAnjunabeats Classicsセットなどを特集。',
-      excerpt: '北米最大級のトランス専門フェスが11回目の開催。Dreamstate SoCal 2026の見どころを徹底解説。',
+      title: 'Dreamstate SoCal 2026 ガイド — 日程・会場・ラインナップ',
+      description: 'Dreamstate SoCal 2026は11月20〜21日、ロングビーチのQueen Mary Waterfrontで開催。基本情報、ステージ、Above & Beyondのアンジュナビーツ・クラシックス・セットを含むラインナップをまとめます。',
+      excerpt: 'Dreamstate SoCalは11回目の開催で、2026年11月20〜21日にロングビーチのQueen Mary Waterfrontで行われます。基本情報とラインナップのポイントを紹介します。',
       content: [
         {
-          heading: '1. 北米最大級トランスフェス、11回目の開催',
-          body: '<p>Dreamstate SoCalが11回目の開催を迎え、北米最高のトランスの聖地としての地位を確固たるものにしています。</p>'
+          heading: '1. 開催概要',
+          body: '<ul><li><strong>回数：</strong>第11回</li><li><strong>日程：</strong>2026年11月20〜21日</li><li><strong>会場：</strong>Queen Mary Waterfront（カリフォルニア州ロングビーチ）</li><li><strong>主催：</strong>Insomniac</li></ul><p>EDM Tunesによると、2026年は4ステージで70組を超える出演者が登場します。新たに加わったのはLong Beach Amphitheaterと、地元のトランスアーティストを紹介するBeatboxのArt Carステージです。</p>'
+        },
+        {
+          heading: '2. Above & Beyond：Anjunabeats Classics',
+          body: '<p><a href="/artists/above-and-beyond">Above &amp; Beyond</a>は、通常の形式ではなく「Anjunabeats Classics」セットでの出演が発表されています。EDM Tunesによると、レーベルの2000年代中盤のカタログが中心です。</p>'
+        },
+        {
+          heading: '3. ラインナップのポイント',
+          body: '<p>発表されたラインナップには、Solarstone、Key4050（Bryan Kearney + John O\'Callaghan）、Dash Berlin、Andy Moor、<a href="/artists/john-00-fleming">John 00 Fleming</a>、Vini Vici、MaRLoなどが並びます。<a href="/artists/paul-van-dyk">Paul van Dyk</a>は「The Essence of Acid」名義で掲載されています。</p><p>ほかに、Ferry Corsten + Marsh、Aaron Hibell（Live）、Alpha 9 + Ilan Bluestone、JOA、Infected Mushroom、Neelix、Astrix、BT + Matt FAX、Giorgia Angiuli、Mauro Picotto、Warp Brothersなどが発表されています。</p>'
+        },
+        {
+          heading: '4. 初出演',
+          body: '<p>EDM Identityは、ARTBAT、Enrico Sangiuliano、PegassiをDreamstate初出演として挙げています。フェスの時期については<a href="/events">イベントカレンダー</a>を、日別のスケジュールやチケットはInsomniac公式ページをご確認ください。</p>'
         }
       ]
     }
