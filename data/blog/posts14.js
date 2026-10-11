@@ -407,12 +407,13 @@ export const posts14 = [
   {
     slug: 'transmission-netherlands-gelredome-2026',
     date: '2026-08-08',
-    readTime: 1,
+    readTime: 3,
+    updated: '2026-10-11',
     tags: ['transmission', 'netherlands', 'festival', 'indoor-trance'],
     en: {
-      title: 'Transmission Netherlands 2026 at GelreDome: Date, Venue and Hours',
-      description: 'Transmission Netherlands takes place on Saturday 28 November 2026 at GelreDome in Arnhem. Date, hours, age limit and venue facts.',
-      excerpt: 'Transmission Netherlands takes place on 28 November 2026 at GelreDome in Arnhem, from 14:00 to 23:00, for ages 18 and over. Here are the basics and the venue facts.',
+      title: 'Transmission Netherlands 2026 at GelreDome: Lineup, Hours and Venue Rules',
+      description: 'Transmission Netherlands takes place on Saturday 28 November 2026 at GelreDome in Arnhem. Official lineup, hours, age limit and venue rules.',
+      excerpt: 'Transmission Netherlands takes place on 28 November 2026 at GelreDome in Arnhem, from 14:00 to 23:00, for ages 18 and over. Here are the official lineup, the basics and the venue rules.',
       content: [
         {
           heading: 'Date, Venue and Hours',
@@ -423,15 +424,19 @@ export const posts14 = [
           body: '<p>GelreDome opened on 25 March 1998. It was the first football stadium in the world with a retractable pitch, and it also has a sliding roof. The official GelreDome site gives a maximum of 34,000 visitors, rising to 41,000 when a stage is set up in the middle of the pitch for concerts.</p>'
         },
         {
-          heading: 'Lineup and Tickets',
-          body: '<p>Please check the lineup, timetable and tickets on the <a href="https://transmissionfestival.com/events/tmnl26/" target="_blank" rel="noopener">official Transmission Netherlands page</a>.</p>'
+          heading: 'Lineup',
+          body: '<p>The official lineup, listed A&ndash;Z on the event page: <a href="/artists/aly-and-fila">Aly &amp; Fila</a>, <a href="/artists/andrew-rayel">Andrew Rayel</a>, <a href="/artists/daxson">Daxson</a>, Digital Culture, Driftmoon b2b Asteroid, <a href="/artists/markus-schulz">Markus Schulz</a> b2b <a href="/artists/ferry-corsten">Ferry Corsten</a>, <a href="/artists/paul-van-dyk">Paul van Dyk</a> and <a href="/artists/xijaro-and-pitch">Xijaro &amp; Pitch</a>, with a warm-up set from DJ Dusk. The organisers say the timetable is usually released in the week of the event.</p><p>Tickets and the latest information are on the <a href="https://transmissionfestival.com/events/tmnl26/" target="_blank" rel="noopener">official Transmission Netherlands page</a>.</p>'
+        },
+        {
+          heading: 'Good to Know Before You Go',
+          body: '<ul><li><strong>Sound level:</strong> 98&ndash;103 dB; earplugs are strongly advised.</li><li><strong>Payments:</strong> food and drink are paid with the GelreDome Wallet card (minimum top-up &euro;5.00), sold on site by cash or card. It cannot be bought in advance.</li><li><strong>Not allowed:</strong> outside food and drink, liquids including deodorant and hairspray, glass, PET bottles, aerosol cans, laser pointers, sharp objects, and professional or semi-professional cameras with interchangeable lenses. Smoking is not permitted inside.</li><li><strong>Tickets:</strong> downloadable from 26 November; your entrance number is printed on the ticket.</li><li><strong>Getting there:</strong> train to Arnhem Central, then the shuttle bus from the city bus platform. Return shuttle tickets are sold on board.</li></ul><p>Comparing November events? See our <a href="/blog/november-2026-trance-events-guide">November 2026 Trance Events Guide</a>.</p>'
         }
       ]
     },
     ja: {
-      title: 'Transmission Netherlands 2026 at GelreDome：日程・会場・時間',
-      description: 'Transmission Netherlandsは2026年11月28日（土）、アーネムのGelreDomeで開催。日程、時間、年齢制限、会場の基本情報をまとめます。',
-      excerpt: 'Transmission Netherlandsは2026年11月28日、アーネムのGelreDomeで14:00〜23:00に開催（18歳以上）。基本情報と会場の概要を紹介します。',
+      title: 'Transmission Netherlands 2026 at GelreDome：ラインナップ・時間・会場ルール',
+      description: 'Transmission Netherlandsは2026年11月28日（土）、アーネムのGelreDomeで開催。公式ラインナップ、時間、年齢制限、会場ルールをまとめます。',
+      excerpt: 'Transmission Netherlandsは2026年11月28日、アーネムのGelreDomeで14:00〜23:00に開催（18歳以上）。公式ラインナップと基本情報、会場ルールを紹介します。',
       content: [
         {
           heading: '日程・会場・時間',
@@ -442,8 +447,12 @@ export const posts14 = [
           body: '<p>GelreDomeは1998年3月25日に開場しました。世界で初めて可動式ピッチを備えたサッカースタジアムで、スライド式の屋根も備えています。GelreDome公式サイトによると、最大収容は34,000人で、コンサート時にピッチ中央へステージを設置すると41,000人になります。</p>'
         },
         {
-          heading: 'ラインナップとチケット',
-          body: '<p>ラインナップ、タイムテーブル、チケットは<a href="https://transmissionfestival.com/events/tmnl26/" target="_blank" rel="noopener">Transmission Netherlands公式ページ</a>でご確認ください。</p>'
+          heading: 'ラインナップ',
+          body: '<p>公式ページにA〜Z順で掲載されているラインナップ：<a href="/artists/aly-and-fila">Aly &amp; Fila</a>、<a href="/artists/andrew-rayel">Andrew Rayel</a>、<a href="/artists/daxson">Daxson</a>、Digital Culture、Driftmoon b2b Asteroid、<a href="/artists/markus-schulz">Markus Schulz</a> b2b <a href="/artists/ferry-corsten">Ferry Corsten</a>、<a href="/artists/paul-van-dyk">Paul van Dyk</a>、<a href="/artists/xijaro-and-pitch">Xijaro &amp; Pitch</a>。ウォームアップはDJ Duskです。タイムテーブルは例年、開催週に発表されるとのことです。</p><p>チケットと最新情報は<a href="https://transmissionfestival.com/events/tmnl26/" target="_blank" rel="noopener">Transmission Netherlands公式ページ</a>でご確認ください。</p>'
+        },
+        {
+          heading: '行く前に知っておきたいこと',
+          body: '<ul><li><strong>音量：</strong>98〜103dB。耳栓の着用が強く推奨されています。</li><li><strong>支払い：</strong>飲食はGelreDome Walletカード（最低チャージ€5.00）。会場で現金・カードで購入でき、事前購入はできません。</li><li><strong>持ち込み禁止：</strong>外部の飲食物、デオドラントやヘアスプレーを含む液体、ガラス、ペットボトル、スプレー缶、レーザーポインター、刃物類、レンズ交換式のプロ・セミプロ用カメラ。館内は禁煙です。</li><li><strong>チケット：</strong>11月26日からダウンロード可能。入場口の番号はチケットに記載されます。</li><li><strong>アクセス：</strong>電車でArnhem Centralへ行き、市バス乗り場からシャトルバス。帰りのシャトルの切符は車内で購入できます。</li></ul><p>11月のイベントを比べたい人は<a href="/blog/november-2026-trance-events-guide">2026年11月のトランス・イベントガイド</a>もどうぞ。</p>'
         }
       ]
     }
