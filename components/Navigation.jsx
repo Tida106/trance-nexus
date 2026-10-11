@@ -12,7 +12,7 @@ export default function Navigation() {
   return (
     <nav
       aria-label={t('nav.artists') === 'アーティスト' ? 'グローバルナビゲーション' : 'Primary navigation'}
-      className="fixed top-0 left-0 right-0 z-50 h-[84px] bg-dark-header/96 backdrop-blur-xl border-b-2 border-accent-orange flex items-center justify-between px-12"
+      className="fixed top-0 left-0 right-0 z-50 h-[64px] md:h-[84px] bg-dark-header/96 backdrop-blur-xl border-b-2 border-accent-orange flex items-center justify-between gap-2 px-3 md:px-12"
     >
       {/* Brand logo. The link doubles as a "back to home" affordance, which
           users have come to expect from a header logo. width/height are
@@ -21,7 +21,7 @@ export default function Navigation() {
       <Link
         href="/"
         aria-label="TRANCE NEXUS — home"
-        className="flex items-center"
+        className="flex items-center shrink-0"
       >
         <img
           src={`${BASE_PATH}/logo.png`}
@@ -30,10 +30,10 @@ export default function Navigation() {
           height={72}
           decoding="async"
           fetchPriority="high"
-          className="h-[72px] w-auto block rounded-lg border border-[rgba(212,175,55,0.6)]"
+          className="h-[44px] md:h-[72px] w-auto block rounded-lg border border-[rgba(212,175,55,0.6)]"
         />
       </Link>
-      <div className="flex gap-0 items-center">
+      <div className="flex gap-0 items-center min-w-0 overflow-x-auto nav-scroll">
         {/* All primary nav items point at real Next.js routes (not
             in-page #hashes) so the bar works from every page, not just
             the homepage. The child <span> carries the gold gradient so
@@ -48,16 +48,16 @@ export default function Navigation() {
           <Link
             key={link.href}
             href={link.href}
-            className="px-5 h-[84px] leading-[84px] block border-l border-[rgba(212,175,55,0.3)] hover:bg-[rgba(212,175,55,0.06)] transition-colors relative group"
+            className="shrink-0 px-2 sm:px-2.5 md:px-5 h-[64px] leading-[64px] md:h-[84px] md:leading-[84px] block border-l border-[rgba(212,175,55,0.3)] hover:bg-[rgba(212,175,55,0.06)] transition-colors relative group"
           >
-            <span className="font-bebas text-sm tracking-widest gold-metallic-nav">
+            <span className="font-bebas text-xs md:text-sm tracking-wider md:tracking-widest gold-metallic-nav">
               {link.label}
             </span>
             <span className="absolute bottom-0 left-0 right-0 h-0.5 gold-metallic-underline scale-x-0 group-hover:scale-x-100 transition-transform origin-left"></span>
           </Link>
         ))}
         <SearchTrigger />
-        <div className="border-l border-[rgba(212,175,55,0.3)] px-5 h-[84px] leading-[84px] flex gap-2">
+        <div className="shrink-0 border-l border-[rgba(212,175,55,0.3)] px-2 sm:px-2.5 md:px-5 h-[64px] leading-[64px] md:h-[84px] md:leading-[84px] flex gap-1.5 md:gap-2">
           <button
             type="button"
             onClick={() => switchLanguage('en')}

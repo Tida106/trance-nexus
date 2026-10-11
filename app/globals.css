@@ -317,3 +317,7 @@ body::before {
 @keyframes hs-pulse{0%,100%{opacity:.2;transform:scale(1)}50%{opacity:.38;transform:scale(1.12)}}
 @media (max-width:640px){.hs-beam{opacity:.45}}
 @media (prefers-reduced-motion:reduce){.hero-stage *{animation:none!important}}
+
+/* Header nav: scroll sideways instead of overflowing on very narrow screens. */
+.nav-scroll{scrollbar-width:none}
+.nav-scroll::-webkit-scrollbar{display:none}

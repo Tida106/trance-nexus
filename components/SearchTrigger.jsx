@@ -42,7 +42,7 @@ export default function SearchTrigger() {
       <button
         onClick={() => { setArmed(true); setOpen(true); }}
         aria-label={isJA ? 'サイト内検索を開く' : 'Open site search'}
-        className="font-bebas text-sm tracking-widest text-text-muted hover:bg-[rgba(212,175,55,0.06)] px-4 h-[84px] border-l border-[rgba(212,175,55,0.3)] flex items-center gap-2 transition-colors group"
+        className="font-bebas text-sm tracking-widest text-text-muted hover:bg-[rgba(212,175,55,0.06)] shrink-0 px-2 sm:px-2.5 md:px-4 h-[64px] md:h-[84px] border-l border-[rgba(212,175,55,0.3)] flex items-center gap-2 transition-colors group"
       >
         {/* Magnifier icon shares the same gold gradient as the SEARCH/検索
             label so the whole trigger reads as one gilded element. */}
