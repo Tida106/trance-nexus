@@ -8,7 +8,8 @@
 
 ## 作業ルール（最優先）
 
-- **作業を始める前に必ず `git pull --rebase origin main` を実行する。** 自宅PCとクラウド版 Claude Code の両方が同じリポジトリを触るため、衝突を防ぐ
+- **作業を始める前に必ず `git pull --rebase origin main` を実行する。** 自宅PCとクラウド版 Claude Code の両方が同じリポジトリを更新するため、取り込まずに作業すると変更がぶつかる
+- **取り込んだ変更で `package.json` が変わっていたら、続けて `npm install` を実行する。** 新しいパッケージ（例：フォントの `@fontsource`）が入っていないとビルドが失敗する
 - フォント（Bebas Neue / Barlow Condensed）は `@fontsource` から `next/font/local` で読み込む。`next/font/google` に戻さない（クラウド環境では Google Fonts に接続できずビルドが失敗する）
 
 ---
