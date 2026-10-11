@@ -74,11 +74,11 @@ export default function ArtistsPage() {
             <div className="mb-4">
               <Breadcrumb items={ARTISTS_BREADCRUMB} />
             </div>
-            <h1 className="font-bebas text-5xl tracking-wider text-white mb-2">
+            <h1 className="font-bebas text-5xl tracking-wider text-[#F4E5A8] mb-2">
               {t('artists.title')}
             </h1>
             <div className="w-20 h-1 bg-gradient-to-r from-accent-red via-accent-orange to-transparent mb-3" />
-            <p className="text-text-light/80 text-sm font-barlow max-w-2xl">
+            <p className="text-text-light text-sm font-barlow max-w-2xl">
               {isJA
                 ? '世界のトランスシーンを定義してきたアーティストたち。バイオグラフィ、代表作、サウンドスタイル、関連リンクを網羅。'
                 : 'The artists who have defined the global trance scene. Biographies, key works, sound profiles, and listening links.'}
@@ -87,13 +87,13 @@ export default function ArtistsPage() {
 
           {/* Toolbar */}
           <div className="mb-8 flex gap-3 flex-wrap items-center">
-            <div className="flex border border-[rgba(212,175,55,0.25)] rounded overflow-hidden">
+            <div className="flex border border-[rgba(212,175,55,0.3)] rounded overflow-hidden">
               <input
                 type="text"
                 placeholder={t('artists.search')}
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
-                className="flex-1 bg-dark-bg2/80 border-none px-4 py-2 text-text-light font-barlow text-sm placeholder-text-muted outline-none"
+                className="flex-1 bg-white/[0.08] border-none px-4 py-2 text-text-light font-barlow text-sm placeholder-text-muted outline-none"
               />
               <span className="bg-accent-orange text-black px-4 py-2 font-bebas text-sm tracking-widest">
                 {filteredArtists.length}
@@ -107,8 +107,8 @@ export default function ArtistsPage() {
                   onClick={() => setSelectedGenre(genre)}
                   className={`font-bebas text-xs tracking-widest px-4 py-2 rounded transition-all ${
                     selectedGenre === genre
-                      ? 'bg-accent-orange/20 border border-accent-orange text-accent-orange'
-                      : 'bg-transparent border border-[rgba(212,175,55,0.25)] text-text-muted hover:border-accent-orange hover:text-accent-orange'
+                      ? 'bg-accent-orange/20 border border-accent-orange text-accent-peach'
+                      : 'bg-transparent border border-[rgba(212,175,55,0.3)] text-text-muted hover:border-accent-orange hover:text-accent-peach'
                   }`}
                 >
                   {genre}

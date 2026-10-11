@@ -21,7 +21,7 @@ function LabelLinks({ labels }) {
             {match ? (
               <Link
                 href={`/labels/${match.slug}`}
-                className="text-accent-orange hover:underline"
+                className="text-accent-peach hover:underline"
               >
                 {entry}
               </Link>
@@ -62,11 +62,11 @@ function buildAffiliateLinks(artist) {
 function FactRow({ label, value }) {
   if (!value) return null;
   return (
-    <div className="flex items-baseline gap-3 py-2 border-b border-[rgba(212,175,55,0.25)]">
+    <div className="flex items-baseline gap-3 py-2 border-b border-[rgba(212,175,55,0.3)]">
       <div className="font-bebas text-xs tracking-widest text-text-muted w-32 shrink-0">
         {label}
       </div>
-      <div className="text-sm text-text-light/85 font-barlow">{value}</div>
+      <div className="text-sm text-text-light font-barlow">{value}</div>
     </div>
   );
 }
@@ -100,25 +100,25 @@ export default function ArtistDetail({ artist, related, mentioned, performingAt 
           <section className={`${artist.banner} relative rounded-sm overflow-hidden p-8 md:p-12 mb-10`}>
             <div className="absolute inset-0 bg-dark-header/55" />
             <div className="relative z-10 flex flex-col md:flex-row gap-6 items-start md:items-end">
-              <div className="w-24 h-24 rounded-full border-2 border-accent-orange bg-dark-bg flex items-center justify-center text-5xl shadow-lg shrink-0">
+              <div className="w-24 h-24 rounded-full border-2 border-accent-orange bg-white/[0.08] flex items-center justify-center text-5xl shadow-lg shrink-0">
                 {artist.emoji}
               </div>
               <div className="flex-1">
                 <div className="flex items-center gap-3 mb-2">
                   <span className="text-2xl">{artist.flag}</span>
-                  <span className="text-xs tracking-widest text-accent-orange font-bebas">
+                  <span className="text-xs tracking-widest text-accent-peach font-bebas">
                     {sub}
                   </span>
                 </div>
-                <h1 className="font-bebas text-5xl md:text-6xl tracking-wider text-white mb-2 drop-shadow-lg">
+                <h1 className="font-bebas text-5xl md:text-6xl tracking-wider text-[#F4E5A8] mb-2 drop-shadow-lg">
                   {artist.name}
                 </h1>
-                <p className="text-text-light/85 text-base leading-relaxed max-w-2xl">{short}</p>
+                <p className="text-text-light text-base leading-relaxed max-w-2xl">{short}</p>
                 <div className="flex gap-2 flex-wrap mt-4">
                   {artist.tags.map((t) => (
                     <span
                       key={t}
-                      className="text-xs tracking-widest px-2.5 py-1 rounded border border-accent-orange/40 bg-accent-orange/10 text-accent-orange"
+                      className="text-xs tracking-widest px-2.5 py-1 rounded border border-accent-orange/40 bg-accent-orange/10 text-accent-peach"
                     >
                       {t}
                     </span>
@@ -131,8 +131,8 @@ export default function ArtistDetail({ artist, related, mentioned, performingAt 
 
           {/* Facts panel + Listen panel */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-5 mb-12">
-            <div className="md:col-span-2 bg-dark-bg2/80 border border-[rgba(212,175,55,0.25)] rounded-sm p-6">
-              <h2 className="font-bebas text-xl tracking-widest text-accent-orange mb-3">
+            <div className="md:col-span-2 bg-white/[0.08] border border-[rgba(212,175,55,0.3)] rounded-sm p-6">
+              <h2 className="font-bebas text-xl tracking-widest text-[#F4E5A8] mb-3">
                 {isJA ? 'プロフィール' : 'At a Glance'}
               </h2>
               <FactRow label={isJA ? '本名' : 'Real name'} value={artist.realName} />
@@ -148,8 +148,8 @@ export default function ArtistDetail({ artist, related, mentioned, performingAt 
               />
             </div>
 
-            <div className="bg-dark-bg2/80 border border-[rgba(212,175,55,0.25)] rounded-sm p-6">
-              <h2 className="font-bebas text-xl tracking-widest text-accent-orange mb-3">
+            <div className="bg-white/[0.08] border border-[rgba(212,175,55,0.3)] rounded-sm p-6">
+              <h2 className="font-bebas text-xl tracking-widest text-[#F4E5A8] mb-3">
                 {isJA ? '聴く / フォロー' : 'Listen / Follow'}
               </h2>
               <div className="flex flex-col gap-2">
@@ -158,7 +158,7 @@ export default function ArtistDetail({ artist, related, mentioned, performingAt 
                     href={links.website}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-sm tracking-widest font-bebas px-3 py-2 rounded border border-accent-orange/30 text-accent-orange hover:bg-accent-orange/10 transition-all"
+                    className="text-sm tracking-widest font-bebas px-3 py-2 rounded border border-accent-orange/30 text-accent-peach hover:bg-accent-orange/10 transition-all"
                   >
                     🌐 {isJA ? '公式サイト' : 'OFFICIAL SITE'}
                   </a>
@@ -167,7 +167,7 @@ export default function ArtistDetail({ artist, related, mentioned, performingAt 
                   href={links.spotify}
                   target="_blank"
                   rel="noopener noreferrer sponsored"
-                  className="text-sm tracking-widest font-bebas px-3 py-2 rounded border border-accent-orange/30 text-accent-orange hover:bg-accent-orange/10 transition-all"
+                  className="text-sm tracking-widest font-bebas px-3 py-2 rounded border border-accent-orange/30 text-accent-peach hover:bg-accent-orange/10 transition-all"
                 >
                   🎧 {isJA ? 'SPOTIFYで検索' : 'SPOTIFY SEARCH'}
                 </a>
@@ -175,7 +175,7 @@ export default function ArtistDetail({ artist, related, mentioned, performingAt 
                   href={links.youtube}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-sm tracking-widest font-bebas px-3 py-2 rounded border border-accent-orange/30 text-accent-orange hover:bg-accent-orange/10 transition-all"
+                  className="text-sm tracking-widest font-bebas px-3 py-2 rounded border border-accent-orange/30 text-accent-peach hover:bg-accent-orange/10 transition-all"
                 >
                   ▶ {isJA ? 'YOUTUBE' : 'YOUTUBE'}
                 </a>
@@ -183,7 +183,7 @@ export default function ArtistDetail({ artist, related, mentioned, performingAt 
                   href={links.appleMusic}
                   target="_blank"
                   rel="noopener noreferrer sponsored"
-                  className="text-sm tracking-widest font-bebas px-3 py-2 rounded border border-accent-orange/30 text-accent-orange hover:bg-accent-orange/10 transition-all"
+                  className="text-sm tracking-widest font-bebas px-3 py-2 rounded border border-accent-orange/30 text-accent-peach hover:bg-accent-orange/10 transition-all"
                 >
                   🍎 APPLE MUSIC
                 </a>
@@ -191,7 +191,7 @@ export default function ArtistDetail({ artist, related, mentioned, performingAt 
                   href={links.beatport}
                   target="_blank"
                   rel="noopener noreferrer sponsored"
-                  className="text-sm tracking-widest font-bebas px-3 py-2 rounded border border-accent-orange/30 text-accent-orange hover:bg-accent-orange/10 transition-all"
+                  className="text-sm tracking-widest font-bebas px-3 py-2 rounded border border-accent-orange/30 text-accent-peach hover:bg-accent-orange/10 transition-all"
                 >
                   🛒 BEATPORT
                 </a>
@@ -199,7 +199,7 @@ export default function ArtistDetail({ artist, related, mentioned, performingAt 
                   href={links.soundcloud}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-sm tracking-widest font-bebas px-3 py-2 rounded border border-accent-orange/30 text-accent-orange hover:bg-accent-orange/10 transition-all"
+                  className="text-sm tracking-widest font-bebas px-3 py-2 rounded border border-accent-orange/30 text-accent-peach hover:bg-accent-orange/10 transition-all"
                 >
                   ☁️ SOUNDCLOUD
                 </a>
@@ -207,7 +207,7 @@ export default function ArtistDetail({ artist, related, mentioned, performingAt 
                   href={links.ra}
                   target="_blank"
                   rel="noopener noreferrer sponsored"
-                  className="text-sm tracking-widest font-bebas px-3 py-2 rounded border border-accent-orange/30 text-accent-orange hover:bg-accent-orange/10 transition-all"
+                  className="text-sm tracking-widest font-bebas px-3 py-2 rounded border border-accent-orange/30 text-accent-peach hover:bg-accent-orange/10 transition-all"
                 >
                   📅 RESIDENT ADVISOR
                 </a>
@@ -217,22 +217,22 @@ export default function ArtistDetail({ artist, related, mentioned, performingAt 
 
           {/* Biography */}
           <section className="mb-12">
-            <h2 className="font-bebas text-3xl tracking-widest text-white mb-4">
+            <h2 className="font-bebas text-3xl tracking-widest text-[#F4E5A8] mb-4">
               {isJA ? 'バイオグラフィ' : 'Biography'}
             </h2>
             <div className="w-16 h-0.5 bg-gradient-to-r from-accent-red via-accent-orange to-transparent mb-6" />
-            <div className="text-text-light/80 text-base leading-loose font-barlow whitespace-pre-line">
+            <div className="text-text-light text-base leading-loose font-barlow whitespace-pre-line">
               {bio}
             </div>
           </section>
 
           {/* Sound style */}
           <section className="mb-12">
-            <h2 className="font-bebas text-3xl tracking-widest text-white mb-4">
+            <h2 className="font-bebas text-3xl tracking-widest text-[#F4E5A8] mb-4">
               {isJA ? 'サウンドスタイル' : 'Sound Style'}
             </h2>
             <div className="w-16 h-0.5 bg-gradient-to-r from-accent-red via-accent-orange to-transparent mb-6" />
-            <div className="bg-dark-bg2/60 border-l-2 border-accent-orange p-5 italic text-text-light/85 text-base leading-relaxed font-barlow">
+            <div className="bg-white/[0.08] border-l-2 border-accent-orange p-5 italic text-text-light text-base leading-relaxed font-barlow">
               {style}
             </div>
           </section>
@@ -255,7 +255,7 @@ export default function ArtistDetail({ artist, related, mentioned, performingAt 
                 : featuredTracksForArtist(artist, 5);
             return (
               <section className="mb-12">
-                <h2 className="font-bebas text-3xl tracking-widest text-white mb-4">
+                <h2 className="font-bebas text-3xl tracking-widest text-[#F4E5A8] mb-4">
                   {isJA ? '聴く' : 'Listen'}
                 </h2>
                 <div className="w-16 h-0.5 bg-gradient-to-r from-accent-red via-accent-orange to-transparent mb-6" />
@@ -270,7 +270,7 @@ export default function ArtistDetail({ artist, related, mentioned, performingAt 
 
                 {featured.length > 0 && (
                   <div className="mt-8">
-                    <h3 className="font-bebas text-lg tracking-widest text-accent-orange mb-3">
+                    <h3 className="font-bebas text-lg tracking-widest text-[#F4E5A8] mb-3">
                       {isJA ? 'シグネチャー楽曲' : 'Signature Tracks'}
                     </h3>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
@@ -287,7 +287,7 @@ export default function ArtistDetail({ artist, related, mentioned, performingAt 
           {/* Top works */}
           {artist.topWorks?.length > 0 && (
             <section className="mb-12">
-              <h2 className="font-bebas text-3xl tracking-widest text-white mb-4">
+              <h2 className="font-bebas text-3xl tracking-widest text-[#F4E5A8] mb-4">
                 {isJA ? '代表作' : 'Notable Works'}
               </h2>
               <div className="w-16 h-0.5 bg-gradient-to-r from-accent-red via-accent-orange to-transparent mb-6" />
@@ -295,7 +295,7 @@ export default function ArtistDetail({ artist, related, mentioned, performingAt 
                 {artist.topWorks.map((w, i) => (
                   <li
                     key={i}
-                    className="bg-dark-bg2/60 border border-[rgba(212,175,55,0.25)] rounded-sm p-3 flex items-baseline justify-between gap-3"
+                    className="bg-white/[0.08] border border-[rgba(212,175,55,0.3)] rounded-sm p-3 flex items-baseline justify-between gap-3"
                   >
                     <div className="min-w-0">
                       <div className="text-text-light text-sm font-barlow truncate">
@@ -305,7 +305,7 @@ export default function ArtistDetail({ artist, related, mentioned, performingAt 
                         {w.type}
                       </div>
                     </div>
-                    <div className="font-bebas text-accent-orange tracking-widest shrink-0">
+                    <div className="font-bebas text-accent-peach tracking-widest shrink-0">
                       {w.year}
                     </div>
                   </li>
@@ -319,7 +319,7 @@ export default function ArtistDetail({ artist, related, mentioned, performingAt 
               getEventsByArtist helper. */}
           {performingAt?.length > 0 && (
             <section className="mb-12">
-              <h2 className="font-bebas text-3xl tracking-widest text-white mb-4">
+              <h2 className="font-bebas text-3xl tracking-widest text-[#F4E5A8] mb-4">
                 {isJA ? '出演イベント' : 'Performing At'}
               </h2>
               <div className="w-16 h-0.5 bg-gradient-to-r from-accent-red via-accent-orange to-transparent mb-6" />
@@ -334,13 +334,13 @@ export default function ArtistDetail({ artist, related, mentioned, performingAt 
                     <Link
                       key={e.slug}
                       href={`/events/${e.slug}`}
-                      className="block bg-dark-bg2/60 border border-[rgba(212,175,55,0.25)] rounded-sm p-4 hover:border-accent-orange/50 hover:translate-y-[-2px] transition-all"
+                      className="block bg-white/[0.08] border border-[rgba(212,175,55,0.3)] rounded-sm p-4 hover:border-accent-orange/50 hover:translate-y-[-2px] transition-all"
                     >
                       <div className="font-bebas text-base tracking-widest text-white mb-1">
                         {e.name}
                       </div>
                       {dateLine && (
-                        <div className="text-accent-orange text-xs tracking-widest">{dateLine}</div>
+                        <div className="text-accent-peach text-xs tracking-widest">{dateLine}</div>
                       )}
                       {e.venueName && (
                         <div className="text-xs text-text-muted truncate mt-1">📍 {e.venueName}</div>
@@ -355,7 +355,7 @@ export default function ArtistDetail({ artist, related, mentioned, performingAt 
           {/* Related blog articles */}
           {mentioned?.length > 0 && (
             <section className="mb-12">
-              <h2 className="font-bebas text-3xl tracking-widest text-white mb-4">
+              <h2 className="font-bebas text-3xl tracking-widest text-[#F4E5A8] mb-4">
                 {isJA ? '関連記事' : 'Related Articles'}
               </h2>
               <div className="w-16 h-0.5 bg-gradient-to-r from-accent-red via-accent-orange to-transparent mb-6" />
@@ -366,14 +366,14 @@ export default function ArtistDetail({ artist, related, mentioned, performingAt 
                     <Link
                       key={post.slug}
                       href={`/blog/${post.slug}`}
-                      className="group block bg-dark-bg2/80 border border-[rgba(212,175,55,0.25)] rounded-sm overflow-hidden hover:border-accent-orange/50 hover:translate-y-[-3px] hover:shadow-lg transition-all"
+                      className="group block bg-white/[0.08] border border-[rgba(212,175,55,0.3)] rounded-sm overflow-hidden hover:border-accent-orange/50 hover:translate-y-[-3px] hover:shadow-lg transition-all"
                     >
                       <div className="h-1.5 bg-gradient-to-r from-accent-red via-accent-orange to-accent-amber" />
                       <div className="p-4">
-                        <h3 className="font-bebas text-base tracking-widest text-white mb-2 leading-tight group-hover:text-accent-orange transition-colors">
+                        <h3 className="font-bebas text-base tracking-widest text-[#F4E5A8] mb-2 leading-tight group-hover:text-accent-peach transition-colors">
                           {c.title}
                         </h3>
-                        <p className="text-xs text-text-light/80 line-clamp-2 mb-2">
+                        <p className="text-xs text-text-light line-clamp-2 mb-2">
                           {c.excerpt}
                         </p>
                         <div className="text-xs text-text-muted tracking-widest">
@@ -401,7 +401,7 @@ export default function ArtistDetail({ artist, related, mentioned, performingAt 
               network. */}
           {artist.labels?.length > 0 && (
             <section className="mb-12">
-              <h2 className="font-bebas text-3xl tracking-widest text-white mb-4">
+              <h2 className="font-bebas text-3xl tracking-widest text-[#F4E5A8] mb-4">
                 {isJA ? '所属レーベル' : 'Affiliated Labels'}
               </h2>
               <div className="w-16 h-0.5 bg-gradient-to-r from-accent-red via-accent-orange to-transparent mb-6" />
@@ -413,10 +413,10 @@ export default function ArtistDetail({ artist, related, mentioned, performingAt 
                       <Link
                         key={i}
                         href={`/labels/${match.slug}`}
-                        className="group bg-dark-bg2/80 border border-[rgba(212,175,55,0.25)] rounded-sm p-4 text-center hover:border-accent-orange/50 hover:translate-y-[-3px] transition-all"
+                        className="group bg-white/[0.08] border border-[rgba(212,175,55,0.3)] rounded-sm p-4 text-center hover:border-accent-orange/50 hover:translate-y-[-3px] transition-all"
                       >
                         <div className="text-3xl mb-2">{match.emoji}</div>
-                        <div className="font-bebas text-sm tracking-widest text-white group-hover:text-accent-orange transition-colors">
+                        <div className="font-bebas text-sm tracking-widest text-white group-hover:text-accent-peach transition-colors">
                           {lname}
                         </div>
                         <div className="text-xs text-text-muted tracking-widest mt-1">
@@ -428,11 +428,11 @@ export default function ArtistDetail({ artist, related, mentioned, performingAt 
                   return (
                     <div
                       key={i}
-                      className="bg-dark-bg2/40 border border-[rgba(212,175,55,0.25)] rounded-sm p-4 text-center opacity-60"
+                      className="bg-white/[0.08] border border-[rgba(212,175,55,0.3)] rounded-sm p-4 text-center opacity-60"
                       title={isJA ? 'プロフィール未登録' : 'Not in label catalogue yet'}
                     >
                       <div className="text-3xl mb-2 text-text-muted">💿</div>
-                      <div className="font-bebas text-sm tracking-widest text-text-light/80">
+                      <div className="font-bebas text-sm tracking-widest text-text-light">
                         {lname}
                       </div>
                       <div className="text-[10px] text-text-muted tracking-widest mt-1">
@@ -448,7 +448,7 @@ export default function ArtistDetail({ artist, related, mentioned, performingAt 
           {/* Related artists */}
           {related?.length > 0 && (
             <section className="mb-12">
-              <h2 className="font-bebas text-3xl tracking-widest text-white mb-4">
+              <h2 className="font-bebas text-3xl tracking-widest text-[#F4E5A8] mb-4">
                 {isJA ? '関連アーティスト' : 'Related Artists'}
               </h2>
               <div className="w-16 h-0.5 bg-gradient-to-r from-accent-red via-accent-orange to-transparent mb-6" />
@@ -457,10 +457,10 @@ export default function ArtistDetail({ artist, related, mentioned, performingAt 
                   <Link
                     key={r.slug}
                     href={`/artists/${r.slug}`}
-                    className="group bg-dark-bg2/80 border border-[rgba(212,175,55,0.25)] rounded-sm p-4 text-center hover:border-accent-orange/50 hover:translate-y-[-3px] transition-all"
+                    className="group bg-white/[0.08] border border-[rgba(212,175,55,0.3)] rounded-sm p-4 text-center hover:border-accent-orange/50 hover:translate-y-[-3px] transition-all"
                   >
                     <div className="text-3xl mb-2">{r.emoji}</div>
-                    <div className="font-bebas text-sm tracking-widest text-white group-hover:text-accent-orange transition-colors">
+                    <div className="font-bebas text-sm tracking-widest text-white group-hover:text-accent-peach transition-colors">
                       {r.name}
                     </div>
                     <div className="text-xs text-text-muted tracking-widest mt-1">
@@ -472,10 +472,10 @@ export default function ArtistDetail({ artist, related, mentioned, performingAt 
             </section>
           )}
 
-          <div className="border-t border-[rgba(212,175,55,0.25)] pt-6">
+          <div className="border-t border-[rgba(212,175,55,0.3)] pt-6">
             <Link
               href="/artists"
-              className="inline-block font-bebas text-sm tracking-widest px-5 py-2 border border-accent-orange/30 text-accent-orange hover:bg-accent-orange/10 transition-all rounded"
+              className="inline-block font-bebas text-sm tracking-widest px-5 py-2 border border-accent-orange/30 text-accent-peach hover:bg-accent-orange/10 transition-all rounded"
             >
               ← {isJA ? 'アーティスト一覧へ' : 'Back to all artists'}
             </Link>

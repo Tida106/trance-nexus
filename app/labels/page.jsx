@@ -74,11 +74,11 @@ export default function LabelsPage() {
             <div className="mb-4">
               <Breadcrumb items={LABELS_BREADCRUMB} />
             </div>
-            <h1 className="font-bebas text-5xl tracking-wider text-white mb-2">
+            <h1 className="font-bebas text-5xl tracking-wider text-[#F4E5A8] mb-2">
               {isJA ? 'レーベル・ディレクトリ' : 'Label Directory'}
             </h1>
             <div className="w-20 h-1 bg-gradient-to-r from-accent-red via-accent-orange to-transparent mb-3" />
-            <p className="text-text-light/80 text-sm font-barlow max-w-2xl">
+            <p className="text-text-light text-sm font-barlow max-w-2xl">
               {isJA
                 ? 'トランスシーンを支えるレコードレーベル。設立年、所属アーティスト、サブジャンル、主要リリースを網羅。'
                 : 'The record labels that power the trance scene. Founding history, signed artists, subgenres, and notable releases.'}
@@ -87,13 +87,13 @@ export default function LabelsPage() {
 
           {/* Toolbar */}
           <div className="mb-6 flex gap-3 flex-wrap items-center">
-            <div className="flex border border-[rgba(212,175,55,0.25)] rounded overflow-hidden">
+            <div className="flex border border-[rgba(212,175,55,0.3)] rounded overflow-hidden">
               <input
                 type="text"
                 value={search}
                 onChange={(e) => setSearch(e.target.value)}
                 placeholder={isJA ? 'レーベルを検索...' : 'Search labels...'}
-                className="flex-1 bg-dark-bg2/80 border-none px-4 py-2 text-text-light font-barlow text-sm placeholder-text-muted outline-none min-w-[180px]"
+                className="flex-1 bg-white/[0.08] border-none px-4 py-2 text-text-light font-barlow text-sm placeholder-text-muted outline-none min-w-[180px]"
               />
               <span className="bg-accent-orange text-black px-4 py-2 font-bebas text-sm tracking-widest">
                 {filtered.length}
@@ -107,8 +107,8 @@ export default function LabelsPage() {
                   onClick={() => setCategory(c.id)}
                   className={`font-bebas text-xs tracking-widest px-4 py-2 rounded transition-all ${
                     category === c.id
-                      ? 'bg-accent-orange/20 border border-accent-orange text-accent-orange'
-                      : 'bg-transparent border border-[rgba(212,175,55,0.25)] text-text-muted hover:border-accent-orange hover:text-accent-orange'
+                      ? 'bg-accent-orange/20 border border-accent-orange text-accent-peach'
+                      : 'bg-transparent border border-[rgba(212,175,55,0.3)] text-text-muted hover:border-accent-orange hover:text-accent-peach'
                   }`}
                 >
                   {isJA ? c.ja : c.en}
@@ -127,8 +127,8 @@ export default function LabelsPage() {
                 onClick={() => setSubgenre('ALL')}
                 className={`text-xs tracking-widest font-bebas px-3 py-1 rounded transition-all ${
                   subgenre === 'ALL'
-                    ? 'bg-accent-orange/20 border border-accent-orange text-accent-orange'
-                    : 'border border-[rgba(212,175,55,0.25)] text-text-muted hover:border-accent-orange hover:text-accent-orange'
+                    ? 'bg-accent-orange/20 border border-accent-orange text-accent-peach'
+                    : 'border border-[rgba(212,175,55,0.3)] text-text-muted hover:border-accent-orange hover:text-accent-peach'
                 }`}
               >
                 {isJA ? 'すべて' : 'ALL'}
@@ -139,8 +139,8 @@ export default function LabelsPage() {
                   onClick={() => setSubgenre(g)}
                   className={`text-xs tracking-widest font-bebas px-3 py-1 rounded transition-all ${
                     subgenre === g
-                      ? 'bg-accent-orange/20 border border-accent-orange text-accent-orange'
-                      : 'border border-[rgba(212,175,55,0.25)] text-text-muted hover:border-accent-orange hover:text-accent-orange'
+                      ? 'bg-accent-orange/20 border border-accent-orange text-accent-peach'
+                      : 'border border-[rgba(212,175,55,0.3)] text-text-muted hover:border-accent-orange hover:text-accent-peach'
                   }`}
                 >
                   {g}

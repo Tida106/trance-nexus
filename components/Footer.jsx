@@ -15,7 +15,7 @@ export default function Footer() {
   const isJA = language === 'ja';
 
   return (
-    <footer className="relative z-10 bg-dark-header/98 border-t-2 border-accent-orange py-10 px-12 flex flex-col items-center gap-3">
+    <footer className="relative z-10 bg-dark-footer/98 border-t-2 border-accent-orange py-10 px-12 flex flex-col items-center gap-3">
       {/* Footer brand mark. loading="lazy" because the footer almost never
           enters the viewport before the hero unless the page is short. */}
       <img
@@ -45,91 +45,91 @@ export default function Footer() {
         <Link
           href="/artists"
           prefetch={false}
-          className="text-xs tracking-widest text-text-muted hover:text-accent-orange focus-visible:text-accent-orange transition-colors"
+          className="text-xs tracking-widest text-text-muted hover:text-accent-peach focus-visible:text-accent-peach transition-colors"
         >
           {isJA ? 'アーティスト' : 'Artists'}
         </Link>
         <Link
           href="/labels"
           prefetch={false}
-          className="text-xs tracking-widest text-text-muted hover:text-accent-orange focus-visible:text-accent-orange transition-colors"
+          className="text-xs tracking-widest text-text-muted hover:text-accent-peach focus-visible:text-accent-peach transition-colors"
         >
           {isJA ? 'レーベル' : 'Labels'}
         </Link>
         <Link
           href="/blog"
           prefetch={false}
-          className="text-xs tracking-widest text-text-muted hover:text-accent-orange focus-visible:text-accent-orange transition-colors"
+          className="text-xs tracking-widest text-text-muted hover:text-accent-peach focus-visible:text-accent-peach transition-colors"
         >
           {isJA ? 'ブログ' : 'Blog'}
         </Link>
         <Link
           href="/category"
           prefetch={false}
-          className="text-xs tracking-widest text-text-muted hover:text-accent-orange focus-visible:text-accent-orange transition-colors"
+          className="text-xs tracking-widest text-text-muted hover:text-accent-peach focus-visible:text-accent-peach transition-colors"
         >
           {isJA ? 'カテゴリ' : 'Categories'}
         </Link>
         <Link
           href="/tag"
           prefetch={false}
-          className="text-xs tracking-widest text-text-muted hover:text-accent-orange focus-visible:text-accent-orange transition-colors"
+          className="text-xs tracking-widest text-text-muted hover:text-accent-peach focus-visible:text-accent-peach transition-colors"
         >
           {isJA ? 'タグ' : 'Tags'}
         </Link>
         <Link
           href="/glossary"
           prefetch={false}
-          className="text-xs tracking-widest text-text-muted hover:text-accent-orange focus-visible:text-accent-orange transition-colors"
+          className="text-xs tracking-widest text-text-muted hover:text-accent-peach focus-visible:text-accent-peach transition-colors"
         >
           {isJA ? '用語集' : 'Glossary'}
         </Link>
         <Link
           href="/timeline"
           prefetch={false}
-          className="text-xs tracking-widest text-text-muted hover:text-accent-orange focus-visible:text-accent-orange transition-colors"
+          className="text-xs tracking-widest text-text-muted hover:text-accent-peach focus-visible:text-accent-peach transition-colors"
         >
           {isJA ? 'タイムライン' : 'Timeline'}
         </Link>
         <Link
           href="/about"
           prefetch={false}
-          className="text-xs tracking-widest text-text-muted hover:text-accent-orange focus-visible:text-accent-orange transition-colors"
+          className="text-xs tracking-widest text-text-muted hover:text-accent-peach focus-visible:text-accent-peach transition-colors"
         >
           {isJA ? '運営者情報' : 'About'}
         </Link>
         <Link
           href="/privacy"
           prefetch={false}
-          className="text-xs tracking-widest text-text-muted hover:text-accent-orange focus-visible:text-accent-orange transition-colors"
+          className="text-xs tracking-widest text-text-muted hover:text-accent-peach focus-visible:text-accent-peach transition-colors"
         >
           {isJA ? 'プライバシーポリシー' : 'Privacy Policy'}
         </Link>
         <Link
           href="/cookies"
           prefetch={false}
-          className="text-xs tracking-widest text-text-muted hover:text-accent-orange focus-visible:text-accent-orange transition-colors"
+          className="text-xs tracking-widest text-text-muted hover:text-accent-peach focus-visible:text-accent-peach transition-colors"
         >
           {isJA ? 'Cookieポリシー' : 'Cookies'}
         </Link>
         <Link
           href="/dmca"
           prefetch={false}
-          className="text-xs tracking-widest text-text-muted hover:text-accent-orange focus-visible:text-accent-orange transition-colors"
+          className="text-xs tracking-widest text-text-muted hover:text-accent-peach focus-visible:text-accent-peach transition-colors"
         >
           DMCA
         </Link>
         <Link
           href="/terms"
           prefetch={false}
-          className="text-xs tracking-widest text-text-muted hover:text-accent-orange focus-visible:text-accent-orange transition-colors"
+          className="text-xs tracking-widest text-text-muted hover:text-accent-peach focus-visible:text-accent-peach transition-colors"
         >
           {isJA ? '利用規約' : 'Terms'}
         </Link>
         <Link
           href="/contact"
           prefetch={false}
-          className="text-xs tracking-widest text-text-muted hover:text-accent-orange focus-visible:text-accent-orange transition-colors"
+          className="text-xs tracking-widest text-text-muted hover:text-accent-peach focus-visible:text-accent-peach transition-colors"
         >
           {isJA ? 'お問い合わせ' : 'Contact'}
         </Link>
@@ -140,7 +140,7 @@ export default function Footer() {
           target="_blank"
           rel="noopener noreferrer"
           aria-label={isJA ? `RSSフィード（${isJA ? '日本語' : '英語'}）` : `RSS feed (${isJA ? 'Japanese' : 'English'})`}
-          className="inline-flex items-center gap-1.5 text-xs tracking-widest text-text-muted hover:text-accent-orange transition-colors"
+          className="inline-flex items-center gap-1.5 text-xs tracking-widest text-text-muted hover:text-accent-peach transition-colors"
           title={isJA ? '日本語RSSフィード' : 'English RSS feed'}
         >
           <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
@@ -153,7 +153,7 @@ export default function Footer() {
           target="_blank"
           rel="noopener noreferrer"
           aria-label={isJA ? 'RSSフィード（英語）' : 'RSS feed (Japanese)'}
-          className="text-xs tracking-widest text-text-muted hover:text-accent-orange transition-colors"
+          className="text-xs tracking-widest text-text-muted hover:text-accent-peach transition-colors"
         >
           {isJA ? '/ EN' : '/ JA'}
         </a>
@@ -162,7 +162,7 @@ export default function Footer() {
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Atom feed"
-          className="text-xs tracking-widest text-text-muted hover:text-accent-orange transition-colors"
+          className="text-xs tracking-widest text-text-muted hover:text-accent-peach transition-colors"
         >
           / ATOM
         </a>

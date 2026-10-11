@@ -3,17 +3,17 @@
 @tailwind utilities;
 
 :root {
-  --bg: #0E4D6E;
-  --bg2: #12597D;
-  --bg3: #0B4260;
+  --bg: #2A6496;
+  --bg2: #2F74A0;
+  --bg3: #245A88;
   --orange: #ff6a00;
   --red: #e5001c;
   --amber: #ffb400;
   --fire: #ff3c00;
-  --text: #EAF4F7;
-  --muted: #B9D3DC;
-  --card: rgba(18, 89, 125, 0.9);
-  --border: rgba(212, 175, 55, 0.25);
+  --text: #FFFFFF;
+  --muted: #F2F7FB;
+  --card: rgba(255, 255, 255, 0.08);
+  --border: rgba(212, 175, 55, 0.3);
   --glow: 0 0 24px rgba(255, 106, 0, 0.35);
   --glow-red: 0 0 20px rgba(229, 0, 28, 0.4);
 }
@@ -25,6 +25,19 @@
 }
 
 html {
+  /* Page-wide vertical gradient: spans the full document height (no
+     background-attachment: fixed) and is at least one viewport tall so
+     short pages still run blue -> lavender. */
+  min-height: 100%;
+  background-color: #5E4E9A;
+  background-image: linear-gradient(
+    to bottom,
+    #2A6496 0%,
+    #2F74A0 45%,
+    #4C5FA0 75%,
+    #5E4E9A 100%
+  );
+  background-repeat: no-repeat;
   scroll-behavior: smooth;
   /* Stop the long horizontal scrollbar artifact some browsers render when
      the radial-gradient body::before extends a hair past the viewport. */
@@ -53,7 +66,8 @@ textarea:focus-visible,
 }
 
 body {
-  background: var(--bg);
+  background: transparent;
+  min-height: 100vh;
   color: var(--text);
   font-family: var(--font-barlow), 'Barlow Condensed',
     'Noto Sans JP', 'Hiragino Kaku Gothic ProN', 'Yu Gothic UI', 'Meiryo',
@@ -133,11 +147,11 @@ body::before {
 .gold-metallic {
   background: linear-gradient(
     135deg,
-    #d4af37 0%,
-    #f4e5a8 25%,
-    #d4af37 50%,
-    #b8860b 75%,
-    #d4af37 100%
+    #F4E5A8 0%,
+    #FFF3C4 25%,
+    #F4E5A8 50%,
+    #E9D68E 75%,
+    #F4E5A8 100%
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -157,17 +171,17 @@ body::before {
 .gold-metallic-nav {
   background: linear-gradient(
     135deg,
-    #d4af37 0%,
-    #f4e5a8 25%,
-    #d4af37 50%,
-    #b8860b 75%,
-    #d4af37 100%
+    #F4E5A8 0%,
+    #FFF3C4 25%,
+    #F4E5A8 50%,
+    #E9D68E 75%,
+    #F4E5A8 100%
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   color: transparent;
-  filter: brightness(0.75) saturate(0.9);
+  filter: none;
   transition: filter 0.2s ease, text-shadow 0.2s ease;
 }
 .gold-metallic-nav:hover,
@@ -196,7 +210,7 @@ body::before {
 }
 .gold-metallic-search:focus-within {
   border-color: #f4e5a8 !important;
-  background-color: rgba(18, 89, 125, 0.92);
+  background-color: rgba(255, 255, 255, 0.14);
   box-shadow: 0 0 24px rgba(212, 175, 55, 0.55),
               inset 0 0 12px rgba(244, 229, 168, 0.12);
 }
@@ -204,7 +218,7 @@ body::before {
    dark bg without competing with actual typed input. */
 .gold-metallic-search input::placeholder,
 .gold-metallic-placeholder::placeholder {
-  color: rgba(212, 175, 55, 0.6);
+  color: rgba(255, 255, 255, 0.85);
 }
 
 /* Horizontal gold bar — replaces the orange under-link indicator. */
@@ -228,7 +242,7 @@ body::before {
   background: linear-gradient(135deg, #2a1466 0%, #ff6a00 100%);
 }
 .b-tech {
-  background: linear-gradient(135deg, #0B4260 0%, #e5001c 70%, #ff3c00 100%);
+  background: linear-gradient(135deg, #245A88 0%, #e5001c 70%, #ff3c00 100%);
 }
 .b-vocal {
   background: linear-gradient(135deg, #4a1a55 0%, #e5001c 50%, #ff6a00 100%);
@@ -283,6 +297,6 @@ body::before {
    case PSI flags first; clamp the muted alphas there. */
 @media (prefers-contrast: more) {
   :root {
-    --muted: #EAF4F7;
+    --muted: #FFFFFF;
   }
 }

@@ -71,11 +71,11 @@ export default function EventDetail({ event, headliners, related }) {
 
             {/* Header */}
             <div className="flex items-start justify-between gap-4 mb-2 flex-wrap">
-              <h1 className="font-bebas text-5xl tracking-wider text-white">
+              <h1 className="font-bebas text-5xl tracking-wider text-[#F4E5A8]">
                 <span className="mr-3">{flag}</span>
                 {event.name}
               </h1>
-              <span className="font-bebas text-xs tracking-widest px-3 py-1 rounded border border-accent-orange/40 text-accent-orange bg-accent-orange/10">
+              <span className="font-bebas text-xs tracking-widest px-3 py-1 rounded border border-accent-orange/40 text-accent-peach bg-accent-orange/10">
                 {statusLabel(event.status, isJA)}
               </span>
             </div>
@@ -84,8 +84,8 @@ export default function EventDetail({ event, headliners, related }) {
             {/* Top facts */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
               {event.dates && (
-                <div className="bg-dark-bg2/60 border border-[rgba(212,175,55,0.25)] rounded-sm p-4">
-                  <div className="font-bebas text-xs tracking-widest text-accent-orange mb-1">
+                <div className="bg-white/[0.08] border border-[rgba(212,175,55,0.3)] rounded-sm p-4">
+                  <div className="font-bebas text-xs tracking-widest text-accent-peach mb-1">
                     {isJA ? '日程' : 'DATES'}
                   </div>
                   {event.dates.next?.start ? (
@@ -109,8 +109,8 @@ export default function EventDetail({ event, headliners, related }) {
               )}
 
               {event.venue && (
-                <div className="bg-dark-bg2/60 border border-[rgba(212,175,55,0.25)] rounded-sm p-4">
-                  <div className="font-bebas text-xs tracking-widest text-accent-orange mb-1">
+                <div className="bg-white/[0.08] border border-[rgba(212,175,55,0.3)] rounded-sm p-4">
+                  <div className="font-bebas text-xs tracking-widest text-accent-peach mb-1">
                     {isJA ? '会場' : 'VENUE'}
                   </div>
                   <div className="text-text-light text-sm">{event.venue.name}</div>
@@ -123,8 +123,8 @@ export default function EventDetail({ event, headliners, related }) {
                 </div>
               )}
 
-              <div className="bg-dark-bg2/60 border border-[rgba(212,175,55,0.25)] rounded-sm p-4">
-                <div className="font-bebas text-xs tracking-widest text-accent-orange mb-1">
+              <div className="bg-white/[0.08] border border-[rgba(212,175,55,0.3)] rounded-sm p-4">
+                <div className="font-bebas text-xs tracking-widest text-accent-peach mb-1">
                   {isJA ? 'チケット／公式' : 'TICKETS / OFFICIAL'}
                 </div>
                 {event.ticket_url && (
@@ -132,7 +132,7 @@ export default function EventDetail({ event, headliners, related }) {
                     href={event.ticket_url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="block text-accent-orange hover:underline text-sm mb-1"
+                    className="block text-accent-peach hover:underline text-sm mb-1"
                   >
                     {isJA ? 'チケット →' : 'Tickets →'}
                   </a>
@@ -142,7 +142,7 @@ export default function EventDetail({ event, headliners, related }) {
                     href={event.official_url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="block text-accent-orange/80 hover:underline text-sm"
+                    className="block text-accent-peach hover:underline text-sm"
                   >
                     {isJA ? '公式サイト →' : 'Official site →'}
                   </a>
@@ -157,7 +157,7 @@ export default function EventDetail({ event, headliners, related }) {
 
             {/* Description */}
             {desc && (
-              <div className="bg-dark-bg2/40 border-l-4 border-accent-orange rounded-sm p-5 mb-8">
+              <div className="bg-white/[0.08] border-l-4 border-accent-orange rounded-sm p-5 mb-8">
                 <p className="text-text-light leading-relaxed text-base">{desc}</p>
               </div>
             )}
@@ -165,7 +165,7 @@ export default function EventDetail({ event, headliners, related }) {
             {/* Headliners with internal links */}
             {headliners && headliners.length > 0 && (
               <section className="mb-8">
-                <h2 className="font-bebas text-2xl tracking-widest text-white mb-3">
+                <h2 className="font-bebas text-2xl tracking-widest text-[#F4E5A8] mb-3">
                   {pickLocalized(event.headlinerLabel, isJA) || (isJA ? 'ヘッドライナー' : 'Headliners')}
                 </h2>
                 {pickLocalized(event.headlinerNote, isJA) && (
@@ -178,7 +178,7 @@ export default function EventDetail({ event, headliners, related }) {
                     <Link
                       key={a.slug}
                       href={`/artists/${a.slug}`}
-                      className="bg-dark-bg2/60 border border-[rgba(212,175,55,0.25)] rounded-sm p-3 hover:border-accent-orange/50 transition-all"
+                      className="bg-white/[0.08] border border-[rgba(212,175,55,0.3)] rounded-sm p-3 hover:border-accent-orange/50 transition-all"
                     >
                       <div className="font-bebas text-base tracking-widest text-white">{a.name}</div>
                       {a.country && (
@@ -195,7 +195,7 @@ export default function EventDetail({ event, headliners, related }) {
               <section className="mb-8 grid grid-cols-1 md:grid-cols-2 gap-6">
                 {event.genres?.length > 0 && (
                   <div>
-                    <h3 className="font-bebas text-base tracking-widest text-accent-orange mb-2">
+                    <h3 className="font-bebas text-base tracking-widest text-[#F4E5A8] mb-2">
                       {isJA ? 'ジャンル' : 'GENRES'}
                     </h3>
                     <div className="flex gap-2 flex-wrap">
@@ -203,7 +203,7 @@ export default function EventDetail({ event, headliners, related }) {
                         <Link
                           key={g}
                           href={`/glossary/${g}`}
-                          className="text-xs tracking-widest font-bebas px-3 py-1 rounded border border-accent-orange/30 text-accent-orange hover:bg-accent-orange/10 transition-all"
+                          className="text-xs tracking-widest font-bebas px-3 py-1 rounded border border-accent-orange/30 text-accent-peach hover:bg-accent-orange/10 transition-all"
                         >
                           {g.replace(/-/g, ' ').toUpperCase()}
                         </Link>
@@ -213,14 +213,14 @@ export default function EventDetail({ event, headliners, related }) {
                 )}
                 {event.labels?.length > 0 && (
                   <div>
-                    <h3 className="font-bebas text-base tracking-widest text-accent-orange mb-2">
+                    <h3 className="font-bebas text-base tracking-widest text-[#F4E5A8] mb-2">
                       {isJA ? '関連レーベル' : 'ASSOCIATED LABELS'}
                     </h3>
                     <div className="flex gap-2 flex-wrap">
                       {event.labels.map((l, i) => (
                         <span
                           key={i}
-                          className="text-xs tracking-widest px-3 py-1 rounded bg-dark-bg2/60 border border-[rgba(212,175,55,0.25)] text-text-light"
+                          className="text-xs tracking-widest px-3 py-1 rounded bg-white/[0.08] border border-[rgba(212,175,55,0.3)] text-text-light"
                         >
                           {l}
                         </span>
@@ -234,10 +234,10 @@ export default function EventDetail({ event, headliners, related }) {
             {/* Map */}
             {mapEmbed && (
               <section className="mb-8">
-                <h2 className="font-bebas text-2xl tracking-widest text-white mb-3">
+                <h2 className="font-bebas text-2xl tracking-widest text-[#F4E5A8] mb-3">
                   {isJA ? '地図' : 'Map'}
                 </h2>
-                <div className="border border-[rgba(212,175,55,0.25)] rounded-sm overflow-hidden">
+                <div className="border border-[rgba(212,175,55,0.3)] rounded-sm overflow-hidden">
                   <iframe
                     src={mapEmbed}
                     title={`Map of ${event.venue.name}`}
@@ -253,7 +253,7 @@ export default function EventDetail({ event, headliners, related }) {
                     href={mapExternal}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-block mt-2 text-xs text-accent-orange hover:underline"
+                    className="inline-block mt-2 text-xs text-accent-peach hover:underline"
                   >
                     {isJA ? 'OpenStreetMapで開く →' : 'View larger on OpenStreetMap →'}
                   </a>
@@ -264,15 +264,15 @@ export default function EventDetail({ event, headliners, related }) {
             {/* Editions history */}
             {event.editions?.length > 0 && (
               <section className="mb-8">
-                <h2 className="font-bebas text-2xl tracking-widest text-white mb-3">
+                <h2 className="font-bebas text-2xl tracking-widest text-[#F4E5A8] mb-3">
                   {isJA ? '過去の開催' : 'Past Editions'}
                 </h2>
-                <div className="bg-dark-bg2/40 border border-[rgba(212,175,55,0.25)] rounded-sm divide-y divide-[rgba(212,175,55,0.25)]">
+                <div className="bg-white/[0.08] border border-[rgba(212,175,55,0.3)] rounded-sm divide-y divide-[rgba(212,175,55,0.3)]">
                   {event.editions.map((ed, i) => (
                     <div key={i} className="px-4 py-3 flex items-baseline gap-4 text-sm">
-                      <div className="font-bebas text-accent-orange w-16 shrink-0">{ed.year}</div>
+                      <div className="font-bebas text-accent-peach w-16 shrink-0">{ed.year}</div>
                       <div className="text-text-light">
-                        {ed.dates && <span className="text-text-light/80">{ed.dates}</span>}
+                        {ed.dates && <span className="text-text-light">{ed.dates}</span>}
                         {ed.dates && ed.note && <span className="mx-2 text-text-muted">·</span>}
                         {ed.note && <span className="text-text-muted">{ed.note}</span>}
                       </div>
@@ -285,7 +285,7 @@ export default function EventDetail({ event, headliners, related }) {
             {/* Related events */}
             {related && related.length > 0 && (
               <section className="mb-8">
-                <h2 className="font-bebas text-2xl tracking-widest text-white mb-3">
+                <h2 className="font-bebas text-2xl tracking-widest text-[#F4E5A8] mb-3">
                   {isJA ? '関連イベント' : 'Related Events'}
                 </h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">

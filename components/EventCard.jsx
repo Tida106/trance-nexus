@@ -13,13 +13,13 @@ const COUNTRY_FLAG = {
 function statusStyle(s) {
   switch (s) {
     case 'upcoming':
-      return { bg: 'bg-accent-orange/15', border: 'border-accent-orange/40', text: 'text-accent-orange' };
+      return { bg: 'bg-accent-orange/15', border: 'border-accent-orange/40', text: 'text-accent-peach' };
     case 'annual':
     case 'biennial':
-      return { bg: 'bg-accent-amber/10', border: 'border-accent-amber/30', text: 'text-accent-amber' };
+      return { bg: 'bg-accent-amber/10', border: 'border-accent-amber/30', text: 'text-accent-peach' };
     case 'past':
     default:
-      return { bg: 'bg-dark-header/30', border: 'border-[rgba(212,175,55,0.25)]', text: 'text-text-muted' };
+      return { bg: 'bg-dark-header/30', border: 'border-[rgba(212,175,55,0.3)]', text: 'text-text-muted' };
   }
 }
 
@@ -73,7 +73,7 @@ export default function EventCard({ event }) {
             {event.name}
           </div>
           {dateLine && (
-            <div className="text-accent-orange text-sm tracking-widest">{dateLine}</div>
+            <div className="text-accent-peach text-sm tracking-widest">{dateLine}</div>
           )}
         </div>
         <span
@@ -88,7 +88,7 @@ export default function EventCard({ event }) {
       )}
 
       {desc && (
-        <p className="text-xs text-text-light/80 leading-relaxed line-clamp-3 mb-3">
+        <p className="text-xs text-text-light leading-relaxed line-clamp-3 mb-3">
           {desc}
         </p>
       )}
@@ -98,7 +98,7 @@ export default function EventCard({ event }) {
           {event.headliners.slice(0, 5).map((h) => (
             <span
               key={h}
-              className="text-[10px] tracking-widest px-2 py-0.5 rounded bg-accent-orange/10 border border-accent-orange/25 text-accent-orange/90 font-bebas"
+              className="text-[10px] tracking-widest px-2 py-0.5 rounded bg-accent-orange/10 border border-accent-orange/25 text-accent-peach font-bebas"
             >
               {h.replace(/-/g, ' ').toUpperCase()}
             </span>

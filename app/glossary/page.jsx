@@ -83,11 +83,11 @@ export default function GlossaryPage() {
             <div className="mb-4">
               <Breadcrumb items={GLOSSARY_BREADCRUMB} />
             </div>
-            <h1 className="font-bebas text-5xl tracking-wider text-white mb-2">
+            <h1 className="font-bebas text-5xl tracking-wider text-[#F4E5A8] mb-2">
               {isJA ? 'トランス用語集' : 'Trance Glossary'}
             </h1>
             <div className="w-20 h-1 bg-gradient-to-r from-accent-red via-accent-orange to-transparent mb-3" />
-            <p className="text-text-light/80 text-sm font-barlow max-w-2xl">
+            <p className="text-text-light text-sm font-barlow max-w-2xl">
               {isJA
                 ? 'ジャンル、プロダクション、DJパフォーマンス、シーン用語まで——トランス・ミュージックを理解するための語彙。'
                 : 'From genres and production to DJ performance and scene jargon — the vocabulary for understanding trance music.'}
@@ -96,13 +96,13 @@ export default function GlossaryPage() {
 
           {/* Toolbar */}
           <div className="mb-6 flex gap-3 flex-wrap items-center">
-            <div className="flex border border-[rgba(212,175,55,0.25)] rounded overflow-hidden">
+            <div className="flex border border-[rgba(212,175,55,0.3)] rounded overflow-hidden">
               <input
                 type="text"
                 value={search}
                 onChange={(e) => setSearch(e.target.value)}
                 placeholder={isJA ? '用語を検索...' : 'Search terms...'}
-                className="flex-1 bg-dark-bg2/80 border-none px-4 py-2 text-text-light font-barlow text-sm placeholder-text-muted outline-none min-w-[180px]"
+                className="flex-1 bg-white/[0.08] border-none px-4 py-2 text-text-light font-barlow text-sm placeholder-text-muted outline-none min-w-[180px]"
               />
               <span className="bg-accent-orange text-black px-4 py-2 font-bebas text-sm tracking-widest">
                 {filtered.length}
@@ -115,8 +115,8 @@ export default function GlossaryPage() {
                   onClick={() => setCategory(c.id)}
                   className={`font-bebas text-xs tracking-widest px-4 py-2 rounded transition-all ${
                     category === c.id
-                      ? 'bg-accent-orange/20 border border-accent-orange text-accent-orange'
-                      : 'bg-transparent border border-[rgba(212,175,55,0.25)] text-text-muted hover:border-accent-orange hover:text-accent-orange'
+                      ? 'bg-accent-orange/20 border border-accent-orange text-accent-peach'
+                      : 'bg-transparent border border-[rgba(212,175,55,0.3)] text-text-muted hover:border-accent-orange hover:text-accent-peach'
                   }`}
                 >
                   {isJA ? c.ja : c.en}
@@ -128,7 +128,7 @@ export default function GlossaryPage() {
           {/* A-Z index */}
           <nav
             aria-label={isJA ? '索引' : 'Alphabet index'}
-            className="mb-10 p-3 bg-dark-bg2/60 border border-[rgba(212,175,55,0.25)] rounded-sm flex flex-wrap gap-1 justify-center"
+            className="mb-10 p-3 bg-white/[0.08] border border-[rgba(212,175,55,0.3)] rounded-sm flex flex-wrap gap-1 justify-center"
           >
             {ALPHABET.map((letter) => {
               const present = presentLetters.has(letter);
@@ -136,7 +136,7 @@ export default function GlossaryPage() {
                 <a
                   key={letter}
                   href={`#letter-${letter}`}
-                  className="font-bebas text-sm tracking-widest w-8 h-8 flex items-center justify-center rounded text-accent-orange hover:bg-accent-orange/10 transition-all"
+                  className="font-bebas text-sm tracking-widest w-8 h-8 flex items-center justify-center rounded text-accent-peach hover:bg-accent-orange/10 transition-all"
                 >
                   {letter}
                 </a>
@@ -161,27 +161,27 @@ export default function GlossaryPage() {
           {groups.map(([letter, items]) => (
             <section key={letter} id={`letter-${letter}`} className="mb-10 scroll-mt-20">
               <div className="flex items-center gap-3 mb-4">
-                <div className="font-bebas text-3xl tracking-widest text-accent-orange w-12">
+                <div className="font-bebas text-3xl tracking-widest text-[#F4E5A8] w-12">
                   {letter}
                 </div>
-                <div className="flex-1 h-px bg-[rgba(212,175,55,0.25)]" />
+                <div className="flex-1 h-px bg-[rgba(212,175,55,0.3)]" />
               </div>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                 {items.map((t) => (
                   <Link
                     key={t.slug}
                     href={`/glossary/${t.slug}`}
-                    className="group bg-dark-bg2/80 border border-[rgba(212,175,55,0.25)] rounded-sm p-4 hover:border-accent-orange/50 hover:translate-y-[-2px] transition-all"
+                    className="group bg-white/[0.08] border border-[rgba(212,175,55,0.3)] rounded-sm p-4 hover:border-accent-orange/50 hover:translate-y-[-2px] transition-all"
                   >
                     <div className="flex items-baseline justify-between gap-3 mb-1">
-                      <h3 className="font-bebas text-lg tracking-widest text-white group-hover:text-accent-orange transition-colors">
+                      <h3 className="font-bebas text-lg tracking-widest text-[#F4E5A8] group-hover:text-accent-peach transition-colors">
                         {isJA ? t.term.ja : t.term.en}
                       </h3>
                       <span className="text-xs tracking-widest text-text-muted shrink-0">
                         {isJA ? t.term.en : t.term.ja}
                       </span>
                     </div>
-                    <p className="text-xs text-text-light/80 leading-relaxed line-clamp-2">
+                    <p className="text-xs text-text-light leading-relaxed line-clamp-2">
                       {isJA ? t.short.ja : t.short.en}
                     </p>
                   </Link>

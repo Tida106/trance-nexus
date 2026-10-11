@@ -99,13 +99,13 @@ export default function SearchClient() {
             <div className="mb-4">
               <Breadcrumb items={SEARCH_BREADCRUMB} />
             </div>
-            <h1 className="font-bebas text-5xl tracking-wider text-white mb-2">
+            <h1 className="font-bebas text-5xl tracking-wider text-[#F4E5A8] mb-2">
               {isJA ? 'サイト内検索' : 'Search'}
             </h1>
             <div className="w-20 h-1 bg-gradient-to-r from-accent-red via-accent-orange to-transparent mb-6" />
 
             {/* Search input */}
-            <div className="flex items-center border gold-metallic-search rounded overflow-hidden mb-4 bg-dark-bg2/80">
+            <div className="flex items-center border gold-metallic-search rounded overflow-hidden mb-4 bg-white/[0.08]">
               <span className="flex items-center px-4">
                 <SearchIcon className="w-6 h-6 shrink-0" />
               </span>
@@ -139,10 +139,10 @@ export default function SearchClient() {
                       disabled={count === 0 && id !== 'ALL'}
                       className={`font-bebas text-xs tracking-widest px-3 py-1.5 rounded transition-all ${
                         isActive
-                          ? 'bg-accent-orange/20 border border-accent-orange text-accent-orange'
+                          ? 'bg-accent-orange/20 border border-accent-orange text-accent-peach'
                           : count === 0 && id !== 'ALL'
-                          ? 'border border-[rgba(212,175,55,0.25)] text-text-muted cursor-not-allowed'
-                          : 'border border-[rgba(212,175,55,0.25)] text-text-muted hover:border-accent-orange hover:text-accent-orange'
+                          ? 'border border-[rgba(212,175,55,0.3)] text-text-muted cursor-not-allowed'
+                          : 'border border-[rgba(212,175,55,0.3)] text-text-muted hover:border-accent-orange hover:text-accent-peach'
                       }`}
                     >
                       {isJA ? labels.ja : labels.en}{' '}
@@ -168,8 +168,8 @@ export default function SearchClient() {
 
           {/* Empty / placeholder states */}
           {!query.trim() && (
-            <div className="bg-dark-bg2/60 border border-[rgba(212,175,55,0.25)] rounded-sm p-8 text-center">
-              <p className="text-text-light/80 mb-4">
+            <div className="bg-white/[0.08] border border-[rgba(212,175,55,0.3)] rounded-sm p-8 text-center">
+              <p className="text-text-light mb-4">
                 {isJA
                   ? '検索キーワードを入力してください。記事25本、アーティスト20名、レーベル20、用語集40を横断検索します。'
                   : 'Enter a search term. We search across 25 articles, 20 artists, 20 labels, and 40 glossary terms.'}
@@ -182,8 +182,8 @@ export default function SearchClient() {
           )}
 
           {!loading && query.trim() && results.length === 0 && (
-            <div className="bg-dark-bg2/60 border border-[rgba(212,175,55,0.25)] rounded-sm p-8">
-              <p className="text-text-light/85 mb-4">
+            <div className="bg-white/[0.08] border border-[rgba(212,175,55,0.3)] rounded-sm p-8">
+              <p className="text-text-light mb-4">
                 {isJA
                   ? `「${query}」に該当する結果が見つかりませんでした。`
                   : `We couldn't find anything matching "${query}".`}
@@ -194,19 +194,19 @@ export default function SearchClient() {
                   : 'Try a different keyword, or browse by topic:'}
               </p>
               <div className="flex gap-2 flex-wrap">
-                <Link href="/blog" className="text-xs tracking-widest font-bebas px-3 py-2 rounded border border-accent-orange/30 text-accent-orange hover:bg-accent-orange/10 transition-all">
+                <Link href="/blog" className="text-xs tracking-widest font-bebas px-3 py-2 rounded border border-accent-orange/30 text-accent-peach hover:bg-accent-orange/10 transition-all">
                   {isJA ? 'ブログ' : 'BLOG'}
                 </Link>
-                <Link href="/artists" className="text-xs tracking-widest font-bebas px-3 py-2 rounded border border-accent-orange/30 text-accent-orange hover:bg-accent-orange/10 transition-all">
+                <Link href="/artists" className="text-xs tracking-widest font-bebas px-3 py-2 rounded border border-accent-orange/30 text-accent-peach hover:bg-accent-orange/10 transition-all">
                   {isJA ? 'アーティスト' : 'ARTISTS'}
                 </Link>
-                <Link href="/labels" className="text-xs tracking-widest font-bebas px-3 py-2 rounded border border-accent-orange/30 text-accent-orange hover:bg-accent-orange/10 transition-all">
+                <Link href="/labels" className="text-xs tracking-widest font-bebas px-3 py-2 rounded border border-accent-orange/30 text-accent-peach hover:bg-accent-orange/10 transition-all">
                   {isJA ? 'レーベル' : 'LABELS'}
                 </Link>
-                <Link href="/glossary" className="text-xs tracking-widest font-bebas px-3 py-2 rounded border border-accent-orange/30 text-accent-orange hover:bg-accent-orange/10 transition-all">
+                <Link href="/glossary" className="text-xs tracking-widest font-bebas px-3 py-2 rounded border border-accent-orange/30 text-accent-peach hover:bg-accent-orange/10 transition-all">
                   {isJA ? '用語集' : 'GLOSSARY'}
                 </Link>
-                <Link href="/category" className="text-xs tracking-widest font-bebas px-3 py-2 rounded border border-accent-orange/30 text-accent-orange hover:bg-accent-orange/10 transition-all">
+                <Link href="/category" className="text-xs tracking-widest font-bebas px-3 py-2 rounded border border-accent-orange/30 text-accent-peach hover:bg-accent-orange/10 transition-all">
                   {isJA ? 'カテゴリ' : 'CATEGORIES'}
                 </Link>
               </div>
@@ -226,22 +226,22 @@ export default function SearchClient() {
                     key={r.id}
                     href={r.url}
                     role="listitem"
-                    className="group flex gap-4 bg-dark-bg2/60 border border-[rgba(212,175,55,0.25)] rounded-sm p-4 hover:border-accent-orange/50 hover:translate-y-[-2px] transition-all"
+                    className="group flex gap-4 bg-white/[0.08] border border-[rgba(212,175,55,0.3)] rounded-sm p-4 hover:border-accent-orange/50 hover:translate-y-[-2px] transition-all"
                   >
                     <div className="text-3xl shrink-0">{r.icon}</div>
                     <div className="flex-1 min-w-0">
                       <div className="flex items-baseline justify-between gap-3 mb-1 flex-wrap">
-                        <h3 className="font-bebas text-base tracking-widest text-white group-hover:text-accent-orange transition-colors">
+                        <h3 className="font-bebas text-base tracking-widest text-[#F4E5A8] group-hover:text-accent-peach transition-colors">
                           {title}
                           {r.flag && <span className="ml-2 text-sm">{r.flag}</span>}
                         </h3>
-                        <span className="font-bebas text-xs tracking-widest text-accent-orange/70 shrink-0">
+                        <span className="font-bebas text-xs tracking-widest text-accent-peach shrink-0">
                           {isJA ? TYPE_LABELS[r.type].ja : TYPE_LABELS[r.type].en}
                           {r.date && <span className="ml-2 text-text-muted">· {r.date}</span>}
                         </span>
                       </div>
                       {excerpt && (
-                        <p className="text-xs text-text-light/80 leading-relaxed line-clamp-2">
+                        <p className="text-xs text-text-light leading-relaxed line-clamp-2">
                           {excerpt}
                         </p>
                       )}

@@ -102,7 +102,7 @@ async function networkFirst(request) {
     if (root) return root;
     return new Response(
       '<!doctype html><meta charset="utf-8"><title>Offline</title>' +
-      '<style>body{background:#0E4D6E;color:#fff;font-family:sans-serif;padding:2rem;text-align:center}</style>' +
+      '<style>body{background:#2A6496;color:#fff;font-family:sans-serif;padding:2rem;text-align:center}</style>' +
       '<h1>TRANCE NEXUS</h1><p>You are offline and this page is not in your cache.</p>' +
       '<p><a href="' + BASE_PATH + '/" style="color:#f97316">Return to home</a></p>',
       { status: 503, headers: { 'content-type': 'text/html; charset=utf-8' } }

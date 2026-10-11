@@ -24,7 +24,7 @@ export default function BlogListing({ listings }) {
             <div className="mb-4">
               <Breadcrumb items={BLOG_BREADCRUMB} />
             </div>
-            <h1 className="font-bebas text-5xl tracking-wider text-white mb-2">
+            <h1 className="font-bebas text-5xl tracking-wider text-[#F4E5A8] mb-2">
               {isJA ? 'ブログ' : 'Blog'}
             </h1>
             <div className="w-20 h-1 bg-gradient-to-r from-accent-red via-accent-orange to-transparent mb-3" />
@@ -42,7 +42,7 @@ export default function BlogListing({ listings }) {
                 <Link
                   key={post.slug}
                   href={`/blog/${post.slug}`}
-                  className="group bg-dark-bg2/80 border border-[rgba(212,175,55,0.25)] rounded-sm overflow-hidden hover:border-accent-orange/50 hover:translate-y-[-4px] hover:shadow-xl transition-all block"
+                  className="group bg-white/[0.08] border border-[rgba(212,175,55,0.3)] rounded-sm overflow-hidden hover:border-accent-orange/50 hover:translate-y-[-4px] hover:shadow-xl transition-all block"
                 >
                   {/* Header bar */}
                   <div className="h-2 bg-gradient-to-r from-accent-red via-accent-orange to-accent-amber" />
@@ -53,7 +53,7 @@ export default function BlogListing({ listings }) {
                       {post.tags.map((tag) => (
                         <span
                           key={tag}
-                          className="text-xs tracking-widest px-2 py-0.5 rounded border border-accent-orange/30 bg-accent-orange/5 text-accent-orange"
+                          className="text-xs tracking-widest px-2 py-0.5 rounded border border-accent-orange/30 bg-accent-orange/5 text-accent-peach"
                         >
                           {tag}
                         </span>
@@ -61,17 +61,17 @@ export default function BlogListing({ listings }) {
                     </div>
 
                     {/* Title */}
-                    <h2 className="font-bebas text-xl tracking-widest text-white mb-3 leading-tight group-hover:text-accent-orange transition-colors">
+                    <h2 className="font-bebas text-xl tracking-widest text-[#F4E5A8] mb-3 leading-tight group-hover:text-accent-peach transition-colors">
                       {content.title}
                     </h2>
 
                     {/* Excerpt */}
-                    <p className="text-sm text-text-light/80 leading-relaxed mb-4 line-clamp-3">
+                    <p className="text-sm text-text-light leading-relaxed mb-4 line-clamp-3">
                       {content.excerpt}
                     </p>
 
                     {/* Meta */}
-                    <div className="flex items-center justify-between text-xs text-text-muted tracking-widest border-t border-[rgba(212,175,55,0.25)] pt-3">
+                    <div className="flex items-center justify-between text-xs text-text-muted tracking-widest border-t border-[rgba(212,175,55,0.3)] pt-3">
                       <span>{post.date}</span>
                       <span>{post.readTime} {isJA ? '分' : 'min read'}</span>
                     </div>

@@ -48,7 +48,7 @@ export default function Navigation() {
           <Link
             key={link.href}
             href={link.href}
-            className="px-5 h-[84px] leading-[84px] block border-l border-[rgba(212,175,55,0.25)] hover:bg-[rgba(212,175,55,0.06)] transition-colors relative group"
+            className="px-5 h-[84px] leading-[84px] block border-l border-[rgba(212,175,55,0.3)] hover:bg-[rgba(212,175,55,0.06)] transition-colors relative group"
           >
             <span className="font-bebas text-sm tracking-widest gold-metallic-nav">
               {link.label}
@@ -57,7 +57,7 @@ export default function Navigation() {
           </Link>
         ))}
         <SearchTrigger />
-        <div className="border-l border-[rgba(212,175,55,0.25)] px-5 h-[84px] leading-[84px] flex gap-2">
+        <div className="border-l border-[rgba(212,175,55,0.3)] px-5 h-[84px] leading-[84px] flex gap-2">
           <button
             type="button"
             onClick={() => switchLanguage('en')}

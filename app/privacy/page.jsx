@@ -16,9 +16,9 @@ const LAST_UPDATED = '2026-05-05';
 
 function PrivacyEN() {
   return (
-    <div className="space-y-8 text-text-light/90 text-sm leading-relaxed font-barlow">
+    <div className="space-y-8 text-text-light text-sm leading-relaxed font-barlow">
       <section>
-        <h2 className="font-bebas text-xl tracking-widest text-accent-orange mb-3">1. Overview</h2>
+        <h2 className="font-bebas text-xl tracking-widest text-[#F4E5A8] mb-3">1. Overview</h2>
         <p>
           TRANCE NEXUS (&ldquo;this site&rdquo;) is a fan-made trance music information portal providing
           artist profiles, radio show schedules, and event information. This Privacy
@@ -27,13 +27,13 @@ function PrivacyEN() {
       </section>
 
       <section>
-        <h2 className="font-bebas text-xl tracking-widest text-accent-orange mb-3">2. Cookies &amp; Advertising</h2>
+        <h2 className="font-bebas text-xl tracking-widest text-[#F4E5A8] mb-3">2. Cookies &amp; Advertising</h2>
         <p className="mb-2">
           This site uses <strong className="text-text-light">Google AdSense</strong> to display
           advertisements. Google AdSense uses cookies to serve ads based on your prior visits to
           this and other websites. You can opt out of personalised advertising by visiting{' '}
           <a href="https://www.google.com/settings/ads" target="_blank" rel="noopener noreferrer"
-             className="text-accent-orange hover:underline">
+             className="text-accent-peach hover:underline">
             Google Ads Settings
           </a>.
         </p>
@@ -42,7 +42,7 @@ function PrivacyEN() {
           type, pages visited, and device identifiers. This information is used by Google to
           serve relevant advertisements and is subject to{' '}
           <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer"
-             className="text-accent-orange hover:underline">
+             className="text-accent-peach hover:underline">
             Google&apos;s Privacy Policy
           </a>.
         </p>
@@ -50,14 +50,14 @@ function PrivacyEN() {
           For a full breakdown of every cookie type the site uses (essential, analytics, advertising,
           and affiliate), the third parties involved, and how to manage them in your browser, see
           our dedicated{' '}
-          <Link href="/cookies" className="text-accent-orange hover:underline">
+          <Link href="/cookies" className="text-accent-peach hover:underline">
             Cookie Policy
           </Link>.
         </p>
       </section>
 
       <section>
-        <h2 className="font-bebas text-xl tracking-widest text-accent-orange mb-3">3. Affiliate Links</h2>
+        <h2 className="font-bebas text-xl tracking-widest text-[#F4E5A8] mb-3">3. Affiliate Links</h2>
         <p className="mb-2">
           This site participates in affiliate programmes and may earn a commission when you click
           certain links and make a purchase or sign up. Current affiliate networks include:
@@ -73,7 +73,7 @@ function PrivacyEN() {
       </section>
 
       <section>
-        <h2 className="font-bebas text-xl tracking-widest text-accent-orange mb-3">4. Access Analytics</h2>
+        <h2 className="font-bebas text-xl tracking-widest text-[#F4E5A8] mb-3">4. Access Analytics</h2>
         <p>
           This site may use <strong className="text-text-light">Google Analytics</strong> to
           analyse site traffic and improve content. Google Analytics collects anonymised data
@@ -83,7 +83,7 @@ function PrivacyEN() {
       </section>
 
       <section>
-        <h2 className="font-bebas text-xl tracking-widest text-accent-orange mb-3">5. Personal Information</h2>
+        <h2 className="font-bebas text-xl tracking-widest text-[#F4E5A8] mb-3">5. Personal Information</h2>
         <p>
           This site does not operate user registration, login, or purchase functionality, and
           therefore does not directly collect personally identifiable information such as names,
@@ -93,7 +93,7 @@ function PrivacyEN() {
       </section>
 
       <section>
-        <h2 className="font-bebas text-xl tracking-widest text-accent-orange mb-3">5a. Newsletter</h2>
+        <h2 className="font-bebas text-xl tracking-widest text-[#F4E5A8] mb-3">5a. Newsletter</h2>
         <p className="mb-2">
           When you submit your email address through any of the newsletter signup forms on this
           site, that address is sent to our email-delivery provider (currently{' '}
@@ -117,14 +117,14 @@ function PrivacyEN() {
         <p>
           <strong className="text-text-light">Your rights:</strong> you may request access to,
           correction of, or deletion of your subscriber data at any time by emailing us at{' '}
-          <a href={`mailto:${CONTACT_EMAIL}`} className="text-accent-orange hover:underline">
+          <a href={`mailto:${CONTACT_EMAIL}`} className="text-accent-peach hover:underline">
             {CONTACT_EMAIL}
           </a>. We will respond within 30 days.
         </p>
       </section>
 
       <section>
-        <h2 className="font-bebas text-xl tracking-widest text-accent-orange mb-3">6. Third-Party Disclosure</h2>
+        <h2 className="font-bebas text-xl tracking-widest text-[#F4E5A8] mb-3">6. Third-Party Disclosure</h2>
         <p>
           We do not sell, trade, or transfer your personal information to outside parties except
           as described in this policy (i.e., through the third-party services listed above).
@@ -133,7 +133,7 @@ function PrivacyEN() {
       </section>
 
       <section>
-        <h2 className="font-bebas text-xl tracking-widest text-accent-orange mb-3">7. Changes to This Policy</h2>
+        <h2 className="font-bebas text-xl tracking-widest text-[#F4E5A8] mb-3">7. Changes to This Policy</h2>
         <p>
           We may update this Privacy Policy from time to time. Any changes will be posted on
           this page with an updated revision date.
@@ -141,10 +141,10 @@ function PrivacyEN() {
       </section>
 
       <section>
-        <h2 className="font-bebas text-xl tracking-widest text-accent-orange mb-3">8. Contact</h2>
+        <h2 className="font-bebas text-xl tracking-widest text-[#F4E5A8] mb-3">8. Contact</h2>
         <p>
           If you have any questions about this Privacy Policy, please contact us at:{' '}
-          <a href={`mailto:${CONTACT_EMAIL}`} className="text-accent-orange hover:underline">
+          <a href={`mailto:${CONTACT_EMAIL}`} className="text-accent-peach hover:underline">
             {CONTACT_EMAIL}
           </a>
         </p>
@@ -155,22 +155,22 @@ function PrivacyEN() {
 
 function PrivacyJA() {
   return (
-    <div className="space-y-8 text-text-light/90 text-sm leading-relaxed font-barlow">
+    <div className="space-y-8 text-text-light text-sm leading-relaxed font-barlow">
       <section>
-        <h2 className="font-bebas text-xl tracking-widest text-accent-orange mb-3">1. 概要</h2>
+        <h2 className="font-bebas text-xl tracking-widest text-[#F4E5A8] mb-3">1. 概要</h2>
         <p>
           TRANCE NEXUS（以下「当サイト」）は、トランスミュージックに関するアーティスト情報・ラジオ番組スケジュール・セットリスト・イベント情報を提供するファンメイドのポータルサイトです。本プライバシーポリシーは、当サイトのご利用を通じて収集される情報の取り扱いについて説明します。
         </p>
       </section>
 
       <section>
-        <h2 className="font-bebas text-xl tracking-widest text-accent-orange mb-3">2. Cookie・広告について</h2>
+        <h2 className="font-bebas text-xl tracking-widest text-[#F4E5A8] mb-3">2. Cookie・広告について</h2>
         <p className="mb-2">
           当サイトでは、<strong className="text-text-light">Google AdSense</strong> を利用して広告を配信しています。
           Google AdSense は、ユーザーが当サイトおよび他のウェブサイトを訪問した履歴に基づいて、関連性の高い広告を表示するために Cookie を使用します。
           パーソナライズ広告を無効にするには、
           <a href="https://www.google.com/settings/ads" target="_blank" rel="noopener noreferrer"
-             className="text-accent-orange hover:underline mx-1">
+             className="text-accent-peach hover:underline mx-1">
             Google 広告設定
           </a>
           をご確認ください。
@@ -178,14 +178,14 @@ function PrivacyJA() {
         <p>
           Google AdSense が設定する Cookie には、IPアドレス・ブラウザの種類・閲覧ページ・端末識別子などの情報が含まれる場合があります。これらの情報は Googleの
           <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer"
-             className="text-accent-orange hover:underline mx-1">
+             className="text-accent-peach hover:underline mx-1">
             プライバシーポリシー
           </a>
           に従って処理されます。
         </p>
         <p className="mt-2">
           当サイトが使用するすべてのCookie（必須・分析・広告・アフィリエイト）の種類、関係する第三者、ブラウザでの管理方法の詳細は、専用の
-          <Link href="/cookies" className="text-accent-orange hover:underline mx-1">
+          <Link href="/cookies" className="text-accent-peach hover:underline mx-1">
             Cookieポリシー
           </Link>
           をご参照ください。
@@ -193,7 +193,7 @@ function PrivacyJA() {
       </section>
 
       <section>
-        <h2 className="font-bebas text-xl tracking-widest text-accent-orange mb-3">3. アフィリエイトリンクについて</h2>
+        <h2 className="font-bebas text-xl tracking-widest text-[#F4E5A8] mb-3">3. アフィリエイトリンクについて</h2>
         <p className="mb-2">
           当サイトはアフィリエイトプログラムに参加しており、掲載リンク経由でご購入・ご登録いただいた場合に報酬を受け取ることがあります。利用中のアフィリエイトネットワークは以下のとおりです：
         </p>
@@ -207,7 +207,7 @@ function PrivacyJA() {
       </section>
 
       <section>
-        <h2 className="font-bebas text-xl tracking-widest text-accent-orange mb-3">4. アクセス解析について</h2>
+        <h2 className="font-bebas text-xl tracking-widest text-[#F4E5A8] mb-3">4. アクセス解析について</h2>
         <p>
           当サイトでは、サイト改善を目的として <strong className="text-text-light">Google Analytics</strong> を使用する場合があります。
           Google Analytics はページビュー・滞在時間・参照元などの匿名データを Cookie 経由で収集します。個人を特定する情報は収集されません。
@@ -215,7 +215,7 @@ function PrivacyJA() {
       </section>
 
       <section>
-        <h2 className="font-bebas text-xl tracking-widest text-accent-orange mb-3">5. 個人情報の取り扱い</h2>
+        <h2 className="font-bebas text-xl tracking-widest text-[#F4E5A8] mb-3">5. 個人情報の取り扱い</h2>
         <p>
           当サイトは会員登録・ログイン・購入機能を提供していないため、氏名・住所・決済情報などの個人情報を直接収集することはありません。
           第三者サービス（Google・Impact・Awin）が処理する個人データは、各サービスのプライバシーポリシーに従って取り扱われます。
@@ -223,7 +223,7 @@ function PrivacyJA() {
       </section>
 
       <section>
-        <h2 className="font-bebas text-xl tracking-widest text-accent-orange mb-3">5a. ニュースレターについて</h2>
+        <h2 className="font-bebas text-xl tracking-widest text-[#F4E5A8] mb-3">5a. ニュースレターについて</h2>
         <p className="mb-2">
           当サイトの登録フォームから送信されたメールアドレスは、メール配信サービス（現在は<strong className="text-text-light">Buttondown</strong>、将来的にMailchimp等への移行も検討）に送信されます。
           このアドレスは月1回のTRANCE NEXUSダイジェスト配信のためのみに保管され、第三者への販売・賃貸・共有は一切行いません。
@@ -239,7 +239,7 @@ function PrivacyJA() {
         <p>
           <strong className="text-text-light">権利：</strong>
           ご自身の登録データへのアクセス、訂正、削除のリクエストは、{' '}
-          <a href={`mailto:${CONTACT_EMAIL}`} className="text-accent-orange hover:underline">
+          <a href={`mailto:${CONTACT_EMAIL}`} className="text-accent-peach hover:underline">
             {CONTACT_EMAIL}
           </a>
           までいつでもお問い合わせください。30日以内にご対応いたします。
@@ -247,7 +247,7 @@ function PrivacyJA() {
       </section>
 
       <section>
-        <h2 className="font-bebas text-xl tracking-widest text-accent-orange mb-3">6. 第三者への提供</h2>
+        <h2 className="font-bebas text-xl tracking-widest text-[#F4E5A8] mb-3">6. 第三者への提供</h2>
         <p>
           当サイトは、本ポリシーに記載された第三者サービスへの提供を除き、ユーザーの個人情報を販売・交換・移転することはありません。
           各第三者は独自のプライバシーポリシーおよびセキュリティ基準のもとで運営されています。
@@ -255,17 +255,17 @@ function PrivacyJA() {
       </section>
 
       <section>
-        <h2 className="font-bebas text-xl tracking-widest text-accent-orange mb-3">7. ポリシーの変更</h2>
+        <h2 className="font-bebas text-xl tracking-widest text-[#F4E5A8] mb-3">7. ポリシーの変更</h2>
         <p>
           本プライバシーポリシーは随時更新されることがあります。変更があった場合は、このページに更新日とともに掲載します。
         </p>
       </section>
 
       <section>
-        <h2 className="font-bebas text-xl tracking-widest text-accent-orange mb-3">8. お問い合わせ</h2>
+        <h2 className="font-bebas text-xl tracking-widest text-[#F4E5A8] mb-3">8. お問い合わせ</h2>
         <p>
           本プライバシーポリシーに関するお問い合わせは、以下のメールアドレスまでご連絡ください：{' '}
-          <a href={`mailto:${CONTACT_EMAIL}`} className="text-accent-orange hover:underline">
+          <a href={`mailto:${CONTACT_EMAIL}`} className="text-accent-peach hover:underline">
             {CONTACT_EMAIL}
           </a>
         </p>
@@ -287,7 +287,7 @@ export default function PrivacyPage() {
             <div className="mb-4">
               <Breadcrumb items={PRIVACY_BREADCRUMB} />
             </div>
-            <h1 className="font-bebas text-5xl tracking-wider text-white mb-2">
+            <h1 className="font-bebas text-5xl tracking-wider text-[#F4E5A8] mb-2">
               {isJA ? 'プライバシーポリシー' : 'Privacy Policy'}
             </h1>
             <div className="w-20 h-1 bg-gradient-to-r from-accent-red via-accent-orange to-transparent mb-4" />

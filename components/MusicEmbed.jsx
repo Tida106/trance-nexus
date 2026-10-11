@@ -82,10 +82,10 @@ export default function MusicEmbed({ query, label, title, compact, platform, id 
   ];
 
   return (
-    <div className="bg-dark-bg2/40 border border-[rgba(212,175,55,0.25)] rounded-sm overflow-hidden">
+    <div className="bg-white/[0.08] border border-[rgba(212,175,55,0.3)] rounded-sm overflow-hidden">
       {label && (
-        <div className="px-3 py-2 border-b border-[rgba(212,175,55,0.25)]">
-          <span className="text-xs tracking-widest text-text-light/85 block truncate">
+        <div className="px-3 py-2 border-b border-[rgba(212,175,55,0.3)]">
+          <span className="text-xs tracking-widest text-text-light block truncate">
             {label}
           </span>
         </div>
@@ -98,7 +98,7 @@ export default function MusicEmbed({ query, label, title, compact, platform, id 
             target="_blank"
             rel={p.sponsored ? 'noopener noreferrer sponsored' : 'noopener noreferrer'}
             aria-label={`${p.name}: ${captionText}`}
-            className="inline-flex items-center gap-1.5 font-bebas text-xs tracking-widest px-3 py-1.5 rounded border border-accent-orange/40 bg-accent-orange/5 text-accent-orange hover:bg-accent-orange/15 hover:border-accent-orange transition-colors"
+            className="inline-flex items-center gap-1.5 font-bebas text-xs tracking-widest px-3 py-1.5 rounded border border-accent-orange/40 bg-accent-orange/5 text-accent-peach hover:bg-accent-orange/15 hover:border-accent-orange transition-colors"
           >
             <span aria-hidden="true">{p.icon}</span>
             <span>{isJA ? p.labelJa : p.labelEn}</span>

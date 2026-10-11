@@ -80,7 +80,7 @@ export default function TimelineClient() {
       <Navigation />
       <a
         href={`#era-${eras[0].id}`}
-        className="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-50 focus:px-3 focus:py-2 focus:rounded focus:border focus:border-accent-orange focus:bg-dark-bg focus:text-accent-orange focus:font-bebas focus:text-xs focus:tracking-widest"
+        className="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-50 focus:px-3 focus:py-2 focus:rounded focus:border focus:border-accent-orange focus:bg-dark-header focus:text-accent-peach focus:font-bebas focus:text-xs focus:tracking-widest"
       >
         {isJA ? 'タイムライン本文へスキップ' : 'Skip to timeline content'}
       </a>
@@ -110,13 +110,13 @@ export default function TimelineClient() {
             <div className="pb-4">
               <Breadcrumb items={breadcrumbItems} />
             </div>
-            <span className="inline-block text-xs tracking-widest text-accent-orange font-bebas mb-3 px-2 py-1 rounded border border-accent-orange/30 bg-accent-orange/5">
+            <span className="inline-block text-xs tracking-widest text-accent-peach font-bebas mb-3 px-2 py-1 rounded border border-accent-orange/30 bg-accent-orange/5">
               {isJA ? '1988 — 2026' : '1988 — 2026'}
             </span>
-            <h1 className="font-bebas text-5xl md:text-7xl tracking-wider text-white drop-shadow-lg leading-none mb-4">
+            <h1 className="font-bebas text-5xl md:text-7xl tracking-wider text-[#F4E5A8] drop-shadow-lg leading-none mb-4">
               {isJA ? 'トランスの歴史' : 'TRANCE TIMELINE'}
             </h1>
-            <p className="text-text-light/80 text-base md:text-lg max-w-2xl leading-relaxed">
+            <p className="text-text-light text-base md:text-lg max-w-2xl leading-relaxed">
               {isJA
                 ? 'フランクフルトのクラブから、ラスベガスのSphereまで——ジャンルを定義した30の瞬間。'
                 : 'From Frankfurt clubs to the Las Vegas Sphere — thirty moments that defined the genre.'}
@@ -127,7 +127,7 @@ export default function TimelineClient() {
         {/* Sticky era nav (jump links) */}
         <nav
           aria-label={isJA ? '年代ナビゲーション' : 'Era navigation'}
-          className="sticky top-[60px] z-20 backdrop-blur bg-dark-bg/85 border-y border-[rgba(212,175,55,0.25)]"
+          className="sticky top-[60px] z-20 backdrop-blur bg-dark-header/85 border-y border-[rgba(212,175,55,0.3)]"
         >
           <div className="max-w-5xl mx-auto px-3 py-2 flex gap-1.5 overflow-x-auto no-scrollbar">
             {eras.map((era) => {
@@ -139,8 +139,8 @@ export default function TimelineClient() {
                   aria-current={isActive ? 'true' : undefined}
                   className={`shrink-0 px-3 py-1.5 rounded text-xs tracking-widest font-bebas border transition-colors ${
                     isActive
-                      ? 'border-accent-orange bg-accent-orange/15 text-accent-orange'
-                      : 'border-[rgba(212,175,55,0.25)] text-text-muted hover:text-accent-orange hover:border-accent-orange/50'
+                      ? 'border-accent-orange bg-accent-orange/15 text-accent-peach'
+                      : 'border-[rgba(212,175,55,0.3)] text-text-muted hover:text-accent-peach hover:border-accent-orange/50'
                   }`}
                   style={isActive ? { boxShadow: `0 0 0 1px ${era.accent}40 inset` } : undefined}
                 >
@@ -167,15 +167,15 @@ export default function TimelineClient() {
             />
           ))}
 
-          <div className="mt-20 pt-8 border-t border-[rgba(212,175,55,0.25)] text-center">
-            <p className="text-sm text-text-light/80 mb-4">
+          <div className="mt-20 pt-8 border-t border-[rgba(212,175,55,0.3)] text-center">
+            <p className="text-sm text-text-light mb-4">
               {isJA
                 ? 'タイムラインは継続して更新されます。新しい記事・アーティスト・レーベルが追加されると自動で反映されます。'
                 : 'The timeline is continuously updated as new articles, artists, and labels are added.'}
             </p>
             <Link
               href="/blog"
-              className="inline-block font-bebas text-sm tracking-widest px-5 py-2 border border-accent-orange/30 text-accent-orange hover:bg-accent-orange/10 transition-all rounded"
+              className="inline-block font-bebas text-sm tracking-widest px-5 py-2 border border-accent-orange/30 text-accent-peach hover:bg-accent-orange/10 transition-all rounded"
             >
               {isJA ? 'ブログで深く読む →' : 'READ THE BLOG →'}
             </Link>
@@ -211,10 +211,10 @@ function Era({ era, events, isJA, eraRef, openEventId, onToggleEvent, reducedMot
         >
           {isJA ? era.title.ja : era.title.en}
         </h2>
-        <p className="text-accent-orange/85 text-sm tracking-widest mb-3 font-bebas">
+        <p className="text-accent-peach text-sm tracking-widest mb-3 font-bebas">
           {isJA ? era.headline.ja : era.headline.en}
         </p>
-        <p className="text-text-light/80 text-sm md:text-base leading-relaxed max-w-2xl">
+        <p className="text-text-light text-sm md:text-base leading-relaxed max-w-2xl">
           {isJA ? era.description.ja : era.description.en}
         </p>
         <div
@@ -279,7 +279,7 @@ function TimelineEvent({ event, isJA, accent, isOpen, onToggle, reducedMotion, i
       {/* Pin — pulses on the active card; ::after ring expands then fades */}
       <span
         aria-hidden="true"
-        className={`tl-pin absolute -left-[34px] md:-left-[42px] top-3 w-3.5 h-3.5 rounded-full ring-4 ring-dark-bg ${
+        className={`tl-pin absolute -left-[34px] md:-left-[42px] top-3 w-3.5 h-3.5 rounded-full ring-4 ring-[#2F74A0] ${
           isOpen ? 'scale-125' : ''
         }`}
         style={{ background: accent, color: accent }}
@@ -290,16 +290,16 @@ function TimelineEvent({ event, isJA, accent, isOpen, onToggle, reducedMotion, i
         onClick={onToggle}
         aria-expanded={isOpen}
         aria-controls={`event-detail-${event.id}`}
-        className="w-full text-left bg-dark-bg2/80 border border-[rgba(212,175,55,0.25)] rounded-sm overflow-hidden hover:border-accent-orange/50 hover:shadow-lg transition-all focus:outline-none focus:border-accent-orange focus-visible:ring-2 focus-visible:ring-accent-orange/40"
+        className="w-full text-left bg-white/[0.08] border border-[rgba(212,175,55,0.3)] rounded-sm overflow-hidden hover:border-accent-orange/50 hover:shadow-lg transition-all focus:outline-none focus:border-accent-orange focus-visible:ring-2 focus-visible:ring-accent-orange/40"
       >
-        <div className="px-4 py-3 flex items-baseline gap-3 border-b border-[rgba(212,175,55,0.25)]">
+        <div className="px-4 py-3 flex items-baseline gap-3 border-b border-[rgba(212,175,55,0.3)]">
           <span
             className="font-bebas text-2xl tracking-widest shrink-0"
             style={{ color: accent }}
           >
             {event.year}
           </span>
-          <span className="text-xs tracking-widest px-2 py-0.5 rounded border border-accent-orange/30 bg-accent-orange/5 text-accent-orange shrink-0">
+          <span className="text-xs tracking-widest px-2 py-0.5 rounded border border-accent-orange/30 bg-accent-orange/5 text-accent-peach shrink-0">
             <span className="mr-1" aria-hidden="true">{badge.icon}</span>
             {isJA ? badge.ja : badge.en}
           </span>
@@ -308,11 +308,11 @@ function TimelineEvent({ event, isJA, accent, isOpen, onToggle, reducedMotion, i
           </span>
         </div>
         <div className="px-4 py-3">
-          <h3 className="font-bebas text-lg md:text-xl tracking-widest text-white leading-tight">
+          <h3 className="font-bebas text-lg md:text-xl tracking-widest text-[#F4E5A8] leading-tight">
             {title}
           </h3>
           {!isOpen && (
-            <p className="text-sm text-text-light/80 leading-relaxed mt-2 line-clamp-2">
+            <p className="text-sm text-text-light leading-relaxed mt-2 line-clamp-2">
               {description}
             </p>
           )}
@@ -322,9 +322,9 @@ function TimelineEvent({ event, isJA, accent, isOpen, onToggle, reducedMotion, i
       {isOpen && (
         <div
           id={`event-detail-${event.id}`}
-          className="bg-dark-bg2/40 border-x border-b border-[rgba(212,175,55,0.25)] rounded-b-sm px-4 py-4 -mt-px"
+          className="bg-white/[0.08] border-x border-b border-[rgba(212,175,55,0.3)] rounded-b-sm px-4 py-4 -mt-px"
         >
-          <p className="text-sm text-text-light/85 leading-relaxed mb-4">
+          <p className="text-sm text-text-light leading-relaxed mb-4">
             {description}
           </p>
 
@@ -338,7 +338,7 @@ function TimelineEvent({ event, isJA, accent, isOpen, onToggle, reducedMotion, i
             {artist && (
               <Link
                 href={`/artists/${artist.slug}`}
-                className="text-xs tracking-widest font-bebas px-3 py-1.5 rounded border border-accent-orange/30 text-accent-orange hover:bg-accent-orange/10 transition-all"
+                className="text-xs tracking-widest font-bebas px-3 py-1.5 rounded border border-accent-orange/30 text-accent-peach hover:bg-accent-orange/10 transition-all"
               >
                 🎤 {artist.name}
               </Link>
@@ -346,7 +346,7 @@ function TimelineEvent({ event, isJA, accent, isOpen, onToggle, reducedMotion, i
             {label && (
               <Link
                 href={`/labels/${label.slug}`}
-                className="text-xs tracking-widest font-bebas px-3 py-1.5 rounded border border-accent-orange/30 text-accent-orange hover:bg-accent-orange/10 transition-all"
+                className="text-xs tracking-widest font-bebas px-3 py-1.5 rounded border border-accent-orange/30 text-accent-peach hover:bg-accent-orange/10 transition-all"
               >
                 💿 {label.name}
               </Link>
@@ -354,7 +354,7 @@ function TimelineEvent({ event, isJA, accent, isOpen, onToggle, reducedMotion, i
             {post && (
               <Link
                 href={`/blog/${post.slug}`}
-                className="text-xs tracking-widest font-bebas px-3 py-1.5 rounded border border-accent-orange/30 text-accent-orange hover:bg-accent-orange/10 transition-all"
+                className="text-xs tracking-widest font-bebas px-3 py-1.5 rounded border border-accent-orange/30 text-accent-peach hover:bg-accent-orange/10 transition-all"
               >
                 ✍ {isJA ? post.ja.title : post.en.title}
               </Link>

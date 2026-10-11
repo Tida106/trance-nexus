@@ -70,7 +70,7 @@ export default function CookieBanner() {
             <>
               当サイトはGoogle Analytics（アクセス解析）およびGoogle AdSense（広告配信）のためにCookieを使用しています。
               詳しくは{' '}
-              <Link href="/privacy" className="text-accent-orange hover:underline">
+              <Link href="/privacy" className="text-accent-peach hover:underline">
                 プライバシーポリシー
               </Link>
               {' '}をご確認ください。
@@ -79,7 +79,7 @@ export default function CookieBanner() {
             <>
               This site uses cookies for Google Analytics (analytics) and Google AdSense (advertising).
               See our{' '}
-              <Link href="/privacy" className="text-accent-orange hover:underline">
+              <Link href="/privacy" className="text-accent-peach hover:underline">
                 Privacy Policy
               </Link>
               {' '}for details.
@@ -97,7 +97,7 @@ export default function CookieBanner() {
           </button>
           <button
             onClick={decline}
-            className="font-bebas text-sm tracking-widest px-6 py-2 border border-[rgba(212,175,55,0.25)] text-text-muted hover:text-text-light hover:border-text-muted transition-colors rounded"
+            className="font-bebas text-sm tracking-widest px-6 py-2 border border-[rgba(212,175,55,0.3)] text-text-muted hover:text-text-light hover:border-text-muted transition-colors rounded"
           >
             {isJA ? '拒否する' : 'Decline'}
           </button>

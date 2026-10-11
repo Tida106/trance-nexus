@@ -20,7 +20,7 @@ export default function ArtistCard({ artist }) {
     <Link
       href={`/artists/${artist.slug}`}
       aria-label={`${artist.name} — ${isJA ? 'プロフィールを見る' : 'View profile'}`}
-      className="group block cursor-pointer bg-dark-bg2/80 border border-[rgba(212,175,55,0.25)] rounded-sm overflow-hidden transition-all duration-200 hover:-translate-y-1.5 hover:border-accent-orange hover:shadow-2xl hover:shadow-accent-orange/20 focus-visible:-translate-y-1.5 focus-visible:border-accent-orange focus-visible:shadow-2xl focus-visible:shadow-accent-orange/20"
+      className="group block cursor-pointer bg-white/[0.08] border border-[rgba(212,175,55,0.3)] rounded-sm overflow-hidden transition-all duration-200 hover:-translate-y-1.5 hover:border-accent-orange hover:shadow-2xl hover:shadow-accent-orange/20 focus-visible:-translate-y-1.5 focus-visible:border-accent-orange focus-visible:shadow-2xl focus-visible:shadow-accent-orange/20"
     >
       <div className={`h-24 relative flex items-end p-4 overflow-hidden ${artist.banner}`}>
         {/* Subtle zoom on hover — gives the banner gradient a sense of
@@ -38,22 +38,22 @@ export default function ArtistCard({ artist }) {
             border picks up the orange accent on card hover so the
             interactive state is visually consistent. */}
         <div className="flex items-end mb-4 relative z-20">
-          <div className="w-14 h-14 rounded-full border-2 border-accent-orange bg-dark-bg flex items-center justify-center text-2xl shadow-lg -mt-10 -mb-2 transition-shadow group-hover:shadow-accent-orange/40 group-hover:shadow-xl">
+          <div className="w-14 h-14 rounded-full border-2 border-accent-orange bg-white/[0.08] flex items-center justify-center text-2xl shadow-lg -mt-10 -mb-2 transition-shadow group-hover:shadow-accent-orange/40 group-hover:shadow-xl">
             {artist.emoji}
           </div>
         </div>
 
-        <h3 className="font-bebas text-xl tracking-widest text-white mb-1 group-hover:text-accent-orange transition-colors">
+        <h3 className="font-bebas text-xl tracking-widest text-[#F4E5A8] mb-1 group-hover:text-accent-peach transition-colors">
           {artist.name}
         </h3>
-        <div className="text-xs tracking-widest text-accent-orange mb-2">{sub}</div>
-        <p className="text-sm text-text-light/80 leading-relaxed mb-3 line-clamp-3">{short}</p>
+        <div className="text-xs tracking-widest text-accent-peach mb-2">{sub}</div>
+        <p className="text-sm text-text-light leading-relaxed mb-3 line-clamp-3">{short}</p>
 
         <div className="flex gap-2 flex-wrap mb-3">
           {artist.tags.slice(0, 3).map((tag) => (
             <span
               key={tag}
-              className="text-xs tracking-widest px-2 py-1 rounded border border-accent-orange/30 bg-accent-orange/5 text-accent-orange"
+              className="text-xs tracking-widest px-2 py-1 rounded border border-accent-orange/30 bg-accent-orange/5 text-accent-peach"
             >
               {tag}
             </span>
@@ -65,7 +65,7 @@ export default function ArtistCard({ artist }) {
             slides on hover to mirror the card's lift animation. */}
         <span
           aria-hidden="true"
-          className="inline-flex items-center gap-1 font-bebas text-xs tracking-widest text-accent-orange/70 group-hover:text-accent-orange transition-all"
+          className="inline-flex items-center gap-1 font-bebas text-xs tracking-widest text-accent-peach group-hover:text-accent-peach transition-all"
         >
           <span>{isJA ? 'プロフィールを見る' : 'View profile'}</span>
           <span className="group-hover:translate-x-1 transition-transform">→</span>

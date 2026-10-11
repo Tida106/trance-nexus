@@ -172,7 +172,7 @@ export default function NewsletterForm({ variant = 'full', className = '' }) {
             placeholder={isJA ? 'your@email.com' : 'your@email.com'}
             disabled={status === 'submitting' || status === 'success'}
             aria-label={isJA ? 'メールアドレス' : 'Email address'}
-            className="flex-1 bg-dark-bg border border-[rgba(212,175,55,0.25)] rounded px-3 py-2 text-sm text-text-light placeholder-text-muted/50 focus:outline-none focus:border-accent-orange disabled:opacity-50"
+            className="flex-1 bg-white/[0.08] border border-[rgba(212,175,55,0.3)] rounded px-3 py-2 text-sm text-text-light placeholder-text-muted/50 focus:outline-none focus:border-accent-orange disabled:opacity-50"
           />
           {/* Honeypot — hidden from real users, attractive to dumb bots. */}
           <input
@@ -188,7 +188,7 @@ export default function NewsletterForm({ variant = 'full', className = '' }) {
           <button
             type="submit"
             disabled={status === 'submitting' || status === 'success'}
-            className="font-bebas text-sm tracking-widest px-5 py-2 rounded border border-accent-orange/40 bg-accent-orange/10 text-accent-orange hover:bg-accent-orange/20 disabled:opacity-50 transition-all"
+            className="font-bebas text-sm tracking-widest px-5 py-2 rounded border border-accent-orange/40 bg-accent-orange/10 text-accent-peach hover:bg-accent-orange/20 disabled:opacity-50 transition-all"
           >
             {status === 'submitting'
               ? (isJA ? '送信中…' : 'SUBMITTING…')
@@ -203,7 +203,7 @@ export default function NewsletterForm({ variant = 'full', className = '' }) {
   // Full / CTA variant.
   const wrapper =
     variant === 'cta'
-      ? 'bg-dark-bg2/80 border border-[rgba(212,175,55,0.25)] rounded-sm p-6 md:p-8'
+      ? 'bg-white/[0.08] border border-[rgba(212,175,55,0.3)] rounded-sm p-6 md:p-8'
       : '';
 
   return (
@@ -212,10 +212,10 @@ export default function NewsletterForm({ variant = 'full', className = '' }) {
       className={`${wrapper} ${className}`}
       aria-label={isJA ? 'ニュースレター登録フォーム' : 'Newsletter signup form'}
     >
-      <h3 className="font-bebas text-2xl tracking-widest text-accent-orange mb-1">
+      <h3 className="font-bebas text-2xl tracking-widest text-[#F4E5A8] mb-1">
         {isJA ? 'ニュースレターを購読' : 'Subscribe to the Newsletter'}
       </h3>
-      <p className="text-sm text-text-light/80 mb-5">
+      <p className="text-sm text-text-light mb-5">
         {isJA
           ? '月1回程度、新着記事・注目アーティスト・ラジオ最新エピソードをお届けします。いつでも解除できます。'
           : 'A monthly digest of new articles, featured artists, and the latest radio episodes. Unsubscribe at any time.'}
@@ -237,7 +237,7 @@ export default function NewsletterForm({ variant = 'full', className = '' }) {
             disabled={status === 'submitting' || status === 'success'}
             aria-required="true"
             aria-invalid={status === 'error'}
-            className="w-full bg-dark-bg border border-[rgba(212,175,55,0.25)] rounded px-3 py-2 text-sm text-text-light placeholder-text-muted/50 focus:outline-none focus:border-accent-orange disabled:opacity-50"
+            className="w-full bg-white/[0.08] border border-[rgba(212,175,55,0.3)] rounded px-3 py-2 text-sm text-text-light placeholder-text-muted/50 focus:outline-none focus:border-accent-orange disabled:opacity-50"
           />
         </div>
 
@@ -265,8 +265,8 @@ export default function NewsletterForm({ variant = 'full', className = '' }) {
                   key={opt.id}
                   className={`flex items-center gap-2 px-3 py-2 rounded border text-xs tracking-widest cursor-pointer transition-colors ${
                     checked
-                      ? 'border-accent-orange bg-accent-orange/10 text-accent-orange'
-                      : 'border-[rgba(212,175,55,0.25)] text-text-light/80 hover:border-accent-orange/50'
+                      ? 'border-accent-orange bg-accent-orange/10 text-accent-peach'
+                      : 'border-[rgba(212,175,55,0.3)] text-text-light hover:border-accent-orange/50'
                   }`}
                 >
                   <input
@@ -283,7 +283,7 @@ export default function NewsletterForm({ variant = 'full', className = '' }) {
           </div>
         </fieldset>
 
-        <label className="flex items-start gap-2 text-xs text-text-light/80 leading-relaxed cursor-pointer">
+        <label className="flex items-start gap-2 text-xs text-text-light leading-relaxed cursor-pointer">
           <input
             type="checkbox"
             className="mt-0.5 accent-accent-orange"
@@ -294,13 +294,13 @@ export default function NewsletterForm({ variant = 'full', className = '' }) {
           <span>
             {isJA ? (
               <>
-                <a href="/privacy" className="text-accent-orange hover:underline">プライバシーポリシー</a>
+                <a href="/privacy" className="text-accent-peach hover:underline">プライバシーポリシー</a>
                 を確認し、ニュースレター配信のためのメールアドレス利用に同意します。配信解除は各メールのリンクから可能です。
               </>
             ) : (
               <>
                 I have read the{' '}
-                <a href="/privacy" className="text-accent-orange hover:underline">Privacy Policy</a>{' '}
+                <a href="/privacy" className="text-accent-peach hover:underline">Privacy Policy</a>{' '}
                 and consent to receiving the newsletter at this email address. I can unsubscribe at any time via the link in every email.
               </>
             )}
@@ -310,7 +310,7 @@ export default function NewsletterForm({ variant = 'full', className = '' }) {
         <button
           type="submit"
           disabled={status === 'submitting' || status === 'success'}
-          className="font-bebas text-sm tracking-widest px-6 py-3 rounded border border-accent-orange bg-accent-orange/15 text-accent-orange hover:bg-accent-orange/25 disabled:opacity-50 transition-all self-start"
+          className="font-bebas text-sm tracking-widest px-6 py-3 rounded border border-accent-orange bg-accent-orange/15 text-accent-peach hover:bg-accent-orange/25 disabled:opacity-50 transition-all self-start"
         >
           {status === 'submitting'
             ? (isJA ? '送信中…' : 'SUBMITTING…')
@@ -339,7 +339,7 @@ function StatusLine({ status, errorMessage, isJA, compact }) {
   }
   if (status === 'unconfigured') {
     return (
-      <p className={`${base} text-amber-300`} role="status">
+      <p className={`${base} text-accent-peach`} role="status">
         {isJA
           ? 'ニュースレターは現在準備中です。メールアドレスは送信されませんでした。'
           : 'The newsletter is being set up. Your email was not submitted.'}
@@ -348,7 +348,7 @@ function StatusLine({ status, errorMessage, isJA, compact }) {
   }
   if (status === 'error') {
     return (
-      <p className={`${base} text-red-400`} role="alert">
+      <p className={`${base} text-[#FFB4B4]`} role="alert">
         {errorMessage}
       </p>
     );

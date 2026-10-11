@@ -110,12 +110,12 @@ export default function SearchModal({ open, onClose }) {
       onClick={onClose}
     >
       <div
-        className="w-full max-w-2xl bg-dark-bg2 border gold-metallic-search rounded-sm shadow-2xl max-h-[80vh] flex flex-col"
+        className="w-full max-w-2xl bg-dark-header border gold-metallic-search rounded-sm shadow-2xl max-h-[80vh] flex flex-col"
         onClick={(e) => e.stopPropagation()}
         onKeyDown={onKeyDown}
       >
         {/* Input */}
-        <div className="flex items-center gap-3 p-4 border-b border-[rgba(212,175,55,0.25)]">
+        <div className="flex items-center gap-3 p-4 border-b border-[rgba(212,175,55,0.3)]">
           <SearchIcon className="w-6 h-6 shrink-0" />
           <input
             ref={inputRef}
@@ -138,14 +138,14 @@ export default function SearchModal({ open, onClose }) {
           <button
             onClick={onClose}
             aria-label={isJA ? '検索を閉じる' : 'Close search'}
-            className="text-text-muted hover:text-text-light transition-colors text-xs font-bebas tracking-widest px-2 py-1 border border-[rgba(212,175,55,0.25)] rounded"
+            className="text-text-muted hover:text-text-light transition-colors text-xs font-bebas tracking-widest px-2 py-1 border border-[rgba(212,175,55,0.3)] rounded"
           >
             ESC
           </button>
         </div>
 
         {/* Hint row */}
-        <div className="px-4 py-2 border-b border-[rgba(212,175,55,0.25)] text-xs tracking-widest text-text-muted flex gap-4 flex-wrap">
+        <div className="px-4 py-2 border-b border-[rgba(212,175,55,0.3)] text-xs tracking-widest text-text-muted flex gap-4 flex-wrap">
           <span>↑↓ {isJA ? '選択' : 'navigate'}</span>
           <span>↵ {isJA ? '移動' : 'open'}</span>
           <span>ESC {isJA ? '閉じる' : 'close'}</span>
@@ -183,7 +183,7 @@ export default function SearchModal({ open, onClose }) {
               if (!items || items.length === 0) return null;
               return (
                 <div key={t}>
-                  <div className="px-4 pt-3 pb-1 font-bebas text-xs tracking-widest text-accent-orange/70 sticky top-0 bg-dark-bg2 z-10">
+                  <div className="px-4 pt-3 pb-1 font-bebas text-xs tracking-widest text-accent-peach sticky top-0 bg-dark-header z-10">
                     {isJA ? TYPE_LABELS[t].ja : TYPE_LABELS[t].en} ({items.length})
                   </div>
                   {items.map((r) => {
@@ -205,10 +205,10 @@ export default function SearchModal({ open, onClose }) {
                         onMouseEnter={() => setActiveIdx(idx)}
                         role="option"
                         aria-selected={active}
-                        className={`flex gap-3 items-start px-4 py-3 border-b border-[rgba(212,175,55,0.25)] transition-colors ${
+                        className={`flex gap-3 items-start px-4 py-3 border-b border-[rgba(212,175,55,0.3)] transition-colors ${
                           active
                             ? 'bg-accent-orange/15 text-text-light'
-                            : 'hover:bg-accent-orange/5 text-text-light/85'
+                            : 'hover:bg-accent-orange/5 text-text-light'
                         }`}
                       >
                         <span className="text-2xl shrink-0" aria-hidden="true">
@@ -222,12 +222,12 @@ export default function SearchModal({ open, onClose }) {
                             {r.flag && <span className="text-xs">{r.flag}</span>}
                           </span>
                           {excerpt && (
-                            <span className="block text-xs text-text-light/80 line-clamp-2 mt-1">
+                            <span className="block text-xs text-text-light line-clamp-2 mt-1">
                               {excerpt}
                             </span>
                           )}
                         </span>
-                        <span className="font-bebas text-xs tracking-widest text-accent-orange/60 shrink-0 self-start mt-1">
+                        <span className="font-bebas text-xs tracking-widest text-accent-peach shrink-0 self-start mt-1">
                           {isJA ? TYPE_LABELS[r.type].ja : TYPE_LABELS[r.type].en}
                         </span>
                       </Link>
@@ -240,11 +240,11 @@ export default function SearchModal({ open, onClose }) {
 
         {/* Footer link to full search */}
         {query.trim() && results.length > 0 && (
-          <div className="border-t border-[rgba(212,175,55,0.25)] p-3 text-center">
+          <div className="border-t border-[rgba(212,175,55,0.3)] p-3 text-center">
             <Link
               href={`/search?q=${encodeURIComponent(query.trim())}`}
               onClick={onClose}
-              className="text-xs tracking-widest font-bebas text-accent-orange hover:underline"
+              className="text-xs tracking-widest font-bebas text-accent-peach hover:underline"
             >
               {isJA
                 ? `「${query}」のすべての結果を見る →`

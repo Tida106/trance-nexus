@@ -38,11 +38,11 @@ export default function TagIndexPage() {
             <div className="mb-4">
               <Breadcrumb items={BREADCRUMB} />
             </div>
-            <h1 className="font-bebas text-5xl tracking-wider text-white mb-2">
+            <h1 className="font-bebas text-5xl tracking-wider text-[#F4E5A8] mb-2">
               {isJA ? 'タグクラウド' : 'Tag Cloud'}
             </h1>
             <div className="w-20 h-1 bg-gradient-to-r from-accent-red via-accent-orange to-transparent mb-3" />
-            <p className="text-text-light/80 text-sm font-barlow max-w-2xl">
+            <p className="text-text-light text-sm font-barlow max-w-2xl">
               {isJA
                 ? 'すべてのブログ記事タグを一覧で表示。タグの大きさは記事数を反映しています。'
                 : 'Every tag used across our blog. Larger labels indicate more articles tagged with that term.'}
@@ -54,7 +54,7 @@ export default function TagIndexPage() {
             if (groupTags.length === 0) return null;
             return (
               <section key={group.id} className="mb-10">
-                <h2 className="font-bebas text-2xl tracking-widest text-accent-orange mb-2">
+                <h2 className="font-bebas text-2xl tracking-widest text-[#F4E5A8] mb-2">
                   {isJA ? group.ja : group.en}
                 </h2>
                 <div className="w-12 h-0.5 bg-gradient-to-r from-accent-red to-accent-orange mb-5" />
@@ -69,8 +69,8 @@ export default function TagIndexPage() {
                         href={`/tag/${t.id}`}
                         className={`font-bebas tracking-widest px-3 py-1.5 rounded border transition-all ${sizeClass} ${
                           inactive
-                            ? 'border-[rgba(212,175,55,0.25)] text-text-muted hover:text-text-muted'
-                            : 'border-accent-orange/30 text-accent-orange hover:bg-accent-orange/10 hover:border-accent-orange'
+                            ? 'border-[rgba(212,175,55,0.3)] text-text-muted hover:text-text-muted'
+                            : 'border-accent-orange/30 text-accent-peach hover:bg-accent-orange/10 hover:border-accent-orange'
                         }`}
                       >
                         {isJA ? t.name.ja : t.name.en}

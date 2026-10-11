@@ -158,12 +158,12 @@ export default function Home() {
           ───────────────────────────────────────────────────────── */}
       <section
         id="top"
-        className="relative z-10 min-h-screen flex flex-col items-center justify-center text-center overflow-hidden pt-[84px] pb-28 bg-gradient-to-b from-[#0E4D6E] via-[#16708A] to-[#1F8C93]"
+        className="relative z-10 min-h-screen flex flex-col items-center justify-center text-center overflow-hidden pt-[84px] pb-28"
       >
         <div className="absolute inset-0 bg-gradient-radial from-red-900/20 via-transparent to-transparent opacity-70 pointer-events-none" />
 
         <div className="relative z-10 px-6 md:px-10 w-full">
-          <div className="font-bebas text-sm tracking-widest text-accent-orange mb-6 animate-in fade-in duration-700">
+          <div className="font-bebas text-sm tracking-widest text-accent-peach mb-6 animate-in fade-in duration-700">
             {t('home.tagline')}
           </div>
 
@@ -199,7 +199,7 @@ export default function Home() {
           <div className="flex flex-wrap gap-8 md:gap-12 justify-center animate-in fade-in slide-in-from-bottom-10 duration-700 delay-300">
             {stats.map((stat, i) => (
               <div key={i} className="text-center">
-                <div className="font-bebas text-3xl md:text-4xl text-accent-orange drop-shadow-lg mb-2">
+                <div className="font-bebas text-3xl md:text-4xl text-[#F4E5A8] drop-shadow-lg mb-2">
                   {stat.value}
                 </div>
                 <div className="text-xs md:text-sm tracking-widest text-white uppercase">
@@ -216,7 +216,7 @@ export default function Home() {
           className="absolute bottom-10 left-1/2 -translate-x-1/2 z-10 flex flex-col items-center gap-2 text-white text-xs tracking-widest animate-bounce"
         >
           {t('home.scroll')}
-          <span className="text-lg text-accent-orange">▼</span>
+          <span className="text-lg text-accent-peach">▼</span>
         </div>
       </section>
 
@@ -229,15 +229,15 @@ export default function Home() {
           ───────────────────────────────────────────────────────── */}
       <section
         id="newsletter-top"
-        className="cv-auto relative z-10 py-12 px-6 md:px-12 bg-gradient-to-b from-accent-orange/10 via-dark-bg/40 to-transparent border-y border-[rgba(212,175,55,0.25)]"
+        className="cv-auto relative z-10 py-12 px-6 md:px-12 bg-gradient-to-b from-accent-orange/10 via-transparent to-transparent border-y border-[rgba(212,175,55,0.3)]"
         aria-label="Subscribe to the newsletter"
       >
         <div className="max-w-3xl mx-auto">
           <div className="text-center mb-6">
-            <h2 className="font-bebas text-3xl md:text-4xl tracking-widest text-white mb-2">
+            <h2 className="font-bebas text-3xl md:text-4xl tracking-widest text-[#F4E5A8] mb-2">
               {isJA ? '月次トランス・ダイジェスト' : 'Get the Monthly Trance Digest'}
             </h2>
-            <p className="text-sm md:text-base text-text-light/80 leading-relaxed">
+            <p className="text-sm md:text-base text-text-light leading-relaxed">
               {isJA
                 ? 'ASOT、Group Therapy、FSOEの月次まとめ、新譜キュレーション、フェスティバル情報を毎月メールで。スパムなし、いつでも解除可能。'
                 : 'A monthly digest of ASOT, Group Therapy, and FSOE rotation; new-release picks; festival news. No spam, unsubscribe anytime.'}
@@ -258,14 +258,14 @@ export default function Home() {
         <div className="max-w-7xl mx-auto">
           <div className="mb-8 flex items-end justify-between gap-4 flex-wrap">
             <div>
-              <h2 className="font-bebas text-4xl md:text-5xl tracking-wider text-white mb-2">
+              <h2 className="font-bebas text-4xl md:text-5xl tracking-wider text-[#F4E5A8] mb-2">
                 {isJA ? '最新記事' : 'Latest Posts'}
               </h2>
               <div className="w-20 h-1 bg-gradient-to-r from-accent-red via-accent-orange to-transparent" />
             </div>
             <Link
               href="/blog"
-              className="inline-block font-bebas text-sm tracking-widest px-5 py-2.5 border border-accent-orange/30 text-accent-orange hover:bg-accent-orange/10 transition-all rounded"
+              className="inline-block font-bebas text-sm tracking-widest px-5 py-2.5 border border-accent-orange/30 text-accent-peach hover:bg-accent-orange/10 transition-all rounded"
             >
               ✍️ {isJA ? 'すべての記事' : 'All Posts'} →
             </Link>
@@ -279,7 +279,7 @@ export default function Home() {
                   key={post.slug}
                   href={`/blog/${post.slug}`}
                   prefetch={i < 3 ? undefined : false}
-                  className="group bg-dark-bg2/80 border border-[rgba(212,175,55,0.25)] rounded-sm overflow-hidden hover:border-accent-orange/50 hover:translate-y-[-4px] hover:shadow-xl transition-all block snap-start shrink-0 w-[80vw] sm:w-[60vw] md:w-auto"
+                  className="group bg-white/[0.08] border border-[rgba(212,175,55,0.3)] rounded-sm overflow-hidden hover:border-accent-orange/50 hover:translate-y-[-4px] hover:shadow-xl transition-all block snap-start shrink-0 w-[80vw] sm:w-[60vw] md:w-auto"
                 >
                   <div className="h-1.5 bg-gradient-to-r from-accent-red via-accent-orange to-accent-amber" />
                   <div className="p-5">
@@ -287,16 +287,16 @@ export default function Home() {
                       {post.tags.slice(0, 2).map((tag) => (
                         <span
                           key={tag}
-                          className="text-[10px] tracking-widest px-1.5 py-0.5 rounded border border-accent-orange/25 bg-accent-orange/5 text-accent-orange/90"
+                          className="text-[10px] tracking-widest px-1.5 py-0.5 rounded border border-accent-orange/25 bg-accent-orange/5 text-accent-peach"
                         >
                           {tag}
                         </span>
                       ))}
                     </div>
-                    <h3 className="font-bebas text-lg tracking-widest text-white mb-2 leading-tight group-hover:text-accent-orange transition-colors line-clamp-2 min-h-[3rem]">
+                    <h3 className="font-bebas text-lg tracking-widest text-[#F4E5A8] mb-2 leading-tight group-hover:text-accent-peach transition-colors line-clamp-2 min-h-[3rem]">
                       {c.title}
                     </h3>
-                    <p className="text-xs text-text-light/80 leading-relaxed mb-3 line-clamp-2">
+                    <p className="text-xs text-text-light leading-relaxed mb-3 line-clamp-2">
                       {c.excerpt}
                     </p>
                     <div className="text-[11px] text-text-muted tracking-widest">
@@ -316,11 +316,11 @@ export default function Home() {
           editorial sections. Mobile horizontal-scroll snap row,
           desktop 3-column grid. Reuses ArtistCard.
           ───────────────────────────────────────────────────────── */}
-      <section id="artist" className="cv-auto relative z-10 py-20 px-6 md:px-12 bg-dark-bg2/50">
+      <section id="artist" className="cv-auto relative z-10 py-20 px-6 md:px-12">
         <div className="max-w-7xl mx-auto">
           <div className="mb-8 flex items-end justify-between gap-4 flex-wrap">
             <div>
-              <h2 className="font-bebas text-4xl md:text-5xl tracking-wider text-white mb-2 flex items-center gap-3 flex-wrap">
+              <h2 className="font-bebas text-4xl md:text-5xl tracking-wider text-[#F4E5A8] mb-2 flex items-center gap-3 flex-wrap">
                 <span>{t('artists.title')}</span>
                 <span className="font-bebas text-xl tracking-widest px-2.5 py-0.5 rounded-md bg-accent-orange text-black">
                   {artists.length}
@@ -363,25 +363,25 @@ export default function Home() {
           <div className="max-w-5xl mx-auto">
             <Link
               href={`/blog/${latestChart.slug}`}
-              className="group block bg-gradient-to-br from-accent-red/15 via-dark-bg2/80 to-accent-orange/10 border border-accent-orange/40 hover:border-accent-orange rounded-sm overflow-hidden transition-all hover:translate-y-[-3px] hover:shadow-2xl hover:shadow-accent-orange/15"
+              className="group block bg-gradient-to-br from-accent-red/15 via-transparent to-accent-orange/10 border border-accent-orange/40 hover:border-accent-orange rounded-sm overflow-hidden transition-all hover:translate-y-[-3px] hover:shadow-2xl hover:shadow-accent-orange/15"
             >
               <div className="h-2 bg-gradient-to-r from-accent-red via-accent-orange to-accent-amber" />
               <div className="p-6 md:p-10">
                 <div className="flex items-center gap-3 mb-4 flex-wrap">
-                  <span className="font-bebas text-xs tracking-widest px-3 py-1 rounded border border-accent-orange bg-accent-orange/15 text-accent-orange">
+                  <span className="font-bebas text-xs tracking-widest px-3 py-1 rounded border border-accent-orange bg-accent-orange/15 text-accent-peach">
                     📈 {isJA ? '最新月間チャート' : 'Latest Monthly Chart'}
                   </span>
                   <span className="text-xs text-text-muted tracking-widest">
                     {latestChart.date} · {latestChart.readTime} {isJA ? '分' : 'min read'}
                   </span>
                 </div>
-                <h2 className="font-bebas text-2xl md:text-4xl tracking-wider text-white group-hover:text-accent-orange transition-colors mb-4 leading-tight">
+                <h2 className="font-bebas text-2xl md:text-4xl tracking-wider text-[#F4E5A8] group-hover:text-accent-peach transition-colors mb-4 leading-tight">
                   {(isJA ? latestChart.ja.title : latestChart.en.title)}
                 </h2>
-                <p className="text-sm md:text-base text-text-light/80 leading-relaxed mb-5 max-w-3xl">
+                <p className="text-sm md:text-base text-text-light leading-relaxed mb-5 max-w-3xl">
                   {(isJA ? latestChart.ja.excerpt : latestChart.en.excerpt)}
                 </p>
-                <span className="inline-flex items-center gap-2 font-bebas text-sm tracking-widest text-accent-orange group-hover:translate-x-1 transition-transform">
+                <span className="inline-flex items-center gap-2 font-bebas text-sm tracking-widest text-accent-peach group-hover:translate-x-1 transition-transform">
                   {isJA ? 'チャート全文を読む' : 'Read the full chart'}
                   <span>→</span>
                 </span>
@@ -399,11 +399,11 @@ export default function Home() {
           activity rather than editor preference.
           ───────────────────────────────────────────────────────── */}
       {trending.length > 0 && (
-        <section id="trending" className="cv-auto relative z-10 py-20 px-6 md:px-12 bg-dark-bg2/40 border-y border-[rgba(212,175,55,0.25)]">
+        <section id="trending" className="cv-auto relative z-10 py-20 px-6 md:px-12 border-y border-[rgba(212,175,55,0.3)]">
           <div className="max-w-7xl mx-auto">
             <div className="mb-8 flex items-end justify-between gap-4 flex-wrap">
               <div>
-                <h2 className="font-bebas text-4xl md:text-5xl tracking-wider text-white mb-2 flex items-center gap-3 flex-wrap">
+                <h2 className="font-bebas text-4xl md:text-5xl tracking-wider text-[#F4E5A8] mb-2 flex items-center gap-3 flex-wrap">
                   <span>{isJA ? '今週の注目' : 'Trending This Week'}</span>
                   <span className="text-xl">🔥</span>
                 </h2>
@@ -418,14 +418,14 @@ export default function Home() {
                     key={post.slug}
                     href={`/blog/${post.slug}`}
                     prefetch={false}
-                    className="group bg-dark-bg2/80 border border-[rgba(212,175,55,0.25)] rounded-sm overflow-hidden hover:border-accent-orange/50 hover:translate-y-[-3px] hover:shadow-lg transition-all block"
+                    className="group bg-white/[0.08] border border-[rgba(212,175,55,0.3)] rounded-sm overflow-hidden hover:border-accent-orange/50 hover:translate-y-[-3px] hover:shadow-lg transition-all block"
                   >
                     <div className="h-1 bg-gradient-to-r from-accent-amber to-accent-orange" />
                     <div className="p-4">
-                      <span className="font-bebas text-[10px] tracking-widest px-1.5 py-0.5 rounded border border-accent-amber/40 bg-accent-amber/10 text-accent-amber inline-block mb-2">
+                      <span className="font-bebas text-[10px] tracking-widest px-1.5 py-0.5 rounded border border-accent-amber/40 bg-accent-amber/10 text-accent-peach inline-block mb-2">
                         🔥 {isJA ? '注目記事' : 'Popular Now'}
                       </span>
-                      <h3 className="font-bebas text-base tracking-widest text-white mb-2 leading-tight group-hover:text-accent-orange transition-colors line-clamp-3 min-h-[3.5rem]">
+                      <h3 className="font-bebas text-base tracking-widest text-[#F4E5A8] mb-2 leading-tight group-hover:text-accent-peach transition-colors line-clamp-3 min-h-[3.5rem]">
                         {c.title}
                       </h3>
                       <div className="text-[11px] text-text-muted tracking-widest">
@@ -451,7 +451,7 @@ export default function Home() {
         <section id="top-pick" className="cv-auto relative z-10 py-16 px-6 md:px-12">
           <div className="max-w-5xl mx-auto">
             <div className="mb-6">
-              <h2 className="font-bebas text-4xl md:text-5xl tracking-wider text-white mb-2 flex items-center gap-3 flex-wrap">
+              <h2 className="font-bebas text-4xl md:text-5xl tracking-wider text-[#F4E5A8] mb-2 flex items-center gap-3 flex-wrap">
                 <span>{isJA ? '今週のトップ・ピック' : 'Top Pick This Week'}</span>
                 <span className="text-2xl">⭐</span>
               </h2>
@@ -459,20 +459,20 @@ export default function Home() {
             </div>
             <Link
               href={`/blog/${editorsPick.slug}`}
-              className="group block text-left bg-dark-bg2/70 border border-accent-orange/40 hover:border-accent-orange rounded-sm p-5 md:p-8 transition-all hover:shadow-xl hover:shadow-accent-orange/10 hover:translate-y-[-2px]"
+              className="group block text-left bg-white/[0.08] border border-accent-orange/40 hover:border-accent-orange rounded-sm p-5 md:p-8 transition-all hover:shadow-xl hover:shadow-accent-orange/10 hover:translate-y-[-2px]"
             >
               <div className="flex items-baseline gap-3 mb-3 flex-wrap">
-                <span className="font-bebas text-[11px] tracking-widest px-2 py-0.5 rounded border border-accent-orange bg-accent-orange/15 text-accent-orange">
+                <span className="font-bebas text-[11px] tracking-widest px-2 py-0.5 rounded border border-accent-orange bg-accent-orange/15 text-accent-peach">
                   ⭐ {isJA ? '今週のトップ・ピック' : 'Top Pick This Week'}
                 </span>
                 <span className="text-xs text-text-muted tracking-widest">
                   {editorsPick.date} · {editorsPick.readTime} {isJA ? '分' : 'min read'}
                 </span>
               </div>
-              <h3 className="font-bebas text-xl md:text-3xl tracking-widest text-white group-hover:text-accent-orange transition-colors leading-tight mb-3">
+              <h3 className="font-bebas text-xl md:text-3xl tracking-widest text-[#F4E5A8] group-hover:text-accent-peach transition-colors leading-tight mb-3">
                 {(isJA ? editorsPick.ja.title : editorsPick.en.title)}
               </h3>
-              <p className="text-sm md:text-base text-text-light/80 leading-relaxed line-clamp-3">
+              <p className="text-sm md:text-base text-text-light leading-relaxed line-clamp-3">
                 {(isJA ? editorsPick.ja.excerpt : editorsPick.en.excerpt)}
               </p>
             </Link>
@@ -492,12 +492,12 @@ export default function Home() {
         >
           <div className="max-w-7xl mx-auto">
             <div className="mb-8">
-              <h2 className="font-bebas text-4xl md:text-5xl tracking-wider text-white mb-2 flex items-center gap-3 flex-wrap">
+              <h2 className="font-bebas text-4xl md:text-5xl tracking-wider text-[#F4E5A8] mb-2 flex items-center gap-3 flex-wrap">
                 <span>{isJA ? '決定版ランキング' : 'The Definitive Lists'}</span>
                 <span className="text-2xl">🏆</span>
               </h2>
               <div className="w-20 h-1 bg-gradient-to-r from-accent-red via-accent-orange to-transparent" />
-              <p className="text-sm text-text-light/80 mt-3 max-w-2xl">
+              <p className="text-sm text-text-light mt-3 max-w-2xl">
                 {isJA
                   ? 'ジャンルの30年史を横断する史上最高のトランス・トラック ― ランク付き、検証済み、クロス・チェック済みのカノン。'
                   : "The all-time best trance tracks across the genre's 30-year history — ranked, verified, and cross-checked against the historical canon."}
@@ -513,24 +513,24 @@ export default function Home() {
                     key={post.slug}
                     href={`/blog/${post.slug}`}
                     prefetch={featured ? undefined : false}
-                    className={`group bg-dark-bg2/80 border border-[rgba(212,175,55,0.25)] rounded-sm overflow-hidden hover:border-accent-orange/60 hover:translate-y-[-4px] hover:shadow-2xl hover:shadow-accent-orange/10 transition-all block ${featured ? 'md:col-span-2' : ''}`}
+                    className={`group bg-white/[0.08] border border-[rgba(212,175,55,0.3)] rounded-sm overflow-hidden hover:border-accent-orange/60 hover:translate-y-[-4px] hover:shadow-2xl hover:shadow-accent-orange/10 transition-all block ${featured ? 'md:col-span-2' : ''}`}
                   >
                     <div className="h-1.5 bg-gradient-to-r from-accent-red via-accent-orange to-accent-amber" />
                     <div className="p-5 md:p-6">
                       <div className="flex gap-1.5 flex-wrap mb-3">
-                        <span className="text-[10px] tracking-widest px-1.5 py-0.5 rounded border border-accent-orange/40 bg-accent-orange/10 text-accent-orange font-bebas">
+                        <span className="text-[10px] tracking-widest px-1.5 py-0.5 rounded border border-accent-orange/40 bg-accent-orange/10 text-accent-peach font-bebas">
                           🏆 {isJA ? '決定版' : 'Definitive'}
                         </span>
                         {featured && (
-                          <span className="text-[10px] tracking-widest px-1.5 py-0.5 rounded border border-accent-amber/40 bg-accent-amber/10 text-accent-amber font-bebas">
+                          <span className="text-[10px] tracking-widest px-1.5 py-0.5 rounded border border-accent-amber/40 bg-accent-amber/10 text-accent-peach font-bebas">
                             {isJA ? '注目' : 'Featured'}
                           </span>
                         )}
                       </div>
-                      <h3 className={`font-bebas tracking-widest text-white leading-tight group-hover:text-accent-orange transition-colors mb-3 ${featured ? 'text-xl md:text-2xl' : 'text-lg line-clamp-2 min-h-[3rem]'}`}>
+                      <h3 className={`font-bebas tracking-widest text-[#F4E5A8] leading-tight group-hover:text-accent-peach transition-colors mb-3 ${featured ? 'text-xl md:text-2xl' : 'text-lg line-clamp-2 min-h-[3rem]'}`}>
                         {c.title}
                       </h3>
-                      <p className={`text-text-light/80 leading-relaxed ${featured ? 'text-sm mb-4' : 'text-xs mb-3 line-clamp-3'}`}>
+                      <p className={`text-text-light leading-relaxed ${featured ? 'text-sm mb-4' : 'text-xs mb-3 line-clamp-3'}`}>
                         {c.excerpt}
                       </p>
                       <div className="text-[11px] text-text-muted tracking-widest">
@@ -544,7 +544,7 @@ export default function Home() {
 
             <Link
               href="/category/all-time-best"
-              className="inline-block font-bebas text-sm tracking-widest px-6 py-3 border border-accent-orange/30 text-accent-orange hover:bg-accent-orange/10 transition-all rounded"
+              className="inline-block font-bebas text-sm tracking-widest px-6 py-3 border border-accent-orange/30 text-accent-peach hover:bg-accent-orange/10 transition-all rounded"
             >
               🏆 {isJA ? 'すべての決定版' : 'All Definitive Lists'} →
             </Link>
@@ -562,11 +562,11 @@ export default function Home() {
         <section id="browse-genre" className="cv-auto relative z-10 py-20 px-6 md:px-12">
           <div className="max-w-7xl mx-auto">
             <div className="mb-8">
-              <h2 className="font-bebas text-4xl md:text-5xl tracking-wider text-white mb-2">
+              <h2 className="font-bebas text-4xl md:text-5xl tracking-wider text-[#F4E5A8] mb-2">
                 {isJA ? 'ジャンル別に見る' : 'Browse by Genre'}
               </h2>
               <div className="w-20 h-1 bg-gradient-to-r from-accent-red via-accent-orange to-transparent" />
-              <p className="text-sm text-text-light/80 mt-3 max-w-2xl">
+              <p className="text-sm text-text-light mt-3 max-w-2xl">
                 {isJA
                   ? '各サブジャンルの定義、起源、主要アーティスト、おすすめトラックを網羅した完全ガイド。'
                   : "Definitive guides covering each subgenre's definition, origins, key artists, and starter tracks."}
@@ -588,9 +588,9 @@ export default function Home() {
                     key={post.slug}
                     href={`/blog/${post.slug}`}
                     prefetch={false}
-                    className="group bg-dark-bg2/60 border border-[rgba(212,175,55,0.25)] rounded-sm p-4 text-center hover:border-accent-orange/60 hover:bg-accent-orange/5 hover:translate-y-[-2px] transition-all"
+                    className="group bg-white/[0.08] border border-[rgba(212,175,55,0.3)] rounded-sm p-4 text-center hover:border-accent-orange/60 hover:bg-accent-orange/5 hover:translate-y-[-2px] transition-all"
                   >
-                    <div className="font-bebas text-base md:text-lg tracking-widest text-white group-hover:text-accent-orange transition-colors leading-tight">
+                    <div className="font-bebas text-base md:text-lg tracking-widest text-white group-hover:text-accent-peach transition-colors leading-tight">
                       {genreName || c.title}
                     </div>
                   </Link>
@@ -607,18 +607,18 @@ export default function Home() {
           section: confirmed-next-date events first, annuals trailing.
           ───────────────────────────────────────────────────────── */}
       {upcomingEvents.length > 0 && (
-        <section id="events" className="cv-auto relative z-10 py-20 px-6 md:px-12 bg-dark-bg2/40">
+        <section id="events" className="cv-auto relative z-10 py-20 px-6 md:px-12">
           <div className="max-w-7xl mx-auto">
             <div className="mb-8 flex items-end justify-between gap-4 flex-wrap">
               <div>
-                <h2 className="font-bebas text-4xl md:text-5xl tracking-wider text-white mb-2">
+                <h2 className="font-bebas text-4xl md:text-5xl tracking-wider text-[#F4E5A8] mb-2">
                   {t('events.title')}
                 </h2>
                 <div className="w-20 h-1 bg-gradient-to-r from-accent-red via-accent-orange to-transparent" />
               </div>
               <Link
                 href="/events"
-                className="inline-block font-bebas text-sm tracking-widest px-5 py-2.5 border border-accent-orange/30 text-accent-orange hover:bg-accent-orange/10 transition-all rounded"
+                className="inline-block font-bebas text-sm tracking-widest px-5 py-2.5 border border-accent-orange/30 text-accent-peach hover:bg-accent-orange/10 transition-all rounded"
               >
                 🎉 {t('home.sections.events')} →
               </Link>
@@ -638,13 +638,13 @@ export default function Home() {
                     key={e.slug}
                     href={`/events/${e.slug}`}
                     prefetch={false}
-                    className="group block bg-dark-bg2/70 border border-[rgba(212,175,55,0.25)] rounded-sm p-5 hover:border-accent-orange/50 hover:translate-y-[-2px] hover:shadow-lg transition-all"
+                    className="group block bg-white/[0.08] border border-[rgba(212,175,55,0.3)] rounded-sm p-5 hover:border-accent-orange/50 hover:translate-y-[-2px] hover:shadow-lg transition-all"
                   >
-                    <div className="font-bebas text-lg md:text-xl tracking-widest text-white mb-1 truncate group-hover:text-accent-orange transition-colors">
+                    <div className="font-bebas text-lg md:text-xl tracking-widest text-white mb-1 truncate group-hover:text-accent-peach transition-colors">
                       {e.name}
                     </div>
                     {dateLine && (
-                      <div className="text-accent-orange text-xs tracking-widest mb-2">{dateLine}</div>
+                      <div className="text-accent-peach text-xs tracking-widest mb-2">{dateLine}</div>
                     )}
                     {e.venue?.name && (
                       <div className="text-xs text-text-muted truncate">📍 {e.venue.name}</div>
@@ -669,14 +669,14 @@ export default function Home() {
           <div className="max-w-7xl mx-auto">
             <div className="mb-8 flex items-end justify-between gap-4 flex-wrap">
               <div>
-                <h2 className="font-bebas text-4xl md:text-5xl tracking-wider text-white mb-2">
+                <h2 className="font-bebas text-4xl md:text-5xl tracking-wider text-[#F4E5A8] mb-2">
                   {isJA ? '用語集から' : 'From the Glossary'}
                 </h2>
                 <div className="w-20 h-1 bg-gradient-to-r from-accent-red via-accent-orange to-transparent" />
               </div>
               <Link
                 href="/glossary"
-                className="inline-block font-bebas text-sm tracking-widest px-5 py-2.5 border border-accent-orange/30 text-accent-orange hover:bg-accent-orange/10 transition-all rounded"
+                className="inline-block font-bebas text-sm tracking-widest px-5 py-2.5 border border-accent-orange/30 text-accent-peach hover:bg-accent-orange/10 transition-all rounded"
               >
                 📖 {isJA ? '用語集全体を見る' : 'Browse the glossary'} →
               </Link>
@@ -690,15 +690,15 @@ export default function Home() {
                     key={g.slug}
                     href={`/glossary/${g.slug}`}
                     prefetch={false}
-                    className="group bg-dark-bg2/60 border border-[rgba(212,175,55,0.25)] rounded-sm p-4 hover:border-accent-orange/50 hover:translate-y-[-2px] transition-all"
+                    className="group bg-white/[0.08] border border-[rgba(212,175,55,0.3)] rounded-sm p-4 hover:border-accent-orange/50 hover:translate-y-[-2px] transition-all"
                   >
-                    <div className="font-bebas text-[10px] tracking-widest text-accent-orange/80 mb-1 uppercase">
+                    <div className="font-bebas text-[10px] tracking-widest text-accent-peach mb-1 uppercase">
                       {g.category}
                     </div>
-                    <div className="font-bebas text-lg tracking-widest text-white mb-2 group-hover:text-accent-orange transition-colors">
+                    <div className="font-bebas text-lg tracking-widest text-white mb-2 group-hover:text-accent-peach transition-colors">
                       {term}
                     </div>
-                    <p className="text-xs text-text-light/80 leading-relaxed line-clamp-3">
+                    <p className="text-xs text-text-light leading-relaxed line-clamp-3">
                       {short}
                     </p>
                   </Link>
@@ -715,10 +715,10 @@ export default function Home() {
           dedicate sections to. Keeps those areas discoverable from
           the home without dedicating full vertical space to each.
           ───────────────────────────────────────────────────────── */}
-      <section id="discover" className="cv-auto relative z-10 py-16 px-6 md:px-12 bg-dark-bg2/50">
+      <section id="discover" className="cv-auto relative z-10 py-16 px-6 md:px-12">
         <div className="max-w-5xl mx-auto">
           <div className="mb-6 text-center">
-            <h2 className="font-bebas text-3xl md:text-4xl tracking-wider text-white mb-2">
+            <h2 className="font-bebas text-3xl md:text-4xl tracking-wider text-[#F4E5A8] mb-2">
               {isJA ? 'もっと探す' : 'Discover More'}
             </h2>
             <div className="w-16 h-1 bg-gradient-to-r from-accent-red via-accent-orange to-transparent mx-auto" />
@@ -726,10 +726,10 @@ export default function Home() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             <Link
               href="/labels"
-              className="group bg-dark-bg2/70 border border-[rgba(212,175,55,0.25)] rounded-sm p-5 text-center hover:border-accent-orange/50 hover:translate-y-[-2px] transition-all"
+              className="group bg-white/[0.08] border border-[rgba(212,175,55,0.3)] rounded-sm p-5 text-center hover:border-accent-orange/50 hover:translate-y-[-2px] transition-all"
             >
               <div className="text-3xl mb-2">💿</div>
-              <div className="font-bebas text-base tracking-widest text-white group-hover:text-accent-orange transition-colors">
+              <div className="font-bebas text-base tracking-widest text-white group-hover:text-accent-peach transition-colors">
                 {labels.length} {isJA ? 'レーベル' : 'Labels'}
               </div>
               <div className="text-xs text-text-muted mt-1">
@@ -738,10 +738,10 @@ export default function Home() {
             </Link>
             <Link
               href="/radio"
-              className="group bg-dark-bg2/70 border border-[rgba(212,175,55,0.25)] rounded-sm p-5 text-center hover:border-accent-orange/50 hover:translate-y-[-2px] transition-all"
+              className="group bg-white/[0.08] border border-[rgba(212,175,55,0.3)] rounded-sm p-5 text-center hover:border-accent-orange/50 hover:translate-y-[-2px] transition-all"
             >
               <div className="text-3xl mb-2">📻</div>
-              <div className="font-bebas text-base tracking-widest text-white group-hover:text-accent-orange transition-colors">
+              <div className="font-bebas text-base tracking-widest text-white group-hover:text-accent-peach transition-colors">
                 {isJA ? 'ラジオ番組' : 'Radio Shows'}
               </div>
               <div className="text-xs text-text-muted mt-1">
@@ -782,20 +782,20 @@ export default function Home() {
         </svg>
 
         <div className="relative max-w-3xl mx-auto text-center">
-          <span className="inline-block text-xs tracking-widest text-accent-orange font-bebas mb-3 px-2 py-1 rounded border border-accent-orange/30 bg-accent-orange/5">
+          <span className="inline-block text-xs tracking-widest text-accent-peach font-bebas mb-3 px-2 py-1 rounded border border-accent-orange/30 bg-accent-orange/5">
             1988 — 2026
           </span>
-          <h2 className="font-bebas text-3xl md:text-5xl tracking-wider text-white mb-3 leading-tight">
+          <h2 className="font-bebas text-3xl md:text-5xl tracking-wider text-[#F4E5A8] mb-3 leading-tight">
             EXPLORE TRANCE HISTORY
           </h2>
-          <p className="text-text-light/80 text-base md:text-lg leading-relaxed mb-6">
+          <p className="text-text-light text-base md:text-lg leading-relaxed mb-6">
             {isJA
               ? '5つの時代、30の決定的瞬間 ― フランクフルトのクラブとゴア・シーンから、ASOT、Anjuna帝国、ラスベガス・スフィアでのAnymaまで。'
               : 'Five eras, thirty defining moments — from Frankfurt clubs and the Goa scene to ASOT, the Anjuna empire, and Anyma at the Las Vegas Sphere.'}
           </p>
           <Link
             href="/timeline"
-            className="inline-block font-bebas text-base tracking-widest px-7 py-3 border border-accent-orange bg-accent-orange/15 text-accent-orange hover:bg-accent-orange/25 hover:shadow-lg transition-all rounded"
+            className="inline-block font-bebas text-base tracking-widest px-7 py-3 border border-accent-orange bg-accent-orange/15 text-accent-peach hover:bg-accent-orange/25 hover:shadow-lg transition-all rounded"
           >
             🔥 {isJA ? 'タイムラインを開く' : 'OPEN THE TIMELINE'} →
           </Link>

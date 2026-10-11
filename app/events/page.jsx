@@ -135,11 +135,11 @@ export default function EventsPage() {
             <div className="mb-4">
               <Breadcrumb items={EVENTS_BREADCRUMB} />
             </div>
-            <h1 className="font-bebas text-5xl tracking-wider text-white mb-2">
+            <h1 className="font-bebas text-5xl tracking-wider text-[#F4E5A8] mb-2">
               {isJA ? 'イベント・カレンダー' : 'Events Calendar'}
             </h1>
             <div className="w-20 h-1 bg-gradient-to-r from-accent-red via-accent-orange to-transparent mb-3" />
-            <p className="text-text-light/80 text-sm font-barlow max-w-2xl">
+            <p className="text-text-light text-sm font-barlow max-w-2xl">
               {isJA
                 ? 'トランス・イベントの世界カタログ——フェスティバル、レーベル・ナイト、マイルストーン・ショー。'
                 : 'A worldwide catalogue of trance events — festivals, label nights, and milestone shows.'}
@@ -154,8 +154,8 @@ export default function EventsPage() {
                 onClick={() => setTab(tg.id)}
                 className={`font-bebas text-xs tracking-widest px-4 py-2 rounded transition-all ${
                   tab === tg.id
-                    ? 'bg-accent-orange/20 border border-accent-orange text-accent-orange'
-                    : 'bg-transparent border border-[rgba(212,175,55,0.25)] text-text-muted hover:border-accent-orange hover:text-accent-orange'
+                    ? 'bg-accent-orange/20 border border-accent-orange text-accent-peach'
+                    : 'bg-transparent border border-[rgba(212,175,55,0.3)] text-text-muted hover:border-accent-orange hover:text-accent-peach'
                 }`}
               >
                 {isJA ? tg.ja : tg.en}
@@ -171,13 +171,13 @@ export default function EventsPage() {
 
           {/* Filter row */}
           <div className="mb-6 flex gap-3 flex-wrap items-center">
-            <div className="flex border border-[rgba(212,175,55,0.25)] rounded overflow-hidden">
+            <div className="flex border border-[rgba(212,175,55,0.3)] rounded overflow-hidden">
               <input
                 type="text"
                 value={search}
                 onChange={(e) => setSearch(e.target.value)}
                 placeholder={isJA ? 'イベントを検索...' : 'Search events...'}
-                className="flex-1 bg-dark-bg2/80 border-none px-4 py-2 text-text-light font-barlow text-sm placeholder-text-muted outline-none min-w-[180px]"
+                className="flex-1 bg-white/[0.08] border-none px-4 py-2 text-text-light font-barlow text-sm placeholder-text-muted outline-none min-w-[180px]"
               />
               <span className="bg-accent-orange text-black px-4 py-2 font-bebas text-sm tracking-widest">
                 {filtered.length}
@@ -187,7 +187,7 @@ export default function EventsPage() {
             <select
               value={region}
               onChange={(e) => setRegion(e.target.value)}
-              className="bg-dark-bg2/80 border border-[rgba(212,175,55,0.25)] rounded px-3 py-2 text-text-light font-bebas text-xs tracking-widest"
+              className="bg-white/[0.08] border border-[rgba(212,175,55,0.3)] rounded px-3 py-2 text-text-light font-bebas text-xs tracking-widest"
             >
               {REGIONS.map((r) => (
                 <option key={r.id} value={r.id}>{isJA ? r.ja : r.en}</option>
@@ -197,7 +197,7 @@ export default function EventsPage() {
             <select
               value={genre}
               onChange={(e) => setGenre(e.target.value)}
-              className="bg-dark-bg2/80 border border-[rgba(212,175,55,0.25)] rounded px-3 py-2 text-text-light font-bebas text-xs tracking-widest"
+              className="bg-white/[0.08] border border-[rgba(212,175,55,0.3)] rounded px-3 py-2 text-text-light font-bebas text-xs tracking-widest"
             >
               {allGenres.map((g) => (
                 <option key={g} value={g}>{g.replace(/-/g, ' ').toUpperCase()}</option>
@@ -207,7 +207,7 @@ export default function EventsPage() {
             <select
               value={month}
               onChange={(e) => setMonth(e.target.value)}
-              className="bg-dark-bg2/80 border border-[rgba(212,175,55,0.25)] rounded px-3 py-2 text-text-light font-bebas text-xs tracking-widest"
+              className="bg-white/[0.08] border border-[rgba(212,175,55,0.3)] rounded px-3 py-2 text-text-light font-bebas text-xs tracking-widest"
             >
               {MONTHS.map((m) => (
                 <option key={m} value={m}>{m === 'All' ? (isJA ? 'すべての月' : 'ALL MONTHS') : m.toUpperCase()}</option>
@@ -225,10 +225,10 @@ export default function EventsPage() {
           {grouped.map(([groupKey, items]) => (
             <section key={groupKey} className="mb-10">
               <div className="flex items-center gap-3 mb-4">
-                <div className="font-bebas text-xl tracking-widest text-accent-orange">
+                <div className="font-bebas text-xl tracking-widest text-accent-peach">
                   {groupKey}
                 </div>
-                <div className="flex-1 h-px bg-[rgba(212,175,55,0.25)]" />
+                <div className="flex-1 h-px bg-[rgba(212,175,55,0.3)]" />
                 <div className="text-xs text-text-muted font-bebas tracking-widest">
                   {items.length}
                 </div>

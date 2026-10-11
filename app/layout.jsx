@@ -108,8 +108,8 @@ export const viewport = {
   width: 'device-width',
   initialScale: 1,
   themeColor: [
-    { media: '(prefers-color-scheme: dark)',  color: '#0E4D6E' },
-    { media: '(prefers-color-scheme: light)', color: '#0E4D6E' },
+    { media: '(prefers-color-scheme: dark)',  color: '#245A88' },
+    { media: '(prefers-color-scheme: light)', color: '#245A88' },
   ],
 };
 
@@ -180,7 +180,7 @@ export default function RootLayout({ children }) {
           strategy="lazyOnload"
         />
       </head>
-      <body className="bg-dark-bg text-text-light">
+      <body className="text-text-light">
         <a href="#main" className="skip-link">Skip to content</a>
         <LanguageProvider>
           <div id="main" tabIndex={-1}>

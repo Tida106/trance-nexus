@@ -27,11 +27,11 @@ export default function CategoryIndexPage() {
             <div className="mb-4">
               <Breadcrumb items={BREADCRUMB} />
             </div>
-            <h1 className="font-bebas text-5xl tracking-wider text-white mb-2">
+            <h1 className="font-bebas text-5xl tracking-wider text-[#F4E5A8] mb-2">
               {isJA ? '記事カテゴリ' : 'Article Categories'}
             </h1>
             <div className="w-20 h-1 bg-gradient-to-r from-accent-red via-accent-orange to-transparent mb-3" />
-            <p className="text-text-light/80 text-sm font-barlow max-w-2xl">
+            <p className="text-text-light text-sm font-barlow max-w-2xl">
               {isJA
                 ? `TRANCE NEXUS のブログ記事はテーマごとに${categories.length}のカテゴリに分類されています。興味のあるテーマからお探しください。`
                 : `TRANCE NEXUS blog articles are organised into ${categories.length} thematic categories. Browse by what interests you most.`}
@@ -43,16 +43,16 @@ export default function CategoryIndexPage() {
               <Link
                 key={cat.id}
                 href={`/category/${cat.id}`}
-                className="group bg-dark-bg2/80 border border-[rgba(212,175,55,0.25)] rounded-sm p-6 hover:border-accent-orange/50 hover:translate-y-[-3px] hover:shadow-lg transition-all"
+                className="group bg-white/[0.08] border border-[rgba(212,175,55,0.3)] rounded-sm p-6 hover:border-accent-orange/50 hover:translate-y-[-3px] hover:shadow-lg transition-all"
               >
                 <div className="flex items-start gap-4">
                   <div className="text-4xl shrink-0">{cat.emoji}</div>
                   <div className="flex-1 min-w-0">
                     <div className="flex items-baseline justify-between gap-3 mb-2">
-                      <h2 className="font-bebas text-xl tracking-widest text-white group-hover:text-accent-orange transition-colors">
+                      <h2 className="font-bebas text-xl tracking-widest text-[#F4E5A8] group-hover:text-accent-peach transition-colors">
                         {isJA ? cat.name.ja : cat.name.en}
                       </h2>
-                      <span className="text-xs tracking-widest text-accent-orange font-bebas shrink-0">
+                      <span className="text-xs tracking-widest text-accent-peach font-bebas shrink-0">
                         {counts[cat.id]}{' '}
                         {counts[cat.id] === 1
                           ? isJA
@@ -66,7 +66,7 @@ export default function CategoryIndexPage() {
                     <div className="text-xs tracking-widest text-text-muted mb-3">
                       {isJA ? cat.name.en : cat.name.ja}
                     </div>
-                    <p className="text-sm text-text-light/80 leading-relaxed font-barlow">
+                    <p className="text-sm text-text-light leading-relaxed font-barlow">
                       {isJA ? cat.description.ja : cat.description.en}
                     </p>
                   </div>

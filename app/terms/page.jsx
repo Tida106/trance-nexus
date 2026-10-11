@@ -16,9 +16,9 @@ const LAST_UPDATED = '2026-05-05';
 
 function TermsEN() {
   return (
-    <div className="space-y-8 text-text-light/90 text-sm leading-relaxed font-barlow">
+    <div className="space-y-8 text-text-light text-sm leading-relaxed font-barlow">
       <section>
-        <h2 className="font-bebas text-xl tracking-widest text-accent-orange mb-3">1. Introduction</h2>
+        <h2 className="font-bebas text-xl tracking-widest text-[#F4E5A8] mb-3">1. Introduction</h2>
         <p>
           These Terms of Service (&ldquo;Terms&rdquo;) govern your access to and use of TRANCE NEXUS
           (the &ldquo;Site&rdquo;), a fan-made trance music information portal operated independently
@@ -28,7 +28,7 @@ function TermsEN() {
       </section>
 
       <section>
-        <h2 className="font-bebas text-xl tracking-widest text-accent-orange mb-3">2. Nature of the Site</h2>
+        <h2 className="font-bebas text-xl tracking-widest text-[#F4E5A8] mb-3">2. Nature of the Site</h2>
         <p>
           TRANCE NEXUS is a non-commercial, fan-operated information portal. It is not affiliated
           with any artist, record label, festival promoter, radio station, or other entity referenced
@@ -38,7 +38,7 @@ function TermsEN() {
       </section>
 
       <section>
-        <h2 className="font-bebas text-xl tracking-widest text-accent-orange mb-3">3. Use of the Site</h2>
+        <h2 className="font-bebas text-xl tracking-widest text-[#F4E5A8] mb-3">3. Use of the Site</h2>
         <p className="mb-2">
           You may access and read the Site for personal, non-commercial use. You agree not to:
         </p>
@@ -53,7 +53,7 @@ function TermsEN() {
       </section>
 
       <section>
-        <h2 className="font-bebas text-xl tracking-widest text-accent-orange mb-3">4. Intellectual Property</h2>
+        <h2 className="font-bebas text-xl tracking-widest text-[#F4E5A8] mb-3">4. Intellectual Property</h2>
         <p className="mb-2">
           The editorial text, layout, design, original artwork, and source code of the Site are the
           property of TRANCE NEXUS and protected by applicable copyright laws. You may quote short
@@ -67,17 +67,17 @@ function TermsEN() {
       </section>
 
       <section>
-        <h2 className="font-bebas text-xl tracking-widest text-accent-orange mb-3">5. Affiliate Links</h2>
+        <h2 className="font-bebas text-xl tracking-widest text-[#F4E5A8] mb-3">5. Affiliate Links</h2>
         <p>
           The Site participates in affiliate programmes (including Impact for Beatport and Awin for
           Resident Advisor) and may earn a commission when you click certain links and complete a
           qualifying purchase or signup. Affiliate participation does not influence editorial
           coverage. See our{' '}
-          <Link href="/privacy" className="text-accent-orange hover:underline">
+          <Link href="/privacy" className="text-accent-peach hover:underline">
             Privacy Policy
           </Link>{' '}
           and{' '}
-          <Link href="/about" className="text-accent-orange hover:underline">
+          <Link href="/about" className="text-accent-peach hover:underline">
             About page
           </Link>{' '}
           for full disclosure.
@@ -85,7 +85,7 @@ function TermsEN() {
       </section>
 
       <section>
-        <h2 className="font-bebas text-xl tracking-widest text-accent-orange mb-3">6. Third-Party Services & Links</h2>
+        <h2 className="font-bebas text-xl tracking-widest text-[#F4E5A8] mb-3">6. Third-Party Services & Links</h2>
         <p>
           The Site links to and embeds content from third-party services including Beatport, Resident
           Advisor, Spotify, Apple Music, SoundCloud, YouTube, 1001Tracklists, Google AdSense, and
@@ -104,7 +104,7 @@ function TermsEN() {
       </section>
 
       <section>
-        <h2 className="font-bebas text-xl tracking-widest text-accent-orange mb-3">7. Accuracy & No Warranties</h2>
+        <h2 className="font-bebas text-xl tracking-widest text-[#F4E5A8] mb-3">7. Accuracy & No Warranties</h2>
         <p>
           The Site&apos;s information is provided &ldquo;as is&rdquo; for general informational
           purposes. While we make reasonable efforts to keep schedules, tracklists, releases, and
@@ -116,7 +116,7 @@ function TermsEN() {
       </section>
 
       <section>
-        <h2 className="font-bebas text-xl tracking-widest text-accent-orange mb-3">8. Limitation of Liability</h2>
+        <h2 className="font-bebas text-xl tracking-widest text-[#F4E5A8] mb-3">8. Limitation of Liability</h2>
         <p>
           To the fullest extent permitted by law, TRANCE NEXUS and its operator shall not be liable
           for any direct, indirect, incidental, consequential, or special damages arising from your
@@ -127,11 +127,11 @@ function TermsEN() {
       </section>
 
       <section>
-        <h2 className="font-bebas text-xl tracking-widest text-accent-orange mb-3">9. Removal Requests</h2>
+        <h2 className="font-bebas text-xl tracking-widest text-[#F4E5A8] mb-3">9. Removal Requests</h2>
         <p>
           If you are an artist, label, or rights holder and believe content on the Site infringes
           your rights, or you would prefer not to be listed, please contact us at{' '}
-          <a href={`mailto:${CONTACT_EMAIL}`} className="text-accent-orange hover:underline">
+          <a href={`mailto:${CONTACT_EMAIL}`} className="text-accent-peach hover:underline">
             {CONTACT_EMAIL}
           </a>{' '}
           and we will review and respond promptly.
@@ -139,7 +139,7 @@ function TermsEN() {
       </section>
 
       <section>
-        <h2 className="font-bebas text-xl tracking-widest text-accent-orange mb-3">10. Changes to These Terms</h2>
+        <h2 className="font-bebas text-xl tracking-widest text-[#F4E5A8] mb-3">10. Changes to These Terms</h2>
         <p>
           We may update these Terms from time to time. Material changes will be reflected by an
           updated revision date at the top of this page. Continued use of the Site after such
@@ -148,7 +148,7 @@ function TermsEN() {
       </section>
 
       <section>
-        <h2 className="font-bebas text-xl tracking-widest text-accent-orange mb-3">11. Governing Law</h2>
+        <h2 className="font-bebas text-xl tracking-widest text-[#F4E5A8] mb-3">11. Governing Law</h2>
         <p>
           These Terms are governed by and construed in accordance with the laws of Japan. Any
           disputes arising out of or in connection with these Terms shall be subject to the exclusive
@@ -157,10 +157,10 @@ function TermsEN() {
       </section>
 
       <section>
-        <h2 className="font-bebas text-xl tracking-widest text-accent-orange mb-3">12. Contact</h2>
+        <h2 className="font-bebas text-xl tracking-widest text-[#F4E5A8] mb-3">12. Contact</h2>
         <p>
           For any questions regarding these Terms, please contact us at:{' '}
-          <a href={`mailto:${CONTACT_EMAIL}`} className="text-accent-orange hover:underline">
+          <a href={`mailto:${CONTACT_EMAIL}`} className="text-accent-peach hover:underline">
             {CONTACT_EMAIL}
           </a>
         </p>
@@ -171,23 +171,23 @@ function TermsEN() {
 
 function TermsJA() {
   return (
-    <div className="space-y-8 text-text-light/90 text-sm leading-relaxed font-barlow">
+    <div className="space-y-8 text-text-light text-sm leading-relaxed font-barlow">
       <section>
-        <h2 className="font-bebas text-xl tracking-widest text-accent-orange mb-3">1. はじめに</h2>
+        <h2 className="font-bebas text-xl tracking-widest text-[#F4E5A8] mb-3">1. はじめに</h2>
         <p>
           本利用規約（以下「本規約」）は、日本から独立して運営されるファンメイドのトランスミュージック情報ポータル「TRANCE NEXUS」（以下「当サイト」）へのアクセスおよび利用に適用されます。当サイトを利用された時点で、本規約に同意いただいたものとみなします。同意いただけない場合は、当サイトの利用をお控えください。
         </p>
       </section>
 
       <section>
-        <h2 className="font-bebas text-xl tracking-widest text-accent-orange mb-3">2. サイトの性質</h2>
+        <h2 className="font-bebas text-xl tracking-widest text-[#F4E5A8] mb-3">2. サイトの性質</h2>
         <p>
           TRANCE NEXUSは非商業的な、ファンによって運営される情報ポータルです。当サイトに掲載される一切のアーティスト、レーベル、フェス主催者、ラジオ局、その他の組織と提携関係はありません。アーティスト、レーベル、イベント、ラジオ番組、トラックリストの情報は、教育・編集目的で収集・キュレーションされたものです。
         </p>
       </section>
 
       <section>
-        <h2 className="font-bebas text-xl tracking-widest text-accent-orange mb-3">3. 利用条件</h2>
+        <h2 className="font-bebas text-xl tracking-widest text-[#F4E5A8] mb-3">3. 利用条件</h2>
         <p className="mb-2">
           当サイトは個人的・非商業的な閲覧目的に限り利用できます。利用者は以下の行為を行わないものとします：
         </p>
@@ -200,7 +200,7 @@ function TermsJA() {
       </section>
 
       <section>
-        <h2 className="font-bebas text-xl tracking-widest text-accent-orange mb-3">4. 知的財産権</h2>
+        <h2 className="font-bebas text-xl tracking-widest text-[#F4E5A8] mb-3">4. 知的財産権</h2>
         <p className="mb-2">
           当サイトの編集テキスト、レイアウト、デザイン、オリジナル・アートワーク、ソースコードはTRANCE NEXUSに帰属し、適用される著作権法により保護されます。編集コンテンツを引用される場合は、出典明記と当サイトへのリンクを伴って短い抜粋に限り認められます。
         </p>
@@ -210,14 +210,14 @@ function TermsJA() {
       </section>
 
       <section>
-        <h2 className="font-bebas text-xl tracking-widest text-accent-orange mb-3">5. アフィリエイトリンク</h2>
+        <h2 className="font-bebas text-xl tracking-widest text-[#F4E5A8] mb-3">5. アフィリエイトリンク</h2>
         <p>
           当サイトはアフィリエイトプログラム（Beatport向けのImpact、Resident Advisor向けのAwin等）に参加しており、特定のリンクを経由して条件を満たすご購入・ご登録をいただいた場合に報酬を受け取ることがあります。アフィリエイト参加が編集内容に影響することはありません。詳細は
-          <Link href="/privacy" className="text-accent-orange hover:underline mx-1">
+          <Link href="/privacy" className="text-accent-peach hover:underline mx-1">
             プライバシーポリシー
           </Link>
           および
-          <Link href="/about" className="text-accent-orange hover:underline mx-1">
+          <Link href="/about" className="text-accent-peach hover:underline mx-1">
             運営者情報
           </Link>
           をご参照ください。
@@ -225,7 +225,7 @@ function TermsJA() {
       </section>
 
       <section>
-        <h2 className="font-bebas text-xl tracking-widest text-accent-orange mb-3">6. 第三者サービス・リンク</h2>
+        <h2 className="font-bebas text-xl tracking-widest text-[#F4E5A8] mb-3">6. 第三者サービス・リンク</h2>
         <p>
           当サイトはBeatport、Resident Advisor、Spotify、Apple Music、SoundCloud、YouTube、1001Tracklists、Google AdSense、Google Analyticsなど第三者サービスへのリンクおよびそれらのコンテンツの埋め込みを行います。第三者サイト・サービスのコンテンツ、可用性、正確性、運用について当サイトは一切の責任を負いません。利用者によるそれらの利用は、各サービスの規約に従います。
         </p>
@@ -235,24 +235,24 @@ function TermsJA() {
       </section>
 
       <section>
-        <h2 className="font-bebas text-xl tracking-widest text-accent-orange mb-3">7. 情報の正確性・無保証</h2>
+        <h2 className="font-bebas text-xl tracking-widest text-[#F4E5A8] mb-3">7. 情報の正確性・無保証</h2>
         <p>
           当サイトの情報は一般的な情報提供を目的として「現状有姿」で提供されます。スケジュール、トラックリスト、リリース、アーティスト情報を可能な限り正確かつ最新に保つよう合理的な努力を払いますが、完全性、適時性、信頼性について保証するものではありません。イベントの日程、チケット価格、ラジオ番組の放送時刻などは予告なく変更される場合があります。時間に依存する情報については、行動を起こす前に必ず公式情報源をご確認ください。
         </p>
       </section>
 
       <section>
-        <h2 className="font-bebas text-xl tracking-widest text-accent-orange mb-3">8. 免責・責任の制限</h2>
+        <h2 className="font-bebas text-xl tracking-widest text-[#F4E5A8] mb-3">8. 免責・責任の制限</h2>
         <p>
           法令により認められる最大限の範囲で、TRANCE NEXUSおよび運営者は、当サイトの利用または利用不能から生じるいかなる直接的・間接的・付随的・派生的・特別損害（イベント参加機会の損失、不正確なトラックリスト、機能しないアフィリエイトリンク、第三者サービスの障害に関するものを含むがこれに限らない）についても責任を負いません。
         </p>
       </section>
 
       <section>
-        <h2 className="font-bebas text-xl tracking-widest text-accent-orange mb-3">9. 削除依頼</h2>
+        <h2 className="font-bebas text-xl tracking-widest text-[#F4E5A8] mb-3">9. 削除依頼</h2>
         <p>
           アーティスト、レーベル、または権利者の方で、当サイトのコンテンツが権利を侵害している、または掲載をご希望されない場合は、
-          <a href={`mailto:${CONTACT_EMAIL}`} className="text-accent-orange hover:underline mx-1">
+          <a href={`mailto:${CONTACT_EMAIL}`} className="text-accent-peach hover:underline mx-1">
             {CONTACT_EMAIL}
           </a>
           までご連絡ください。確認の上、速やかに対応いたします。
@@ -260,24 +260,24 @@ function TermsJA() {
       </section>
 
       <section>
-        <h2 className="font-bebas text-xl tracking-widest text-accent-orange mb-3">10. 規約の変更</h2>
+        <h2 className="font-bebas text-xl tracking-widest text-[#F4E5A8] mb-3">10. 規約の変更</h2>
         <p>
           本規約は随時更新されることがあります。重要な変更は、本ページ冒頭の更新日に反映されます。変更後も当サイトの利用を継続される場合、更新後の規約に同意いただいたものとみなします。
         </p>
       </section>
 
       <section>
-        <h2 className="font-bebas text-xl tracking-widest text-accent-orange mb-3">11. 準拠法・管轄</h2>
+        <h2 className="font-bebas text-xl tracking-widest text-[#F4E5A8] mb-3">11. 準拠法・管轄</h2>
         <p>
           本規約は日本法に準拠し、これに従って解釈されます。本規約に起因または関連して生じる一切の紛争については、日本の裁判所を専属的合意管轄とします。
         </p>
       </section>
 
       <section>
-        <h2 className="font-bebas text-xl tracking-widest text-accent-orange mb-3">12. お問い合わせ</h2>
+        <h2 className="font-bebas text-xl tracking-widest text-[#F4E5A8] mb-3">12. お問い合わせ</h2>
         <p>
           本規約に関するご質問は、以下のメールアドレスまでご連絡ください：{' '}
-          <a href={`mailto:${CONTACT_EMAIL}`} className="text-accent-orange hover:underline">
+          <a href={`mailto:${CONTACT_EMAIL}`} className="text-accent-peach hover:underline">
             {CONTACT_EMAIL}
           </a>
         </p>
@@ -299,7 +299,7 @@ export default function TermsPage() {
             <div className="mb-4">
               <Breadcrumb items={TERMS_BREADCRUMB} />
             </div>
-            <h1 className="font-bebas text-5xl tracking-wider text-white mb-2">
+            <h1 className="font-bebas text-5xl tracking-wider text-[#F4E5A8] mb-2">
               {isJA ? '利用規約' : 'Terms of Service'}
             </h1>
             <div className="w-20 h-1 bg-gradient-to-r from-accent-red via-accent-orange to-transparent mb-4" />

@@ -37,7 +37,7 @@ export default function Breadcrumb({ items }) {
               )}
               {isLast(i) ? (
                 <span
-                  className="text-text-light/80 truncate"
+                  className="text-text-light truncate"
                   aria-current="page"
                 >
                   {isJA ? item.label.ja : item.label.en}
@@ -45,7 +45,7 @@ export default function Breadcrumb({ items }) {
               ) : (
                 <Link
                   href={item.href}
-                  className="hover:text-accent-orange transition-colors whitespace-nowrap"
+                  className="hover:text-accent-peach transition-colors whitespace-nowrap"
                 >
                   {isJA ? item.label.ja : item.label.en}
                 </Link>

@@ -13,16 +13,18 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'dark-bg': '#0E4D6E',
-        'dark-bg2': '#12597D',
+        'dark-bg': '#2A6496',
+        'dark-bg2': '#2F74A0',
         'dark-bg3': '#0B4260',
-        'dark-header': '#0B4260',
+        'dark-header': '#245A88',
+        'dark-footer': '#5E4E9A',
+        'accent-peach': '#FFF1E0',
         'accent-orange': '#ff6a00',
         'accent-red': '#e5001c',
         'accent-amber': '#ffb400',
         'accent-fire': '#ff3c00',
-        'text-light': '#EAF4F7',
-        'text-muted': '#B9D3DC',
+        'text-light': '#FFFFFF',
+        'text-muted': '#F2F7FB',
       },
       fontFamily: {
         'bebas': ['var(--font-bebas)', 'Bebas Neue', 'sans-serif'],

@@ -16,9 +16,9 @@ const LAST_UPDATED = '2026-05-20';
 
 function AboutEN() {
   return (
-    <div className="space-y-8 text-text-light/90 text-sm leading-relaxed font-barlow">
+    <div className="space-y-8 text-text-light text-sm leading-relaxed font-barlow">
       <section>
-        <h2 className="font-bebas text-xl tracking-widest text-accent-orange mb-3">1. Our Mission</h2>
+        <h2 className="font-bebas text-xl tracking-widest text-[#F4E5A8] mb-3">1. Our Mission</h2>
         <p>
           TRANCE NEXUS exists to broadcast trance music culture to the world. From the euphoric
           uplifting anthems of A State of Trance to the cosmic frequencies of psytrance forests,
@@ -29,7 +29,7 @@ function AboutEN() {
       </section>
 
       <section>
-        <h2 className="font-bebas text-xl tracking-widest text-accent-orange mb-3">2. About</h2>
+        <h2 className="font-bebas text-xl tracking-widest text-[#F4E5A8] mb-3">2. About</h2>
         <p className="mb-2">
           TRANCE NEXUS is an independent portal documenting trance music&apos;s history and present.
         </p>
@@ -45,7 +45,7 @@ function AboutEN() {
       </section>
 
       <section>
-        <h2 className="font-bebas text-xl tracking-widest text-accent-orange mb-3">3. What We Cover</h2>
+        <h2 className="font-bebas text-xl tracking-widest text-[#F4E5A8] mb-3">3. What We Cover</h2>
         <ul className="list-disc list-inside space-y-1.5 ml-2">
           <li><strong className="text-text-light">Releases</strong> — new tracks, EPs, and album drops from the global trance scene</li>
           <li><strong className="text-text-light">Events</strong> — festivals, club nights, and trance-focused parties worldwide and in Japan</li>
@@ -57,7 +57,7 @@ function AboutEN() {
       </section>
 
       <section>
-        <h2 className="font-bebas text-xl tracking-widest text-accent-orange mb-3">4. Editorial Policy</h2>
+        <h2 className="font-bebas text-xl tracking-widest text-[#F4E5A8] mb-3">4. Editorial Policy</h2>
         <p className="mb-3">
           TRANCE NEXUS is committed to maintaining trust with our readers through the following principles:
         </p>
@@ -76,7 +76,7 @@ function AboutEN() {
             <strong className="text-text-light">Affiliate Disclosure</strong> — TRANCE NEXUS participates in affiliate programmes
             (Impact, Awin) and may earn a commission on qualifying purchases. Affiliate links are
             never promoted in a way that compromises editorial honesty. See our{' '}
-            <Link href="/privacy" className="text-accent-orange hover:underline">
+            <Link href="/privacy" className="text-accent-peach hover:underline">
               Privacy Policy
             </Link>{' '}
             for full details.
@@ -89,22 +89,22 @@ function AboutEN() {
       </section>
 
       <section>
-        <h2 className="font-bebas text-xl tracking-widest text-accent-orange mb-3">5. Contact</h2>
+        <h2 className="font-bebas text-xl tracking-widest text-[#F4E5A8] mb-3">5. Contact</h2>
         <p>
           For listing requests, corrections, partnership enquiries, or just to say hi — please use
           our{' '}
-          <Link href="/contact" className="text-accent-orange hover:underline">
+          <Link href="/contact" className="text-accent-peach hover:underline">
             Contact page
           </Link>{' '}
           or email us directly at{' '}
-          <a href={`mailto:${CONTACT_EMAIL}`} className="text-accent-orange hover:underline">
+          <a href={`mailto:${CONTACT_EMAIL}`} className="text-accent-peach hover:underline">
             {CONTACT_EMAIL}
           </a>.
         </p>
       </section>
 
       <section>
-        <h2 className="font-bebas text-xl tracking-widest text-accent-orange mb-3">6. About the Operator</h2>
+        <h2 className="font-bebas text-xl tracking-widest text-[#F4E5A8] mb-3">6. About the Operator</h2>
         <p>
           TRANCE NEXUS is independently operated by a single trance fan. It is not
           affiliated with any label, promoter, festival, or radio station. All editorial decisions,
@@ -119,9 +119,9 @@ function AboutEN() {
 
 function AboutJA() {
   return (
-    <div className="space-y-8 text-text-light/90 text-sm leading-relaxed font-barlow">
+    <div className="space-y-8 text-text-light text-sm leading-relaxed font-barlow">
       <section>
-        <h2 className="font-bebas text-xl tracking-widest text-accent-orange mb-3">1. ミッション</h2>
+        <h2 className="font-bebas text-xl tracking-widest text-[#F4E5A8] mb-3">1. ミッション</h2>
         <p>
           TRANCE NEXUS は、トランスミュージックカルチャーを世界に発信することを使命としています。
           A State of Trance の高揚感あふれるアンセムから、サイケデリック・トランスの宇宙的な周波数まで、
@@ -131,7 +131,7 @@ function AboutJA() {
       </section>
 
       <section>
-        <h2 className="font-bebas text-xl tracking-widest text-accent-orange mb-3">2. 運営について</h2>
+        <h2 className="font-bebas text-xl tracking-widest text-[#F4E5A8] mb-3">2. 運営について</h2>
         <p className="mb-2">
           TRANCE NEXUS は、トランスミュージックの歴史と現在を記録する独立ポータルサイトです。
         </p>
@@ -148,7 +148,7 @@ function AboutJA() {
       </section>
 
       <section>
-        <h2 className="font-bebas text-xl tracking-widest text-accent-orange mb-3">3. 取り扱うコンテンツ</h2>
+        <h2 className="font-bebas text-xl tracking-widest text-[#F4E5A8] mb-3">3. 取り扱うコンテンツ</h2>
         <ul className="list-disc list-inside space-y-1.5 ml-2">
           <li><strong className="text-text-light">リリース情報</strong> — 世界中のトランスシーンからの新譜・EP・アルバム情報</li>
           <li><strong className="text-text-light">イベント情報</strong> — フェス・クラブナイト・トランス特化型パーティー（海外・日本）</li>
@@ -161,7 +161,7 @@ function AboutJA() {
       </section>
 
       <section>
-        <h2 className="font-bebas text-xl tracking-widest text-accent-orange mb-3">4. 編集ポリシー</h2>
+        <h2 className="font-bebas text-xl tracking-widest text-[#F4E5A8] mb-3">4. 編集ポリシー</h2>
         <p className="mb-3">
           TRANCE NEXUS は、読者との信頼関係を保つために以下の方針を遵守しています：
         </p>
@@ -179,7 +179,7 @@ function AboutJA() {
             <strong className="text-text-light">アフィリエイト開示</strong> — TRANCE NEXUS はアフィリエイトプログラム（Impact, Awin）に参加しており、
             該当リンク経由でのご購入により報酬を受け取ることがあります。
             アフィリエイトリンクは、編集の誠実性を損なう形では掲載しません。詳細は
-            <Link href="/privacy" className="text-accent-orange hover:underline mx-1">
+            <Link href="/privacy" className="text-accent-peach hover:underline mx-1">
               プライバシーポリシー
             </Link>
             をご参照ください。
@@ -192,21 +192,21 @@ function AboutJA() {
       </section>
 
       <section>
-        <h2 className="font-bebas text-xl tracking-widest text-accent-orange mb-3">5. お問い合わせ</h2>
+        <h2 className="font-bebas text-xl tracking-widest text-[#F4E5A8] mb-3">5. お問い合わせ</h2>
         <p>
           掲載依頼・訂正依頼・パートナーシップのご相談など、お気軽に
-          <Link href="/contact" className="text-accent-orange hover:underline mx-1">
+          <Link href="/contact" className="text-accent-peach hover:underline mx-1">
             お問い合わせページ
           </Link>
           からご連絡ください。直接メールでも受け付けています：{' '}
-          <a href={`mailto:${CONTACT_EMAIL}`} className="text-accent-orange hover:underline">
+          <a href={`mailto:${CONTACT_EMAIL}`} className="text-accent-peach hover:underline">
             {CONTACT_EMAIL}
           </a>
         </p>
       </section>
 
       <section>
-        <h2 className="font-bebas text-xl tracking-widest text-accent-orange mb-3">6. 運営者について</h2>
+        <h2 className="font-bebas text-xl tracking-widest text-[#F4E5A8] mb-3">6. 運営者について</h2>
         <p>
           TRANCE NEXUS は、一人のトランスファンによって個人運営されています。
           特定のレーベル・プロモーター・フェス・ラジオ局とは一切提携していません。
@@ -257,7 +257,7 @@ export default function AboutPage() {
             <div className="mb-4">
               <Breadcrumb items={ABOUT_BREADCRUMB} />
             </div>
-            <h1 className="font-bebas text-5xl tracking-wider text-white mb-2">
+            <h1 className="font-bebas text-5xl tracking-wider text-[#F4E5A8] mb-2">
               {isJA ? '運営者情報' : 'About TRANCE NEXUS'}
             </h1>
             <div className="w-20 h-1 bg-gradient-to-r from-accent-red via-accent-orange to-transparent mb-4" />

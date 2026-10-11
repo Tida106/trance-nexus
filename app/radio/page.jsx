@@ -34,7 +34,7 @@ export default function RadioPage() {
       <main className="relative z-10 min-h-screen pt-[84px] pb-20 px-12">
         <div className="max-w-7xl mx-auto">
           <div className="py-12">
-            <h1 className="font-bebas text-5xl tracking-wider text-white mb-2">
+            <h1 className="font-bebas text-5xl tracking-wider text-[#F4E5A8] mb-2">
               {t('radio.title')}
             </h1>
             <div className="w-20 h-1 bg-gradient-to-r from-accent-red via-accent-orange to-transparent" />
@@ -45,18 +45,18 @@ export default function RadioPage() {
             <div className="absolute -right-20 -top-20 w-60 h-60 bg-gradient-radial from-accent-orange/20 to-transparent rounded-full pointer-events-none" />
             
             <div>
-              <div className="flex items-center gap-2 font-bebas text-xs tracking-widest text-accent-amber mb-3">
+              <div className="flex items-center gap-2 font-bebas text-xs tracking-widest text-accent-peach mb-3">
                 <span>★</span> {t('radio.featured')}
               </div>
-              <h2 className="font-bebas text-4xl tracking-widest text-white mb-2">
-                A State of <span className="text-accent-orange">Trance</span>
+              <h2 className="font-bebas text-4xl tracking-widest text-[#F4E5A8] mb-2">
+                A State of <span className="text-accent-peach">Trance</span>
               </h2>
-              <p className="text-text-light/90 text-sm leading-relaxed mb-4">
+              <p className="text-text-light text-sm leading-relaxed mb-4">
                 {t('radio.asotDesc')}
               </p>
               <div className="flex gap-2 flex-wrap mb-4">
-                {['border-accent-orange/30 bg-accent-orange/5 text-accent-orange',
-                  'border-accent-amber/30 bg-accent-amber/5 text-accent-amber',
+                {['border-accent-orange/30 bg-accent-orange/5 text-accent-peach',
+                  'border-accent-amber/30 bg-accent-amber/5 text-accent-peach',
                   'border-accent-red/30 bg-accent-red/5 text-accent-red',
                 ].map((cls, idx) => (
                   <span key={idx} className={`text-xs tracking-widest px-3 py-1 rounded border ${cls}`}>
@@ -68,7 +68,7 @@ export default function RadioPage() {
                 href="https://www.astateoftrance.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block font-bebas text-xs tracking-widest px-4 py-2 border border-accent-orange/30 text-accent-orange hover:bg-accent-orange/10 transition-all rounded"
+                className="inline-block font-bebas text-xs tracking-widest px-4 py-2 border border-accent-orange/30 text-accent-peach hover:bg-accent-orange/10 transition-all rounded"
               >
                 ▶ {t('radio.officialSite')}
               </a>
@@ -89,21 +89,21 @@ export default function RadioPage() {
           </div>
 
           {/* AdSense ad slot 2 */}
-          <div className="mb-8 p-4 bg-dark-bg2/50 border border-[rgba(212,175,55,0.25)] rounded text-center">
+          <div className="mb-8 p-4 bg-white/[0.08] border border-[rgba(212,175,55,0.3)] rounded text-center">
             <div id="ad-slot-2" className="min-h-[90px] flex items-center justify-center">
               <p className="text-text-muted text-sm">Advertisement</p>
             </div>
           </div>
 
           {/* Tabs */}
-          <div className="flex border-b border-[rgba(212,175,55,0.25)] mb-8">
+          <div className="flex border-b border-[rgba(212,175,55,0.3)] mb-8">
             {['all', 'weekly', 'biweekly', 'monthly'].map((tab) => (
               <button
                 key={tab}
                 onClick={() => setSelectedTab(tab)}
                 className={`font-bebas text-sm tracking-widest px-6 py-2 relative transition-colors ${
                   selectedTab === tab
-                    ? 'text-accent-orange'
+                    ? 'text-accent-peach'
                     : 'text-text-muted hover:text-text-light'
                 }`}
               >
@@ -144,14 +144,14 @@ export default function RadioPage() {
                 <div className="font-bebas text-xs tracking-widest text-accent-red mb-1">
                   {show.num}
                 </div>
-                <h3 className="font-bebas text-2xl tracking-widest text-white mb-1">
+                <h3 className="font-bebas text-2xl tracking-widest text-[#F4E5A8] mb-1">
                   {show.name}
                 </h3>
-                <div className="text-accent-orange text-sm tracking-widest mb-3">
+                <div className="text-accent-peach text-sm tracking-widest mb-3">
                   by {show.dj}
                 </div>
 
-                <div className="flex gap-3 flex-wrap text-xs text-text-light/90 mb-3">
+                <div className="flex gap-3 flex-wrap text-xs text-text-light mb-3">
                   <div>🎵 {show.genre}</div>
                   {show.listeners && (
                     <div>👥 {show.listeners} {t('radio.listeners')}</div>
@@ -159,18 +159,18 @@ export default function RadioPage() {
                   <div>📅 {t(`radio.tabs.${show.freq}`)}</div>
                 </div>
 
-                <p className="text-sm text-text-light/95 leading-relaxed mb-3">
+                <p className="text-sm text-text-light leading-relaxed mb-3">
                   {language === 'ja' ? show.descJa : show.descEn}
                 </p>
 
                 <div className="border-t border-white/5 pt-3 flex flex-col gap-1 text-xs">
                   {show.sched.map((s, j) => (
                     <div key={j} className="flex justify-between items-center gap-3">
-                      <span className="font-bebas text-accent-orange tracking-widest">{s.day}</span>
+                      <span className="font-bebas text-accent-peach tracking-widest">{s.day}</span>
                       {s.time && (
-                        <span className="text-text-light/80 font-mono">{s.time}</span>
+                        <span className="text-text-light font-mono">{s.time}</span>
                       )}
-                      <span className="text-text-light/85">
+                      <span className="text-text-light">
                         {language === 'ja' ? (s.epJa || s.ep) : (s.epEn || s.ep)}
                       </span>
                     </div>
