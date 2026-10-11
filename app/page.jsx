@@ -2,6 +2,7 @@
 
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
+import HeroStage from '@/components/HeroStage';
 import Link from 'next/link';
 import dynamic from 'next/dynamic';
 import { useTranslation } from '@/lib/useTranslation';
@@ -158,9 +159,9 @@ export default function Home() {
           ───────────────────────────────────────────────────────── */}
       <section
         id="top"
-        className="relative z-10 min-h-screen flex flex-col items-center justify-center text-center overflow-hidden pt-[84px] pb-28"
+        className="relative z-10 min-h-screen flex flex-col items-center justify-center text-center overflow-hidden pt-[84px] pb-36"
       >
-        <div className="absolute inset-0 bg-gradient-radial from-red-900/20 via-transparent to-transparent opacity-70 pointer-events-none" />
+        <HeroStage />
 
         <div className="relative z-10 px-6 md:px-10 w-full">
           <div className="font-bebas text-sm tracking-widest text-accent-peach mb-6 animate-in fade-in duration-700">
@@ -211,13 +212,6 @@ export default function Home() {
 
         </div>
 
-        <div
-          aria-hidden="true"
-          className="absolute bottom-10 left-1/2 -translate-x-1/2 z-10 flex flex-col items-center gap-2 text-white text-xs tracking-widest animate-bounce"
-        >
-          {t('home.scroll')}
-          <span className="text-lg text-accent-peach">▼</span>
-        </div>
       </section>
 
       {/* ─────────────────────────────────────────────────────────────
