@@ -279,7 +279,7 @@ export default function Home() {
                   key={post.slug}
                   href={`/blog/${post.slug}`}
                   prefetch={i < 3 ? undefined : false}
-                  className="group bg-white/[0.08] border border-[rgba(212,175,55,0.3)] rounded-sm overflow-hidden hover:border-accent-orange/50 hover:translate-y-[-4px] hover:shadow-xl transition-all block snap-start shrink-0 w-[80vw] sm:w-[60vw] md:w-auto"
+                  className="group bg-white/[0.05] border border-[rgba(212,175,55,0.3)] rounded-sm overflow-hidden hover:border-accent-orange/50 hover:translate-y-[-4px] hover:shadow-xl transition-all block snap-start shrink-0 w-[80vw] sm:w-[60vw] md:w-auto"
                 >
                   <div className="h-1.5 bg-gradient-to-r from-accent-red via-accent-orange to-accent-amber" />
                   <div className="p-5">
@@ -418,7 +418,7 @@ export default function Home() {
                     key={post.slug}
                     href={`/blog/${post.slug}`}
                     prefetch={false}
-                    className="group bg-white/[0.08] border border-[rgba(212,175,55,0.3)] rounded-sm overflow-hidden hover:border-accent-orange/50 hover:translate-y-[-3px] hover:shadow-lg transition-all block"
+                    className="group bg-white/[0.05] border border-[rgba(212,175,55,0.3)] rounded-sm overflow-hidden hover:border-accent-orange/50 hover:translate-y-[-3px] hover:shadow-lg transition-all block"
                   >
                     <div className="h-1 bg-gradient-to-r from-accent-amber to-accent-orange" />
                     <div className="p-4">
@@ -459,7 +459,7 @@ export default function Home() {
             </div>
             <Link
               href={`/blog/${editorsPick.slug}`}
-              className="group block text-left bg-white/[0.08] border border-accent-orange/40 hover:border-accent-orange rounded-sm p-5 md:p-8 transition-all hover:shadow-xl hover:shadow-accent-orange/10 hover:translate-y-[-2px]"
+              className="group block text-left bg-white/[0.05] border border-accent-orange/40 hover:border-accent-orange rounded-sm p-5 md:p-8 transition-all hover:shadow-xl hover:shadow-accent-orange/10 hover:translate-y-[-2px]"
             >
               <div className="flex items-baseline gap-3 mb-3 flex-wrap">
                 <span className="font-bebas text-[11px] tracking-widest px-2 py-0.5 rounded border border-accent-orange bg-accent-orange/15 text-accent-peach">
@@ -513,7 +513,7 @@ export default function Home() {
                     key={post.slug}
                     href={`/blog/${post.slug}`}
                     prefetch={featured ? undefined : false}
-                    className={`group bg-white/[0.08] border border-[rgba(212,175,55,0.3)] rounded-sm overflow-hidden hover:border-accent-orange/60 hover:translate-y-[-4px] hover:shadow-2xl hover:shadow-accent-orange/10 transition-all block ${featured ? 'md:col-span-2' : ''}`}
+                    className={`group bg-white/[0.05] border border-[rgba(212,175,55,0.3)] rounded-sm overflow-hidden hover:border-accent-orange/60 hover:translate-y-[-4px] hover:shadow-2xl hover:shadow-accent-orange/10 transition-all block ${featured ? 'md:col-span-2' : ''}`}
                   >
                     <div className="h-1.5 bg-gradient-to-r from-accent-red via-accent-orange to-accent-amber" />
                     <div className="p-5 md:p-6">
@@ -588,7 +588,7 @@ export default function Home() {
                     key={post.slug}
                     href={`/blog/${post.slug}`}
                     prefetch={false}
-                    className="group bg-white/[0.08] border border-[rgba(212,175,55,0.3)] rounded-sm p-4 text-center hover:border-accent-orange/60 hover:bg-accent-orange/5 hover:translate-y-[-2px] transition-all"
+                    className="group bg-white/[0.05] border border-[rgba(212,175,55,0.3)] rounded-sm p-4 text-center hover:border-accent-orange/60 hover:bg-accent-orange/5 hover:translate-y-[-2px] transition-all"
                   >
                     <div className="font-bebas text-base md:text-lg tracking-widest text-white group-hover:text-accent-peach transition-colors leading-tight">
                       {genreName || c.title}
@@ -638,7 +638,7 @@ export default function Home() {
                     key={e.slug}
                     href={`/events/${e.slug}`}
                     prefetch={false}
-                    className="group block bg-white/[0.08] border border-[rgba(212,175,55,0.3)] rounded-sm p-5 hover:border-accent-orange/50 hover:translate-y-[-2px] hover:shadow-lg transition-all"
+                    className="group block bg-white/[0.05] border border-[rgba(212,175,55,0.3)] rounded-sm p-5 hover:border-accent-orange/50 hover:translate-y-[-2px] hover:shadow-lg transition-all"
                   >
                     <div className="font-bebas text-lg md:text-xl tracking-widest text-white mb-1 truncate group-hover:text-accent-peach transition-colors">
                       {e.name}
@@ -690,7 +690,7 @@ export default function Home() {
                     key={g.slug}
                     href={`/glossary/${g.slug}`}
                     prefetch={false}
-                    className="group bg-white/[0.08] border border-[rgba(212,175,55,0.3)] rounded-sm p-4 hover:border-accent-orange/50 hover:translate-y-[-2px] transition-all"
+                    className="group bg-white/[0.05] border border-[rgba(212,175,55,0.3)] rounded-sm p-4 hover:border-accent-orange/50 hover:translate-y-[-2px] transition-all"
                   >
                     <div className="font-bebas text-[10px] tracking-widest text-accent-peach mb-1 uppercase">
                       {g.category}
@@ -726,7 +726,7 @@ export default function Home() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             <Link
               href="/labels"
-              className="group bg-white/[0.08] border border-[rgba(212,175,55,0.3)] rounded-sm p-5 text-center hover:border-accent-orange/50 hover:translate-y-[-2px] transition-all"
+              className="group bg-white/[0.05] border border-[rgba(212,175,55,0.3)] rounded-sm p-5 text-center hover:border-accent-orange/50 hover:translate-y-[-2px] transition-all"
             >
               <div className="text-3xl mb-2">💿</div>
               <div className="font-bebas text-base tracking-widest text-white group-hover:text-accent-peach transition-colors">
@@ -738,7 +738,7 @@ export default function Home() {
             </Link>
             <Link
               href="/radio"
-              className="group bg-white/[0.08] border border-[rgba(212,175,55,0.3)] rounded-sm p-5 text-center hover:border-accent-orange/50 hover:translate-y-[-2px] transition-all"
+              className="group bg-white/[0.05] border border-[rgba(212,175,55,0.3)] rounded-sm p-5 text-center hover:border-accent-orange/50 hover:translate-y-[-2px] transition-all"
             >
               <div className="text-3xl mb-2">📻</div>
               <div className="font-bebas text-base tracking-widest text-white group-hover:text-accent-peach transition-colors">

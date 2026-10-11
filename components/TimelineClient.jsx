@@ -290,7 +290,7 @@ function TimelineEvent({ event, isJA, accent, isOpen, onToggle, reducedMotion, i
         onClick={onToggle}
         aria-expanded={isOpen}
         aria-controls={`event-detail-${event.id}`}
-        className="w-full text-left bg-white/[0.08] border border-[rgba(212,175,55,0.3)] rounded-sm overflow-hidden hover:border-accent-orange/50 hover:shadow-lg transition-all focus:outline-none focus:border-accent-orange focus-visible:ring-2 focus-visible:ring-accent-orange/40"
+        className="w-full text-left bg-white/[0.05] border border-[rgba(212,175,55,0.3)] rounded-sm overflow-hidden hover:border-accent-orange/50 hover:shadow-lg transition-all focus:outline-none focus:border-accent-orange focus-visible:ring-2 focus-visible:ring-accent-orange/40"
       >
         <div className="px-4 py-3 flex items-baseline gap-3 border-b border-[rgba(212,175,55,0.3)]">
           <span
@@ -322,7 +322,7 @@ function TimelineEvent({ event, isJA, accent, isOpen, onToggle, reducedMotion, i
       {isOpen && (
         <div
           id={`event-detail-${event.id}`}
-          className="bg-white/[0.08] border-x border-b border-[rgba(212,175,55,0.3)] rounded-b-sm px-4 py-4 -mt-px"
+          className="bg-white/[0.05] border-x border-b border-[rgba(212,175,55,0.3)] rounded-b-sm px-4 py-4 -mt-px"
         >
           <p className="text-sm text-text-light leading-relaxed mb-4">
             {description}

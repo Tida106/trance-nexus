@@ -105,7 +105,7 @@ export default function SearchClient() {
             <div className="w-20 h-1 bg-gradient-to-r from-accent-red via-accent-orange to-transparent mb-6" />
 
             {/* Search input */}
-            <div className="flex items-center border gold-metallic-search rounded overflow-hidden mb-4 bg-white/[0.08]">
+            <div className="flex items-center border gold-metallic-search rounded overflow-hidden mb-4 bg-white/[0.05]">
               <span className="flex items-center px-4">
                 <SearchIcon className="w-6 h-6 shrink-0" />
               </span>
@@ -168,7 +168,7 @@ export default function SearchClient() {
 
           {/* Empty / placeholder states */}
           {!query.trim() && (
-            <div className="bg-white/[0.08] border border-[rgba(212,175,55,0.3)] rounded-sm p-8 text-center">
+            <div className="bg-white/[0.05] border border-[rgba(212,175,55,0.3)] rounded-sm p-8 text-center">
               <p className="text-text-light mb-4">
                 {isJA
                   ? '検索キーワードを入力してください。記事25本、アーティスト20名、レーベル20、用語集40を横断検索します。'
@@ -182,7 +182,7 @@ export default function SearchClient() {
           )}
 
           {!loading && query.trim() && results.length === 0 && (
-            <div className="bg-white/[0.08] border border-[rgba(212,175,55,0.3)] rounded-sm p-8">
+            <div className="bg-white/[0.05] border border-[rgba(212,175,55,0.3)] rounded-sm p-8">
               <p className="text-text-light mb-4">
                 {isJA
                   ? `「${query}」に該当する結果が見つかりませんでした。`
@@ -226,7 +226,7 @@ export default function SearchClient() {
                     key={r.id}
                     href={r.url}
                     role="listitem"
-                    className="group flex gap-4 bg-white/[0.08] border border-[rgba(212,175,55,0.3)] rounded-sm p-4 hover:border-accent-orange/50 hover:translate-y-[-2px] transition-all"
+                    className="group flex gap-4 bg-white/[0.05] border border-[rgba(212,175,55,0.3)] rounded-sm p-4 hover:border-accent-orange/50 hover:translate-y-[-2px] transition-all"
                   >
                     <div className="text-3xl shrink-0">{r.icon}</div>
                     <div className="flex-1 min-w-0">

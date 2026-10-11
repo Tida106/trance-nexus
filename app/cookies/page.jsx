@@ -44,7 +44,7 @@ const THIRD_PARTY = [
 
 function CookieTypeCard({ title, body }) {
   return (
-    <div className="bg-white/[0.08] border border-[rgba(212,175,55,0.3)] rounded-sm p-5">
+    <div className="bg-white/[0.05] border border-[rgba(212,175,55,0.3)] rounded-sm p-5">
       <h3 className="font-bebas text-base tracking-widest text-[#F4E5A8] mb-2">{title}</h3>
       <p className="text-text-light text-sm leading-relaxed">{body}</p>
     </div>
@@ -56,7 +56,7 @@ function ThirdPartyTable({ isJA }) {
     <div className="overflow-x-auto">
       <table className="w-full text-sm border border-[rgba(212,175,55,0.3)]">
         <thead>
-          <tr className="bg-white/[0.08] text-left">
+          <tr className="bg-white/[0.05] text-left">
             <th className="font-bebas text-xs tracking-widest text-accent-peach p-3 border-b border-[rgba(212,175,55,0.3)]">
               {isJA ? 'サービス' : 'Service'}
             </th>

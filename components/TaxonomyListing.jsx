@@ -18,7 +18,7 @@ function PostCard({ post, isJA }) {
   return (
     <Link
       href={`/blog/${post.slug}`}
-      className="group bg-white/[0.08] border border-[rgba(212,175,55,0.3)] rounded-sm overflow-hidden hover:border-accent-orange/50 hover:translate-y-[-3px] hover:shadow-lg transition-all block"
+      className="group bg-white/[0.05] border border-[rgba(212,175,55,0.3)] rounded-sm overflow-hidden hover:border-accent-orange/50 hover:translate-y-[-3px] hover:shadow-lg transition-all block"
     >
       <div className="h-1.5 bg-gradient-to-r from-accent-red via-accent-orange to-accent-amber" />
       <div className="p-5">

@@ -57,7 +57,7 @@ export default function GlossaryDetail({ term, related, artists, posts }) {
             <h2 className="font-bebas text-2xl tracking-widest text-[#F4E5A8] mb-4">
               {isJA ? '解説' : 'Definition'}
             </h2>
-            <div className="text-text-light text-base leading-loose font-barlow whitespace-pre-line bg-white/[0.08] border-l-2 border-accent-orange p-5">
+            <div className="text-text-light text-base leading-loose font-barlow whitespace-pre-line bg-white/[0.05] border-l-2 border-accent-orange p-5">
               {def}
             </div>
           </section>
@@ -91,7 +91,7 @@ export default function GlossaryDetail({ term, related, artists, posts }) {
                   <Link
                     key={a.slug}
                     href={`/artists/${a.slug}`}
-                    className="group flex items-center gap-3 bg-white/[0.08] border border-[rgba(212,175,55,0.3)] rounded-sm p-3 hover:border-accent-orange/50 transition-all"
+                    className="group flex items-center gap-3 bg-white/[0.05] border border-[rgba(212,175,55,0.3)] rounded-sm p-3 hover:border-accent-orange/50 transition-all"
                   >
                     <div className="text-2xl">{a.emoji}</div>
                     <div className="min-w-0">
@@ -118,7 +118,7 @@ export default function GlossaryDetail({ term, related, artists, posts }) {
                     <Link
                       key={p.slug}
                       href={`/blog/${p.slug}`}
-                      className="group block bg-white/[0.08] border border-[rgba(212,175,55,0.3)] rounded-sm overflow-hidden hover:border-accent-orange/50 transition-all"
+                      className="group block bg-white/[0.05] border border-[rgba(212,175,55,0.3)] rounded-sm overflow-hidden hover:border-accent-orange/50 transition-all"
                     >
                       <div className="h-1 bg-gradient-to-r from-accent-red via-accent-orange to-accent-amber" />
                       <div className="p-3">

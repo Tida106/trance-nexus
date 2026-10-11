@@ -172,7 +172,7 @@ export default function NewsletterForm({ variant = 'full', className = '' }) {
             placeholder={isJA ? 'your@email.com' : 'your@email.com'}
             disabled={status === 'submitting' || status === 'success'}
             aria-label={isJA ? 'メールアドレス' : 'Email address'}
-            className="flex-1 bg-white/[0.08] border border-[rgba(212,175,55,0.3)] rounded px-3 py-2 text-sm text-text-light placeholder-text-muted/50 focus:outline-none focus:border-accent-orange disabled:opacity-50"
+            className="flex-1 bg-white/[0.05] border border-[rgba(212,175,55,0.3)] rounded px-3 py-2 text-sm text-text-light placeholder-text-muted/50 focus:outline-none focus:border-accent-orange disabled:opacity-50"
           />
           {/* Honeypot — hidden from real users, attractive to dumb bots. */}
           <input
@@ -203,7 +203,7 @@ export default function NewsletterForm({ variant = 'full', className = '' }) {
   // Full / CTA variant.
   const wrapper =
     variant === 'cta'
-      ? 'bg-white/[0.08] border border-[rgba(212,175,55,0.3)] rounded-sm p-6 md:p-8'
+      ? 'bg-white/[0.05] border border-[rgba(212,175,55,0.3)] rounded-sm p-6 md:p-8'
       : '';
 
   return (
@@ -237,7 +237,7 @@ export default function NewsletterForm({ variant = 'full', className = '' }) {
             disabled={status === 'submitting' || status === 'success'}
             aria-required="true"
             aria-invalid={status === 'error'}
-            className="w-full bg-white/[0.08] border border-[rgba(212,175,55,0.3)] rounded px-3 py-2 text-sm text-text-light placeholder-text-muted/50 focus:outline-none focus:border-accent-orange disabled:opacity-50"
+            className="w-full bg-white/[0.05] border border-[rgba(212,175,55,0.3)] rounded px-3 py-2 text-sm text-text-light placeholder-text-muted/50 focus:outline-none focus:border-accent-orange disabled:opacity-50"
           />
         </div>
 
@@ -348,7 +348,7 @@ function StatusLine({ status, errorMessage, isJA, compact }) {
   }
   if (status === 'error') {
     return (
-      <p className={`${base} text-[#FFB4B4]`} role="alert">
+      <p className={`${base} text-white`} role="alert">
         {errorMessage}
       </p>
     );

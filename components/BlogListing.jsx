@@ -42,7 +42,7 @@ export default function BlogListing({ listings }) {
                 <Link
                   key={post.slug}
                   href={`/blog/${post.slug}`}
-                  className="group bg-white/[0.08] border border-[rgba(212,175,55,0.3)] rounded-sm overflow-hidden hover:border-accent-orange/50 hover:translate-y-[-4px] hover:shadow-xl transition-all block"
+                  className="group bg-white/[0.05] border border-[rgba(212,175,55,0.3)] rounded-sm overflow-hidden hover:border-accent-orange/50 hover:translate-y-[-4px] hover:shadow-xl transition-all block"
                 >
                   {/* Header bar */}
                   <div className="h-2 bg-gradient-to-r from-accent-red via-accent-orange to-accent-amber" />

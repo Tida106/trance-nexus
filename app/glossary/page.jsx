@@ -102,7 +102,7 @@ export default function GlossaryPage() {
                 value={search}
                 onChange={(e) => setSearch(e.target.value)}
                 placeholder={isJA ? '用語を検索...' : 'Search terms...'}
-                className="flex-1 bg-white/[0.08] border-none px-4 py-2 text-text-light font-barlow text-sm placeholder-text-muted outline-none min-w-[180px]"
+                className="flex-1 bg-white/[0.05] border-none px-4 py-2 text-text-light font-barlow text-sm placeholder-text-muted outline-none min-w-[180px]"
               />
               <span className="bg-accent-orange text-black px-4 py-2 font-bebas text-sm tracking-widest">
                 {filtered.length}
@@ -128,7 +128,7 @@ export default function GlossaryPage() {
           {/* A-Z index */}
           <nav
             aria-label={isJA ? '索引' : 'Alphabet index'}
-            className="mb-10 p-3 bg-white/[0.08] border border-[rgba(212,175,55,0.3)] rounded-sm flex flex-wrap gap-1 justify-center"
+            className="mb-10 p-3 bg-white/[0.05] border border-[rgba(212,175,55,0.3)] rounded-sm flex flex-wrap gap-1 justify-center"
           >
             {ALPHABET.map((letter) => {
               const present = presentLetters.has(letter);
@@ -171,7 +171,7 @@ export default function GlossaryPage() {
                   <Link
                     key={t.slug}
                     href={`/glossary/${t.slug}`}
-                    className="group bg-white/[0.08] border border-[rgba(212,175,55,0.3)] rounded-sm p-4 hover:border-accent-orange/50 hover:translate-y-[-2px] transition-all"
+                    className="group bg-white/[0.05] border border-[rgba(212,175,55,0.3)] rounded-sm p-4 hover:border-accent-orange/50 hover:translate-y-[-2px] transition-all"
                   >
                     <div className="flex items-baseline justify-between gap-3 mb-1">
                       <h3 className="font-bebas text-lg tracking-widest text-[#F4E5A8] group-hover:text-accent-peach transition-colors">

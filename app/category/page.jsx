@@ -43,7 +43,7 @@ export default function CategoryIndexPage() {
               <Link
                 key={cat.id}
                 href={`/category/${cat.id}`}
-                className="group bg-white/[0.08] border border-[rgba(212,175,55,0.3)] rounded-sm p-6 hover:border-accent-orange/50 hover:translate-y-[-3px] hover:shadow-lg transition-all"
+                className="group bg-white/[0.05] border border-[rgba(212,175,55,0.3)] rounded-sm p-6 hover:border-accent-orange/50 hover:translate-y-[-3px] hover:shadow-lg transition-all"
               >
                 <div className="flex items-start gap-4">
                   <div className="text-4xl shrink-0">{cat.emoji}</div>

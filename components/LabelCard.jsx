@@ -15,7 +15,7 @@ export default function LabelCard({ label }) {
     <Link
       href={`/labels/${label.slug}`}
       aria-label={`${label.name} — ${isJA ? 'レーベル詳細' : 'View label'}`}
-      className="group block cursor-pointer bg-white/[0.08] border border-[rgba(212,175,55,0.3)] rounded-sm overflow-hidden transition-all duration-200 hover:-translate-y-1.5 hover:border-accent-orange hover:shadow-2xl hover:shadow-accent-orange/20 focus-visible:-translate-y-1.5 focus-visible:border-accent-orange focus-visible:shadow-2xl focus-visible:shadow-accent-orange/20"
+      className="group block cursor-pointer bg-white/[0.05] border border-[rgba(212,175,55,0.3)] rounded-sm overflow-hidden transition-all duration-200 hover:-translate-y-1.5 hover:border-accent-orange hover:shadow-2xl hover:shadow-accent-orange/20 focus-visible:-translate-y-1.5 focus-visible:border-accent-orange focus-visible:shadow-2xl focus-visible:shadow-accent-orange/20"
     >
       <div className={`h-20 relative flex items-end p-4 overflow-hidden ${label.banner}`}>
         <div className={`absolute inset-0 ${label.banner} transition-transform duration-300 group-hover:scale-105`} />
@@ -25,7 +25,7 @@ export default function LabelCard({ label }) {
 
       <div className="p-4 relative">
         <div className="flex items-end mb-3 relative z-20">
-          <div className="w-12 h-12 rounded-full border-2 border-accent-orange bg-white/[0.08] flex items-center justify-center text-xl shadow-lg -mt-9 -mb-2 transition-shadow group-hover:shadow-accent-orange/40 group-hover:shadow-xl">
+          <div className="w-12 h-12 rounded-full border-2 border-accent-orange bg-white/[0.05] flex items-center justify-center text-xl shadow-lg -mt-9 -mb-2 transition-shadow group-hover:shadow-accent-orange/40 group-hover:shadow-xl">
             {label.emoji}
           </div>
         </div>

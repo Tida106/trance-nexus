@@ -68,7 +68,7 @@ export default function LabelDetail({ label, related, signedArtists, posts }) {
           <section className={`${label.banner} relative rounded-sm overflow-hidden p-8 md:p-12 mb-10`}>
             <div className="absolute inset-0 bg-dark-header/55" />
             <div className="relative z-10 flex flex-col md:flex-row gap-6 items-start md:items-end">
-              <div className="w-24 h-24 rounded-full border-2 border-accent-orange bg-white/[0.08] flex items-center justify-center text-5xl shadow-lg shrink-0">
+              <div className="w-24 h-24 rounded-full border-2 border-accent-orange bg-white/[0.05] flex items-center justify-center text-5xl shadow-lg shrink-0">
                 {label.emoji}
               </div>
               <div className="flex-1">
@@ -99,7 +99,7 @@ export default function LabelDetail({ label, related, signedArtists, posts }) {
 
           {/* Facts + Listen */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-5 mb-12">
-            <div className="md:col-span-2 bg-white/[0.08] border border-[rgba(212,175,55,0.3)] rounded-sm p-6">
+            <div className="md:col-span-2 bg-white/[0.05] border border-[rgba(212,175,55,0.3)] rounded-sm p-6">
               <h2 className="font-bebas text-xl tracking-widest text-[#F4E5A8] mb-3">
                 {isJA ? 'プロフィール' : 'At a Glance'}
               </h2>
@@ -115,7 +115,7 @@ export default function LabelDetail({ label, related, signedArtists, posts }) {
               />
             </div>
 
-            <div className="bg-white/[0.08] border border-[rgba(212,175,55,0.3)] rounded-sm p-6">
+            <div className="bg-white/[0.05] border border-[rgba(212,175,55,0.3)] rounded-sm p-6">
               <h2 className="font-bebas text-xl tracking-widest text-[#F4E5A8] mb-3">
                 {isJA ? '配信プラットフォーム' : 'Platforms'}
               </h2>
@@ -250,7 +250,7 @@ export default function LabelDetail({ label, related, signedArtists, posts }) {
                 {label.topReleases.map((r, i) => (
                   <li
                     key={i}
-                    className="bg-white/[0.08] border border-[rgba(212,175,55,0.3)] rounded-sm p-3 flex items-baseline justify-between gap-3"
+                    className="bg-white/[0.05] border border-[rgba(212,175,55,0.3)] rounded-sm p-3 flex items-baseline justify-between gap-3"
                   >
                     <div className="min-w-0 flex-1">
                       <div className="text-text-light text-sm font-barlow truncate">
@@ -295,7 +295,7 @@ export default function LabelDetail({ label, related, signedArtists, posts }) {
                   <Link
                     key={a.slug}
                     href={`/artists/${a.slug}`}
-                    className="group bg-white/[0.08] border border-[rgba(212,175,55,0.3)] rounded-sm p-4 text-center hover:border-accent-orange/50 hover:translate-y-[-3px] transition-all"
+                    className="group bg-white/[0.05] border border-[rgba(212,175,55,0.3)] rounded-sm p-4 text-center hover:border-accent-orange/50 hover:translate-y-[-3px] transition-all"
                   >
                     <div className="text-3xl mb-2">{a.emoji}</div>
                     <div className="font-bebas text-sm tracking-widest text-white group-hover:text-accent-peach transition-colors">
@@ -322,7 +322,7 @@ export default function LabelDetail({ label, related, signedArtists, posts }) {
                   <Link
                     key={r.slug}
                     href={`/labels/${r.slug}`}
-                    className="group bg-white/[0.08] border border-[rgba(212,175,55,0.3)] rounded-sm p-4 hover:border-accent-orange/50 hover:translate-y-[-3px] transition-all"
+                    className="group bg-white/[0.05] border border-[rgba(212,175,55,0.3)] rounded-sm p-4 hover:border-accent-orange/50 hover:translate-y-[-3px] transition-all"
                   >
                     <div className="flex items-center gap-3">
                       <div className="text-2xl">{r.emoji}</div>
@@ -355,7 +355,7 @@ export default function LabelDetail({ label, related, signedArtists, posts }) {
                     <Link
                       key={post.slug}
                       href={`/blog/${post.slug}`}
-                      className="group block bg-white/[0.08] border border-[rgba(212,175,55,0.3)] rounded-sm overflow-hidden hover:border-accent-orange/50 hover:translate-y-[-3px] hover:shadow-lg transition-all"
+                      className="group block bg-white/[0.05] border border-[rgba(212,175,55,0.3)] rounded-sm overflow-hidden hover:border-accent-orange/50 hover:translate-y-[-3px] hover:shadow-lg transition-all"
                     >
                       <div className="h-1.5 bg-gradient-to-r from-accent-red via-accent-orange to-accent-amber" />
                       <div className="p-4">

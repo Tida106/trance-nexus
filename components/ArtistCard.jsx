@@ -20,7 +20,7 @@ export default function ArtistCard({ artist }) {
     <Link
       href={`/artists/${artist.slug}`}
       aria-label={`${artist.name} — ${isJA ? 'プロフィールを見る' : 'View profile'}`}
-      className="group block cursor-pointer bg-white/[0.08] border border-[rgba(212,175,55,0.3)] rounded-sm overflow-hidden transition-all duration-200 hover:-translate-y-1.5 hover:border-accent-orange hover:shadow-2xl hover:shadow-accent-orange/20 focus-visible:-translate-y-1.5 focus-visible:border-accent-orange focus-visible:shadow-2xl focus-visible:shadow-accent-orange/20"
+      className="group block cursor-pointer bg-white/[0.05] border border-[rgba(212,175,55,0.3)] rounded-sm overflow-hidden transition-all duration-200 hover:-translate-y-1.5 hover:border-accent-orange hover:shadow-2xl hover:shadow-accent-orange/20 focus-visible:-translate-y-1.5 focus-visible:border-accent-orange focus-visible:shadow-2xl focus-visible:shadow-accent-orange/20"
     >
       <div className={`h-24 relative flex items-end p-4 overflow-hidden ${artist.banner}`}>
         {/* Subtle zoom on hover — gives the banner gradient a sense of
@@ -38,7 +38,7 @@ export default function ArtistCard({ artist }) {
             border picks up the orange accent on card hover so the
             interactive state is visually consistent. */}
         <div className="flex items-end mb-4 relative z-20">
-          <div className="w-14 h-14 rounded-full border-2 border-accent-orange bg-white/[0.08] flex items-center justify-center text-2xl shadow-lg -mt-10 -mb-2 transition-shadow group-hover:shadow-accent-orange/40 group-hover:shadow-xl">
+          <div className="w-14 h-14 rounded-full border-2 border-accent-orange bg-white/[0.05] flex items-center justify-center text-2xl shadow-lg -mt-10 -mb-2 transition-shadow group-hover:shadow-accent-orange/40 group-hover:shadow-xl">
             {artist.emoji}
           </div>
         </div>

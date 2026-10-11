@@ -57,7 +57,7 @@ export default function RadioPage() {
               <div className="flex gap-2 flex-wrap mb-4">
                 {['border-accent-orange/30 bg-accent-orange/5 text-accent-peach',
                   'border-accent-amber/30 bg-accent-amber/5 text-accent-peach',
-                  'border-accent-red/30 bg-accent-red/5 text-accent-red',
+                  'border-accent-red/30 bg-accent-red/5 text-white',
                 ].map((cls, idx) => (
                   <span key={idx} className={`text-xs tracking-widest px-3 py-1 rounded border ${cls}`}>
                     {t('radio.asotTags')[idx]}
@@ -89,7 +89,7 @@ export default function RadioPage() {
           </div>
 
           {/* AdSense ad slot 2 */}
-          <div className="mb-8 p-4 bg-white/[0.08] border border-[rgba(212,175,55,0.3)] rounded text-center">
+          <div className="mb-8 p-4 bg-white/[0.05] border border-[rgba(212,175,55,0.3)] rounded text-center">
             <div id="ad-slot-2" className="min-h-[90px] flex items-center justify-center">
               <p className="text-text-muted text-sm">Advertisement</p>
             </div>
@@ -135,13 +135,13 @@ export default function RadioPage() {
                   style={{ background: `radial-gradient(circle, rgba(${themeColor},0.45) 0%, transparent 70%)` }}
                 />
                 {show.live && (
-                  <div className="absolute top-3 right-3 flex items-center gap-2 bg-accent-red/20 border border-accent-red/50 text-accent-red px-2 py-1 rounded text-xs tracking-widest font-bebas">
+                  <div className="absolute top-3 right-3 flex items-center gap-2 bg-accent-red/20 border border-accent-red/50 text-[#FFDAD3] px-2 py-1 rounded text-xs tracking-widest font-bebas">
                     <div className="w-1 h-1 rounded-full bg-accent-red animate-pulse" />
                     {t('radio.live')}
                   </div>
                 )}
 
-                <div className="font-bebas text-xs tracking-widest text-accent-red mb-1">
+                <div className="font-bebas text-xs tracking-widest text-white mb-1">
                   {show.num}
                 </div>
                 <h3 className="font-bebas text-2xl tracking-widest text-[#F4E5A8] mb-1">

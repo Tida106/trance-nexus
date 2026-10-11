@@ -30,7 +30,7 @@ export default function Navigation() {
           height={72}
           decoding="async"
           fetchPriority="high"
-          className="h-[72px] w-auto block"
+          className="h-[72px] w-auto block rounded-lg border border-[rgba(212,175,55,0.6)]"
         />
       </Link>
       <div className="flex gap-0 items-center">

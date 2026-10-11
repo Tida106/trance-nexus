@@ -107,7 +107,7 @@ export default function AmazonLink({
       target="_blank"
       rel={REL}
       aria-label={ariaLabel}
-      className="group block bg-white/[0.08] border border-[rgba(212,175,55,0.3)] rounded-sm overflow-hidden hover:border-accent-orange/50 hover:-translate-y-1 hover:shadow-2xl hover:shadow-accent-orange/10 transition-all duration-200"
+      className="group block bg-white/[0.05] border border-[rgba(212,175,55,0.3)] rounded-sm overflow-hidden hover:border-accent-orange/50 hover:-translate-y-1 hover:shadow-2xl hover:shadow-accent-orange/10 transition-all duration-200"
     >
       {/* Top accent bar — matches the existing card aesthetic across the site. */}
       <div className="h-1.5 bg-gradient-to-r from-accent-red via-accent-orange to-accent-amber" />

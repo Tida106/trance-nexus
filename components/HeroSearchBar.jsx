@@ -37,13 +37,13 @@ export default function HeroSearchBar() {
         type="button"
         onClick={() => { setArmed(true); setOpen(true); }}
         aria-label={isJA ? 'サイト内検索を開く' : 'Open site search'}
-        className="group w-full max-w-2xl mx-auto flex items-center gap-3 px-5 py-4 rounded-md bg-white/[0.08] border gold-metallic-search text-left shadow-lg"
+        className="group w-full max-w-2xl mx-auto flex items-center gap-3 px-5 py-4 rounded-md bg-white/[0.05] border gold-metallic-search text-left shadow-lg"
       >
         <SearchIcon className="w-6 h-6 shrink-0" />
         <span className="flex-1 text-[rgba(212,175,55,0.7)] group-hover:text-[rgba(244,229,168,0.9)] font-barlow text-sm md:text-base truncate transition-colors">
           {placeholder}
         </span>
-        <kbd className="hidden sm:inline-block font-bebas text-[11px] tracking-widest px-2 py-1 rounded border border-[rgba(212,175,55,0.35)] text-[rgba(244,229,168,0.75)] bg-white/[0.08] shrink-0">
+        <kbd className="hidden sm:inline-block font-bebas text-[11px] tracking-widest px-2 py-1 rounded border border-[rgba(212,175,55,0.35)] text-[rgba(244,229,168,0.75)] bg-white/[0.05] shrink-0">
           ⌘K
         </kbd>
       </button>

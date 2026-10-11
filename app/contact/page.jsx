@@ -52,7 +52,7 @@ export default function ContactPage() {
             <div className="w-20 h-1 bg-gradient-to-r from-accent-red via-accent-orange to-transparent" />
           </div>
 
-          <div className="bg-white/[0.08] border border-[rgba(212,175,55,0.3)] rounded-sm p-10">
+          <div className="bg-white/[0.05] border border-[rgba(212,175,55,0.3)] rounded-sm p-10">
             {isJA ? (
               <>
                 <p className="text-text-light text-sm leading-relaxed mb-8">

@@ -22,7 +22,7 @@ function ArticleCard({ post, isJA }) {
   return (
     <Link
       href={`/blog/${post.slug}`}
-      className="group block bg-white/[0.08] border border-[rgba(212,175,55,0.3)] rounded-sm overflow-hidden hover:border-accent-orange/50 hover:translate-y-[-3px] hover:shadow-lg transition-all"
+      className="group block bg-white/[0.05] border border-[rgba(212,175,55,0.3)] rounded-sm overflow-hidden hover:border-accent-orange/50 hover:translate-y-[-3px] hover:shadow-lg transition-all"
     >
       <div className="h-1.5 bg-gradient-to-r from-accent-red via-accent-orange to-accent-amber" />
       <div className="p-4">
@@ -165,7 +165,7 @@ export default function BlogPost({ post, prevPost, nextPost, related }) {
                   return (
                     <li
                       key={t.rank}
-                      className="bg-white/[0.08] border border-[rgba(212,175,55,0.3)] rounded-sm p-5 hover:border-accent-orange/40 transition-colors"
+                      className="bg-white/[0.05] border border-[rgba(212,175,55,0.3)] rounded-sm p-5 hover:border-accent-orange/40 transition-colors"
                     >
                       <div className="flex items-baseline gap-4 mb-2">
                         <span className="font-bebas text-3xl tracking-wider text-[#F4E5A8] shrink-0">
@@ -217,7 +217,7 @@ export default function BlogPost({ post, prevPost, nextPost, related }) {
                           target="_blank"
                           rel="noopener noreferrer"
                           aria-label={`${isJA ? 'YouTubeで検索' : 'Search YouTube'}: ${q}`}
-                          className="inline-flex items-center gap-1.5 font-bebas text-xs tracking-widest px-3 py-1.5 rounded border border-[rgba(212,175,55,0.3)] bg-white/[0.08] text-text-light hover:bg-accent-orange/10 hover:border-accent-orange/40 hover:text-accent-peach transition-colors"
+                          className="inline-flex items-center gap-1.5 font-bebas text-xs tracking-widest px-3 py-1.5 rounded border border-[rgba(212,175,55,0.3)] bg-white/[0.05] text-text-light hover:bg-accent-orange/10 hover:border-accent-orange/40 hover:text-accent-peach transition-colors"
                         >
                           <span aria-hidden="true">📺</span>
                           <span>{isJA ? 'YouTube' : 'YouTube'}</span>
@@ -255,7 +255,7 @@ export default function BlogPost({ post, prevPost, nextPost, related }) {
                   return (
                     <li
                       key={i}
-                      className="bg-white/[0.08] border border-[rgba(212,175,55,0.3)] rounded-sm p-4 hover:border-accent-orange/40 transition-colors"
+                      className="bg-white/[0.05] border border-[rgba(212,175,55,0.3)] rounded-sm p-4 hover:border-accent-orange/40 transition-colors"
                     >
                       <div className="font-bebas text-base tracking-widest text-white leading-tight mb-1">
                         <span>{t.artist}</span>
@@ -285,7 +285,7 @@ export default function BlogPost({ post, prevPost, nextPost, related }) {
                           target="_blank"
                           rel="noopener noreferrer"
                           aria-label={`${isJA ? 'YouTubeで検索' : 'Search YouTube'}: ${q}`}
-                          className="inline-flex items-center gap-1.5 font-bebas text-xs tracking-widest px-3 py-1.5 rounded border border-[rgba(212,175,55,0.3)] bg-white/[0.08] text-text-light hover:bg-accent-orange/10 hover:border-accent-orange/40 hover:text-accent-peach transition-colors"
+                          className="inline-flex items-center gap-1.5 font-bebas text-xs tracking-widest px-3 py-1.5 rounded border border-[rgba(212,175,55,0.3)] bg-white/[0.05] text-text-light hover:bg-accent-orange/10 hover:border-accent-orange/40 hover:text-accent-peach transition-colors"
                         >
                           <span aria-hidden="true">📺</span>
                           <span>YouTube</span>
@@ -351,7 +351,7 @@ export default function BlogPost({ post, prevPost, nextPost, related }) {
               <aside
                 role="note"
                 aria-label={isJA ? 'アフィリエイトに関する注記' : 'Affiliate disclosure'}
-                className="mt-10 px-4 py-3 rounded border border-[rgba(212,175,55,0.3)] bg-white/[0.08] text-xs text-text-muted leading-relaxed"
+                className="mt-10 px-4 py-3 rounded border border-[rgba(212,175,55,0.3)] bg-white/[0.05] text-xs text-text-muted leading-relaxed"
               >
                 {isJA
                   ? '※ 本記事にはアフィリエイトリンクが含まれています。リンク経由でご購入いただくと、当サイトの運営費の一部となる紹介料を受け取ることがあります。商品の選定は編集判断によるもので、紹介料の有無で内容を変えることはありません。'

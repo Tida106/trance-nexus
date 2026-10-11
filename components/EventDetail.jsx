@@ -84,7 +84,7 @@ export default function EventDetail({ event, headliners, related }) {
             {/* Top facts */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
               {event.dates && (
-                <div className="bg-white/[0.08] border border-[rgba(212,175,55,0.3)] rounded-sm p-4">
+                <div className="bg-white/[0.05] border border-[rgba(212,175,55,0.3)] rounded-sm p-4">
                   <div className="font-bebas text-xs tracking-widest text-accent-peach mb-1">
                     {isJA ? '日程' : 'DATES'}
                   </div>
@@ -109,7 +109,7 @@ export default function EventDetail({ event, headliners, related }) {
               )}
 
               {event.venue && (
-                <div className="bg-white/[0.08] border border-[rgba(212,175,55,0.3)] rounded-sm p-4">
+                <div className="bg-white/[0.05] border border-[rgba(212,175,55,0.3)] rounded-sm p-4">
                   <div className="font-bebas text-xs tracking-widest text-accent-peach mb-1">
                     {isJA ? '会場' : 'VENUE'}
                   </div>
@@ -123,7 +123,7 @@ export default function EventDetail({ event, headliners, related }) {
                 </div>
               )}
 
-              <div className="bg-white/[0.08] border border-[rgba(212,175,55,0.3)] rounded-sm p-4">
+              <div className="bg-white/[0.05] border border-[rgba(212,175,55,0.3)] rounded-sm p-4">
                 <div className="font-bebas text-xs tracking-widest text-accent-peach mb-1">
                   {isJA ? 'チケット／公式' : 'TICKETS / OFFICIAL'}
                 </div>
@@ -157,7 +157,7 @@ export default function EventDetail({ event, headliners, related }) {
 
             {/* Description */}
             {desc && (
-              <div className="bg-white/[0.08] border-l-4 border-accent-orange rounded-sm p-5 mb-8">
+              <div className="bg-white/[0.05] border-l-4 border-accent-orange rounded-sm p-5 mb-8">
                 <p className="text-text-light leading-relaxed text-base">{desc}</p>
               </div>
             )}
@@ -178,7 +178,7 @@ export default function EventDetail({ event, headliners, related }) {
                     <Link
                       key={a.slug}
                       href={`/artists/${a.slug}`}
-                      className="bg-white/[0.08] border border-[rgba(212,175,55,0.3)] rounded-sm p-3 hover:border-accent-orange/50 transition-all"
+                      className="bg-white/[0.05] border border-[rgba(212,175,55,0.3)] rounded-sm p-3 hover:border-accent-orange/50 transition-all"
                     >
                       <div className="font-bebas text-base tracking-widest text-white">{a.name}</div>
                       {a.country && (
@@ -220,7 +220,7 @@ export default function EventDetail({ event, headliners, related }) {
                       {event.labels.map((l, i) => (
                         <span
                           key={i}
-                          className="text-xs tracking-widest px-3 py-1 rounded bg-white/[0.08] border border-[rgba(212,175,55,0.3)] text-text-light"
+                          className="text-xs tracking-widest px-3 py-1 rounded bg-white/[0.05] border border-[rgba(212,175,55,0.3)] text-text-light"
                         >
                           {l}
                         </span>
@@ -267,7 +267,7 @@ export default function EventDetail({ event, headliners, related }) {
                 <h2 className="font-bebas text-2xl tracking-widest text-[#F4E5A8] mb-3">
                   {isJA ? '過去の開催' : 'Past Editions'}
                 </h2>
-                <div className="bg-white/[0.08] border border-[rgba(212,175,55,0.3)] rounded-sm divide-y divide-[rgba(212,175,55,0.3)]">
+                <div className="bg-white/[0.05] border border-[rgba(212,175,55,0.3)] rounded-sm divide-y divide-[rgba(212,175,55,0.3)]">
                   {event.editions.map((ed, i) => (
                     <div key={i} className="px-4 py-3 flex items-baseline gap-4 text-sm">
                       <div className="font-bebas text-accent-peach w-16 shrink-0">{ed.year}</div>
