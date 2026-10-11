@@ -1,9 +1,9 @@
 // Lightweight listing data — no article body content.
 // Newest first. Keep in sync with data/blog/posts.js when adding articles.
 export const listing = [
-  { slug: 'sunrise-festival-poland-trance-legacy', date: '2026-08-27', readTime: 12, tags: ['sunrise-festival', 'poland', 'trance-family', 'festival', 'open-air'],
-    en: { title: 'Sunrise Festival Poland: The Industrial Evolution of a Trance Utopia', excerpt: 'A deep dive into the history, military-grade transformation, and emotional sensory peaks of Sunrise Festival Poland—Central Europe\'s premier open-air electronic pilgrimage.' },
-    ja: { title: 'サンライズ・フェスティバル・ポーランド：トランス・ユートピアの産業的進化', excerpt: '中東欧最大のオープンエア電子音楽の巡礼地、サンライズ・フェスティバル・ポーランド。その歴史、ミリタリー級の会場変貌、そして感情を揺さぶる感動的な夜明けのピークを深く掘り下げる。' } },
+  { slug: 'sunrise-festival-poland-trance-legacy', date: '2026-08-27', readTime: 3, tags: ['sunrise-festival', 'poland', 'trance-family', 'festival', 'open-air'],
+    en: { title: 'Sunrise Festival Poland: History and Venue', excerpt: 'Sunrise Festival began in 2003 at the Kołobrzeg amphitheatre and has been held at the former Podczele airfield since 2019. A short look at its history and the 2026 edition.' },
+    ja: { title: 'サンライズ・フェスティバル・ポーランド：歴史と会場', excerpt: 'Sunrise Festivalは2003年にコウォブジェクの円形劇場で始まり、2019年から旧ポドチェレ飛行場で開催されています。歴史と2026年の開催内容を簡潔に紹介します。' } },
   { slug: 'anjunabeats-warehouse-tour-uk-2026', date: '2026-08-21', readTime: 12, tags: ['above-and-beyond', 'anjunabeats', 'uk', 'tour', 'warehouse-rave'],
     en: { title: 'Anjunabeats Warehouse Tour 2026: Reclaiming the Soul of Trance in the British Underground', excerpt: 'In October 2026, Above & Beyond and their Anjunabeats family will return to their roots with an intimate warehouse tour across Liverpool, Birmingham, and Bristol, trading mainstage spectacle for heavy, raw, concrete-shaking industrial energy.' },
     ja: { title: 'Anjunabeats Warehouse Tour 2026：インダストリアルな英国アンダーグラウンドで奪還するトランスの魂', excerpt: '2026年10月、Above & BeyondとAnjunabeatsファミリーはリバプール、バーミンガム、ブリストルを巡るウェアハウス・ツアーを始動。フェスの華やかな演出を排し、重厚なコンクリートを震わせる原点回帰のレイブ・エネルギーを解き放つ。' } },
