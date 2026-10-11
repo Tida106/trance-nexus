@@ -14,12 +14,17 @@ export async function generateMetadata({ params }) {
   if (!e) return {};
 
   const desc = (e.en?.description || '').slice(0, 160);
-  // Title pattern: "<Name> <Year> — Lineup, Dates & Tickets"
-  const yr =
-    e.dates?.next?.start
-      ? new Date(e.dates.next.start).getFullYear()
-      : e.editions?.[0]?.year || new Date().getFullYear();
-  const title = `${e.name} ${yr} — Lineup, Dates & Tickets`;
+  // Title pattern: "<Name> <Year> — Lineup, Dates & Tickets" for events with
+  // an upcoming date. Events without one get a year-less guide title so the
+  // search result never advertises a past edition (e.g. "2024 — Tickets").
+  // The year is not repeated when the name already contains it.
+  const today = process.env.NEXT_PUBLIC_BUILD_DATE || new Date().toISOString().slice(0, 10);
+  const nextEnd = e.dates?.next?.end || e.dates?.next?.start;
+  const upcoming = nextEnd && String(nextEnd).slice(0, 10) >= today;
+  const yr = upcoming ? new Date(e.dates.next.start).getFullYear() : null;
+  const title = yr
+    ? `${String(e.name).includes(String(yr)) ? e.name : `${e.name} ${yr}`} — Lineup, Dates & Tickets`
+    : `${e.name} — Trance Festival Guide`;
 
   const ogUrl = ogImagePath(e.og_image || `/og/events/${slug}.png`);
   const ogImage = { url: ogUrl, width: 1200, height: 630, alt: e.name };
