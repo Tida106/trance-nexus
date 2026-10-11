@@ -135,6 +135,10 @@ export default function RadioPage() {
             {filteredRadio.map((show, i) => {
               const themeIdx = radio.indexOf(show) % CARD_THEMES.length;
               const themeColor = CARD_THEMES[themeIdx];
+              // gold (index 0) is the lightest theme: a darker top stop and a softer
+              // corner glow keep white / gold / LIVE-badge text above AA contrast.
+              const topTone = themeIdx === 0 ? 0.5 : 0.78;
+              const glowAlpha = themeIdx === 0 ? 0.2 : 0.45;
               const [r, g, b] = themeColor.split(',').map(s => parseInt(s.trim(), 10));
               const tone = (f) => `${Math.round(r * f)}, ${Math.round(g * f)}, ${Math.round(b * f)}`;
               return (
@@ -143,13 +147,13 @@ export default function RadioPage() {
                 style={{
                   '--c': themeColor,
                   '--lt': LINK_TINTS[themeIdx],
-                  background: `linear-gradient(135deg, rgba(${tone(0.78)},0.96) 0%, rgba(${tone(0.58)},0.95) 45%, rgba(${tone(0.50)},0.95) 70%, rgba(${tone(0.36)},0.97) 100%)`,
+                  background: `linear-gradient(135deg, rgba(${tone(topTone)},0.96) 0%, rgba(${tone(0.58)},0.95) 45%, rgba(${tone(0.50)},0.95) 70%, rgba(${tone(0.36)},0.97) 100%)`,
                 }}
                 className="border border-[rgba(var(--c),0.6)] rounded-sm p-5 relative overflow-hidden transition-all duration-300 hover:translate-y-[-4px] hover:shadow-[0_0_42px_rgba(var(--c),0.60)] hover:border-[rgba(var(--c),0.95)]"
               >
                 <div
                   className="absolute -right-12 -top-12 w-44 h-44 rounded-full pointer-events-none"
-                  style={{ background: `radial-gradient(circle, rgba(${themeColor},0.45) 0%, transparent 70%)` }}
+                  style={{ background: `radial-gradient(circle, rgba(${themeColor},${glowAlpha}) 0%, transparent 70%)` }}
                 />
                 {show.live && (
                   <div className="absolute top-3 right-3 flex items-center gap-2 bg-accent-red/20 border border-accent-red/50 text-[#FFDAD3] px-2 py-1 rounded text-xs tracking-widest font-bebas">
