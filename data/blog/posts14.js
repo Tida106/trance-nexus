@@ -407,43 +407,43 @@ export const posts14 = [
   {
     slug: 'transmission-netherlands-gelredome-2026',
     date: '2026-08-08',
-    readTime: 2,
+    readTime: 1,
     tags: ['transmission', 'netherlands', 'festival', 'indoor-trance'],
     en: {
-      title: 'Transmission Netherlands 2026 at GelreDome: Date, Venue and Lineup So Far',
-      description: 'Transmission Netherlands takes place on Saturday 28 November 2026 at GelreDome in Arnhem. Date, hours, venue facts and the artists listed so far.',
-      excerpt: 'Transmission Netherlands takes place on 28 November 2026 at GelreDome in Arnhem, from 14:00 to 23:00, for ages 18 and over. Here are the venue facts and the artists listed so far.',
+      title: 'Transmission Netherlands 2026 at GelreDome: Date, Venue and Hours',
+      description: 'Transmission Netherlands takes place on Saturday 28 November 2026 at GelreDome in Arnhem. Date, hours, age limit, theme and venue facts.',
+      excerpt: 'Transmission Netherlands takes place on 28 November 2026 at GelreDome in Arnhem, from 14:00 to 23:00, for ages 18 and over. Here are the basics and the venue facts.',
       content: [
         {
           heading: 'Date, Venue and Hours',
-          body: '<p>Transmission Netherlands 2026 is listed for <strong>Saturday 28 November 2026</strong> at <strong>GelreDome in Arnhem</strong>, running from 14:00 to 23:00. The event is 18+. The edition\'s theme is listed as "The spirit of the warrior" (festivalfans.nl). The timetable is usually released in the festival week, so check the official Transmission site for updates.</p>'
+          body: '<p>Transmission Netherlands 2026 is listed for <strong>Saturday 28 November 2026</strong> at <strong>GelreDome in Arnhem</strong>, running from 14:00 to 23:00. The event is 18+. The edition\'s theme is listed as "The spirit of the warrior".</p>'
         },
         {
           heading: 'The Venue: GelreDome',
           body: '<p>GelreDome opened on 25 March 1998. It was the first football stadium in the world with a retractable pitch, and it also has a sliding roof. The official GelreDome site gives a maximum of 34,000 visitors, rising to 41,000 when a stage is set up in the middle of the pitch for concerts.</p>'
         },
         {
-          heading: 'Lineup Listed So Far',
-          body: '<p>The lineup was not complete at the time of writing. The festivalfans.nl listing names Aly &amp; Fila, Andrew Rayel presents Extasia, Daxson, Ram &amp; Richard Durand present Digital Culture, Driftmoon b2b Asteroid, Ferry Corsten b2b Markus Schulz and Paul van Dyk. I could not confirm this list on the official Transmission site, so treat it as provisional.</p><p>Ticket types and prices change by sales phase. Please check the official ticket page.</p>'
+          heading: 'Lineup and Tickets',
+          body: '<p>Please check the lineup, timetable and tickets on the <a href="https://transmissionfestival.com/events/tmnl26/" target="_blank" rel="noopener">official Transmission Netherlands page</a>.</p>'
         }
       ]
     },
     ja: {
-      title: 'Transmission Netherlands 2026 at GelreDome：日程・会場・現時点のラインナップ',
-      description: 'Transmission Netherlandsは2026年11月28日（土）、アーネムのGelreDomeで開催。日程、時間、会場の基本情報、現時点で掲載されている出演者をまとめます。',
-      excerpt: 'Transmission Netherlandsは2026年11月28日、アーネムのGelreDomeで14:00〜23:00に開催（18歳以上）。会場の基本情報と、現時点で掲載されている出演者を紹介します。',
+      title: 'Transmission Netherlands 2026 at GelreDome：日程・会場・時間',
+      description: 'Transmission Netherlandsは2026年11月28日（土）、アーネムのGelreDomeで開催。日程、時間、年齢制限、テーマ、会場の基本情報をまとめます。',
+      excerpt: 'Transmission Netherlandsは2026年11月28日、アーネムのGelreDomeで14:00〜23:00に開催（18歳以上）。基本情報と会場の概要を紹介します。',
       content: [
         {
           heading: '日程・会場・時間',
-          body: '<p>Transmission Netherlands 2026は、<strong>2026年11月28日（土）</strong>に<strong>アーネムのGelreDome</strong>で、14:00から23:00まで開催と掲載されています。18歳以上限定です。今回のテーマは「The spirit of the warrior」と掲載されています（festivalfans.nl）。タイムテーブルは通常、開催週に公開されます。最新情報はTransmission公式サイトでご確認ください。</p>'
+          body: '<p>Transmission Netherlands 2026は、<strong>2026年11月28日（土）</strong>に<strong>アーネムのGelreDome</strong>で、14:00から23:00まで開催と掲載されています。18歳以上限定です。今回のテーマは「The spirit of the warrior」と掲載されています。</p>'
         },
         {
           heading: '会場：GelreDome',
           body: '<p>GelreDomeは1998年3月25日に開場しました。世界で初めて可動式ピッチを備えたサッカースタジアムで、スライド式の屋根も備えています。GelreDome公式サイトによると、最大収容は34,000人で、コンサート時にピッチ中央へステージを設置すると41,000人になります。</p>'
         },
         {
-          heading: '現時点で掲載されているラインナップ',
-          body: '<p>執筆時点でラインナップは未確定でした。festivalfans.nlの掲載には、Aly &amp; Fila、Andrew Rayel presents Extasia、Daxson、Ram &amp; Richard Durand present Digital Culture、Driftmoon b2b Asteroid、Ferry Corsten b2b Markus Schulz、Paul van Dykの名前があります。Transmission公式サイトでは確認できなかったため、暫定的な情報として扱ってください。</p><p>チケットの種類と価格は販売フェーズによって変わります。公式のチケットページをご確認ください。</p>'
+          heading: 'ラインナップとチケット',
+          body: '<p>ラインナップ、タイムテーブル、チケットは<a href="https://transmissionfestival.com/events/tmnl26/" target="_blank" rel="noopener">Transmission Netherlands公式ページ</a>でご確認ください。</p>'
         }
       ]
     }
