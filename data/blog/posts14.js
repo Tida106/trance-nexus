@@ -411,12 +411,12 @@ export const posts14 = [
     tags: ['transmission', 'netherlands', 'festival', 'indoor-trance'],
     en: {
       title: 'Transmission Netherlands 2026 at GelreDome: Date, Venue and Hours',
-      description: 'Transmission Netherlands takes place on Saturday 28 November 2026 at GelreDome in Arnhem. Date, hours, age limit, theme and venue facts.',
+      description: 'Transmission Netherlands takes place on Saturday 28 November 2026 at GelreDome in Arnhem. Date, hours, age limit and venue facts.',
       excerpt: 'Transmission Netherlands takes place on 28 November 2026 at GelreDome in Arnhem, from 14:00 to 23:00, for ages 18 and over. Here are the basics and the venue facts.',
       content: [
         {
           heading: 'Date, Venue and Hours',
-          body: '<p>Transmission Netherlands 2026 is listed for <strong>Saturday 28 November 2026</strong> at <strong>GelreDome in Arnhem</strong>, running from 14:00 to 23:00. The event is 18+. The edition\'s theme is listed as "The spirit of the warrior".</p>'
+          body: '<p>Transmission Netherlands 2026 is listed for <strong>Saturday 28 November 2026</strong> at <strong>GelreDome in Arnhem</strong>, running from 14:00 to 23:00. The event is 18+.</p>'
         },
         {
           heading: 'The Venue: GelreDome',
@@ -430,12 +430,12 @@ export const posts14 = [
     },
     ja: {
       title: 'Transmission Netherlands 2026 at GelreDome：日程・会場・時間',
-      description: 'Transmission Netherlandsは2026年11月28日（土）、アーネムのGelreDomeで開催。日程、時間、年齢制限、テーマ、会場の基本情報をまとめます。',
+      description: 'Transmission Netherlandsは2026年11月28日（土）、アーネムのGelreDomeで開催。日程、時間、年齢制限、会場の基本情報をまとめます。',
       excerpt: 'Transmission Netherlandsは2026年11月28日、アーネムのGelreDomeで14:00〜23:00に開催（18歳以上）。基本情報と会場の概要を紹介します。',
       content: [
         {
           heading: '日程・会場・時間',
-          body: '<p>Transmission Netherlands 2026は、<strong>2026年11月28日（土）</strong>に<strong>アーネムのGelreDome</strong>で、14:00から23:00まで開催と掲載されています。18歳以上限定です。今回のテーマは「The spirit of the warrior」と掲載されています。</p>'
+          body: '<p>Transmission Netherlands 2026は、<strong>2026年11月28日（土）</strong>に<strong>アーネムのGelreDome</strong>で、14:00から23:00まで開催と掲載されています。18歳以上限定です。</p>'
         },
         {
           heading: '会場：GelreDome',
