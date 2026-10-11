@@ -106,7 +106,7 @@ export default function SearchModal({ open, onClose }) {
       role="dialog"
       aria-modal="true"
       aria-label={isJA ? 'サイト内検索' : 'Site search'}
-      className="fixed inset-0 z-[300] flex items-start justify-center pt-[10vh] px-4 bg-black/80 backdrop-blur-sm"
+      className="fixed inset-0 z-[300] flex items-start justify-center pt-[10vh] px-4 bg-dark-header/80 backdrop-blur-sm"
       onClick={onClose}
     >
       <div
@@ -138,14 +138,14 @@ export default function SearchModal({ open, onClose }) {
           <button
             onClick={onClose}
             aria-label={isJA ? '検索を閉じる' : 'Close search'}
-            className="text-text-muted hover:text-text-light transition-colors text-xs font-bebas tracking-widest px-2 py-1 border border-orange-900/30 rounded"
+            className="text-text-muted hover:text-text-light transition-colors text-xs font-bebas tracking-widest px-2 py-1 border border-[rgba(212,175,55,0.25)] rounded"
           >
             ESC
           </button>
         </div>
 
         {/* Hint row */}
-        <div className="px-4 py-2 border-b border-orange-900/15 text-xs tracking-widest text-text-muted/70 flex gap-4 flex-wrap">
+        <div className="px-4 py-2 border-b border-[rgba(212,175,55,0.25)] text-xs tracking-widest text-text-muted flex gap-4 flex-wrap">
           <span>↑↓ {isJA ? '選択' : 'navigate'}</span>
           <span>↵ {isJA ? '移動' : 'open'}</span>
           <span>ESC {isJA ? '閉じる' : 'close'}</span>
@@ -205,7 +205,7 @@ export default function SearchModal({ open, onClose }) {
                         onMouseEnter={() => setActiveIdx(idx)}
                         role="option"
                         aria-selected={active}
-                        className={`flex gap-3 items-start px-4 py-3 border-b border-orange-900/15 transition-colors ${
+                        className={`flex gap-3 items-start px-4 py-3 border-b border-[rgba(212,175,55,0.25)] transition-colors ${
                           active
                             ? 'bg-accent-orange/15 text-text-light'
                             : 'hover:bg-accent-orange/5 text-text-light/85'
@@ -222,7 +222,7 @@ export default function SearchModal({ open, onClose }) {
                             {r.flag && <span className="text-xs">{r.flag}</span>}
                           </span>
                           {excerpt && (
-                            <span className="block text-xs text-text-light/60 line-clamp-2 mt-1">
+                            <span className="block text-xs text-text-light/80 line-clamp-2 mt-1">
                               {excerpt}
                             </span>
                           )}
@@ -240,7 +240,7 @@ export default function SearchModal({ open, onClose }) {
 
         {/* Footer link to full search */}
         {query.trim() && results.length > 0 && (
-          <div className="border-t border-orange-900/30 p-3 text-center">
+          <div className="border-t border-[rgba(212,175,55,0.25)] p-3 text-center">
             <Link
               href={`/search?q=${encodeURIComponent(query.trim())}`}
               onClick={onClose}

@@ -15,7 +15,7 @@ export default function Footer() {
   const isJA = language === 'ja';
 
   return (
-    <footer className="relative z-10 bg-black/98 border-t-2 border-accent-orange py-10 px-12 flex flex-col items-center gap-3">
+    <footer className="relative z-10 bg-dark-header/98 border-t-2 border-accent-orange py-10 px-12 flex flex-col items-center gap-3">
       {/* Footer brand mark. loading="lazy" because the footer almost never
           enters the viewport before the hero unless the page is short. */}
       <img
@@ -153,7 +153,7 @@ export default function Footer() {
           target="_blank"
           rel="noopener noreferrer"
           aria-label={isJA ? 'RSSフィード（英語）' : 'RSS feed (Japanese)'}
-          className="text-xs tracking-widest text-text-muted/70 hover:text-accent-orange transition-colors"
+          className="text-xs tracking-widest text-text-muted hover:text-accent-orange transition-colors"
         >
           {isJA ? '/ EN' : '/ JA'}
         </a>
@@ -162,7 +162,7 @@ export default function Footer() {
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Atom feed"
-          className="text-xs tracking-widest text-text-muted/70 hover:text-accent-orange transition-colors"
+          className="text-xs tracking-widest text-text-muted hover:text-accent-orange transition-colors"
         >
           / ATOM
         </a>

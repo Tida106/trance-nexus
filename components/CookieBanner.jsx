@@ -61,7 +61,7 @@ export default function CookieBanner() {
       role="dialog"
       aria-live="polite"
       aria-label={isJA ? 'Cookie同意確認' : 'Cookie consent'}
-      className="fixed bottom-0 left-0 right-0 z-[200] bg-black/97 border-t-2 border-accent-orange/40 backdrop-blur-md"
+      className="fixed bottom-0 left-0 right-0 z-[200] bg-dark-header/97 border-t-2 border-accent-orange/40 backdrop-blur-md"
     >
       <div className="max-w-7xl mx-auto px-8 py-5 flex flex-col sm:flex-row items-start sm:items-center gap-5">
         {/* Text */}
@@ -97,7 +97,7 @@ export default function CookieBanner() {
           </button>
           <button
             onClick={decline}
-            className="font-bebas text-sm tracking-widest px-6 py-2 border border-orange-900/40 text-text-muted hover:text-text-light hover:border-text-muted transition-colors rounded"
+            className="font-bebas text-sm tracking-widest px-6 py-2 border border-[rgba(212,175,55,0.25)] text-text-muted hover:text-text-light hover:border-text-muted transition-colors rounded"
           >
             {isJA ? '拒否する' : 'Decline'}
           </button>

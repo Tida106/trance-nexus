@@ -19,7 +19,7 @@ function statusStyle(s) {
       return { bg: 'bg-accent-amber/10', border: 'border-accent-amber/30', text: 'text-accent-amber' };
     case 'past':
     default:
-      return { bg: 'bg-gray-900/10', border: 'border-gray-700/20', text: 'text-gray-500' };
+      return { bg: 'bg-dark-header/30', border: 'border-[rgba(212,175,55,0.25)]', text: 'text-text-muted' };
   }
 }
 
@@ -88,7 +88,7 @@ export default function EventCard({ event }) {
       )}
 
       {desc && (
-        <p className="text-xs text-text-light/70 leading-relaxed line-clamp-3 mb-3">
+        <p className="text-xs text-text-light/80 leading-relaxed line-clamp-3 mb-3">
           {desc}
         </p>
       )}

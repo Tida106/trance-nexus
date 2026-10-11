@@ -91,7 +91,7 @@ export default function GlossaryDetail({ term, related, artists, posts }) {
                   <Link
                     key={a.slug}
                     href={`/artists/${a.slug}`}
-                    className="group flex items-center gap-3 bg-dark-bg2/80 border border-orange-900/20 rounded-sm p-3 hover:border-accent-orange/50 transition-all"
+                    className="group flex items-center gap-3 bg-dark-bg2/80 border border-[rgba(212,175,55,0.25)] rounded-sm p-3 hover:border-accent-orange/50 transition-all"
                   >
                     <div className="text-2xl">{a.emoji}</div>
                     <div className="min-w-0">
@@ -118,7 +118,7 @@ export default function GlossaryDetail({ term, related, artists, posts }) {
                     <Link
                       key={p.slug}
                       href={`/blog/${p.slug}`}
-                      className="group block bg-dark-bg2/80 border border-orange-900/20 rounded-sm overflow-hidden hover:border-accent-orange/50 transition-all"
+                      className="group block bg-dark-bg2/80 border border-[rgba(212,175,55,0.25)] rounded-sm overflow-hidden hover:border-accent-orange/50 transition-all"
                     >
                       <div className="h-1 bg-gradient-to-r from-accent-red via-accent-orange to-accent-amber" />
                       <div className="p-3">
@@ -133,7 +133,7 @@ export default function GlossaryDetail({ term, related, artists, posts }) {
             </section>
           )}
 
-          <div className="border-t border-orange-900/20 pt-6">
+          <div className="border-t border-[rgba(212,175,55,0.25)] pt-6">
             <Link
               href="/glossary"
               className="inline-block font-bebas text-sm tracking-widest px-5 py-2 border border-accent-orange/30 text-accent-orange hover:bg-accent-orange/10 transition-all rounded"

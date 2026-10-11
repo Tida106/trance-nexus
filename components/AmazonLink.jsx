@@ -107,13 +107,13 @@ export default function AmazonLink({
       target="_blank"
       rel={REL}
       aria-label={ariaLabel}
-      className="group block bg-dark-bg2/80 border border-orange-900/20 rounded-sm overflow-hidden hover:border-accent-orange/50 hover:-translate-y-1 hover:shadow-2xl hover:shadow-accent-orange/10 transition-all duration-200"
+      className="group block bg-dark-bg2/80 border border-[rgba(212,175,55,0.25)] rounded-sm overflow-hidden hover:border-accent-orange/50 hover:-translate-y-1 hover:shadow-2xl hover:shadow-accent-orange/10 transition-all duration-200"
     >
       {/* Top accent bar — matches the existing card aesthetic across the site. */}
       <div className="h-1.5 bg-gradient-to-r from-accent-red via-accent-orange to-accent-amber" />
 
       {image && (
-        <div className="aspect-[4/3] bg-black flex items-center justify-center overflow-hidden border-b border-orange-900/15">
+        <div className="aspect-[4/3] bg-dark-header flex items-center justify-center overflow-hidden border-b border-[rgba(212,175,55,0.25)]">
           {/* Native <img> here, not next/image: this is a static export with
               images.unoptimized=true, so next/image would buy us nothing.
               loading=lazy because product cards usually sit below the fold. */}
@@ -144,14 +144,14 @@ export default function AmazonLink({
         </h3>
 
         {caption && (
-          <p className="text-xs text-text-light/65 leading-relaxed line-clamp-3">
+          <p className="text-xs text-text-light/80 leading-relaxed line-clamp-3">
             {caption}
           </p>
         )}
 
-        <div className="flex items-center justify-between gap-3 mt-1 pt-2 border-t border-orange-900/15">
+        <div className="flex items-center justify-between gap-3 mt-1 pt-2 border-t border-[rgba(212,175,55,0.25)]">
           {price ? (
-            <span className="text-xs tracking-widest text-text-light/70">
+            <span className="text-xs tracking-widest text-text-light/80">
               {price}
             </span>
           ) : (

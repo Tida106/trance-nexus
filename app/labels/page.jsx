@@ -78,7 +78,7 @@ export default function LabelsPage() {
               {isJA ? 'レーベル・ディレクトリ' : 'Label Directory'}
             </h1>
             <div className="w-20 h-1 bg-gradient-to-r from-accent-red via-accent-orange to-transparent mb-3" />
-            <p className="text-text-light/60 text-sm font-barlow max-w-2xl">
+            <p className="text-text-light/80 text-sm font-barlow max-w-2xl">
               {isJA
                 ? 'トランスシーンを支えるレコードレーベル。設立年、所属アーティスト、サブジャンル、主要リリースを網羅。'
                 : 'The record labels that power the trance scene. Founding history, signed artists, subgenres, and notable releases.'}
@@ -87,7 +87,7 @@ export default function LabelsPage() {
 
           {/* Toolbar */}
           <div className="mb-6 flex gap-3 flex-wrap items-center">
-            <div className="flex border border-orange-900/30 rounded overflow-hidden">
+            <div className="flex border border-[rgba(212,175,55,0.25)] rounded overflow-hidden">
               <input
                 type="text"
                 value={search}
@@ -108,7 +108,7 @@ export default function LabelsPage() {
                   className={`font-bebas text-xs tracking-widest px-4 py-2 rounded transition-all ${
                     category === c.id
                       ? 'bg-accent-orange/20 border border-accent-orange text-accent-orange'
-                      : 'bg-transparent border border-orange-900/30 text-text-muted hover:border-accent-orange hover:text-accent-orange'
+                      : 'bg-transparent border border-[rgba(212,175,55,0.25)] text-text-muted hover:border-accent-orange hover:text-accent-orange'
                   }`}
                 >
                   {isJA ? c.ja : c.en}
@@ -128,7 +128,7 @@ export default function LabelsPage() {
                 className={`text-xs tracking-widest font-bebas px-3 py-1 rounded transition-all ${
                   subgenre === 'ALL'
                     ? 'bg-accent-orange/20 border border-accent-orange text-accent-orange'
-                    : 'border border-orange-900/30 text-text-muted hover:border-accent-orange hover:text-accent-orange'
+                    : 'border border-[rgba(212,175,55,0.25)] text-text-muted hover:border-accent-orange hover:text-accent-orange'
                 }`}
               >
                 {isJA ? 'すべて' : 'ALL'}
@@ -140,7 +140,7 @@ export default function LabelsPage() {
                   className={`text-xs tracking-widest font-bebas px-3 py-1 rounded transition-all ${
                     subgenre === g
                       ? 'bg-accent-orange/20 border border-accent-orange text-accent-orange'
-                      : 'border border-orange-900/30 text-text-muted hover:border-accent-orange hover:text-accent-orange'
+                      : 'border border-[rgba(212,175,55,0.25)] text-text-muted hover:border-accent-orange hover:text-accent-orange'
                   }`}
                 >
                   {g}

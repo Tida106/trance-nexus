@@ -42,7 +42,7 @@ export default function TagIndexPage() {
               {isJA ? 'タグクラウド' : 'Tag Cloud'}
             </h1>
             <div className="w-20 h-1 bg-gradient-to-r from-accent-red via-accent-orange to-transparent mb-3" />
-            <p className="text-text-light/60 text-sm font-barlow max-w-2xl">
+            <p className="text-text-light/80 text-sm font-barlow max-w-2xl">
               {isJA
                 ? 'すべてのブログ記事タグを一覧で表示。タグの大きさは記事数を反映しています。'
                 : 'Every tag used across our blog. Larger labels indicate more articles tagged with that term.'}
@@ -69,7 +69,7 @@ export default function TagIndexPage() {
                         href={`/tag/${t.id}`}
                         className={`font-bebas tracking-widest px-3 py-1.5 rounded border transition-all ${sizeClass} ${
                           inactive
-                            ? 'border-orange-900/15 text-text-muted/50 hover:text-text-muted'
+                            ? 'border-[rgba(212,175,55,0.25)] text-text-muted hover:text-text-muted'
                             : 'border-accent-orange/30 text-accent-orange hover:bg-accent-orange/10 hover:border-accent-orange'
                         }`}
                       >

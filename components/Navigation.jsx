@@ -12,7 +12,7 @@ export default function Navigation() {
   return (
     <nav
       aria-label={t('nav.artists') === 'アーティスト' ? 'グローバルナビゲーション' : 'Primary navigation'}
-      className="fixed top-0 left-0 right-0 z-50 h-[84px] bg-black/96 backdrop-blur-xl border-b-2 border-accent-orange flex items-center justify-between px-12"
+      className="fixed top-0 left-0 right-0 z-50 h-[84px] bg-dark-header/96 backdrop-blur-xl border-b-2 border-accent-orange flex items-center justify-between px-12"
     >
       {/* Brand logo. The link doubles as a "back to home" affordance, which
           users have come to expect from a header logo. width/height are
@@ -48,7 +48,7 @@ export default function Navigation() {
           <Link
             key={link.href}
             href={link.href}
-            className="px-5 h-[84px] leading-[84px] block border-l border-orange-900/20 hover:bg-[rgba(212,175,55,0.06)] transition-colors relative group"
+            className="px-5 h-[84px] leading-[84px] block border-l border-[rgba(212,175,55,0.25)] hover:bg-[rgba(212,175,55,0.06)] transition-colors relative group"
           >
             <span className="font-bebas text-sm tracking-widest gold-metallic-nav">
               {link.label}
@@ -57,7 +57,7 @@ export default function Navigation() {
           </Link>
         ))}
         <SearchTrigger />
-        <div className="border-l border-orange-900/20 px-5 h-[84px] leading-[84px] flex gap-2">
+        <div className="border-l border-[rgba(212,175,55,0.25)] px-5 h-[84px] leading-[84px] flex gap-2">
           <button
             type="button"
             onClick={() => switchLanguage('en')}

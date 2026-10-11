@@ -42,7 +42,7 @@ export default function BlogListing({ listings }) {
                 <Link
                   key={post.slug}
                   href={`/blog/${post.slug}`}
-                  className="group bg-dark-bg2/80 border border-orange-900/20 rounded-sm overflow-hidden hover:border-accent-orange/50 hover:translate-y-[-4px] hover:shadow-xl transition-all block"
+                  className="group bg-dark-bg2/80 border border-[rgba(212,175,55,0.25)] rounded-sm overflow-hidden hover:border-accent-orange/50 hover:translate-y-[-4px] hover:shadow-xl transition-all block"
                 >
                   {/* Header bar */}
                   <div className="h-2 bg-gradient-to-r from-accent-red via-accent-orange to-accent-amber" />
@@ -66,12 +66,12 @@ export default function BlogListing({ listings }) {
                     </h2>
 
                     {/* Excerpt */}
-                    <p className="text-sm text-text-light/55 leading-relaxed mb-4 line-clamp-3">
+                    <p className="text-sm text-text-light/80 leading-relaxed mb-4 line-clamp-3">
                       {content.excerpt}
                     </p>
 
                     {/* Meta */}
-                    <div className="flex items-center justify-between text-xs text-text-muted tracking-widest border-t border-orange-900/15 pt-3">
+                    <div className="flex items-center justify-between text-xs text-text-muted tracking-widest border-t border-[rgba(212,175,55,0.25)] pt-3">
                       <span>{post.date}</span>
                       <span>{post.readTime} {isJA ? '分' : 'min read'}</span>
                     </div>

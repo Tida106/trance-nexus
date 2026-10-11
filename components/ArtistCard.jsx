@@ -20,7 +20,7 @@ export default function ArtistCard({ artist }) {
     <Link
       href={`/artists/${artist.slug}`}
       aria-label={`${artist.name} — ${isJA ? 'プロフィールを見る' : 'View profile'}`}
-      className="group block cursor-pointer bg-dark-bg2/80 border border-orange-900/20 rounded-sm overflow-hidden transition-all duration-200 hover:-translate-y-1.5 hover:border-accent-orange hover:shadow-2xl hover:shadow-accent-orange/20 focus-visible:-translate-y-1.5 focus-visible:border-accent-orange focus-visible:shadow-2xl focus-visible:shadow-accent-orange/20"
+      className="group block cursor-pointer bg-dark-bg2/80 border border-[rgba(212,175,55,0.25)] rounded-sm overflow-hidden transition-all duration-200 hover:-translate-y-1.5 hover:border-accent-orange hover:shadow-2xl hover:shadow-accent-orange/20 focus-visible:-translate-y-1.5 focus-visible:border-accent-orange focus-visible:shadow-2xl focus-visible:shadow-accent-orange/20"
     >
       <div className={`h-24 relative flex items-end p-4 overflow-hidden ${artist.banner}`}>
         {/* Subtle zoom on hover — gives the banner gradient a sense of
@@ -47,7 +47,7 @@ export default function ArtistCard({ artist }) {
           {artist.name}
         </h3>
         <div className="text-xs tracking-widest text-accent-orange mb-2">{sub}</div>
-        <p className="text-sm text-text-light/55 leading-relaxed mb-3 line-clamp-3">{short}</p>
+        <p className="text-sm text-text-light/80 leading-relaxed mb-3 line-clamp-3">{short}</p>
 
         <div className="flex gap-2 flex-wrap mb-3">
           {artist.tags.slice(0, 3).map((tag) => (

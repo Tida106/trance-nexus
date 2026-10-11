@@ -158,7 +158,7 @@ export default function Home() {
           ───────────────────────────────────────────────────────── */}
       <section
         id="top"
-        className="relative z-10 min-h-screen flex flex-col items-center justify-center text-center overflow-hidden pt-[84px] pb-28"
+        className="relative z-10 min-h-screen flex flex-col items-center justify-center text-center overflow-hidden pt-[84px] pb-28 bg-gradient-to-b from-[#0E4D6E] via-[#16708A] to-[#1F8C93]"
       >
         <div className="absolute inset-0 bg-gradient-radial from-red-900/20 via-transparent to-transparent opacity-70 pointer-events-none" />
 
@@ -179,7 +179,7 @@ export default function Home() {
 
           <div className="w-20 h-1 bg-gradient-to-r from-transparent via-accent-orange to-transparent mx-auto my-6" />
 
-          <p className="text-lg md:text-xl tracking-wide text-text-light/60 max-w-2xl mx-auto mb-10 animate-in fade-in slide-in-from-bottom-10 duration-700 delay-200">
+          <p className="text-lg md:text-xl tracking-wide text-white max-w-2xl mx-auto mb-10 animate-in fade-in slide-in-from-bottom-10 duration-700 delay-200">
             {t('home.description')}
           </p>
 
@@ -202,7 +202,7 @@ export default function Home() {
                 <div className="font-bebas text-3xl md:text-4xl text-accent-orange drop-shadow-lg mb-2">
                   {stat.value}
                 </div>
-                <div className="text-xs md:text-sm tracking-widest text-text-muted uppercase">
+                <div className="text-xs md:text-sm tracking-widest text-white uppercase">
                   {stat.label}
                 </div>
               </div>
@@ -213,7 +213,7 @@ export default function Home() {
 
         <div
           aria-hidden="true"
-          className="absolute bottom-10 left-1/2 -translate-x-1/2 z-10 flex flex-col items-center gap-2 text-text-muted text-xs tracking-widest animate-bounce"
+          className="absolute bottom-10 left-1/2 -translate-x-1/2 z-10 flex flex-col items-center gap-2 text-white text-xs tracking-widest animate-bounce"
         >
           {t('home.scroll')}
           <span className="text-lg text-accent-orange">▼</span>
@@ -229,7 +229,7 @@ export default function Home() {
           ───────────────────────────────────────────────────────── */}
       <section
         id="newsletter-top"
-        className="cv-auto relative z-10 py-12 px-6 md:px-12 bg-gradient-to-b from-accent-orange/10 via-dark-bg/40 to-transparent border-y border-orange-900/20"
+        className="cv-auto relative z-10 py-12 px-6 md:px-12 bg-gradient-to-b from-accent-orange/10 via-dark-bg/40 to-transparent border-y border-[rgba(212,175,55,0.25)]"
         aria-label="Subscribe to the newsletter"
       >
         <div className="max-w-3xl mx-auto">
@@ -237,7 +237,7 @@ export default function Home() {
             <h2 className="font-bebas text-3xl md:text-4xl tracking-widest text-white mb-2">
               {isJA ? '月次トランス・ダイジェスト' : 'Get the Monthly Trance Digest'}
             </h2>
-            <p className="text-sm md:text-base text-text-light/70 leading-relaxed">
+            <p className="text-sm md:text-base text-text-light/80 leading-relaxed">
               {isJA
                 ? 'ASOT、Group Therapy、FSOEの月次まとめ、新譜キュレーション、フェスティバル情報を毎月メールで。スパムなし、いつでも解除可能。'
                 : 'A monthly digest of ASOT, Group Therapy, and FSOE rotation; new-release picks; festival news. No spam, unsubscribe anytime.'}
@@ -279,7 +279,7 @@ export default function Home() {
                   key={post.slug}
                   href={`/blog/${post.slug}`}
                   prefetch={i < 3 ? undefined : false}
-                  className="group bg-dark-bg2/80 border border-orange-900/20 rounded-sm overflow-hidden hover:border-accent-orange/50 hover:translate-y-[-4px] hover:shadow-xl transition-all block snap-start shrink-0 w-[80vw] sm:w-[60vw] md:w-auto"
+                  className="group bg-dark-bg2/80 border border-[rgba(212,175,55,0.25)] rounded-sm overflow-hidden hover:border-accent-orange/50 hover:translate-y-[-4px] hover:shadow-xl transition-all block snap-start shrink-0 w-[80vw] sm:w-[60vw] md:w-auto"
                 >
                   <div className="h-1.5 bg-gradient-to-r from-accent-red via-accent-orange to-accent-amber" />
                   <div className="p-5">
@@ -296,7 +296,7 @@ export default function Home() {
                     <h3 className="font-bebas text-lg tracking-widest text-white mb-2 leading-tight group-hover:text-accent-orange transition-colors line-clamp-2 min-h-[3rem]">
                       {c.title}
                     </h3>
-                    <p className="text-xs text-text-light/55 leading-relaxed mb-3 line-clamp-2">
+                    <p className="text-xs text-text-light/80 leading-relaxed mb-3 line-clamp-2">
                       {c.excerpt}
                     </p>
                     <div className="text-[11px] text-text-muted tracking-widest">
@@ -378,7 +378,7 @@ export default function Home() {
                 <h2 className="font-bebas text-2xl md:text-4xl tracking-wider text-white group-hover:text-accent-orange transition-colors mb-4 leading-tight">
                   {(isJA ? latestChart.ja.title : latestChart.en.title)}
                 </h2>
-                <p className="text-sm md:text-base text-text-light/70 leading-relaxed mb-5 max-w-3xl">
+                <p className="text-sm md:text-base text-text-light/80 leading-relaxed mb-5 max-w-3xl">
                   {(isJA ? latestChart.ja.excerpt : latestChart.en.excerpt)}
                 </p>
                 <span className="inline-flex items-center gap-2 font-bebas text-sm tracking-widest text-accent-orange group-hover:translate-x-1 transition-transform">
@@ -399,7 +399,7 @@ export default function Home() {
           activity rather than editor preference.
           ───────────────────────────────────────────────────────── */}
       {trending.length > 0 && (
-        <section id="trending" className="cv-auto relative z-10 py-20 px-6 md:px-12 bg-dark-bg2/40 border-y border-orange-900/15">
+        <section id="trending" className="cv-auto relative z-10 py-20 px-6 md:px-12 bg-dark-bg2/40 border-y border-[rgba(212,175,55,0.25)]">
           <div className="max-w-7xl mx-auto">
             <div className="mb-8 flex items-end justify-between gap-4 flex-wrap">
               <div>
@@ -418,7 +418,7 @@ export default function Home() {
                     key={post.slug}
                     href={`/blog/${post.slug}`}
                     prefetch={false}
-                    className="group bg-dark-bg2/80 border border-orange-900/20 rounded-sm overflow-hidden hover:border-accent-orange/50 hover:translate-y-[-3px] hover:shadow-lg transition-all block"
+                    className="group bg-dark-bg2/80 border border-[rgba(212,175,55,0.25)] rounded-sm overflow-hidden hover:border-accent-orange/50 hover:translate-y-[-3px] hover:shadow-lg transition-all block"
                   >
                     <div className="h-1 bg-gradient-to-r from-accent-amber to-accent-orange" />
                     <div className="p-4">
@@ -472,7 +472,7 @@ export default function Home() {
               <h3 className="font-bebas text-xl md:text-3xl tracking-widest text-white group-hover:text-accent-orange transition-colors leading-tight mb-3">
                 {(isJA ? editorsPick.ja.title : editorsPick.en.title)}
               </h3>
-              <p className="text-sm md:text-base text-text-light/70 leading-relaxed line-clamp-3">
+              <p className="text-sm md:text-base text-text-light/80 leading-relaxed line-clamp-3">
                 {(isJA ? editorsPick.ja.excerpt : editorsPick.en.excerpt)}
               </p>
             </Link>
@@ -497,7 +497,7 @@ export default function Home() {
                 <span className="text-2xl">🏆</span>
               </h2>
               <div className="w-20 h-1 bg-gradient-to-r from-accent-red via-accent-orange to-transparent" />
-              <p className="text-sm text-text-light/60 mt-3 max-w-2xl">
+              <p className="text-sm text-text-light/80 mt-3 max-w-2xl">
                 {isJA
                   ? 'ジャンルの30年史を横断する史上最高のトランス・トラック ― ランク付き、検証済み、クロス・チェック済みのカノン。'
                   : "The all-time best trance tracks across the genre's 30-year history — ranked, verified, and cross-checked against the historical canon."}
@@ -513,7 +513,7 @@ export default function Home() {
                     key={post.slug}
                     href={`/blog/${post.slug}`}
                     prefetch={featured ? undefined : false}
-                    className={`group bg-dark-bg2/80 border border-orange-900/20 rounded-sm overflow-hidden hover:border-accent-orange/60 hover:translate-y-[-4px] hover:shadow-2xl hover:shadow-accent-orange/10 transition-all block ${featured ? 'md:col-span-2' : ''}`}
+                    className={`group bg-dark-bg2/80 border border-[rgba(212,175,55,0.25)] rounded-sm overflow-hidden hover:border-accent-orange/60 hover:translate-y-[-4px] hover:shadow-2xl hover:shadow-accent-orange/10 transition-all block ${featured ? 'md:col-span-2' : ''}`}
                   >
                     <div className="h-1.5 bg-gradient-to-r from-accent-red via-accent-orange to-accent-amber" />
                     <div className="p-5 md:p-6">
@@ -530,7 +530,7 @@ export default function Home() {
                       <h3 className={`font-bebas tracking-widest text-white leading-tight group-hover:text-accent-orange transition-colors mb-3 ${featured ? 'text-xl md:text-2xl' : 'text-lg line-clamp-2 min-h-[3rem]'}`}>
                         {c.title}
                       </h3>
-                      <p className={`text-text-light/65 leading-relaxed ${featured ? 'text-sm mb-4' : 'text-xs mb-3 line-clamp-3'}`}>
+                      <p className={`text-text-light/80 leading-relaxed ${featured ? 'text-sm mb-4' : 'text-xs mb-3 line-clamp-3'}`}>
                         {c.excerpt}
                       </p>
                       <div className="text-[11px] text-text-muted tracking-widest">
@@ -566,7 +566,7 @@ export default function Home() {
                 {isJA ? 'ジャンル別に見る' : 'Browse by Genre'}
               </h2>
               <div className="w-20 h-1 bg-gradient-to-r from-accent-red via-accent-orange to-transparent" />
-              <p className="text-sm text-text-light/60 mt-3 max-w-2xl">
+              <p className="text-sm text-text-light/80 mt-3 max-w-2xl">
                 {isJA
                   ? '各サブジャンルの定義、起源、主要アーティスト、おすすめトラックを網羅した完全ガイド。'
                   : "Definitive guides covering each subgenre's definition, origins, key artists, and starter tracks."}
@@ -588,7 +588,7 @@ export default function Home() {
                     key={post.slug}
                     href={`/blog/${post.slug}`}
                     prefetch={false}
-                    className="group bg-dark-bg2/60 border border-orange-900/20 rounded-sm p-4 text-center hover:border-accent-orange/60 hover:bg-accent-orange/5 hover:translate-y-[-2px] transition-all"
+                    className="group bg-dark-bg2/60 border border-[rgba(212,175,55,0.25)] rounded-sm p-4 text-center hover:border-accent-orange/60 hover:bg-accent-orange/5 hover:translate-y-[-2px] transition-all"
                   >
                     <div className="font-bebas text-base md:text-lg tracking-widest text-white group-hover:text-accent-orange transition-colors leading-tight">
                       {genreName || c.title}
@@ -638,7 +638,7 @@ export default function Home() {
                     key={e.slug}
                     href={`/events/${e.slug}`}
                     prefetch={false}
-                    className="group block bg-dark-bg2/70 border border-orange-900/20 rounded-sm p-5 hover:border-accent-orange/50 hover:translate-y-[-2px] hover:shadow-lg transition-all"
+                    className="group block bg-dark-bg2/70 border border-[rgba(212,175,55,0.25)] rounded-sm p-5 hover:border-accent-orange/50 hover:translate-y-[-2px] hover:shadow-lg transition-all"
                   >
                     <div className="font-bebas text-lg md:text-xl tracking-widest text-white mb-1 truncate group-hover:text-accent-orange transition-colors">
                       {e.name}
@@ -690,7 +690,7 @@ export default function Home() {
                     key={g.slug}
                     href={`/glossary/${g.slug}`}
                     prefetch={false}
-                    className="group bg-dark-bg2/60 border border-orange-900/20 rounded-sm p-4 hover:border-accent-orange/50 hover:translate-y-[-2px] transition-all"
+                    className="group bg-dark-bg2/60 border border-[rgba(212,175,55,0.25)] rounded-sm p-4 hover:border-accent-orange/50 hover:translate-y-[-2px] transition-all"
                   >
                     <div className="font-bebas text-[10px] tracking-widest text-accent-orange/80 mb-1 uppercase">
                       {g.category}
@@ -698,7 +698,7 @@ export default function Home() {
                     <div className="font-bebas text-lg tracking-widest text-white mb-2 group-hover:text-accent-orange transition-colors">
                       {term}
                     </div>
-                    <p className="text-xs text-text-light/55 leading-relaxed line-clamp-3">
+                    <p className="text-xs text-text-light/80 leading-relaxed line-clamp-3">
                       {short}
                     </p>
                   </Link>
@@ -726,7 +726,7 @@ export default function Home() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             <Link
               href="/labels"
-              className="group bg-dark-bg2/70 border border-orange-900/20 rounded-sm p-5 text-center hover:border-accent-orange/50 hover:translate-y-[-2px] transition-all"
+              className="group bg-dark-bg2/70 border border-[rgba(212,175,55,0.25)] rounded-sm p-5 text-center hover:border-accent-orange/50 hover:translate-y-[-2px] transition-all"
             >
               <div className="text-3xl mb-2">💿</div>
               <div className="font-bebas text-base tracking-widest text-white group-hover:text-accent-orange transition-colors">
@@ -738,7 +738,7 @@ export default function Home() {
             </Link>
             <Link
               href="/radio"
-              className="group bg-dark-bg2/70 border border-orange-900/20 rounded-sm p-5 text-center hover:border-accent-orange/50 hover:translate-y-[-2px] transition-all"
+              className="group bg-dark-bg2/70 border border-[rgba(212,175,55,0.25)] rounded-sm p-5 text-center hover:border-accent-orange/50 hover:translate-y-[-2px] transition-all"
             >
               <div className="text-3xl mb-2">📻</div>
               <div className="font-bebas text-base tracking-widest text-white group-hover:text-accent-orange transition-colors">
@@ -788,7 +788,7 @@ export default function Home() {
           <h2 className="font-bebas text-3xl md:text-5xl tracking-wider text-white mb-3 leading-tight">
             EXPLORE TRANCE HISTORY
           </h2>
-          <p className="text-text-light/75 text-base md:text-lg leading-relaxed mb-6">
+          <p className="text-text-light/80 text-base md:text-lg leading-relaxed mb-6">
             {isJA
               ? '5つの時代、30の決定的瞬間 ― フランクフルトのクラブとゴア・シーンから、ASOT、Anjuna帝国、ラスベガス・スフィアでのAnymaまで。'
               : 'Five eras, thirty defining moments — from Frankfurt clubs and the Goa scene to ASOT, the Anjuna empire, and Anyma at the Las Vegas Sphere.'}

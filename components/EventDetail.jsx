@@ -84,7 +84,7 @@ export default function EventDetail({ event, headliners, related }) {
             {/* Top facts */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
               {event.dates && (
-                <div className="bg-dark-bg2/60 border border-orange-900/20 rounded-sm p-4">
+                <div className="bg-dark-bg2/60 border border-[rgba(212,175,55,0.25)] rounded-sm p-4">
                   <div className="font-bebas text-xs tracking-widest text-accent-orange mb-1">
                     {isJA ? '日程' : 'DATES'}
                   </div>
@@ -109,7 +109,7 @@ export default function EventDetail({ event, headliners, related }) {
               )}
 
               {event.venue && (
-                <div className="bg-dark-bg2/60 border border-orange-900/20 rounded-sm p-4">
+                <div className="bg-dark-bg2/60 border border-[rgba(212,175,55,0.25)] rounded-sm p-4">
                   <div className="font-bebas text-xs tracking-widest text-accent-orange mb-1">
                     {isJA ? '会場' : 'VENUE'}
                   </div>
@@ -123,7 +123,7 @@ export default function EventDetail({ event, headliners, related }) {
                 </div>
               )}
 
-              <div className="bg-dark-bg2/60 border border-orange-900/20 rounded-sm p-4">
+              <div className="bg-dark-bg2/60 border border-[rgba(212,175,55,0.25)] rounded-sm p-4">
                 <div className="font-bebas text-xs tracking-widest text-accent-orange mb-1">
                   {isJA ? 'チケット／公式' : 'TICKETS / OFFICIAL'}
                 </div>
@@ -178,7 +178,7 @@ export default function EventDetail({ event, headliners, related }) {
                     <Link
                       key={a.slug}
                       href={`/artists/${a.slug}`}
-                      className="bg-dark-bg2/60 border border-orange-900/20 rounded-sm p-3 hover:border-accent-orange/50 transition-all"
+                      className="bg-dark-bg2/60 border border-[rgba(212,175,55,0.25)] rounded-sm p-3 hover:border-accent-orange/50 transition-all"
                     >
                       <div className="font-bebas text-base tracking-widest text-white">{a.name}</div>
                       {a.country && (
@@ -220,7 +220,7 @@ export default function EventDetail({ event, headliners, related }) {
                       {event.labels.map((l, i) => (
                         <span
                           key={i}
-                          className="text-xs tracking-widest px-3 py-1 rounded bg-dark-bg2/60 border border-orange-900/30 text-text-light"
+                          className="text-xs tracking-widest px-3 py-1 rounded bg-dark-bg2/60 border border-[rgba(212,175,55,0.25)] text-text-light"
                         >
                           {l}
                         </span>
@@ -237,7 +237,7 @@ export default function EventDetail({ event, headliners, related }) {
                 <h2 className="font-bebas text-2xl tracking-widest text-white mb-3">
                   {isJA ? '地図' : 'Map'}
                 </h2>
-                <div className="border border-orange-900/30 rounded-sm overflow-hidden">
+                <div className="border border-[rgba(212,175,55,0.25)] rounded-sm overflow-hidden">
                   <iframe
                     src={mapEmbed}
                     title={`Map of ${event.venue.name}`}
@@ -267,7 +267,7 @@ export default function EventDetail({ event, headliners, related }) {
                 <h2 className="font-bebas text-2xl tracking-widest text-white mb-3">
                   {isJA ? '過去の開催' : 'Past Editions'}
                 </h2>
-                <div className="bg-dark-bg2/40 border border-orange-900/20 rounded-sm divide-y divide-orange-900/15">
+                <div className="bg-dark-bg2/40 border border-[rgba(212,175,55,0.25)] rounded-sm divide-y divide-[rgba(212,175,55,0.25)]">
                   {event.editions.map((ed, i) => (
                     <div key={i} className="px-4 py-3 flex items-baseline gap-4 text-sm">
                       <div className="font-bebas text-accent-orange w-16 shrink-0">{ed.year}</div>

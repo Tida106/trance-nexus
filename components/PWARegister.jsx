@@ -107,7 +107,7 @@ export default function PWARegister() {
       <div className="font-bebas text-sm tracking-widest text-accent-orange">
         {isJA ? 'アプリとして追加' : 'INSTALL TRANCE NEXUS'}
       </div>
-      <p className="text-xs text-text-light/75 leading-relaxed">
+      <p className="text-xs text-text-light/80 leading-relaxed">
         {isJA
           ? 'ホーム画面に追加してオフラインでも記事を読めるようにします。'
           : 'Add to your home screen to read articles offline and launch faster.'}
@@ -123,7 +123,7 @@ export default function PWARegister() {
         <button
           type="button"
           onClick={handleDismiss}
-          className="font-bebas text-xs tracking-widest px-3 py-2 rounded border border-orange-900/30 text-text-muted hover:text-text-light transition-all"
+          className="font-bebas text-xs tracking-widest px-3 py-2 rounded border border-[rgba(212,175,55,0.25)] text-text-muted hover:text-text-light transition-all"
           aria-label={isJA ? '閉じる' : 'Dismiss'}
         >
           {isJA ? 'あとで' : 'NOT NOW'}

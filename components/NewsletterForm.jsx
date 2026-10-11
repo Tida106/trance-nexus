@@ -172,7 +172,7 @@ export default function NewsletterForm({ variant = 'full', className = '' }) {
             placeholder={isJA ? 'your@email.com' : 'your@email.com'}
             disabled={status === 'submitting' || status === 'success'}
             aria-label={isJA ? 'メールアドレス' : 'Email address'}
-            className="flex-1 bg-dark-bg border border-orange-900/30 rounded px-3 py-2 text-sm text-text-light placeholder-text-muted/50 focus:outline-none focus:border-accent-orange disabled:opacity-50"
+            className="flex-1 bg-dark-bg border border-[rgba(212,175,55,0.25)] rounded px-3 py-2 text-sm text-text-light placeholder-text-muted/50 focus:outline-none focus:border-accent-orange disabled:opacity-50"
           />
           {/* Honeypot — hidden from real users, attractive to dumb bots. */}
           <input
@@ -203,7 +203,7 @@ export default function NewsletterForm({ variant = 'full', className = '' }) {
   // Full / CTA variant.
   const wrapper =
     variant === 'cta'
-      ? 'bg-dark-bg2/80 border border-orange-900/30 rounded-sm p-6 md:p-8'
+      ? 'bg-dark-bg2/80 border border-[rgba(212,175,55,0.25)] rounded-sm p-6 md:p-8'
       : '';
 
   return (
@@ -215,7 +215,7 @@ export default function NewsletterForm({ variant = 'full', className = '' }) {
       <h3 className="font-bebas text-2xl tracking-widest text-accent-orange mb-1">
         {isJA ? 'ニュースレターを購読' : 'Subscribe to the Newsletter'}
       </h3>
-      <p className="text-sm text-text-light/70 mb-5">
+      <p className="text-sm text-text-light/80 mb-5">
         {isJA
           ? '月1回程度、新着記事・注目アーティスト・ラジオ最新エピソードをお届けします。いつでも解除できます。'
           : 'A monthly digest of new articles, featured artists, and the latest radio episodes. Unsubscribe at any time.'}
@@ -237,7 +237,7 @@ export default function NewsletterForm({ variant = 'full', className = '' }) {
             disabled={status === 'submitting' || status === 'success'}
             aria-required="true"
             aria-invalid={status === 'error'}
-            className="w-full bg-dark-bg border border-orange-900/30 rounded px-3 py-2 text-sm text-text-light placeholder-text-muted/50 focus:outline-none focus:border-accent-orange disabled:opacity-50"
+            className="w-full bg-dark-bg border border-[rgba(212,175,55,0.25)] rounded px-3 py-2 text-sm text-text-light placeholder-text-muted/50 focus:outline-none focus:border-accent-orange disabled:opacity-50"
           />
         </div>
 
@@ -266,7 +266,7 @@ export default function NewsletterForm({ variant = 'full', className = '' }) {
                   className={`flex items-center gap-2 px-3 py-2 rounded border text-xs tracking-widest cursor-pointer transition-colors ${
                     checked
                       ? 'border-accent-orange bg-accent-orange/10 text-accent-orange'
-                      : 'border-orange-900/30 text-text-light/70 hover:border-accent-orange/50'
+                      : 'border-[rgba(212,175,55,0.25)] text-text-light/80 hover:border-accent-orange/50'
                   }`}
                 >
                   <input
@@ -283,7 +283,7 @@ export default function NewsletterForm({ variant = 'full', className = '' }) {
           </div>
         </fieldset>
 
-        <label className="flex items-start gap-2 text-xs text-text-light/70 leading-relaxed cursor-pointer">
+        <label className="flex items-start gap-2 text-xs text-text-light/80 leading-relaxed cursor-pointer">
           <input
             type="checkbox"
             className="mt-0.5 accent-accent-orange"

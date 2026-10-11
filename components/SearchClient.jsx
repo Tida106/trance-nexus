@@ -141,8 +141,8 @@ export default function SearchClient() {
                         isActive
                           ? 'bg-accent-orange/20 border border-accent-orange text-accent-orange'
                           : count === 0 && id !== 'ALL'
-                          ? 'border border-orange-900/15 text-text-muted/40 cursor-not-allowed'
-                          : 'border border-orange-900/30 text-text-muted hover:border-accent-orange hover:text-accent-orange'
+                          ? 'border border-[rgba(212,175,55,0.25)] text-text-muted cursor-not-allowed'
+                          : 'border border-[rgba(212,175,55,0.25)] text-text-muted hover:border-accent-orange hover:text-accent-orange'
                       }`}
                     >
                       {isJA ? labels.ja : labels.en}{' '}
@@ -168,8 +168,8 @@ export default function SearchClient() {
 
           {/* Empty / placeholder states */}
           {!query.trim() && (
-            <div className="bg-dark-bg2/60 border border-orange-900/20 rounded-sm p-8 text-center">
-              <p className="text-text-light/65 mb-4">
+            <div className="bg-dark-bg2/60 border border-[rgba(212,175,55,0.25)] rounded-sm p-8 text-center">
+              <p className="text-text-light/80 mb-4">
                 {isJA
                   ? '検索キーワードを入力してください。記事25本、アーティスト20名、レーベル20、用語集40を横断検索します。'
                   : 'Enter a search term. We search across 25 articles, 20 artists, 20 labels, and 40 glossary terms.'}
@@ -182,7 +182,7 @@ export default function SearchClient() {
           )}
 
           {!loading && query.trim() && results.length === 0 && (
-            <div className="bg-dark-bg2/60 border border-orange-900/20 rounded-sm p-8">
+            <div className="bg-dark-bg2/60 border border-[rgba(212,175,55,0.25)] rounded-sm p-8">
               <p className="text-text-light/85 mb-4">
                 {isJA
                   ? `「${query}」に該当する結果が見つかりませんでした。`
@@ -226,7 +226,7 @@ export default function SearchClient() {
                     key={r.id}
                     href={r.url}
                     role="listitem"
-                    className="group flex gap-4 bg-dark-bg2/60 border border-orange-900/20 rounded-sm p-4 hover:border-accent-orange/50 hover:translate-y-[-2px] transition-all"
+                    className="group flex gap-4 bg-dark-bg2/60 border border-[rgba(212,175,55,0.25)] rounded-sm p-4 hover:border-accent-orange/50 hover:translate-y-[-2px] transition-all"
                   >
                     <div className="text-3xl shrink-0">{r.icon}</div>
                     <div className="flex-1 min-w-0">
@@ -241,11 +241,11 @@ export default function SearchClient() {
                         </span>
                       </div>
                       {excerpt && (
-                        <p className="text-xs text-text-light/65 leading-relaxed line-clamp-2">
+                        <p className="text-xs text-text-light/80 leading-relaxed line-clamp-2">
                           {excerpt}
                         </p>
                       )}
-                      <div className="text-xs text-text-muted/70 tracking-widest mt-2">
+                      <div className="text-xs text-text-muted tracking-widest mt-2">
                         {r.url}
                       </div>
                     </div>

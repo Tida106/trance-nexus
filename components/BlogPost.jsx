@@ -22,7 +22,7 @@ function ArticleCard({ post, isJA }) {
   return (
     <Link
       href={`/blog/${post.slug}`}
-      className="group block bg-dark-bg2/80 border border-orange-900/20 rounded-sm overflow-hidden hover:border-accent-orange/50 hover:translate-y-[-3px] hover:shadow-lg transition-all"
+      className="group block bg-dark-bg2/80 border border-[rgba(212,175,55,0.25)] rounded-sm overflow-hidden hover:border-accent-orange/50 hover:translate-y-[-3px] hover:shadow-lg transition-all"
     >
       <div className="h-1.5 bg-gradient-to-r from-accent-red via-accent-orange to-accent-amber" />
       <div className="p-4">
@@ -36,7 +36,7 @@ function ArticleCard({ post, isJA }) {
         <h3 className="font-bebas text-base tracking-widest text-white mb-2 leading-tight group-hover:text-accent-orange transition-colors line-clamp-2">
           {c.title}
         </h3>
-        <p className="text-xs text-text-light/50 leading-relaxed line-clamp-2 mb-3">
+        <p className="text-xs text-text-light/80 leading-relaxed line-clamp-2 mb-3">
           {c.excerpt}
         </p>
         <div className="text-xs text-text-muted tracking-widest">
@@ -102,7 +102,7 @@ export default function BlogPost({ post, prevPost, nextPost, related }) {
             </h1>
             <div className="w-20 h-1 bg-gradient-to-r from-accent-red via-accent-orange to-transparent mb-4" />
 
-            <p className="text-text-light/60 text-base leading-relaxed mb-5">
+            <p className="text-text-light/80 text-base leading-relaxed mb-5">
               {content.description}
             </p>
 
@@ -120,7 +120,7 @@ export default function BlogPost({ post, prevPost, nextPost, related }) {
                   {section.heading}
                 </h2>
                 <div
-                  className="text-text-light/75 text-sm leading-relaxed font-barlow"
+                  className="text-text-light/80 text-sm leading-relaxed font-barlow"
                   dangerouslySetInnerHTML={{ __html: section.body }}
                 />
               </section>
@@ -139,7 +139,7 @@ export default function BlogPost({ post, prevPost, nextPost, related }) {
               picks up the same field to emit ItemList + MusicRecording
               JSON-LD on top of the existing BlogPosting schema. */}
           {Array.isArray(post.tracks) && post.tracks.length > 0 && (
-            <section className="mt-12 pt-8 border-t border-orange-900/20">
+            <section className="mt-12 pt-8 border-t border-[rgba(212,175,55,0.25)]">
               <h2 className="font-bebas text-3xl tracking-widest text-accent-orange mb-2">
                 {isJA ? 'ランキング' : 'The Ranked List'}
               </h2>
@@ -165,7 +165,7 @@ export default function BlogPost({ post, prevPost, nextPost, related }) {
                   return (
                     <li
                       key={t.rank}
-                      className="bg-dark-bg2/60 border border-orange-900/15 rounded-sm p-5 hover:border-accent-orange/40 transition-colors"
+                      className="bg-dark-bg2/60 border border-[rgba(212,175,55,0.25)] rounded-sm p-5 hover:border-accent-orange/40 transition-colors"
                     >
                       <div className="flex items-baseline gap-4 mb-2">
                         <span className="font-bebas text-3xl tracking-wider text-accent-orange shrink-0">
@@ -180,7 +180,7 @@ export default function BlogPost({ post, prevPost, nextPost, related }) {
                             ) : (
                               <span>{t.artist}</span>
                             )}
-                            <span className="text-text-light/50"> — </span>
+                            <span className="text-text-light/80"> — </span>
                             <span className="italic">&ldquo;{t.title}&rdquo;</span>
                           </div>
                           <div className="text-xs text-text-muted tracking-widest mt-1 flex flex-wrap gap-x-3 gap-y-1">
@@ -197,7 +197,7 @@ export default function BlogPost({ post, prevPost, nextPost, related }) {
                         </div>
                       </div>
                       {review && (
-                        <p className="text-sm text-text-light/75 leading-relaxed font-barlow mt-3 pl-0 md:pl-12">
+                        <p className="text-sm text-text-light/80 leading-relaxed font-barlow mt-3 pl-0 md:pl-12">
                           {review}
                         </p>
                       )}
@@ -217,7 +217,7 @@ export default function BlogPost({ post, prevPost, nextPost, related }) {
                           target="_blank"
                           rel="noopener noreferrer"
                           aria-label={`${isJA ? 'YouTubeで検索' : 'Search YouTube'}: ${q}`}
-                          className="inline-flex items-center gap-1.5 font-bebas text-xs tracking-widest px-3 py-1.5 rounded border border-orange-900/40 bg-dark-bg/50 text-text-light/85 hover:bg-accent-orange/10 hover:border-accent-orange/40 hover:text-accent-orange transition-colors"
+                          className="inline-flex items-center gap-1.5 font-bebas text-xs tracking-widest px-3 py-1.5 rounded border border-[rgba(212,175,55,0.25)] bg-dark-bg/50 text-text-light/85 hover:bg-accent-orange/10 hover:border-accent-orange/40 hover:text-accent-orange transition-colors"
                         >
                           <span aria-hidden="true">📺</span>
                           <span>{isJA ? 'YouTube' : 'YouTube'}</span>
@@ -239,7 +239,7 @@ export default function BlogPost({ post, prevPost, nextPost, related }) {
               don't ship platform IDs here either — the search hand-off
               is the no-fabrication path. */}
           {Array.isArray(post.featuredTracks) && post.featuredTracks.length > 0 && (
-            <section className="mt-12 pt-8 border-t border-orange-900/20">
+            <section className="mt-12 pt-8 border-t border-[rgba(212,175,55,0.25)]">
               <h2 className="font-bebas text-2xl tracking-widest text-accent-orange mb-2">
                 {isJA ? 'この記事で取り上げたトラック' : 'Featured Tracks'}
               </h2>
@@ -255,11 +255,11 @@ export default function BlogPost({ post, prevPost, nextPost, related }) {
                   return (
                     <li
                       key={i}
-                      className="bg-dark-bg2/60 border border-orange-900/15 rounded-sm p-4 hover:border-accent-orange/40 transition-colors"
+                      className="bg-dark-bg2/60 border border-[rgba(212,175,55,0.25)] rounded-sm p-4 hover:border-accent-orange/40 transition-colors"
                     >
                       <div className="font-bebas text-base tracking-widest text-white leading-tight mb-1">
                         <span>{t.artist}</span>
-                        <span className="text-text-light/50"> — </span>
+                        <span className="text-text-light/80"> — </span>
                         <span className="italic">&ldquo;{t.title}&rdquo;</span>
                       </div>
                       {(t.label || t.genre) && (
@@ -285,7 +285,7 @@ export default function BlogPost({ post, prevPost, nextPost, related }) {
                           target="_blank"
                           rel="noopener noreferrer"
                           aria-label={`${isJA ? 'YouTubeで検索' : 'Search YouTube'}: ${q}`}
-                          className="inline-flex items-center gap-1.5 font-bebas text-xs tracking-widest px-3 py-1.5 rounded border border-orange-900/40 bg-dark-bg/50 text-text-light/85 hover:bg-accent-orange/10 hover:border-accent-orange/40 hover:text-accent-orange transition-colors"
+                          className="inline-flex items-center gap-1.5 font-bebas text-xs tracking-widest px-3 py-1.5 rounded border border-[rgba(212,175,55,0.25)] bg-dark-bg/50 text-text-light/85 hover:bg-accent-orange/10 hover:border-accent-orange/40 hover:text-accent-orange transition-colors"
                         >
                           <span aria-hidden="true">📺</span>
                           <span>YouTube</span>
@@ -302,7 +302,7 @@ export default function BlogPost({ post, prevPost, nextPost, related }) {
             const embeds = getEmbedsForSlug(post.slug);
             if (embeds.length === 0) return null;
             return (
-              <section className="mt-12 pt-8 border-t border-orange-900/20">
+              <section className="mt-12 pt-8 border-t border-[rgba(212,175,55,0.25)]">
                 <h2 className="font-bebas text-2xl tracking-widest text-accent-orange mb-2">
                   {isJA ? '関連楽曲' : 'Related Tracks'}
                 </h2>
@@ -326,7 +326,7 @@ export default function BlogPost({ post, prevPost, nextPost, related }) {
             const products = getProductsForSlug(post.slug, language);
             if (products.length === 0) return null;
             return (
-              <section className="mt-12 pt-8 border-t border-orange-900/20">
+              <section className="mt-12 pt-8 border-t border-[rgba(212,175,55,0.25)]">
                 <h2 className="font-bebas text-2xl tracking-widest text-accent-orange mb-2">
                   {isJA ? '関連商品' : 'Recommended Gear'}
                 </h2>
@@ -351,7 +351,7 @@ export default function BlogPost({ post, prevPost, nextPost, related }) {
               <aside
                 role="note"
                 aria-label={isJA ? 'アフィリエイトに関する注記' : 'Affiliate disclosure'}
-                className="mt-10 px-4 py-3 rounded border border-orange-900/30 bg-dark-bg2/60 text-xs text-text-muted leading-relaxed"
+                className="mt-10 px-4 py-3 rounded border border-[rgba(212,175,55,0.25)] bg-dark-bg2/60 text-xs text-text-muted leading-relaxed"
               >
                 {isJA
                   ? '※ 本記事にはアフィリエイトリンクが含まれています。リンク経由でご購入いただくと、当サイトの運営費の一部となる紹介料を受け取ることがあります。商品の選定は編集判断によるもので、紹介料の有無で内容を変えることはありません。'
@@ -371,19 +371,19 @@ export default function BlogPost({ post, prevPost, nextPost, related }) {
             ].join(' ')}
           />
 
-          <section className="mt-12 pt-8 border-t border-orange-900/20">
+          <section className="mt-12 pt-8 border-t border-[rgba(212,175,55,0.25)]">
             <NewsletterForm variant="cta" />
           </section>
 
           {/* Prev / Next navigation */}
           <nav
             aria-label={isJA ? '前後の記事' : 'Previous and next articles'}
-            className="mt-16 pt-8 border-t border-orange-900/20 grid grid-cols-1 sm:grid-cols-2 gap-4"
+            className="mt-16 pt-8 border-t border-[rgba(212,175,55,0.25)] grid grid-cols-1 sm:grid-cols-2 gap-4"
           >
             {prevPost ? (
               <Link
                 href={`/blog/${prevPost.slug}`}
-                className="group flex flex-col gap-1 p-4 border border-orange-900/20 rounded-sm hover:border-accent-orange/40 hover:bg-accent-orange/5 transition-all"
+                className="group flex flex-col gap-1 p-4 border border-[rgba(212,175,55,0.25)] rounded-sm hover:border-accent-orange/40 hover:bg-accent-orange/5 transition-all"
               >
                 <span className="text-xs text-text-muted tracking-widest">
                   ← {isJA ? '前の記事' : 'Previous'}
@@ -399,7 +399,7 @@ export default function BlogPost({ post, prevPost, nextPost, related }) {
             {nextPost ? (
               <Link
                 href={`/blog/${nextPost.slug}`}
-                className="group flex flex-col gap-1 p-4 border border-orange-900/20 rounded-sm hover:border-accent-orange/40 hover:bg-accent-orange/5 transition-all text-right sm:text-right"
+                className="group flex flex-col gap-1 p-4 border border-[rgba(212,175,55,0.25)] rounded-sm hover:border-accent-orange/40 hover:bg-accent-orange/5 transition-all text-right sm:text-right"
               >
                 <span className="text-xs text-text-muted tracking-widest">
                   {isJA ? '次の記事' : 'Next'} →
@@ -429,7 +429,7 @@ export default function BlogPost({ post, prevPost, nextPost, related }) {
           )}
 
           {/* Back to blog */}
-          <div className="mt-10 pt-8 border-t border-orange-900/20 flex justify-between items-center">
+          <div className="mt-10 pt-8 border-t border-[rgba(212,175,55,0.25)] flex justify-between items-center">
             <Link
               href="/blog"
               className="font-bebas text-sm tracking-widest px-5 py-2 border border-accent-orange/30 text-accent-orange hover:bg-accent-orange/10 transition-all rounded"

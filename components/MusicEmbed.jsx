@@ -82,9 +82,9 @@ export default function MusicEmbed({ query, label, title, compact, platform, id 
   ];
 
   return (
-    <div className="bg-dark-bg2/40 border border-orange-900/20 rounded-sm overflow-hidden">
+    <div className="bg-dark-bg2/40 border border-[rgba(212,175,55,0.25)] rounded-sm overflow-hidden">
       {label && (
-        <div className="px-3 py-2 border-b border-orange-900/20">
+        <div className="px-3 py-2 border-b border-[rgba(212,175,55,0.25)]">
           <span className="text-xs tracking-widest text-text-light/85 block truncate">
             {label}
           </span>

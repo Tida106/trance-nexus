@@ -87,7 +87,7 @@ export default function GlossaryPage() {
               {isJA ? 'トランス用語集' : 'Trance Glossary'}
             </h1>
             <div className="w-20 h-1 bg-gradient-to-r from-accent-red via-accent-orange to-transparent mb-3" />
-            <p className="text-text-light/60 text-sm font-barlow max-w-2xl">
+            <p className="text-text-light/80 text-sm font-barlow max-w-2xl">
               {isJA
                 ? 'ジャンル、プロダクション、DJパフォーマンス、シーン用語まで——トランス・ミュージックを理解するための語彙。'
                 : 'From genres and production to DJ performance and scene jargon — the vocabulary for understanding trance music.'}
@@ -96,7 +96,7 @@ export default function GlossaryPage() {
 
           {/* Toolbar */}
           <div className="mb-6 flex gap-3 flex-wrap items-center">
-            <div className="flex border border-orange-900/30 rounded overflow-hidden">
+            <div className="flex border border-[rgba(212,175,55,0.25)] rounded overflow-hidden">
               <input
                 type="text"
                 value={search}
@@ -116,7 +116,7 @@ export default function GlossaryPage() {
                   className={`font-bebas text-xs tracking-widest px-4 py-2 rounded transition-all ${
                     category === c.id
                       ? 'bg-accent-orange/20 border border-accent-orange text-accent-orange'
-                      : 'bg-transparent border border-orange-900/30 text-text-muted hover:border-accent-orange hover:text-accent-orange'
+                      : 'bg-transparent border border-[rgba(212,175,55,0.25)] text-text-muted hover:border-accent-orange hover:text-accent-orange'
                   }`}
                 >
                   {isJA ? c.ja : c.en}
@@ -128,7 +128,7 @@ export default function GlossaryPage() {
           {/* A-Z index */}
           <nav
             aria-label={isJA ? '索引' : 'Alphabet index'}
-            className="mb-10 p-3 bg-dark-bg2/60 border border-orange-900/20 rounded-sm flex flex-wrap gap-1 justify-center"
+            className="mb-10 p-3 bg-dark-bg2/60 border border-[rgba(212,175,55,0.25)] rounded-sm flex flex-wrap gap-1 justify-center"
           >
             {ALPHABET.map((letter) => {
               const present = presentLetters.has(letter);
@@ -143,7 +143,7 @@ export default function GlossaryPage() {
               ) : (
                 <span
                   key={letter}
-                  className="font-bebas text-sm tracking-widest w-8 h-8 flex items-center justify-center rounded text-text-muted/40 cursor-default select-none"
+                  className="font-bebas text-sm tracking-widest w-8 h-8 flex items-center justify-center rounded text-text-muted cursor-default select-none"
                 >
                   {letter}
                 </span>
@@ -164,14 +164,14 @@ export default function GlossaryPage() {
                 <div className="font-bebas text-3xl tracking-widest text-accent-orange w-12">
                   {letter}
                 </div>
-                <div className="flex-1 h-px bg-orange-900/30" />
+                <div className="flex-1 h-px bg-[rgba(212,175,55,0.25)]" />
               </div>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                 {items.map((t) => (
                   <Link
                     key={t.slug}
                     href={`/glossary/${t.slug}`}
-                    className="group bg-dark-bg2/80 border border-orange-900/20 rounded-sm p-4 hover:border-accent-orange/50 hover:translate-y-[-2px] transition-all"
+                    className="group bg-dark-bg2/80 border border-[rgba(212,175,55,0.25)] rounded-sm p-4 hover:border-accent-orange/50 hover:translate-y-[-2px] transition-all"
                   >
                     <div className="flex items-baseline justify-between gap-3 mb-1">
                       <h3 className="font-bebas text-lg tracking-widest text-white group-hover:text-accent-orange transition-colors">
@@ -181,7 +181,7 @@ export default function GlossaryPage() {
                         {isJA ? t.term.en : t.term.ja}
                       </span>
                     </div>
-                    <p className="text-xs text-text-light/60 leading-relaxed line-clamp-2">
+                    <p className="text-xs text-text-light/80 leading-relaxed line-clamp-2">
                       {isJA ? t.short.ja : t.short.en}
                     </p>
                   </Link>

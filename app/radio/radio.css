@@ -14,7 +14,7 @@
    Moved from globals.css — only used on /radio page. */
 .featured-rainbow {
   background:
-    linear-gradient(180deg, rgba(6, 4, 2, 0.30) 0%, rgba(6, 4, 2, 0.22) 50%, rgba(6, 4, 2, 0.36) 100%),
+    linear-gradient(180deg, rgba(11, 66, 96, 0.30) 0%, rgba(11, 66, 96, 0.22) 50%, rgba(11, 66, 96, 0.36) 100%),
     linear-gradient(
       120deg,
       #4e2380 0%,

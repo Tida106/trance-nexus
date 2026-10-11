@@ -116,7 +116,7 @@ export default function TimelineClient() {
             <h1 className="font-bebas text-5xl md:text-7xl tracking-wider text-white drop-shadow-lg leading-none mb-4">
               {isJA ? 'トランスの歴史' : 'TRANCE TIMELINE'}
             </h1>
-            <p className="text-text-light/75 text-base md:text-lg max-w-2xl leading-relaxed">
+            <p className="text-text-light/80 text-base md:text-lg max-w-2xl leading-relaxed">
               {isJA
                 ? 'フランクフルトのクラブから、ラスベガスのSphereまで——ジャンルを定義した30の瞬間。'
                 : 'From Frankfurt clubs to the Las Vegas Sphere — thirty moments that defined the genre.'}
@@ -127,7 +127,7 @@ export default function TimelineClient() {
         {/* Sticky era nav (jump links) */}
         <nav
           aria-label={isJA ? '年代ナビゲーション' : 'Era navigation'}
-          className="sticky top-[60px] z-20 backdrop-blur bg-dark-bg/85 border-y border-orange-900/30"
+          className="sticky top-[60px] z-20 backdrop-blur bg-dark-bg/85 border-y border-[rgba(212,175,55,0.25)]"
         >
           <div className="max-w-5xl mx-auto px-3 py-2 flex gap-1.5 overflow-x-auto no-scrollbar">
             {eras.map((era) => {
@@ -140,7 +140,7 @@ export default function TimelineClient() {
                   className={`shrink-0 px-3 py-1.5 rounded text-xs tracking-widest font-bebas border transition-colors ${
                     isActive
                       ? 'border-accent-orange bg-accent-orange/15 text-accent-orange'
-                      : 'border-orange-900/30 text-text-muted hover:text-accent-orange hover:border-accent-orange/50'
+                      : 'border-[rgba(212,175,55,0.25)] text-text-muted hover:text-accent-orange hover:border-accent-orange/50'
                   }`}
                   style={isActive ? { boxShadow: `0 0 0 1px ${era.accent}40 inset` } : undefined}
                 >
@@ -167,8 +167,8 @@ export default function TimelineClient() {
             />
           ))}
 
-          <div className="mt-20 pt-8 border-t border-orange-900/20 text-center">
-            <p className="text-sm text-text-light/60 mb-4">
+          <div className="mt-20 pt-8 border-t border-[rgba(212,175,55,0.25)] text-center">
+            <p className="text-sm text-text-light/80 mb-4">
               {isJA
                 ? 'タイムラインは継続して更新されます。新しい記事・アーティスト・レーベルが追加されると自動で反映されます。'
                 : 'The timeline is continuously updated as new articles, artists, and labels are added.'}
@@ -214,7 +214,7 @@ function Era({ era, events, isJA, eraRef, openEventId, onToggleEvent, reducedMot
         <p className="text-accent-orange/85 text-sm tracking-widest mb-3 font-bebas">
           {isJA ? era.headline.ja : era.headline.en}
         </p>
-        <p className="text-text-light/70 text-sm md:text-base leading-relaxed max-w-2xl">
+        <p className="text-text-light/80 text-sm md:text-base leading-relaxed max-w-2xl">
           {isJA ? era.description.ja : era.description.en}
         </p>
         <div
@@ -290,9 +290,9 @@ function TimelineEvent({ event, isJA, accent, isOpen, onToggle, reducedMotion, i
         onClick={onToggle}
         aria-expanded={isOpen}
         aria-controls={`event-detail-${event.id}`}
-        className="w-full text-left bg-dark-bg2/80 border border-orange-900/25 rounded-sm overflow-hidden hover:border-accent-orange/50 hover:shadow-lg transition-all focus:outline-none focus:border-accent-orange focus-visible:ring-2 focus-visible:ring-accent-orange/40"
+        className="w-full text-left bg-dark-bg2/80 border border-[rgba(212,175,55,0.25)] rounded-sm overflow-hidden hover:border-accent-orange/50 hover:shadow-lg transition-all focus:outline-none focus:border-accent-orange focus-visible:ring-2 focus-visible:ring-accent-orange/40"
       >
-        <div className="px-4 py-3 flex items-baseline gap-3 border-b border-orange-900/15">
+        <div className="px-4 py-3 flex items-baseline gap-3 border-b border-[rgba(212,175,55,0.25)]">
           <span
             className="font-bebas text-2xl tracking-widest shrink-0"
             style={{ color: accent }}
@@ -312,7 +312,7 @@ function TimelineEvent({ event, isJA, accent, isOpen, onToggle, reducedMotion, i
             {title}
           </h3>
           {!isOpen && (
-            <p className="text-sm text-text-light/70 leading-relaxed mt-2 line-clamp-2">
+            <p className="text-sm text-text-light/80 leading-relaxed mt-2 line-clamp-2">
               {description}
             </p>
           )}
@@ -322,7 +322,7 @@ function TimelineEvent({ event, isJA, accent, isOpen, onToggle, reducedMotion, i
       {isOpen && (
         <div
           id={`event-detail-${event.id}`}
-          className="bg-dark-bg2/40 border-x border-b border-orange-900/25 rounded-b-sm px-4 py-4 -mt-px"
+          className="bg-dark-bg2/40 border-x border-b border-[rgba(212,175,55,0.25)] rounded-b-sm px-4 py-4 -mt-px"
         >
           <p className="text-sm text-text-light/85 leading-relaxed mb-4">
             {description}

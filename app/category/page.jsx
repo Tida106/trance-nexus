@@ -31,7 +31,7 @@ export default function CategoryIndexPage() {
               {isJA ? '記事カテゴリ' : 'Article Categories'}
             </h1>
             <div className="w-20 h-1 bg-gradient-to-r from-accent-red via-accent-orange to-transparent mb-3" />
-            <p className="text-text-light/60 text-sm font-barlow max-w-2xl">
+            <p className="text-text-light/80 text-sm font-barlow max-w-2xl">
               {isJA
                 ? `TRANCE NEXUS のブログ記事はテーマごとに${categories.length}のカテゴリに分類されています。興味のあるテーマからお探しください。`
                 : `TRANCE NEXUS blog articles are organised into ${categories.length} thematic categories. Browse by what interests you most.`}
@@ -43,7 +43,7 @@ export default function CategoryIndexPage() {
               <Link
                 key={cat.id}
                 href={`/category/${cat.id}`}
-                className="group bg-dark-bg2/80 border border-orange-900/20 rounded-sm p-6 hover:border-accent-orange/50 hover:translate-y-[-3px] hover:shadow-lg transition-all"
+                className="group bg-dark-bg2/80 border border-[rgba(212,175,55,0.25)] rounded-sm p-6 hover:border-accent-orange/50 hover:translate-y-[-3px] hover:shadow-lg transition-all"
               >
                 <div className="flex items-start gap-4">
                   <div className="text-4xl shrink-0">{cat.emoji}</div>
@@ -66,7 +66,7 @@ export default function CategoryIndexPage() {
                     <div className="text-xs tracking-widest text-text-muted mb-3">
                       {isJA ? cat.name.en : cat.name.ja}
                     </div>
-                    <p className="text-sm text-text-light/65 leading-relaxed font-barlow">
+                    <p className="text-sm text-text-light/80 leading-relaxed font-barlow">
                       {isJA ? cat.description.ja : cat.description.en}
                     </p>
                   </div>

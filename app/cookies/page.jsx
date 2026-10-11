@@ -44,7 +44,7 @@ const THIRD_PARTY = [
 
 function CookieTypeCard({ title, body }) {
   return (
-    <div className="bg-dark-bg2/60 border border-orange-900/20 rounded-sm p-5">
+    <div className="bg-dark-bg2/60 border border-[rgba(212,175,55,0.25)] rounded-sm p-5">
       <h3 className="font-bebas text-base tracking-widest text-accent-orange mb-2">{title}</h3>
       <p className="text-text-light/90 text-sm leading-relaxed">{body}</p>
     </div>
@@ -54,26 +54,26 @@ function CookieTypeCard({ title, body }) {
 function ThirdPartyTable({ isJA }) {
   return (
     <div className="overflow-x-auto">
-      <table className="w-full text-sm border border-orange-900/20">
+      <table className="w-full text-sm border border-[rgba(212,175,55,0.25)]">
         <thead>
           <tr className="bg-dark-bg2/60 text-left">
-            <th className="font-bebas text-xs tracking-widest text-accent-orange p-3 border-b border-orange-900/20">
+            <th className="font-bebas text-xs tracking-widest text-accent-orange p-3 border-b border-[rgba(212,175,55,0.25)]">
               {isJA ? 'サービス' : 'Service'}
             </th>
-            <th className="font-bebas text-xs tracking-widest text-accent-orange p-3 border-b border-orange-900/20">
+            <th className="font-bebas text-xs tracking-widest text-accent-orange p-3 border-b border-[rgba(212,175,55,0.25)]">
               {isJA ? '種類' : 'Type'}
             </th>
-            <th className="font-bebas text-xs tracking-widest text-accent-orange p-3 border-b border-orange-900/20">
+            <th className="font-bebas text-xs tracking-widest text-accent-orange p-3 border-b border-[rgba(212,175,55,0.25)]">
               {isJA ? '目的' : 'Purpose'}
             </th>
-            <th className="font-bebas text-xs tracking-widest text-accent-orange p-3 border-b border-orange-900/20">
+            <th className="font-bebas text-xs tracking-widest text-accent-orange p-3 border-b border-[rgba(212,175,55,0.25)]">
               {isJA ? 'プライバシーポリシー' : 'Privacy Policy'}
             </th>
           </tr>
         </thead>
         <tbody>
           {THIRD_PARTY.map((p) => (
-            <tr key={p.name} className="border-b border-orange-900/15">
+            <tr key={p.name} className="border-b border-[rgba(212,175,55,0.25)]">
               <td className="p-3 text-text-light font-barlow font-semibold align-top">{p.name}</td>
               <td className="p-3 text-text-light/90 font-barlow align-top">
                 {isJA ? p.type.ja : p.type.en}

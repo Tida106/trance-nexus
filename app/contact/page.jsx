@@ -52,7 +52,7 @@ export default function ContactPage() {
             <div className="w-20 h-1 bg-gradient-to-r from-accent-red via-accent-orange to-transparent" />
           </div>
 
-          <div className="bg-dark-bg2/80 border border-orange-900/20 rounded-sm p-10">
+          <div className="bg-dark-bg2/80 border border-[rgba(212,175,55,0.25)] rounded-sm p-10">
             {isJA ? (
               <>
                 <p className="text-text-light/90 text-sm leading-relaxed mb-8">
@@ -60,7 +60,7 @@ export default function ContactPage() {
                   できる限り迅速にご返信いたします。
                 </p>
 
-                <div className="border-t border-orange-900/20 pt-8">
+                <div className="border-t border-[rgba(212,175,55,0.25)] pt-8">
                   <div className="text-xs tracking-widest text-text-muted mb-2 font-bebas">
                     メールアドレス
                   </div>
@@ -72,7 +72,7 @@ export default function ContactPage() {
                   </a>
                 </div>
 
-                <div className="mt-10 pt-8 border-t border-orange-900/20 space-y-3 text-xs text-text-muted tracking-widest">
+                <div className="mt-10 pt-8 border-t border-[rgba(212,175,55,0.25)] space-y-3 text-xs text-text-muted tracking-widest">
                   <p>・ご返信には数日かかる場合があります</p>
                   <p>・スパム・広告目的のメールにはご返信できません</p>
                   <p>・営業時間は設けておりません（ファン運営のサイトです）</p>
@@ -86,7 +86,7 @@ export default function ContactPage() {
                   as soon as possible.
                 </p>
 
-                <div className="border-t border-orange-900/20 pt-8">
+                <div className="border-t border-[rgba(212,175,55,0.25)] pt-8">
                   <div className="text-xs tracking-widest text-text-muted mb-2 font-bebas">
                     Email
                   </div>
@@ -98,7 +98,7 @@ export default function ContactPage() {
                   </a>
                 </div>
 
-                <div className="mt-10 pt-8 border-t border-orange-900/20 space-y-3 text-xs text-text-muted tracking-widest">
+                <div className="mt-10 pt-8 border-t border-[rgba(212,175,55,0.25)] space-y-3 text-xs text-text-muted tracking-widest">
                   <p>· Replies may take a few days</p>
                   <p>· We cannot respond to spam or unsolicited promotional emails</p>
                   <p>· This is a fan-run site with no fixed business hours</p>

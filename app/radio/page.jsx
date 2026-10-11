@@ -89,14 +89,14 @@ export default function RadioPage() {
           </div>
 
           {/* AdSense ad slot 2 */}
-          <div className="mb-8 p-4 bg-dark-bg2/50 border border-orange-900/20 rounded text-center">
+          <div className="mb-8 p-4 bg-dark-bg2/50 border border-[rgba(212,175,55,0.25)] rounded text-center">
             <div id="ad-slot-2" className="min-h-[90px] flex items-center justify-center">
               <p className="text-text-muted text-sm">Advertisement</p>
             </div>
           </div>
 
           {/* Tabs */}
-          <div className="flex border-b border-orange-900/20 mb-8">
+          <div className="flex border-b border-[rgba(212,175,55,0.25)] mb-8">
             {['all', 'weekly', 'biweekly', 'monthly'].map((tab) => (
               <button
                 key={tab}
@@ -168,7 +168,7 @@ export default function RadioPage() {
                     <div key={j} className="flex justify-between items-center gap-3">
                       <span className="font-bebas text-accent-orange tracking-widest">{s.day}</span>
                       {s.time && (
-                        <span className="text-text-light/65 font-mono">{s.time}</span>
+                        <span className="text-text-light/80 font-mono">{s.time}</span>
                       )}
                       <span className="text-text-light/85">
                         {language === 'ja' ? (s.epJa || s.ep) : (s.epEn || s.ep)}

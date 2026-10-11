@@ -33,11 +33,11 @@ export default function Breadcrumb({ items }) {
           {items.map((item, i) => (
             <li key={i} className="flex items-center gap-1.5 min-w-0">
               {i > 0 && (
-                <span className="text-orange-900/40 select-none shrink-0">›</span>
+                <span className="text-text-muted select-none shrink-0">›</span>
               )}
               {isLast(i) ? (
                 <span
-                  className="text-text-light/45 truncate"
+                  className="text-text-light/80 truncate"
                   aria-current="page"
                 >
                   {isJA ? item.label.ja : item.label.en}

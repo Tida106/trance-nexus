@@ -78,7 +78,7 @@ export default function ArtistsPage() {
               {t('artists.title')}
             </h1>
             <div className="w-20 h-1 bg-gradient-to-r from-accent-red via-accent-orange to-transparent mb-3" />
-            <p className="text-text-light/55 text-sm font-barlow max-w-2xl">
+            <p className="text-text-light/80 text-sm font-barlow max-w-2xl">
               {isJA
                 ? '世界のトランスシーンを定義してきたアーティストたち。バイオグラフィ、代表作、サウンドスタイル、関連リンクを網羅。'
                 : 'The artists who have defined the global trance scene. Biographies, key works, sound profiles, and listening links.'}
@@ -87,7 +87,7 @@ export default function ArtistsPage() {
 
           {/* Toolbar */}
           <div className="mb-8 flex gap-3 flex-wrap items-center">
-            <div className="flex border border-orange-900/30 rounded overflow-hidden">
+            <div className="flex border border-[rgba(212,175,55,0.25)] rounded overflow-hidden">
               <input
                 type="text"
                 placeholder={t('artists.search')}
@@ -108,7 +108,7 @@ export default function ArtistsPage() {
                   className={`font-bebas text-xs tracking-widest px-4 py-2 rounded transition-all ${
                     selectedGenre === genre
                       ? 'bg-accent-orange/20 border border-accent-orange text-accent-orange'
-                      : 'bg-transparent border border-orange-900/30 text-text-muted hover:border-accent-orange hover:text-accent-orange'
+                      : 'bg-transparent border border-[rgba(212,175,55,0.25)] text-text-muted hover:border-accent-orange hover:text-accent-orange'
                   }`}
                 >
                   {genre}

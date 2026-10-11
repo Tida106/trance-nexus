@@ -3,17 +3,17 @@
 @tailwind utilities;
 
 :root {
-  --bg: #0a0500;
-  --bg2: #110800;
-  --bg3: #0f0a03;
+  --bg: #0E4D6E;
+  --bg2: #12597D;
+  --bg3: #0B4260;
   --orange: #ff6a00;
   --red: #e5001c;
   --amber: #ffb400;
   --fire: #ff3c00;
-  --text: #f0e0c8;
-  --muted: #6b4e2a;
-  --card: rgba(25, 12, 0, 0.9);
-  --border: rgba(255, 106, 0, 0.18);
+  --text: #EAF4F7;
+  --muted: #B9D3DC;
+  --card: rgba(18, 89, 125, 0.9);
+  --border: rgba(212, 175, 55, 0.25);
   --glow: 0 0 24px rgba(255, 106, 0, 0.35);
   --glow-red: 0 0 20px rgba(229, 0, 28, 0.4);
 }
@@ -196,7 +196,7 @@ body::before {
 }
 .gold-metallic-search:focus-within {
   border-color: #f4e5a8 !important;
-  background-color: rgba(35, 18, 0, 0.92);
+  background-color: rgba(18, 89, 125, 0.92);
   box-shadow: 0 0 24px rgba(212, 175, 55, 0.55),
               inset 0 0 12px rgba(244, 229, 168, 0.12);
 }
@@ -228,7 +228,7 @@ body::before {
   background: linear-gradient(135deg, #2a1466 0%, #ff6a00 100%);
 }
 .b-tech {
-  background: linear-gradient(135deg, #1a0a00 0%, #e5001c 70%, #ff3c00 100%);
+  background: linear-gradient(135deg, #0B4260 0%, #e5001c 70%, #ff3c00 100%);
 }
 .b-vocal {
   background: linear-gradient(135deg, #4a1a55 0%, #e5001c 50%, #ff6a00 100%);
@@ -279,10 +279,10 @@ body::before {
 
 /* ── prefers-contrast: more ────────────────────────────────────────────
    Bump body text to full opacity for users who request more contrast.
-   The .text-text-light/55 utility we use in cards is the borderline
+   The .text-text-light/80 utility we use in cards is the borderline
    case PSI flags first; clamp the muted alphas there. */
 @media (prefers-contrast: more) {
   :root {
-    --muted: #a07a3c;
+    --muted: #EAF4F7;
   }
 }

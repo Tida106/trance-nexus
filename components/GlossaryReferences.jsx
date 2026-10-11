@@ -16,7 +16,7 @@ export default function GlossaryReferences({ text }) {
   if (!hits.length) return null;
 
   return (
-    <section className="mt-12 mb-8 p-5 bg-dark-bg2/60 border border-orange-900/20 rounded-sm">
+    <section className="mt-12 mb-8 p-5 bg-dark-bg2/60 border border-[rgba(212,175,55,0.25)] rounded-sm">
       <h3 className="font-bebas text-base tracking-widest text-accent-orange mb-3">
         {isJA ? '記事内の用語' : 'Glossary terms in this article'}
       </h3>
