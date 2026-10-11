@@ -16,43 +16,43 @@ export const posts13 = [
   {
     slug: 'trance-festivals-summer-2026-guide',
     date: '2026-07-16',
-    readTime: 6,
+    readTime: 2,
     tags: ['tomorrowland', 'luminosity', 'ozora', 'psytrance', 'travel'],
     en: {
-      title: 'Summer 2026 Trance Festival Guide — Tomorrowland, Luminosity Beach & OZORA',
-      description: 'A comprehensive guide to the top 3 summer trance festivals of 2026.',
-      excerpt: 'A comprehensive guide to the top 3 summer trance festivals of 2026. Whether you crave massive mainstream stages, pure beachside trance, or deep psychedelic journeys, discover which festival suits your vibe best.',
+      title: 'Summer 2026 Trance Festivals — Tomorrowland, Luminosity Beach & OZORA',
+      description: 'Basic facts on three summer 2026 festivals with a trance connection: Tomorrowland Belgium, Luminosity Beach Festival and OZORA.',
+      excerpt: 'Dates, locations and genre focus for three summer 2026 festivals with a trance connection: Tomorrowland Belgium, Luminosity Beach Festival and OZORA.',
       content: [
         {
           heading: '1. Tomorrowland Belgium 2026',
-          body: '<p>ベルギーのBoomで開催されるTomorrowlandは、世界最大級のメガフェスですが、トランスファンにとっても聖地です。</p>'
+          body: '<p>Tomorrowland Belgium took place over two weekends, 17–19 July and 24–26 July 2026, at De Schorre in Boom (DJ Mag). It is a multi-genre festival with many stages. Armin van Buuren was among the billed artists.</p>'
         },
         {
           heading: '2. Luminosity Beach Festival 2026',
-          body: '<p>オランダで開催される、純度100%のトランスに没頭できる唯一無二のビーチフェスです。</p>'
+          body: '<p>Luminosity Beach Festival ran from 25 to 28 June 2026 at Beachclub Bernie\'s in Zandvoort, on the Dutch coast. EDM Tunes describes the programme as mostly trance, covering uplifting, tech, progressive and classic styles, with some crossover acts, and reports over 120 artists.</p>'
         },
         {
           heading: '3. OZORA Festival 2026',
-          body: '<p>ハンガリーで開催される、12日間にわたり24時間ノンストップでサイケデリックを体験する神秘的なフェスです。</p>'
+          body: '<p>OZORA is a psychedelic trance festival held at Dádpuszta in Hungary. The 2026 edition took place from late July into early August. Exact dates differ between listings, so please check the official OZORA site.</p>'
         }
       ]
     },
     ja: {
-      title: '2026年夏フェス完全ガイド — トランス好きが選ぶべき3タイプ',
-      description: '2026年夏の3大トランスフェスティバル完全ガイド。',
-      excerpt: '2026年夏の3大トランスフェスティバル完全ガイド。巨大なメインストリーム、純度100%のビーチトランス、そして深いサイケデリック体験まで、あなたのバイブスに最適なフェスを紹介します。',
+      title: '2026年夏のトランス系フェス — Tomorrowland、Luminosity Beach、OZORA',
+      description: 'トランスと縁のある2026年夏の3フェス、Tomorrowland Belgium、Luminosity Beach Festival、OZORAの基本情報をまとめます。',
+      excerpt: 'トランスと縁のある2026年夏の3フェス、Tomorrowland Belgium、Luminosity Beach Festival、OZORAの日程、開催地、ジャンルの傾向をまとめます。',
       content: [
         {
           heading: '1. Tomorrowland Belgium 2026',
-          body: '<p>ベルギーのBoomで開催されるTomorrowlandは、世界最大級のメガフェスですが、トランスファンにとっても聖地です。</p>'
+          body: '<p>Tomorrowland Belgiumは、2026年7月17〜19日と24〜26日の2週末にわたり、ブームのDe Schorreで開催されました（DJ Mag）。複数のジャンルを扱う多ステージ型のフェスで、Armin van Buurenも出演者に名を連ねました。</p>'
         },
         {
           heading: '2. Luminosity Beach Festival 2026',
-          body: '<p>オランダで開催される、純度100%のトランスに没頭できる唯一無二のビーチフェスです。</p>'
+          body: '<p>Luminosity Beach Festivalは、2026年6月25日から28日まで、オランダの海沿いの町ザントフォールトにあるBeachclub Bernie\'sで開催されました。EDM Tunesは、アップリフティング、テック、プログレッシブ、クラシックなど幅広いトランスが中心で、一部クロスオーバーのアーティストも含むと紹介し、出演者は120組以上と伝えています。</p>'
         },
         {
           heading: '3. OZORA Festival 2026',
-          body: '<p>ハンガリーで開催される、12日間にわたり24時間ノンストップでサイケデリックを体験する神秘的なフェスです。</p>'
+          body: '<p>OZORAは、ハンガリーのDádpusztaで開かれるサイケデリックトランスのフェスティバルです。2026年は7月下旬から8月上旬にかけて開催されました。正確な日程は掲載元によって異なるため、OZORA公式サイトでご確認ください。</p>'
         }
       ]
     }
