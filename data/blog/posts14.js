@@ -636,4 +636,89 @@ export const posts14 = [
       ]
     }
   }
+  , // ← ★直前の記事との区切りのカンマ
+  {
+    slug: 'november-2026-trance-events-guide',
+    date: '2026-10-11',
+    readTime: 6,
+    tags: ['asot', 'dreamstate', 'transmission', 'festival', 'events'],
+    en: {
+      title: 'November 2026 Trance Events Guide: ASOT London, Dreamstate SoCal & Transmission Netherlands',
+      description: 'Compare the three big trance events of November 2026: A State of Trance London, Dreamstate SoCal and Transmission Netherlands. Dates, hours, venues and house rules from official pages.',
+      excerpt: 'Three major trance events fall within two weeks in November 2026: ASOT London (14 Nov), Dreamstate SoCal (20–21 Nov) and Transmission Netherlands (28 Nov). Here are their dates, hours, venues and rules side by side.',
+      content: [
+        {
+          heading: 'November 2026 at a Glance',
+          body: `<p>Three large trance events fall within two weeks of each other in November 2026: <strong>A State of Trance London</strong> on 14 November, <strong>Dreamstate SoCal</strong> on 20&ndash;21 November and <strong>Transmission Netherlands</strong> on 28 November. They take place in three countries and in three very different settings &mdash; a warehouse in north London, a waterfront site in Long Beach and a football stadium in Arnhem.</p><p>This guide sets the three side by side using the details published on each event&rsquo;s official pages, so you can compare dates, hours, venues and house rules before deciding where to go. All three are 18+.</p>`,
+        },
+        {
+          heading: 'A State of Trance London &mdash; 14 November, Drumsheds',
+          body: `<p>A State of Trance London takes place on <strong>Saturday 14 November 2026</strong> at <strong>Drumsheds</strong> (Meridian Water, N18 3HF), from <strong>13:00 to 22:30</strong>. It celebrates 25 years of A State of Trance, and the venue describes it as &ldquo;the first ever indoor ASOT festival in the UK&rdquo;. Drumsheds calls itself a &ldquo;never-before-used industrial warehouse&rdquo;, and the event runs across three rooms: X ROOM, Y ROOM and Z ROOM.</p><p>The billing includes <a href="/artists/armin-van-buuren">Armin van Buuren</a>, a face-to-face set by Armin van Buuren and <a href="/artists/giuseppe-ottaviani">Giuseppe Ottaviani</a>, Amber Broos b2b Lawton, <a href="/artists/andrew-rayel">Andrew Rayel</a> presents Extasia, <a href="/artists/ferry-corsten">Ferry Corsten</a>, <a href="/artists/cosmic-gate">Cosmic Gate</a> and more.</p><p><strong>Who it suits:</strong> people who want a single-day indoor event that finishes before late night, with several rooms to move between.</p><p>For the full lineup, travel and venue rules, read our <a href="/blog/asot-london-drumsheds-2026">A State of Trance London 2026 guide</a>. Official pages: <a href="https://drumshedslondon.com/event/a-state-of-trance/" target="_blank" rel="noopener">Drumsheds</a> and <a href="https://festival.astateoftrance.com/london/" target="_blank" rel="noopener">festival.astateoftrance.com/london</a>.</p>`,
+        },
+        {
+          heading: 'Dreamstate SoCal &mdash; 20&ndash;21 November, Queen Mary Waterfront',
+          body: `<p>Dreamstate SoCal runs on <strong>Friday 20 and Saturday 21 November 2026</strong> at the <strong>Queen Mary Waterfront</strong>, 1126 Queens Hwy, Long Beach, California. The official hours are <strong>4 PM to 1 AM</strong> on both days. Entry is 18+, and 21+ for alcohol. There is no re-entry on the same day.</p><p>The official site describes Dreamstate as &ldquo;the world&rsquo;s premier all-trance music festival&rdquo; and marks 10 years of Dreamstate SoCal this year. Tickets come as 2-Day, Friday or Saturday passes in GA and VIP. VIP adds an expedited entry lane, dedicated viewing areas, VIP food and drink options and VIP restrooms. Free water refill stations are listed for both GA and VIP.</p><p><strong>Who it suits:</strong> people who want a two-day event that runs into the night by the sea, or who want to pick just one of the two days.</p><p>More detail is in our <a href="/blog/dreamstate-socal-2026-complete-guide">Dreamstate SoCal 2026 guide</a>. Official page: <a href="https://socal.dreamstateusa.com/guide/hours-and-info/" target="_blank" rel="noopener">Dreamstate SoCal hours &amp; info</a>.</p>`,
+        },
+        {
+          heading: 'Transmission Netherlands &mdash; 28 November, GelreDome',
+          body: `<p>Transmission Netherlands takes place on <strong>Saturday 28 November 2026</strong> at the <strong>GelreDome</strong>, Batavierenweg 25, Arnhem. Gates open at <strong>14:00</strong> and the show ends at <strong>23:00</strong>. Entry is 18+ with no exceptions, and ID may be requested.</p><p>The official lineup, listed A&ndash;Z, is <a href="/artists/aly-and-fila">Aly &amp; Fila</a>, <a href="/artists/andrew-rayel">Andrew Rayel</a>, <a href="/artists/daxson">Daxson</a>, Digital Culture, Driftmoon b2b Asteroid, <a href="/artists/markus-schulz">Markus Schulz</a> b2b <a href="/artists/ferry-corsten">Ferry Corsten</a>, <a href="/artists/paul-van-dyk">Paul van Dyk</a> and <a href="/artists/xijaro-and-pitch">Xijaro &amp; Pitch</a>, with a warm-up from DJ Dusk. The organisers say the timetable is usually released in the week of the event.</p><p>A few house rules are worth knowing in advance:</p><ul><li><strong>Sound level:</strong> 98&ndash;103 dB, and earplugs are strongly advised.</li><li><strong>Payments:</strong> food and drink are paid for with the GelreDome Wallet card (minimum top-up &euro;5.00), sold on site by cash or card. It cannot be bought before the event.</li><li><strong>Not allowed:</strong> outside food and drink, liquids including deodorant and hairspray, glass, PET bottles, aerosol cans, laser pointers, sharp objects, and professional or semi-professional cameras with interchangeable lenses. Smoking is not permitted inside.</li><li><strong>Lockers:</strong> pre-order online or rent an E-locker at the entrance. VIP tickets include a locker.</li><li><strong>Tickets:</strong> downloadable from 26 November; your entrance number is printed on the ticket.</li></ul><p><strong>Who it suits:</strong> people who want a single-day indoor stadium show in Europe, from afternoon to late evening.</p><p>See also our <a href="/blog/transmission-netherlands-gelredome-2026">Transmission Netherlands 2026 article</a> and the <a href="https://transmissionfestival.com/events/tmnl26/" target="_blank" rel="noopener">official event page</a>.</p>`,
+        },
+        {
+          heading: 'Side-by-Side Comparison',
+          body: `<table><thead><tr><th>Event</th><th>Date</th><th>City</th><th>Venue</th><th>Hours</th></tr></thead><tbody><tr><td>A State of Trance London</td><td>Sat 14 Nov 2026</td><td>London, UK</td><td>Drumsheds (indoor)</td><td>13:00&ndash;22:30</td></tr><tr><td>Dreamstate SoCal</td><td>Fri 20 &amp; Sat 21 Nov 2026</td><td>Long Beach, USA</td><td>Queen Mary Waterfront (waterfront site)</td><td>16:00&ndash;01:00 both days</td></tr><tr><td>Transmission Netherlands</td><td>Sat 28 Nov 2026</td><td>Arnhem, Netherlands</td><td>GelreDome (stadium)</td><td>14:00&ndash;23:00</td></tr></tbody></table><p>All three events are 18+.</p>`,
+        },
+        {
+          heading: 'Planning Your Trip',
+          body: `<ul><li><strong>London:</strong> the nearest station is Meridian Water, about five minutes&rsquo; walk from Drumsheds. From the Victoria line, change at Tottenham Hale for a Greater Anglia train; the venue says not to walk from Tottenham Hale. There is no on-site parking. Taxi drop-off and pick-up is inside the venue grounds, reached via Glover Drive.</li><li><strong>Long Beach:</strong> the venue is at 1126 Queens Hwy. Check the official <a href="https://socal.dreamstateusa.com/travel/" target="_blank" rel="noopener">Dreamstate travel page</a> for hotel options. Remember there is no re-entry once you are in.</li><li><strong>Arnhem:</strong> take the train to Arnhem Central, then the shuttle bus from the city bus platform to the GelreDome. Return shuttle tickets are sold on board. Drivers should follow the yellow parking signs after reaching Batavierenweg 25.</li><li><strong>From overseas to the UK:</strong> visitors from visa-exempt countries such as Japan need a UK ETA. See our ASOT London guide for details.</li><li><strong>All three:</strong> bring valid photo ID.</li></ul><p>You can also browse every upcoming date in our <a href="/events">events calendar</a>.</p>`,
+        },
+        {
+          heading: 'Summary',
+          body: `<p>The three November events differ mainly in setting and schedule. ASOT London is a single afternoon-to-evening indoor event across three rooms in London. Dreamstate SoCal runs over two days from 4 PM to 1 AM at a waterfront site in Long Beach. Transmission Netherlands is a single-day stadium show in Arnhem from 14:00 to 23:00. Details can change, so check each official page shortly before you travel.</p>`,
+        },
+        {
+          heading: 'A Listener&rsquo;s Note',
+          body: `<p>I listen to A State of Trance every week, and putting these three events side by side was a useful way to see how differently each one is set up.</p>`,
+        },
+      ],
+    },
+    ja: {
+      title: '2026年11月のトランス・イベントガイド：ASOT London・Dreamstate SoCal・Transmission Netherlands',
+      description: '2026年11月に開催されるA State of Trance London、Dreamstate SoCal、Transmission Netherlandsを比較。日程・時間・会場・ルールを公式情報からまとめました。',
+      excerpt: '2026年11月は、ASOT London（14日）、Dreamstate SoCal（20〜21日）、Transmission Netherlands（28日）と大きなトランス・イベントが2週間に3つ。日程・時間・会場・ルールを並べて比較します。',
+      content: [
+        {
+          heading: '2026年11月のトランス・イベント',
+          body: `<p>2026年11月は、大きなトランス・イベントが2週間のうちに3つ続きます。<strong>11月14日のA State of Trance London</strong>、<strong>11月20〜21日のDreamstate SoCal</strong>、<strong>11月28日のTransmission Netherlands</strong>です。開催国も会場のタイプもそれぞれ違い、ロンドン北部の倉庫、ロングビーチの水辺の会場、アーネムのスタジアムで開かれます。</p><p>この記事では、各イベントの公式ページに掲載された情報をもとに、日程・時間・会場・ルールを並べて比べます。3つとも18歳以上限定です。</p>`,
+        },
+        {
+          heading: 'A State of Trance London：11月14日、Drumsheds',
+          body: `<p>A State of Trance Londonは<strong>2026年11月14日（土）</strong>、<strong>Drumsheds</strong>（Meridian Water, N18 3HF）で<strong>13:00〜22:30</strong>に開催されます。A State of Trance 25周年を祝う公演で、会場ページでは「the first ever indoor ASOT festival in the UK」と紹介されています。Drumshedsは自らを「never-before-used industrial warehouse」と説明しており、X ROOM・Y ROOM・Z ROOMの3ルームで行われます。</p><p>出演は<a href="/artists/armin-van-buuren">Armin van Buuren</a>、Armin van Buurenと<a href="/artists/giuseppe-ottaviani">Giuseppe Ottaviani</a>のF2F、Amber Broos b2b Lawton、<a href="/artists/andrew-rayel">Andrew Rayel</a> presents Extasia、<a href="/artists/ferry-corsten">Ferry Corsten</a>、<a href="/artists/cosmic-gate">Cosmic Gate</a>などです。</p><p><strong>こんな人に：</strong>深夜まで続かない1日完結の屋内イベントで、複数のルームを回りたい人。</p><p>ラインナップ全体・アクセス・会場ルールは<a href="/blog/asot-london-drumsheds-2026">A State of Trance London 2026 ガイド</a>にまとめています。公式：<a href="https://drumshedslondon.com/event/a-state-of-trance/" target="_blank" rel="noopener">Drumsheds</a>／<a href="https://festival.astateoftrance.com/london/" target="_blank" rel="noopener">festival.astateoftrance.com/london</a></p>`,
+        },
+        {
+          heading: 'Dreamstate SoCal：11月20〜21日、Queen Mary Waterfront',
+          body: `<p>Dreamstate SoCalは<strong>2026年11月20日（金）・21日（土）</strong>、カリフォルニア州ロングビーチの<strong>Queen Mary Waterfront</strong>（1126 Queens Hwy）で開催されます。公式の開催時間は両日とも<strong>16:00〜翌1:00</strong>。入場は18歳以上、飲酒は21歳以上で、当日の再入場はできません。</p><p>公式サイトはDreamstateを「the world&rsquo;s premier all-trance music festival」と紹介し、今年でDreamstate SoCalが10年を迎えるとしています。チケットは2日通し・金曜のみ・土曜のみがあり、それぞれGAとVIPがあります。VIPには優先入場レーン、専用の観覧エリア、VIP向けの飲食、VIP専用トイレが含まれます。無料の給水スポットはGA・VIPの両方に用意されています。</p><p><strong>こんな人に：</strong>海辺で夜まで続く2日間のイベントを楽しみたい人、どちらか1日だけ行きたい人。</p><p>詳しくは<a href="/blog/dreamstate-socal-2026-complete-guide">Dreamstate SoCal 2026 ガイド</a>もどうぞ。公式：<a href="https://socal.dreamstateusa.com/guide/hours-and-info/" target="_blank" rel="noopener">Hours &amp; Info</a></p>`,
+        },
+        {
+          heading: 'Transmission Netherlands：11月28日、GelreDome',
+          body: `<p>Transmission Netherlandsは<strong>2026年11月28日（土）</strong>、アーネムの<strong>GelreDome</strong>（Batavierenweg 25）で開催されます。開場<strong>14:00</strong>、終演<strong>23:00</strong>。18歳以上限定で例外はなく、IDの提示を求められることがあります。</p><p>公式ラインナップ（A〜Z順）は<a href="/artists/aly-and-fila">Aly &amp; Fila</a>、<a href="/artists/andrew-rayel">Andrew Rayel</a>、<a href="/artists/daxson">Daxson</a>、Digital Culture、Driftmoon b2b Asteroid、<a href="/artists/markus-schulz">Markus Schulz</a> b2b <a href="/artists/ferry-corsten">Ferry Corsten</a>、<a href="/artists/paul-van-dyk">Paul van Dyk</a>、<a href="/artists/xijaro-and-pitch">Xijaro &amp; Pitch</a>、ウォームアップはDJ Duskです。タイムテーブルは例年、開催週に発表されるとのことです。</p><p>事前に知っておきたいルール：</p><ul><li><strong>音量：</strong>98〜103dB。耳栓の着用が強く推奨されています。</li><li><strong>支払い：</strong>飲食はGelreDome Walletカードで支払います（最低チャージ€5.00）。会場で現金・カードで購入でき、事前購入はできません。</li><li><strong>持ち込み禁止：</strong>外部の飲食物、デオドラントやヘアスプレーを含む液体、ガラス、ペットボトル、スプレー缶、レーザーポインター、刃物類、レンズ交換式のプロ・セミプロ用カメラ。館内は禁煙です。</li><li><strong>ロッカー：</strong>オンラインで事前予約するか、入口でE-lockerを借ります。VIPチケットにはロッカーが含まれます。</li><li><strong>チケット：</strong>11月26日からダウンロード可能。入場口の番号はチケットに記載されます。</li></ul><p><strong>こんな人に：</strong>ヨーロッパで、午後から夜まで1日完結のスタジアム公演を楽しみたい人。</p><p><a href="/blog/transmission-netherlands-gelredome-2026">Transmission Netherlands 2026の記事</a>と<a href="https://transmissionfestival.com/events/tmnl26/" target="_blank" rel="noopener">公式イベントページ</a>もご覧ください。</p>`,
+        },
+        {
+          heading: '3イベントの比較',
+          body: `<table><thead><tr><th>イベント</th><th>日程</th><th>都市</th><th>会場</th><th>時間</th></tr></thead><tbody><tr><td>A State of Trance London</td><td>2026年11月14日（土）</td><td>ロンドン（英国）</td><td>Drumsheds（屋内）</td><td>13:00〜22:30</td></tr><tr><td>Dreamstate SoCal</td><td>2026年11月20日（金）・21日（土）</td><td>ロングビーチ（米国）</td><td>Queen Mary Waterfront（水辺の会場）</td><td>両日16:00〜翌1:00</td></tr><tr><td>Transmission Netherlands</td><td>2026年11月28日（土）</td><td>アーネム（オランダ）</td><td>GelreDome（スタジアム）</td><td>14:00〜23:00</td></tr></tbody></table><p>3つとも18歳以上限定です。</p>`,
+        },
+        {
+          heading: '旅の計画のヒント',
+          body: `<ul><li><strong>ロンドン：</strong>最寄りのMeridian Water駅からDrumshedsまで徒歩約5分。Victoria線からはTottenham HaleでGreater Angliaに乗り換えます。Tottenham Haleから歩かないよう公式が案内しています。駐車場はなく、タクシーの乗降場は会場の敷地内（Glover Driveから入る）にあります。</li><li><strong>ロングビーチ：</strong>会場は1126 Queens Hwy。ホテルは公式の<a href="https://socal.dreamstateusa.com/travel/" target="_blank" rel="noopener">Travelページ</a>で確認できます。一度入場すると再入場できない点に注意。</li><li><strong>アーネム：</strong>電車でArnhem Centralまで行き、市バス乗り場からGelreDome行きのシャトルバスに乗ります。帰りのシャトルの切符は車内で購入できます。車の場合はBatavierenweg 25に着いたら黄色の駐車場案内に従ってください。</li><li><strong>海外から英国へ：</strong>日本などビザ免除国の旅行者は英国のETAが必要です。詳しくはASOT Londonガイドをご覧ください。</li><li><strong>3イベント共通：</strong>有効な写真付き身分証を持参しましょう。</li></ul><p>今後の日程は<a href="/events">イベント・カレンダー</a>でも確認できます。</p>`,
+        },
+        {
+          heading: 'まとめ',
+          body: `<p>11月の3イベントの大きな違いは、会場のタイプと時間帯です。ASOT Londonはロンドンの屋内で、午後から夜までの1日、3ルーム構成。Dreamstate SoCalはロングビーチの水辺の会場で、16時〜翌1時の2日間。Transmission Netherlandsはアーネムのスタジアムで、14時〜23時の1日公演です。情報は変わることがあるので、出発前に各公式ページで確認してください。</p>`,
+        },
+        {
+          heading: 'リスナーからの視点',
+          body: `<p>毎週A State of Tranceを聴いている立場から、3つのイベントを並べてみると、それぞれの作りの違いがよく見えて参考になりました。</p>`,
+        },
+      ],
+    },
+  }
 ];

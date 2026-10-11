@@ -1,6 +1,9 @@
 // Lightweight listing data — no article body content.
 // Newest first. Keep in sync with data/blog/posts.js when adding articles.
 export const listing = [
+  { slug: 'november-2026-trance-events-guide', date: '2026-10-11', readTime: 6, tags: ['asot', 'dreamstate', 'transmission', 'festival', 'events'],
+    en: { title: 'November 2026 Trance Events Guide: ASOT London, Dreamstate SoCal & Transmission Netherlands', excerpt: 'Three major trance events fall within two weeks in November 2026: ASOT London (14 Nov), Dreamstate SoCal (20–21 Nov) and Transmission Netherlands (28 Nov). Here are their dates, hours, venues and rules side by side.' },
+    ja: { title: '2026年11月のトランス・イベントガイド：ASOT London・Dreamstate SoCal・Transmission Netherlands', excerpt: '2026年11月は、ASOT London（14日）、Dreamstate SoCal（20〜21日）、Transmission Netherlands（28日）と大きなトランス・イベントが2週間に3つ。日程・時間・会場・ルールを並べて比較します。' } },
   { slug: 'sunrise-festival-poland-trance-legacy', date: '2026-08-27', readTime: 3, tags: ['sunrise-festival', 'poland', 'trance-family', 'festival', 'open-air'],
     en: { title: 'Sunrise Festival Poland: History and Venue', excerpt: 'Sunrise Festival began in 2003 at the Kołobrzeg amphitheatre and has been held at the former Podczele airfield since 2019. A short look at its history and the 2026 edition.' },
     ja: { title: 'サンライズ・フェスティバル・ポーランド：歴史と会場', excerpt: 'Sunrise Festivalは2003年にコウォブジェクの円形劇場で始まり、2019年から旧ポドチェレ飛行場で開催されています。歴史と2026年の開催内容を簡潔に紹介します。' } },
