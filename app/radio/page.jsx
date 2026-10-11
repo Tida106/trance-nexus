@@ -20,6 +20,21 @@ const CARD_THEMES = [
   '80, 165, 110',   // jade
 ];
 
+// Lightened tint of each CARD_THEMES colour for small text on the card
+// (AA, 4.5:1+ against the card gradient). Same order as CARD_THEMES.
+const LINK_TINTS = [
+  '233, 213, 163',   // gold
+  '150, 204, 182',   // emerald
+  '185, 163, 213',   // amethyst
+  '150, 198, 204',   // teal
+  '217, 155, 166',   // ruby
+  '157, 174, 224',   // sapphire
+  '210, 174, 146',   // bronze
+  '225, 169, 147',   // copper
+  '185, 193, 205',   // steel
+  '161, 206, 177',   // jade
+];
+
 export default function RadioPage() {
   const { t, language } = useTranslation();
   const [selectedTab, setSelectedTab] = useState('all');
@@ -118,7 +133,8 @@ export default function RadioPage() {
           {/* Radio Grid */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
             {filteredRadio.map((show, i) => {
-              const themeColor = CARD_THEMES[radio.indexOf(show) % CARD_THEMES.length];
+              const themeIdx = radio.indexOf(show) % CARD_THEMES.length;
+              const themeColor = CARD_THEMES[themeIdx];
               const [r, g, b] = themeColor.split(',').map(s => parseInt(s.trim(), 10));
               const tone = (f) => `${Math.round(r * f)}, ${Math.round(g * f)}, ${Math.round(b * f)}`;
               return (
@@ -126,6 +142,7 @@ export default function RadioPage() {
                 key={i}
                 style={{
                   '--c': themeColor,
+                  '--lt': LINK_TINTS[themeIdx],
                   background: `linear-gradient(135deg, rgba(${tone(0.78)},0.96) 0%, rgba(${tone(0.58)},0.95) 45%, rgba(${tone(0.50)},0.95) 70%, rgba(${tone(0.36)},0.97) 100%)`,
                 }}
                 className="border border-[rgba(var(--c),0.6)] rounded-sm p-5 relative overflow-hidden transition-all duration-300 hover:translate-y-[-4px] hover:shadow-[0_0_42px_rgba(var(--c),0.60)] hover:border-[rgba(var(--c),0.95)]"
@@ -182,7 +199,7 @@ export default function RadioPage() {
                     href={show.url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="relative inline-block font-bebas text-xs tracking-widest mt-3 px-4 py-2 border rounded transition-all duration-300 border-[rgba(var(--c),0.45)] text-[rgba(var(--c),1)] hover:bg-[rgba(var(--c),0.10)] hover:border-[rgba(var(--c),0.75)] hover:shadow-[0_0_18px_rgba(var(--c),0.35)]"
+                    className="relative inline-block font-bebas text-xs tracking-widest mt-3 px-4 py-2 border rounded transition-all duration-300 border-[rgba(var(--c),0.45)] text-[rgb(var(--lt))] hover:bg-[rgba(var(--c),0.10)] hover:border-[rgba(var(--c),0.75)] hover:shadow-[0_0_18px_rgba(var(--c),0.35)]"
                   >
                     ▶ {t('radio.listen')}
                   </a>
