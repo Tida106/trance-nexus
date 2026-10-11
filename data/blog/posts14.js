@@ -328,7 +328,7 @@ export const posts14 = [
         },
         {
           heading: '3. Lineup Highlights',
-          body: '<p>Names on the announced lineup include Solarstone, Key4050 (Bryan Kearney + John O\'Callaghan), Dash Berlin, Andy Moor, <a href="/artists/john-00-fleming">John 00 Fleming</a>, Vini Vici and MaRLo. <a href="/artists/paul-van-dyk">Paul van Dyk</a> is listed presenting "The Essence of Acid".</p><p>Other billed acts and b2b sets include Ferry Corsten + Marsh, Aaron Hibell (Live), Alpha 9 + Ilan Bluestone, JOA, Infected Mushroom, Neelix, Astrix, BT + Matt FAX, Giorgia Angiuli, Mauro Picotto and Warp Brothers.</p>'
+          body: '<p>Names on the announced lineup include Solarstone, Key4050 (Bryan Kearney + John O\'Callaghan), Dash Berlin, Andy Moor, John 00 Fleming, Vini Vici and MaRLo. <a href="/artists/paul-van-dyk">Paul van Dyk</a> is listed presenting "The Essence of Acid".</p><p>Other billed acts and b2b sets include Ferry Corsten + Marsh, Aaron Hibell (Live), Alpha 9 + Ilan Bluestone, JOA, Infected Mushroom, Neelix, Astrix, BT + Matt FAX, Giorgia Angiuli, Mauro Picotto and Warp Brothers.</p>'
         },
         {
           heading: '4. Debuts',
@@ -351,7 +351,7 @@ export const posts14 = [
         },
         {
           heading: '3. ラインナップのポイント',
-          body: '<p>発表されたラインナップには、Solarstone、Key4050（Bryan Kearney + John O\'Callaghan）、Dash Berlin、Andy Moor、<a href="/artists/john-00-fleming">John 00 Fleming</a>、Vini Vici、MaRLoなどが並びます。<a href="/artists/paul-van-dyk">Paul van Dyk</a>は「The Essence of Acid」名義で掲載されています。</p><p>ほかに、Ferry Corsten + Marsh、Aaron Hibell（Live）、Alpha 9 + Ilan Bluestone、JOA、Infected Mushroom、Neelix、Astrix、BT + Matt FAX、Giorgia Angiuli、Mauro Picotto、Warp Brothersなどが発表されています。</p>'
+          body: '<p>発表されたラインナップには、Solarstone、Key4050（Bryan Kearney + John O\'Callaghan）、Dash Berlin、Andy Moor、John 00 Fleming、Vini Vici、MaRLoなどが並びます。<a href="/artists/paul-van-dyk">Paul van Dyk</a>は「The Essence of Acid」名義で掲載されています。</p><p>ほかに、Ferry Corsten + Marsh、Aaron Hibell（Live）、Alpha 9 + Ilan Bluestone、JOA、Infected Mushroom、Neelix、Astrix、BT + Matt FAX、Giorgia Angiuli、Mauro Picotto、Warp Brothersなどが発表されています。</p>'
         },
         {
           heading: '4. 初出演',

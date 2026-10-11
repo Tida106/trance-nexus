@@ -1,3 +1,4 @@
+import { ogImagePath } from '@/lib/seo';
 import { notFound } from 'next/navigation';
 import EventDetail from '@/components/EventDetail';
 import { events, getEventBySlug, getRelatedEvents } from '@/data/events/index';
@@ -20,7 +21,8 @@ export async function generateMetadata({ params }) {
       : e.editions?.[0]?.year || new Date().getFullYear();
   const title = `${e.name} ${yr} — Lineup, Dates & Tickets`;
 
-  const ogImage = { url: e.og_image || `/og/events/${slug}.png`, width: 1200, height: 630, alt: e.name };
+  const ogUrl = ogImagePath(e.og_image || `/og/events/${slug}.png`);
+  const ogImage = { url: ogUrl, width: 1200, height: 630, alt: e.name };
 
   const metadata = {
     title: `${title} | TRANCE NEXUS`,
@@ -37,7 +39,7 @@ export async function generateMetadata({ params }) {
       card: 'summary_large_image',
       title,
       description: desc,
-      images: [e.og_image || `/og/events/${slug}.png`],
+      images: [ogUrl],
     },
     alternates: {
       canonical: `https://trance-nexus.com/events/${e.slug}`,

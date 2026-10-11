@@ -4,6 +4,14 @@ import { posts } from '@/data/blog/index';
 export const metadata = {
   title: 'Blog | TRANCE NEXUS',
   description: 'In-depth articles about trance music: history, subgenres, artists, festivals, and cultural analysis.',
+  alternates: {
+    canonical: 'https://trance-nexus.com/blog',
+    languages: {
+      en: 'https://trance-nexus.com/blog',
+      ja: 'https://trance-nexus.com/blog',
+      'x-default': 'https://trance-nexus.com/blog',
+    },
+  },
   openGraph: {
     title: 'TRANCE NEXUS Blog',
     description: 'In-depth articles about trance music: history, subgenres, artists, festivals, and cultural analysis.',

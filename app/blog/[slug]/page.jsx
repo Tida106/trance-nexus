@@ -1,3 +1,4 @@
+import { ogImagePath } from '@/lib/seo';
 import { notFound } from 'next/navigation';
 import BlogPost from '@/components/BlogPost';
 import { posts } from '@/data/blog/index';
@@ -10,9 +11,12 @@ export async function generateMetadata({ params }) {
   const { slug } = await params;
   const post = posts.find((p) => p.slug === slug);
   if (!post) return {};
-  const ogImage = { url: `/og/blog/${slug}.png`, width: 1200, height: 630, alt: post.en.title };
+  const ogUrl = ogImagePath(`/og/blog/${slug}.png`);
+  const ogImage = { url: ogUrl, width: 1200, height: 630, alt: post.en.title };
   return {
-    title: `${post.en.title} | TRANCE NEXUS`,
+    // Drop the brand suffix when it would push the title past ~65 chars,
+    // so search results show the article title instead of a truncated brand.
+    title: `${post.en.title} | TRANCE NEXUS`.length > 65 ? post.en.title : `${post.en.title} | TRANCE NEXUS`,
     description: post.en.description,
     openGraph: {
       title: post.en.title,
@@ -27,7 +31,7 @@ export async function generateMetadata({ params }) {
       card: 'summary_large_image',
       title: post.en.title,
       description: post.en.description,
-      images: [`/og/blog/${slug}.png`],
+      images: [ogUrl],
     },
     alternates: {
       canonical: `/blog/${slug}`,

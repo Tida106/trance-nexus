@@ -1,3 +1,4 @@
+import { defaultOgImages, DEFAULT_OG } from '@/lib/seo';
 import { notFound } from 'next/navigation';
 import GlossaryDetail from '@/components/GlossaryDetail';
 import { glossary, getTermBySlug, getRelatedTerms } from '@/data/glossary/index';
@@ -22,8 +23,9 @@ export async function generateMetadata({ params }) {
       type: 'article',
       locale: 'en_US',
       alternateLocale: ['ja_JP'],
+      images: defaultOgImages(),
     },
-    twitter: { card: 'summary', title: term.term.en, description: desc },
+    twitter: { card: 'summary_large_image', title: term.term.en, description: desc , images: [DEFAULT_OG] },
     alternates: {
       canonical: `https://trance-nexus.com/glossary/${term.slug}`,
       languages: {

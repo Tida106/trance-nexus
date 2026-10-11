@@ -101,7 +101,7 @@ const CATEGORY_PAGES = collectIdsFrom('data/blog/categories.js').map((id) => ({
 // tags.js contains both per-tag entries and the TAG_GROUPS metadata; filter against the actual
 // tag id set by reading tags.js once and dropping any group ids that aren't real tags.
 const TAG_FILE = path.join(__dirname, '..', 'data/blog/tags.js');
-const TAG_GROUP_IDS = new Set(['subgenre', 'artist', 'place', 'tool', 'era']);
+const TAG_GROUP_IDS = new Set(['subgenre', 'artist', 'place', 'tool', 'era', 'format']);
 const TAG_PAGES = fs.existsSync(TAG_FILE)
   ? collectIdsFrom('data/blog/tags.js')
       .filter((id) => !TAG_GROUP_IDS.has(id))

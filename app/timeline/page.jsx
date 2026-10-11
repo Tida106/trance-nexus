@@ -8,6 +8,7 @@ export const metadata = {
     'An interactive bilingual timeline of trance music history — from Frankfurt clubs and the Goa scene to A State of Trance, the Anjuna empire, and Anyma at the Las Vegas Sphere. 30 moments across five eras.',
   alternates: {
     canonical: '/timeline',
+    languages: { en: '/timeline', ja: '/timeline', 'x-default': '/timeline' },
   },
   openGraph: {
     title: 'Trance Timeline (1988–2026)',

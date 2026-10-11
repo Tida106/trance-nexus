@@ -1,3 +1,4 @@
+import { defaultOgImages, DEFAULT_OG } from '@/lib/seo';
 import { notFound } from 'next/navigation';
 import ArtistDetail from '@/components/ArtistDetail';
 import { artists, getArtistBySlug, getRelatedArtists } from '@/data/artists/index';
@@ -23,9 +24,11 @@ export async function generateMetadata({ params }) {
       type: 'profile',
       locale: 'en_US',
       alternateLocale: ['ja_JP'],
+      images: defaultOgImages(),
     },
     twitter: {
       card: 'summary_large_image',
+      images: [DEFAULT_OG],
       title: artist.name,
       description: desc,
     },

@@ -1,3 +1,4 @@
+import { defaultOgImages, DEFAULT_OG } from '@/lib/seo';
 import { notFound } from 'next/navigation';
 import TaxonomyListing from '@/components/TaxonomyListing';
 import { tags, getTagById } from '@/data/blog/tags';
@@ -20,8 +21,9 @@ export async function generateMetadata({ params }) {
       type: 'website',
       locale: 'en_US',
       alternateLocale: ['ja_JP'],
+      images: defaultOgImages(),
     },
-    twitter: { card: 'summary', title: tag.name.en, description: tag.description.en },
+    twitter: { card: 'summary_large_image', title: tag.name.en, description: tag.description.en , images: [DEFAULT_OG] },
     alternates: {
       canonical: `https://trance-nexus.com/tag/${tag.id}`,
       languages: {

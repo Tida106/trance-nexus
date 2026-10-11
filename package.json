@@ -7,6 +7,7 @@
     "dev": "next dev",
     "prebuild": "node scripts/generate-og-images.js && node scripts/generate-sitemap.js && node scripts/generate-search-index.js && node scripts/generate-rss.js && node scripts/generate-pwa.js",
     "build": "npm run verify:artist-links && npm run verify:amazon-asins && next build",
+    "prebuild:fast": "node scripts/generate-sitemap.js && node scripts/generate-search-index.js && node scripts/generate-rss.js",
     "build:fast": "next build",
     "start": "next start",
     "lint": "next lint",
