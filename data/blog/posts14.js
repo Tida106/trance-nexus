@@ -558,35 +558,35 @@ export const posts14 = [
   {
     slug: 'anjunabeats-warehouse-tour-uk-2026',
     date: '2026-08-21',
-    readTime: 3,
+    readTime: 2,
     tags: ['above-and-beyond', 'anjunabeats', 'uk', 'tour', 'warehouse-rave'],
     en: {
-      title: 'Anjunabeats Warehouse 2026: Above & Beyond\'s October UK Dates',
-      description: 'Above & Beyond present Anjunabeats Warehouse, a new event concept inspired by the Leake Street launch party for Anjunabeats Volume 17. Venues and dates for October 2026.',
-      excerpt: 'Anjunabeats Warehouse is a new Above & Beyond event concept inspired by the Anjunabeats Volume 17 launch party at Leake Street. Listed October 2026 dates include Liverpool, Birmingham and Bristol.',
+      title: 'Anjunabeats Warehouse 2026: Above & Beyond\'s New Event Concept',
+      description: 'Above & Beyond present Anjunabeats Warehouse, a new event concept inspired by the Leake Street launch party for Anjunabeats Volume 17, including the Glasgow date on 16 October 2026.',
+      excerpt: 'Anjunabeats Warehouse is a new Above & Beyond event concept inspired by the Anjunabeats Volume 17 launch party at Leake Street. The Glasgow date is Friday 16 October 2026 at SWG3.',
       content: [
         {
           heading: 'Where the Concept Comes From',
           body: '<p>Above &amp; Beyond present Anjunabeats Warehouse as a new event concept. According to the venue page for the Glasgow date at SWG3, it is inspired by the energy of the Anjunabeats Volume 17 summer launch party at Leake Street in London.</p><p>That launch party was a one-night pop-up at 26 Leake Street on 28 May 2026. EDM Tunes reported a limited-capacity crowd and a stage surrounded on all sides, so fans could high-five the trio. Oliver Smith joined them for his remix of Atlantis\' "Fiji", and station2station performed "Hi-Tech". The report singles out Above &amp; Beyond\'s take on "Feel The Vibe" (originally Axwell and Errol Reid, 2008) and the club mix of "Sailing Off The End Of The World" as highlights. Anjunabeats Volume 17 has 35 tracks across two mixes.</p>'
         },
         {
-          heading: 'Listed Dates and Venues',
-          body: '<p>The following dates are taken from event listings on Ents24 (the Glasgow date is on the SWG3 venue page). Check the official ticket links for current details.</p><ul><li><strong>Liverpool, Saturday 17 October:</strong> Blackstone Street Warehouse. The listing names Amy Wiles, Ferry Corsten, Marsh, J Ribbon and Kloset alongside Above &amp; Beyond.</li><li><strong>Birmingham, Saturday 24 October:</strong> GASWRX, 50 Adderley Street. The listing shows a 3:00pm start.</li><li><strong>Bristol, Friday 30 October:</strong> The Prospect Building, Feeder Road. The listing shows an 8:00pm start and marks the event as coming soon, so confirm the status with the ticket seller.</li></ul>'
+          heading: 'Glasgow: Friday 16 October 2026',
+          body: '<p>The <a href="https://swg3.tv/events/2026/october/anjunabeats-warehouse/" target="_blank" rel="noopener">SWG3 event page</a> lists Anjunabeats Warehouse at the SWG3 Galvanizers, 100 Eastvale Place, Glasgow, on Friday 16 October 2026, with doors at 10pm. The event is 18+. The named lineup is Above &amp; Beyond, Grum, J Ribbon and station2station, along with acts from the Anjunabeats label family.</p><p>Please check the official Anjunabeats channels for the latest dates and details.</p>'
         }
       ]
     },
     ja: {
-      title: 'Anjunabeats Warehouse 2026：Above & Beyondの10月英国公演',
-      description: 'Above & Beyondが手がける新イベント「Anjunabeats Warehouse」。Anjunabeats Volume 17のLeake Streetでのローンチパーティーを受けた企画で、2026年10月の会場と日程をまとめます。',
-      excerpt: 'Anjunabeats Warehouseは、Anjunabeats Volume 17のLeake Streetでのローンチパーティーに着想を得た、Above & Beyondの新しいイベント企画。10月にリバプール、バーミンガム、ブリストルなどで開催が掲載されています。',
+      title: 'Anjunabeats Warehouse 2026：Above & Beyondの新イベント企画',
+      description: 'Above & Beyondが手がける新イベント「Anjunabeats Warehouse」。Anjunabeats Volume 17のLeake Streetでのローンチパーティーを受けた企画で、2026年10月16日のグラスゴー公演を紹介します。',
+      excerpt: 'Anjunabeats Warehouseは、Anjunabeats Volume 17のLeake Streetでのローンチパーティーに着想を得た、Above & Beyondの新しいイベント企画。グラスゴー公演は2026年10月16日（金）、SWG3で開催されます。',
       content: [
         {
           heading: '企画の背景',
           body: '<p>Above &amp; BeyondはAnjunabeats Warehouseを新しいイベント企画として紹介しています。グラスゴー公演の会場SWG3のページによると、ロンドンのLeake Streetで行われたAnjunabeats Volume 17の夏のローンチパーティーのエネルギーに着想を得たものです。</p><p>このローンチパーティーは、2026年5月28日にLeake Street 26番地で開かれた一夜限りのポップアップでした。EDM Tunesによると、観客数は限定で、ステージが四方を囲む形だったため、ファンはトリオとハイタッチできる距離にいました。Oliver SmithがAtlantisの「Fiji」のリミックスで共演し、station2stationが「Hi-Tech」を披露しました。同記事は、Above &amp; Beyondによる「Feel The Vibe」（原曲はAxwellとErrol Reid、2008年）と、「Sailing Off The End Of The World」のクラブミックスを見どころとして挙げています。Anjunabeats Volume 17は2つのミックスに計35曲を収録しています。</p>'
         },
         {
-          heading: '掲載されている日程と会場',
-          body: '<p>以下の日程はEnts24のイベント掲載に基づきます（グラスゴー公演はSWG3の会場ページ）。最新の情報は公式のチケットリンクでご確認ください。</p><ul><li><strong>リバプール、10月17日（土）：</strong>Blackstone Street Warehouse。掲載ではAbove &amp; Beyondに加え、Amy Wiles、Ferry Corsten、Marsh、J Ribbon、Kloset の名前が挙がっています。</li><li><strong>バーミンガム、10月24日（土）：</strong>GASWRX（Adderley Street 50番地）。掲載上の開始時刻は15:00です。</li><li><strong>ブリストル、10月30日（金）：</strong>The Prospect Building（Feeder Road）。掲載上の開始時刻は20:00で、「coming soon」の表示もあるため、チケット販売元で状況をご確認ください。</li></ul>'
+          heading: 'グラスゴー：2026年10月16日（金）',
+          body: '<p><a href="https://swg3.tv/events/2026/october/anjunabeats-warehouse/" target="_blank" rel="noopener">SWG3のイベントページ</a>には、Anjunabeats Warehouseが2026年10月16日（金）、グラスゴーのSWG3 Galvanizers（100 Eastvale Place）で、開場22:00と掲載されています。18歳以上限定です。出演者として、Above &amp; Beyond、Grum、J Ribbon、station2stationのほか、Anjunabeatsレーベルファミリーのアーティストが掲載されています。</p><p>最新の日程や詳細は、Anjunabeats公式でご確認ください。</p>'
         }
       ]
     }
