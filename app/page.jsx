@@ -159,7 +159,7 @@ export default function Home() {
           ───────────────────────────────────────────────────────── */}
       <section
         id="top"
-        className="relative z-10 min-h-screen flex flex-col items-center justify-center text-center overflow-hidden pt-[84px] pb-36"
+        className="relative z-10 min-h-screen flex flex-col items-center justify-center text-center overflow-hidden pt-[84px] pb-28"
       >
         <HeroStage />
 
