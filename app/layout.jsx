@@ -2,17 +2,23 @@ import './globals.css';
 import { LanguageProvider } from '@/lib/useTranslation';
 import Script from 'next/script';
 import DeferredChrome from '@/components/DeferredChrome';
-import { Bebas_Neue, Barlow_Condensed } from 'next/font/google';
+// Fonts are self-hosted from @fontsource (npm) instead of next/font/google so
+// the build never needs to reach fonts.googleapis.com (blocked in cloud builds).
+import localFont from 'next/font/local';
 
-const bebas = Bebas_Neue({
+const bebas = localFont({
+  src: '../node_modules/@fontsource/bebas-neue/files/bebas-neue-latin-400-normal.woff2',
   weight: '400',
-  subsets: ['latin'],
   display: 'swap',
   variable: '--font-bebas',
 });
-const barlow = Barlow_Condensed({
-  weight: ['300', '400', '600', '700'],
-  subsets: ['latin'],
+const barlow = localFont({
+  src: [
+    { path: '../node_modules/@fontsource/barlow-condensed/files/barlow-condensed-latin-300-normal.woff2', weight: '300', style: 'normal' },
+    { path: '../node_modules/@fontsource/barlow-condensed/files/barlow-condensed-latin-400-normal.woff2', weight: '400', style: 'normal' },
+    { path: '../node_modules/@fontsource/barlow-condensed/files/barlow-condensed-latin-600-normal.woff2', weight: '600', style: 'normal' },
+    { path: '../node_modules/@fontsource/barlow-condensed/files/barlow-condensed-latin-700-normal.woff2', weight: '700', style: 'normal' },
+  ],
   display: 'swap',
   variable: '--font-barlow',
 });

@@ -6,6 +6,13 @@
 
 ---
 
+## 作業ルール（最優先）
+
+- **作業を始める前に必ず `git pull --rebase origin main` を実行する。** 自宅PCとクラウド版 Claude Code の両方が同じリポジトリを触るため、衝突を防ぐ
+- フォント（Bebas Neue / Barlow Condensed）は `@fontsource` から `next/font/local` で読み込む。`next/font/google` に戻さない（クラウド環境では Google Fonts に接続できずビルドが失敗する）
+
+---
+
 ## デプロイ先
 
 **GitHub Pages**にデプロイされている（Vercelではない）。配信は `Tida106/trance-nexus` リポジトリのカスタムドメイン経由。
