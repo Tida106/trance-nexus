@@ -62,6 +62,7 @@ const aStateOfTranceFestival = {
     { year: 2011, dates: 'April 9', note: 'ASOT 500 (Brabanthallen, Den Bosch)' },
   ],
 
+  guide_post: { slug: 'asot-rotterdam-2027-guide', en: 'Read our ASOT Rotterdam 2027 guide', ja: 'ASOT Rotterdam 2027 ガイドを読む' },
   official_url: 'https://festival.astateoftrance.com',
   ticket_url: 'https://festival.astateoftrance.com',
   og_image: '/og/events/a-state-of-trance-festival.png',

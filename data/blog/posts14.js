@@ -730,4 +730,65 @@ export const posts14 = [
       ],
     },
   }
+  , // ← ★直前の記事との区切りのカンマ
+  {
+    slug: 'asot-rotterdam-2027-guide',
+    date: '2026-10-14',
+    readTime: 4,
+    tags: ['asot', 'armin-van-buuren', 'rotterdam', 'festival', 'netherlands'],
+    en: {
+      title: 'A State of Trance Rotterdam 2027: Dates, First-Wave Lineup & Tickets',
+      description: 'A State of Trance Rotterdam 2027 takes place on 26–27 February at Rotterdam Ahoy. Dates, the first-wave lineup, Armin van Buuren’s sets and ticket options.',
+      excerpt: 'A State of Trance returns to Rotterdam Ahoy on 26–27 February 2027. Here are the dates, the first-wave lineup by day, Armin van Buuren’s sets and the ticket options.',
+      content: [
+        {
+          heading: 'The Event at a Glance',
+          body: `<p><strong>A State of Trance Rotterdam 2027</strong> takes place on <strong>Friday 26 and Saturday 27 February 2027</strong> at <strong>Rotterdam Ahoy</strong> in the Netherlands. It is an 18+ event. This is the festival&rsquo;s fourth year at Ahoy, following the 2024, 2025 and 2026 editions; the 2026 edition marked 25 years of A State of Trance.</p><p>Ticket options listed on the official site are weekend tickets and two- and three-night hotel packages. Weekend VIP tickets are sold out, with a waiting list open. Check <a href="https://festival.astateoftrance.com/rotterdam/" target="_blank" rel="noopener">festival.astateoftrance.com/rotterdam</a> for current availability.</p>`,
+        },
+        {
+          heading: 'Lineup: First Wave',
+          body: `<p>The first wave of artists was announced in late September 2026. Reported by <a href="https://edmidentity.com/2026/09/28/a-state-of-trance-rotterdam-2027-lineup/" target="_blank" rel="noopener">EDM Identity</a> and <a href="https://www.ibiza1radio.com/news/a-state-of-trance-2027-lineup-revealed-for-rotterdam-ahoy" target="_blank" rel="noopener">Ibiza 1 Radio</a>, it includes:</p><ul><li><strong>Friday 26 February:</strong> <a href="/artists/armin-van-buuren">Armin van Buuren</a> (five-hour set), <a href="/artists/aly-and-fila">Aly &amp; Fila</a> b2b <a href="/artists/john-ocallaghan">John O&rsquo;Callaghan</a>, Alex M.O.R.P.H., <a href="/artists/ben-gold">Ben Gold</a>, <a href="/artists/dash-berlin">Dash Berlin</a>, <a href="/artists/richard-durand">Richard Durand</a>, Billy Gillies, Ciaran McAuley, <a href="/artists/david-forbes">David Forbes</a> and <a href="/artists/orjan-nilsen">&Oslash;rjan Nilsen</a>.</li><li><strong>Saturday 27 February:</strong> <a href="/artists/vini-vici">Vini Vici</a> b2b Space 92, <a href="/artists/giuseppe-ottaviani">Giuseppe Ottaviani</a> b2b Hypaton, <a href="/artists/ferry-corsten">Ferry Corsten</a> (with a partner still to be announced), <a href="/artists/ruben-de-ronde">Ruben de Ronde</a>, <a href="/artists/factor-b">Factor B</a>, Talla 2XLC, <a href="/artists/xijaro-and-pitch">XiJaro &amp; Pitch</a>, <a href="/artists/driftmoon">Driftmoon</a>, <a href="/artists/mark-sixma">Mark Sixma</a>, Sarah de Warren and Youna.</li></ul><p>Reports describe the venue as using four areas on Friday and five on Saturday. More artists are expected to be added, so check the official channels for the full timetable.</p>`,
+        },
+        {
+          heading: 'Armin van Buuren&rsquo;s Sets',
+          body: `<p>Armin van Buuren is billed for several sets across the weekend: a five-hour set on Friday night and two performances on Saturday. According to <a href="https://www.ibiza1radio.com/news/a-state-of-trance-2027-lineup-revealed-for-rotterdam-ahoy" target="_blank" rel="noopener">Ibiza 1 Radio</a>, one of the Saturday sets is an all-vinyl set before the main doors open, for early-access ticket and hotel-package holders.</p>`,
+        },
+        {
+          heading: 'Who It Suits',
+          body: `<p>A State of Trance Rotterdam is a two-day indoor event in a large arena, with several areas running at once. It suits people who want a full weekend of trance across many sub-styles, and listeners of the weekly A State of Trance radio show who want to see the show&rsquo;s artists in one place.</p><p>For background on the brand, see <a href="/blog/asot-25-years-anniversary">A State of Trance Turns 25</a> and the <a href="/events/a-state-of-trance-festival">A State of Trance Festival page</a> in our events calendar. If you are planning a trip earlier in the season, our <a href="/blog/november-2026-trance-events-guide">November 2026 Trance Events Guide</a> covers ASOT London, Dreamstate SoCal and Transmission Netherlands.</p>`,
+        },
+        {
+          heading: 'A Listener&rsquo;s Note',
+          body: `<p>I listen to A State of Trance every week, so the Rotterdam weekend is the event I watch most closely each year. I will update this page as more of the lineup is announced.</p>`,
+        },
+      ],
+    },
+    ja: {
+      title: 'A State of Trance Rotterdam 2027：日程・第1弾ラインナップ・チケット',
+      description: 'A State of Trance Rotterdam 2027は2月26〜27日にRotterdam Ahoyで開催。日程、第1弾ラインナップ、Armin van Buurenのセット、チケットの種類をまとめました。',
+      excerpt: 'A State of Trance Rotterdam 2027は2027年2月26〜27日、Rotterdam Ahoyで開催。日程、曜日別の第1弾ラインナップ、Armin van Buurenのセット、チケットを紹介します。',
+      content: [
+        {
+          heading: 'イベント概要',
+          body: `<p><strong>A State of Trance Rotterdam 2027</strong>は<strong>2027年2月26日（金）・27日（土）</strong>、オランダの<strong>Rotterdam Ahoy</strong>で開催されます。18歳以上限定。2024年・2025年・2026年に続く、Ahoyでの4回目の開催で、2026年はA State of Trance 25周年を記念した回でした。</p><p>公式サイトに掲載されているチケットは、週末通し券と2泊・3泊のホテルパッケージです。週末VIPは完売で、キャンセル待ちを受け付けています。最新の販売状況は<a href="https://festival.astateoftrance.com/rotterdam/" target="_blank" rel="noopener">festival.astateoftrance.com/rotterdam</a>でご確認ください。</p>`,
+        },
+        {
+          heading: 'ラインナップ（第1弾）',
+          body: `<p>第1弾ラインナップは2026年9月下旬に発表されました。<a href="https://edmidentity.com/2026/09/28/a-state-of-trance-rotterdam-2027-lineup/" target="_blank" rel="noopener">EDM Identity</a>と<a href="https://www.ibiza1radio.com/news/a-state-of-trance-2027-lineup-revealed-for-rotterdam-ahoy" target="_blank" rel="noopener">Ibiza 1 Radio</a>の報道によると、出演者は次のとおりです。</p><ul><li><strong>2月26日（金）：</strong><a href="/artists/armin-van-buuren">Armin van Buuren</a> （5時間セット）、<a href="/artists/aly-and-fila">Aly &amp; Fila</a> b2b <a href="/artists/john-ocallaghan">John O&rsquo;Callaghan</a>、Alex M.O.R.P.H.、<a href="/artists/ben-gold">Ben Gold</a>、<a href="/artists/dash-berlin">Dash Berlin</a>、<a href="/artists/richard-durand">Richard Durand</a>、Billy Gillies、Ciaran McAuley、<a href="/artists/david-forbes">David Forbes</a>、<a href="/artists/orjan-nilsen">&Oslash;rjan Nilsen</a>。</li><li><strong>2月27日（土）：</strong><a href="/artists/vini-vici">Vini Vici</a> b2b Space 92、<a href="/artists/giuseppe-ottaviani">Giuseppe Ottaviani</a> b2b Hypaton、<a href="/artists/ferry-corsten">Ferry Corsten</a> （共演者は後日発表）、<a href="/artists/ruben-de-ronde">Ruben de Ronde</a>、<a href="/artists/factor-b">Factor B</a>、Talla 2XLC、<a href="/artists/xijaro-and-pitch">XiJaro &amp; Pitch</a>、<a href="/artists/driftmoon">Driftmoon</a>、<a href="/artists/mark-sixma">Mark Sixma</a>、Sarah de Warren、Youna。</li></ul><p>報道では、金曜は4エリア、土曜は5エリアで行われるとされています。今後も追加発表が予定されているので、タイムテーブルは公式で確認してください。</p>`,
+        },
+        {
+          heading: 'Armin van Buurenのセット',
+          body: `<p>Armin van Buurenは週末を通して複数のセットに出演します。金曜は5時間のセット、土曜は2回の出演です。<a href="https://www.ibiza1radio.com/news/a-state-of-trance-2027-lineup-revealed-for-rotterdam-ahoy" target="_blank" rel="noopener">Ibiza 1 Radio</a>によると、土曜のうち1回は開場前のオール・ヴァイナル・セットで、アーリーアクセス券とホテルパッケージの購入者が対象です。</p>`,
+        },
+        {
+          heading: 'こんな人に',
+          body: `<p>A State of Trance Rotterdamは、大型アリーナで複数のエリアが同時に動く2日間の屋内イベントです。いろいろなスタイルのトランスを週末じっくり楽しみたい人や、毎週のASOTラジオで聴いているアーティストを一度に見たい人に向いています。</p><p>ブランドの背景は<a href="/blog/asot-25-years-anniversary">A State of Trance 25周年</a>の記事や、イベント・カレンダーの<a href="/events/a-state-of-trance-festival">A State of Trance Festivalのページ</a>をどうぞ。シーズン前半の予定なら、ASOT London・Dreamstate SoCal・Transmission Netherlandsをまとめた<a href="/blog/november-2026-trance-events-guide">2026年11月のトランス・イベントガイド</a>もあります。</p>`,
+        },
+        {
+          heading: 'リスナーからの視点',
+          body: `<p>毎週A State of Tranceを聴いているので、ロッテルダムの週末は毎年いちばん注目しているイベントです。追加のラインナップが出たら、このページを更新します。</p>`,
+        },
+      ],
+    },
+  }
 ];

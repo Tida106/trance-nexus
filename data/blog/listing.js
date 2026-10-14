@@ -1,6 +1,9 @@
 // Lightweight listing data — no article body content.
 // Newest first. Keep in sync with data/blog/posts.js when adding articles.
 export const listing = [
+  { slug: 'asot-rotterdam-2027-guide', date: '2026-10-14', readTime: 4, tags: ['asot', 'armin-van-buuren', 'rotterdam', 'festival', 'netherlands'],
+    en: { title: 'A State of Trance Rotterdam 2027: Dates, First-Wave Lineup & Tickets', excerpt: 'A State of Trance returns to Rotterdam Ahoy on 26–27 February 2027. Here are the dates, the first-wave lineup by day, Armin van Buuren’s sets and the ticket options.' },
+    ja: { title: 'A State of Trance Rotterdam 2027：日程・第1弾ラインナップ・チケット', excerpt: 'A State of Trance Rotterdam 2027は2027年2月26〜27日、Rotterdam Ahoyで開催。日程、曜日別の第1弾ラインナップ、Armin van Buurenのセット、チケットを紹介します。' } },
   { slug: 'november-2026-trance-events-guide', date: '2026-10-11', readTime: 6, tags: ['asot', 'dreamstate', 'transmission', 'festival', 'events'],
     en: { title: 'November 2026 Trance Events Guide: ASOT London, Dreamstate SoCal & Transmission Netherlands', excerpt: 'Three major trance events fall within two weeks in November 2026: ASOT London (14 Nov), Dreamstate SoCal (20–21 Nov) and Transmission Netherlands (28 Nov). Here are their dates, hours, venues and rules side by side.' },
     ja: { title: '2026年11月のトランス・イベントガイド：ASOT London・Dreamstate SoCal・Transmission Netherlands', excerpt: '2026年11月は、ASOT London（14日）、Dreamstate SoCal（20〜21日）、Transmission Netherlands（28日）と大きなトランス・イベントが2週間に3つ。日程・時間・会場・ルールを並べて比較します。' } },

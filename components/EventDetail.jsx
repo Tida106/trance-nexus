@@ -147,6 +147,14 @@ export default function EventDetail({ event, headliners, related }) {
                     {isJA ? '公式サイト →' : 'Official site →'}
                   </a>
                 )}
+                {event.guide_post && (
+                  <Link
+                    href={`/blog/${event.guide_post.slug}`}
+                    className="block text-accent-peach hover:underline text-sm mt-1"
+                  >
+                    {isJA ? event.guide_post.ja : event.guide_post.en} →
+                  </Link>
+                )}
                 {pickLocalized(event.ticket_note, isJA) && (
                   <div className="text-text-muted text-xs mt-2 leading-relaxed">
                     {pickLocalized(event.ticket_note, isJA)}
