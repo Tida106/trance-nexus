@@ -335,4 +335,13 @@ body::before {
 .ade-day:hover{transform:translateY(-3px)}
 .ade-cta{position:relative;display:inline-block;margin-top:18px;background:#F97316;color:#fff;font-family:var(--font-bebas),sans-serif;letter-spacing:1.5px;font-size:18px;padding:8px 18px;border-radius:8px}
 .ade-cta:hover{background:#ea580c}
-@media (prefers-reduced-motion:reduce){.ade-sweep{animation:none}.ade-day{transition:none}}
+/* Fireworks behind the ADE banner content */
+.ade-fireworks{position:absolute;inset:0;pointer-events:none;overflow:hidden}
+.ade-fw{position:absolute;width:6px;height:6px;mix-blend-mode:screen}
+.ade-fw i{position:absolute;left:0;top:0;width:6px;height:6px;border-radius:50%;background:var(--c);box-shadow:0 0 8px 2px var(--c);opacity:0;animation:ade-burst var(--t) ease-out infinite;animation-delay:var(--dl);will-change:transform,opacity}
+@keyframes ade-burst{0%{transform:translate(0,0) scale(.6);opacity:0}8%{opacity:1}70%{opacity:.7}100%{transform:translate(var(--x),var(--y)) scale(.2);opacity:0}}
+.ade-fw b{position:absolute;left:-2px;top:-2px;width:10px;height:10px;border-radius:50%;background:#fff;opacity:0;filter:blur(2px);animation:ade-flash var(--t) ease-out infinite;animation-delay:var(--dl)}
+@keyframes ade-flash{0%{opacity:0;transform:scale(.5)}6%{opacity:.9;transform:scale(2.2)}20%,100%{opacity:0;transform:scale(1)}}
+.ade-trail{position:absolute;width:2px;height:40px;background:linear-gradient(to top,transparent,rgba(255,240,200,.8));opacity:0;animation:ade-rise var(--t) ease-out infinite;animation-delay:calc(var(--dl) - .7s)}
+@keyframes ade-rise{0%{transform:translateY(160px);opacity:0}5%{opacity:.8}12%{transform:translateY(0);opacity:0}100%{opacity:0}}
+@media (prefers-reduced-motion:reduce){.ade-sweep{animation:none}.ade-day{transition:none}.ade-fireworks{display:none}}

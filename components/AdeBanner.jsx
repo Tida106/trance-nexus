@@ -30,6 +30,47 @@ const DAYS = [
   ] },
 ];
 
+
+// Fireworks: deterministic layout (seeded) so prerender and hydration match.
+function rng(seed) { let s = seed >>> 0; return () => ((s = (s * 1664525 + 1013904223) >>> 0) / 4294967296); }
+const FW_COLORS = ['#FF6FB5', '#3FD6E8', '#F4D35E', '#FF9A3C', '#B28DFF', '#5EE6A8', '#FFFFFF'];
+const FW_SPOTS = [[12, 30], [34, 18], [58, 28], [80, 16], [92, 42], [24, 62], [70, 58]];
+const FIREWORKS = (() => {
+  const r = rng(2026102);
+  return FW_SPOTS.map(([x, y], k) => {
+    const t = `${(3.4 + r() * 2).toFixed(2)}s`;
+    const dl = `${(k * 0.7 + r() * 0.5).toFixed(2)}s`;
+    const c1 = FW_COLORS[Math.floor(r() * FW_COLORS.length)];
+    const c2 = FW_COLORS[Math.floor(r() * FW_COLORS.length)];
+    const rad = 62 + r() * 36;
+    const n = 26;
+    const parts = Array.from({ length: n }, (_, i) => {
+      const a = (i / n) * Math.PI * 2;
+      const rr = rad * (0.75 + r() * 0.3);
+      return { c: i % 2 ? c1 : c2, x: `${(Math.cos(a) * rr).toFixed(1)}px`, y: `${(Math.sin(a) * rr + 12).toFixed(1)}px` };
+    });
+    return { x: `${x}%`, y: `${y}%`, t, dl, parts };
+  });
+})();
+
+function Fireworks() {
+  return (
+    <div className="ade-fireworks" aria-hidden="true">
+      {FIREWORKS.map((f, k) => (
+        <div key={k}>
+          <div className="ade-trail" style={{ left: f.x, top: f.y, '--t': f.t, '--dl': f.dl }} />
+          <div className="ade-fw" style={{ left: f.x, top: f.y }}>
+            {f.parts.map((p, i) => (
+              <i key={i} style={{ '--c': p.c, '--x': p.x, '--y': p.y, '--t': f.t, '--dl': f.dl }} />
+            ))}
+            <b style={{ '--t': f.t, '--dl': f.dl }} />
+          </div>
+        </div>
+      ))}
+    </div>
+  );
+}
+
 function parts(ms) {
   const s = Math.max(0, Math.floor(ms / 1000));
   return { d: Math.floor(s / 86400), h: Math.floor((s % 86400) / 3600), m: Math.floor((s % 3600) / 60) };
@@ -57,6 +98,7 @@ export default function AdeBanner() {
   return (
     <section aria-label="Amsterdam Dance Event 2026" className="relative z-10 px-4 md:px-10 max-w-7xl mx-auto -mt-10 mb-16">
       <div className="ade-banner">
+        <Fireworks />
         <div className="ade-sweep" aria-hidden="true" />
         <div className="relative flex flex-wrap items-center justify-between gap-4">
           <div>
