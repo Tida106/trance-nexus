@@ -808,7 +808,7 @@ export const posts14 = [
         },
         {
           heading: 'Wednesday 21 October',
-          body: `<ul><li><strong><a href="/artists/armin-van-buuren">Armin van Buuren</a> &amp; Benwal &mdash; Gashouder (Westergasfabriek).</strong> Armin opens ADE at the reopened Gashouder, joined by Dutch hard house artist Benwal (source: <a href="https://djmag.com/news/armin-van-buuren-announces-ade-opening-party-gashouder" target="_blank" rel="noopener">DJ Mag</a>).</li><li><strong>In Trance We Trust &mdash; Thuishaven.</strong> Black Hole Recordings&rsquo; label night returns with <a href="/artists/bt">BT</a>, Ciaran McAuley, Craig Connelly, Maria Healy, Sneijder, Virtual Vault and <a href="/artists/xijaro-and-pitch">XiJaro &amp; Pitch</a> (source: <a href="https://www.blackholerecordings.com/news/in-trance-we-trust-returns-for-amsterdam-dance-event" target="_blank" rel="noopener">Black Hole Recordings</a>).</li></ul>`,
+          body: `<ul><li><strong><a href="/artists/armin-van-buuren">Armin van Buuren</a> &amp; Benwal &mdash; Gashouder (Westergasfabriek).</strong> Armin opens ADE at the reopened Gashouder, joined by Dutch hard house artist Benwal; see our <a href="/blog/armin-van-buuren-ade-2026-gashouder">Armin at Gashouder guide</a> (source: <a href="https://djmag.com/news/armin-van-buuren-announces-ade-opening-party-gashouder" target="_blank" rel="noopener">DJ Mag</a>).</li><li><strong>In Trance We Trust &mdash; Thuishaven.</strong> Black Hole Recordings&rsquo; label night returns with <a href="/artists/bt">BT</a>, Ciaran McAuley, Craig Connelly, Maria Healy, Sneijder, Virtual Vault and <a href="/artists/xijaro-and-pitch">XiJaro &amp; Pitch</a> (source: <a href="https://www.blackholerecordings.com/news/in-trance-we-trust-returns-for-amsterdam-dance-event" target="_blank" rel="noopener">Black Hole Recordings</a>).</li></ul>`,
         },
         {
           heading: 'Friday 23 October',
@@ -843,7 +843,7 @@ export const posts14 = [
         },
         {
           heading: '10月21日（水）',
-          body: `<ul><li><strong><a href="/artists/armin-van-buuren">Armin van Buuren</a> &amp; Benwal ／ Gashouder（Westergasfabriek）</strong>：リニューアル後のGashouderで、ArminがADEのオープニングを飾ります。共演はオランダのハードハウス系アーティストBenwal（出典：<a href="https://djmag.com/news/armin-van-buuren-announces-ade-opening-party-gashouder" target="_blank" rel="noopener">DJ Mag</a>）。</li><li><strong>In Trance We Trust ／ Thuishaven</strong>：Black Hole Recordingsのレーベルナイト。出演は<a href="/artists/bt">BT</a>、Ciaran McAuley、Craig Connelly、Maria Healy、Sneijder、Virtual Vault、<a href="/artists/xijaro-and-pitch">XiJaro &amp; Pitch</a>（出典：<a href="https://www.blackholerecordings.com/news/in-trance-we-trust-returns-for-amsterdam-dance-event" target="_blank" rel="noopener">Black Hole Recordings</a>）。</li></ul>`,
+          body: `<ul><li><strong><a href="/artists/armin-van-buuren">Armin van Buuren</a> &amp; Benwal ／ Gashouder（Westergasfabriek）</strong>：リニューアル後のGashouderで、ArminがADEのオープニングを飾ります。共演はオランダのハードハウス系アーティストBenwal。詳しくは<a href="/blog/armin-van-buuren-ade-2026-gashouder">ArminのGashouder公演ガイド</a>へ（出典：<a href="https://djmag.com/news/armin-van-buuren-announces-ade-opening-party-gashouder" target="_blank" rel="noopener">DJ Mag</a>）。</li><li><strong>In Trance We Trust ／ Thuishaven</strong>：Black Hole Recordingsのレーベルナイト。出演は<a href="/artists/bt">BT</a>、Ciaran McAuley、Craig Connelly、Maria Healy、Sneijder、Virtual Vault、<a href="/artists/xijaro-and-pitch">XiJaro &amp; Pitch</a>（出典：<a href="https://www.blackholerecordings.com/news/in-trance-we-trust-returns-for-amsterdam-dance-event" target="_blank" rel="noopener">Black Hole Recordings</a>）。</li></ul>`,
         },
         {
           heading: '10月23日（金）',
@@ -933,6 +933,83 @@ export const posts14 = [
         {
           heading: 'リスナーからの視点',
           body: `<p>Luminosityは夏のビーチフェスのイメージが強かったので、10月のアムステルダムでもこれだけのイベントをやっているのは嬉しい発見でした。</p>`,
+        },
+      ],
+    },
+  }
+  , // ← ★直前の記事との区切りのカンマ
+  {
+    slug: 'armin-van-buuren-ade-2026-gashouder',
+    date: '2026-10-16',
+    readTime: 4,
+    tags: ['armin-van-buuren', 'ade', 'amsterdam', 'asot', 'events'],
+    en: {
+      title: 'Armin van Buuren at ADE 2026: Gashouder Opening with Benwal',
+      description: 'Armin van Buuren opens ADE 2026 at Gashouder on 21 October with Benwal. Timetable, the Armin b2b Benwal set, the venue’s reopening and his new single.',
+      excerpt: 'Armin van Buuren opens Amsterdam Dance Event 2026 at the reopened Gashouder on 21 October, with a b2b set alongside Benwal. Here is the timetable and what to know.',
+      content: [
+        {
+          heading: 'The Night at a Glance',
+          body: `<p><a href="/artists/armin-van-buuren">Armin van Buuren</a> opens <strong>Amsterdam Dance Event 2026</strong> on <strong>Wednesday 21 October</strong> at <strong>Gashouder</strong> in Amsterdam, sharing the bill with Dutch hard house artist <strong>Benwal</strong>. Doors open at 23:00 and the night runs until 06:00. The event is 18+.</p><p>The <a href="https://gashouder.nl/en/agenda/armin-van-buuren-and-benwal" target="_blank" rel="noopener">Gashouder event page</a> lists the night as sold out, with resale tickets available. ADE itself runs from 21 to 25 October and is celebrating its 30th year; see our <a href="/blog/ade-2026-trance-guide">ADE 2026 Trance Guide</a> for the rest of the week.</p>`,
+        },
+        {
+          heading: 'Timetable',
+          body: `<p>The official timetable from the <a href="https://gashouder.nl/en/agenda/armin-van-buuren-and-benwal" target="_blank" rel="noopener">Gashouder event page</a>:</p><table><thead><tr><th>Time</th><th>Artist</th></tr></thead><tbody><tr><td>23:00&ndash;01:00</td><td>IDEMI</td></tr><tr><td>01:00&ndash;02:15</td><td>Benwal</td></tr><tr><td>02:15&ndash;03:15</td><td>Armin van Buuren b2b Benwal</td></tr><tr><td>03:15&ndash;04:30</td><td>Armin van Buuren</td></tr><tr><td>04:30&ndash;06:00</td><td>Olive Anguz</td></tr></tbody></table><p>The highlight for many will be the one-hour <strong>Armin van Buuren b2b Benwal</strong> set from 02:15, followed by 75 minutes of Armin on his own.</p>`,
+        },
+        {
+          heading: 'Who Is Benwal?',
+          body: `<p><a href="https://djmag.com/news/armin-van-buuren-announces-ade-opening-party-gashouder" target="_blank" rel="noopener">DJ Mag</a> describes Benwal as a &ldquo;Dutch hard house revivalist&rdquo;. The Gashouder page frames the night as the two artists bringing &ldquo;their worlds together on one dance floor&rdquo; &mdash; Armin&rsquo;s trance and Benwal&rsquo;s hard house &mdash; which is what makes the b2b set unusual.</p>`,
+        },
+        {
+          heading: 'Gashouder&rsquo;s Return',
+          body: `<p>According to <a href="https://djmag.com/news/armin-van-buuren-announces-ade-opening-party-gashouder" target="_blank" rel="noopener">DJ Mag</a>, Gashouder is reopening for ADE after renovations that began in January 2025. <a href="https://mixmagnl.com/read/gashouder-returns-to-ade-with-seven-show-preview-of-its-new-era-news" target="_blank" rel="noopener">Mixmag NL</a> reports that the ADE shows are a pre-opening season ahead of a full reopening in November, with seven ADE showcases from 21 to 25 October. Armin&rsquo;s night is the opening show of that series.</p><p><a href="https://mixmagnl.com/read/gashouder-returns-to-ade-with-seven-show-preview-of-its-new-era-news" target="_blank" rel="noopener">Mixmag NL</a> also notes the venue&rsquo;s long history with electronic music, including Awakenings events and landmark live performances in its circular hall.</p>`,
+        },
+        {
+          heading: 'Armin&rsquo;s New Single: &lsquo;U Got 2 Know&rsquo;',
+          body: `<p>On the day the Gashouder show was announced (22 May 2026), Armin released &lsquo;U Got 2 Know&rsquo; with Hannah Laing and Wippenburg, a reimagining of Capella&rsquo;s 1993 dance anthem of the same name (source: <a href="https://djmag.com/news/armin-van-buuren-announces-ade-opening-party-gashouder" target="_blank" rel="noopener">DJ Mag</a>).</p>`,
+        },
+        {
+          heading: 'More Armin in 2026&ndash;27',
+          body: `<ul><li><a href="/blog/asot-london-drumsheds-2026">A State of Trance London</a> &mdash; 14 November 2026 at Drumsheds</li><li><a href="/blog/asot-rotterdam-2027-guide">A State of Trance Rotterdam 2027</a> &mdash; 26&ndash;27 February 2027 at Rotterdam Ahoy, including a five-hour Friday set</li></ul>`,
+        },
+        {
+          heading: 'A Listener&rsquo;s Note',
+          body: `<p>As a weekly A State of Trance listener, a trance and hard house b2b is not something I expected from Armin, which is exactly why this night stands out in the ADE programme.</p>`,
+        },
+      ],
+    },
+    ja: {
+      title: 'ADE 2026のArmin van Buuren：GashouderでBenwalとオープニング',
+      description: 'Armin van Buurenが10月21日、GashouderでBenwalとともにADE 2026の幕を開けます。タイムテーブル、b2bセット、会場の再始動、新曲をまとめました。',
+      excerpt: 'Armin van Buurenが2026年10月21日、リニューアルしたGashouderでADEのオープニングを飾ります。Benwalとのb2bを含むタイムテーブルと、見どころを紹介。',
+      content: [
+        {
+          heading: 'イベント概要',
+          body: `<p><a href="/artists/armin-van-buuren">Armin van Buuren</a>が<strong>2026年10月21日（水）</strong>、アムステルダムの<strong>Gashouder</strong>で<strong>Amsterdam Dance Event 2026</strong>の幕を開けます。共演はオランダのハードハウス系アーティスト<strong>Benwal</strong>。開場は23:00、終演は翌6:00で、18歳以上限定です。</p><p><a href="https://gashouder.nl/en/agenda/armin-van-buuren-and-benwal" target="_blank" rel="noopener">Gashouderのイベントページ</a>ではチケットは売り切れと掲載されていて、リセールが利用できます。ADEは10月21〜25日に開催され、今年で30周年。ほかのイベントは<a href="/blog/ade-2026-trance-guide">ADE 2026 トランス・ガイド</a>をどうぞ。</p>`,
+        },
+        {
+          heading: 'タイムテーブル',
+          body: `<p><a href="https://gashouder.nl/en/agenda/armin-van-buuren-and-benwal" target="_blank" rel="noopener">Gashouderのイベントページ</a>に掲載されている公式タイムテーブルです。</p><table><thead><tr><th>時間</th><th>出演</th></tr></thead><tbody><tr><td>23:00&ndash;01:00</td><td>IDEMI</td></tr><tr><td>01:00&ndash;02:15</td><td>Benwal</td></tr><tr><td>02:15&ndash;03:15</td><td>Armin van Buuren b2b Benwal</td></tr><tr><td>03:15&ndash;04:30</td><td>Armin van Buuren</td></tr><tr><td>04:30&ndash;06:00</td><td>Olive Anguz</td></tr></tbody></table><p>注目は2:15からの1時間、<strong>Armin van Buuren b2b Benwal</strong>。その後75分間、Arminのソロが続きます。</p>`,
+        },
+        {
+          heading: 'Benwalとは？',
+          body: `<p><a href="https://djmag.com/news/armin-van-buuren-announces-ade-opening-party-gashouder" target="_blank" rel="noopener">DJ Mag</a>はBenwalを「オランダのハードハウス・リバイバリスト」と紹介しています。Gashouderのページでは、2人が「それぞれの世界をひとつのダンスフロアに持ち寄る」夜とされていて、Arminのトランスと、Benwalのハードハウスが交わるb2bは、なかなか見られない組み合わせです。</p>`,
+        },
+        {
+          heading: 'Gashouderの再始動',
+          body: `<p><a href="https://djmag.com/news/armin-van-buuren-announces-ade-opening-party-gashouder" target="_blank" rel="noopener">DJ Mag</a>によると、Gashouderは2025年1月から改装に入っていて、ADEに合わせて再び開きます。<a href="https://mixmagnl.com/read/gashouder-returns-to-ade-with-seven-show-preview-of-its-new-era-news" target="_blank" rel="noopener">Mixmag NL</a>によると、ADEの公演は11月の本格オープンに先がけたプレオープン期間で、10月21〜25日に7つのショーケースが行われます。Arminの夜は、その初日のオープニング・ショーです。</p><p><a href="https://mixmagnl.com/read/gashouder-returns-to-ade-with-seven-show-preview-of-its-new-era-news" target="_blank" rel="noopener">Mixmag NL</a>は、Awakeningsのイベントや、円形ホールでの歴史的なライブなど、この会場とエレクトロニック・ミュージックの長い歴史にも触れています。</p>`,
+        },
+        {
+          heading: 'Arminの新曲「U Got 2 Know」',
+          body: `<p>Gashouder公演が発表された2026年5月22日、ArminはHannah Laing、Wippenburgとの新曲「U Got 2 Know」をリリースしました。Capellaの1993年のダンス・アンセム（同名曲）を作り直したものです（出典：<a href="https://djmag.com/news/armin-van-buuren-announces-ade-opening-party-gashouder" target="_blank" rel="noopener">DJ Mag</a>）。</p>`,
+        },
+        {
+          heading: '2026〜27年のArminの予定',
+          body: `<ul><li><a href="/blog/asot-london-drumsheds-2026">A State of Trance London</a>：2026年11月14日、Drumsheds</li><li><a href="/blog/asot-rotterdam-2027-guide">A State of Trance Rotterdam 2027</a>：2027年2月26〜27日、Rotterdam Ahoy（金曜は5時間セット）</li></ul>`,
+        },
+        {
+          heading: 'リスナーからの視点',
+          body: `<p>毎週A State of Tranceを聴いている身としては、Arminがハードハウスとb2bをするのは意外で、だからこそADEの中でもこの夜は特に気になっています。</p>`,
         },
       ],
     },

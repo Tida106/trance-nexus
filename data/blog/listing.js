@@ -1,6 +1,9 @@
 // Lightweight listing data — no article body content.
 // Newest first. Keep in sync with data/blog/posts.js when adding articles.
 export const listing = [
+  { slug: 'armin-van-buuren-ade-2026-gashouder', date: '2026-10-16', readTime: 4, tags: ['armin-van-buuren', 'ade', 'amsterdam', 'asot', 'events'],
+    en: { title: 'Armin van Buuren at ADE 2026: Gashouder Opening with Benwal', excerpt: 'Armin van Buuren opens Amsterdam Dance Event 2026 at the reopened Gashouder on 21 October, with a b2b set alongside Benwal. Here is the timetable and what to know.' },
+    ja: { title: 'ADE 2026のArmin van Buuren：GashouderでBenwalとオープニング', excerpt: 'Armin van Buurenが2026年10月21日、リニューアルしたGashouderでADEのオープニングを飾ります。Benwalとのb2bを含むタイムテーブルと、見どころを紹介。' } },
   { slug: 'luminosity-ade-2026', date: '2026-10-16', readTime: 5, tags: ['luminosity', 'ade', 'amsterdam', 'festival', 'netherlands'],
     en: { title: 'Luminosity at ADE 2026: This Is Trance!, ADE Rave & Infinity', excerpt: 'Luminosity is not only a summer beach festival: at ADE 2026 it runs five events on 23–24 October. Here are the lineups, times and venues for each, from uplifting trance to ADE Rave.' },
     ja: { title: 'ADE 2026のLuminosity：This Is Trance!・ADE Rave・Infinity', excerpt: '夏のビーチフェスだけじゃない。LuminosityはADE 2026で10月23〜24日に5つのイベントを開催します。王道アップリフティングからADE Raveまで、ラインナップと時間を紹介。' } },

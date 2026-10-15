@@ -6,7 +6,7 @@
   <atom:link href="https://trance-nexus.com/rss.en.xml" rel="self" type="application/rss+xml" />
   <description>Long-form trance music coverage: history, artists, labels, scene reports, gear and production guides.</description>
   <language>en</language>
-  <lastBuildDate>Thu, 15 Oct 2026 22:07:33 GMT</lastBuildDate>
+  <lastBuildDate>Thu, 15 Oct 2026 22:15:30 GMT</lastBuildDate>
   <generator>trance-nexus rss generator</generator>
   <item>
     <title>ADE 2026 Trance Guide: Armin, Luminosity, Paul van Dyk &amp; More</title>
@@ -14,6 +14,13 @@
     <guid isPermaLink="true">https://trance-nexus.com/blog/ade-2026-trance-guide</guid>
     <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
     <description>Amsterdam Dance Event turns 30 on 21–25 October 2026. Here are the confirmed trance events day by day, from Armin van Buuren at Gashouder to Luminosity and Paul van Dyk.</description>
+  </item>
+  <item>
+    <title>Armin van Buuren at ADE 2026: Gashouder Opening with Benwal</title>
+    <link>https://trance-nexus.com/blog/armin-van-buuren-ade-2026-gashouder</link>
+    <guid isPermaLink="true">https://trance-nexus.com/blog/armin-van-buuren-ade-2026-gashouder</guid>
+    <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
+    <description>Armin van Buuren opens Amsterdam Dance Event 2026 at the reopened Gashouder on 21 October, with a b2b set alongside Benwal. Here is the timetable and what to know.</description>
   </item>
   <item>
     <title>Luminosity at ADE 2026: This Is Trance!, ADE Rave &amp; Infinity</title>

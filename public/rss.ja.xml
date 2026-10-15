@@ -6,7 +6,7 @@
   <atom:link href="https://trance-nexus.com/rss.ja.xml" rel="self" type="application/rss+xml" />
   <description>トランスミュージックの長尺記事：歴史、アーティスト、レーベル、シーン、機材・制作ガイド。</description>
   <language>ja</language>
-  <lastBuildDate>Thu, 15 Oct 2026 22:07:33 GMT</lastBuildDate>
+  <lastBuildDate>Thu, 15 Oct 2026 22:15:30 GMT</lastBuildDate>
   <generator>trance-nexus rss generator</generator>
   <item>
     <title>ADE 2026 トランス・ガイド：Armin、Luminosity、Paul van Dykほか</title>
@@ -14,6 +14,13 @@
     <guid isPermaLink="true">https://trance-nexus.com/blog/ade-2026-trance-guide</guid>
     <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
     <description>30周年を迎えるAmsterdam Dance Event（2026年10月21〜25日）。公式ページで確認できたトランス系イベントを、日別に紹介します。</description>
+  </item>
+  <item>
+    <title>ADE 2026のArmin van Buuren：GashouderでBenwalとオープニング</title>
+    <link>https://trance-nexus.com/blog/armin-van-buuren-ade-2026-gashouder</link>
+    <guid isPermaLink="true">https://trance-nexus.com/blog/armin-van-buuren-ade-2026-gashouder</guid>
+    <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
+    <description>Armin van Buurenが2026年10月21日、リニューアルしたGashouderでADEのオープニングを飾ります。Benwalとのb2bを含むタイムテーブルと、見どころを紹介。</description>
   </item>
   <item>
     <title>ADE 2026のLuminosity：This Is Trance!・ADE Rave・Infinity</title>
