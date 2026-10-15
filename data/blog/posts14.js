@@ -811,6 +811,10 @@ export const posts14 = [
           body: `<ul><li><strong><a href="/artists/armin-van-buuren">Armin van Buuren</a> &amp; Benwal &mdash; Gashouder (Westergasfabriek).</strong> Armin opens ADE at the reopened Gashouder, joined by Dutch hard house artist Benwal; see our <a href="/blog/armin-van-buuren-ade-2026-gashouder">Armin at Gashouder guide</a> (source: <a href="https://djmag.com/news/armin-van-buuren-announces-ade-opening-party-gashouder" target="_blank" rel="noopener">DJ Mag</a>).</li><li><strong>In Trance We Trust &mdash; Thuishaven.</strong> Black Hole Recordings&rsquo; label night (<a href="/blog/in-trance-we-trust-ade-2026">full guide</a>) returns with <a href="/artists/bt">BT</a>, Ciaran McAuley, Craig Connelly, Maria Healy, Sneijder, Virtual Vault and <a href="/artists/xijaro-and-pitch">XiJaro &amp; Pitch</a> (source: <a href="https://www.blackholerecordings.com/news/in-trance-we-trust-returns-for-amsterdam-dance-event" target="_blank" rel="noopener">Black Hole Recordings</a>).</li></ul>`,
         },
         {
+          heading: 'Thursday 22 October',
+          body: `<ul><li><strong><a href="/labels/ava-recordings">AVA Recordings</a> 20 Years ADE Special &mdash; The Tequila Club (15:00&ndash;22:00).</strong> The label&rsquo;s anniversary show with Andy Moor &amp; Adam White&rsquo;s Whiteroom, <a href="/artists/richard-durand">Richard Durand</a>, <a href="/artists/david-forbes">David Forbes</a>, <a href="/artists/ferry-tayle">Ferry Tayle</a> and Japan&rsquo;s <a href="/artists/rinaly">Rinaly</a>; see <a href="/blog/ava-recordings-20-years-ade-2026">our AVA 20 Years guide</a>.</li></ul>`,
+        },
+        {
           heading: 'Friday 23 October',
           body: `<ul><li><strong>Luminosity &mdash; Daytime Event, Panama (14:00&ndash;21:00).</strong> Lineup: <a href="/artists/aly-and-fila">Aly &amp; Fila</a>, Amber Revival, Asteroid, Cold Blue, <a href="/artists/daxson">Daxson</a>, Doppenberg, Enigma State, Factoria and Peter Steele (source: <a href="https://www.amsterdam-dance-event.nl/en/program/2026/luminosity-daytime-event/2815737/" target="_blank" rel="noopener">ADE programme</a>).</li><li><strong>Luminosity &mdash; Nighttime Event, Panama (22:00&ndash;07:00).</strong> The main room features names including <a href="/artists/bryan-kearney">Bryan Kearney</a>, <a href="/artists/john-ocallaghan">John O&rsquo;Callaghan</a>, <a href="/artists/darren-porter">Darren Porter</a> and <a href="/artists/mauro-picotto">Mauro Picotto</a>; the Studio has Andrea Ribeca, Arctic Barbers b2b Resolve and Enigma State (source: <a href="https://www.iamsterdam.com/en/whats-on/calendar/nightlife/clubbing/luminosity-nighttime-event" target="_blank" rel="noopener">I amsterdam</a>).</li></ul><p>Luminosity is the team behind <a href="/events/luminosity-beach-festival">Luminosity Beach Festival</a> in Zandvoort. For all five of its ADE events, see <a href="/blog/luminosity-ade-2026">Luminosity at ADE 2026</a>.</p>`,
         },
@@ -820,7 +824,7 @@ export const posts14 = [
         },
         {
           heading: 'At a Glance: Trance at ADE 2026',
-          body: `<table><thead><tr><th>Day</th><th>Event</th><th>Venue</th><th>Hours</th></tr></thead><tbody><tr><td>Wed 21 Oct</td><td>Armin van Buuren &amp; Benwal</td><td>Gashouder</td><td>&ndash;</td></tr><tr><td>Wed 21 Oct</td><td>In Trance We Trust</td><td>Thuishaven</td><td>&ndash;</td></tr><tr><td>Fri 23 Oct</td><td>Luminosity Daytime</td><td>Panama</td><td>14:00&ndash;21:00</td></tr><tr><td>Fri 23 Oct</td><td>Luminosity Nighttime</td><td>Panama</td><td>22:00&ndash;07:00</td></tr><tr><td>Sat 24 Oct</td><td>Paul van Dyk Open to Close</td><td>Melkweg</td><td>18:00&ndash;22:30</td></tr><tr><td>Sat 24 Oct</td><td>Find Your Harmony 500</td><td>Desmet Studio&rsquo;s</td><td>22:00&ndash;04:00</td></tr><tr><td>Sat 24 Oct</td><td>Luminosity ADE Rave</td><td>Q-Factory</td><td>14:00&ndash;06:00</td></tr></tbody></table><p>&ldquo;&ndash;&rdquo; means the hours were not listed on the source page.</p>`,
+          body: `<table><thead><tr><th>Day</th><th>Event</th><th>Venue</th><th>Hours</th></tr></thead><tbody><tr><td>Wed 21 Oct</td><td>Armin van Buuren &amp; Benwal</td><td>Gashouder</td><td>&ndash;</td></tr><tr><td>Wed 21 Oct</td><td>In Trance We Trust</td><td>Thuishaven</td><td>&ndash;</td></tr><tr><td>Thu 22 Oct</td><td>AVA Recordings 20 Years</td><td>The Tequila Club</td><td>15:00&ndash;22:00</td></tr><tr><td>Fri 23 Oct</td><td>Luminosity Daytime</td><td>Panama</td><td>14:00&ndash;21:00</td></tr><tr><td>Fri 23 Oct</td><td>Luminosity Nighttime</td><td>Panama</td><td>22:00&ndash;07:00</td></tr><tr><td>Sat 24 Oct</td><td>Paul van Dyk Open to Close</td><td>Melkweg</td><td>18:00&ndash;22:30</td></tr><tr><td>Sat 24 Oct</td><td>Find Your Harmony 500</td><td>Desmet Studio&rsquo;s</td><td>22:00&ndash;04:00</td></tr><tr><td>Sat 24 Oct</td><td>Luminosity ADE Rave</td><td>Q-Factory</td><td>14:00&ndash;06:00</td></tr></tbody></table><p>&ldquo;&ndash;&rdquo; means the hours were not listed on the source page.</p>`,
         },
         {
           heading: 'Planning Tips',
@@ -846,6 +850,10 @@ export const posts14 = [
           body: `<ul><li><strong><a href="/artists/armin-van-buuren">Armin van Buuren</a> &amp; Benwal ／ Gashouder（Westergasfabriek）</strong>：リニューアル後のGashouderで、ArminがADEのオープニングを飾ります。共演はオランダのハードハウス系アーティストBenwal。詳しくは<a href="/blog/armin-van-buuren-ade-2026-gashouder">ArminのGashouder公演ガイド</a>へ（出典：<a href="https://djmag.com/news/armin-van-buuren-announces-ade-opening-party-gashouder" target="_blank" rel="noopener">DJ Mag</a>）。</li><li><strong>In Trance We Trust ／ Thuishaven</strong>：Black Hole Recordingsのレーベルナイト（<a href="/blog/in-trance-we-trust-ade-2026">詳しいガイド</a>）。出演は<a href="/artists/bt">BT</a>、Ciaran McAuley、Craig Connelly、Maria Healy、Sneijder、Virtual Vault、<a href="/artists/xijaro-and-pitch">XiJaro &amp; Pitch</a>（出典：<a href="https://www.blackholerecordings.com/news/in-trance-we-trust-returns-for-amsterdam-dance-event" target="_blank" rel="noopener">Black Hole Recordings</a>）。</li></ul>`,
         },
         {
+          heading: '10月22日（木）',
+          body: `<ul><li><strong><a href="/labels/ava-recordings">AVA Recordings</a> 20 Years ADE Special ／ The Tequila Club（15:00〜22:00）</strong>：レーベル20周年の公演。Andy Moor &amp; Adam WhiteのWhiteroom、<a href="/artists/richard-durand">Richard Durand</a>、<a href="/artists/david-forbes">David Forbes</a>、<a href="/artists/ferry-tayle">Ferry Tayle</a>、日本の<a href="/artists/rinaly">Rinaly</a>など。詳しくは<a href="/blog/ava-recordings-20-years-ade-2026">AVA 20周年ガイド</a>へ。</li></ul>`,
+        },
+        {
           heading: '10月23日（金）',
           body: `<ul><li><strong>Luminosity ／ Daytime Event、Panama（14:00〜21:00）</strong>：出演は<a href="/artists/aly-and-fila">Aly &amp; Fila</a>、Amber Revival、Asteroid、Cold Blue、<a href="/artists/daxson">Daxson</a>、Doppenberg、Enigma State、Factoria、Peter Steele（出典：<a href="https://www.amsterdam-dance-event.nl/en/program/2026/luminosity-daytime-event/2815737/" target="_blank" rel="noopener">ADE programme</a>）。</li><li><strong>Luminosity ／ Nighttime Event、Panama（22:00〜翌7:00）</strong>：メインルームには<a href="/artists/bryan-kearney">Bryan Kearney</a>、<a href="/artists/john-ocallaghan">John O&rsquo;Callaghan</a>、<a href="/artists/darren-porter">Darren Porter</a>、<a href="/artists/mauro-picotto">Mauro Picotto</a>など、StudioにはAndrea Ribeca、Arctic Barbers b2b Resolve、Enigma Stateが出演（出典：<a href="https://www.iamsterdam.com/en/whats-on/calendar/nightlife/clubbing/luminosity-nighttime-event" target="_blank" rel="noopener">I amsterdam</a>）。</li></ul><p>Luminosityは、ザントフォールトの<a href="/events/luminosity-beach-festival">Luminosity Beach Festival</a>を手がけるチームです。5つのADEイベントの詳細は<a href="/blog/luminosity-ade-2026">ADE 2026のLuminosity</a>へ。</p>`,
         },
@@ -855,7 +863,7 @@ export const posts14 = [
         },
         {
           heading: '一覧：ADE 2026のトランス・イベント',
-          body: `<table><thead><tr><th>日付</th><th>イベント</th><th>会場</th><th>時間</th></tr></thead><tbody><tr><td>10/21（水）</td><td>Armin van Buuren &amp; Benwal</td><td>Gashouder</td><td>－</td></tr><tr><td>10/21（水）</td><td>In Trance We Trust</td><td>Thuishaven</td><td>－</td></tr><tr><td>10/23（金）</td><td>Luminosity Daytime</td><td>Panama</td><td>14:00〜21:00</td></tr><tr><td>10/23（金）</td><td>Luminosity Nighttime</td><td>Panama</td><td>22:00〜翌7:00</td></tr><tr><td>10/24（土）</td><td>Paul van Dyk Open to Close</td><td>Melkweg</td><td>18:00〜22:30</td></tr><tr><td>10/24（土）</td><td>Find Your Harmony 500</td><td>Desmet Studio&rsquo;s</td><td>22:00〜翌4:00</td></tr><tr><td>10/24（土）</td><td>Luminosity ADE Rave</td><td>Q-Factory</td><td>14:00〜翌6:00</td></tr></tbody></table><p>「－」は出典ページに時間の記載がなかったものです。</p>`,
+          body: `<table><thead><tr><th>日付</th><th>イベント</th><th>会場</th><th>時間</th></tr></thead><tbody><tr><td>10/21（水）</td><td>Armin van Buuren &amp; Benwal</td><td>Gashouder</td><td>－</td></tr><tr><td>10/21（水）</td><td>In Trance We Trust</td><td>Thuishaven</td><td>－</td></tr><tr><td>10/22（木）</td><td>AVA Recordings 20 Years</td><td>The Tequila Club</td><td>15:00〜22:00</td></tr><tr><td>10/23（金）</td><td>Luminosity Daytime</td><td>Panama</td><td>14:00〜21:00</td></tr><tr><td>10/23（金）</td><td>Luminosity Nighttime</td><td>Panama</td><td>22:00〜翌7:00</td></tr><tr><td>10/24（土）</td><td>Paul van Dyk Open to Close</td><td>Melkweg</td><td>18:00〜22:30</td></tr><tr><td>10/24（土）</td><td>Find Your Harmony 500</td><td>Desmet Studio&rsquo;s</td><td>22:00〜翌4:00</td></tr><tr><td>10/24（土）</td><td>Luminosity ADE Rave</td><td>Q-Factory</td><td>14:00〜翌6:00</td></tr></tbody></table><p>「－」は出典ページに時間の記載がなかったものです。</p>`,
         },
         {
           heading: '行く前のヒント',
@@ -1217,6 +1225,75 @@ export const posts14 = [
         {
           heading: 'リスナーからの視点',
           body: `<p>毎週のラジオ番組は、トランスを追いかける大事な手段です。その番組が500回を迎えて、しかも小さな会場で祝うというのは、すごく惹かれます。</p>`,
+        },
+      ],
+    },
+  }
+  , // ← ★直前の記事との区切りのカンマ
+  {
+    slug: 'ava-recordings-20-years-ade-2026',
+    date: '2026-10-16',
+    readTime: 3,
+    tags: ['ava-recordings', 'ade', 'amsterdam', 'events', 'tech-trance'],
+    en: {
+      title: 'AVA Recordings 20 Years at ADE 2026: Lineup & Special Sets',
+      description: 'AVA Recordings marks 20 years at ADE on 22 October 2026 at The Tequila Club, Amsterdam: Andy Moor & Adam White’s Whiteroom, Richard Durand, Ferry Tayle and more.',
+      excerpt: 'AVA Recordings celebrates 20 years at Amsterdam Dance Event on 22 October 2026 with an intimate show at The Tequila Club. Here are the lineup and special sets.',
+      content: [
+        {
+          heading: 'The Event at a Glance',
+          body: `<p><a href="/labels/ava-recordings">AVA Recordings</a> celebrates its 20th anniversary at Amsterdam Dance Event with the <strong>AVA Records 20 Years ADE Special</strong> on <strong>Thursday 22 October 2026</strong>, <strong>15:00 to 22:00</strong>, at <strong>The Tequila Club</strong> (Korte Leidsedwarsstraat 28, Amsterdam).</p><p>The <a href="https://www.amsterdam-dance-event.nl/en/program/2026/ava-records-20-years-ade-special/2829556/" target="_blank" rel="noopener">ADE programme</a> describes it as one of 20 anniversary celebrations around the world, held in an intimate club with limited capacity. Tickets are on sale online, and the event is expected to sell out.</p>`,
+        },
+        {
+          heading: 'Lineup',
+          body: `<p>The full lineup: Adam Stark, Adam White, Alan Fullmer, Andy Moor, Dan Stone, <a href="/artists/david-forbes">David Forbes</a>, <a href="/artists/ferry-tayle">Ferry Tayle</a>, MIDI Kittyy, <a href="/artists/richard-durand">Richard Durand</a>, <a href="/artists/rinaly">Rinaly</a> and Somna.</p>`,
+        },
+        {
+          heading: 'Special Sets',
+          body: `<ul><li><strong>Andy Moor &amp; Adam White presents Whiteroom</strong> &mdash; billed as a world exclusive.</li><li><strong><a href="/artists/richard-durand">Richard Durand</a></strong> &mdash; an In Search Of Sunrise set.</li><li><strong><a href="/artists/ferry-tayle">Ferry Tayle</a></strong> &mdash; a set marking his own 20-year anniversary.</li><li><strong>Dan Stone</strong> &mdash; an album showcase.</li></ul><p>(Source: <a href="https://www.amsterdam-dance-event.nl/en/program/2026/ava-records-20-years-ade-special/2829556/" target="_blank" rel="noopener">ADE programme</a>.)</p>`,
+        },
+        {
+          heading: 'A Japanese Name on the Bill',
+          body: `<p>The lineup includes <a href="/artists/rinaly">Rinaly</a> from Japan, one of the few Japanese artists on a trance lineup at ADE this year. If you follow the Japanese trance scene, this is one to note.</p>`,
+        },
+        {
+          heading: 'Fitting It into Your ADE Week',
+          body: `<p>The afternoon-to-evening slot on Thursday makes this easy to combine with other ADE nights. Wednesday has Armin van Buuren at Gashouder and In Trance We Trust; Friday and Saturday have Luminosity, Paul van Dyk and Find Your Harmony 500. See the full week in our <a href="/blog/ade-2026-trance-guide">ADE 2026 Trance Guide</a>.</p>`,
+        },
+        {
+          heading: 'A Listener&rsquo;s Note',
+          body: `<p>Label anniversaries are a good way to hear a label&rsquo;s whole sound in one place, and a small club makes this one feel personal.</p>`,
+        },
+      ],
+    },
+    ja: {
+      title: 'ADE 2026「AVA Recordings 20周年」：ラインナップと特別セット',
+      description: 'AVA Recordingsが20周年を記念し、2026年10月22日にADEでThe Tequila Club公演。Andy Moor & Adam WhiteのWhiteroom、Richard Durand、Ferry Tayle、日本のRinalyも出演。',
+      excerpt: 'AVA RecordingsがAmsterdam Dance Eventで20周年を祝います。2026年10月22日、小さなクラブThe Tequila Clubで開催。ラインナップと特別セットを紹介します。',
+      content: [
+        {
+          heading: 'イベント概要',
+          body: `<p><a href="/labels/ava-recordings">AVA Recordings</a>が20周年を記念して、Amsterdam Dance Eventで<strong>AVA Records 20 Years ADE Special</strong>を開催します。日時は<strong>2026年10月22日（木）15:00〜22:00</strong>、会場は<strong>The Tequila Club</strong>（Korte Leidsedwarsstraat 28）です。</p><p><a href="https://www.amsterdam-dance-event.nl/en/program/2026/ava-records-20-years-ade-special/2829556/" target="_blank" rel="noopener">ADEの番組表</a>によると、世界20か所で行われる20周年記念イベントのひとつで、定員の少ない小さなクラブで開かれます。チケットはオンラインで販売中で、売り切れが見込まれています。</p>`,
+        },
+        {
+          heading: 'ラインナップ',
+          body: `<p>出演はAdam Stark、Adam White、Alan Fullmer、Andy Moor、Dan Stone、<a href="/artists/david-forbes">David Forbes</a>、<a href="/artists/ferry-tayle">Ferry Tayle</a>、MIDI Kittyy、<a href="/artists/richard-durand">Richard Durand</a>、<a href="/artists/rinaly">Rinaly</a>、Somnaです。</p>`,
+        },
+        {
+          heading: '特別セット',
+          body: `<ul><li><strong>Andy Moor &amp; Adam White presents Whiteroom</strong>：世界初のセットとして発表。</li><li><strong><a href="/artists/richard-durand">Richard Durand</a></strong>：In Search Of Sunriseのセット。</li><li><strong><a href="/artists/ferry-tayle">Ferry Tayle</a></strong>：自身の20周年を記念したセット。</li><li><strong>Dan Stone</strong>：アルバムのショーケース。</li></ul><p>（出典：<a href="https://www.amsterdam-dance-event.nl/en/program/2026/ava-records-20-years-ade-special/2829556/" target="_blank" rel="noopener">ADEの番組表</a>）</p>`,
+        },
+        {
+          heading: '日本からの出演者',
+          body: `<p>ラインナップには日本の<a href="/artists/rinaly">Rinaly</a>も入っています。今年のADEのトランス系ラインナップで、日本人アーティストの名前を見かけるのは貴重です。日本のトランス・シーンを追いかけている人は要チェックです。</p>`,
+        },
+        {
+          heading: 'ADE週間の組み立て方',
+          body: `<p>木曜の午後〜夜という時間帯なので、ほかのADEのイベントと組み合わせやすいのも魅力。水曜はGashouderのArmin van BuurenとIn Trance We Trust、金・土曜はLuminosity、Paul van Dyk、Find Your Harmony 500があります。1週間の全体像は<a href="/blog/ade-2026-trance-guide">ADE 2026 トランス・ガイド</a>へ。</p>`,
+        },
+        {
+          heading: 'リスナーからの視点',
+          body: `<p>レーベルの周年イベントは、そのレーベルの音をまとめて聴ける貴重な機会です。しかも小さなクラブなので、距離の近さも魅力ですね。</p>`,
         },
       ],
     },

@@ -1,6 +1,9 @@
 // Lightweight listing data — no article body content.
 // Newest first. Keep in sync with data/blog/posts.js when adding articles.
 export const listing = [
+  { slug: 'ava-recordings-20-years-ade-2026', date: '2026-10-16', readTime: 3, tags: ['ava-recordings', 'ade', 'amsterdam', 'events', 'tech-trance'],
+    en: { title: 'AVA Recordings 20 Years at ADE 2026: Lineup & Special Sets', excerpt: 'AVA Recordings celebrates 20 years at Amsterdam Dance Event on 22 October 2026 with an intimate show at The Tequila Club. Here are the lineup and special sets.' },
+    ja: { title: 'ADE 2026「AVA Recordings 20周年」：ラインナップと特別セット', excerpt: 'AVA RecordingsがAmsterdam Dance Eventで20周年を祝います。2026年10月22日、小さなクラブThe Tequila Clubで開催。ラインナップと特別セットを紹介します。' } },
   { slug: 'find-your-harmony-500-ade-2026', date: '2026-10-16', readTime: 3, tags: ['andrew-rayel', 'ade', 'amsterdam', 'radio', 'events'],
     en: { title: 'Find Your Harmony 500 at ADE 2026: Andrew Rayel’s Club Night', excerpt: 'Andrew Rayel marks 500 episodes of his Find Your Harmony radio show with an intimate club night at ADE 2026 on 24 October. Date, venue, lineup status and background.' },
     ja: { title: 'ADE 2026「Find Your Harmony 500」：Andrew Rayelのクラブナイト', excerpt: 'Andrew Rayelが、ラジオ番組Find Your Harmonyの500回を記念して、ADE 2026の10月24日に小さな会場でクラブナイトを開きます。日時、会場、ラインナップ、番組の歩みを紹介。' } },
