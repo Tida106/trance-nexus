@@ -978,7 +978,7 @@ export const posts14 = [
         },
         {
           heading: 'More Armin in 2026&ndash;27',
-          body: `<ul><li><a href="/blog/asot-london-drumsheds-2026">A State of Trance London</a> &mdash; 14 November 2026 at Drumsheds</li><li><a href="/blog/asot-rotterdam-2027-guide">A State of Trance Rotterdam 2027</a> &mdash; 26&ndash;27 February 2027 at Rotterdam Ahoy, including a five-hour Friday set</li></ul>`,
+          body: `<ul><li><a href="/blog/asot-london-drumsheds-2026">A State of Trance London</a> &mdash; 14 November 2026 at Drumsheds</li><li><a href="/blog/asot-rotterdam-2027-guide">A State of Trance Rotterdam 2027</a> &mdash; 26&ndash;27 February 2027 at Rotterdam Ahoy, including a five-hour Friday set</li><li><a href="/blog/asot-los-angeles-2027">A State of Trance LA</a> &mdash; 11&ndash;12 June 2027</li></ul>`,
         },
         {
           heading: 'A Listener&rsquo;s Note',
@@ -1013,7 +1013,7 @@ export const posts14 = [
         },
         {
           heading: '2026〜27年のArminの予定',
-          body: `<ul><li><a href="/blog/asot-london-drumsheds-2026">A State of Trance London</a>：2026年11月14日、Drumsheds</li><li><a href="/blog/asot-rotterdam-2027-guide">A State of Trance Rotterdam 2027</a>：2027年2月26〜27日、Rotterdam Ahoy（金曜は5時間セット）</li></ul>`,
+          body: `<ul><li><a href="/blog/asot-london-drumsheds-2026">A State of Trance London</a>：2026年11月14日、Drumsheds</li><li><a href="/blog/asot-rotterdam-2027-guide">A State of Trance Rotterdam 2027</a>：2027年2月26〜27日、Rotterdam Ahoy（金曜は5時間セット）</li><li><a href="/blog/asot-los-angeles-2027">A State of Trance LA</a>：2027年6月11〜12日</li></ul>`,
         },
         {
           heading: 'リスナーからの視点',
@@ -1294,6 +1294,83 @@ export const posts14 = [
         {
           heading: 'リスナーからの視点',
           body: `<p>レーベルの周年イベントは、そのレーベルの音をまとめて聴ける貴重な機会です。しかも小さなクラブなので、距離の近さも魅力ですね。</p>`,
+        },
+      ],
+    },
+  }
+  , // ← ★直前の記事との区切りのカンマ
+  {
+    slug: 'asot-los-angeles-2027',
+    date: '2026-10-16',
+    readTime: 4,
+    tags: ['asot', 'armin-van-buuren', 'los-angeles', 'festival', 'north-america'],
+    en: {
+      title: 'A State of Trance LA 2027: Dates, Venue & What We Know',
+      description: 'A State of Trance comes to Los Angeles as a two-day festival on 11–12 June 2027. Dates, venue status, tickets, the ASOT Hotel and ASOT’s history in the US.',
+      excerpt: 'A State of Trance is coming to Los Angeles for a two-day festival on 11–12 June 2027. Here is what is confirmed so far — dates, venue status, tickets and the ASOT Hotel.',
+      content: [
+        {
+          heading: 'The Announcement',
+          body: `<p><a href="/artists/armin-van-buuren">Armin van Buuren</a>&rsquo;s A State of Trance is coming to Los Angeles as a two-day festival: <strong>A State of Trance LA</strong> takes place on <strong>11 and 12 June 2027</strong>. The <a href="https://festival.astateoftrance.com/losangeles/" target="_blank" rel="noopener">official ASOT LA page</a> says the festival is coming to Los Angeles &ldquo;for the very first time&rdquo;. The event is 18+.</p><p><a href="https://www.beatportal.com/articles/1674316-a-state-of-trance-to-bring-its-first-two-day-us-festival-to-los-angeles" target="_blank" rel="noopener">Beatportal</a> and <a href="https://weraveyou.com/2026/10/a-state-of-trance-los-angeles-2027-armin-van-buuren" target="_blank" rel="noopener">We Rave You</a> describe it as ASOT&rsquo;s first two-day festival in the United States.</p>`,
+        },
+        {
+          heading: 'Venue',
+          body: `<p>The <a href="https://festival.astateoftrance.com/losangeles/" target="_blank" rel="noopener">official ASOT LA page</a> currently says the location &ldquo;will be announced at a later date&rdquo;. <a href="https://www.beatportal.com/articles/1674316-a-state-of-trance-to-bring-its-first-two-day-us-festival-to-los-angeles" target="_blank" rel="noopener">Beatportal</a> and <a href="https://weraveyou.com/2026/10/a-state-of-trance-los-angeles-2027-armin-van-buuren" target="_blank" rel="noopener">We Rave You</a> both report the venue as <strong>ACE*MISSION Studios</strong> in Los Angeles. We will update this page once the official site confirms it.</p>`,
+        },
+        {
+          heading: 'Lineup and Tickets',
+          body: `<p>The lineup has not been announced yet. The official page asks fans to pre-register to secure tickets and be among the first to hear the lineup. Weekend tickets, a VIP waiting list and a two-night hotel package are listed on the site, without prices so far.</p>`,
+        },
+        {
+          heading: 'The ASOT Hotel Comes to LA',
+          body: `<p>According to <a href="https://weraveyou.com/2026/10/a-state-of-trance-los-angeles-2027-armin-van-buuren" target="_blank" rel="noopener">We Rave You</a>, Armin plans to bring the A State of Trance Hotel to Los Angeles, with &ldquo;pool parties, special events and pre-parties in the lobby&rdquo; for hotel guests &mdash; the format ASOT already uses for its Rotterdam weekend.</p>`,
+        },
+        {
+          heading: 'ASOT in the US So Far',
+          body: `<p>A State of Trance has played the US before, but as single-night shows. <a href="https://www.edmtunes.com/2026/10/09/armin-van-buuren-asot-festival-la-2027/" target="_blank" rel="noopener">EDMTunes</a> lists past ASOT events at Madison Square Garden in New York (2013), in Oakland (2019) and at Banc of California Stadium in Los Angeles (2022), along with long-running ASOT stages at Ultra Music Festival in Miami. A two-day festival is a step up from those one-night events.</p>`,
+        },
+        {
+          heading: 'ASOT&rsquo;s Calendar, 2026&ndash;27',
+          body: `<ul><li><a href="/blog/asot-london-drumsheds-2026">A State of Trance London</a> &mdash; 14 November 2026, Drumsheds</li><li><a href="/blog/asot-rotterdam-2027-guide">A State of Trance Rotterdam 2027</a> &mdash; 26&ndash;27 February 2027, Rotterdam Ahoy</li><li><strong>A State of Trance LA</strong> &mdash; 11&ndash;12 June 2027, Los Angeles</li></ul><p>For trance in Southern California sooner, see our <a href="/blog/dreamstate-socal-2026-complete-guide">Dreamstate SoCal 2026</a> guide. For the history behind the brand, read <a href="/blog/asot-25-years-anniversary">A State of Trance Turns 25</a>.</p>`,
+        },
+        {
+          heading: 'A Listener&rsquo;s Note',
+          body: `<p>Listening to A State of Trance every week, it is good to see the show grow into a full festival in more parts of the world. I will add the lineup here when it is announced.</p>`,
+        },
+      ],
+    },
+    ja: {
+      title: 'A State of Trance LA 2027：日程・会場・わかっていること',
+      description: 'A State of Tranceが2027年6月11〜12日、2日間のフェスとしてロサンゼルスへ。日程、会場の発表状況、チケット、ASOTホテル、アメリカでのASOTの歩み。',
+      excerpt: 'A State of Tranceが2027年6月11〜12日、ロサンゼルスで2日間のフェスを開催。日程、会場の発表状況、チケット、ASOTホテルなど、現時点でわかっていることをまとめました。',
+      content: [
+        {
+          heading: '発表内容',
+          body: `<p><a href="/artists/armin-van-buuren">Armin van Buuren</a>のA State of Tranceが、2日間のフェスとしてロサンゼルスにやって来ます。<strong>A State of Trance LA</strong>は<strong>2027年6月11日・12日</strong>に開催。<a href="https://festival.astateoftrance.com/losangeles/" target="_blank" rel="noopener">ASOT LA公式ページ</a>では、ロサンゼルスでの開催は「初めて」とされています。18歳以上限定です。</p><p><a href="https://www.beatportal.com/articles/1674316-a-state-of-trance-to-bring-its-first-two-day-us-festival-to-los-angeles" target="_blank" rel="noopener">Beatportal</a>と<a href="https://weraveyou.com/2026/10/a-state-of-trance-los-angeles-2027-armin-van-buuren" target="_blank" rel="noopener">We Rave You</a>は、ASOTにとってアメリカで初の2日間フェスだと伝えています。</p>`,
+        },
+        {
+          heading: '会場',
+          body: `<p><a href="https://festival.astateoftrance.com/losangeles/" target="_blank" rel="noopener">ASOT LA公式ページ</a>では現在、会場は「後日発表」となっています。一方、<a href="https://www.beatportal.com/articles/1674316-a-state-of-trance-to-bring-its-first-two-day-us-festival-to-los-angeles" target="_blank" rel="noopener">Beatportal</a>と<a href="https://weraveyou.com/2026/10/a-state-of-trance-los-angeles-2027-armin-van-buuren" target="_blank" rel="noopener">We Rave You</a>は、会場をロサンゼルスの<strong>ACE*MISSION Studios</strong>と報じています。公式で確定したら、このページを更新します。</p>`,
+        },
+        {
+          heading: 'ラインナップとチケット',
+          body: `<p>ラインナップはまだ未発表です。公式ページでは事前登録を受け付けていて、登録するとチケットを確保でき、ラインナップもいち早く届くとされています。サイトには週末チケット、VIPのキャンセル待ち、2泊のホテルパッケージが掲載されていますが、価格はまだ出ていません。</p>`,
+        },
+        {
+          heading: 'ASOTホテルもLAへ',
+          body: `<p><a href="https://weraveyou.com/2026/10/a-state-of-trance-los-angeles-2027-armin-van-buuren" target="_blank" rel="noopener">We Rave You</a>によると、ArminはA State of TranceのホテルもLAに持ってくる予定で、宿泊者向けに「プールパーティーや特別イベント、ロビーでのプレパーティー」が用意されます。ロッテルダムの週末と同じスタイルです。</p>`,
+        },
+        {
+          heading: 'これまでのアメリカのASOT',
+          body: `<p>A State of Tranceはこれまでもアメリカで開催されてきましたが、1夜限りの公演でした。<a href="https://www.edmtunes.com/2026/10/09/armin-van-buuren-asot-festival-la-2027/" target="_blank" rel="noopener">EDMTunes</a>によると、ニューヨークのMadison Square Garden（2013年）、オークランド（2019年）、ロサンゼルスのBanc of California Stadium（2022年）での開催のほか、マイアミのUltra Music Festivalでも長年ASOTステージがあります。2日間フェスは、そこから一段大きな形です。</p>`,
+        },
+        {
+          heading: '2026〜27年のASOTの予定',
+          body: `<ul><li><a href="/blog/asot-london-drumsheds-2026">A State of Trance London</a>：2026年11月14日、Drumsheds</li><li><a href="/blog/asot-rotterdam-2027-guide">A State of Trance Rotterdam 2027</a>：2027年2月26〜27日、Rotterdam Ahoy</li><li><strong>A State of Trance LA</strong>：2027年6月11〜12日、ロサンゼルス</li></ul><p>南カリフォルニアのトランスなら、もっと早い<a href="/blog/dreamstate-socal-2026-complete-guide">Dreamstate SoCal 2026</a>もどうぞ。ブランドの歩みは<a href="/blog/asot-25-years-anniversary">A State of Trance 25周年</a>の記事へ。</p>`,
+        },
+        {
+          heading: 'リスナーからの視点',
+          body: `<p>毎週A State of Tranceを聴いている身としては、番組が世界のいろいろな場所でフェスとして広がっていくのは嬉しいです。ラインナップが発表されたら、ここに追記します。</p>`,
         },
       ],
     },
