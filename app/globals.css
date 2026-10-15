@@ -345,3 +345,20 @@ body::before {
 .ade-trail{position:absolute;width:2px;height:40px;background:linear-gradient(to top,transparent,rgba(255,240,200,.8));opacity:0;animation:ade-rise var(--t) ease-out infinite;animation-delay:calc(var(--dl) - .7s)}
 @keyframes ade-rise{0%{transform:translateY(160px);opacity:0}5%{opacity:.8}12%{transform:translateY(0);opacity:0}100%{opacity:0}}
 @media (prefers-reduced-motion:reduce){.ade-sweep{animation:none}.ade-day{transition:none}.ade-fireworks{display:none}}
+
+/* ── Homepage section bands ────────────────────────────────────────
+   Each homepage section gets a faint tint over the page gradient and
+   its own accent colour (bar before the heading) so sections are easy
+   to tell apart. Tints stay light enough to keep text contrast. */
+#latest-posts,#artist,#latest-chart,#trending,#top-pick,#all-time-best,#browse-genre,#events,#glossary-picks,#discover{border-top:1px solid rgba(212,175,55,.28);background-image:none}
+#latest-posts{background-color:rgba(255,255,255,0);--sec:#F97316}
+#artist{background-color:rgba(20,40,90,.26);--sec:#3FD6E8}
+#latest-chart{background-color:rgba(244,229,168,.08);--sec:#F4D35E}
+#trending{background-color:rgba(255,111,181,.10);--sec:#FF6FB5}
+#top-pick{background-color:rgba(20,40,90,.26);--sec:#F4D35E}
+#all-time-best{background-color:rgba(244,229,168,.10);--sec:#F4D35E}
+#browse-genre{background-color:rgba(120,90,200,.20);--sec:#B28DFF}
+#events{background-color:rgba(249,115,22,.12);--sec:#FF9A3C}
+#glossary-picks{background-color:rgba(20,40,90,.26);--sec:#5EE6A8}
+#discover{background-color:rgba(63,214,232,.08);--sec:#3FD6E8}
+:is(#latest-posts,#artist,#latest-chart,#trending,#top-pick,#all-time-best,#browse-genre,#events,#glossary-picks,#discover) h2:first-of-type::before{content:"";display:inline-block;width:6px;height:.8em;margin-right:.45em;border-radius:3px;background:var(--sec);vertical-align:.02em;flex:none}
