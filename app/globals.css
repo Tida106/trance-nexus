@@ -346,19 +346,24 @@ body::before {
 @keyframes ade-rise{0%{transform:translateY(160px);opacity:0}5%{opacity:.8}12%{transform:translateY(0);opacity:0}100%{opacity:0}}
 @media (prefers-reduced-motion:reduce){.ade-sweep{animation:none}.ade-day{transition:none}.ade-fireworks{display:none}}
 
-/* ── Homepage section bands ────────────────────────────────────────
-   Each homepage section gets a faint tint over the page gradient and
-   its own accent colour (bar before the heading) so sections are easy
-   to tell apart. Tints stay light enough to keep text contrast. */
-#latest-posts,#artist,#latest-chart,#trending,#top-pick,#all-time-best,#browse-genre,#events,#glossary-picks,#discover{border-top:1px solid rgba(212,175,55,.28);background-image:none}
-#latest-posts{background-color:rgba(255,255,255,0);--sec:#F97316}
-#artist{background-color:rgba(20,40,90,.26);--sec:#3FD6E8}
-#latest-chart{background-color:rgba(244,229,168,.08);--sec:#F4D35E}
-#trending{background-color:rgba(255,111,181,.10);--sec:#FF6FB5}
-#top-pick{background-color:rgba(20,40,90,.26);--sec:#F4D35E}
-#all-time-best{background-color:rgba(244,229,168,.10);--sec:#F4D35E}
-#browse-genre{background-color:rgba(120,90,200,.20);--sec:#B28DFF}
-#events{background-color:rgba(249,115,22,.12);--sec:#FF9A3C}
-#glossary-picks{background-color:rgba(20,40,90,.26);--sec:#5EE6A8}
-#discover{background-color:rgba(63,214,232,.08);--sec:#3FD6E8}
+/* ── Homepage section bands (pastel) ──────────────────────────────
+   Sections below the hero sit on light pastel gradients; cards keep their
+   look but become deep-navy "glass" so the gold/white card text stays
+   readable. Text outside cards switches to dark navy. Hero + ADE banner
+   are untouched. */
+#latest-posts,#artist,#latest-chart,#trending,#top-pick,#all-time-best,#browse-genre,#events,#glossary-picks,#discover{border-top:1px solid rgba(212,175,55,.35)}
+#latest-posts{background:linear-gradient(135deg,#FFE9D6,#FDF3E7);--sec:#F97316}
+#artist{background:linear-gradient(135deg,#D8EEFB,#E9E4FB);--sec:#1FA6C2}
+#latest-chart{background:linear-gradient(135deg,#FBF1D3,#FDE7D3);--sec:#D4AF37}
+#trending{background:linear-gradient(135deg,#FBDDEB,#F3E3F7);--sec:#E05597}
+#top-pick{background:linear-gradient(135deg,#DDEBFB,#E2F4F0);--sec:#D4AF37}
+#all-time-best{background:linear-gradient(135deg,#FBF1D3,#F7E6F0);--sec:#D4AF37}
+#browse-genre{background:linear-gradient(135deg,#E6DFFB,#DDEBFB);--sec:#8E6FE0}
+#events{background:linear-gradient(135deg,#FFE6D3,#FBDDEB);--sec:#F97316}
+#glossary-picks{background:linear-gradient(135deg,#DCF4EA,#D8EEFB);--sec:#3BB98A}
+#discover{background:linear-gradient(135deg,#E3EEFB,#EDE4FB);--sec:#1FA6C2}
+:is(#latest-posts,#artist,#latest-chart,#trending,#top-pick,#all-time-best,#browse-genre,#events,#glossary-picks,#discover) :is([class*="bg-white/[0.05]"],[class*="from-accent-red/15"]){background:rgba(36,52,110,.86)!important;border-color:rgba(212,175,55,.5)!important;box-shadow:0 6px 18px rgba(40,50,110,.18)}
+:is(#latest-posts,#artist,#latest-chart,#trending,#top-pick,#all-time-best,#browse-genre,#events,#glossary-picks,#discover) :is(h2,h3,p,a,span,div):not(:is([class*="bg-white/[0.05]"],[class*="from-accent-red/15"]) *):not([class*="bg-white/[0.05]"]):not([class*="from-accent-red/15"]){color:#2A2F5E}
+:is(#latest-posts,#artist,#latest-chart,#trending,#top-pick,#all-time-best,#browse-genre,#events,#glossary-picks,#discover) a:not(:is([class*="bg-white/[0.05]"],[class*="from-accent-red/15"]) *):not([class*="bg-white/[0.05]"]):not([class*="from-accent-red/15"])[class*="border"]{border-color:rgba(42,47,94,.35)}
 :is(#latest-posts,#artist,#latest-chart,#trending,#top-pick,#all-time-best,#browse-genre,#events,#glossary-picks,#discover) h2:first-of-type::before{content:"";display:inline-block;width:6px;height:.8em;margin-right:.45em;border-radius:3px;background:var(--sec);vertical-align:.02em;flex:none}
+:is(#latest-posts,#artist,#latest-chart,#trending,#top-pick,#all-time-best,#browse-genre,#events,#glossary-picks,#discover) :is([class*="bg-white/[0.05]"],[class*="from-accent-red/15"]) h2::before{display:none}
