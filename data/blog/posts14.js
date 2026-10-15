@@ -812,7 +812,7 @@ export const posts14 = [
         },
         {
           heading: 'Friday 23 October',
-          body: `<ul><li><strong>Luminosity &mdash; Daytime Event, Panama (14:00&ndash;21:00).</strong> Lineup: <a href="/artists/aly-and-fila">Aly &amp; Fila</a>, Amber Revival, Asteroid, Cold Blue, <a href="/artists/daxson">Daxson</a>, Doppenberg, Enigma State, Factoria and Peter Steele (source: <a href="https://www.amsterdam-dance-event.nl/en/program/2026/luminosity-daytime-event/2815737/" target="_blank" rel="noopener">ADE programme</a>).</li><li><strong>Luminosity &mdash; Nighttime Event, Panama (22:00&ndash;07:00).</strong> The main room features names including <a href="/artists/bryan-kearney">Bryan Kearney</a>, <a href="/artists/john-ocallaghan">John O&rsquo;Callaghan</a>, <a href="/artists/darren-porter">Darren Porter</a> and <a href="/artists/mauro-picotto">Mauro Picotto</a>; the Studio has Andrea Ribeca, Arctic Barbers b2b Resolve and Enigma State (source: <a href="https://www.iamsterdam.com/en/whats-on/calendar/nightlife/clubbing/luminosity-nighttime-event" target="_blank" rel="noopener">I amsterdam</a>).</li></ul><p>Luminosity is the team behind <a href="/events/luminosity-beach-festival">Luminosity Beach Festival</a> in Zandvoort.</p>`,
+          body: `<ul><li><strong>Luminosity &mdash; Daytime Event, Panama (14:00&ndash;21:00).</strong> Lineup: <a href="/artists/aly-and-fila">Aly &amp; Fila</a>, Amber Revival, Asteroid, Cold Blue, <a href="/artists/daxson">Daxson</a>, Doppenberg, Enigma State, Factoria and Peter Steele (source: <a href="https://www.amsterdam-dance-event.nl/en/program/2026/luminosity-daytime-event/2815737/" target="_blank" rel="noopener">ADE programme</a>).</li><li><strong>Luminosity &mdash; Nighttime Event, Panama (22:00&ndash;07:00).</strong> The main room features names including <a href="/artists/bryan-kearney">Bryan Kearney</a>, <a href="/artists/john-ocallaghan">John O&rsquo;Callaghan</a>, <a href="/artists/darren-porter">Darren Porter</a> and <a href="/artists/mauro-picotto">Mauro Picotto</a>; the Studio has Andrea Ribeca, Arctic Barbers b2b Resolve and Enigma State (source: <a href="https://www.iamsterdam.com/en/whats-on/calendar/nightlife/clubbing/luminosity-nighttime-event" target="_blank" rel="noopener">I amsterdam</a>).</li></ul><p>Luminosity is the team behind <a href="/events/luminosity-beach-festival">Luminosity Beach Festival</a> in Zandvoort. For all five of its ADE events, see <a href="/blog/luminosity-ade-2026">Luminosity at ADE 2026</a>.</p>`,
         },
         {
           heading: 'Saturday 24 October',
@@ -847,7 +847,7 @@ export const posts14 = [
         },
         {
           heading: '10月23日（金）',
-          body: `<ul><li><strong>Luminosity ／ Daytime Event、Panama（14:00〜21:00）</strong>：出演は<a href="/artists/aly-and-fila">Aly &amp; Fila</a>、Amber Revival、Asteroid、Cold Blue、<a href="/artists/daxson">Daxson</a>、Doppenberg、Enigma State、Factoria、Peter Steele（出典：<a href="https://www.amsterdam-dance-event.nl/en/program/2026/luminosity-daytime-event/2815737/" target="_blank" rel="noopener">ADE programme</a>）。</li><li><strong>Luminosity ／ Nighttime Event、Panama（22:00〜翌7:00）</strong>：メインルームには<a href="/artists/bryan-kearney">Bryan Kearney</a>、<a href="/artists/john-ocallaghan">John O&rsquo;Callaghan</a>、<a href="/artists/darren-porter">Darren Porter</a>、<a href="/artists/mauro-picotto">Mauro Picotto</a>など、StudioにはAndrea Ribeca、Arctic Barbers b2b Resolve、Enigma Stateが出演（出典：<a href="https://www.iamsterdam.com/en/whats-on/calendar/nightlife/clubbing/luminosity-nighttime-event" target="_blank" rel="noopener">I amsterdam</a>）。</li></ul><p>Luminosityは、ザントフォールトの<a href="/events/luminosity-beach-festival">Luminosity Beach Festival</a>を手がけるチームです。</p>`,
+          body: `<ul><li><strong>Luminosity ／ Daytime Event、Panama（14:00〜21:00）</strong>：出演は<a href="/artists/aly-and-fila">Aly &amp; Fila</a>、Amber Revival、Asteroid、Cold Blue、<a href="/artists/daxson">Daxson</a>、Doppenberg、Enigma State、Factoria、Peter Steele（出典：<a href="https://www.amsterdam-dance-event.nl/en/program/2026/luminosity-daytime-event/2815737/" target="_blank" rel="noopener">ADE programme</a>）。</li><li><strong>Luminosity ／ Nighttime Event、Panama（22:00〜翌7:00）</strong>：メインルームには<a href="/artists/bryan-kearney">Bryan Kearney</a>、<a href="/artists/john-ocallaghan">John O&rsquo;Callaghan</a>、<a href="/artists/darren-porter">Darren Porter</a>、<a href="/artists/mauro-picotto">Mauro Picotto</a>など、StudioにはAndrea Ribeca、Arctic Barbers b2b Resolve、Enigma Stateが出演（出典：<a href="https://www.iamsterdam.com/en/whats-on/calendar/nightlife/clubbing/luminosity-nighttime-event" target="_blank" rel="noopener">I amsterdam</a>）。</li></ul><p>Luminosityは、ザントフォールトの<a href="/events/luminosity-beach-festival">Luminosity Beach Festival</a>を手がけるチームです。5つのADEイベントの詳細は<a href="/blog/luminosity-ade-2026">ADE 2026のLuminosity</a>へ。</p>`,
         },
         {
           heading: '10月24日（土）',
@@ -864,6 +864,75 @@ export const posts14 = [
         {
           heading: 'リスナーからの視点',
           body: `<p>ADEは毎年何百ものイベントがあって、トランスのナイトを見落としがちです。公式ページで確認できたトランス系イベントが出てきたら、ここに追加していきます。</p>`,
+        },
+      ],
+    },
+  }
+  , // ← ★直前の記事との区切りのカンマ
+  {
+    slug: 'luminosity-ade-2026',
+    date: '2026-10-16',
+    readTime: 5,
+    tags: ['luminosity', 'ade', 'amsterdam', 'festival', 'netherlands'],
+    en: {
+      title: 'Luminosity at ADE 2026: This Is Trance!, ADE Rave & Infinity',
+      description: 'Luminosity hosts five events at Amsterdam Dance Event 2026 on 23–24 October at Club Panama and Q Factory. Full lineups, times and the sound of each event.',
+      excerpt: 'Luminosity is not only a summer beach festival: at ADE 2026 it runs five events on 23–24 October. Here are the lineups, times and venues for each, from uplifting trance to ADE Rave.',
+      content: [
+        {
+          heading: 'Luminosity at ADE 2026',
+          body: `<p>Luminosity is best known for <a href="/events/luminosity-beach-festival">Luminosity Beach Festival</a> in Zandvoort each summer, but it also runs a full programme during <strong>Amsterdam Dance Event</strong>. For ADE 2026 it has <strong>five events over Friday 23 and Saturday 24 October</strong>, at two venues: <strong>Club Panama</strong> (Oostelijke Handelskade 4) and <strong>Q Factory</strong> (Atlantisplein 1).</p><p>Each event has its own sound, from classic uplifting trance to a harder, faster rave format, so it is worth choosing by style. All details below come from the official Luminosity event pages.</p>`,
+        },
+        {
+          heading: 'Friday 23 October &mdash; This Is Trance! (Club Panama)',
+          body: `<h3>By Day &mdash; 14:00 to 21:00</h3><p>Described as &ldquo;dedicated to uplifting, emotional and high-energy trance in its purest form&rdquo;. <strong>Main Room:</strong> <a href="/artists/aly-and-fila">Aly &amp; Fila</a>, Amber Revival, Asteroid, <a href="/artists/daxson">Daxson</a>, Doppenberg, Factoria. <strong>Studio:</strong> Eco, Enigma State, <a href="/artists/ferry-tayle">Ferry Tayle</a>, Paul Denton, Peter Steele, <a href="/artists/will-rees">Will Rees</a>. (<a href="https://luminosity-events.nl/events/luminosity-pres-this-is-trance-ade-by-day/" target="_blank" rel="noopener">official page</a>)</p><h3>By Night &mdash; 22:00 to 07:00</h3><p>&ldquo;A true all-night celebration of the core Luminosity sound&rdquo;, built on classic uplifting trance. <strong>Main Room:</strong> <a href="/artists/bryan-kearney">Bryan Kearney</a>, <a href="/artists/darren-porter">Darren Porter</a>, <a href="/artists/john-ocallaghan">John O&rsquo;Callaghan</a>, <a href="/artists/mauro-picotto">Mauro Picotto</a>, Mode&#257;, Will Rees &amp; Paul Denton pres. Parallel Worlds. <strong>Studio:</strong> Andrea Ribeca, Arctic Barbers b2b Resolve, Enigma State, Factoria &amp; Grant Trowbridge pres. Giants In The Mist. (<a href="https://luminosity-events.nl/events/luminosity-pres-this-is-trance-ade-by-night/" target="_blank" rel="noopener">official page</a>)</p>`,
+        },
+        {
+          heading: 'Saturday 24 October &mdash; Q Factory',
+          body: `<h3>ADE Rave By Day &mdash; 14:00 to 21:00</h3><p>&ldquo;Hypnotic trance, driving rhythms, harder grooves and raw warehouse energy&rdquo;. Lineup: Joyhauser, Mha Iri, Mode&#257;, Nifra, Nikolauss, T78, <a href="/artists/will-atkinson">Will Atkinson</a>. (<a href="https://luminosity-events.nl/events/ade-rave-by-day/" target="_blank" rel="noopener">official page</a>)</p><h3>Infinity By Day &mdash; 14:00 to 21:00</h3><p>&ldquo;Built around melodic, progressive and emotional and layered music&rdquo;. Set times: Susan Right (14:00), <a href="/artists/estiva">Estiva</a> (15:30), Mitch de Klein (16:45), Romain Garcia (18:00), Joachim Pastor (19:30). (<a href="https://luminosity-events.nl/events/infinity-ade-by-day/" target="_blank" rel="noopener">official page</a>)</p><h3>ADE Rave By Night &mdash; 22:00 to 06:00</h3><p>&ldquo;Where trance meets the underground with harder edges, faster tempos, acid textures and raw warehouse energy.&rdquo; <strong>Main Room:</strong> Amber Broos, <a href="/artists/ben-nicky">Ben Nicky</a>, Billy Gillies, Sarah de Warren, Thick As Thieves (Mark Sherry &amp; David Forbes), VE/RA. <strong>Studio:</strong> Alex Di Stefano, Andrea Scopsi, Dan Harrison, Ahmed Helmy &amp; Doppenberg pres. HEL:BRG, Indecent Noise, Jordan Tilstone, Nikolauss, Renegade System. (<a href="https://luminosity-events.nl/events/ade-rave-by-night/" target="_blank" rel="noopener">official page</a>)</p>`,
+        },
+        {
+          heading: 'Which One Suits You?',
+          body: `<table><thead><tr><th>Event</th><th>When</th><th>Venue</th><th>Sound</th></tr></thead><tbody><tr><td>This Is Trance! By Day</td><td>Fri 14:00&ndash;21:00</td><td>Club Panama</td><td>Uplifting, emotional trance</td></tr><tr><td>This Is Trance! By Night</td><td>Fri 22:00&ndash;07:00</td><td>Club Panama</td><td>Classic uplifting, all night</td></tr><tr><td>ADE Rave By Day</td><td>Sat 14:00&ndash;21:00</td><td>Q Factory</td><td>Hypnotic, harder grooves</td></tr><tr><td>Infinity By Day</td><td>Sat 14:00&ndash;21:00</td><td>Q Factory</td><td>Melodic, progressive</td></tr><tr><td>ADE Rave By Night</td><td>Sat 22:00&ndash;06:00</td><td>Q Factory</td><td>Harder, faster, acid</td></tr></tbody></table><p>If you like the classic Luminosity sound, Friday at Club Panama is the closest to the beach festival. Saturday splits into a melodic option (Infinity) and a harder one (ADE Rave).</p>`,
+        },
+        {
+          heading: 'More from ADE 2026',
+          body: `<p>For Armin van Buuren, In Trance We Trust and Paul van Dyk&rsquo;s open-to-close set, see our <a href="/blog/ade-2026-trance-guide">ADE 2026 Trance Guide</a>. Tickets and the latest information are on the <a href="https://luminosity-events.nl/" target="_blank" rel="noopener">Luminosity website</a>.</p>`,
+        },
+        {
+          heading: 'A Listener&rsquo;s Note',
+          body: `<p>I knew Luminosity for its summer beach festival, so it was a nice surprise to see how much it puts on in Amsterdam in October as well.</p>`,
+        },
+      ],
+    },
+    ja: {
+      title: 'ADE 2026のLuminosity：This Is Trance!・ADE Rave・Infinity',
+      description: 'LuminosityはAmsterdam Dance Event 2026で、10月23〜24日にClub PanamaとQ Factoryで5つのイベントを開催。ラインナップ、時間、各イベントのサウンドをまとめました。',
+      excerpt: '夏のビーチフェスだけじゃない。LuminosityはADE 2026で10月23〜24日に5つのイベントを開催します。王道アップリフティングからADE Raveまで、ラインナップと時間を紹介。',
+      content: [
+        {
+          heading: 'ADE 2026のLuminosity',
+          body: `<p>Luminosityといえば夏にザントフォールトで開かれる<a href="/events/luminosity-beach-festival">Luminosity Beach Festival</a>が有名ですが、秋の<strong>Amsterdam Dance Event</strong>でもまとまったプログラムを開催しています。ADE 2026では<strong>10月23日（金）・24日（土）の2日間で5つのイベント</strong>があり、会場は<strong>Club Panama</strong>（Oostelijke Handelskade 4）と<strong>Q Factory</strong>（Atlantisplein 1）の2か所です。</p><p>王道のアップリフティングから、ハードで速いレイブ系まで、イベントごとに音が違うので、好みのスタイルで選ぶのがおすすめです。以下の情報は、すべてLuminosityの公式イベントページによるものです。</p>`,
+        },
+        {
+          heading: '10月23日（金）：This Is Trance!（Club Panama）',
+          body: `<h3>昼の部：14:00〜21:00</h3><p>「純粋なアップリフティング、エモーショナル、ハイエナジーなトランス」がテーマ。<strong>Main Room：</strong><a href="/artists/aly-and-fila">Aly &amp; Fila</a>、Amber Revival、Asteroid、<a href="/artists/daxson">Daxson</a>、Doppenberg、Factoria。<strong>Studio：</strong>Eco、Enigma State、<a href="/artists/ferry-tayle">Ferry Tayle</a>、Paul Denton、Peter Steele、<a href="/artists/will-rees">Will Rees</a>。（<a href="https://luminosity-events.nl/events/luminosity-pres-this-is-trance-ade-by-day/" target="_blank" rel="noopener">公式ページ</a>）</p><h3>夜の部：22:00〜翌7:00</h3><p>「Luminosityらしいサウンドを一晩中楽しむ」夜。王道のアップリフティング・トランスが中心です。<strong>Main Room：</strong><a href="/artists/bryan-kearney">Bryan Kearney</a>、<a href="/artists/darren-porter">Darren Porter</a>、<a href="/artists/john-ocallaghan">John O&rsquo;Callaghan</a>、<a href="/artists/mauro-picotto">Mauro Picotto</a>、Mode&#257;、Will Rees &amp; Paul Denton pres. Parallel Worlds。<strong>Studio：</strong>Andrea Ribeca、Arctic Barbers b2b Resolve、Enigma State、Factoria &amp; Grant Trowbridge pres. Giants In The Mist。（<a href="https://luminosity-events.nl/events/luminosity-pres-this-is-trance-ade-by-night/" target="_blank" rel="noopener">公式ページ</a>）</p>`,
+        },
+        {
+          heading: '10月24日（土）：Q Factory',
+          body: `<h3>ADE Rave 昼の部：14:00〜21:00</h3><p>「ヒプノティックなトランス、ドライヴするリズム、ハードなグルーヴ、倉庫のような生々しいエネルギー」。出演はJoyhauser、Mha Iri、Mode&#257;、Nifra、Nikolauss、T78、<a href="/artists/will-atkinson">Will Atkinson</a>。（<a href="https://luminosity-events.nl/events/ade-rave-by-day/" target="_blank" rel="noopener">公式ページ</a>）</p><h3>Infinity 昼の部：14:00〜21:00</h3><p>「メロディック、プログレッシブで、エモーショナルかつ重層的な音楽」がテーマ。出演時間はSusan Right（14:00）、<a href="/artists/estiva">Estiva</a>（15:30）、Mitch de Klein（16:45）、Romain Garcia（18:00）、Joachim Pastor（19:30）。（<a href="https://luminosity-events.nl/events/infinity-ade-by-day/" target="_blank" rel="noopener">公式ページ</a>）</p><h3>ADE Rave 夜の部：22:00〜翌6:00</h3><p>「トランスとアンダーグラウンドが出会う場所。ハードなエッジ、速いテンポ、アシッドの質感」。<strong>Main Room：</strong>Amber Broos、<a href="/artists/ben-nicky">Ben Nicky</a>、Billy Gillies、Sarah de Warren、Thick As Thieves（Mark Sherry &amp; David Forbes）、VE/RA。<strong>Studio：</strong>Alex Di Stefano、Andrea Scopsi、Dan Harrison、Ahmed Helmy &amp; Doppenberg pres. HEL:BRG、Indecent Noise、Jordan Tilstone、Nikolauss、Renegade System。（<a href="https://luminosity-events.nl/events/ade-rave-by-night/" target="_blank" rel="noopener">公式ページ</a>）</p>`,
+        },
+        {
+          heading: 'どれを選ぶ？',
+          body: `<table><thead><tr><th>イベント</th><th>日時</th><th>会場</th><th>サウンド</th></tr></thead><tbody><tr><td>This Is Trance! 昼</td><td>金 14:00〜21:00</td><td>Club Panama</td><td>アップリフティング、エモーショナル</td></tr><tr><td>This Is Trance! 夜</td><td>金 22:00〜翌7:00</td><td>Club Panama</td><td>王道アップリフティングを一晩中</td></tr><tr><td>ADE Rave 昼</td><td>土 14:00〜21:00</td><td>Q Factory</td><td>ヒプノティック、ハード寄り</td></tr><tr><td>Infinity 昼</td><td>土 14:00〜21:00</td><td>Q Factory</td><td>メロディック、プログレッシブ</td></tr><tr><td>ADE Rave 夜</td><td>土 22:00〜翌6:00</td><td>Q Factory</td><td>ハード、高速、アシッド</td></tr></tbody></table><p>夏のビーチフェスに近い音が好きなら、金曜のClub Panama。土曜はメロディック系（Infinity）とハード系（ADE Rave）に分かれます。</p>`,
+        },
+        {
+          heading: 'ADE 2026のほかのイベント',
+          body: `<p>Armin van Buuren、In Trance We Trust、Paul van Dykのオープン・トゥ・クローズなどは<a href="/blog/ade-2026-trance-guide">ADE 2026 トランス・ガイド</a>にまとめています。チケットと最新情報は<a href="https://luminosity-events.nl/" target="_blank" rel="noopener">Luminosity公式サイト</a>で確認してください。</p>`,
+        },
+        {
+          heading: 'リスナーからの視点',
+          body: `<p>Luminosityは夏のビーチフェスのイメージが強かったので、10月のアムステルダムでもこれだけのイベントをやっているのは嬉しい発見でした。</p>`,
         },
       ],
     },

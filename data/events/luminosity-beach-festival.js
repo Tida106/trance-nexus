@@ -55,6 +55,7 @@ const luminosityBeachFestival = {
     { year: 2007, note: 'First edition (Dutch coast)' },
   ],
 
+  guide_post: { slug: 'luminosity-ade-2026', en: 'Luminosity at ADE 2026 (October)', ja: 'ADE 2026のLuminosity（10月）' },
   official_url: 'https://luminosity-events.nl',
   ticket_url: 'https://luminosity-events.nl',
   og_image: '/og/events/luminosity-beach-festival.png',

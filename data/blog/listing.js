@@ -1,6 +1,9 @@
 // Lightweight listing data — no article body content.
 // Newest first. Keep in sync with data/blog/posts.js when adding articles.
 export const listing = [
+  { slug: 'luminosity-ade-2026', date: '2026-10-16', readTime: 5, tags: ['luminosity', 'ade', 'amsterdam', 'festival', 'netherlands'],
+    en: { title: 'Luminosity at ADE 2026: This Is Trance!, ADE Rave & Infinity', excerpt: 'Luminosity is not only a summer beach festival: at ADE 2026 it runs five events on 23–24 October. Here are the lineups, times and venues for each, from uplifting trance to ADE Rave.' },
+    ja: { title: 'ADE 2026のLuminosity：This Is Trance!・ADE Rave・Infinity', excerpt: '夏のビーチフェスだけじゃない。LuminosityはADE 2026で10月23〜24日に5つのイベントを開催します。王道アップリフティングからADE Raveまで、ラインナップと時間を紹介。' } },
   { slug: 'ade-2026-trance-guide', date: '2026-10-16', readTime: 5, tags: ['ade', 'amsterdam', 'festival', 'netherlands', 'events'],
     en: { title: 'ADE 2026 Trance Guide: Armin, Luminosity, Paul van Dyk & More', excerpt: 'Amsterdam Dance Event turns 30 on 21–25 October 2026. Here are the confirmed trance events day by day, from Armin van Buuren at Gashouder to Luminosity and Paul van Dyk.' },
     ja: { title: 'ADE 2026 トランス・ガイド：Armin、Luminosity、Paul van Dykほか', excerpt: '30周年を迎えるAmsterdam Dance Event（2026年10月21〜25日）。公式ページで確認できたトランス系イベントを、日別に紹介します。' } },
