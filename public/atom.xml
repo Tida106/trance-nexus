@@ -5,12 +5,20 @@
   <link href="https://trance-nexus.com/atom.xml" rel="self" type="application/atom+xml" />
   <link href="https://trance-nexus.com" />
   <id>https://trance-nexus.com/atom.xml</id>
-  <updated>2026-10-14T00:00:00.000Z</updated>
+  <updated>2026-10-16T00:00:00.000Z</updated>
   <author>
     <name>TRANCE NEXUS</name>
     <email>hello.sacredjapan@gmail.com</email>
   </author>
   <generator>trance-nexus atom generator</generator>
+  <entry>
+    <title>ADE 2026 Trance Guide: Armin, Luminosity, Paul van Dyk &amp; More</title>
+    <link href="https://trance-nexus.com/blog/ade-2026-trance-guide" />
+    <id>https://trance-nexus.com/blog/ade-2026-trance-guide</id>
+    <updated>2026-10-16T00:00:00.000Z</updated>
+    <published>2026-10-16T00:00:00.000Z</published>
+    <summary>Amsterdam Dance Event turns 30 on 21–25 October 2026. Here are the confirmed trance events day by day, from Armin van Buuren at Gashouder to Luminosity and Paul van Dyk.</summary>
+  </entry>
   <entry>
     <title>A State of Trance Rotterdam 2027: Dates, First-Wave Lineup &amp; Tickets</title>
     <link href="https://trance-nexus.com/blog/asot-rotterdam-2027-guide" />

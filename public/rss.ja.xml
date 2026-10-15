@@ -6,8 +6,15 @@
   <atom:link href="https://trance-nexus.com/rss.ja.xml" rel="self" type="application/rss+xml" />
   <description>トランスミュージックの長尺記事：歴史、アーティスト、レーベル、シーン、機材・制作ガイド。</description>
   <language>ja</language>
-  <lastBuildDate>Thu, 15 Oct 2026 08:50:18 GMT</lastBuildDate>
+  <lastBuildDate>Thu, 15 Oct 2026 21:51:31 GMT</lastBuildDate>
   <generator>trance-nexus rss generator</generator>
+  <item>
+    <title>ADE 2026 トランス・ガイド：Armin、Luminosity、Paul van Dykほか</title>
+    <link>https://trance-nexus.com/blog/ade-2026-trance-guide</link>
+    <guid isPermaLink="true">https://trance-nexus.com/blog/ade-2026-trance-guide</guid>
+    <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
+    <description>30周年を迎えるAmsterdam Dance Event（2026年10月21〜25日）。公式ページで確認できたトランス系イベントを、日別に紹介します。</description>
+  </item>
   <item>
     <title>A State of Trance Rotterdam 2027：日程・第1弾ラインナップ・チケット</title>
     <link>https://trance-nexus.com/blog/asot-rotterdam-2027-guide</link>

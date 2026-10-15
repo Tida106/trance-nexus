@@ -791,4 +791,81 @@ export const posts14 = [
       ],
     },
   }
+  , // ← ★直前の記事との区切りのカンマ
+  {
+    slug: 'ade-2026-trance-guide',
+    date: '2026-10-16',
+    readTime: 5,
+    tags: ['ade', 'amsterdam', 'festival', 'netherlands', 'events'],
+    en: {
+      title: 'ADE 2026 Trance Guide: Armin, Luminosity, Paul van Dyk & More',
+      description: 'The trance events at Amsterdam Dance Event 2026 (21–25 October), day by day: Armin van Buuren at Gashouder, In Trance We Trust, Luminosity and Paul van Dyk at Melkweg.',
+      excerpt: 'Amsterdam Dance Event turns 30 on 21–25 October 2026. Here are the confirmed trance events day by day, from Armin van Buuren at Gashouder to Luminosity and Paul van Dyk.',
+      content: [
+        {
+          heading: 'ADE 2026 at a Glance',
+          body: `<p><strong>Amsterdam Dance Event (ADE)</strong> runs from <strong>Wednesday 21 to Sunday 25 October 2026</strong> and marks its 30th year (1996&ndash;2026). It is a city-wide festival and conference: according to <a href="https://www.amsterdam-dance-event.nl/en/news/ade25-pressrelease-5/2750267/" target="_blank" rel="noopener">ADE</a>, the 2025 edition drew a record 600,000 visitors, with nearly 3,500 artists and over 1,200 events at more than 300 locations. <a href="https://djmag.com/news/armin-van-buuren-announces-ade-opening-party-gashouder" target="_blank" rel="noopener">DJ Mag</a> reports that Jean-Michel Jarre is guest of honour for the 30th edition.</p><p>Trance is only one part of ADE, so this guide picks out the trance events that are confirmed on official or venue pages, day by day. Tickets for most ADE events are sold separately per event, and several sell out in advance.</p>`,
+        },
+        {
+          heading: 'Wednesday 21 October',
+          body: `<ul><li><strong><a href="/artists/armin-van-buuren">Armin van Buuren</a> &amp; Benwal &mdash; Gashouder (Westergasfabriek).</strong> Armin opens ADE at the reopened Gashouder, joined by Dutch hard house artist Benwal (source: <a href="https://djmag.com/news/armin-van-buuren-announces-ade-opening-party-gashouder" target="_blank" rel="noopener">DJ Mag</a>).</li><li><strong>In Trance We Trust &mdash; Thuishaven.</strong> Black Hole Recordings&rsquo; label night returns with <a href="/artists/bt">BT</a>, Ciaran McAuley, Craig Connelly, Maria Healy, Sneijder, Virtual Vault and <a href="/artists/xijaro-and-pitch">XiJaro &amp; Pitch</a> (source: <a href="https://www.blackholerecordings.com/news/in-trance-we-trust-returns-for-amsterdam-dance-event" target="_blank" rel="noopener">Black Hole Recordings</a>).</li></ul>`,
+        },
+        {
+          heading: 'Friday 23 October',
+          body: `<ul><li><strong>Luminosity &mdash; Daytime Event, Panama (14:00&ndash;21:00).</strong> Lineup: <a href="/artists/aly-and-fila">Aly &amp; Fila</a>, Amber Revival, Asteroid, Cold Blue, <a href="/artists/daxson">Daxson</a>, Doppenberg, Enigma State, Factoria and Peter Steele (source: <a href="https://www.amsterdam-dance-event.nl/en/program/2026/luminosity-daytime-event/2815737/" target="_blank" rel="noopener">ADE programme</a>).</li><li><strong>Luminosity &mdash; Nighttime Event, Panama (22:00&ndash;07:00).</strong> The main room features names including <a href="/artists/bryan-kearney">Bryan Kearney</a>, <a href="/artists/john-ocallaghan">John O&rsquo;Callaghan</a>, <a href="/artists/darren-porter">Darren Porter</a> and <a href="/artists/mauro-picotto">Mauro Picotto</a>; the Studio has Andrea Ribeca, Arctic Barbers b2b Resolve and Enigma State (source: <a href="https://www.iamsterdam.com/en/whats-on/calendar/nightlife/clubbing/luminosity-nighttime-event" target="_blank" rel="noopener">I amsterdam</a>).</li></ul><p>Luminosity is the team behind <a href="/events/luminosity-beach-festival">Luminosity Beach Festival</a> in Zandvoort.</p>`,
+        },
+        {
+          heading: 'Saturday 24 October',
+          body: `<ul><li><strong><a href="/artists/paul-van-dyk">Paul van Dyk</a> &mdash; Open to Close, Melkweg (Rabo room, 18:00&ndash;22:30).</strong> An open-to-close set; <a href="https://www.melkweg.nl/en/agenda/paul-van-dyk-24-10-2026" target="_blank" rel="noopener">Melkweg</a> lists it as his fifth consecutive ADE show at Melkweg. The event is listed as sold out.</li><li><strong>Luminosity &mdash; ADE Rave, Q-Factory (14:00&ndash;06:00).</strong> A day and night programme. The listing on <a href="https://festivalfans.nl/event/ade-luminosity-rave/" target="_blank" rel="noopener">festivalfans.nl</a> includes Joyhauser, <a href="/artists/will-atkinson">Will Atkinson</a> and Nifra by day, and Sarah de Warren, Billy Gillies, Amber Broos, <a href="/artists/ben-nicky">Ben Nicky</a> and Thick as Thieves by night. Check the official channels for the final timetable.</li></ul>`,
+        },
+        {
+          heading: 'At a Glance: Trance at ADE 2026',
+          body: `<table><thead><tr><th>Day</th><th>Event</th><th>Venue</th><th>Hours</th></tr></thead><tbody><tr><td>Wed 21 Oct</td><td>Armin van Buuren &amp; Benwal</td><td>Gashouder</td><td>&ndash;</td></tr><tr><td>Wed 21 Oct</td><td>In Trance We Trust</td><td>Thuishaven</td><td>&ndash;</td></tr><tr><td>Fri 23 Oct</td><td>Luminosity Daytime</td><td>Panama</td><td>14:00&ndash;21:00</td></tr><tr><td>Fri 23 Oct</td><td>Luminosity Nighttime</td><td>Panama</td><td>22:00&ndash;07:00</td></tr><tr><td>Sat 24 Oct</td><td>Paul van Dyk Open to Close</td><td>Melkweg</td><td>18:00&ndash;22:30</td></tr><tr><td>Sat 24 Oct</td><td>Luminosity ADE Rave</td><td>Q-Factory</td><td>14:00&ndash;06:00</td></tr></tbody></table><p>&ldquo;&ndash;&rdquo; means the hours were not listed on the source page.</p>`,
+        },
+        {
+          heading: 'Planning Tips',
+          body: `<ul><li><strong>Book each event separately:</strong> ADE events are ticketed individually, and popular trance nights such as Paul van Dyk at Melkweg sell out.</li><li><strong>Check the official programme:</strong> the <a href="https://www.amsterdam-dance-event.nl/en/" target="_blank" rel="noopener">Amsterdam Dance Event website</a> lists every event with its venue and times.</li><li><strong>Going later in the season?</strong> See our <a href="/blog/november-2026-trance-events-guide">November 2026 Trance Events Guide</a> and our <a href="/blog/asot-rotterdam-2027-guide">A State of Trance Rotterdam 2027 guide</a>.</li></ul>`,
+        },
+        {
+          heading: 'A Listener&rsquo;s Note',
+          body: `<p>ADE has hundreds of events every year, so it is easy to miss the trance nights. I will add more confirmed trance events here as they appear on official pages.</p>`,
+        },
+      ],
+    },
+    ja: {
+      title: 'ADE 2026 トランス・ガイド：Armin、Luminosity、Paul van Dykほか',
+      description: 'Amsterdam Dance Event 2026（10月21〜25日）のトランス系イベントを日別にまとめました。GashouderのArmin van Buuren、In Trance We Trust、Luminosity、MelkwegのPaul van Dykなど。',
+      excerpt: '30周年を迎えるAmsterdam Dance Event（2026年10月21〜25日）。公式ページで確認できたトランス系イベントを、日別に紹介します。',
+      content: [
+        {
+          heading: 'ADE 2026の概要',
+          body: `<p><strong>Amsterdam Dance Event（ADE）</strong>は<strong>2026年10月21日（水）〜25日（日）</strong>に開催され、今年で30周年（1996〜2026年）を迎えます。街全体で行われるフェスティバル兼カンファレンスで、<a href="https://www.amsterdam-dance-event.nl/en/news/ade25-pressrelease-5/2750267/" target="_blank" rel="noopener">ADE</a>によると2025年は過去最多の60万人が来場し、約3,500組のアーティスト、1,200以上のイベントが300か所以上の会場で行われました。<a href="https://djmag.com/news/armin-van-buuren-announces-ade-opening-party-gashouder" target="_blank" rel="noopener">DJ Mag</a>によると、30回目の今年はJean-Michel Jarreが名誉ゲストを務めます。</p><p>ADEの中でトランスは一部なので、この記事では公式ページや会場ページで確認できたトランス系イベントを日別にまとめます。チケットは基本的にイベントごとに別売りで、売り切れるものもあります。</p>`,
+        },
+        {
+          heading: '10月21日（水）',
+          body: `<ul><li><strong><a href="/artists/armin-van-buuren">Armin van Buuren</a> &amp; Benwal ／ Gashouder（Westergasfabriek）</strong>：リニューアル後のGashouderで、ArminがADEのオープニングを飾ります。共演はオランダのハードハウス系アーティストBenwal（出典：<a href="https://djmag.com/news/armin-van-buuren-announces-ade-opening-party-gashouder" target="_blank" rel="noopener">DJ Mag</a>）。</li><li><strong>In Trance We Trust ／ Thuishaven</strong>：Black Hole Recordingsのレーベルナイト。出演は<a href="/artists/bt">BT</a>、Ciaran McAuley、Craig Connelly、Maria Healy、Sneijder、Virtual Vault、<a href="/artists/xijaro-and-pitch">XiJaro &amp; Pitch</a>（出典：<a href="https://www.blackholerecordings.com/news/in-trance-we-trust-returns-for-amsterdam-dance-event" target="_blank" rel="noopener">Black Hole Recordings</a>）。</li></ul>`,
+        },
+        {
+          heading: '10月23日（金）',
+          body: `<ul><li><strong>Luminosity ／ Daytime Event、Panama（14:00〜21:00）</strong>：出演は<a href="/artists/aly-and-fila">Aly &amp; Fila</a>、Amber Revival、Asteroid、Cold Blue、<a href="/artists/daxson">Daxson</a>、Doppenberg、Enigma State、Factoria、Peter Steele（出典：<a href="https://www.amsterdam-dance-event.nl/en/program/2026/luminosity-daytime-event/2815737/" target="_blank" rel="noopener">ADE programme</a>）。</li><li><strong>Luminosity ／ Nighttime Event、Panama（22:00〜翌7:00）</strong>：メインルームには<a href="/artists/bryan-kearney">Bryan Kearney</a>、<a href="/artists/john-ocallaghan">John O&rsquo;Callaghan</a>、<a href="/artists/darren-porter">Darren Porter</a>、<a href="/artists/mauro-picotto">Mauro Picotto</a>など、StudioにはAndrea Ribeca、Arctic Barbers b2b Resolve、Enigma Stateが出演（出典：<a href="https://www.iamsterdam.com/en/whats-on/calendar/nightlife/clubbing/luminosity-nighttime-event" target="_blank" rel="noopener">I amsterdam</a>）。</li></ul><p>Luminosityは、ザントフォールトの<a href="/events/luminosity-beach-festival">Luminosity Beach Festival</a>を手がけるチームです。</p>`,
+        },
+        {
+          heading: '10月24日（土）',
+          body: `<ul><li><strong><a href="/artists/paul-van-dyk">Paul van Dyk</a> ／ Open to Close、Melkweg（Raboルーム、18:00〜22:30）</strong>：最初から最後まで1人で回すオープン・トゥ・クローズ。<a href="https://www.melkweg.nl/en/agenda/paul-van-dyk-24-10-2026" target="_blank" rel="noopener">Melkweg</a>によると、MelkwegでのADE公演は5年連続です。チケットは売り切れと掲載されています。</li><li><strong>Luminosity ／ ADE Rave、Q-Factory（14:00〜翌6:00）</strong>：昼と夜の2部構成。<a href="https://festivalfans.nl/event/ade-luminosity-rave/" target="_blank" rel="noopener">festivalfans.nl</a>の掲載では、昼にJoyhauser、<a href="/artists/will-atkinson">Will Atkinson</a>、Nifra、夜にSarah de Warren、Billy Gillies、Amber Broos、<a href="/artists/ben-nicky">Ben Nicky</a>、Thick as Thievesなど。最終的なタイムテーブルは公式で確認してください。</li></ul>`,
+        },
+        {
+          heading: '一覧：ADE 2026のトランス・イベント',
+          body: `<table><thead><tr><th>日付</th><th>イベント</th><th>会場</th><th>時間</th></tr></thead><tbody><tr><td>10/21（水）</td><td>Armin van Buuren &amp; Benwal</td><td>Gashouder</td><td>－</td></tr><tr><td>10/21（水）</td><td>In Trance We Trust</td><td>Thuishaven</td><td>－</td></tr><tr><td>10/23（金）</td><td>Luminosity Daytime</td><td>Panama</td><td>14:00〜21:00</td></tr><tr><td>10/23（金）</td><td>Luminosity Nighttime</td><td>Panama</td><td>22:00〜翌7:00</td></tr><tr><td>10/24（土）</td><td>Paul van Dyk Open to Close</td><td>Melkweg</td><td>18:00〜22:30</td></tr><tr><td>10/24（土）</td><td>Luminosity ADE Rave</td><td>Q-Factory</td><td>14:00〜翌6:00</td></tr></tbody></table><p>「－」は出典ページに時間の記載がなかったものです。</p>`,
+        },
+        {
+          heading: '行く前のヒント',
+          body: `<ul><li><strong>チケットはイベントごとに：</strong>ADEのイベントは個別販売で、MelkwegのPaul van Dykのように人気のトランス・ナイトは売り切れます。</li><li><strong>公式の番組表を確認：</strong><a href="https://www.amsterdam-dance-event.nl/en/" target="_blank" rel="noopener">Amsterdam Dance Event公式サイト</a>に、全イベントの会場と時間が載っています。</li><li><strong>この先の予定も：</strong><a href="/blog/november-2026-trance-events-guide">2026年11月のトランス・イベントガイド</a>や<a href="/blog/asot-rotterdam-2027-guide">A State of Trance Rotterdam 2027 ガイド</a>もどうぞ。</li></ul>`,
+        },
+        {
+          heading: 'リスナーからの視点',
+          body: `<p>ADEは毎年何百ものイベントがあって、トランスのナイトを見落としがちです。公式ページで確認できたトランス系イベントが出てきたら、ここに追加していきます。</p>`,
+        },
+      ],
+    },
+  }
 ];
