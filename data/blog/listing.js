@@ -1,6 +1,9 @@
 // Lightweight listing data — no article body content.
 // Newest first. Keep in sync with data/blog/posts.js when adding articles.
 export const listing = [
+  { slug: 'find-your-harmony-500-ade-2026', date: '2026-10-16', readTime: 3, tags: ['andrew-rayel', 'ade', 'amsterdam', 'radio', 'events'],
+    en: { title: 'Find Your Harmony 500 at ADE 2026: Andrew Rayel’s Club Night', excerpt: 'Andrew Rayel marks 500 episodes of his Find Your Harmony radio show with an intimate club night at ADE 2026 on 24 October. Date, venue, lineup status and background.' },
+    ja: { title: 'ADE 2026「Find Your Harmony 500」：Andrew Rayelのクラブナイト', excerpt: 'Andrew Rayelが、ラジオ番組Find Your Harmonyの500回を記念して、ADE 2026の10月24日に小さな会場でクラブナイトを開きます。日時、会場、ラインナップ、番組の歩みを紹介。' } },
   { slug: 'paul-van-dyk-ade-2026-melkweg', date: '2026-10-16', readTime: 3, tags: ['paul-van-dyk', 'ade', 'amsterdam', 'events', 'open-to-close'],
     en: { title: 'Paul van Dyk at ADE 2026: Open-to-Close at Melkweg', excerpt: 'Paul van Dyk returns to Melkweg for ADE 2026 on 24 October with an open-to-close set in the Rabo room — his fifth consecutive ADE show at the venue.' },
     ja: { title: 'ADE 2026のPaul van Dyk：Melkwegでオープン・トゥ・クローズ', excerpt: 'Paul van DykがADE 2026に合わせて、10月24日にMelkwegでオープン・トゥ・クローズを披露します。同会場でのADE公演は5年連続です。' } },

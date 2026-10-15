@@ -816,11 +816,11 @@ export const posts14 = [
         },
         {
           heading: 'Saturday 24 October',
-          body: `<ul><li><strong><a href="/artists/paul-van-dyk">Paul van Dyk</a> &mdash; Open to Close, Melkweg (Rabo room, 18:00&ndash;22:30).</strong> An open-to-close set; <a href="https://www.melkweg.nl/en/agenda/paul-van-dyk-24-10-2026" target="_blank" rel="noopener">Melkweg</a> lists it as his fifth consecutive ADE show at Melkweg. The event is listed as sold out. More in <a href="/blog/paul-van-dyk-ade-2026-melkweg">Paul van Dyk at ADE 2026</a>.</li><li><strong>Luminosity &mdash; ADE Rave, Q-Factory (14:00&ndash;06:00).</strong> A day and night programme. The listing on <a href="https://festivalfans.nl/event/ade-luminosity-rave/" target="_blank" rel="noopener">festivalfans.nl</a> includes Joyhauser, <a href="/artists/will-atkinson">Will Atkinson</a> and Nifra by day, and Sarah de Warren, Billy Gillies, Amber Broos, <a href="/artists/ben-nicky">Ben Nicky</a> and Thick as Thieves by night. Check the official channels for the final timetable.</li></ul>`,
+          body: `<ul><li><strong><a href="/artists/paul-van-dyk">Paul van Dyk</a> &mdash; Open to Close, Melkweg (Rabo room, 18:00&ndash;22:30).</strong> An open-to-close set; <a href="https://www.melkweg.nl/en/agenda/paul-van-dyk-24-10-2026" target="_blank" rel="noopener">Melkweg</a> lists it as his fifth consecutive ADE show at Melkweg. The event is listed as sold out. More in <a href="/blog/paul-van-dyk-ade-2026-melkweg">Paul van Dyk at ADE 2026</a>.</li><li><strong><a href="/artists/andrew-rayel">Andrew Rayel</a> &mdash; Find Your Harmony 500, Desmet Studio&rsquo;s (22:00&ndash;04:00).</strong> A 230-capacity club night for the 500th episode of his radio show; see <a href="/blog/find-your-harmony-500-ade-2026">our FYH 500 guide</a>.</li><li><strong>Luminosity &mdash; ADE Rave, Q-Factory (14:00&ndash;06:00).</strong> A day and night programme. The listing on <a href="https://festivalfans.nl/event/ade-luminosity-rave/" target="_blank" rel="noopener">festivalfans.nl</a> includes Joyhauser, <a href="/artists/will-atkinson">Will Atkinson</a> and Nifra by day, and Sarah de Warren, Billy Gillies, Amber Broos, <a href="/artists/ben-nicky">Ben Nicky</a> and Thick as Thieves by night. Check the official channels for the final timetable.</li></ul>`,
         },
         {
           heading: 'At a Glance: Trance at ADE 2026',
-          body: `<table><thead><tr><th>Day</th><th>Event</th><th>Venue</th><th>Hours</th></tr></thead><tbody><tr><td>Wed 21 Oct</td><td>Armin van Buuren &amp; Benwal</td><td>Gashouder</td><td>&ndash;</td></tr><tr><td>Wed 21 Oct</td><td>In Trance We Trust</td><td>Thuishaven</td><td>&ndash;</td></tr><tr><td>Fri 23 Oct</td><td>Luminosity Daytime</td><td>Panama</td><td>14:00&ndash;21:00</td></tr><tr><td>Fri 23 Oct</td><td>Luminosity Nighttime</td><td>Panama</td><td>22:00&ndash;07:00</td></tr><tr><td>Sat 24 Oct</td><td>Paul van Dyk Open to Close</td><td>Melkweg</td><td>18:00&ndash;22:30</td></tr><tr><td>Sat 24 Oct</td><td>Luminosity ADE Rave</td><td>Q-Factory</td><td>14:00&ndash;06:00</td></tr></tbody></table><p>&ldquo;&ndash;&rdquo; means the hours were not listed on the source page.</p>`,
+          body: `<table><thead><tr><th>Day</th><th>Event</th><th>Venue</th><th>Hours</th></tr></thead><tbody><tr><td>Wed 21 Oct</td><td>Armin van Buuren &amp; Benwal</td><td>Gashouder</td><td>&ndash;</td></tr><tr><td>Wed 21 Oct</td><td>In Trance We Trust</td><td>Thuishaven</td><td>&ndash;</td></tr><tr><td>Fri 23 Oct</td><td>Luminosity Daytime</td><td>Panama</td><td>14:00&ndash;21:00</td></tr><tr><td>Fri 23 Oct</td><td>Luminosity Nighttime</td><td>Panama</td><td>22:00&ndash;07:00</td></tr><tr><td>Sat 24 Oct</td><td>Paul van Dyk Open to Close</td><td>Melkweg</td><td>18:00&ndash;22:30</td></tr><tr><td>Sat 24 Oct</td><td>Find Your Harmony 500</td><td>Desmet Studio&rsquo;s</td><td>22:00&ndash;04:00</td></tr><tr><td>Sat 24 Oct</td><td>Luminosity ADE Rave</td><td>Q-Factory</td><td>14:00&ndash;06:00</td></tr></tbody></table><p>&ldquo;&ndash;&rdquo; means the hours were not listed on the source page.</p>`,
         },
         {
           heading: 'Planning Tips',
@@ -851,11 +851,11 @@ export const posts14 = [
         },
         {
           heading: '10月24日（土）',
-          body: `<ul><li><strong><a href="/artists/paul-van-dyk">Paul van Dyk</a> ／ Open to Close、Melkweg（Raboルーム、18:00〜22:30）</strong>：最初から最後まで1人で回すオープン・トゥ・クローズ。<a href="https://www.melkweg.nl/en/agenda/paul-van-dyk-24-10-2026" target="_blank" rel="noopener">Melkweg</a>によると、MelkwegでのADE公演は5年連続です。チケットは売り切れと掲載されています。詳しくは<a href="/blog/paul-van-dyk-ade-2026-melkweg">ADE 2026のPaul van Dyk</a>へ。</li><li><strong>Luminosity ／ ADE Rave、Q-Factory（14:00〜翌6:00）</strong>：昼と夜の2部構成。<a href="https://festivalfans.nl/event/ade-luminosity-rave/" target="_blank" rel="noopener">festivalfans.nl</a>の掲載では、昼にJoyhauser、<a href="/artists/will-atkinson">Will Atkinson</a>、Nifra、夜にSarah de Warren、Billy Gillies、Amber Broos、<a href="/artists/ben-nicky">Ben Nicky</a>、Thick as Thievesなど。最終的なタイムテーブルは公式で確認してください。</li></ul>`,
+          body: `<ul><li><strong><a href="/artists/paul-van-dyk">Paul van Dyk</a> ／ Open to Close、Melkweg（Raboルーム、18:00〜22:30）</strong>：最初から最後まで1人で回すオープン・トゥ・クローズ。<a href="https://www.melkweg.nl/en/agenda/paul-van-dyk-24-10-2026" target="_blank" rel="noopener">Melkweg</a>によると、MelkwegでのADE公演は5年連続です。チケットは売り切れと掲載されています。詳しくは<a href="/blog/paul-van-dyk-ade-2026-melkweg">ADE 2026のPaul van Dyk</a>へ。</li><li><strong><a href="/artists/andrew-rayel">Andrew Rayel</a> ／ Find Your Harmony 500、Desmet Studio&rsquo;s（22:00〜翌4:00）</strong>：ラジオ番組500回を記念した定員230人のクラブナイト。詳しくは<a href="/blog/find-your-harmony-500-ade-2026">FYH 500ガイド</a>へ。</li><li><strong>Luminosity ／ ADE Rave、Q-Factory（14:00〜翌6:00）</strong>：昼と夜の2部構成。<a href="https://festivalfans.nl/event/ade-luminosity-rave/" target="_blank" rel="noopener">festivalfans.nl</a>の掲載では、昼にJoyhauser、<a href="/artists/will-atkinson">Will Atkinson</a>、Nifra、夜にSarah de Warren、Billy Gillies、Amber Broos、<a href="/artists/ben-nicky">Ben Nicky</a>、Thick as Thievesなど。最終的なタイムテーブルは公式で確認してください。</li></ul>`,
         },
         {
           heading: '一覧：ADE 2026のトランス・イベント',
-          body: `<table><thead><tr><th>日付</th><th>イベント</th><th>会場</th><th>時間</th></tr></thead><tbody><tr><td>10/21（水）</td><td>Armin van Buuren &amp; Benwal</td><td>Gashouder</td><td>－</td></tr><tr><td>10/21（水）</td><td>In Trance We Trust</td><td>Thuishaven</td><td>－</td></tr><tr><td>10/23（金）</td><td>Luminosity Daytime</td><td>Panama</td><td>14:00〜21:00</td></tr><tr><td>10/23（金）</td><td>Luminosity Nighttime</td><td>Panama</td><td>22:00〜翌7:00</td></tr><tr><td>10/24（土）</td><td>Paul van Dyk Open to Close</td><td>Melkweg</td><td>18:00〜22:30</td></tr><tr><td>10/24（土）</td><td>Luminosity ADE Rave</td><td>Q-Factory</td><td>14:00〜翌6:00</td></tr></tbody></table><p>「－」は出典ページに時間の記載がなかったものです。</p>`,
+          body: `<table><thead><tr><th>日付</th><th>イベント</th><th>会場</th><th>時間</th></tr></thead><tbody><tr><td>10/21（水）</td><td>Armin van Buuren &amp; Benwal</td><td>Gashouder</td><td>－</td></tr><tr><td>10/21（水）</td><td>In Trance We Trust</td><td>Thuishaven</td><td>－</td></tr><tr><td>10/23（金）</td><td>Luminosity Daytime</td><td>Panama</td><td>14:00〜21:00</td></tr><tr><td>10/23（金）</td><td>Luminosity Nighttime</td><td>Panama</td><td>22:00〜翌7:00</td></tr><tr><td>10/24（土）</td><td>Paul van Dyk Open to Close</td><td>Melkweg</td><td>18:00〜22:30</td></tr><tr><td>10/24（土）</td><td>Find Your Harmony 500</td><td>Desmet Studio&rsquo;s</td><td>22:00〜翌4:00</td></tr><tr><td>10/24（土）</td><td>Luminosity ADE Rave</td><td>Q-Factory</td><td>14:00〜翌6:00</td></tr></tbody></table><p>「－」は出典ページに時間の記載がなかったものです。</p>`,
         },
         {
           heading: '行く前のヒント',
@@ -1148,6 +1148,75 @@ export const posts14 = [
         {
           heading: 'リスナーからの視点',
           body: `<p>オープン・トゥ・クローズは、DJが一晩をどう組み立てるかがいちばんよく分かる形式です。MelkwegのPaul van Dykは、もうADEの恒例になっていますね。</p>`,
+        },
+      ],
+    },
+  }
+  , // ← ★直前の記事との区切りのカンマ
+  {
+    slug: 'find-your-harmony-500-ade-2026',
+    date: '2026-10-16',
+    readTime: 3,
+    tags: ['andrew-rayel', 'ade', 'amsterdam', 'radio', 'events'],
+    en: {
+      title: 'Find Your Harmony 500 at ADE 2026: Andrew Rayel’s Club Night',
+      description: 'Andrew Rayel celebrates the 500th episode of Find Your Harmony at ADE on 24 October 2026 at Desmet Studio’s, Amsterdam — a 230-capacity club night.',
+      excerpt: 'Andrew Rayel marks 500 episodes of his Find Your Harmony radio show with an intimate club night at ADE 2026 on 24 October. Date, venue, lineup status and background.',
+      content: [
+        {
+          heading: 'The Night at a Glance',
+          body: `<p><a href="/artists/andrew-rayel">Andrew Rayel</a> celebrates the <strong>500th episode</strong> of his radio show <strong>Find Your Harmony</strong> with a club night during Amsterdam Dance Event: <strong>Saturday 24 October 2026</strong>, <strong>22:00 to 04:00</strong>, at <strong>Desmet Studio&rsquo;s</strong> (Plantage Middenlaan 4A, Amsterdam).</p><p><a href="https://www.iamsterdam.com/en/whats-on/calendar/nightlife/clubbing/find-your-harmony-ade-2026-fyh-500" target="_blank" rel="noopener">I amsterdam</a> describes it as an &ldquo;intimate club night&rdquo; of trance and melodic dance, in a venue that holds a maximum of 230 people, and advises fans not to wait too long for tickets.</p>`,
+        },
+        {
+          heading: 'Lineup',
+          body: `<p>Andrew Rayel headlines. The <a href="https://www.amsterdam-dance-event.nl/en/program/2026/find-your-harmony/2802455/" target="_blank" rel="noopener">ADE programme</a> still lists the rest of the lineup as TBA, so check the ticket page for updates. We will add names here once they are confirmed.</p>`,
+        },
+        {
+          heading: 'Find Your Harmony at 500',
+          body: `<p>Find Your Harmony is Andrew Rayel&rsquo;s weekly radio show. In an <a href="https://www.armadamusic.com/news/andrew-rayel-releases-official-anthem-for-find-your-harmony-250-and-rebrands-label" target="_blank" rel="noopener">Armada Music</a> news post from 2021, he said the show &ldquo;was started back in 2012&rdquo;. The 250th episode was marked with a seven-hour broadcast on 31 March 2021, alongside the anthem &lsquo;My Harmony&rsquo; and the renaming of his label to Find Your Harmony. Episode 500 now gets a club night of its own at ADE. You can find the show on our <a href="/radio">radio shows page</a>.</p>`,
+        },
+        {
+          heading: 'Why It Stands Out',
+          body: `<p>Most big trance nights at ADE are in large venues. A 230-capacity room for a radio milestone is unusual, and it puts listeners much closer to the DJ booth than a festival stage would.</p>`,
+        },
+        {
+          heading: 'Same Night at ADE',
+          body: `<p>Saturday 24 October is a busy night for trance in Amsterdam: <a href="/blog/paul-van-dyk-ade-2026-melkweg">Paul van Dyk at Melkweg</a> (from 18:00) and <a href="/blog/luminosity-ade-2026">Luminosity&rsquo;s ADE Rave</a> at Q Factory both fall on the same day. See the full week in our <a href="/blog/ade-2026-trance-guide">ADE 2026 Trance Guide</a>.</p>`,
+        },
+        {
+          heading: 'A Listener&rsquo;s Note',
+          body: `<p>Weekly radio shows are how many of us follow trance, so seeing one reach 500 episodes &mdash; and celebrate it in a small room &mdash; is something I find genuinely appealing.</p>`,
+        },
+      ],
+    },
+    ja: {
+      title: 'ADE 2026「Find Your Harmony 500」：Andrew Rayelのクラブナイト',
+      description: 'Andrew Rayelがラジオ番組Find Your Harmonyの第500回を、2026年10月24日にADEで祝います。会場は定員230人のDesmet Studio’s。日時、ラインナップ、番組の歩み。',
+      excerpt: 'Andrew Rayelが、ラジオ番組Find Your Harmonyの500回を記念して、ADE 2026の10月24日に小さな会場でクラブナイトを開きます。日時、会場、ラインナップ、番組の歩みを紹介。',
+      content: [
+        {
+          heading: 'イベント概要',
+          body: `<p><a href="/artists/andrew-rayel">Andrew Rayel</a>が、ラジオ番組<strong>Find Your Harmony</strong>の<strong>第500回</strong>を記念して、Amsterdam Dance Event期間中にクラブナイトを開きます。日時は<strong>2026年10月24日（土）22:00〜翌4:00</strong>、会場は<strong>Desmet Studio&rsquo;s</strong>（Plantage Middenlaan 4A）です。</p><p><a href="https://www.iamsterdam.com/en/whats-on/calendar/nightlife/clubbing/find-your-harmony-ade-2026-fyh-500" target="_blank" rel="noopener">I amsterdam</a>によると、トランスとメロディックなダンス・ミュージックの「インティメイトなクラブナイト」で、会場の定員は最大230人。チケットは早めの購入がすすめられています。</p>`,
+        },
+        {
+          heading: 'ラインナップ',
+          body: `<p>ヘッドライナーはAndrew Rayel。<a href="https://www.amsterdam-dance-event.nl/en/program/2026/find-your-harmony/2802455/" target="_blank" rel="noopener">ADEの番組表</a>では、ほかの出演者はまだ「TBA（未発表）」です。最新情報はチケットページで確認してください。発表され次第、ここに追記します。</p>`,
+        },
+        {
+          heading: 'Find Your Harmony、500回へ',
+          body: `<p>Find Your HarmonyはAndrew Rayelの週刊ラジオ番組です。2021年の<a href="https://www.armadamusic.com/news/andrew-rayel-releases-official-anthem-for-find-your-harmony-250-and-rebrands-label" target="_blank" rel="noopener">Armada Music</a>のニュースで、本人は番組を「2012年に始めた」と語っています。第250回は2021年3月31日に7時間の特別放送で祝われ、同時にアンセム「My Harmony」のリリースと、自身のレーベルの「Find Your Harmony」への改名も行われました。そして第500回は、ADEでのクラブナイトとして祝われます。番組は当サイトの<a href="/radio">ラジオ番組ページ</a>でも紹介しています。</p>`,
+        },
+        {
+          heading: 'この夜の特別さ',
+          body: `<p>ADEの大きなトランス・ナイトは、ほとんどが大型会場です。ラジオの節目を230人規模の会場で祝うのは珍しく、フェスのステージよりずっとDJブースの近くで聴けるのが魅力です。</p>`,
+        },
+        {
+          heading: '同じ夜のADE',
+          body: `<p>10月24日（土）はトランスが熱い一日。<a href="/blog/paul-van-dyk-ade-2026-melkweg">MelkwegのPaul van Dyk</a>（18:00〜）や、Q Factoryの<a href="/blog/luminosity-ade-2026">LuminosityのADE Rave</a>も同じ日です。1週間の全体像は<a href="/blog/ade-2026-trance-guide">ADE 2026 トランス・ガイド</a>へ。</p>`,
+        },
+        {
+          heading: 'リスナーからの視点',
+          body: `<p>毎週のラジオ番組は、トランスを追いかける大事な手段です。その番組が500回を迎えて、しかも小さな会場で祝うというのは、すごく惹かれます。</p>`,
         },
       ],
     },
