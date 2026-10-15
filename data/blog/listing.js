@@ -1,6 +1,12 @@
 // Lightweight listing data — no article body content.
 // Newest first. Keep in sync with data/blog/posts.js when adding articles.
 export const listing = [
+  { slug: 'paul-van-dyk-ade-2026-melkweg', date: '2026-10-16', readTime: 3, tags: ['paul-van-dyk', 'ade', 'amsterdam', 'events', 'open-to-close'],
+    en: { title: 'Paul van Dyk at ADE 2026: Open-to-Close at Melkweg', excerpt: 'Paul van Dyk returns to Melkweg for ADE 2026 on 24 October with an open-to-close set in the Rabo room — his fifth consecutive ADE show at the venue.' },
+    ja: { title: 'ADE 2026のPaul van Dyk：Melkwegでオープン・トゥ・クローズ', excerpt: 'Paul van DykがADE 2026に合わせて、10月24日にMelkwegでオープン・トゥ・クローズを披露します。同会場でのADE公演は5年連続です。' } },
+  { slug: 'in-trance-we-trust-ade-2026', date: '2026-10-16', readTime: 3, tags: ['black-hole-recordings', 'ade', 'amsterdam', 'events', 'uplifting'],
+    en: { title: 'In Trance We Trust at ADE 2026: Lineup, Times & Venue', excerpt: 'Black Hole Recordings’ In Trance We Trust returns to ADE for the first time in eight years on 21 October 2026 at Thuishaven. Here are the lineup, times and venue.' },
+    ja: { title: 'ADE 2026のIn Trance We Trust：ラインナップ・時間・会場', excerpt: 'Black Hole RecordingsのIn Trance We Trustが、8年ぶりにADEに帰ってきます。2026年10月21日、Thuishavenで開催。ラインナップと時間、会場を紹介します。' } },
   { slug: 'armin-van-buuren-ade-2026-gashouder', date: '2026-10-16', readTime: 4, tags: ['armin-van-buuren', 'ade', 'amsterdam', 'asot', 'events'],
     en: { title: 'Armin van Buuren at ADE 2026: Gashouder Opening with Benwal', excerpt: 'Armin van Buuren opens Amsterdam Dance Event 2026 at the reopened Gashouder on 21 October, with a b2b set alongside Benwal. Here is the timetable and what to know.' },
     ja: { title: 'ADE 2026のArmin van Buuren：GashouderでBenwalとオープニング', excerpt: 'Armin van Buurenが2026年10月21日、リニューアルしたGashouderでADEのオープニングを飾ります。Benwalとのb2bを含むタイムテーブルと、見どころを紹介。' } },

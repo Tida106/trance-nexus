@@ -6,7 +6,7 @@
   <atom:link href="https://trance-nexus.com/rss.ja.xml" rel="self" type="application/rss+xml" />
   <description>トランスミュージックの長尺記事：歴史、アーティスト、レーベル、シーン、機材・制作ガイド。</description>
   <language>ja</language>
-  <lastBuildDate>Thu, 15 Oct 2026 22:15:30 GMT</lastBuildDate>
+  <lastBuildDate>Thu, 15 Oct 2026 22:22:40 GMT</lastBuildDate>
   <generator>trance-nexus rss generator</generator>
   <item>
     <title>ADE 2026 トランス・ガイド：Armin、Luminosity、Paul van Dykほか</title>
@@ -23,11 +23,25 @@
     <description>Armin van Buurenが2026年10月21日、リニューアルしたGashouderでADEのオープニングを飾ります。Benwalとのb2bを含むタイムテーブルと、見どころを紹介。</description>
   </item>
   <item>
+    <title>ADE 2026のIn Trance We Trust：ラインナップ・時間・会場</title>
+    <link>https://trance-nexus.com/blog/in-trance-we-trust-ade-2026</link>
+    <guid isPermaLink="true">https://trance-nexus.com/blog/in-trance-we-trust-ade-2026</guid>
+    <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
+    <description>Black Hole RecordingsのIn Trance We Trustが、8年ぶりにADEに帰ってきます。2026年10月21日、Thuishavenで開催。ラインナップと時間、会場を紹介します。</description>
+  </item>
+  <item>
     <title>ADE 2026のLuminosity：This Is Trance!・ADE Rave・Infinity</title>
     <link>https://trance-nexus.com/blog/luminosity-ade-2026</link>
     <guid isPermaLink="true">https://trance-nexus.com/blog/luminosity-ade-2026</guid>
     <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
     <description>夏のビーチフェスだけじゃない。LuminosityはADE 2026で10月23〜24日に5つのイベントを開催します。王道アップリフティングからADE Raveまで、ラインナップと時間を紹介。</description>
+  </item>
+  <item>
+    <title>ADE 2026のPaul van Dyk：Melkwegでオープン・トゥ・クローズ</title>
+    <link>https://trance-nexus.com/blog/paul-van-dyk-ade-2026-melkweg</link>
+    <guid isPermaLink="true">https://trance-nexus.com/blog/paul-van-dyk-ade-2026-melkweg</guid>
+    <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
+    <description>Paul van DykがADE 2026に合わせて、10月24日にMelkwegでオープン・トゥ・クローズを披露します。同会場でのADE公演は5年連続です。</description>
   </item>
   <item>
     <title>A State of Trance Rotterdam 2027：日程・第1弾ラインナップ・チケット</title>

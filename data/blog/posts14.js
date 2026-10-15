@@ -808,7 +808,7 @@ export const posts14 = [
         },
         {
           heading: 'Wednesday 21 October',
-          body: `<ul><li><strong><a href="/artists/armin-van-buuren">Armin van Buuren</a> &amp; Benwal &mdash; Gashouder (Westergasfabriek).</strong> Armin opens ADE at the reopened Gashouder, joined by Dutch hard house artist Benwal; see our <a href="/blog/armin-van-buuren-ade-2026-gashouder">Armin at Gashouder guide</a> (source: <a href="https://djmag.com/news/armin-van-buuren-announces-ade-opening-party-gashouder" target="_blank" rel="noopener">DJ Mag</a>).</li><li><strong>In Trance We Trust &mdash; Thuishaven.</strong> Black Hole Recordings&rsquo; label night returns with <a href="/artists/bt">BT</a>, Ciaran McAuley, Craig Connelly, Maria Healy, Sneijder, Virtual Vault and <a href="/artists/xijaro-and-pitch">XiJaro &amp; Pitch</a> (source: <a href="https://www.blackholerecordings.com/news/in-trance-we-trust-returns-for-amsterdam-dance-event" target="_blank" rel="noopener">Black Hole Recordings</a>).</li></ul>`,
+          body: `<ul><li><strong><a href="/artists/armin-van-buuren">Armin van Buuren</a> &amp; Benwal &mdash; Gashouder (Westergasfabriek).</strong> Armin opens ADE at the reopened Gashouder, joined by Dutch hard house artist Benwal; see our <a href="/blog/armin-van-buuren-ade-2026-gashouder">Armin at Gashouder guide</a> (source: <a href="https://djmag.com/news/armin-van-buuren-announces-ade-opening-party-gashouder" target="_blank" rel="noopener">DJ Mag</a>).</li><li><strong>In Trance We Trust &mdash; Thuishaven.</strong> Black Hole Recordings&rsquo; label night (<a href="/blog/in-trance-we-trust-ade-2026">full guide</a>) returns with <a href="/artists/bt">BT</a>, Ciaran McAuley, Craig Connelly, Maria Healy, Sneijder, Virtual Vault and <a href="/artists/xijaro-and-pitch">XiJaro &amp; Pitch</a> (source: <a href="https://www.blackholerecordings.com/news/in-trance-we-trust-returns-for-amsterdam-dance-event" target="_blank" rel="noopener">Black Hole Recordings</a>).</li></ul>`,
         },
         {
           heading: 'Friday 23 October',
@@ -816,7 +816,7 @@ export const posts14 = [
         },
         {
           heading: 'Saturday 24 October',
-          body: `<ul><li><strong><a href="/artists/paul-van-dyk">Paul van Dyk</a> &mdash; Open to Close, Melkweg (Rabo room, 18:00&ndash;22:30).</strong> An open-to-close set; <a href="https://www.melkweg.nl/en/agenda/paul-van-dyk-24-10-2026" target="_blank" rel="noopener">Melkweg</a> lists it as his fifth consecutive ADE show at Melkweg. The event is listed as sold out.</li><li><strong>Luminosity &mdash; ADE Rave, Q-Factory (14:00&ndash;06:00).</strong> A day and night programme. The listing on <a href="https://festivalfans.nl/event/ade-luminosity-rave/" target="_blank" rel="noopener">festivalfans.nl</a> includes Joyhauser, <a href="/artists/will-atkinson">Will Atkinson</a> and Nifra by day, and Sarah de Warren, Billy Gillies, Amber Broos, <a href="/artists/ben-nicky">Ben Nicky</a> and Thick as Thieves by night. Check the official channels for the final timetable.</li></ul>`,
+          body: `<ul><li><strong><a href="/artists/paul-van-dyk">Paul van Dyk</a> &mdash; Open to Close, Melkweg (Rabo room, 18:00&ndash;22:30).</strong> An open-to-close set; <a href="https://www.melkweg.nl/en/agenda/paul-van-dyk-24-10-2026" target="_blank" rel="noopener">Melkweg</a> lists it as his fifth consecutive ADE show at Melkweg. The event is listed as sold out. More in <a href="/blog/paul-van-dyk-ade-2026-melkweg">Paul van Dyk at ADE 2026</a>.</li><li><strong>Luminosity &mdash; ADE Rave, Q-Factory (14:00&ndash;06:00).</strong> A day and night programme. The listing on <a href="https://festivalfans.nl/event/ade-luminosity-rave/" target="_blank" rel="noopener">festivalfans.nl</a> includes Joyhauser, <a href="/artists/will-atkinson">Will Atkinson</a> and Nifra by day, and Sarah de Warren, Billy Gillies, Amber Broos, <a href="/artists/ben-nicky">Ben Nicky</a> and Thick as Thieves by night. Check the official channels for the final timetable.</li></ul>`,
         },
         {
           heading: 'At a Glance: Trance at ADE 2026',
@@ -843,7 +843,7 @@ export const posts14 = [
         },
         {
           heading: '10月21日（水）',
-          body: `<ul><li><strong><a href="/artists/armin-van-buuren">Armin van Buuren</a> &amp; Benwal ／ Gashouder（Westergasfabriek）</strong>：リニューアル後のGashouderで、ArminがADEのオープニングを飾ります。共演はオランダのハードハウス系アーティストBenwal。詳しくは<a href="/blog/armin-van-buuren-ade-2026-gashouder">ArminのGashouder公演ガイド</a>へ（出典：<a href="https://djmag.com/news/armin-van-buuren-announces-ade-opening-party-gashouder" target="_blank" rel="noopener">DJ Mag</a>）。</li><li><strong>In Trance We Trust ／ Thuishaven</strong>：Black Hole Recordingsのレーベルナイト。出演は<a href="/artists/bt">BT</a>、Ciaran McAuley、Craig Connelly、Maria Healy、Sneijder、Virtual Vault、<a href="/artists/xijaro-and-pitch">XiJaro &amp; Pitch</a>（出典：<a href="https://www.blackholerecordings.com/news/in-trance-we-trust-returns-for-amsterdam-dance-event" target="_blank" rel="noopener">Black Hole Recordings</a>）。</li></ul>`,
+          body: `<ul><li><strong><a href="/artists/armin-van-buuren">Armin van Buuren</a> &amp; Benwal ／ Gashouder（Westergasfabriek）</strong>：リニューアル後のGashouderで、ArminがADEのオープニングを飾ります。共演はオランダのハードハウス系アーティストBenwal。詳しくは<a href="/blog/armin-van-buuren-ade-2026-gashouder">ArminのGashouder公演ガイド</a>へ（出典：<a href="https://djmag.com/news/armin-van-buuren-announces-ade-opening-party-gashouder" target="_blank" rel="noopener">DJ Mag</a>）。</li><li><strong>In Trance We Trust ／ Thuishaven</strong>：Black Hole Recordingsのレーベルナイト（<a href="/blog/in-trance-we-trust-ade-2026">詳しいガイド</a>）。出演は<a href="/artists/bt">BT</a>、Ciaran McAuley、Craig Connelly、Maria Healy、Sneijder、Virtual Vault、<a href="/artists/xijaro-and-pitch">XiJaro &amp; Pitch</a>（出典：<a href="https://www.blackholerecordings.com/news/in-trance-we-trust-returns-for-amsterdam-dance-event" target="_blank" rel="noopener">Black Hole Recordings</a>）。</li></ul>`,
         },
         {
           heading: '10月23日（金）',
@@ -851,7 +851,7 @@ export const posts14 = [
         },
         {
           heading: '10月24日（土）',
-          body: `<ul><li><strong><a href="/artists/paul-van-dyk">Paul van Dyk</a> ／ Open to Close、Melkweg（Raboルーム、18:00〜22:30）</strong>：最初から最後まで1人で回すオープン・トゥ・クローズ。<a href="https://www.melkweg.nl/en/agenda/paul-van-dyk-24-10-2026" target="_blank" rel="noopener">Melkweg</a>によると、MelkwegでのADE公演は5年連続です。チケットは売り切れと掲載されています。</li><li><strong>Luminosity ／ ADE Rave、Q-Factory（14:00〜翌6:00）</strong>：昼と夜の2部構成。<a href="https://festivalfans.nl/event/ade-luminosity-rave/" target="_blank" rel="noopener">festivalfans.nl</a>の掲載では、昼にJoyhauser、<a href="/artists/will-atkinson">Will Atkinson</a>、Nifra、夜にSarah de Warren、Billy Gillies、Amber Broos、<a href="/artists/ben-nicky">Ben Nicky</a>、Thick as Thievesなど。最終的なタイムテーブルは公式で確認してください。</li></ul>`,
+          body: `<ul><li><strong><a href="/artists/paul-van-dyk">Paul van Dyk</a> ／ Open to Close、Melkweg（Raboルーム、18:00〜22:30）</strong>：最初から最後まで1人で回すオープン・トゥ・クローズ。<a href="https://www.melkweg.nl/en/agenda/paul-van-dyk-24-10-2026" target="_blank" rel="noopener">Melkweg</a>によると、MelkwegでのADE公演は5年連続です。チケットは売り切れと掲載されています。詳しくは<a href="/blog/paul-van-dyk-ade-2026-melkweg">ADE 2026のPaul van Dyk</a>へ。</li><li><strong>Luminosity ／ ADE Rave、Q-Factory（14:00〜翌6:00）</strong>：昼と夜の2部構成。<a href="https://festivalfans.nl/event/ade-luminosity-rave/" target="_blank" rel="noopener">festivalfans.nl</a>の掲載では、昼にJoyhauser、<a href="/artists/will-atkinson">Will Atkinson</a>、Nifra、夜にSarah de Warren、Billy Gillies、Amber Broos、<a href="/artists/ben-nicky">Ben Nicky</a>、Thick as Thievesなど。最終的なタイムテーブルは公式で確認してください。</li></ul>`,
         },
         {
           heading: '一覧：ADE 2026のトランス・イベント',
@@ -1010,6 +1010,144 @@ export const posts14 = [
         {
           heading: 'リスナーからの視点',
           body: `<p>毎週A State of Tranceを聴いている身としては、Arminがハードハウスとb2bをするのは意外で、だからこそADEの中でもこの夜は特に気になっています。</p>`,
+        },
+      ],
+    },
+  }
+  , // ← ★直前の記事との区切りのカンマ
+  {
+    slug: 'in-trance-we-trust-ade-2026',
+    date: '2026-10-16',
+    readTime: 3,
+    tags: ['black-hole-recordings', 'ade', 'amsterdam', 'events', 'uplifting'],
+    en: {
+      title: 'In Trance We Trust at ADE 2026: Lineup, Times & Venue',
+      description: 'In Trance We Trust returns to Amsterdam Dance Event after eight years: 21 October 2026 at Thuishaven, with BT, Ciaran McAuley, Craig Connelly and more.',
+      excerpt: 'Black Hole Recordings’ In Trance We Trust returns to ADE for the first time in eight years on 21 October 2026 at Thuishaven. Here are the lineup, times and venue.',
+      content: [
+        {
+          heading: 'The Night at a Glance',
+          body: `<p><strong>In Trance We Trust</strong> returns to <strong>Amsterdam Dance Event</strong> on <strong>Wednesday 21 October 2026</strong> at <strong>Thuishaven</strong> (Contactweg 68, Amsterdam), from <strong>21:00 to 04:00</strong>. According to <a href="https://www.blackholerecordings.com/news/in-trance-we-trust-returns-for-amsterdam-dance-event" target="_blank" rel="noopener">Black Hole Recordings</a>, it is the label&rsquo;s first ADE night in eight years, with its biggest lineup to date and a night devoted entirely to trance.</p><p>Tickets are sold through the label&rsquo;s ticket link; <a href="https://www.iamsterdam.com/en/whats-on/calendar/nightlife/clubbing/in-trance-we-trust" target="_blank" rel="noopener">I amsterdam</a> lists prices from &euro;34.99.</p>`,
+        },
+        {
+          heading: 'Lineup',
+          body: `<p>Seven artists who have shaped the label&rsquo;s history: <a href="/artists/bt">BT</a>, Ciaran McAuley, Craig Connelly, Maria Healy, <a href="/artists/sneijder">Sneijder</a>, Virtual Vault and <a href="/artists/xijaro-and-pitch">XiJaro &amp; Pitch</a>. The label promises &ldquo;uplifting and exclusive ADE performances&rdquo; from the lineup.</p>`,
+        },
+        {
+          heading: 'About In Trance We Trust',
+          body: `<p><a href="https://www.blackholerecordings.com/news/in-trance-we-trust-returns-for-amsterdam-dance-event" target="_blank" rel="noopener">Black Hole Recordings</a> describes In Trance We Trust as &ldquo;one of the premier imprints in trance music&rdquo; for more than 25 years. It is part of the <a href="/labels/black-hole-recordings">Black Hole Recordings</a> family. If you like uplifting trance, this is one of the most focused trance nights of ADE week.</p>`,
+        },
+        {
+          heading: 'The Venue: Thuishaven',
+          body: `<p>Thuishaven is an industrial-style site with several stages and bars. <a href="https://www.iamsterdam.com/en/whats-on/calendar/nightlife/clubbing/in-trance-we-trust" target="_blank" rel="noopener">I amsterdam</a> notes that in winter all stages are indoors, in heated tents and a hangar.</p>`,
+        },
+        {
+          heading: 'Same Night at ADE',
+          body: `<p>Wednesday 21 October is ADE&rsquo;s opening night. <a href="/blog/armin-van-buuren-ade-2026-gashouder">Armin van Buuren &amp; Benwal at Gashouder</a> runs the same evening, so plan your route if you want to catch both. For the full week, see our <a href="/blog/ade-2026-trance-guide">ADE 2026 Trance Guide</a>.</p>`,
+        },
+        {
+          heading: 'A Listener&rsquo;s Note',
+          body: `<p>BT on an In Trance We Trust lineup is a reminder of how far back this label goes, and it is good to see it back at ADE.</p>`,
+        },
+      ],
+    },
+    ja: {
+      title: 'ADE 2026のIn Trance We Trust：ラインナップ・時間・会場',
+      description: 'In Trance We Trustが8年ぶりにAmsterdam Dance Eventへ。2026年10月21日、Thuishavenで開催。BT、Ciaran McAuley、Craig Connellyほか。',
+      excerpt: 'Black Hole RecordingsのIn Trance We Trustが、8年ぶりにADEに帰ってきます。2026年10月21日、Thuishavenで開催。ラインナップと時間、会場を紹介します。',
+      content: [
+        {
+          heading: 'イベント概要',
+          body: `<p><strong>In Trance We Trust</strong>が<strong>2026年10月21日（水）</strong>、<strong>Amsterdam Dance Event</strong>に合わせて<strong>Thuishaven</strong>（Contactweg 68）で開催されます。時間は<strong>21:00〜翌4:00</strong>。<a href="https://www.blackholerecordings.com/news/in-trance-we-trust-returns-for-amsterdam-dance-event" target="_blank" rel="noopener">Black Hole Recordings</a>によると、ADEでの開催は8年ぶりで、レーベル史上最大のラインナップ、そして一晩すべてトランスというナイトです。</p><p>チケットはレーベルの販売リンクから購入できます。<a href="https://www.iamsterdam.com/en/whats-on/calendar/nightlife/clubbing/in-trance-we-trust" target="_blank" rel="noopener">I amsterdam</a>によると価格は€34.99からです。</p>`,
+        },
+        {
+          heading: 'ラインナップ',
+          body: `<p>レーベルの歴史をつくってきた7組：<a href="/artists/bt">BT</a>、Ciaran McAuley、Craig Connelly、Maria Healy、<a href="/artists/sneijder">Sneijder</a>、Virtual Vault、<a href="/artists/xijaro-and-pitch">XiJaro &amp; Pitch</a>。レーベルは「アップリフティングで、ADEならではのパフォーマンス」を予告しています。</p>`,
+        },
+        {
+          heading: 'In Trance We Trustとは',
+          body: `<p><a href="https://www.blackholerecordings.com/news/in-trance-we-trust-returns-for-amsterdam-dance-event" target="_blank" rel="noopener">Black Hole Recordings</a>によると、In Trance We Trustは25年以上にわたり「トランスを代表するレーベルのひとつ」。<a href="/labels/black-hole-recordings">Black Hole Recordings</a>のファミリーに属しています。アップリフティング・トランスが好きなら、ADE週間でもいちばんトランスに振り切った夜のひとつです。</p>`,
+        },
+        {
+          heading: '会場：Thuishaven',
+          body: `<p>Thuishavenは工業的な雰囲気の会場で、複数のステージとバーがあります。<a href="https://www.iamsterdam.com/en/whats-on/calendar/nightlife/clubbing/in-trance-we-trust" target="_blank" rel="noopener">I amsterdam</a>によると、冬場はすべてのステージが暖房付きのテントと格納庫の中になります。</p>`,
+        },
+        {
+          heading: '同じ夜のADE',
+          body: `<p>10月21日（水）はADEの初日。同じ夜に<a href="/blog/armin-van-buuren-ade-2026-gashouder">GashouderのArmin van Buuren &amp; Benwal</a>もあるので、両方行きたい人は移動を計画しておきましょう。1週間の全体像は<a href="/blog/ade-2026-trance-guide">ADE 2026 トランス・ガイド</a>へ。</p>`,
+        },
+        {
+          heading: 'リスナーからの視点',
+          body: `<p>In Trance We TrustのラインナップにBTの名前があると、このレーベルの歴史の長さを改めて感じます。ADEに戻ってきてくれたのが嬉しいです。</p>`,
+        },
+      ],
+    },
+  }
+  , // ← ★直前の記事との区切りのカンマ
+  {
+    slug: 'paul-van-dyk-ade-2026-melkweg',
+    date: '2026-10-16',
+    readTime: 3,
+    tags: ['paul-van-dyk', 'ade', 'amsterdam', 'events', 'open-to-close'],
+    en: {
+      title: 'Paul van Dyk at ADE 2026: Open-to-Close at Melkweg',
+      description: 'Paul van Dyk plays an open-to-close set at Melkweg’s Rabo room on 24 October 2026, his fifth consecutive ADE show there. Times, tickets and what to expect.',
+      excerpt: 'Paul van Dyk returns to Melkweg for ADE 2026 on 24 October with an open-to-close set in the Rabo room — his fifth consecutive ADE show at the venue.',
+      content: [
+        {
+          heading: 'The Night at a Glance',
+          body: `<p><a href="/artists/paul-van-dyk">Paul van Dyk</a> plays an <strong>open-to-close set</strong> at <strong>Melkweg</strong> (Rabo room, Lijnbaansgracht 234A, Amsterdam) on <strong>Saturday 24 October 2026</strong> during Amsterdam Dance Event. The show starts at 18:00; the <a href="https://www.amsterdam-dance-event.nl/en/program/2026/paul-van-dyk/2807320/" target="_blank" rel="noopener">ADE programme</a> lists it until 22:30. It is 18+.</p><p><a href="https://www.melkweg.nl/en/agenda/paul-van-dyk-24-10-2026" target="_blank" rel="noopener">Melkweg</a> lists the event as sold out (regular ticket &euro;39.50), so check the official resale options if you still want to go.</p>`,
+        },
+        {
+          heading: 'What Open-to-Close Means',
+          body: `<p>An open-to-close set means Paul van Dyk plays the whole night himself, with no support acts. The <a href="https://the-everyday-agency.prezly.com/paul-van-dyk-returns-to-ade-with-open-to-close-set-at-melkwegs-rabozaal" target="_blank" rel="noopener">press release</a> describes it as an &ldquo;immersive, all-night journey through sound&rdquo; with &ldquo;complete artistic control from start to finish&rdquo;, moving from melodic material to peak-time moments.</p>`,
+        },
+        {
+          heading: 'Five Years at Melkweg',
+          body: `<p>According to the <a href="https://the-everyday-agency.prezly.com/paul-van-dyk-returns-to-ade-with-open-to-close-set-at-melkwegs-rabozaal" target="_blank" rel="noopener">press release</a>, this is Paul van Dyk&rsquo;s fifth consecutive ADE appearance at Melkweg, and each edition has sold out. In his words: &ldquo;I&rsquo;m incredibly excited to make my return to ADE this October at one of Amsterdam&rsquo;s most iconic music venues.&rdquo;</p>`,
+        },
+        {
+          heading: 'New Music',
+          body: `<p>The set will include new and unreleased music, with previews from upcoming projects and fresh releases from the <a href="/labels/vandit-records">VANDIT Records</a> label group (source: <a href="https://the-everyday-agency.prezly.com/paul-van-dyk-returns-to-ade-with-open-to-close-set-at-melkwegs-rabozaal" target="_blank" rel="noopener">press release</a>).</p>`,
+        },
+        {
+          heading: 'Same Day at ADE',
+          body: `<p>Saturday 24 October is also the day of Luminosity&rsquo;s ADE Rave and Infinity at Q Factory &mdash; see <a href="/blog/luminosity-ade-2026">Luminosity at ADE 2026</a>. For the full week, see our <a href="/blog/ade-2026-trance-guide">ADE 2026 Trance Guide</a>.</p>`,
+        },
+        {
+          heading: 'A Listener&rsquo;s Note',
+          body: `<p>An open-to-close set is the best way to hear how a DJ builds a night, and Paul van Dyk has been doing this at Melkweg long enough that it has become an ADE tradition.</p>`,
+        },
+      ],
+    },
+    ja: {
+      title: 'ADE 2026のPaul van Dyk：Melkwegでオープン・トゥ・クローズ',
+      description: 'Paul van Dykが2026年10月24日、MelkwegのRaboルームでオープン・トゥ・クローズ。同会場でのADE公演は5年連続。時間、チケット、見どころをまとめました。',
+      excerpt: 'Paul van DykがADE 2026に合わせて、10月24日にMelkwegでオープン・トゥ・クローズを披露します。同会場でのADE公演は5年連続です。',
+      content: [
+        {
+          heading: 'イベント概要',
+          body: `<p><a href="/artists/paul-van-dyk">Paul van Dyk</a>が<strong>2026年10月24日（土）</strong>、Amsterdam Dance Event期間中に<strong>Melkweg</strong>（Raboルーム、Lijnbaansgracht 234A）で<strong>オープン・トゥ・クローズ</strong>を行います。開始は18:00で、<a href="https://www.amsterdam-dance-event.nl/en/program/2026/paul-van-dyk/2807320/" target="_blank" rel="noopener">ADEの番組表</a>では22:30までと掲載されています。18歳以上限定です。</p><p><a href="https://www.melkweg.nl/en/agenda/paul-van-dyk-24-10-2026" target="_blank" rel="noopener">Melkweg</a>ではチケットは売り切れと掲載されています（通常価格€39.50）。これから行きたい人は、公式のリセールを確認してください。</p>`,
+        },
+        {
+          heading: 'オープン・トゥ・クローズとは',
+          body: `<p>前座なしで、最初から最後までPaul van Dykが一人で回すセットのことです。<a href="https://the-everyday-agency.prezly.com/paul-van-dyk-returns-to-ade-with-open-to-close-set-at-melkwegs-rabozaal" target="_blank" rel="noopener">プレスリリース</a>では「音を巡る没入型の一夜の旅」と表現され、最初から最後まで本人が流れを組み立て、メロディックな序盤からピークタイムへと展開していくとされています。</p>`,
+        },
+        {
+          heading: 'Melkwegで5年連続',
+          body: `<p><a href="https://the-everyday-agency.prezly.com/paul-van-dyk-returns-to-ade-with-open-to-close-set-at-melkwegs-rabozaal" target="_blank" rel="noopener">プレスリリース</a>によると、MelkwegでのADE公演は5年連続で、これまでの回はすべて売り切れています。本人は「この10月、アムステルダムを代表する会場のひとつでADEに戻ってこられるのが本当に楽しみ」とコメントしています。</p>`,
+        },
+        {
+          heading: '新しい音楽も',
+          body: `<p>セットには未発表曲も含まれ、今後のプロジェクトの先行披露や、<a href="/labels/vandit-records">VANDIT Records</a>レーベル・グループの新作も流れる予定です（出典：<a href="https://the-everyday-agency.prezly.com/paul-van-dyk-returns-to-ade-with-open-to-close-set-at-melkwegs-rabozaal" target="_blank" rel="noopener">プレスリリース</a>）。</p>`,
+        },
+        {
+          heading: '同じ日のADE',
+          body: `<p>10月24日（土）は、Q FactoryでLuminosityのADE RaveとInfinityもあります。詳しくは<a href="/blog/luminosity-ade-2026">ADE 2026のLuminosity</a>へ。1週間の全体像は<a href="/blog/ade-2026-trance-guide">ADE 2026 トランス・ガイド</a>をどうぞ。</p>`,
+        },
+        {
+          heading: 'リスナーからの視点',
+          body: `<p>オープン・トゥ・クローズは、DJが一晩をどう組み立てるかがいちばんよく分かる形式です。MelkwegのPaul van Dykは、もうADEの恒例になっていますね。</p>`,
         },
       ],
     },
