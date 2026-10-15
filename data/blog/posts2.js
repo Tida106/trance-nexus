@@ -160,13 +160,17 @@ export const posts2 = [
     readTime: 10,
     tags: ['events', 'guide', 'festival'],
     en: {
-      title: 'Universo Paralello 2026: Dates, Location & How to Get There',
-      description: 'Everything you need to plan your trip to Universo Paralello 2026–2027 — confirmed dates, how to reach Praia de Pratigi, accommodation options, and what to bring.',
+      title: 'Universo Paralello Festival 2026: Dates, Lineup & Travel Guide',
+      description: 'Universo Paralello 2026–27 (UP19) runs 27 Dec 2026 – 4 Jan 2027 at Praia de Pratigi, Bahia. Dates, lineup status, how to get there, where to stay and what to bring.',
       excerpt: 'UP19 runs 27 December 2026 – 4 January 2027 at Praia de Pratigi, Bahia. Here is everything you need to plan your trip — getting there, where to stay, and what to pack.',
       content: [
         {
           heading: 'The Basics',
           body: '<p>Universo Paralello 19 (UP19) is confirmed for <strong>27 December 2026 – 4 January 2027</strong> at <strong>Praia de Pratigi, Ituberá, Bahia, Brazil</strong>. The festival runs for nine days and eight nights, with camping included in the ticket price. The lineup has not yet been announced — check the <a href="https://universoparalello.org" target="_blank" rel="noopener">official site</a> for updates.</p>'
+        },
+        {
+          heading: 'Lineup',
+          body: '<p>As of mid-October 2026, the lineup for Universo Paralello 19 has not been published on the <a href="https://universoparalello.org" target="_blank" rel="noopener">official website</a>. Past editions have featured artists such as Astrix, Infected Mushroom, Vini Vici, Captain Hook and Ace Ventura; see our <a href="/events/universo-paralello">Universo Paralello event page</a> for the festival&rsquo;s history. We will add the lineup here once it is officially announced.</p>'
         },
         {
           heading: 'How to Get There',
@@ -195,11 +199,12 @@ export const posts2 = [
       ]
     },
     ja: {
-      title: 'Universo Paralello 2026：日程・場所・アクセス完全ガイド',
-      description: 'UP19（2026年12月27日〜2027年1月4日）参加のための完全ガイド。Praia de Pratigiへのアクセス、宿泊、持ち物リストをまとめた。',
+      title: 'Universo Paralello 2026：日程・ラインナップ・アクセス完全ガイド',
+      description: 'UP19（2026年12月27日〜2027年1月4日）参加のための完全ガイド。ラインナップの発表状況、Praia de Pratigiへのアクセス、宿泊、持ち物リストをまとめた。',
       excerpt: 'UP19は2026年12月27日〜2027年1月4日、バイーア州Praia de Pratigiで開催。旅程計画に必要な情報——アクセス・宿泊・持ち物——をまとめた。',
       content: [
         { heading: '基本情報', body: '<p>Universo Paralello 19（UP19）は<strong>2026年12月27日〜2027年1月4日</strong>、ブラジル・バイーア州イトゥベラの<strong>Praia de Pratigi</strong>での開催が確定している。9日間8泊のフェスティバルで、キャンプエリアはチケット代に含まれる。ラインナップはまだ発表されていない。最新情報は<a href="https://universoparalello.org" target="_blank" rel="noopener">公式サイト</a>で確認を。</p>' },
+        { heading: 'ラインナップ', body: '<p>2026年10月中旬の時点で、Universo Paralello 19のラインナップは<a href="https://universoparalello.org" target="_blank" rel="noopener">公式サイト</a>でまだ発表されていない。過去にはAstrix、Infected Mushroom、Vini Vici、Captain Hook、Ace Venturaなどが出演している。フェスの歴史は<a href="/events/universo-paralello">Universo Paralelloのイベントページ</a>へ。公式発表があり次第、ここに追記する。</p>' },
         { heading: 'アクセス', body: '<p>Pratigiはバイーア州南部の僻地ビーチで、「辿り着くこと自体が体験の一部」と言われる。最寄り空港は2つ：</p><ul><li><strong>サルバドール（SSA）</strong>——国際線接続が多いメインゲートウェイ。Pratigiまでの移動時間は約3〜4時間。</li><li><strong>イレウス（IOS）</strong>——現地により近いが便数が少なく料金が高め。国内線利用者向け。</li></ul><p>公式送迎業者は<strong>BR Oriente</strong>（2006年からの公式パートナー）。サルバドール空港からPratigiまで直行する冷房付きコーチを運行。空港到着ロビーに案内スタンドあり。通常便とVIP便（リクライニングシート・飲み物付き・限定席）の2種類。需要が高いため早めの予約を推奨。フェス入口まで最後の数百メートルは徒歩、またはバギー（約R$20/人）で移動。</p>' },
         { heading: '宿泊', body: '<p>主な選択肢は3つ：</p><ul><li><strong>フェスティバルキャンプ（チケット代込み）</strong>——標準オプション。会場内に5つのキャンプエリア。ステージや飲食エリアに近い。追加料金なし。24時間音楽は鳴り続ける。</li><li><strong>Vila Mundo（プレミアムキャンプ）</strong>——会場内の上位グレードキャンプ。朝食・温水シャワー・荷物保管・インターネット付き。フェスチケットとは別途購入が必要。</li><li><strong>村の宿泊施設</strong>——Pratigi村の住民が貸し出す民家・部屋。快適で静かだがステージまで距離あり。早めの予約必須、直前は価格が急騰する。</li></ul>' },
         { heading: 'チケット', body: '<p>チケットは公式プラットフォーム<strong>Ingresse</strong>で段階的に販売される。デジタル・実名登録制で、アプリ経由で1回の名義変更が可能。入場にはQRコード（スマホ提示でOK、印刷不要）と顔写真付き身分証明書が必要。現在は販売停止中——公式サイトと公式Instagram（<a href="https://instagram.com/universoparalello" target="_blank" rel="noopener">@universoparalello</a>）で次のバッチ情報を確認すること。</p>' },

@@ -32,8 +32,8 @@ export const listing = [
     en: { title: 'Summer 2026 Trance Festivals — Tomorrowland, Luminosity Beach & OZORA', excerpt: 'Dates, locations and genre focus for three summer 2026 festivals with a trance connection: Tomorrowland Belgium, Luminosity Beach Festival and OZORA.' },
     ja: { title: '2026年夏のトランス系フェス — Tomorrowland、Luminosity Beach、OZORA', excerpt: 'トランスと縁のある2026年夏の3フェス、Tomorrowland Belgium、Luminosity Beach Festival、OZORAの日程、開催地、ジャンルの傾向をまとめます。' } },
   { slug: 'universo-paralello-2026-guide', date: '2026-06-30', readTime: 10, tags: ['events', 'guide', 'festival'],
-    en: { title: 'Universo Paralello 2026: Dates, Location & How to Get There', excerpt: 'UP19 runs 27 December 2026 – 4 January 2027 at Praia de Pratigi, Bahia. Here is everything you need to plan your trip — getting there, where to stay, and what to pack.' },
-    ja: { title: 'Universo Paralello 2026：日程・場所・アクセス完全ガイド', excerpt: 'UP19は2026年12月27日〜2027年1月4日、バイーア州Praia de Pratigiで開催。旅程計画に必要な情報——アクセス・宿泊・持ち物——をまとめた。' } },
+    en: { title: 'Universo Paralello Festival 2026: Dates, Lineup & Travel Guide', excerpt: 'UP19 runs 27 December 2026 – 4 January 2027 at Praia de Pratigi, Bahia. Here is everything you need to plan your trip — getting there, where to stay, and what to pack.' },
+    ja: { title: 'Universo Paralello 2026：日程・ラインナップ・アクセス完全ガイド', excerpt: 'UP19は2026年12月27日〜2027年1月4日、バイーア州Praia de Pratigiで開催。旅程計画に必要な情報——アクセス・宿泊・持ち物——をまとめた。' } },
   // Batch 14: Returnee-targeted Then & Now retrospective (2008 vs 2026)
   { slug: 'trance-then-and-now-2008-2026', date: '2026-06-03', readTime: 9, tags: ['history', 'analysis', 'culture'],
     en: { title: 'Then & Now — How Trance Changed from 2008 to 2026', excerpt: 'I came back to trance in 2018, pulled in by Armin van Buuren\'s Tomorrowland mainstage set, and discovered the scene had moved on without me. This is the eighteen-year story between the 2008 commercial peak, the 2010s dip when EDM took the centre, and the 2026 revival — five axes laid side by side.' },
