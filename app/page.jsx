@@ -3,6 +3,7 @@
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
 import HeroStage from '@/components/HeroStage';
+import AdeBanner from '@/components/AdeBanner';
 import Link from 'next/link';
 import dynamic from 'next/dynamic';
 import { useTranslation } from '@/lib/useTranslation';
@@ -213,6 +214,8 @@ export default function Home() {
         </div>
 
       </section>
+
+      <AdeBanner />
 
       {/* ─────────────────────────────────────────────────────────────
           NEWSLETTER CTA — under the hero. Conversion priority #1; the
