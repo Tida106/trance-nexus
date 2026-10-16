@@ -398,4 +398,8 @@ body::before {
 /* Homepage on pastel: hide the dark scanline texture and give the fixed
    header a deep-purple glass so the gold nav stays readable. */
 body:has(#top)::after{display:none}
-body:has(#top) nav[aria-label]{background:rgba(59,37,102,.92)!important}
+body:has(#top) nav[aria-label]{background:rgba(255,255,255,.72)!important;box-shadow:0 4px 20px rgba(59,37,102,.08)}
+body:has(#top) nav[aria-label] .gold-metallic-nav,body:has(#top) nav[aria-label] a,body:has(#top) nav[aria-label] button,body:has(#top) nav[aria-label] span{background:none!important;-webkit-text-fill-color:#3B2566!important;color:#3B2566!important;text-shadow:none!important}
+body:has(#top) nav[aria-label] [class*="border-l"]{border-color:rgba(59,37,102,.12)!important}
+body:has(#top) nav[aria-label] a:hover{background:rgba(249,115,22,.08)!important}
+body:has(#top) nav[aria-label] svg{color:#F97316!important;stroke:currentColor}
