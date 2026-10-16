@@ -79,7 +79,7 @@ export default function Navigation() {
               language === 'ja' ? 'gold-metallic-nav gold-metallic-nav-active' : 'gold-metallic-nav'
             }`}
           >
-            JA
+            JP
           </button>
         </div>
       </div>
