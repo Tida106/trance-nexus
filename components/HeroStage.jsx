@@ -11,7 +11,7 @@ function rng(seed) {
   };
 }
 
-const LASER_COLORS = ['255,236,170', '255,140,60', '205,190,255', '120,230,255', '255,120,200'];
+const LASER_COLORS = ['249,115,22', '236,72,153', '139,92,246', '14,165,233', '234,179,8'];
 
 function buildLasers(r) {
   const sources = [
@@ -32,8 +32,8 @@ function buildLasers(r) {
           '--a2': `${(a + between(10, 22)).toFixed(1)}deg`,
           '--d': `${between(5, 11).toFixed(1)}s`,
           '--dl': `-${between(0, 10).toFixed(1)}s`,
-          background: `linear-gradient(to top, rgba(${c},1), rgba(${c},.55) 45%, rgba(${c},0))`,
-          boxShadow: `0 0 8px 2px rgba(${c},.55)`,
+          background: `linear-gradient(to top, rgba(${c},.85), rgba(${c},.3) 55%, rgba(${c},0))`,
+          boxShadow: `0 0 6px 1px rgba(${c},.3)`,
         },
       };
     }),
