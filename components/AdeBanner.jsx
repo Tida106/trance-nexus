@@ -96,8 +96,8 @@ export default function AdeBanner() {
   const c = now !== null ? parts(START - now) : null;
 
   return (
-    <section aria-label="Amsterdam Dance Event 2026" className="relative z-10 px-4 md:px-10 max-w-7xl mx-auto -mt-10 mb-16">
-      <div className="ade-banner">
+    <section aria-label="Amsterdam Dance Event 2026" className="ade-band relative z-10 px-4 md:px-10 pt-2 pb-14">
+      <div className="ade-banner max-w-7xl mx-auto">
         <Fireworks />
         <div className="ade-sweep" aria-hidden="true" />
         <div className="relative flex flex-wrap items-center justify-between gap-4">

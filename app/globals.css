@@ -323,6 +323,7 @@ body::before {
 .nav-scroll::-webkit-scrollbar{display:none}
 
 /* ── ADE 2026 homepage banner (components/AdeBanner.jsx) ── */
+.ade-band{background:linear-gradient(180deg,#DCD3F5 0%,#E6DDF7 45%,#F3E6F1 100%)}
 .ade-banner{position:relative;overflow:hidden;border-radius:16px;padding:24px 22px;background:linear-gradient(120deg,#1E4E86 0%,#3A3A8C 55%,#6A3C8E 100%);border:1px solid rgba(212,175,55,.45);box-shadow:0 10px 30px rgba(10,20,50,.25)}
 .ade-banner:before{content:"";position:absolute;inset:0;background:repeating-linear-gradient(115deg,rgba(255,255,255,.05) 0 2px,transparent 2px 22px);pointer-events:none}
 .ade-sweep{position:absolute;top:-40%;left:-40%;width:40%;height:180%;background:linear-gradient(90deg,transparent,rgba(244,229,168,.18),transparent);transform:rotate(18deg);animation:ade-sw 5s ease-in-out infinite;pointer-events:none}
@@ -342,7 +343,7 @@ body::before {
 @keyframes ade-burst{0%{transform:translate(0,0) scale(.6);opacity:0}8%{opacity:1}70%{opacity:.7}100%{transform:translate(var(--x),var(--y)) scale(.2);opacity:0}}
 .ade-fw b{position:absolute;left:-2px;top:-2px;width:10px;height:10px;border-radius:50%;background:#fff;opacity:0;filter:blur(2px);animation:ade-flash var(--t) ease-out infinite;animation-delay:var(--dl)}
 @keyframes ade-flash{0%{opacity:0;transform:scale(.5)}6%{opacity:.9;transform:scale(2.2)}20%,100%{opacity:0;transform:scale(1)}}
-.ade-trail{position:absolute;width:2px;height:40px;background:linear-gradient(to top,transparent,rgba(255,240,200,.8));opacity:0;animation:ade-rise var(--t) ease-out infinite;animation-delay:calc(var(--dl) - .7s)}
+.ade-trail{display:none;position:absolute;width:2px;height:40px;background:linear-gradient(to top,transparent,rgba(255,240,200,.8));opacity:0;animation:ade-rise var(--t) ease-out infinite;animation-delay:calc(var(--dl) - .7s)}
 @keyframes ade-rise{0%{transform:translateY(160px);opacity:0}5%{opacity:.8}12%{transform:translateY(0);opacity:0}100%{opacity:0}}
 @media (prefers-reduced-motion:reduce){.ade-sweep{animation:none}.ade-day{transition:none}.ade-fireworks{display:none}}
 
