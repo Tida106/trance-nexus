@@ -78,7 +78,7 @@ export default function ArtistCard({ artist }) {
     <Link
       href={`/artists/${artist.slug}`}
       aria-label={`${artist.name} — ${isJA ? 'プロフィールを見る' : 'View profile'}`}
-      className="group block cursor-pointer bg-white/[0.05] border border-[rgba(212,175,55,0.3)] rounded-sm overflow-hidden transition-all duration-200 hover:-translate-y-1.5 hover:border-accent-orange hover:shadow-2xl hover:shadow-accent-orange/20 focus-visible:-translate-y-1.5 focus-visible:border-accent-orange focus-visible:shadow-2xl focus-visible:shadow-accent-orange/20"
+      className="group flex flex-col h-full cursor-pointer bg-white/[0.05] border border-[rgba(212,175,55,0.3)] rounded-sm overflow-hidden transition-all duration-200 hover:-translate-y-1.5 hover:border-accent-orange hover:shadow-2xl hover:shadow-accent-orange/20 focus-visible:-translate-y-1.5 focus-visible:border-accent-orange focus-visible:shadow-2xl focus-visible:shadow-accent-orange/20"
     >
       <div className="h-24 relative overflow-hidden" style={{ background: '#B8E4F9' }}>
         {/* Right side: pastel sky blue (base background) */}
@@ -101,7 +101,7 @@ export default function ArtistCard({ artist }) {
         <div className="absolute bottom-3 right-3 text-2xl z-20">{artist.flag}</div>
       </div>
 
-      <div className="p-4 relative">
+      <div className="p-4 relative flex flex-col flex-1">
         {/* Icon container: relative + z-20 so the circle always paints
             on top of the banner — it sits with -mt-10 negative margin
             so the top half overlaps the banner gradient by design,
@@ -118,7 +118,7 @@ export default function ArtistCard({ artist }) {
           {artist.name}
         </h3>
         <div className="text-sm tracking-widest text-accent-peach mb-2">{sub}</div>
-        <p className="text-lg text-text-light leading-relaxed mb-3 line-clamp-3">{short}</p>
+        <p className="text-lg text-text-light leading-relaxed mb-3 line-clamp-3 flex-1">{short}</p>
 
         <div className="flex gap-2 flex-wrap mb-3">
           {artist.tags.slice(0, 3).map((tag) => (

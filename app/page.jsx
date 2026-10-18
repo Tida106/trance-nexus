@@ -425,7 +425,7 @@ export default function Home() {
                       <h3 className="font-bebas text-lg tracking-widest text-[#F4E5A8] mb-2 leading-tight group-hover:text-yellow-200 transition-colors line-clamp-3 min-h-[3.5rem]">
                         {c.title}
                       </h3>
-                      <div className="text-[11px] text-text-muted tracking-widest">
+                      <div className="text-sm text-text-muted tracking-widest">
                         {post.date} · {post.readTime} {isJA ? '分' : 'min read'}
                       </div>
                     </div>
@@ -462,14 +462,14 @@ export default function Home() {
                 <span className="font-bebas text-[11px] tracking-widest px-2 py-0.5 rounded border border-accent-orange bg-accent-orange/15 text-accent-peach">
                   ⭐ {isJA ? '今週のトップ・ピック' : 'Top Pick This Week'}
                 </span>
-                <span className="text-xs text-text-muted tracking-widest">
+                <span className="text-sm text-text-muted tracking-widest">
                   {editorsPick.date} · {editorsPick.readTime} {isJA ? '分' : 'min read'}
                 </span>
               </div>
               <h3 className="font-bebas text-xl md:text-3xl tracking-widest text-[#F4E5A8] group-hover:text-accent-peach transition-colors leading-tight mb-3">
                 {(isJA ? editorsPick.ja.title : editorsPick.en.title)}
               </h3>
-              <p className="text-sm md:text-base text-text-light leading-relaxed line-clamp-3">
+              <p className="text-base md:text-lg text-text-light leading-relaxed line-clamp-3">
                 {(isJA ? editorsPick.ja.excerpt : editorsPick.en.excerpt)}
               </p>
             </Link>
@@ -494,7 +494,7 @@ export default function Home() {
                 <span className="text-2xl">🏆</span>
               </h2>
               <div className="w-20 h-1 bg-gradient-to-r from-accent-red via-accent-orange to-transparent" />
-              <p className="text-sm text-text-light mt-3 max-w-2xl">
+              <p className="text-base text-text-light mt-3 max-w-2xl">
                 {isJA
                   ? 'ジャンルの30年史を横断する史上最高のトランス・トラック ― ランク付き、検証済み、クロス・チェック済みのカノン。'
                   : "The all-time best trance tracks across the genre's 30-year history — ranked, verified, and cross-checked against the historical canon."}
@@ -527,10 +527,10 @@ export default function Home() {
                       <h3 className={`font-bebas tracking-widest text-[#F4E5A8] leading-tight group-hover:text-accent-peach transition-colors mb-3 ${featured ? 'text-xl md:text-2xl' : 'text-lg line-clamp-2 min-h-[3rem]'}`}>
                         {c.title}
                       </h3>
-                      <p className={`text-text-light leading-relaxed ${featured ? 'text-sm mb-4' : 'text-xs mb-3 line-clamp-3'}`}>
+                      <p className={`text-text-light leading-relaxed ${featured ? 'text-base mb-4' : 'text-sm mb-3 line-clamp-3'}`}>
                         {c.excerpt}
                       </p>
-                      <div className="text-[11px] text-text-muted tracking-widest">
+                      <div className="text-sm text-text-muted tracking-widest">
                         {post.date} · {post.readTime} {isJA ? '分' : 'min read'}
                       </div>
                     </div>
@@ -563,7 +563,7 @@ export default function Home() {
                 {isJA ? 'ジャンル別に見る' : 'Browse by Genre'}
               </h2>
               <div className="w-20 h-1 bg-gradient-to-r from-accent-red via-accent-orange to-transparent" />
-              <p className="text-sm text-text-light mt-3 max-w-2xl">
+              <p className="text-base text-text-light mt-3 max-w-2xl">
                 {isJA
                   ? '各サブジャンルの定義、起源、主要アーティスト、おすすめトラックを網羅した完全ガイド。'
                   : "Definitive guides covering each subgenre's definition, origins, key artists, and starter tracks."}
