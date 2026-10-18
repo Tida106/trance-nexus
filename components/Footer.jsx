@@ -19,13 +19,13 @@ export default function Footer() {
       {/* Footer brand mark. loading="lazy" because the footer almost never
           enters the viewport before the hero unless the page is short. */}
       <img
-        src={`${BASE_PATH}/logo.png`}
+        src={`${BASE_PATH}/logo.svg`}
         alt="TRANCE NEXUS"
-        width={48}
-        height={48}
+        width={220}
+        height={80}
         loading="lazy"
         decoding="async"
-        className="h-12 w-auto block"
+        className="h-20 w-auto block"
       />
       <div className="w-full max-w-md mt-1 mb-2">
         <p className="text-xs tracking-widest text-text-muted text-center mb-2">
