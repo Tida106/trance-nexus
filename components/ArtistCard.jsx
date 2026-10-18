@@ -18,7 +18,7 @@ const FLAG_GRADIENTS = {
   '🇺🇦': 'linear-gradient(to bottom,#005BBB 0%,#005BBB 50%,#FFD500 50%,#FFD500 100%)', // Ukraine 青黄
   '🇵🇱': 'linear-gradient(to bottom,#FFFFFF 0%,#FFFFFF 50%,#DC143C 50%,#DC143C 100%)', // Poland
   '🇩🇰': 'linear-gradient(to bottom,#C60C30 0%,#C60C30 38%,#FFFFFF 38%,#FFFFFF 52%,#C60C30 52%,#C60C30 100%)', // Denmark
-  '🇦🇺': 'linear-gradient(to bottom,#00008B 0%,#00008B 40%,#CC0000 40%,#CC0000 60%,#00008B 60%,#00008B 100%)', // Australia
+  '🇦🇺': 'linear-gradient(135deg,#00008B 0%,#00008B 45%,#C8102E 45%,#C8102E 55%,#FFFFFF 55%,#FFFFFF 60%,#00008B 60%,#00008B 100%)', // Australia: navy + Union Jack cross
   '🇭🇺': 'linear-gradient(to bottom,#CE2939 0%,#CE2939 33%,#FFFFFF 33%,#FFFFFF 66%,#477050 66%,#477050 100%)', // Hungary
   '🇷🇴': 'linear-gradient(to bottom,#002B7F 0%,#002B7F 33%,#FCD116 33%,#FCD116 66%,#CE1126 66%,#CE1126 100%)', // Romania (vertical by design but mapped horizontal for consistency)
   // 縦縞（to right）
