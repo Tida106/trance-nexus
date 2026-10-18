@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="cg" x1="0.2" y1="0" x2="0.8" y2="1">
+      <stop offset="0%" stop-color="#ECEEF5"/>
+      <stop offset="100%" stop-color="#B4BAC8"/>
+    </linearGradient>
+    <clipPath id="mc"><circle cx="32" cy="32" r="18"/></clipPath>
+  </defs>
+  <!-- Orbit rings -->
+  <ellipse cx="32" cy="32" rx="30" ry="9" fill="none" stroke="#7B8DB8" stroke-width="1.2" opacity="0.6" transform="rotate(-30 32 32)"/>
+  <ellipse cx="32" cy="32" rx="30" ry="9" fill="none" stroke="#9098B8" stroke-width="1.2" opacity="0.6" transform="rotate(30 32 32)"/>
+  <!-- Metal ring -->
+  <circle cx="32" cy="32" r="20" fill="none" stroke="#9098B0" stroke-width="2.5"/>
+  <circle cx="32" cy="32" r="19" fill="none" stroke="#DDE2EE" stroke-width="1"/>
+  <!-- Chrome fill -->
+  <circle cx="32" cy="32" r="18" fill="url(#cg)"/>
+  <!-- Frequency bars -->
+  <g clip-path="url(#mc)">
+    <rect x="17" y="27" width="5" height="12" rx="2.5" fill="#5BA8FF" opacity="0.9"/>
+    <rect x="24" y="22" width="5" height="20" rx="2.5" fill="#4090F0"/>
+    <rect x="31" y="18" width="5" height="28" rx="2.5" fill="#2B7EE0"/>
+    <rect x="38" y="22" width="5" height="20" rx="2.5" fill="#4090F0"/>
+    <rect x="45" y="27" width="5" height="12" rx="2.5" fill="#5BA8FF" opacity="0.9"/>
+  </g>
+  <!-- Gold nodes -->
+  <circle cx="32" cy="10" r="3" fill="#D4A930"/>
+  <circle cx="32" cy="54" r="3" fill="#C09020"/>
+</svg>
