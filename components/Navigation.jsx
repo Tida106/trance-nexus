@@ -22,12 +22,12 @@ export default function Navigation() {
         href="/"
         aria-label="TRANCE NEXUS — home"
         className="flex items-center shrink-0 h-[44px] md:h-[72px] px-2 md:px-2.5 rounded-lg border border-[rgba(212,175,55,0.7)]"
-        style={{ background: 'linear-gradient(145deg,#BFEAF5 0%,#9FD9EE 100%)' }}
+        style={{ background: 'linear-gradient(145deg,#ECEEF5 0%,#C8CDD8 100%)' }}
       >
         <img
-          src={`${BASE_PATH}/logo-clear.png`}
+          src={`${BASE_PATH}/logo.svg`}
           alt="TRANCE NEXUS"
-          width={79}
+          width={200}
           height={72}
           decoding="async"
           fetchPriority="high"
