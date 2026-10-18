@@ -120,7 +120,7 @@ export default function BlogPost({ post, prevPost, nextPost, related }) {
                   {section.heading}
                 </h2>
                 <div
-                  className="text-text-light text-sm leading-relaxed font-barlow"
+                  className="text-text-light text-base leading-relaxed font-barlow"
                   dangerouslySetInnerHTML={{ __html: section.body }}
                 />
               </section>
@@ -197,7 +197,7 @@ export default function BlogPost({ post, prevPost, nextPost, related }) {
                         </div>
                       </div>
                       {review && (
-                        <p className="text-sm text-text-light leading-relaxed font-barlow mt-3 pl-0 md:pl-12">
+                        <p className="text-base text-text-light leading-relaxed font-barlow mt-3 pl-0 md:pl-12">
                           {review}
                         </p>
                       )}
