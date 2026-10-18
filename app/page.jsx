@@ -279,7 +279,7 @@ export default function Home() {
                   className="group bg-white/[0.05] border border-[rgba(212,175,55,0.3)] rounded-sm overflow-hidden hover:border-accent-orange/50 hover:translate-y-[-4px] hover:shadow-xl transition-all block snap-start shrink-0 w-[80vw] sm:w-[60vw] md:w-auto"
                 >
                   <div className="h-1.5 bg-gradient-to-r from-accent-red via-accent-orange to-accent-amber" />
-                  <div className="p-5">
+                  <div className="p-7">
                     <div className="flex gap-1.5 flex-wrap mb-2">
                       {post.tags.slice(0, 2).map((tag) => (
                         <span
@@ -290,10 +290,10 @@ export default function Home() {
                         </span>
                       ))}
                     </div>
-                    <h3 className="font-bebas text-lg tracking-widest text-[#F4E5A8] mb-2 leading-tight group-hover:text-accent-peach transition-colors line-clamp-2 min-h-[3rem]">
+                    <h3 className="font-bebas text-2xl tracking-widest text-[#D4A930] mb-2 leading-tight group-hover:text-accent-peach transition-colors line-clamp-2 min-h-[3rem]">
                       {c.title}
                     </h3>
-                    <p className="text-xs text-text-light leading-relaxed mb-3 line-clamp-2">
+                    <p className="text-sm text-text-light leading-relaxed mb-3 line-clamp-2">
                       {c.excerpt}
                     </p>
                     <div className="text-[11px] text-text-muted tracking-widest">
@@ -422,7 +422,7 @@ export default function Home() {
                       <span className="font-bebas text-[10px] tracking-widest px-1.5 py-0.5 rounded border border-accent-amber/40 bg-accent-amber/10 text-accent-peach inline-block mb-2">
                         🔥 {isJA ? '注目記事' : 'Popular Now'}
                       </span>
-                      <h3 className="font-bebas text-base tracking-widest text-[#F4E5A8] mb-2 leading-tight group-hover:text-accent-peach transition-colors line-clamp-3 min-h-[3.5rem]">
+                      <h3 className="font-bebas text-lg tracking-widest text-[#D4A930] mb-2 leading-tight group-hover:text-accent-peach transition-colors line-clamp-3 min-h-[3.5rem]">
                         {c.title}
                       </h3>
                       <div className="text-[11px] text-text-muted tracking-widest">
