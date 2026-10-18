@@ -293,10 +293,10 @@ export default function Home() {
                     <h3 className="font-bebas text-2xl tracking-widest text-[#F4E5A8] mb-2 leading-tight group-hover:text-yellow-200 transition-colors line-clamp-2 min-h-[3rem]">
                       {c.title}
                     </h3>
-                    <p className="text-sm text-text-light leading-relaxed mb-3 line-clamp-2">
+                    <p className="text-lg text-text-light leading-relaxed mb-3 line-clamp-2">
                       {c.excerpt}
                     </p>
-                    <div className="text-[11px] text-text-muted tracking-widest">
+                    <div className="text-sm text-text-muted tracking-widest">
                       {post.date} · {post.readTime} {isJA ? '分' : 'min read'}
                     </div>
                   </div>

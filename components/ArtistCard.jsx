@@ -117,14 +117,14 @@ export default function ArtistCard({ artist }) {
         <h3 className="font-bebas text-xl tracking-widest text-[#C89020] mb-1 group-hover:text-accent-orange transition-colors">
           {artist.name}
         </h3>
-        <div className="text-xs tracking-widest text-accent-peach mb-2">{sub}</div>
-        <p className="text-sm text-text-light leading-relaxed mb-3 line-clamp-3">{short}</p>
+        <div className="text-sm tracking-widest text-accent-peach mb-2">{sub}</div>
+        <p className="text-lg text-text-light leading-relaxed mb-3 line-clamp-3">{short}</p>
 
         <div className="flex gap-2 flex-wrap mb-3">
           {artist.tags.slice(0, 3).map((tag) => (
             <span
               key={tag}
-              className="text-xs tracking-widest px-2 py-1 rounded border border-accent-orange/30 bg-accent-orange/5 text-accent-peach"
+              className="text-sm tracking-widest px-2 py-1 rounded border border-accent-orange/30 bg-accent-orange/5 text-accent-peach"
             >
               {tag}
             </span>
@@ -136,7 +136,7 @@ export default function ArtistCard({ artist }) {
             slides on hover to mirror the card's lift animation. */}
         <span
           aria-hidden="true"
-          className="inline-flex items-center gap-1 font-bebas text-xs tracking-widest text-accent-peach group-hover:text-accent-peach transition-all"
+          className="inline-flex items-center gap-1 font-bebas text-sm tracking-widest text-accent-peach group-hover:text-accent-peach transition-all"
         >
           <span>{isJA ? 'プロフィールを見る' : 'View profile'}</span>
           <span className="group-hover:translate-x-1 transition-transform">→</span>
