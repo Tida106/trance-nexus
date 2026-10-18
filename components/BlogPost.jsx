@@ -28,18 +28,18 @@ function ArticleCard({ post, isJA }) {
       <div className="p-4">
         <div className="flex gap-1.5 flex-wrap mb-2">
           {post.tags.slice(0, 2).map(t => (
-            <span key={t} className="text-xs px-1.5 py-0.5 rounded border border-accent-orange/25 bg-accent-orange/5 text-accent-peach tracking-widest">
+            <span key={t} className="text-sm px-1.5 py-0.5 rounded border border-accent-orange/25 bg-accent-orange/5 text-accent-peach tracking-widest">
               {t}
             </span>
           ))}
         </div>
-        <h3 className="font-bebas text-base tracking-widest text-[#F4E5A8] mb-2 leading-tight group-hover:text-accent-peach transition-colors line-clamp-2">
+        <h3 className="font-bebas text-lg tracking-widest text-[#F4E5A8] mb-2 leading-tight group-hover:text-accent-peach transition-colors line-clamp-2">
           {c.title}
         </h3>
-        <p className="text-xs text-text-light leading-relaxed line-clamp-2 mb-3">
+        <p className="text-sm text-text-light leading-relaxed line-clamp-2 mb-3">
           {c.excerpt}
         </p>
-        <div className="text-xs text-text-muted tracking-widest">
+        <div className="text-sm text-text-muted tracking-widest">
           {post.date} · {post.readTime} {isJA ? '分' : 'min'}
         </div>
       </div>

@@ -215,7 +215,7 @@ export default function NewsletterForm({ variant = 'full', className = '' }) {
       <h3 className="font-bebas text-2xl tracking-widest text-[#F4E5A8] mb-1">
         {isJA ? 'ニュースレターを購読' : 'Subscribe to the Newsletter'}
       </h3>
-      <p className="text-sm text-text-light mb-5">
+      <p className="text-base text-text-light mb-5">
         {isJA
           ? '月1回程度、新着記事・注目アーティスト・ラジオ最新エピソードをお届けします。いつでも解除できます。'
           : 'A monthly digest of new articles, featured artists, and the latest radio episodes. Unsubscribe at any time.'}
@@ -223,7 +223,7 @@ export default function NewsletterForm({ variant = 'full', className = '' }) {
 
       <div className="flex flex-col gap-3">
         <div>
-          <label htmlFor="newsletter-email" className="block text-xs tracking-widest text-text-muted mb-1">
+          <label htmlFor="newsletter-email" className="block text-sm tracking-widest text-text-muted mb-1">
             {isJA ? 'メールアドレス *' : 'Email address *'}
           </label>
           <input
@@ -237,7 +237,7 @@ export default function NewsletterForm({ variant = 'full', className = '' }) {
             disabled={status === 'submitting' || status === 'success'}
             aria-required="true"
             aria-invalid={status === 'error'}
-            className="w-full bg-white/[0.05] border border-[rgba(212,175,55,0.3)] rounded px-3 py-2 text-sm text-text-light placeholder-text-muted/50 focus:outline-none focus:border-accent-orange disabled:opacity-50"
+            className="w-full bg-white/[0.05] border border-[rgba(212,175,55,0.3)] rounded px-3 py-2 text-base text-text-light placeholder-text-muted/50 focus:outline-none focus:border-accent-orange disabled:opacity-50"
           />
         </div>
 
@@ -254,7 +254,7 @@ export default function NewsletterForm({ variant = 'full', className = '' }) {
         />
 
         <fieldset>
-          <legend className="block text-xs tracking-widest text-text-muted mb-2">
+          <legend className="block text-sm tracking-widest text-text-muted mb-2">
             {isJA ? '興味のあるサブジャンル（任意）' : 'Subgenre interests (optional)'}
           </legend>
           <div className="grid grid-cols-2 gap-2">
@@ -263,7 +263,7 @@ export default function NewsletterForm({ variant = 'full', className = '' }) {
               return (
                 <label
                   key={opt.id}
-                  className={`flex items-center gap-2 px-3 py-2 rounded border text-xs tracking-widest cursor-pointer transition-colors ${
+                  className={`flex items-center gap-2 px-3 py-2 rounded border text-sm tracking-widest cursor-pointer transition-colors ${
                     checked
                       ? 'border-accent-orange bg-accent-orange/10 text-accent-peach'
                       : 'border-[rgba(212,175,55,0.3)] text-text-light hover:border-accent-orange/50'
@@ -283,7 +283,7 @@ export default function NewsletterForm({ variant = 'full', className = '' }) {
           </div>
         </fieldset>
 
-        <label className="flex items-start gap-2 text-xs text-text-light leading-relaxed cursor-pointer">
+        <label className="flex items-start gap-2 text-sm text-text-light leading-relaxed cursor-pointer">
           <input
             type="checkbox"
             className="mt-0.5 accent-accent-orange"
@@ -310,7 +310,7 @@ export default function NewsletterForm({ variant = 'full', className = '' }) {
         <button
           type="submit"
           disabled={status === 'submitting' || status === 'success'}
-          className="font-bebas text-sm tracking-widest px-6 py-3 rounded border border-accent-orange bg-accent-orange/15 text-accent-peach hover:bg-accent-orange/25 disabled:opacity-50 transition-all self-start"
+          className="font-bebas text-base tracking-widest px-6 py-3 rounded border border-accent-orange bg-accent-orange/15 text-accent-peach hover:bg-accent-orange/25 disabled:opacity-50 transition-all self-start"
         >
           {status === 'submitting'
             ? (isJA ? '送信中…' : 'SUBMITTING…')
