@@ -3,6 +3,20 @@
 import Link from 'next/link';
 import { useTranslation } from '@/lib/useTranslation';
 
+// Flag emoji → country gradient (flag stripe colors, left to right)
+const FLAG_GRADIENTS = {
+  '🇳🇱': 'linear-gradient(135deg,#AE1C28 0%,#AE1C28 33%,#FFFFFF 33%,#FFFFFF 66%,#21468B 66%,#21468B 100%)', // Netherlands
+  '🇩🇪': 'linear-gradient(135deg,#000000 0%,#000000 33%,#DD0000 33%,#DD0000 66%,#FFCE00 66%,#FFCE00 100%)', // Germany
+  '🇬🇧': 'linear-gradient(135deg,#012169 0%,#C8102E 40%,#012169 60%,#FFFFFF 80%,#C8102E 100%)',              // UK
+  '🇺🇸': 'linear-gradient(135deg,#B22234 0%,#FFFFFF 30%,#3C3B6E 60%,#B22234 100%)',                          // USA
+  '🇮🇹': 'linear-gradient(135deg,#009246 0%,#009246 33%,#FFFFFF 33%,#FFFFFF 66%,#CE2B37 66%,#CE2B37 100%)', // Italy
+  '🇪🇬': 'linear-gradient(135deg,#CE1126 0%,#CE1126 33%,#FFFFFF 33%,#FFFFFF 66%,#000000 66%,#000000 100%)', // Egypt
+  '🇮🇱': 'linear-gradient(135deg,#0038B8 0%,#FFFFFF 25%,#0038B8 35%,#FFFFFF 65%,#0038B8 75%,#FFFFFF 100%)', // Israel
+  '🇸🇰': 'linear-gradient(135deg,#FFFFFF 0%,#FFFFFF 33%,#0B4FD5 33%,#0B4FD5 66%,#EE1C25 66%,#EE1C25 100%)', // Slovakia
+  '🇲🇩': 'linear-gradient(135deg,#003DA5 0%,#003DA5 33%,#FFD200 33%,#FFD200 66%,#CC0001 66%,#CC0001 100%)', // Moldova
+};
+const DEFAULT_GRADIENT = 'linear-gradient(135deg,#1a1a2e 0%,#16213e 50%,#0f3460 100%)';
+
 export default function ArtistCard({ artist }) {
   const { language } = useTranslation();
   const isJA = language === 'ja';
@@ -22,10 +36,10 @@ export default function ArtistCard({ artist }) {
       aria-label={`${artist.name} — ${isJA ? 'プロフィールを見る' : 'View profile'}`}
       className="group block cursor-pointer bg-white/[0.05] border border-[rgba(212,175,55,0.3)] rounded-sm overflow-hidden transition-all duration-200 hover:-translate-y-1.5 hover:border-accent-orange hover:shadow-2xl hover:shadow-accent-orange/20 focus-visible:-translate-y-1.5 focus-visible:border-accent-orange focus-visible:shadow-2xl focus-visible:shadow-accent-orange/20"
     >
-      <div className={`h-24 relative flex items-end p-4 overflow-hidden ${artist.banner}`}>
+      <div className="h-24 relative flex items-end p-4 overflow-hidden" style={{ background: FLAG_GRADIENTS[artist.flag] || DEFAULT_GRADIENT }}>
         {/* Subtle zoom on hover — gives the banner gradient a sense of
             life beyond the card lift. The container clips it. */}
-        <div className={`absolute inset-0 ${artist.banner} transition-transform duration-300 group-hover:scale-105`} />
+        <div className="absolute inset-0 transition-transform duration-300 group-hover:scale-105" style={{ background: FLAG_GRADIENTS[artist.flag] || DEFAULT_GRADIENT }} />
         <div className="absolute bottom-0 left-0 right-0 h-0.5 bg-gradient-to-r from-accent-red via-accent-orange to-accent-amber z-10" />
         <div className="absolute top-3 right-3 text-xl z-10">{artist.flag}</div>
       </div>
