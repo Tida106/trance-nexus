@@ -527,7 +527,7 @@ export default function Home() {
                       <h3 className={`font-bebas tracking-widest text-[#F4E5A8] leading-tight group-hover:text-accent-peach transition-colors mb-3 ${featured ? 'text-xl md:text-2xl' : 'text-lg line-clamp-2 min-h-[3rem]'}`}>
                         {c.title}
                       </h3>
-                      <p className={`text-text-light leading-relaxed ${featured ? 'text-base mb-4' : 'text-sm mb-3 line-clamp-3'}`}>
+                      <p className={`text-text-light leading-relaxed ${featured ? 'text-lg mb-4' : 'text-base mb-3 line-clamp-3'}`}>
                         {c.excerpt}
                       </p>
                       <div className="text-sm text-text-muted tracking-widest">
