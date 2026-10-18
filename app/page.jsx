@@ -290,7 +290,7 @@ export default function Home() {
                         </span>
                       ))}
                     </div>
-                    <h3 className="font-bebas text-2xl tracking-widest text-[#D4A930] mb-2 leading-tight group-hover:text-accent-peach transition-colors line-clamp-2 min-h-[3rem]">
+                    <h3 className="font-bebas text-2xl tracking-widest text-[#7A5000] mb-2 leading-tight group-hover:text-accent-peach transition-colors line-clamp-2 min-h-[3rem]">
                       {c.title}
                     </h3>
                     <p className="text-sm text-text-light leading-relaxed mb-3 line-clamp-2">
@@ -422,7 +422,7 @@ export default function Home() {
                       <span className="font-bebas text-[10px] tracking-widest px-1.5 py-0.5 rounded border border-accent-amber/40 bg-accent-amber/10 text-accent-peach inline-block mb-2">
                         🔥 {isJA ? '注目記事' : 'Popular Now'}
                       </span>
-                      <h3 className="font-bebas text-lg tracking-widest text-[#D4A930] mb-2 leading-tight group-hover:text-accent-peach transition-colors line-clamp-3 min-h-[3.5rem]">
+                      <h3 className="font-bebas text-lg tracking-widest text-[#7A5000] mb-2 leading-tight group-hover:text-accent-peach transition-colors line-clamp-3 min-h-[3.5rem]">
                         {c.title}
                       </h3>
                       <div className="text-[11px] text-text-muted tracking-widest">
