@@ -5,15 +5,19 @@ import { useTranslation } from '@/lib/useTranslation';
 
 // Flag emoji → country gradient (flag stripe colors, left to right)
 const FLAG_GRADIENTS = {
-  '🇳🇱': 'linear-gradient(135deg,#AE1C28 0%,#AE1C28 33%,#FFFFFF 33%,#FFFFFF 66%,#21468B 66%,#21468B 100%)', // Netherlands
-  '🇩🇪': 'linear-gradient(135deg,#000000 0%,#000000 33%,#DD0000 33%,#DD0000 66%,#FFCE00 66%,#FFCE00 100%)', // Germany
-  '🇬🇧': 'linear-gradient(135deg,#012169 0%,#C8102E 40%,#012169 60%,#FFFFFF 80%,#C8102E 100%)',              // UK
-  '🇺🇸': 'linear-gradient(135deg,#B22234 0%,#FFFFFF 30%,#3C3B6E 60%,#B22234 100%)',                          // USA
-  '🇮🇹': 'linear-gradient(135deg,#009246 0%,#009246 33%,#FFFFFF 33%,#FFFFFF 66%,#CE2B37 66%,#CE2B37 100%)', // Italy
-  '🇪🇬': 'linear-gradient(135deg,#CE1126 0%,#CE1126 33%,#FFFFFF 33%,#FFFFFF 66%,#000000 66%,#000000 100%)', // Egypt
-  '🇮🇱': 'linear-gradient(135deg,#0038B8 0%,#FFFFFF 25%,#0038B8 35%,#FFFFFF 65%,#0038B8 75%,#FFFFFF 100%)', // Israel
-  '🇸🇰': 'linear-gradient(135deg,#FFFFFF 0%,#FFFFFF 33%,#0B4FD5 33%,#0B4FD5 66%,#EE1C25 66%,#EE1C25 100%)', // Slovakia
-  '🇲🇩': 'linear-gradient(135deg,#003DA5 0%,#003DA5 33%,#FFD200 33%,#FFD200 66%,#CC0001 66%,#CC0001 100%)', // Moldova
+  // 横縞（to bottom）: 実際の国旗通りの向き
+  '🇳🇱': 'linear-gradient(to bottom,#AE1C28 0%,#AE1C28 33%,#FFFFFF 33%,#FFFFFF 66%,#21468B 66%,#21468B 100%)', // Netherlands 赤白青・横
+  '🇩🇪': 'linear-gradient(to bottom,#000000 0%,#000000 33%,#DD0000 33%,#DD0000 66%,#FFCE00 66%,#FFCE00 100%)', // Germany 黒赤黄・横
+  '🇪🇬': 'linear-gradient(to bottom,#CE1126 0%,#CE1126 33%,#FFFFFF 33%,#FFFFFF 66%,#000000 66%,#000000 100%)', // Egypt 赤白黒・横
+  '🇮🇱': 'linear-gradient(to bottom,#0038B8 0%,#0038B8 18%,#FFFFFF 18%,#FFFFFF 40%,#0038B8 40%,#0038B8 60%,#FFFFFF 60%,#FFFFFF 82%,#0038B8 82%,#0038B8 100%)', // Israel 青白青白青・横
+  '🇸🇰': 'linear-gradient(to bottom,#FFFFFF 0%,#FFFFFF 33%,#0B4FD5 33%,#0B4FD5 66%,#EE1C25 66%,#EE1C25 100%)', // Slovakia 白青赤・横
+  // 縦縞（to right）: 実際の国旗通りの向き
+  '🇮🇹': 'linear-gradient(to right,#009246 0%,#009246 33%,#FFFFFF 33%,#FFFFFF 66%,#CE2B37 66%,#CE2B37 100%)', // Italy 緑白赤・縦
+  '🇫🇷': 'linear-gradient(to right,#002395 0%,#002395 33%,#FFFFFF 33%,#FFFFFF 66%,#ED2939 66%,#ED2939 100%)', // France 青白赤・縦
+  '🇲🇩': 'linear-gradient(to right,#003DA5 0%,#003DA5 33%,#FFD200 33%,#FFD200 66%,#CC0001 66%,#CC0001 100%)', // Moldova 青黄赤・縦
+  // 複合デザイン
+  '🇬🇧': 'linear-gradient(to bottom,#012169 0%,#012169 38%,#C8102E 38%,#C8102E 62%,#012169 62%,#012169 100%)', // UK 青赤青・横（ユニオンジャック簡略）
+  '🇺🇸': 'linear-gradient(to bottom,#B22234 0%,#B22234 14%,#FFFFFF 14%,#FFFFFF 28%,#B22234 28%,#B22234 42%,#FFFFFF 42%,#FFFFFF 56%,#B22234 56%,#B22234 70%,#FFFFFF 70%,#FFFFFF 84%,#B22234 84%,#B22234 100%)', // USA 赤白縞
 };
 const DEFAULT_GRADIENT = 'linear-gradient(135deg,#1a1a2e 0%,#16213e 50%,#0f3460 100%)';
 
