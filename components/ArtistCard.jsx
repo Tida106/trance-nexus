@@ -57,7 +57,7 @@ export default function ArtistCard({ artist }) {
           </div>
         </div>
 
-        <h3 className="font-bebas text-xl tracking-widest text-[#7A5000] mb-1 group-hover:text-accent-orange transition-colors">
+        <h3 className="font-bebas text-xl tracking-widest text-[#C89020] mb-1 group-hover:text-accent-orange transition-colors">
           {artist.name}
         </h3>
         <div className="text-xs tracking-widest text-accent-peach mb-2">{sub}</div>
