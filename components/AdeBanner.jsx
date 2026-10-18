@@ -126,9 +126,9 @@ export default function AdeBanner() {
         <div className="relative grid grid-cols-2 md:grid-cols-4 gap-3 mt-5">
           {DAYS.map((d) => (
             <div key={d.en} className="ade-day">
-              <div className="font-bebas text-xl tracking-wide text-[#FDBA74]">{isJA ? d.ja : d.en}</div>
+              <div className="font-bebas text-2xl tracking-wide text-[#7DDFFF] mb-1">{isJA ? d.ja : d.en}</div>
               {d.items.map((it) => (
-                <Link key={it.label} href={it.href} className="block text-sm text-white hover:text-[#F4E5A8] hover:underline leading-snug">
+                <Link key={it.label} href={it.href} className="block text-base font-semibold text-white hover:text-[#7DDFFF] hover:underline leading-snug mt-1">
                   {it.label}
                 </Link>
               ))}
