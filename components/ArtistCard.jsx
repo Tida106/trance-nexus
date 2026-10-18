@@ -80,26 +80,25 @@ export default function ArtistCard({ artist }) {
       aria-label={`${artist.name} — ${isJA ? 'プロフィールを見る' : 'View profile'}`}
       className="group block cursor-pointer bg-white/[0.05] border border-[rgba(212,175,55,0.3)] rounded-sm overflow-hidden transition-all duration-200 hover:-translate-y-1.5 hover:border-accent-orange hover:shadow-2xl hover:shadow-accent-orange/20 focus-visible:-translate-y-1.5 focus-visible:border-accent-orange focus-visible:shadow-2xl focus-visible:shadow-accent-orange/20"
     >
-      <div className="h-24 relative overflow-hidden" style={{ background: '#0f172a' }}>
-        {/* Flag gradient: left 50% only, fading to dark on the right */}
+      <div className="h-24 relative overflow-hidden" style={{ background: '#B8E4F9' }}>
+        {/* Right side: pastel sky blue (base background) */}
+        {/* Left 50%: flag gradient with metallic sheen overlay */}
         <div
-          className="absolute inset-0 transition-transform duration-300 group-hover:scale-105"
+          className="absolute top-0 left-0 bottom-0 transition-transform duration-300 group-hover:scale-105"
+          style={{ width: '50%', background: FLAG_GRADIENTS[artist.flag] || DEFAULT_GRADIENT }}
+        />
+        {/* Metallic sheen over flag area */}
+        <div
+          className="absolute top-0 left-0 bottom-0 z-10 pointer-events-none"
           style={{
-            background: `linear-gradient(to right, transparent 0%, transparent 50%, #0f172a 100%), ${FLAG_GRADIENTS[artist.flag] || DEFAULT_GRADIENT}`,
-            clipPath: 'inset(0 50% 0 0)',
+            width: '50%',
+            background: 'linear-gradient(160deg, rgba(255,255,255,0.45) 0%, rgba(255,255,255,0.1) 40%, rgba(255,255,255,0) 60%, rgba(0,0,0,0.15) 100%)',
           }}
         />
-        <div
-          className="absolute inset-0 transition-transform duration-300 group-hover:scale-105"
-          style={{
-            background: FLAG_GRADIENTS[artist.flag] || DEFAULT_GRADIENT,
-            maskImage: 'linear-gradient(to right, black 0%, black 45%, transparent 65%)',
-            WebkitMaskImage: 'linear-gradient(to right, black 0%, black 45%, transparent 65%)',
-          }}
-        />
-        <div className="absolute bottom-0 left-0 right-0 h-0.5 bg-gradient-to-r from-accent-red via-accent-orange to-accent-amber z-10" />
-        <div className="absolute top-3 right-3 z-10 text-xs font-bold tracking-widest text-white/60">{artist.countryCode || ''}</div>
-        <div className="absolute bottom-3 right-3 text-2xl z-10">{artist.flag}</div>
+        {/* Hard edge divider */}
+        <div className="absolute top-0 bottom-0 left-1/2 w-px bg-white/30 z-20" />
+        <div className="absolute bottom-0 left-0 right-0 h-0.5 bg-gradient-to-r from-accent-red via-accent-orange to-accent-amber z-30" />
+        <div className="absolute bottom-3 right-3 text-2xl z-20">{artist.flag}</div>
       </div>
 
       <div className="p-4 relative">
