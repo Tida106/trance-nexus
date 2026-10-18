@@ -21,17 +21,17 @@ export default function Navigation() {
       <Link
         href="/"
         aria-label="TRANCE NEXUS — home"
-        className="flex items-center shrink-0 h-[44px] md:h-[72px] px-2 md:px-2.5 rounded-lg border border-[rgba(212,175,55,0.7)]"
-        style={{ background: 'linear-gradient(145deg,#ECEEF5 0%,#C8CDD8 100%)' }}
+        className="flex items-center shrink-0 h-[52px] md:h-[80px] px-3 md:px-4 rounded-xl border border-[rgba(212,175,55,0.6)]"
+        style={{ background: 'linear-gradient(145deg,#FFFFFF 0%,#F0F2F7 40%,#E2E6F0 100%)', boxShadow: '0 2px 12px rgba(180,186,200,0.4), inset 0 1px 0 rgba(255,255,255,0.9)' }}
       >
         <img
           src={`${BASE_PATH}/logo.svg`}
           alt="TRANCE NEXUS"
-          width={200}
-          height={72}
+          width={260}
+          height={80}
           decoding="async"
           fetchPriority="high"
-          className="h-[36px] md:h-[60px] w-auto block"
+          className="h-[44px] md:h-[72px] w-auto block"
         />
       </Link>
       <div className="flex gap-0 items-center min-w-0 overflow-x-auto nav-scroll">
