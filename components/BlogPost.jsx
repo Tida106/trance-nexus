@@ -62,7 +62,7 @@ export default function BlogPost({ post, prevPost, nextPost, related }) {
     <>
       <Navigation />
       <main className="relative z-10 min-h-screen pt-[84px] pb-20 px-12">
-        <div className="max-w-3xl mx-auto">
+        <div className="max-w-3xl lg:max-w-5xl mx-auto">
 
           {/* Breadcrumb */}
           <div className="pt-8 pb-4">
