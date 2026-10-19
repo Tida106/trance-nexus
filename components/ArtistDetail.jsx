@@ -100,9 +100,6 @@ export default function ArtistDetail({ artist, related, mentioned, performingAt 
           <section className={`${artist.banner} relative rounded-sm overflow-hidden p-8 md:p-12 mb-10`}>
             <div className="absolute inset-0 bg-dark-header/55" />
             <div className="relative z-10 flex flex-col md:flex-row gap-6 items-start md:items-end">
-              <div className="w-24 h-24 rounded-full border-2 border-accent-orange bg-white/[0.05] flex items-center justify-center text-5xl shadow-lg shrink-0">
-                {artist.emoji}
-              </div>
               <div className="flex-1">
                 <div className="flex items-center gap-3 mb-2">
                   <span className="text-2xl">{artist.flag}</span>

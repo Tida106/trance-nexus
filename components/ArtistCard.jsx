@@ -108,11 +108,7 @@ export default function ArtistCard({ artist }) {
             but never gets clipped or hidden behind it. The circle's
             border picks up the orange accent on card hover so the
             interactive state is visually consistent. */}
-        <div className="flex items-end mb-4 relative z-20">
-          <div className="w-14 h-14 rounded-full border-2 border-accent-orange bg-white/[0.05] flex items-center justify-center text-2xl shadow-lg -mt-10 -mb-2 transition-shadow group-hover:shadow-accent-orange/40 group-hover:shadow-xl">
-            {artist.emoji}
-          </div>
-        </div>
+        <div className="mb-2" />
 
         <h3 className="font-bebas text-xl tracking-widest text-[#C89020] mb-1 group-hover:text-accent-orange transition-colors">
           {artist.name}
