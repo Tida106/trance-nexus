@@ -820,11 +820,11 @@ export const posts14 = [
         },
         {
           heading: 'Saturday 24 October',
-          body: `<ul><li><strong><a href="/artists/paul-van-dyk">Paul van Dyk</a> &mdash; Open to Close, Melkweg (Rabo room, 18:00&ndash;22:30).</strong> An open-to-close set; <a href="https://www.melkweg.nl/en/agenda/paul-van-dyk-24-10-2026" target="_blank" rel="noopener">Melkweg</a> lists it as his fifth consecutive ADE show at Melkweg. The event is listed as sold out. More in <a href="/blog/paul-van-dyk-ade-2026-melkweg">Paul van Dyk at ADE 2026</a>.</li><li><strong><a href="/artists/andrew-rayel">Andrew Rayel</a> &mdash; Find Your Harmony 500, Desmet Studio&rsquo;s (22:00&ndash;04:00).</strong> A 230-capacity club night for the 500th episode of his radio show; see <a href="/blog/find-your-harmony-500-ade-2026">our FYH 500 guide</a>.</li><li><strong>Luminosity &mdash; ADE Rave, Q-Factory (14:00&ndash;06:00).</strong> A day and night programme. The listing on <a href="https://festivalfans.nl/event/ade-luminosity-rave/" target="_blank" rel="noopener">festivalfans.nl</a> includes Joyhauser, <a href="/artists/will-atkinson">Will Atkinson</a> and Nifra by day, and Sarah de Warren, Billy Gillies, Amber Broos, <a href="/artists/ben-nicky">Ben Nicky</a> and Thick as Thieves by night. Check the official channels for the final timetable.</li></ul>`,
+          body: `<ul><li><strong><a href="/artists/paul-van-dyk">Paul van Dyk</a> &mdash; Open to Close, Melkweg (Rabo room, 18:00&ndash;22:30).</strong> An open-to-close set; <a href="https://www.melkweg.nl/en/agenda/paul-van-dyk-24-10-2026" target="_blank" rel="noopener">Melkweg</a> lists it as his fifth consecutive ADE show at Melkweg. The event is listed as sold out. More in <a href="/blog/paul-van-dyk-ade-2026-melkweg">Paul van Dyk at ADE 2026</a>.</li><li><strong><a href="/artists/andrew-rayel">Andrew Rayel</a> &mdash; Find Your Harmony 500, Desmet Studio&rsquo;s (22:00&ndash;04:00).</strong> A 230-capacity club night for the 500th episode of his radio show; see <a href="/blog/find-your-harmony-500-ade-2026">our FYH 500 guide</a>.</li><li><strong>Luminosity &mdash; ADE Rave, Q-Factory (14:00&ndash;06:00).</strong> A day and night programme. The listing on <a href="https://festivalfans.nl/event/ade-luminosity-rave/" target="_blank" rel="noopener">festivalfans.nl</a> includes Joyhauser, <a href="/artists/will-atkinson">Will Atkinson</a> and Nifra by day, and Sarah de Warren, Billy Gillies, Amber Broos, <a href="/artists/ben-nicky">Ben Nicky</a> and Thick as Thieves by night. Check the official channels for the final timetable.</li><li><strong>Amsterdam Trance Event, Panama (14:30&ndash;21:30).</strong> A ten-DJ, two-room daytime party: <a href="/artists/sean-tyas">Sean Tyas</a>, <a href="/artists/allen-watts">Allen Watts</a>, <a href="/artists/richard-durand">Richard Durand</a>, <a href="/artists/xijaro-and-pitch">XiJaro &amp; Pitch</a>, Alex M.O.R.P.H., Dan Cooper, RAM, Steve Dekay, Talla 2XLC and York. Bigger than last year&rsquo;s edition; see <a href="/blog/amsterdam-trance-event-ade-2026">our Amsterdam Trance Event guide</a>.</li></ul>`,
         },
         {
           heading: 'At a Glance: Trance at ADE 2026',
-          body: `<table><thead><tr><th>Day</th><th>Event</th><th>Venue</th><th>Hours</th></tr></thead><tbody><tr><td>Wed 21 Oct</td><td>Armin van Buuren &amp; Benwal</td><td>Gashouder</td><td>23:00&ndash;06:00</td></tr><tr><td>Wed 21 Oct</td><td>In Trance We Trust</td><td>Thuishaven</td><td>21:00&ndash;04:00</td></tr><tr><td>Thu 22 Oct</td><td>AVA Recordings 20 Years</td><td>The Tequila Club</td><td>15:00&ndash;22:00</td></tr><tr><td>Fri 23 Oct</td><td>Luminosity Daytime</td><td>Panama</td><td>14:00&ndash;21:00</td></tr><tr><td>Fri 23 Oct</td><td>Luminosity Nighttime</td><td>Panama</td><td>22:00&ndash;07:00</td></tr><tr><td>Sat 24 Oct</td><td>Paul van Dyk Open to Close</td><td>Melkweg</td><td>18:00&ndash;22:30</td></tr><tr><td>Sat 24 Oct</td><td>Find Your Harmony 500</td><td>Desmet Studio&rsquo;s</td><td>22:00&ndash;04:00</td></tr><tr><td>Sat 24 Oct</td><td>Luminosity ADE Rave</td><td>Q-Factory</td><td>14:00&ndash;06:00</td></tr></tbody></table>`,
+          body: `<table><thead><tr><th>Day</th><th>Event</th><th>Venue</th><th>Hours</th></tr></thead><tbody><tr><td>Wed 21 Oct</td><td>Armin van Buuren &amp; Benwal</td><td>Gashouder</td><td>23:00&ndash;06:00</td></tr><tr><td>Wed 21 Oct</td><td>In Trance We Trust</td><td>Thuishaven</td><td>21:00&ndash;04:00</td></tr><tr><td>Thu 22 Oct</td><td>AVA Recordings 20 Years</td><td>The Tequila Club</td><td>15:00&ndash;22:00</td></tr><tr><td>Fri 23 Oct</td><td>Luminosity Daytime</td><td>Panama</td><td>14:00&ndash;21:00</td></tr><tr><td>Fri 23 Oct</td><td>Luminosity Nighttime</td><td>Panama</td><td>22:00&ndash;07:00</td></tr><tr><td>Sat 24 Oct</td><td>Amsterdam Trance Event</td><td>Panama</td><td>14:30&ndash;21:30</td></tr><tr><td>Sat 24 Oct</td><td>Paul van Dyk Open to Close</td><td>Melkweg</td><td>18:00&ndash;22:30</td></tr><tr><td>Sat 24 Oct</td><td>Find Your Harmony 500</td><td>Desmet Studio&rsquo;s</td><td>22:00&ndash;04:00</td></tr><tr><td>Sat 24 Oct</td><td>Luminosity ADE Rave</td><td>Q-Factory</td><td>14:00&ndash;06:00</td></tr></tbody></table>`,
         },
         {
           heading: 'Planning Tips',
@@ -859,11 +859,11 @@ export const posts14 = [
         },
         {
           heading: '10月24日（土）',
-          body: `<ul><li><strong><a href="/artists/paul-van-dyk">Paul van Dyk</a> ／ Open to Close、Melkweg（Raboルーム、18:00〜22:30）</strong>：最初から最後まで1人で回すオープン・トゥ・クローズ。<a href="https://www.melkweg.nl/en/agenda/paul-van-dyk-24-10-2026" target="_blank" rel="noopener">Melkweg</a>によると、MelkwegでのADE公演は5年連続です。チケットは売り切れと掲載されています。詳しくは<a href="/blog/paul-van-dyk-ade-2026-melkweg">ADE 2026のPaul van Dyk</a>へ。</li><li><strong><a href="/artists/andrew-rayel">Andrew Rayel</a> ／ Find Your Harmony 500、Desmet Studio&rsquo;s（22:00〜翌4:00）</strong>：ラジオ番組500回を記念した定員230人のクラブナイト。詳しくは<a href="/blog/find-your-harmony-500-ade-2026">FYH 500ガイド</a>へ。</li><li><strong>Luminosity ／ ADE Rave、Q-Factory（14:00〜翌6:00）</strong>：昼と夜の2部構成。<a href="https://festivalfans.nl/event/ade-luminosity-rave/" target="_blank" rel="noopener">festivalfans.nl</a>の掲載では、昼にJoyhauser、<a href="/artists/will-atkinson">Will Atkinson</a>、Nifra、夜にSarah de Warren、Billy Gillies、Amber Broos、<a href="/artists/ben-nicky">Ben Nicky</a>、Thick as Thievesなど。最終的なタイムテーブルは公式で確認してください。</li></ul>`,
+          body: `<ul><li><strong><a href="/artists/paul-van-dyk">Paul van Dyk</a> ／ Open to Close、Melkweg（Raboルーム、18:00〜22:30）</strong>：最初から最後まで1人で回すオープン・トゥ・クローズ。<a href="https://www.melkweg.nl/en/agenda/paul-van-dyk-24-10-2026" target="_blank" rel="noopener">Melkweg</a>によると、MelkwegでのADE公演は5年連続です。チケットは売り切れと掲載されています。詳しくは<a href="/blog/paul-van-dyk-ade-2026-melkweg">ADE 2026のPaul van Dyk</a>へ。</li><li><strong><a href="/artists/andrew-rayel">Andrew Rayel</a> ／ Find Your Harmony 500、Desmet Studio&rsquo;s（22:00〜翌4:00）</strong>：ラジオ番組500回を記念した定員230人のクラブナイト。詳しくは<a href="/blog/find-your-harmony-500-ade-2026">FYH 500ガイド</a>へ。</li><li><strong>Luminosity ／ ADE Rave、Q-Factory（14:00〜翌6:00）</strong>：昼と夜の2部構成。<a href="https://festivalfans.nl/event/ade-luminosity-rave/" target="_blank" rel="noopener">festivalfans.nl</a>の掲載では、昼にJoyhauser、<a href="/artists/will-atkinson">Will Atkinson</a>、Nifra、夜にSarah de Warren、Billy Gillies、Amber Broos、<a href="/artists/ben-nicky">Ben Nicky</a>、Thick as Thievesなど。最終的なタイムテーブルは公式で確認してください。</li><li><strong>Amsterdam Trance Event、Panama（14:30〜21:30）</strong>：10人のDJ・2ルーム構成の昼イベント。出演は<a href="/artists/sean-tyas">Sean Tyas</a>、<a href="/artists/allen-watts">Allen Watts</a>、<a href="/artists/richard-durand">Richard Durand</a>、<a href="/artists/xijaro-and-pitch">XiJaro &amp; Pitch</a>、Alex M.O.R.P.H.、Dan Cooper、RAM、Steve Dekay、Talla 2XLC、York。昨年版より規模を拡大。詳しくは<a href="/blog/amsterdam-trance-event-ade-2026">Amsterdam Trance Eventガイド</a>へ。</li></ul>`,
         },
         {
           heading: '一覧：ADE 2026のトランス・イベント',
-          body: `<table><thead><tr><th>日付</th><th>イベント</th><th>会場</th><th>時間</th></tr></thead><tbody><tr><td>10/21（水）</td><td>Armin van Buuren &amp; Benwal</td><td>Gashouder</td><td>23:00〜翌6:00</td></tr><tr><td>10/21（水）</td><td>In Trance We Trust</td><td>Thuishaven</td><td>21:00〜翌4:00</td></tr><tr><td>10/22（木）</td><td>AVA Recordings 20 Years</td><td>The Tequila Club</td><td>15:00〜22:00</td></tr><tr><td>10/23（金）</td><td>Luminosity Daytime</td><td>Panama</td><td>14:00〜21:00</td></tr><tr><td>10/23（金）</td><td>Luminosity Nighttime</td><td>Panama</td><td>22:00〜翌7:00</td></tr><tr><td>10/24（土）</td><td>Paul van Dyk Open to Close</td><td>Melkweg</td><td>18:00〜22:30</td></tr><tr><td>10/24（土）</td><td>Find Your Harmony 500</td><td>Desmet Studio&rsquo;s</td><td>22:00〜翌4:00</td></tr><tr><td>10/24（土）</td><td>Luminosity ADE Rave</td><td>Q-Factory</td><td>14:00〜翌6:00</td></tr></tbody></table>`,
+          body: `<table><thead><tr><th>日付</th><th>イベント</th><th>会場</th><th>時間</th></tr></thead><tbody><tr><td>10/21（水）</td><td>Armin van Buuren &amp; Benwal</td><td>Gashouder</td><td>23:00〜翌6:00</td></tr><tr><td>10/21（水）</td><td>In Trance We Trust</td><td>Thuishaven</td><td>21:00〜翌4:00</td></tr><tr><td>10/22（木）</td><td>AVA Recordings 20 Years</td><td>The Tequila Club</td><td>15:00〜22:00</td></tr><tr><td>10/23（金）</td><td>Luminosity Daytime</td><td>Panama</td><td>14:00〜21:00</td></tr><tr><td>10/23（金）</td><td>Luminosity Nighttime</td><td>Panama</td><td>22:00〜翌7:00</td></tr><tr><td>10/24（土）</td><td>Amsterdam Trance Event</td><td>Panama</td><td>14:30〜21:30</td></tr><tr><td>10/24（土）</td><td>Paul van Dyk Open to Close</td><td>Melkweg</td><td>18:00〜22:30</td></tr><tr><td>10/24（土）</td><td>Find Your Harmony 500</td><td>Desmet Studio&rsquo;s</td><td>22:00〜翌4:00</td></tr><tr><td>10/24（土）</td><td>Luminosity ADE Rave</td><td>Q-Factory</td><td>14:00〜翌6:00</td></tr></tbody></table>`,
         },
         {
           heading: '行く前のヒント',
@@ -1371,6 +1371,74 @@ export const posts14 = [
         {
           heading: 'リスナーからの視点',
           body: `<p>毎週A State of Tranceを聴いている身としては、番組が世界のいろいろな場所でフェスとして広がっていくのは嬉しいです。ラインナップが発表されたら、ここに追記します。</p>`,
+        },
+      ],
+    },
+  },
+  {
+    slug: 'amsterdam-trance-event-ade-2026',
+    date: '2026-10-24',
+    readTime: 3,
+    tags: ['ade', 'amsterdam', 'events', 'panama', 'uplifting'],
+    en: {
+      title: 'Amsterdam Trance Event at ADE 2026: Lineup & Times',
+      description: 'Amsterdam Trance Event brings ten DJs across two rooms at Panama for ADE 2026 on 24 October, from 14:30 to 21:30 — a bigger follow-up to 2025. Lineup, venue and times.',
+      excerpt: 'A back-to-back trance marathon across two rooms at Panama on 24 October 2026 — Amsterdam Trance Event is a bigger follow-up to last year\'s ADE party. Full lineup and times.',
+      content: [
+        {
+          heading: 'The Event at a Glance',
+          body: `<p><strong>Amsterdam Trance Event</strong> is a daytime trance party at Amsterdam Dance Event 2026: <strong>Saturday 24 October</strong>, <strong>14:30 to 21:30</strong>, at <strong>Panama</strong> (Oostelijke Handelskade 4, Amsterdam).</p><p>The <a href="https://www.amsterdam-dance-event.nl/en/program/2026/amsterdam-trance-event-daytime-event/2813014/" target="_blank" rel="noopener">ADE programme</a> describes it as &ldquo;a back-to-back trance marathon across two electrifying rooms&rdquo; and a bigger, bolder follow-up to last year&rsquo;s edition, which was a collaboration between Nocturnal Knights and Black Hole Recordings. According to <a href="https://essenceoftrance.com/ade-2026/" target="_blank" rel="noopener">Essence of Trance</a>, the 2025 edition&rsquo;s early-bird tickets &mdash; limited to 250 &mdash; sold out within two days, so this is worth booking ahead of time.</p>`,
+        },
+        {
+          heading: 'Lineup',
+          body: `<p>Ten DJs are confirmed: <a href="/artists/sean-tyas">Sean Tyas</a>, <a href="/artists/allen-watts">Allen Watts</a>, <a href="/artists/richard-durand">Richard Durand</a>, <a href="/artists/xijaro-and-pitch">XiJaro &amp; Pitch</a>, Alex M.O.R.P.H., Dan Cooper, RAM, Steve Dekay, Talla 2XLC and York. The event splits the lineup across two rooms, though the <a href="https://www.amsterdam-dance-event.nl/en/program/2026/amsterdam-trance-event-daytime-event/2813014/" target="_blank" rel="noopener">ADE programme</a> does not yet list individual set times &mdash; check the ticket page for the final room-by-room running order closer to the date.</p>`,
+        },
+        {
+          heading: 'Panama, the Venue',
+          body: `<p>Panama is a club on Amsterdam&rsquo;s eastern harbourfront, in a building that once generated electricity for the city&rsquo;s docks. It is also hosting <a href="/blog/luminosity-ade-2026">Luminosity&rsquo;s This Is Trance!</a> the night before, on Friday 23 October, which makes the venue one of the busiest trance addresses of ADE week.</p>`,
+        },
+        {
+          heading: 'Tickets',
+          body: `<p>Tickets are on sale via the official Weeztix shop linked from the <a href="https://www.amsterdam-dance-event.nl/en/program/2026/amsterdam-trance-event-daytime-event/2813014/" target="_blank" rel="noopener">ADE programme</a>. The page does not list prices at the time of writing. ADE&rsquo;s Pro Pass covers most festival events, but entry is not guaranteed for Pro Pass holders here because capacity is limited &mdash; buy a dedicated ticket if you want to be sure of getting in.</p>`,
+        },
+        {
+          heading: 'Fitting It into Your ADE Week',
+          body: `<p>Saturday 24 October is already a busy day for trance in Amsterdam, with <a href="/blog/paul-van-dyk-ade-2026-melkweg">Paul van Dyk at Melkweg</a>, <a href="/blog/find-your-harmony-500-ade-2026">Find Your Harmony 500</a> and <a href="/blog/luminosity-ade-2026">Luminosity&rsquo;s ADE Rave</a> all on the same day. Amsterdam Trance Event&rsquo;s daytime slot (14:30&ndash;21:30) means it can realistically be combined with any of the evening or late-night events. See the full week in our <a href="/blog/ade-2026-trance-guide">ADE 2026 Trance Guide</a>.</p>`,
+        },
+        {
+          heading: 'A Listener&rsquo;s Note',
+          body: `<p>I had not come across this one before researching ADE 2026, and a ten-DJ, two-room daytime lineup at a venue already busy with Luminosity the night before says a lot about how much trance is packed into Amsterdam that week.</p>`,
+        },
+      ],
+    },
+    ja: {
+      title: 'ADE 2026「Amsterdam Trance Event」：ラインナップと時間',
+      description: 'Amsterdam Trance EventはADE 2026の10月24日、14:30〜21:30にPanamaの2ルームで10人のDJが出演。2025年版より規模を拡大。ラインナップ、会場、時間を紹介。',
+      excerpt: '10月24日、Panamaの2ルームで繰り広げるトランス・マラソン。Amsterdam Trance Eventは昨年のADEパーティーより規模を拡大した企画です。ラインナップと時間を紹介。',
+      content: [
+        {
+          heading: 'イベント概要',
+          body: `<p><strong>Amsterdam Trance Event</strong>は、Amsterdam Dance Event 2026の昼間に開かれるトランス・パーティーです。日時は<strong>2026年10月24日（土）14:30〜21:30</strong>、会場は<strong>Panama</strong>（Oostelijke Handelskade 4）。</p><p><a href="https://www.amsterdam-dance-event.nl/en/program/2026/amsterdam-trance-event-daytime-event/2813014/" target="_blank" rel="noopener">ADEの番組表</a>では「2つの刺激的なルームを通した、back-to-backのトランス・マラソン」と説明されており、Nocturnal KnightsとBlack Hole Recordingsが共同で手がけた昨年版より、さらに大きく大胆な企画として紹介されています。<a href="https://essenceoftrance.com/ade-2026/" target="_blank" rel="noopener">Essence of Trance</a>によると、2025年版の早割チケット（250枚限定）は2日で完売したとのことなので、早めの確保がおすすめです。</p>`,
+        },
+        {
+          heading: 'ラインナップ',
+          body: `<p>確定している出演者は10人：<a href="/artists/sean-tyas">Sean Tyas</a>、<a href="/artists/allen-watts">Allen Watts</a>、<a href="/artists/richard-durand">Richard Durand</a>、<a href="/artists/xijaro-and-pitch">XiJaro &amp; Pitch</a>、Alex M.O.R.P.H.、Dan Cooper、RAM、Steve Dekay、Talla 2XLC、York。2ルームに振り分けられますが、<a href="https://www.amsterdam-dance-event.nl/en/program/2026/amsterdam-trance-event-daytime-event/2813014/" target="_blank" rel="noopener">ADEの番組表</a>ではまだルームごとの出演時間は未発表です。開催が近づいたら、チケットページで最終的なタイムテーブルを確認してください。</p>`,
+        },
+        {
+          heading: '会場：Panama',
+          body: `<p>Panamaはアムステルダム東側の港沿いにあるクラブで、かつては港の発電を担っていた建物を使っています。前日の10月23日（金）には<a href="/blog/luminosity-ade-2026">LuminosityのThis Is Trance!</a>も同じ会場で開催されるため、ADE週間の中でもトランスが特に集中する会場のひとつです。</p>`,
+        },
+        {
+          heading: 'チケット',
+          body: `<p>チケットは<a href="https://www.amsterdam-dance-event.nl/en/program/2026/amsterdam-trance-event-daytime-event/2813014/" target="_blank" rel="noopener">ADEの番組表</a>からリンクされている公式Weeztixショップで販売中。執筆時点では価格の掲載はありません。ADEのPro Passは大半のフェスティバル・イベントをカバーしますが、このイベントは定員が限られているためPro Pass保持者の入場は保証されていません。確実に入りたい場合は専用チケットの購入をおすすめします。</p>`,
+        },
+        {
+          heading: 'ADE週間の組み立て方',
+          body: `<p>10月24日（土）はもともとトランスが集中する一日で、同日には<a href="/blog/paul-van-dyk-ade-2026-melkweg">MelkwegのPaul van Dyk</a>、<a href="/blog/find-your-harmony-500-ade-2026">Find Your Harmony 500</a>、<a href="/blog/luminosity-ade-2026">LuminosityのADE Rave</a>も開催されます。Amsterdam Trance Eventは昼間の時間帯（14:30〜21:30）なので、夜〜深夜のどのイベントとも組み合わせやすいのが魅力です。1週間の全体像は<a href="/blog/ade-2026-trance-guide">ADE 2026 トランス・ガイド</a>へ。</p>`,
+        },
+        {
+          heading: 'リスナーからの視点',
+          body: `<p>ADE 2026を調べる中で初めて知ったイベントでした。前日にLuminosityが入っている会場で、10人のDJ・2ルーム構成の昼イベントが開かれるというだけでも、この週のアムステルダムにどれだけトランスが詰め込まれているかがわかります。</p>`,
         },
       ],
     },
