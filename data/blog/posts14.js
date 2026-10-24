@@ -1391,7 +1391,7 @@ export const posts14 = [
         },
         {
           heading: 'Lineup',
-          body: `<p>Ten DJs are confirmed: <a href="/artists/sean-tyas">Sean Tyas</a>, <a href="/artists/allen-watts">Allen Watts</a>, <a href="/artists/richard-durand">Richard Durand</a>, <a href="/artists/xijaro-and-pitch">XiJaro &amp; Pitch</a>, Alex M.O.R.P.H., Dan Cooper, RAM, Steve Dekay, Talla 2XLC and York. The event splits the lineup across two rooms, though the <a href="https://www.amsterdam-dance-event.nl/en/program/2026/amsterdam-trance-event-daytime-event/2813014/" target="_blank" rel="noopener">ADE programme</a> does not yet list individual set times &mdash; check the ticket page for the final room-by-room running order closer to the date.</p>`,
+          body: `<p>The event runs back-to-back sets across two rooms. <a href="https://trancehistory.com/2026/05/07/amsterdam-trance-event-returns-bigger-than-ever-at-ade-2026/" target="_blank" rel="noopener">Trance History</a> lists the pairings as follows &mdash; check the ticket page closer to the date in case of changes.</p><p><strong>Main Room:</strong> RAM b2b <a href="/artists/richard-durand">Richard Durand</a>, Alex M.O.R.P.H. b2b <a href="/artists/xijaro-and-pitch">XiJaro &amp; Pitch</a>, <a href="/artists/sean-tyas">Sean Tyas</a> b2b <a href="/artists/allen-watts">Allen Watts</a>, Talla 2XLC b2b York, Darren Porter b2b BiXX, Dan Cooper b2b Brendan Bartels, and Anunnakis.</p><p><strong>Second Room:</strong> Frankyeffe b2b Luvstruck, Steve Dekay b2b Mark Wilks, Ralphie B &amp; Frank Waanders pres. Collide 1, Rene Ablaze b2b Angelus, Amos &amp; Riot Night b2b Inoblivion, and Nathia Kate b2b Bryn Whiting.</p><p>Natalie Gioia provides live vocals.</p>`,
         },
         {
           heading: 'Panama, the Venue',
@@ -1422,7 +1422,7 @@ export const posts14 = [
         },
         {
           heading: 'ラインナップ',
-          body: `<p>確定している出演者は10人：<a href="/artists/sean-tyas">Sean Tyas</a>、<a href="/artists/allen-watts">Allen Watts</a>、<a href="/artists/richard-durand">Richard Durand</a>、<a href="/artists/xijaro-and-pitch">XiJaro &amp; Pitch</a>、Alex M.O.R.P.H.、Dan Cooper、RAM、Steve Dekay、Talla 2XLC、York。2ルームに振り分けられますが、<a href="https://www.amsterdam-dance-event.nl/en/program/2026/amsterdam-trance-event-daytime-event/2813014/" target="_blank" rel="noopener">ADEの番組表</a>ではまだルームごとの出演時間は未発表です。開催が近づいたら、チケットページで最終的なタイムテーブルを確認してください。</p>`,
+          body: `<p>2ルームでback-to-backセットが続きます。<a href="https://trancehistory.com/2026/05/07/amsterdam-trance-event-returns-bigger-than-ever-at-ade-2026/" target="_blank" rel="noopener">Trance History</a>が掲載しているペアリングは以下の通りです。開催が近づいたら変更の可能性もあるので、チケットページも確認してください。</p><p><strong>Main Room：</strong>RAM b2b <a href="/artists/richard-durand">Richard Durand</a>、Alex M.O.R.P.H. b2b <a href="/artists/xijaro-and-pitch">XiJaro &amp; Pitch</a>、<a href="/artists/sean-tyas">Sean Tyas</a> b2b <a href="/artists/allen-watts">Allen Watts</a>、Talla 2XLC b2b York、Darren Porter b2b BiXX、Dan Cooper b2b Brendan Bartels、Anunnakis。</p><p><strong>Second Room：</strong>Frankyeffe b2b Luvstruck、Steve Dekay b2b Mark Wilks、Ralphie B &amp; Frank Waanders pres. Collide 1、Rene Ablaze b2b Angelus、Amos &amp; Riot Night b2b Inoblivion、Nathia Kate b2b Bryn Whiting。</p><p>ライブ・ヴォーカルはNatalie Gioiaが担当。</p>`,
         },
         {
           heading: '会場：Panama',
