@@ -1,6 +1,9 @@
 // Lightweight listing data — no article body content.
 // Newest first. Keep in sync with data/blog/posts.js when adding articles.
 export const listing = [
+  { slug: 'armin-van-buuren-ade-2026-gashouder', date: '2026-10-26', readTime: 5, tags: ['armin-van-buuren', 'ade', 'amsterdam', 'asot', 'events'],
+    en: { title: 'Armin van Buuren at ADE 2026: Gashouder Opening with Benwal', excerpt: 'Armin van Buuren opened Amsterdam Dance Event 2026 at the reopened Gashouder on 21 October, b2b with Benwal. Timetable, lineup and a recap of how the night went.' },
+    ja: { title: 'ADE 2026のArmin van Buuren：GashouderでBenwalとオープニング', excerpt: 'Armin van Buurenが2026年10月21日、リニューアルしたGashouderでADEのオープニングを飾りました。タイムテーブル、ラインナップ、当日の様子のリキャップ。' } },
   { slug: 'amsterdam-trance-event-ade-2026', date: '2026-10-24', readTime: 3, tags: ['ade', 'amsterdam', 'events', 'panama', 'uplifting'],
     en: { title: 'Amsterdam Trance Event at ADE 2026: Lineup & Times', excerpt: 'A back-to-back trance marathon across two rooms at Panama on 24 October 2026 — Amsterdam Trance Event is a bigger follow-up to last year\'s ADE party. Full lineup and times.' },
     ja: { title: 'ADE 2026「Amsterdam Trance Event」：ラインナップと時間', excerpt: '10月24日、Panamaの2ルームで繰り広げるトランス・マラソン。Amsterdam Trance Eventは昨年のADEパーティーより規模を拡大した企画です。ラインナップと時間を紹介。' } },
@@ -19,9 +22,6 @@ export const listing = [
   { slug: 'in-trance-we-trust-ade-2026', date: '2026-10-16', readTime: 3, tags: ['black-hole-recordings', 'ade', 'amsterdam', 'events', 'uplifting'],
     en: { title: 'In Trance We Trust at ADE 2026: Lineup, Times & Venue', excerpt: 'Black Hole Recordings’ In Trance We Trust returns to ADE for the first time in eight years on 21 October 2026 at Thuishaven. Here are the lineup, times and venue.' },
     ja: { title: 'ADE 2026のIn Trance We Trust：ラインナップ・時間・会場', excerpt: 'Black Hole RecordingsのIn Trance We Trustが、8年ぶりにADEに帰ってきます。2026年10月21日、Thuishavenで開催。ラインナップと時間、会場を紹介します。' } },
-  { slug: 'armin-van-buuren-ade-2026-gashouder', date: '2026-10-16', readTime: 4, tags: ['armin-van-buuren', 'ade', 'amsterdam', 'asot', 'events'],
-    en: { title: 'Armin van Buuren at ADE 2026: Gashouder Opening with Benwal', excerpt: 'Armin van Buuren opens Amsterdam Dance Event 2026 at the reopened Gashouder on 21 October, with a b2b set alongside Benwal. Here is the timetable and what to know.' },
-    ja: { title: 'ADE 2026のArmin van Buuren：GashouderでBenwalとオープニング', excerpt: 'Armin van Buurenが2026年10月21日、リニューアルしたGashouderでADEのオープニングを飾ります。Benwalとのb2bを含むタイムテーブルと、見どころを紹介。' } },
   { slug: 'luminosity-ade-2026', date: '2026-10-16', readTime: 5, tags: ['luminosity', 'ade', 'amsterdam', 'festival', 'netherlands'],
     en: { title: 'Luminosity at ADE 2026: This Is Trance!, ADE Rave & Infinity', excerpt: 'Luminosity is not only a summer beach festival: at ADE 2026 it runs five events on 23–24 October. Here are the lineups, times and venues for each, from uplifting trance to ADE Rave.' },
     ja: { title: 'ADE 2026のLuminosity：This Is Trance!・ADE Rave・Infinity', excerpt: '夏のビーチフェスだけじゃない。LuminosityはADE 2026で10月23〜24日に5つのイベントを開催します。王道アップリフティングからADE Raveまで、ラインナップと時間を紹介。' } },

@@ -948,13 +948,13 @@ export const posts14 = [
   , // ← ★直前の記事との区切りのカンマ
   {
     slug: 'armin-van-buuren-ade-2026-gashouder',
-    date: '2026-10-16',
-    readTime: 4,
+    date: '2026-10-26',
+    readTime: 5,
     tags: ['armin-van-buuren', 'ade', 'amsterdam', 'asot', 'events'],
     en: {
       title: 'Armin van Buuren at ADE 2026: Gashouder Opening with Benwal',
       description: 'Armin van Buuren opens ADE 2026 at Gashouder on 21 October with Benwal. Timetable, the Armin b2b Benwal set, the venue’s reopening and his new single.',
-      excerpt: 'Armin van Buuren opens Amsterdam Dance Event 2026 at the reopened Gashouder on 21 October, with a b2b set alongside Benwal. Here is the timetable and what to know.',
+      excerpt: 'Armin van Buuren opened Amsterdam Dance Event 2026 at the reopened Gashouder on 21 October, b2b with Benwal. Timetable, lineup and a recap of how the night went.',
       content: [
         {
           heading: 'The Night at a Glance',
@@ -973,6 +973,10 @@ export const posts14 = [
           body: `<p>According to <a href="https://djmag.com/news/armin-van-buuren-announces-ade-opening-party-gashouder" target="_blank" rel="noopener">DJ Mag</a>, Gashouder is reopening for ADE after renovations that began in January 2025. <a href="https://mixmagnl.com/read/gashouder-returns-to-ade-with-seven-show-preview-of-its-new-era-news" target="_blank" rel="noopener">Mixmag NL</a> reports that the ADE shows are a pre-opening season ahead of a full reopening in November, with seven ADE showcases from 21 to 25 October. Armin&rsquo;s night is the opening show of that series.</p><p><a href="https://mixmagnl.com/read/gashouder-returns-to-ade-with-seven-show-preview-of-its-new-era-news" target="_blank" rel="noopener">Mixmag NL</a> also notes the venue&rsquo;s long history with electronic music, including Awakenings events and landmark live performances in its circular hall.</p>`,
         },
         {
+          heading: 'How the Night Went',
+          body: `<p>According to a review by Seth de Wildt for <a href="https://3voor12.vpro.nl/artikelen/ade26-armin-van-buuren-en-benwal-toveren-gashouder-om-tot-trancetempel" target="_blank" rel="noopener">VPRO 3voor12</a>, the night was the venue&rsquo;s first real party since its roughly 18-month renovation closure (the official reopening follows on 30 October), with the basement still closed and toilets and lockers in a tent outside. The reviewer describes a euphoric mood with a clear generational split in the crowd &mdash; younger fans for Benwal, older fans for Armin.</p><p>Benwal opened his solo slot with a laser &ldquo;UFO&rdquo; descending from the roof, playing piano-driven euphoric hard house that stayed in that lane through to his last record. The b2b hour opened with a heavy trance track dropped straight from Benwal&rsquo;s hard house, included a trance remix of Pegassi&rsquo;s &ldquo;227kg,&rdquo; and closed on Armin&rsquo;s own &ldquo;This Is What It Feels Like&rdquo; &mdash; the reviewer wished it had run longer.</p><p>Armin&rsquo;s solo 75 minutes opened hard enough to make the concrete floor vibrate, mixed in new releases plus brief acid and techno detours, and peaked with trance remixes of &ldquo;Born Slippy,&rdquo; Faithless&rsquo;s &ldquo;Insomnia&rdquo; and Ben Hemsley&rsquo;s remix of &ldquo;In And Out Of Love&rdquo; &mdash; a stretch the reviewer called a genuine goosebumps moment. The review&rsquo;s conclusion: trance is back in fashion.</p>`,
+        },
+        {
           heading: 'Armin&rsquo;s New Single: &lsquo;U Got 2 Know&rsquo;',
           body: `<p>On the day the Gashouder show was announced (22 May 2026), Armin released &lsquo;U Got 2 Know&rsquo; with Hannah Laing and Wippenburg, a reimagining of Capella&rsquo;s 1993 dance anthem of the same name (source: <a href="https://djmag.com/news/armin-van-buuren-announces-ade-opening-party-gashouder" target="_blank" rel="noopener">DJ Mag</a>).</p>`,
         },
@@ -989,7 +993,7 @@ export const posts14 = [
     ja: {
       title: 'ADE 2026のArmin van Buuren：GashouderでBenwalとオープニング',
       description: 'Armin van Buurenが10月21日、GashouderでBenwalとともにADE 2026の幕を開けます。タイムテーブル、b2bセット、会場の再始動、新曲をまとめました。',
-      excerpt: 'Armin van Buurenが2026年10月21日、リニューアルしたGashouderでADEのオープニングを飾ります。Benwalとのb2bを含むタイムテーブルと、見どころを紹介。',
+      excerpt: 'Armin van Buurenが2026年10月21日、リニューアルしたGashouderでADEのオープニングを飾りました。タイムテーブル、ラインナップ、当日の様子のリキャップ。',
       content: [
         {
           heading: 'イベント概要',
@@ -1006,6 +1010,10 @@ export const posts14 = [
         {
           heading: 'Gashouderの再始動',
           body: `<p><a href="https://djmag.com/news/armin-van-buuren-announces-ade-opening-party-gashouder" target="_blank" rel="noopener">DJ Mag</a>によると、Gashouderは2025年1月から改装に入っていて、ADEに合わせて再び開きます。<a href="https://mixmagnl.com/read/gashouder-returns-to-ade-with-seven-show-preview-of-its-new-era-news" target="_blank" rel="noopener">Mixmag NL</a>によると、ADEの公演は11月の本格オープンに先がけたプレオープン期間で、10月21〜25日に7つのショーケースが行われます。Arminの夜は、その初日のオープニング・ショーです。</p><p><a href="https://mixmagnl.com/read/gashouder-returns-to-ade-with-seven-show-preview-of-its-new-era-news" target="_blank" rel="noopener">Mixmag NL</a>は、Awakeningsのイベントや、円形ホールでの歴史的なライブなど、この会場とエレクトロニック・ミュージックの長い歴史にも触れています。</p>`,
+        },
+        {
+          heading: '当日の様子',
+          body: `<p>Seth de Wildt氏による<a href="https://3voor12.vpro.nl/artikelen/ade26-armin-van-buuren-en-benwal-toveren-gashouder-om-tot-trancetempel" target="_blank" rel="noopener">VPRO 3voor12</a>のレビューによると、この夜は約1年半の改装休業を経た会場で初めての本格的なパーティーだったとのこと（正式な再オープンは10月30日）。地下フロアはまだ閉鎖中で、トイレとロッカーは屋外のテントに設置されていました。会場の空気感は非常に高揚していて、客層には世代差がはっきり見られ、若い層はBenwal目当て、年齢層が高めのファンはArmin目当てだったと記されています。</p><p>Benwalのソロ・スロットは、天井からレーザーの「UFO」が降りてくる演出で開幕。ピアノ主体のユーフォリック・ハードハウスが中心で、最後の曲までそのスタイルを貫きました。続くb2bの1時間は、Benwalのハードハウスから一転、重いトランス・トラックで開幕し、Pegassiのトランスリミックスによる「227kg」も披露。最後はArmin自身の「This Is What It Feels Like」で締めくくり、レビュアーは「もっと長く続いて欲しかった」と記しています。</p><p>続くArminの75分間のソロは、コンクリートの床が振動するほどハードな一曲で開幕。新曲を中心に構成しつつ、アシッドやテクノへの短い脱線も挟みました。クライマックスは「Born Slippy」、Faithlessの「Insomnia」、Ben Hemsleyリミックスの「In And Out Of Love」といったトランス・リミックスの連続で、レビュアーはこれを「鳥肌が立つ瞬間」と表現。レビューの結びは「トランスはまた流行っている」でした。</p>`,
         },
         {
           heading: 'Arminの新曲「U Got 2 Know」',
