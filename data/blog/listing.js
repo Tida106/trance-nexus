@@ -1,6 +1,9 @@
 // Lightweight listing data — no article body content.
 // Newest first. Keep in sync with data/blog/posts.js when adding articles.
 export const listing = [
+  { slug: 'luminosity-19-year-anniversary-melkweg', date: '2026-10-27', readTime: 3, tags: ['luminosity', 'amsterdam', 'melkweg', 'events', 'uplifting'],
+    en: { title: 'Luminosity 19 Year Anniversary at Melkweg: Date & Lineup', excerpt: 'Luminosity closes out the year with its 19th anniversary at Melkweg, Amsterdam, on 19 December 2026. KEY4050, Mark Sherry and The Thrillseekers are confirmed so far, with more to come.' },
+    ja: { title: 'Luminosity 19周年：Melkwegで開催、日程とラインナップ', excerpt: 'Luminosityが2026年12月19日、アムステルダムのMelkwegで19周年を記念したクラブナイトを開催。現時点ではKEY4050、Mark Sherry、The Thrillseekersが出演確定、続報あり。' } },
   { slug: 'armin-van-buuren-ade-2026-gashouder', date: '2026-10-26', readTime: 5, tags: ['armin-van-buuren', 'ade', 'amsterdam', 'asot', 'events'],
     en: { title: 'Armin van Buuren at ADE 2026: Gashouder Opening with Benwal', excerpt: 'Armin van Buuren opened Amsterdam Dance Event 2026 at the reopened Gashouder on 21 October, b2b with Benwal. Timetable, lineup and a recap of how the night went.' },
     ja: { title: 'ADE 2026のArmin van Buuren：GashouderでBenwalとオープニング', excerpt: 'Armin van Buurenが2026年10月21日、リニューアルしたGashouderでADEのオープニングを飾りました。タイムテーブル、ラインナップ、当日の様子のリキャップ。' } },

@@ -1450,5 +1450,65 @@ export const posts14 = [
         },
       ],
     },
+  },
+  {
+    slug: 'luminosity-19-year-anniversary-melkweg',
+    date: '2026-10-27',
+    readTime: 3,
+    tags: ['luminosity', 'amsterdam', 'melkweg', 'events', 'uplifting'],
+    en: {
+      title: 'Luminosity 19 Year Anniversary at Melkweg: Date & Lineup',
+      description: 'Luminosity marks its 19th anniversary with a late-night club night at Melkweg, Amsterdam, on 19 December 2026. Confirmed names so far: KEY4050, Mark Sherry and The Thrillseekers.',
+      excerpt: 'Luminosity closes out the year with its 19th anniversary at Melkweg, Amsterdam, on 19 December 2026. KEY4050, Mark Sherry and The Thrillseekers are confirmed so far, with more to come.',
+      content: [
+        {
+          heading: 'The Night at a Glance',
+          body: `<p><strong>Luminosity</strong> celebrates its <strong>19th anniversary</strong> with a club night at <strong>Melkweg</strong> (Lijnbaansgracht 234A, Amsterdam) on <strong>Saturday 19 December 2026</strong>. According to the <a href="https://www.melkweg.nl/nl/agenda/luminosity-19-year-anniversary-19-12-2026/" target="_blank" rel="noopener">Melkweg event page</a>, it runs as a late-night set rather than an early show, and the event is 18+.</p><p>Tickets start at &euro;29.90 as an early price, sold through <a href="https://www.melkweg.nl/nl/agenda/luminosity-19-year-anniversary-19-12-2026/" target="_blank" rel="noopener">Ticketmaster via the Melkweg page</a>.</p>`,
+        },
+        {
+          heading: 'Lineup So Far',
+          body: `<p>Three names are confirmed: <strong>KEY4050</strong>, <strong>Mark Sherry</strong> and <strong>The Thrillseekers</strong>. Melkweg says the full lineup &ldquo;will be announced soon,&rdquo; with &ldquo;a few special surprises&rdquo; planned for the holiday season &mdash; we will update this article once more names are confirmed.</p>`,
+        },
+        {
+          heading: 'Nearly Two Decades of Luminosity',
+          body: `<p>Luminosity is best known for <a href="/events/luminosity-beach-festival">Luminosity Beach Festival</a> in Zandvoort each summer, and for its <a href="/blog/luminosity-ade-2026">multi-event ADE programme</a> every October at Club Panama and Q Factory. According to Melkweg, the brand has spent nearly two decades building a global trance community spanning both classic and forward-thinking sounds, and this anniversary night is billed as a way to close out the year in a late-night club format rather than a festival one.</p>`,
+        },
+        {
+          heading: 'A Different Setting from ADE',
+          body: `<p>Where Luminosity&rsquo;s ADE events run across multiple rooms and daytime-to-night schedules, this is a single late-night club set at Melkweg &mdash; closer in spirit to a year-end party than a festival takeover. If you caught <a href="/blog/luminosity-ade-2026">This Is Trance! at ADE 2026</a> in October, this is a smaller, more intimate way to end the year with the same crew.</p>`,
+        },
+        {
+          heading: 'A Listener&rsquo;s Note',
+          body: `<p>A year-end anniversary night is a nice bookend to a year that already included Luminosity&rsquo;s beach festival and its full ADE programme &mdash; worth keeping on the radar once the rest of the lineup drops.</p>`,
+        },
+      ],
+    },
+    ja: {
+      title: 'Luminosity 19周年：Melkwegで開催、日程とラインナップ',
+      description: 'Luminosityが19周年を記念し、2026年12月19日にアムステルダムのMelkwegでクラブナイトを開催。現時点の出演確定はKEY4050、Mark Sherry、The Thrillseekers。',
+      excerpt: 'Luminosityが2026年12月19日、アムステルダムのMelkwegで19周年を記念したクラブナイトを開催。現時点ではKEY4050、Mark Sherry、The Thrillseekersが出演確定、続報あり。',
+      content: [
+        {
+          heading: 'イベント概要',
+          body: `<p><strong>Luminosity</strong>が<strong>19周年</strong>を記念して、<strong>2026年12月19日（土）</strong>、アムステルダムの<strong>Melkweg</strong>（Lijnbaansgracht 234A）でクラブナイトを開催します。<a href="https://www.melkweg.nl/nl/agenda/luminosity-19-year-anniversary-19-12-2026/" target="_blank" rel="noopener">Melkwegのイベントページ</a>によると、早い時間帯のショーではなく深夜帯のセットで、18歳以上限定です。</p><p>チケットは早割価格で&euro;29.90から。<a href="https://www.melkweg.nl/nl/agenda/luminosity-19-year-anniversary-19-12-2026/" target="_blank" rel="noopener">Melkwegのページ経由のTicketmaster</a>で販売中です。</p>`,
+        },
+        {
+          heading: '現時点のラインナップ',
+          body: `<p>現在確定しているのは3組：<strong>KEY4050</strong>、<strong>Mark Sherry</strong>、<strong>The Thrillseekers</strong>。Melkwegによると、全ラインナップは「近日発表」で、ホリデーシーズンに向けて「いくつかのサプライズ」も予定されているとのこと。続報があれば、この記事を更新します。</p>`,
+        },
+        {
+          heading: 'Luminosity、約20年の歩み',
+          body: `<p>Luminosityといえば、夏にザントフォールトで開かれる<a href="/events/luminosity-beach-festival">Luminosity Beach Festival</a>、そして毎年10月のADE期間中にClub PanamaとQ Factoryで開かれる<a href="/blog/luminosity-ade-2026">複数イベントのプログラム</a>が有名です。Melkwegによると、ブランドは約20年にわたってクラシックから先進的なサウンドまでを包含するグローバルなトランス・コミュニティを築いてきており、この周年イベントは、フェス形式ではなく深夜のクラブナイト形式で一年を締めくくる企画として紹介されています。</p>`,
+        },
+        {
+          heading: 'ADEとは違う雰囲気',
+          body: `<p>Luminosityの ADEイベントが複数ルーム・昼から夜までのスケジュールで展開されるのに対し、こちらはMelkwegでの深夜セット1本のみ。フェスの乗っ取りというより、年末パーティーに近い雰囲気です。10月の<a href="/blog/luminosity-ade-2026">ADE 2026でThis Is Trance!</a>を楽しんだ人には、同じチームと、よりこぢんまりした形で一年を締める機会になります。</p>`,
+        },
+        {
+          heading: 'リスナーからの視点',
+          body: `<p>ビーチフェスとADEの全プログラムを経た一年の締めとして、周年イベントはちょうどいいしめくくり。残りのラインナップが発表されたら要チェックです。</p>`,
+        },
+      ],
+    },
   }
 ];
