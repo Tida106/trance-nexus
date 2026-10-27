@@ -1510,5 +1510,73 @@ export const posts14 = [
         },
       ],
     },
+  },
+  {
+    slug: 'asot-1300-ade-special',
+    date: '2026-10-28',
+    readTime: 4,
+    tags: ['asot', 'armin-van-buuren', 'ade', 'amsterdam', 'radio'],
+    en: {
+      title: 'A State of Trance 1300: The ADE 2026 Special',
+      description: 'A State of Trance reached episode 1300 with its ADE 2026 Special on 22 October, featuring Live @ Armada Club and Live @ ASOT Radio segments, a three-way b2b, and a first play of the ASOT 2027 anthem.',
+      excerpt: 'A State of Trance hit episode 1300 with its ADE 2026 Special on 22 October — Live @ Armada Club, Live @ ASOT Radio, a three-way b2b, and a first play of the ASOT 2027 anthem.',
+      content: [
+        {
+          heading: 'The Milestone',
+          body: `<p><strong>A State of Trance</strong> reached <strong>episode 1300</strong> with its <strong>ADE 2026 Special</strong>, broadcast on <strong>22 October 2026</strong> during Amsterdam Dance Event week. According to the tracklist posted by <a href="https://tranceattack.net/a-state-of-trance-1300/" target="_blank" rel="noopener">TranceAttack</a>, the episode is credited to &ldquo;Armin van Buuren &amp; Guests,&rdquo; following the show&rsquo;s long-running tradition of a packed, multi-artist ADE edition each year &mdash; the previous ADE special, numbered 1195, aired in October 2024.</p>`,
+        },
+        {
+          heading: 'Guest Sections',
+          body: `<p>The episode is split into sections by guest, rather than a single continuous Armin set. Names in the tracklist include Sarah de Warren, Giorgia Angiuli, John O&rsquo;Callaghan, Protoculture, The Rocketman, <a href="/artists/factor-b">Factor B</a>, Space 92, Daxson, <a href="/artists/ben-gold">Ben Gold</a>, Mees Salom&eacute;, Marsh, Hannah Laing, <a href="/artists/miss-monique">Miss Monique</a>, Mauro Picotto, MORTEN, <a href="/artists/cosmic-gate">Cosmic Gate</a>, Ben Nicky, Joris Voorn and Billy Gillies, alongside Armin&rsquo;s own sections (including a &ldquo;Future Favorite&rdquo; segment and the &ldquo;Service For Dreamers&rdquo; segment with <a href="/artists/andrew-rayel">Andrew Rayel</a>). (Source: <a href="https://tranceattack.net/a-state-of-trance-1300/" target="_blank" rel="noopener">TranceAttack</a>.)</p>`,
+        },
+        {
+          heading: 'Live @ Armada Club, Live @ ASOT Radio',
+          body: `<p>The tracklist marks out two distinct live segments &mdash; &ldquo;Live @ Armada Club&rdquo; and &ldquo;Live @ ASOT Radio&rdquo; &mdash; plus a three-way back-to-back between Armin van Buuren, <a href="/artists/ruben-de-ronde">Ruben de Ronde</a> and SUPERSTRINGS. TranceAttack&rsquo;s page does not name a streaming link or venue for the broadcast, so check Armin&rsquo;s own channels for the full episode.</p>`,
+        },
+        {
+          heading: 'A First Play: the ASOT 2027 Anthem',
+          body: `<p>The &ldquo;Tune of the Week&rdquo; slot is listed as &ldquo;Armin van Buuren &mdash; ASOT 2027 Anthem ID&rdquo; &mdash; an early, unidentified preview of next year&rsquo;s A State of Trance anthem. The episode also runs a &ldquo;Last 3 Tune Of The Year Winners&rdquo; section, revisiting recent listener-voted anthems.</p>`,
+        },
+        {
+          heading: 'On Fabricated Tracklists',
+          body: `<p>Full fan-transcribed ADE special tracklists often run past 150 entries and include unidentified (&ldquo;ID&rdquo;) tracks and the odd duplicate, so we are not reproducing the full list here &mdash; see <a href="https://tranceattack.net/a-state-of-trance-1300/" target="_blank" rel="noopener">TranceAttack&rsquo;s tracklist</a> for that level of detail. We previously removed a set of fabricated setlist pages from this site and only publish tracklist information we can trace to a real, cited source.</p>`,
+        },
+        {
+          heading: 'A Listener&rsquo;s Note',
+          body: `<p>Episode numbers this high are a reminder of just how long A State of Trance has been running weekly &mdash; and an ADE special with this many guest sections is as close as the radio show gets to a festival lineup of its own.</p>`,
+        },
+      ],
+    },
+    ja: {
+      title: 'A State of Trance 1300：ADE 2026スペシャル',
+      description: 'A State of Tranceが10月22日放送のADE 2026スペシャルで第1300回に到達。Live @ Armada Club、Live @ ASOT Radio、3人b2b、そしてASOT 2027アンセムの初披露を含む内容。',
+      excerpt: 'A State of Tranceが10月22日放送のADE 2026スペシャルで第1300回に到達。Live @ Armada Club、Live @ ASOT Radio、3人b2b、ASOT 2027アンセムの初披露など。',
+      content: [
+        {
+          heading: '記念回',
+          body: `<p><strong>A State of Trance</strong>が、<strong>2026年10月22日</strong>、Amsterdam Dance Event期間中に放送された<strong>ADE 2026スペシャル</strong>で<strong>第1300回</strong>に到達しました。<a href="https://tranceattack.net/a-state-of-trance-1300/" target="_blank" rel="noopener">TranceAttack</a>が掲載したトラックリストによると、クレジットは「Armin van Buuren & Guests」。番組は毎年ADEの時期に、多数のアーティストが参加する大型スペシャルを放送する伝統があり、前回のADEスペシャルは2024年10月放送の第1195回でした。</p>`,
+        },
+        {
+          heading: 'ゲストごとのセクション',
+          body: `<p>この回はArmin単独の一本のセットではなく、ゲストごとのセクションに分かれています。トラックリストに名前が挙がっているのは、Sarah de Warren、Giorgia Angiuli、John O&rsquo;Callaghan、Protoculture、The Rocketman、<a href="/artists/factor-b">Factor B</a>、Space 92、Daxson、<a href="/artists/ben-gold">Ben Gold</a>、Mees Salom&eacute;、Marsh、Hannah Laing、<a href="/artists/miss-monique">Miss Monique</a>、Mauro Picotto、MORTEN、<a href="/artists/cosmic-gate">Cosmic Gate</a>、Ben Nicky、Joris Voorn、Billy Gillies。これにArmin自身のセクション（「Future Favorite」セグメントと、<a href="/artists/andrew-rayel">Andrew Rayel</a>との「Service For Dreamers」セグメント）が加わります。（出典：<a href="https://tranceattack.net/a-state-of-trance-1300/" target="_blank" rel="noopener">TranceAttack</a>）</p>`,
+        },
+        {
+          heading: 'Live @ Armada Club、Live @ ASOT Radio',
+          body: `<p>トラックリストには「Live @ Armada Club」「Live @ ASOT Radio」という2つの独立したライブセグメントが明記されているほか、Armin van Buuren、<a href="/artists/ruben-de-ronde">Ruben de Ronde</a>、SUPERSTRINGSの3人によるback-to-backも含まれています。TranceAttackのページには配信リンクや会場の記載はないため、詳細はArmin本人のチャンネルを確認してください。</p>`,
+        },
+        {
+          heading: '初披露：ASOT 2027アンセム',
+          body: `<p>「Tune of the Week」のスロットには「Armin van Buuren &mdash; ASOT 2027 Anthem ID」と記載されており、来年のA State of Tranceアンセムの早期・未確定版プレビューにあたります。この回では、近年のリスナー投票で選ばれたアンセムを振り返る「Last 3 Tune Of The Year Winners」セクションもあります。</p>`,
+        },
+        {
+          heading: '捏造トラックリストについて',
+          body: `<p>ファンが書き起こすADEスペシャルの完全なトラックリストは、しばしば150項目を超え、未確認（「ID」）の曲や多少の重複も含まれます。そのため当記事では全リストの再掲載は行わず、詳細は<a href="https://tranceattack.net/a-state-of-trance-1300/" target="_blank" rel="noopener">TranceAttackのトラックリスト</a>をご参照ください。当サイトでは以前、捏造されたセットリストのページを削除した経緯があり、実際の出典を追跡できるトラックリスト情報のみを掲載する方針です。</p>`,
+        },
+        {
+          heading: 'リスナーからの視点',
+          body: `<p>ここまで大きなエピソード番号は、A State of Tranceが何年も週刊で続いてきたことの何よりの証です。これほど多くのゲストセクションを含むADEスペシャルは、ラジオ番組がフェスのラインナップに最も近づく瞬間かもしれません。</p>`,
+        },
+      ],
+    },
   }
 ];

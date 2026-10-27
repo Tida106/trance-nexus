@@ -1,6 +1,9 @@
 // Lightweight listing data — no article body content.
 // Newest first. Keep in sync with data/blog/posts.js when adding articles.
 export const listing = [
+  { slug: 'asot-1300-ade-special', date: '2026-10-28', readTime: 4, tags: ['asot', 'armin-van-buuren', 'ade', 'amsterdam', 'radio'],
+    en: { title: 'A State of Trance 1300: The ADE 2026 Special', excerpt: 'A State of Trance hit episode 1300 with its ADE 2026 Special on 22 October — Live @ Armada Club, Live @ ASOT Radio, a three-way b2b, and a first play of the ASOT 2027 anthem.' },
+    ja: { title: 'A State of Trance 1300：ADE 2026スペシャル', excerpt: 'A State of Tranceが10月22日放送のADE 2026スペシャルで第1300回に到達。Live @ Armada Club、Live @ ASOT Radio、3人b2b、ASOT 2027アンセムの初披露など。' } },
   { slug: 'luminosity-19-year-anniversary-melkweg', date: '2026-10-27', readTime: 3, tags: ['luminosity', 'amsterdam', 'melkweg', 'events', 'uplifting'],
     en: { title: 'Luminosity 19 Year Anniversary at Melkweg: Date & Lineup', excerpt: 'Luminosity closes out the year with its 19th anniversary at Melkweg, Amsterdam, on 19 December 2026. KEY4050, Mark Sherry and The Thrillseekers are confirmed so far, with more to come.' },
     ja: { title: 'Luminosity 19周年：Melkwegで開催、日程とラインナップ', excerpt: 'Luminosityが2026年12月19日、アムステルダムのMelkwegで19周年を記念したクラブナイトを開催。現時点ではKEY4050、Mark Sherry、The Thrillseekersが出演確定、続報あり。' } },

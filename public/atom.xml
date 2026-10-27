@@ -5,12 +5,20 @@
   <link href="https://trance-nexus.com/atom.xml" rel="self" type="application/atom+xml" />
   <link href="https://trance-nexus.com" />
   <id>https://trance-nexus.com/atom.xml</id>
-  <updated>2026-10-27T00:00:00.000Z</updated>
+  <updated>2026-10-28T00:00:00.000Z</updated>
   <author>
     <name>TRANCE NEXUS</name>
     <email>hello.sacredjapan@gmail.com</email>
   </author>
   <generator>trance-nexus atom generator</generator>
+  <entry>
+    <title>A State of Trance 1300: The ADE 2026 Special</title>
+    <link href="https://trance-nexus.com/blog/asot-1300-ade-special" />
+    <id>https://trance-nexus.com/blog/asot-1300-ade-special</id>
+    <updated>2026-10-28T00:00:00.000Z</updated>
+    <published>2026-10-28T00:00:00.000Z</published>
+    <summary>A State of Trance hit episode 1300 with its ADE 2026 Special on 22 October — Live @ Armada Club, Live @ ASOT Radio, a three-way b2b, and a first play of the ASOT 2027 anthem.</summary>
+  </entry>
   <entry>
     <title>Luminosity 19 Year Anniversary at Melkweg: Date &amp; Lineup</title>
     <link href="https://trance-nexus.com/blog/luminosity-19-year-anniversary-melkweg" />
