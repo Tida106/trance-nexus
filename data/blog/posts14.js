@@ -1309,25 +1309,25 @@ export const posts14 = [
   , // ← ★直前の記事との区切りのカンマ
   {
     slug: 'asot-los-angeles-2027',
-    date: '2026-10-16',
+    date: '2026-10-30',
     readTime: 4,
     tags: ['asot', 'armin-van-buuren', 'los-angeles', 'festival', 'north-america'],
     en: {
       title: 'A State of Trance LA 2027: Dates, Venue & What We Know',
       description: 'A State of Trance comes to Los Angeles as a two-day festival on 11–12 June 2027. Dates, venue status, tickets, the ASOT Hotel and ASOT’s history in the US.',
-      excerpt: 'A State of Trance is coming to Los Angeles for a two-day festival on 11–12 June 2027. Here is what is confirmed so far — dates, venue status, tickets and the ASOT Hotel.',
+      excerpt: 'A State of Trance comes to Los Angeles for a two-day festival on 11–12 June 2027 at ACE*MISSION Studios, with three stages. Dates, venue, ticket sale dates and the ASOT Hotel.',
       content: [
         {
           heading: 'The Announcement',
           body: `<p><a href="/artists/armin-van-buuren">Armin van Buuren</a>&rsquo;s A State of Trance is coming to Los Angeles as a two-day festival: <strong>A State of Trance LA</strong> takes place on <strong>11 and 12 June 2027</strong>. The <a href="https://festival.astateoftrance.com/losangeles/" target="_blank" rel="noopener">official ASOT LA page</a> says the festival is coming to Los Angeles &ldquo;for the very first time&rdquo;. The event is 18+.</p><p><a href="https://www.beatportal.com/articles/1674316-a-state-of-trance-to-bring-its-first-two-day-us-festival-to-los-angeles" target="_blank" rel="noopener">Beatportal</a> and <a href="https://weraveyou.com/2026/10/a-state-of-trance-los-angeles-2027-armin-van-buuren" target="_blank" rel="noopener">We Rave You</a> describe it as ASOT&rsquo;s first two-day festival in the United States.</p>`,
         },
         {
-          heading: 'Venue',
-          body: `<p>The <a href="https://festival.astateoftrance.com/losangeles/" target="_blank" rel="noopener">official ASOT LA page</a> currently says the location &ldquo;will be announced at a later date&rdquo;. <a href="https://www.beatportal.com/articles/1674316-a-state-of-trance-to-bring-its-first-two-day-us-festival-to-los-angeles" target="_blank" rel="noopener">Beatportal</a> and <a href="https://weraveyou.com/2026/10/a-state-of-trance-los-angeles-2027-armin-van-buuren" target="_blank" rel="noopener">We Rave You</a> both report the venue as <strong>ACE*MISSION Studios</strong> in Los Angeles. We will update this page once the official site confirms it.</p>`,
+          heading: 'Venue &amp; Stages',
+          body: `<p>The venue is confirmed as <strong>ACE*MISSION Studios</strong> in Los Angeles. According to <a href="https://weraveyou.com/2026/10/a-state-of-trance-los-angeles-2027-stages-tickets-ace-mission/" target="_blank" rel="noopener">We Rave You</a>, the festival runs <strong>three stages</strong> covering classic and uplifting trance, psytrance, and melodic techno, plus an indoor warehouse stage hosting the official afterparties &mdash; so fans can move from the main stages to late-night sets without leaving the venue.</p>`,
         },
         {
           heading: 'Lineup and Tickets',
-          body: `<p>The lineup has not been announced yet. The official page asks fans to pre-register to secure tickets and be among the first to hear the lineup. Weekend tickets, a VIP waiting list and a two-night hotel package are listed on the site, without prices so far.</p>`,
+          body: `<p>The lineup has not been announced yet. <a href="https://weraveyou.com/2026/10/a-state-of-trance-los-angeles-2027-stages-tickets-ace-mission/" target="_blank" rel="noopener">We Rave You</a> reports that presale opened <strong>Thursday 22 October at 10am PT</strong>, with general sale following at 11am PT the same day; the article does not give ticket tiers or prices. Weekend tickets, a VIP waiting list and a two-night hotel package are listed on the <a href="https://festival.astateoftrance.com/losangeles/" target="_blank" rel="noopener">official ASOT LA page</a>, and pre-registration remains open there for anyone who missed the initial sale window.</p>`,
         },
         {
           heading: 'The ASOT Hotel Comes to LA',
@@ -1350,19 +1350,19 @@ export const posts14 = [
     ja: {
       title: 'A State of Trance LA 2027：日程・会場・わかっていること',
       description: 'A State of Tranceが2027年6月11〜12日、2日間のフェスとしてロサンゼルスへ。日程、会場の発表状況、チケット、ASOTホテル、アメリカでのASOTの歩み。',
-      excerpt: 'A State of Tranceが2027年6月11〜12日、ロサンゼルスで2日間のフェスを開催。日程、会場の発表状況、チケット、ASOTホテルなど、現時点でわかっていることをまとめました。',
+      excerpt: 'A State of Tranceが2027年6月11〜12日、ロサンゼルスのACE*MISSION Studiosで2日間・3ステージのフェスを開催。日程、会場、チケット販売日、ASOTホテルをまとめました。',
       content: [
         {
           heading: '発表内容',
           body: `<p><a href="/artists/armin-van-buuren">Armin van Buuren</a>のA State of Tranceが、2日間のフェスとしてロサンゼルスにやって来ます。<strong>A State of Trance LA</strong>は<strong>2027年6月11日・12日</strong>に開催。<a href="https://festival.astateoftrance.com/losangeles/" target="_blank" rel="noopener">ASOT LA公式ページ</a>では、ロサンゼルスでの開催は「初めて」とされています。18歳以上限定です。</p><p><a href="https://www.beatportal.com/articles/1674316-a-state-of-trance-to-bring-its-first-two-day-us-festival-to-los-angeles" target="_blank" rel="noopener">Beatportal</a>と<a href="https://weraveyou.com/2026/10/a-state-of-trance-los-angeles-2027-armin-van-buuren" target="_blank" rel="noopener">We Rave You</a>は、ASOTにとってアメリカで初の2日間フェスだと伝えています。</p>`,
         },
         {
-          heading: '会場',
-          body: `<p><a href="https://festival.astateoftrance.com/losangeles/" target="_blank" rel="noopener">ASOT LA公式ページ</a>では現在、会場は「後日発表」となっています。一方、<a href="https://www.beatportal.com/articles/1674316-a-state-of-trance-to-bring-its-first-two-day-us-festival-to-los-angeles" target="_blank" rel="noopener">Beatportal</a>と<a href="https://weraveyou.com/2026/10/a-state-of-trance-los-angeles-2027-armin-van-buuren" target="_blank" rel="noopener">We Rave You</a>は、会場をロサンゼルスの<strong>ACE*MISSION Studios</strong>と報じています。公式で確定したら、このページを更新します。</p>`,
+          heading: '会場とステージ',
+          body: `<p>会場はロサンゼルスの<strong>ACE*MISSION Studios</strong>に確定しました。<a href="https://weraveyou.com/2026/10/a-state-of-trance-los-angeles-2027-stages-tickets-ace-mission/" target="_blank" rel="noopener">We Rave You</a>によると、フェスティバルは<strong>3つのステージ</strong>構成で、クラシック＆アップリフティング・トランス、サイトランス、メロディック・テクノをそれぞれカバー。加えて屋内のウェアハウス・ステージが公式アフターパーティーの会場となり、メインステージから深夜セットまで会場を出ずに移動できます。</p>`,
         },
         {
           heading: 'ラインナップとチケット',
-          body: `<p>ラインナップはまだ未発表です。公式ページでは事前登録を受け付けていて、登録するとチケットを確保でき、ラインナップもいち早く届くとされています。サイトには週末チケット、VIPのキャンセル待ち、2泊のホテルパッケージが掲載されていますが、価格はまだ出ていません。</p>`,
+          body: `<p>ラインナップはまだ未発表です。<a href="https://weraveyou.com/2026/10/a-state-of-trance-los-angeles-2027-stages-tickets-ace-mission/" target="_blank" rel="noopener">We Rave You</a>によると、プレセールは<strong>10月22日（木）太平洋時間10:00</strong>に開始、同日11:00（太平洋時間）には一般販売も始まったとのこと。価格やチケット種別の記載はありません。<a href="https://festival.astateoftrance.com/losangeles/" target="_blank" rel="noopener">ASOT LA公式ページ</a>には週末チケット、VIPのキャンセル待ち、2泊のホテルパッケージが掲載されており、販売期間を逃した人向けに事前登録も引き続き受付中です。</p>`,
         },
         {
           heading: 'ASOTホテルもLAへ',

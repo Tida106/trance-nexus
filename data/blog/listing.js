@@ -1,6 +1,9 @@
 // Lightweight listing data — no article body content.
 // Newest first. Keep in sync with data/blog/posts.js when adding articles.
 export const listing = [
+  { slug: 'asot-los-angeles-2027', date: '2026-10-30', readTime: 4, tags: ['asot', 'armin-van-buuren', 'los-angeles', 'festival', 'north-america'],
+    en: { title: 'A State of Trance LA 2027: Dates, Venue & What We Know', excerpt: 'A State of Trance comes to Los Angeles for a two-day festival on 11–12 June 2027 at ACE*MISSION Studios, with three stages. Dates, venue, ticket sale dates and the ASOT Hotel.' },
+    ja: { title: 'A State of Trance LA 2027：日程・会場・わかっていること', excerpt: 'A State of Tranceが2027年6月11〜12日、ロサンゼルスのACE*MISSION Studiosで2日間・3ステージのフェスを開催。日程、会場、チケット販売日、ASOTホテルをまとめました。' } },
   { slug: 'asot-1300-ade-special', date: '2026-10-28', readTime: 4, tags: ['asot', 'armin-van-buuren', 'ade', 'amsterdam', 'radio'],
     en: { title: 'A State of Trance 1300: The ADE 2026 Special', excerpt: 'A State of Trance hit episode 1300 with its ADE 2026 Special on 22 October — Live @ Armada Club, Live @ ASOT Radio, a three-way b2b, and a first play of the ASOT 2027 anthem.' },
     ja: { title: 'A State of Trance 1300：ADE 2026スペシャル', excerpt: 'A State of Tranceが10月22日放送のADE 2026スペシャルで第1300回に到達。Live @ Armada Club、Live @ ASOT Radio、3人b2b、ASOT 2027アンセムの初披露など。' } },
@@ -13,9 +16,6 @@ export const listing = [
   { slug: 'amsterdam-trance-event-ade-2026', date: '2026-10-24', readTime: 3, tags: ['ade', 'amsterdam', 'events', 'panama', 'uplifting'],
     en: { title: 'Amsterdam Trance Event at ADE 2026: Lineup & Times', excerpt: 'A back-to-back trance marathon across two rooms at Panama on 24 October 2026 — Amsterdam Trance Event is a bigger follow-up to last year\'s ADE party. Full lineup and times.' },
     ja: { title: 'ADE 2026「Amsterdam Trance Event」：ラインナップと時間', excerpt: '10月24日、Panamaの2ルームで繰り広げるトランス・マラソン。Amsterdam Trance Eventは昨年のADEパーティーより規模を拡大した企画です。ラインナップと時間を紹介。' } },
-  { slug: 'asot-los-angeles-2027', date: '2026-10-16', readTime: 4, tags: ['asot', 'armin-van-buuren', 'los-angeles', 'festival', 'north-america'],
-    en: { title: 'A State of Trance LA 2027: Dates, Venue & What We Know', excerpt: 'A State of Trance is coming to Los Angeles for a two-day festival on 11–12 June 2027. Here is what is confirmed so far — dates, venue status, tickets and the ASOT Hotel.' },
-    ja: { title: 'A State of Trance LA 2027：日程・会場・わかっていること', excerpt: 'A State of Tranceが2027年6月11〜12日、ロサンゼルスで2日間のフェスを開催。日程、会場の発表状況、チケット、ASOTホテルなど、現時点でわかっていることをまとめました。' } },
   { slug: 'ava-recordings-20-years-ade-2026', date: '2026-10-16', readTime: 3, tags: ['ava-recordings', 'ade', 'amsterdam', 'events', 'tech-trance'],
     en: { title: 'AVA Recordings 20 Years at ADE 2026: Lineup & Special Sets', excerpt: 'AVA Recordings celebrates 20 years at Amsterdam Dance Event on 22 October 2026 with an intimate show at The Tequila Club. Here are the lineup and special sets.' },
     ja: { title: 'ADE 2026「AVA Recordings 20周年」：ラインナップと特別セット', excerpt: 'AVA RecordingsがAmsterdam Dance Eventで20周年を祝います。2026年10月22日、小さなクラブThe Tequila Clubで開催。ラインナップと特別セットを紹介します。' } },

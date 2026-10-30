@@ -6,8 +6,15 @@
   <atom:link href="https://trance-nexus.com/rss.ja.xml" rel="self" type="application/rss+xml" />
   <description>トランスミュージックの長尺記事：歴史、アーティスト、レーベル、シーン、機材・制作ガイド。</description>
   <language>ja</language>
-  <lastBuildDate>Wed, 28 Oct 2026 21:24:31 GMT</lastBuildDate>
+  <lastBuildDate>Fri, 30 Oct 2026 01:31:37 GMT</lastBuildDate>
   <generator>trance-nexus rss generator</generator>
+  <item>
+    <title>A State of Trance LA 2027：日程・会場・わかっていること</title>
+    <link>https://trance-nexus.com/blog/asot-los-angeles-2027</link>
+    <guid isPermaLink="true">https://trance-nexus.com/blog/asot-los-angeles-2027</guid>
+    <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
+    <description>A State of Tranceが2027年6月11〜12日、ロサンゼルスのACE*MISSION Studiosで2日間・3ステージのフェスを開催。日程、会場、チケット販売日、ASOTホテルをまとめました。</description>
+  </item>
   <item>
     <title>A State of Trance 1300：ADE 2026スペシャル</title>
     <link>https://trance-nexus.com/blog/asot-1300-ade-special</link>
@@ -42,13 +49,6 @@
     <guid isPermaLink="true">https://trance-nexus.com/blog/ade-2026-trance-guide</guid>
     <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
     <description>30周年を迎えるAmsterdam Dance Event（2026年10月21〜25日）。公式ページで確認できたトランス系イベントを、日別に紹介します。</description>
-  </item>
-  <item>
-    <title>A State of Trance LA 2027：日程・会場・わかっていること</title>
-    <link>https://trance-nexus.com/blog/asot-los-angeles-2027</link>
-    <guid isPermaLink="true">https://trance-nexus.com/blog/asot-los-angeles-2027</guid>
-    <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
-    <description>A State of Tranceが2027年6月11〜12日、ロサンゼルスで2日間のフェスを開催。日程、会場の発表状況、チケット、ASOTホテルなど、現時点でわかっていることをまとめました。</description>
   </item>
   <item>
     <title>ADE 2026「AVA Recordings 20周年」：ラインナップと特別セット</title>

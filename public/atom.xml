@@ -5,12 +5,20 @@
   <link href="https://trance-nexus.com/atom.xml" rel="self" type="application/atom+xml" />
   <link href="https://trance-nexus.com" />
   <id>https://trance-nexus.com/atom.xml</id>
-  <updated>2026-10-28T00:00:00.000Z</updated>
+  <updated>2026-10-30T00:00:00.000Z</updated>
   <author>
     <name>TRANCE NEXUS</name>
     <email>hello.sacredjapan@gmail.com</email>
   </author>
   <generator>trance-nexus atom generator</generator>
+  <entry>
+    <title>A State of Trance LA 2027: Dates, Venue &amp; What We Know</title>
+    <link href="https://trance-nexus.com/blog/asot-los-angeles-2027" />
+    <id>https://trance-nexus.com/blog/asot-los-angeles-2027</id>
+    <updated>2026-10-30T00:00:00.000Z</updated>
+    <published>2026-10-30T00:00:00.000Z</published>
+    <summary>A State of Trance comes to Los Angeles for a two-day festival on 11–12 June 2027 at ACE*MISSION Studios, with three stages. Dates, venue, ticket sale dates and the ASOT Hotel.</summary>
+  </entry>
   <entry>
     <title>A State of Trance 1300: The ADE 2026 Special</title>
     <link href="https://trance-nexus.com/blog/asot-1300-ade-special" />
@@ -50,14 +58,6 @@
     <updated>2026-10-16T00:00:00.000Z</updated>
     <published>2026-10-16T00:00:00.000Z</published>
     <summary>Amsterdam Dance Event turns 30 on 21–25 October 2026. Here are the confirmed trance events day by day, from Armin van Buuren at Gashouder to Luminosity and Paul van Dyk.</summary>
-  </entry>
-  <entry>
-    <title>A State of Trance LA 2027: Dates, Venue &amp; What We Know</title>
-    <link href="https://trance-nexus.com/blog/asot-los-angeles-2027" />
-    <id>https://trance-nexus.com/blog/asot-los-angeles-2027</id>
-    <updated>2026-10-16T00:00:00.000Z</updated>
-    <published>2026-10-16T00:00:00.000Z</published>
-    <summary>A State of Trance is coming to Los Angeles for a two-day festival on 11–12 June 2027. Here is what is confirmed so far — dates, venue status, tickets and the ASOT Hotel.</summary>
   </entry>
   <entry>
     <title>AVA Recordings 20 Years at ADE 2026: Lineup &amp; Special Sets</title>
