@@ -1,6 +1,9 @@
 // Lightweight listing data — no article body content.
 // Newest first. Keep in sync with data/blog/posts.js when adding articles.
 export const listing = [
+  { slug: 'ade-2026-trance-guide', date: '2026-10-31', readTime: 6, tags: ['ade', 'amsterdam', 'festival', 'netherlands', 'events'],
+    en: { title: 'ADE 2026 Trance Guide: Armin, Luminosity, Paul van Dyk & More', excerpt: 'Amsterdam Dance Event turns 30 on 21–25 October 2026. Confirmed trance-adjacent events day by day, from Armin van Buuren at Gashouder to AMF and a 4-hour b2b on a moving train.' },
+    ja: { title: 'ADE 2026 トランス・ガイド：Armin、Luminosity、Paul van Dykほか', excerpt: '30周年を迎えるAmsterdam Dance Event（2026年10月21〜25日）。GashouderのArminからAMF、列車上の4時間b2bまで、トランス系イベントを日別に紹介します。' } },
   { slug: 'asot-los-angeles-2027', date: '2026-10-30', readTime: 4, tags: ['asot', 'armin-van-buuren', 'los-angeles', 'festival', 'north-america'],
     en: { title: 'A State of Trance LA 2027: Dates, Venue & What We Know', excerpt: 'A State of Trance comes to Los Angeles for a two-day festival on 11–12 June 2027 at ACE*MISSION Studios, with three stages. Dates, venue, ticket sale dates and the ASOT Hotel.' },
     ja: { title: 'A State of Trance LA 2027：日程・会場・わかっていること', excerpt: 'A State of Tranceが2027年6月11〜12日、ロサンゼルスのACE*MISSION Studiosで2日間・3ステージのフェスを開催。日程、会場、チケット販売日、ASOTホテルをまとめました。' } },
@@ -31,9 +34,6 @@ export const listing = [
   { slug: 'luminosity-ade-2026', date: '2026-10-16', readTime: 5, tags: ['luminosity', 'ade', 'amsterdam', 'festival', 'netherlands'],
     en: { title: 'Luminosity at ADE 2026: This Is Trance!, ADE Rave & Infinity', excerpt: 'Luminosity is not only a summer beach festival: at ADE 2026 it runs five events on 23–24 October. Here are the lineups, times and venues for each, from uplifting trance to ADE Rave.' },
     ja: { title: 'ADE 2026のLuminosity：This Is Trance!・ADE Rave・Infinity', excerpt: '夏のビーチフェスだけじゃない。LuminosityはADE 2026で10月23〜24日に5つのイベントを開催します。王道アップリフティングからADE Raveまで、ラインナップと時間を紹介。' } },
-  { slug: 'ade-2026-trance-guide', date: '2026-10-16', readTime: 5, tags: ['ade', 'amsterdam', 'festival', 'netherlands', 'events'],
-    en: { title: 'ADE 2026 Trance Guide: Armin, Luminosity, Paul van Dyk & More', excerpt: 'Amsterdam Dance Event turns 30 on 21–25 October 2026. Here are the confirmed trance events day by day, from Armin van Buuren at Gashouder to Luminosity and Paul van Dyk.' },
-    ja: { title: 'ADE 2026 トランス・ガイド：Armin、Luminosity、Paul van Dykほか', excerpt: '30周年を迎えるAmsterdam Dance Event（2026年10月21〜25日）。公式ページで確認できたトランス系イベントを、日別に紹介します。' } },
   { slug: 'asot-rotterdam-2027-guide', date: '2026-10-14', readTime: 4, tags: ['asot', 'armin-van-buuren', 'rotterdam', 'festival', 'netherlands'],
     en: { title: 'A State of Trance Rotterdam 2027: Dates, First-Wave Lineup & Tickets', excerpt: 'A State of Trance returns to Rotterdam Ahoy on 26–27 February 2027. Here are the dates, the first-wave lineup by day, Armin van Buuren’s sets and the ticket options.' },
     ja: { title: 'A State of Trance Rotterdam 2027：日程・第1弾ラインナップ・チケット', excerpt: 'A State of Trance Rotterdam 2027は2027年2月26〜27日、Rotterdam Ahoyで開催。日程、曜日別の第1弾ラインナップ、Armin van Buurenのセット、チケットを紹介します。' } },

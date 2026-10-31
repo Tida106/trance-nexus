@@ -6,8 +6,15 @@
   <atom:link href="https://trance-nexus.com/rss.ja.xml" rel="self" type="application/rss+xml" />
   <description>トランスミュージックの長尺記事：歴史、アーティスト、レーベル、シーン、機材・制作ガイド。</description>
   <language>ja</language>
-  <lastBuildDate>Fri, 30 Oct 2026 23:08:28 GMT</lastBuildDate>
+  <lastBuildDate>Sat, 31 Oct 2026 00:07:08 GMT</lastBuildDate>
   <generator>trance-nexus rss generator</generator>
+  <item>
+    <title>ADE 2026 トランス・ガイド：Armin、Luminosity、Paul van Dykほか</title>
+    <link>https://trance-nexus.com/blog/ade-2026-trance-guide</link>
+    <guid isPermaLink="true">https://trance-nexus.com/blog/ade-2026-trance-guide</guid>
+    <pubDate>Sat, 31 Oct 2026 00:00:00 GMT</pubDate>
+    <description>30周年を迎えるAmsterdam Dance Event（2026年10月21〜25日）。GashouderのArminからAMF、列車上の4時間b2bまで、トランス系イベントを日別に紹介します。</description>
+  </item>
   <item>
     <title>A State of Trance LA 2027：日程・会場・わかっていること</title>
     <link>https://trance-nexus.com/blog/asot-los-angeles-2027</link>
@@ -42,13 +49,6 @@
     <guid isPermaLink="true">https://trance-nexus.com/blog/amsterdam-trance-event-ade-2026</guid>
     <pubDate>Sat, 24 Oct 2026 00:00:00 GMT</pubDate>
     <description>10月24日、Panamaの2ルームで繰り広げるトランス・マラソン。Amsterdam Trance Eventは昨年のADEパーティーより規模を拡大した企画です。ラインナップと時間を紹介。</description>
-  </item>
-  <item>
-    <title>ADE 2026 トランス・ガイド：Armin、Luminosity、Paul van Dykほか</title>
-    <link>https://trance-nexus.com/blog/ade-2026-trance-guide</link>
-    <guid isPermaLink="true">https://trance-nexus.com/blog/ade-2026-trance-guide</guid>
-    <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
-    <description>30周年を迎えるAmsterdam Dance Event（2026年10月21〜25日）。公式ページで確認できたトランス系イベントを、日別に紹介します。</description>
   </item>
   <item>
     <title>ADE 2026「AVA Recordings 20周年」：ラインナップと特別セット</title>
