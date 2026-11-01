@@ -498,7 +498,7 @@ export const posts14 = [
     slug: 'asot-london-drumsheds-2026',
     date: '2026-08-13',
     readTime: 6,
-    updated: '2026-10-10',
+    updated: '2026-11-01',
     tags: ['asot', 'london', 'armin-van-buuren', 'festival', 'indoor-trance'],
     en: {
       title: 'A State of Trance London 2026 Guide: Lineup, Access & Venue Rules',
@@ -524,6 +524,10 @@ export const posts14 = [
         {
           heading: '5. Travelling from Overseas: the UK ETA',
           body: `<p>Visitors from visa-exempt countries such as Japan need an Electronic Travel Authorisation (ETA) to enter the UK; it has been mandatory since 25 February 2026. Apply at <a href="https://www.gov.uk/eta" target="_blank" rel="noopener">gov.uk/eta</a>. The fee is &pound;20 and the ETA is valid for two years. Beware of imitation sites. The Embassy of Japan in the UK has a <a href="https://www.uk.emb-japan.go.jp/itpr_ja/ETA.html" target="_blank" rel="noopener">page on the ETA</a> (in Japanese).</p>`,
+        },
+        {
+          heading: '6. Tickets &amp; Afterparty',
+          body: `<p>As of late October, the <a href="https://asot.london/" target="_blank" rel="noopener">official ticket page</a> is advertising &ldquo;Final 500 Tickets&rdquo; for general sale, available via Skiddle, Kaboodle, RA and DICE. There is also an official afterparty at <strong>Outernet Live</strong>, about 35 minutes from Drumsheds by train, with <a href="/artists/dash-berlin">Dash Berlin</a>, <a href="/artists/daxson">Daxson</a> and Nifra &ldquo;&amp; more&rdquo;, with its own tickets through Skiddle, DICE and RA.</p>`,
         },
         {
           heading: "A Listener's Note",
@@ -555,6 +559,10 @@ export const posts14 = [
         {
           heading: '5. 海外から行く人へ：英国のETA',
           body: `<p>日本などビザ免除国の旅行者が英国に入国するには、電子渡航認証（ETA）が必要です。2026年2月25日から必須化されました。申請は<a href="https://www.gov.uk/eta" target="_blank" rel="noopener">gov.uk/eta</a>から。費用は£20、有効期間は2年です。模倣サイトにご注意ください。在英国日本国大使館にも<a href="https://www.uk.emb-japan.go.jp/itpr_ja/ETA.html" target="_blank" rel="noopener">ETAの案内ページ</a>があります。</p>`,
+        },
+        {
+          heading: '6. チケットとアフターパーティー',
+          body: `<p>10月末時点、<a href="https://asot.london/" target="_blank" rel="noopener">公式チケットページ</a>では一般販売として「Final 500 Tickets（残り500枚）」が告知されており、Skiddle、Kaboodle、RA、DICEで購入できます。公式アフターパーティーも開催され、会場はDrumshedsから電車で約35分の<strong>Outernet Live</strong>。出演は<a href="/artists/dash-berlin">Dash Berlin</a>、<a href="/artists/daxson">Daxson</a>、Nifra「ほか」。チケットはSkiddle、DICE、RAで別途販売されています。</p>`,
         },
         {
           heading: "A Listener's Note",
