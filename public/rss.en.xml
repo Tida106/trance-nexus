@@ -6,8 +6,15 @@
   <atom:link href="https://trance-nexus.com/rss.en.xml" rel="self" type="application/rss+xml" />
   <description>Long-form trance music coverage: history, artists, labels, scene reports, gear and production guides.</description>
   <language>en</language>
-  <lastBuildDate>Sun, 01 Nov 2026 00:35:30 GMT</lastBuildDate>
+  <lastBuildDate>Tue, 03 Nov 2026 02:18:12 GMT</lastBuildDate>
   <generator>trance-nexus rss generator</generator>
+  <item>
+    <title>Armin van Buuren at ADE 2026: Gashouder Opening, AMF, and a Surprise B2B</title>
+    <link>https://trance-nexus.com/blog/armin-van-buuren-ade-2026-gashouder</link>
+    <guid isPermaLink="true">https://trance-nexus.com/blog/armin-van-buuren-ade-2026-gashouder</guid>
+    <pubDate>Tue, 03 Nov 2026 00:00:00 GMT</pubDate>
+    <description>Armin van Buuren opened Amsterdam Dance Event 2026 at the reopened Gashouder b2b with Benwal, closed AMF at Johan Cruijff ArenA, and surprised fans with an unannounced B2B with Amelie Lens.</description>
+  </item>
   <item>
     <title>ADE 2026 Trance Guide: Armin, Luminosity, Paul van Dyk &amp; More</title>
     <link>https://trance-nexus.com/blog/ade-2026-trance-guide</link>
@@ -35,13 +42,6 @@
     <guid isPermaLink="true">https://trance-nexus.com/blog/luminosity-19-year-anniversary-melkweg</guid>
     <pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
     <description>Luminosity closes out the year with its 19th anniversary at Melkweg, Amsterdam, on 19 December 2026. KEY4050, Mark Sherry and The Thrillseekers are confirmed so far, with more to come.</description>
-  </item>
-  <item>
-    <title>Armin van Buuren at ADE 2026: Gashouder Opening with Benwal</title>
-    <link>https://trance-nexus.com/blog/armin-van-buuren-ade-2026-gashouder</link>
-    <guid isPermaLink="true">https://trance-nexus.com/blog/armin-van-buuren-ade-2026-gashouder</guid>
-    <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
-    <description>Armin van Buuren opened Amsterdam Dance Event 2026 at the reopened Gashouder on 21 October, b2b with Benwal. Timetable, lineup and a recap of how the night went.</description>
   </item>
   <item>
     <title>Amsterdam Trance Event at ADE 2026: Lineup &amp; Times</title>

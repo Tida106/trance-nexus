@@ -1,6 +1,9 @@
 // Lightweight listing data — no article body content.
 // Newest first. Keep in sync with data/blog/posts.js when adding articles.
 export const listing = [
+  { slug: 'armin-van-buuren-ade-2026-gashouder', date: '2026-11-03', readTime: 6, tags: ['armin-van-buuren', 'ade', 'amsterdam', 'asot', 'events'],
+    en: { title: 'Armin van Buuren at ADE 2026: Gashouder Opening, AMF, and a Surprise B2B', excerpt: 'Armin van Buuren opened Amsterdam Dance Event 2026 at the reopened Gashouder b2b with Benwal, closed AMF at Johan Cruijff ArenA, and surprised fans with an unannounced B2B with Amelie Lens.' },
+    ja: { title: 'ADE 2026のArmin van Buuren：Gashouderオープニング、AMF、電撃b2b', excerpt: 'Armin van BuurenはリニューアルしたGashouderでBenwalとb2bしてADE 2026を開幕、Johan Cruijff ArenAのAMFをクローズし、Amelie Lensとの予告なしのb2bでファンを驚かせました。' } },
   { slug: 'ade-2026-trance-guide', date: '2026-10-31', readTime: 6, tags: ['ade', 'amsterdam', 'festival', 'netherlands', 'events'],
     en: { title: 'ADE 2026 Trance Guide: Armin, Luminosity, Paul van Dyk & More', excerpt: 'Amsterdam Dance Event turns 30 on 21–25 October 2026. Confirmed trance-adjacent events day by day, from Armin van Buuren at Gashouder to AMF and a 4-hour b2b on a moving train.' },
     ja: { title: 'ADE 2026 トランス・ガイド：Armin、Luminosity、Paul van Dykほか', excerpt: '30周年を迎えるAmsterdam Dance Event（2026年10月21〜25日）。GashouderのArminからAMF、列車上の4時間b2bまで、トランス系イベントを日別に紹介します。' } },
@@ -13,9 +16,6 @@ export const listing = [
   { slug: 'luminosity-19-year-anniversary-melkweg', date: '2026-10-27', readTime: 3, tags: ['luminosity', 'amsterdam', 'melkweg', 'events', 'uplifting'],
     en: { title: 'Luminosity 19 Year Anniversary at Melkweg: Date & Lineup', excerpt: 'Luminosity closes out the year with its 19th anniversary at Melkweg, Amsterdam, on 19 December 2026. KEY4050, Mark Sherry and The Thrillseekers are confirmed so far, with more to come.' },
     ja: { title: 'Luminosity 19周年：Melkwegで開催、日程とラインナップ', excerpt: 'Luminosityが2026年12月19日、アムステルダムのMelkwegで19周年を記念したクラブナイトを開催。現時点ではKEY4050、Mark Sherry、The Thrillseekersが出演確定、続報あり。' } },
-  { slug: 'armin-van-buuren-ade-2026-gashouder', date: '2026-10-26', readTime: 5, tags: ['armin-van-buuren', 'ade', 'amsterdam', 'asot', 'events'],
-    en: { title: 'Armin van Buuren at ADE 2026: Gashouder Opening with Benwal', excerpt: 'Armin van Buuren opened Amsterdam Dance Event 2026 at the reopened Gashouder on 21 October, b2b with Benwal. Timetable, lineup and a recap of how the night went.' },
-    ja: { title: 'ADE 2026のArmin van Buuren：GashouderでBenwalとオープニング', excerpt: 'Armin van Buurenが2026年10月21日、リニューアルしたGashouderでADEのオープニングを飾りました。タイムテーブル、ラインナップ、当日の様子のリキャップ。' } },
   { slug: 'amsterdam-trance-event-ade-2026', date: '2026-10-24', readTime: 3, tags: ['ade', 'amsterdam', 'events', 'panama', 'uplifting'],
     en: { title: 'Amsterdam Trance Event at ADE 2026: Lineup & Times', excerpt: 'A back-to-back trance marathon across two rooms at Panama on 24 October 2026 — Amsterdam Trance Event is a bigger follow-up to last year\'s ADE party. Full lineup and times.' },
     ja: { title: 'ADE 2026「Amsterdam Trance Event」：ラインナップと時間', excerpt: '10月24日、Panamaの2ルームで繰り広げるトランス・マラソン。Amsterdam Trance Eventは昨年のADEパーティーより規模を拡大した企画です。ラインナップと時間を紹介。' } },

@@ -964,13 +964,13 @@ export const posts14 = [
   , // ← ★直前の記事との区切りのカンマ
   {
     slug: 'armin-van-buuren-ade-2026-gashouder',
-    date: '2026-10-26',
-    readTime: 5,
+    date: '2026-11-03',
+    readTime: 6,
     tags: ['armin-van-buuren', 'ade', 'amsterdam', 'asot', 'events'],
     en: {
-      title: 'Armin van Buuren at ADE 2026: Gashouder Opening with Benwal',
-      description: 'Armin van Buuren opens ADE 2026 at Gashouder on 21 October with Benwal. Timetable, the Armin b2b Benwal set, the venue’s reopening and his new single.',
-      excerpt: 'Armin van Buuren opened Amsterdam Dance Event 2026 at the reopened Gashouder on 21 October, b2b with Benwal. Timetable, lineup and a recap of how the night went.',
+      title: 'Armin van Buuren at ADE 2026: Gashouder Opening, AMF, and a Surprise B2B',
+      description: 'Armin van Buuren opened ADE 2026 at Gashouder with Benwal, then closed AMF and surprised fans with a B2B with Amelie Lens. Full recap, timetable and his new single.',
+      excerpt: 'Armin van Buuren opened Amsterdam Dance Event 2026 at the reopened Gashouder b2b with Benwal, closed AMF at Johan Cruijff ArenA, and surprised fans with an unannounced B2B with Amelie Lens.',
       content: [
         {
           heading: 'The Night at a Glance',
@@ -993,6 +993,10 @@ export const posts14 = [
           body: `<p>According to a review by Seth de Wildt for <a href="https://3voor12.vpro.nl/artikelen/ade26-armin-van-buuren-en-benwal-toveren-gashouder-om-tot-trancetempel" target="_blank" rel="noopener">VPRO 3voor12</a>, the night was the venue&rsquo;s first real party since its roughly 18-month renovation closure (the official reopening follows on 30 October), with the basement still closed and toilets and lockers in a tent outside. The reviewer describes a euphoric mood with a clear generational split in the crowd &mdash; younger fans for Benwal, older fans for Armin.</p><p>Benwal opened his solo slot with a laser &ldquo;UFO&rdquo; descending from the roof, playing piano-driven euphoric hard house that stayed in that lane through to his last record. The b2b hour opened with a heavy trance track dropped straight from Benwal&rsquo;s hard house, included a trance remix of Pegassi&rsquo;s &ldquo;227kg,&rdquo; and closed on Armin&rsquo;s own &ldquo;This Is What It Feels Like&rdquo; &mdash; the reviewer wished it had run longer.</p><p>Armin&rsquo;s solo 75 minutes opened hard enough to make the concrete floor vibrate, mixed in new releases plus brief acid and techno detours, and peaked with trance remixes of &ldquo;Born Slippy,&rdquo; Faithless&rsquo;s &ldquo;Insomnia&rdquo; and Ben Hemsley&rsquo;s remix of &ldquo;In And Out Of Love&rdquo; &mdash; a stretch the reviewer called a genuine goosebumps moment. The review&rsquo;s conclusion: trance is back in fashion.</p>`,
         },
         {
+          heading: 'AMF Recap: A Surprise B2B with Amelie Lens, and the Full Set Online',
+          body: `<p>Gashouder wasn&rsquo;t Armin&rsquo;s only ADE 2026 moment. On <strong>Saturday 24 October</strong> he closed out the festival&rsquo;s flagship show, <strong>Amsterdam Music Festival (AMF)</strong>, at the Johan Cruijff ArenA &mdash; a sold-out, roughly 40,000-capacity bill alongside David Guetta, Afrojack, Amelie Lens, Marlon Hoffstadt, ARTBAT, D-Block &amp; S-te-Fan and Korolova (see our <a href="/blog/ade-2026-trance-guide">ADE 2026 Trance Guide</a> for the rest of that day&rsquo;s programme). According to <a href="https://www.edmtunes.com/2026/10/26/amf-packs-40-000-fans-into-sold-out-johan-cruijff-arena/" target="_blank" rel="noopener">EDMTunes</a>, Armin opened the night with his Dance Department radio show broadcast live from the arena before stepping into his set, where he premiered &lsquo;What If I Told You&rsquo; with Douwe Bob ahead of its official release and played trance-leaning edits of &lsquo;Here In My Arms (Enjoy The Silence)&rsquo;, Jeff Wayne&rsquo;s &lsquo;The Eve Of The War&rsquo; and Empire Of The Sun&rsquo;s &lsquo;Walking On A Dream&rsquo;.</p><p>Separately, and without any prior announcement, Armin joined techno artist <strong>Amelie Lens</strong> for a surprise back-to-back set during an EXHALE takeover at G-Star Rawfactory in Amsterdam, as reported by <a href="https://weraveyou.com/2026/10/armin-van-buuren-amelie-lens-surprise-b2b-ade-2026" target="_blank" rel="noopener">We Rave You</a>. Lens shared clips from the set on her Instagram afterwards; no full recording has surfaced. A week after AMF, Armin uploaded the <strong>full AMF 2026 set</strong> to his YouTube channel, letting fans relive the performance start to finish &mdash; worth a watch via <a href="https://www.arminvanbuuren.com" target="_blank" rel="noopener">his official site</a> or YouTube channel.</p>`,
+        },
+        {
           heading: 'Armin&rsquo;s New Single: &lsquo;U Got 2 Know&rsquo;',
           body: `<p>On the day the Gashouder show was announced (22 May 2026), Armin released &lsquo;U Got 2 Know&rsquo; with Hannah Laing and Wippenburg, a reimagining of Capella&rsquo;s 1993 dance anthem of the same name (source: <a href="https://djmag.com/news/armin-van-buuren-announces-ade-opening-party-gashouder" target="_blank" rel="noopener">DJ Mag</a>).</p>`,
         },
@@ -1007,9 +1011,9 @@ export const posts14 = [
       ],
     },
     ja: {
-      title: 'ADE 2026のArmin van Buuren：GashouderでBenwalとオープニング',
-      description: 'Armin van Buurenが10月21日、GashouderでBenwalとともにADE 2026の幕を開けます。タイムテーブル、b2bセット、会場の再始動、新曲をまとめました。',
-      excerpt: 'Armin van Buurenが2026年10月21日、リニューアルしたGashouderでADEのオープニングを飾りました。タイムテーブル、ラインナップ、当日の様子のリキャップ。',
+      title: 'ADE 2026のArmin van Buuren：Gashouderオープニング、AMF、電撃b2b',
+      description: 'Armin van BuurenはGashouderでBenwalとADE 2026の幕を開け、AMFをクローズし、Amelie Lensとの電撃b2bでファンを驚かせました。タイムテーブル、当日の様子、新曲をまとめました。',
+      excerpt: 'Armin van BuurenはリニューアルしたGashouderでBenwalとb2bしてADE 2026を開幕、Johan Cruijff ArenAのAMFをクローズし、Amelie Lensとの予告なしのb2bでファンを驚かせました。',
       content: [
         {
           heading: 'イベント概要',
@@ -1030,6 +1034,10 @@ export const posts14 = [
         {
           heading: '当日の様子',
           body: `<p>Seth de Wildt氏による<a href="https://3voor12.vpro.nl/artikelen/ade26-armin-van-buuren-en-benwal-toveren-gashouder-om-tot-trancetempel" target="_blank" rel="noopener">VPRO 3voor12</a>のレビューによると、この夜は約1年半の改装休業を経た会場で初めての本格的なパーティーだったとのこと（正式な再オープンは10月30日）。地下フロアはまだ閉鎖中で、トイレとロッカーは屋外のテントに設置されていました。会場の空気感は非常に高揚していて、客層には世代差がはっきり見られ、若い層はBenwal目当て、年齢層が高めのファンはArmin目当てだったと記されています。</p><p>Benwalのソロ・スロットは、天井からレーザーの「UFO」が降りてくる演出で開幕。ピアノ主体のユーフォリック・ハードハウスが中心で、最後の曲までそのスタイルを貫きました。続くb2bの1時間は、Benwalのハードハウスから一転、重いトランス・トラックで開幕し、Pegassiのトランスリミックスによる「227kg」も披露。最後はArmin自身の「This Is What It Feels Like」で締めくくり、レビュアーは「もっと長く続いて欲しかった」と記しています。</p><p>続くArminの75分間のソロは、コンクリートの床が振動するほどハードな一曲で開幕。新曲を中心に構成しつつ、アシッドやテクノへの短い脱線も挟みました。クライマックスは「Born Slippy」、Faithlessの「Insomnia」、Ben Hemsleyリミックスの「In And Out Of Love」といったトランス・リミックスの連続で、レビュアーはこれを「鳥肌が立つ瞬間」と表現。レビューの結びは「トランスはまた流行っている」でした。</p>`,
+        },
+        {
+          heading: 'AMFリキャップ：Amelie Lensとの電撃b2b、フルセット公開',
+          body: `<p>Arminの ADE 2026 はGashouderだけではありません。<strong>10月24日（土）</strong>には、フェスティバルの看板イベント<strong>Amsterdam Music Festival（AMF）</strong>のクローズをJohan Cruijff ArenAで飾りました。約4万人収容・完売のビルには、David Guetta、Afrojack、Amelie Lens、Marlon Hoffstadt、ARTBAT、D-Block &amp; S-te-Fan、Korolovaが並びました（当日のほかのプログラムは<a href="/blog/ade-2026-trance-guide">ADE 2026 トランス・ガイド</a>を参照）。<a href="https://www.edmtunes.com/2026/10/26/amf-packs-40-000-fans-into-sold-out-johan-cruijff-arena/" target="_blank" rel="noopener">EDMTunes</a>によると、Arminは自身のラジオ番組Dance Departmentの会場からの生放送でその夜を開幕し、セットでは正式リリースに先がけてDouwe Bobとの新曲「What If I Told You」を初披露、「Here In My Arms (Enjoy The Silence)」、Jeff Wayneの「The Eve Of The War」、Empire Of The Sunの「Walking On A Dream」をトランス寄りのエディットでプレイしました。</p><p>これとは別に、事前の発表なしに、Arminはテクノ・アーティストの<strong>Amelie Lens</strong>とG-Star RawfactoryでのEXHALEテイクオーバーにて電撃b2bを披露しました（出典：<a href="https://weraveyou.com/2026/10/armin-van-buuren-amelie-lens-surprise-b2b-ade-2026" target="_blank" rel="noopener">We Rave You</a>）。LensはセットのクリップをInstagramに投稿しましたが、フル録音は出回っていません。AMFから約1週間後、Arminは<strong>AMF 2026のフルセット</strong>を自身のYouTubeチャンネルに公開し、ファンがパフォーマンスを最初から最後まで見返せるようにしました&mdash;<a href="https://www.arminvanbuuren.com" target="_blank" rel="noopener">公式サイト</a>やYouTubeチャンネルからチェックできます。</p>`,
         },
         {
           heading: 'Arminの新曲「U Got 2 Know」',
