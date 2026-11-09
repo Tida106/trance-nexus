@@ -1603,4 +1603,65 @@ export const posts14 = [
       ],
     },
   }
+  ,
+  {
+    slug: 'haliene-eclipsed-live-ibiza',
+    date: '2026-11-10',
+    readTime: 3,
+    tags: ['vocal', 'ibiza', 'haliene', 'black-hole'],
+    en: {
+      title: 'HALIENE’s “Eclipsed” Live in Ibiza: The Full Album at Sunset',
+      description: 'HALIENE performed her whole second album, Eclipsed, live in Ibiza on 12 August as the Moon crossed the setting Sun. The full 1 hr 9 min film is on YouTube. Here is what to expect.',
+      excerpt: 'HALIENE played her entire second album, Eclipsed, on the Ibiza coast as the Moon crossed the setting Sun. The full film runs 1 hr 9 min on YouTube.',
+      content: [
+        {
+          heading: 'The Film',
+          body: `<p><a href="/artists/haliene">HALIENE</a> and her husband and longtime production partner Matthew Steeper performed her second album, <em>Eclipsed</em>, from start to finish on <strong>12 August</strong> as the Moon crossed the setting Sun over Ibiza, according to <a href="https://dancingastronaut.com/2026/10/listen-to-haliene-perform-her-entire-album-under-ibizas-first-total-solar-eclipse-in-more-than-a-century/" target="_blank" rel="noopener">Dancing Astronaut</a>. The full performance is on YouTube as <a href="https://www.youtube.com/watch?v=w9KoCHBCIQs" target="_blank" rel="noopener">&ldquo;HALIENE &ndash; ECLIPSED &ndash; LIVE in IBIZA during total SOLAR ECLIPSE&rdquo;</a> and runs <strong>1 hour 9 minutes</strong>.</p>`,
+        },
+        {
+          heading: 'What You’ll See',
+          body: `<p>The film opens on a sweeping view of the Ibiza coastline under the words &ldquo;HALIENE Presents.&rdquo; From there it settles on HALIENE at the microphone beside Steeper at the decks, on a terrace above the sea while the light turns golden. It is a quiet, scenic way to hear a whole album, and it works well as a single sit-down watch rather than something to skim.</p>`,
+        },
+        {
+          heading: 'The Moment to Wait For',
+          body: `<p>The set ran for the length of the eclipse, from the last stretch of full daylight to the darkness of totality just above the Mediterranean horizon (<a href="https://dancingastronaut.com/2026/10/listen-to-haliene-perform-her-entire-album-under-ibizas-first-total-solar-eclipse-in-more-than-a-century/" target="_blank" rel="noopener">Dancing Astronaut</a>). The timing was planned around <strong>&ldquo;Eclipsed By You,&rdquo;</strong> her collaboration with <a href="/artists/ilan-bluestone">Ilan Bluestone</a>, which <a href="https://findyoursounds.com/haliene-gives-a-total-solar-eclipse-performance-in-ibiza/" target="_blank" rel="noopener">FindYourSounds</a> describes as landing right as the Moon slipped fully in front of the Sun. Reports call it Ibiza&rsquo;s first total eclipse in more than 120 years, and believed to be the first sunset totality there in roughly 3,000.</p>`,
+        },
+        {
+          heading: 'About the Album',
+          body: `<p><em>Eclipsed</em> is HALIENE&rsquo;s second album, out now on <a href="/labels/black-hole-recordings">Black Hole Recordings</a>. According to <a href="https://edm.com/music-releases/haliene-new-album-eclipsed/" target="_blank" rel="noopener">EDM.com</a>, the 15-track record moves from the trance of &ldquo;Eclipsed By You&rdquo; to the liquid drum &amp; bass of &ldquo;Orbit&rdquo; (with Koven) and the techno pulse of &ldquo;Voltage&rdquo; (with Miyuki). Highlights from the Ibiza set named by Dancing Astronaut include &ldquo;Solar Waves,&rdquo; her recent single &ldquo;Right Love,&rdquo; &ldquo;Orbit&rdquo; and &ldquo;Heaven Left A Light On.&rdquo;</p>`,
+        },
+        {
+          heading: 'How to Watch',
+          body: `<p>Our suggestion: headphones, full screen, and watch it in order. The performance follows the album from the first track to the last, so the mood builds the same way the record does. If you only have a few minutes, jump toward the end for &ldquo;Eclipsed By You,&rdquo; but the full hour is worth saving for a quiet evening.</p>`,
+        },
+      ],
+    },
+    ja: {
+      title: 'HALIENE『Eclipsed』イビサ・ライブ：夕日の中で全曲披露',
+      description: 'HALIENEが8月12日、月が沈む夕日を横切るイビサで、2ndアルバム『Eclipsed』を全曲ライブ披露。1時間9分のフル映像がYouTubeで公開中。見どころを紹介します。',
+      excerpt: 'HALIENEが、月が沈む夕日を横切るイビサの海辺で2ndアルバム『Eclipsed』を全曲披露。フル映像は1時間9分、YouTubeで公開中です。',
+      content: [
+        {
+          heading: '映像について',
+          body: `<p><a href="https://dancingastronaut.com/2026/10/listen-to-haliene-perform-her-entire-album-under-ibizas-first-total-solar-eclipse-in-more-than-a-century/" target="_blank" rel="noopener">Dancing Astronaut</a>によると、<a href="/artists/haliene">HALIENE</a>は夫でありプロダクション・パートナーのMatthew Steeperとともに、<strong>8月12日</strong>、月が沈む夕日を横切るイビサで、2ndアルバム『<em>Eclipsed</em>』を最初から最後まで演奏しました。フル映像はYouTubeで<a href="https://www.youtube.com/watch?v=w9KoCHBCIQs" target="_blank" rel="noopener">「HALIENE &ndash; ECLIPSED &ndash; LIVE in IBIZA during total SOLAR ECLIPSE」</a>として公開されており、長さは<strong>1時間9分</strong>です。</p>`,
+        },
+        {
+          heading: '映像の雰囲気',
+          body: `<p>映像は「HALIENE Presents」の文字とともに、イビサの海岸線を見渡す景色から始まります。その後は、海を見下ろすテラスで、ターンテーブルの横に立つSteeperのそばでマイクに向かうHALIENEの姿が中心になり、光は少しずつ黄金色に変わっていきます。アルバムを丸ごと聴く、静かで美しい体験です。流し見よりも、腰を据えて通して観るのに向いています。</p>`,
+        },
+        {
+          heading: '待ってほしい瞬間',
+          body: `<p>セットは日食の始まりから終わりまでの時間いっぱいに続き、昼の明るさが残る最後の時間帯から、地中海の水平線すぐ上での皆既の暗さまでをたどりました（<a href="https://dancingastronaut.com/2026/10/listen-to-haliene-perform-her-entire-album-under-ibizas-first-total-solar-eclipse-in-more-than-a-century/" target="_blank" rel="noopener">Dancing Astronaut</a>）。タイミングは、<a href="/artists/ilan-bluestone">Ilan Bluestone</a>とのコラボ曲<strong>「Eclipsed By You」</strong>に合わせて計画されており、<a href="https://findyoursounds.com/haliene-gives-a-total-solar-eclipse-performance-in-ibiza/" target="_blank" rel="noopener">FindYourSounds</a>は、月が太陽を完全に覆った瞬間にこの曲が披露されたと伝えています。報道では、イビサで120年以上ぶりの皆既日食であり、この場所では約3,000年ぶりとされる日没時の皆既だったとされています。</p>`,
+        },
+        {
+          heading: 'アルバムについて',
+          body: `<p>『<em>Eclipsed</em>』はHALIENEの2ndアルバムで、<a href="/labels/black-hole-recordings">Black Hole Recordings</a>から発売中です。<a href="https://edm.com/music-releases/haliene-new-album-eclipsed/" target="_blank" rel="noopener">EDM.com</a>によると、全15曲で、「Eclipsed By You」のトランスから、Kovenとの「Orbit」のリキッド・ドラムンベース、Miyukiとの「Voltage」のテクノまで、幅広いスタイルを行き来します。Dancing Astronautが挙げているイビサのセットのハイライトは、「Solar Waves」、最近のシングル「Right Love」、「Orbit」、「Heaven Left A Light On」です。</p>`,
+        },
+        {
+          heading: '観るときのおすすめ',
+          body: `<p>おすすめは、ヘッドホンで、全画面にして、順番どおりに観ること。演奏はアルバムの1曲目から最後まで続くので、レコードと同じように雰囲気が高まっていきます。時間がないときは、終盤の「Eclipsed By You」から観る方法もありますが、静かな夜にまるごと1時間を使う価値のある作品です。</p>`,
+        },
+      ],
+    },
+  }
 ];
