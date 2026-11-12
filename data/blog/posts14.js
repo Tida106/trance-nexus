@@ -1664,4 +1664,57 @@ export const posts14 = [
       ],
     },
   }
+  ,
+  {
+    slug: 'armin-van-buuren-ultra-mexico-2026-live',
+    date: '2026-11-12',
+    readTime: 3,
+    tags: ['armin-van-buuren', 'asot', 'festival', 'events'],
+    en: {
+      title: 'Armin van Buuren Live at Ultra Mexico 2026: Watch the Full 90-Minute Set',
+      description: 'Armin van Buuren’s full Ultra Mexico 2026 set from Estadio Banorte is on YouTube: 1 hr 30 min, filmed by UMF TV. Where to watch, how to follow along, and the festival context.',
+      excerpt: 'Armin van Buuren’s Ultra Mexico 2026 set from Mexico City’s Estadio Banorte is now on his YouTube channel in full, 1 hour 30 minutes filmed by UMF TV.',
+      content: [
+        {
+          heading: 'The Video',
+          body: `<p><a href="/artists/armin-van-buuren">Armin van Buuren</a> has put his full Ultra Mexico 2026 performance on his official YouTube channel as <a href="https://www.youtube.com/watch?v=pmf3I-ZBCVQ" target="_blank" rel="noopener">&ldquo;Armin van Buuren live at Ultra Mexico 2026&rdquo;</a>. It runs <strong>1 hour 30 minutes</strong> and carries the UMF TV mark, so it is the festival&rsquo;s own broadcast footage. The video description links to the <a href="https://1001.tl/2u1f86mt" target="_blank" rel="noopener">full tracklist on 1001Tracklists</a>, which is the best way to identify what you hear as you watch.</p>`,
+        },
+        {
+          heading: 'The Festival',
+          body: `<p>Ultra returned to Mexico City on <strong>7&ndash;8 November 2026</strong> at <strong>Estadio Banorte</strong>, with Armin on the phase-one lineup alongside Eric Prydz, Hardwell, Alesso, Steve Angello, ARTBAT and others, according to <a href="https://www.ticketfairy.com/word/2026/08/06/ultra-makes-long-awaited-return-in-mexico-with-star-studded-phase-one-line-up" target="_blank" rel="noopener">Ticket Fairy</a>. The <a href="https://www.riotimesonline.com/ultra-mexico-2026-mexico-city-estadio-banorte-november-7-8/" target="_blank" rel="noopener">Rio Times</a> lists doors at 16:00 and a finish around 02:00, with a Main Stage and a RESISTANCE stage. The tracklist page for this set files it under the Main Stage on 8 November.</p>`,
+        },
+        {
+          heading: 'How to Watch It',
+          body: `<p>This is a festival main-stage set, so it is built for a big crowd: expect long, rising builds and plenty of vocal moments. A few tips for getting the most from it:</p><ul><li><strong>Put it on a big screen with good speakers.</strong> The stadium sound and light show carry the set.</li><li><strong>Keep the tracklist open in another tab.</strong> The <a href="https://1001.tl/2u1f86mt" target="_blank" rel="noopener">1001Tracklists page</a> makes it easy to find a track you liked.</li><li><strong>Start from the beginning.</strong> Like his other long sets, it is paced as one build rather than a string of highlights.</li></ul>`,
+        },
+        {
+          heading: 'More From Armin This Autumn',
+          body: `<p>If you enjoy this one, our recap of <a href="/blog/armin-van-buuren-ade-2026-gashouder">Armin at ADE 2026</a> covers his Gashouder opening night with Benwal, and his closing set at Amsterdam Music Festival. Looking ahead, <a href="/blog/asot-los-angeles-2027">A State of Trance LA 2027</a> is on 11&ndash;12 June.</p>`,
+        },
+      ],
+    },
+    ja: {
+      title: 'Armin van BuurenのUltra Mexico 2026ライブ：90分のフルセットを観る',
+      description: 'Armin van BuurenのUltra Mexico 2026（Estadio Banorte）のフルセットがYouTubeで公開中。長さは1時間30分、UMF TV撮影。観る前のポイントと、フェスの概要を紹介します。',
+      excerpt: 'Armin van BuurenのUltra Mexico 2026（メキシコシティのEstadio Banorte）のセットが、公式YouTubeチャンネルでフル公開されました。UMF TV撮影で、長さは1時間30分です。',
+      content: [
+        {
+          heading: '動画について',
+          body: `<p><a href="/artists/armin-van-buuren">Armin van Buuren</a>が、Ultra Mexico 2026のフルセットを公式YouTubeチャンネルで公開しました。タイトルは<a href="https://www.youtube.com/watch?v=pmf3I-ZBCVQ" target="_blank" rel="noopener">「Armin van Buuren live at Ultra Mexico 2026」</a>で、長さは<strong>1時間30分</strong>です。UMF TVのロゴが入っており、フェス公式の配信映像だと分かります。概要欄には<a href="https://1001.tl/2u1f86mt" target="_blank" rel="noopener">1001Tracklistsのフルトラックリスト</a>へのリンクがあり、観ながら曲を調べるのに便利です。</p>`,
+        },
+        {
+          heading: 'フェスの概要',
+          body: `<p>Ultraは<strong>2026年11月7〜8日</strong>、メキシコシティの<strong>Estadio Banorte</strong>に戻ってきました。<a href="https://www.ticketfairy.com/word/2026/08/06/ultra-makes-long-awaited-return-in-mexico-with-star-studded-phase-one-line-up" target="_blank" rel="noopener">Ticket Fairy</a>によると、第1弾ラインナップにはArminのほか、Eric Prydz、Hardwell、Alesso、Steve Angello、ARTBATらが入っています。<a href="https://www.riotimesonline.com/ultra-mexico-2026-mexico-city-estadio-banorte-november-7-8/" target="_blank" rel="noopener">Rio Times</a>は、開場16時、終演は2時ごろで、Main StageとRESISTANCEステージがあると伝えています。このセットのトラックリストページでは、11月8日のMain Stageとして登録されています。</p>`,
+        },
+        {
+          heading: '観るときのポイント',
+          body: `<p>これはフェスのメインステージのセットなので、大観衆に向けて、長く盛り上がるビルドアップとボーカルの見せ場が中心になります。楽しむためのコツは次のとおりです。</p><ul><li><strong>大きな画面と良いスピーカーで観る。</strong>スタジアムの音と照明の演出がセットの魅力です。</li><li><strong>トラックリストを別のタブで開いておく。</strong><a href="https://1001.tl/2u1f86mt" target="_blank" rel="noopener">1001Tracklistsのページ</a>で、気に入った曲をすぐ調べられます。</li><li><strong>最初から通して観る。</strong>長尺のセットなので、見せ場だけをつなぐより、ひとつの流れとして楽しむのがおすすめです。</li></ul>`,
+        },
+        {
+          heading: '今秋のArminをもっと',
+          body: `<p>気に入った方は、GashouderでのBenwalとのオープニングナイトとAmsterdam Music Festivalでのクロージングを紹介した<a href="/blog/armin-van-buuren-ade-2026-gashouder">ADE 2026のArmin</a>の記事もどうぞ。今後は、6月11〜12日の<a href="/blog/asot-los-angeles-2027">A State of Trance LA 2027</a>があります。</p>`,
+        },
+      ],
+    },
+  }
 ];

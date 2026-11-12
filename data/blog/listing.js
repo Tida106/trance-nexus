@@ -1,6 +1,9 @@
 // Lightweight listing data — no article body content.
 // Newest first. Keep in sync with data/blog/posts.js when adding articles.
 export const listing = [
+  { slug: 'armin-van-buuren-ultra-mexico-2026-live', date: '2026-11-12', readTime: 3, tags: ['armin-van-buuren', 'asot', 'festival', 'events'],
+    en: { title: 'Armin van Buuren Live at Ultra Mexico 2026: Watch the Full 90-Minute Set', excerpt: 'Armin van Buuren’s Ultra Mexico 2026 set from Mexico City’s Estadio Banorte is now on his YouTube channel in full, 1 hour 30 minutes filmed by UMF TV.' },
+    ja: { title: 'Armin van BuurenのUltra Mexico 2026ライブ：90分のフルセットを観る', excerpt: 'Armin van BuurenのUltra Mexico 2026（メキシコシティのEstadio Banorte）のセットが、公式YouTubeチャンネルでフル公開されました。UMF TV撮影で、長さは1時間30分です。' } },
   { slug: 'haliene-eclipsed-live-ibiza', date: '2026-11-10', readTime: 3, tags: ['vocal', 'ibiza', 'haliene', 'black-hole'],
     en: { title: 'HALIENE’s “Eclipsed” Live in Ibiza: The Full Album at Sunset', excerpt: 'HALIENE played her entire second album, Eclipsed, on the Ibiza coast as the Moon crossed the setting Sun. The full film runs 1 hr 9 min on YouTube.' },
     ja: { title: 'HALIENE『Eclipsed』イビサ・ライブ：夕日の中で全曲披露', excerpt: 'HALIENEが、月が沈む夕日を横切るイビサの海辺で2ndアルバム『Eclipsed』を全曲披露。フル映像は1時間9分、YouTubeで公開中です。' } },
