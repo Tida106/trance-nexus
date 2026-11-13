@@ -1717,4 +1717,57 @@ export const posts14 = [
       ],
     },
   }
+  ,
+  {
+    slug: 'armin-van-buuren-douwe-bob-what-if-i-told-you',
+    date: '2026-11-13',
+    readTime: 2,
+    tags: ['armin-van-buuren', 'vocal', 'events'],
+    en: {
+      title: 'Armin van Buuren x Douwe Bob “What If I Told You”: Watch the Official Music Video',
+      description: 'Armin van Buuren and Douwe Bob’s “What If I Told You” has an official music video on YouTube, after its live debut in front of 40,000 people at AMF. Watch it here, with the story behind the track.',
+      excerpt: 'Armin van Buuren and Dutch singer-songwriter Douwe Bob now have an official music video for “What If I Told You,” which debuted live at AMF in front of 40,000 people.',
+      content: [
+        {
+          heading: 'The Video',
+          body: `<p>The official music video for <strong>&ldquo;What If I Told You&rdquo;</strong> is now on YouTube, posted on a joint channel for <a href="/artists/armin-van-buuren">Armin van Buuren</a> and Douwe Bob as <a href="https://www.youtube.com/watch?v=4h8-9X_JTJI" target="_blank" rel="noopener">&ldquo;Armin van Buuren x Douwe Bob &ndash; What If I Told You (Official Music Video)&rdquo;</a>. It is a song-length video rather than a long set, so it is an easy one to watch in a couple of minutes.</p>`,
+        },
+        {
+          heading: 'The Story Behind the Track',
+          body: `<p>According to <a href="https://www.broadwayworld.com/bwwmusic/article/Armin-van-Buuren-and-Douwe-Bob-Collaborate-on-WHAT-IF-I-TOLD-YOU-20261029" target="_blank" rel="noopener">BroadwayWorld</a>, the track comes from Dutch singer-songwriter Douwe Bob and was released through Armada Music in collaboration with Breaking Records. The song began with a late-night moment of inspiration for Douwe Bob, who immediately thought of Armin as the right collaborator. The release describes it as blending Armin&rsquo;s electronic sound with Douwe Bob&rsquo;s songwriting and country influences.</p>`,
+        },
+        {
+          heading: 'Live Debut at AMF',
+          body: `<p>The pair first played the song live on <strong>24 October</strong> at the Johan Cruijff ArenA during AMF, in front of 40,000 people, as part of Amsterdam Dance Event (<a href="https://www.broadwayworld.com/bwwmusic/article/Armin-van-Buuren-and-Douwe-Bob-Collaborate-on-WHAT-IF-I-TOLD-YOU-20261029" target="_blank" rel="noopener">BroadwayWorld</a>). For more from that week, see our recap of <a href="/blog/armin-van-buuren-ade-2026-gashouder">Armin at ADE 2026</a>.</p>`,
+        },
+        {
+          heading: 'Who It’s For',
+          body: `<p>This is a pop-leaning, vocal-led release rather than a trance track, so it suits listeners who enjoy Armin&rsquo;s song-driven collaborations. If you prefer his club and festival side, his <a href="/blog/armin-van-buuren-ultra-mexico-2026-live">full Ultra Mexico 2026 set</a> is the better place to start.</p>`,
+        },
+      ],
+    },
+    ja: {
+      title: 'Armin van Buuren x Douwe Bob「What If I Told You」：公式ミュージックビデオを観る',
+      description: 'Armin van BuurenとDouwe Bobの「What If I Told You」の公式ミュージックビデオがYouTubeで公開中。AMFで4万人の前でライブ初披露された曲の背景とあわせて紹介します。',
+      excerpt: 'Armin van Buurenと、オランダのシンガーソングライターDouwe Bobによる「What If I Told You」の公式ミュージックビデオが公開されました。AMFで4万人の前でライブ初披露された曲です。',
+      content: [
+        {
+          heading: '動画について',
+          body: `<p><strong>「What If I Told You」</strong>の公式ミュージックビデオが、<a href="/artists/armin-van-buuren">Armin van Buuren</a>とDouwe Bobの共同チャンネルで公開されました。タイトルは<a href="https://www.youtube.com/watch?v=4h8-9X_JTJI" target="_blank" rel="noopener">「Armin van Buuren x Douwe Bob &ndash; What If I Told You (Official Music Video)」</a>です。長いセットではなく1曲分の映像なので、数分で気軽に観られます。</p>`,
+        },
+        {
+          heading: '曲の背景',
+          body: `<p><a href="https://www.broadwayworld.com/bwwmusic/article/Armin-van-Buuren-and-Douwe-Bob-Collaborate-on-WHAT-IF-I-TOLD-YOU-20261029" target="_blank" rel="noopener">BroadwayWorld</a>によると、この曲はオランダのシンガーソングライターDouwe Bobから生まれ、Armada MusicからBreaking Recordsとの協力でリリースされました。きっかけは、Douwe Bobが深夜に受けたインスピレーションで、すぐにArminを共作相手として思い浮かべたそうです。リリースでは、Arminのエレクトロニックなサウンドと、Douwe Bobのソングライティングやカントリーの影響を合わせた作品と説明されています。</p>`,
+        },
+        {
+          heading: 'AMFでのライブ初披露',
+          body: `<p>2人は<strong>10月24日</strong>、Amsterdam Dance Eventの一環として行われたAMFで、ヨハン・クライフ・アレナの4万人の前でこの曲を初めてライブで披露しました（<a href="https://www.broadwayworld.com/bwwmusic/article/Armin-van-Buuren-and-Douwe-Bob-Collaborate-on-WHAT-IF-I-TOLD-YOU-20261029" target="_blank" rel="noopener">BroadwayWorld</a>）。同じ週の様子は、<a href="/blog/armin-van-buuren-ade-2026-gashouder">ADE 2026のArmin</a>の記事でも紹介しています。</p>`,
+        },
+        {
+          heading: 'こんな人におすすめ',
+          body: `<p>トランスというよりポップ寄りで、ボーカルが中心のリリースです。Arminの歌ものコラボが好きな方に向いています。クラブやフェスの側面が好きな方は、<a href="/blog/armin-van-buuren-ultra-mexico-2026-live">Ultra Mexico 2026のフルセット</a>から観るのがおすすめです。</p>`,
+        },
+      ],
+    },
+  }
 ];

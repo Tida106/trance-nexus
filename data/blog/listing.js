@@ -1,6 +1,9 @@
 // Lightweight listing data — no article body content.
 // Newest first. Keep in sync with data/blog/posts.js when adding articles.
 export const listing = [
+  { slug: 'armin-van-buuren-douwe-bob-what-if-i-told-you', date: '2026-11-13', readTime: 2, tags: ['armin-van-buuren', 'vocal', 'events'],
+    en: { title: 'Armin van Buuren x Douwe Bob “What If I Told You”: Watch the Official Music Video', excerpt: 'Armin van Buuren and Dutch singer-songwriter Douwe Bob now have an official music video for “What If I Told You,” which debuted live at AMF in front of 40,000 people.' },
+    ja: { title: 'Armin van Buuren x Douwe Bob「What If I Told You」：公式ミュージックビデオを観る', excerpt: 'Armin van Buurenと、オランダのシンガーソングライターDouwe Bobによる「What If I Told You」の公式ミュージックビデオが公開されました。AMFで4万人の前でライブ初披露された曲です。' } },
   { slug: 'armin-van-buuren-ultra-mexico-2026-live', date: '2026-11-12', readTime: 3, tags: ['armin-van-buuren', 'asot', 'festival', 'events'],
     en: { title: 'Armin van Buuren Live at Ultra Mexico 2026: Watch the Full 90-Minute Set', excerpt: 'Armin van Buuren’s Ultra Mexico 2026 set from Mexico City’s Estadio Banorte is now on his YouTube channel in full, 1 hour 30 minutes filmed by UMF TV.' },
     ja: { title: 'Armin van BuurenのUltra Mexico 2026ライブ：90分のフルセットを観る', excerpt: 'Armin van BuurenのUltra Mexico 2026（メキシコシティのEstadio Banorte）のセットが、公式YouTubeチャンネルでフル公開されました。UMF TV撮影で、長さは1時間30分です。' } },
