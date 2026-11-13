@@ -1,6 +1,9 @@
 // Lightweight listing data — no article body content.
 // Newest first. Keep in sync with data/blog/posts.js when adding articles.
 export const listing = [
+  { slug: 'ruben-de-ronde-find-your-harmony-500-prague-live', date: '2026-11-13', readTime: 2, tags: ['ruben-de-ronde', 'uplifting', 'events'],
+    en: { title: 'Ruben de Ronde Live at Find Your Harmony 500, Prague: Watch the Set', excerpt: 'Ruben de Ronde’s Live at Find Your Harmony 500, Prague is now on the Find Your Harmony YouTube channel. Here is how to enjoy it.' },
+    ja: { title: 'Ruben de Ronde「Live at Find Your Harmony 500, Prague」：ライブセットを観る', excerpt: 'Ruben de Rondeの「Live at Find Your Harmony 500, Prague」がFind Your HarmonyのYouTubeチャンネルで公開されています。楽しみ方を紹介します。' } },
   { slug: 'armin-van-buuren-douwe-bob-what-if-i-told-you', date: '2026-11-13', readTime: 2, tags: ['armin-van-buuren', 'vocal', 'events'],
     en: { title: 'Armin van Buuren x Douwe Bob “What If I Told You”: Watch the Official Music Video', excerpt: 'Armin van Buuren and Dutch singer-songwriter Douwe Bob now have an official music video for “What If I Told You,” which debuted live at AMF in front of 40,000 people.' },
     ja: { title: 'Armin van Buuren x Douwe Bob「What If I Told You」：公式ミュージックビデオを観る', excerpt: 'Armin van Buurenと、オランダのシンガーソングライターDouwe Bobによる「What If I Told You」の公式ミュージックビデオが公開されました。AMFで4万人の前でライブ初披露された曲です。' } },

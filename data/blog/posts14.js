@@ -1770,4 +1770,49 @@ export const posts14 = [
       ],
     },
   }
+  ,
+  {
+    slug: 'ruben-de-ronde-find-your-harmony-500-prague-live',
+    date: '2026-11-13',
+    readTime: 2,
+    tags: ['ruben-de-ronde', 'uplifting', 'events'],
+    en: {
+      title: 'Ruben de Ronde Live at Find Your Harmony 500, Prague: Watch the Set',
+      description: 'Ruben de Ronde’s “Live at Find Your Harmony 500, Prague” set is now on YouTube. Here is what to expect and how to get the most out of watching it.',
+      excerpt: 'Ruben de Ronde’s Live at Find Your Harmony 500, Prague is now on the Find Your Harmony YouTube channel. Here is how to enjoy it.',
+      content: [
+        {
+          heading: 'A set built for the 500th episode celebration',
+          body: `<p>Find Your Harmony is Andrew Rayel’s long-running radio show, and episode 500 is a milestone the whole community has been celebrating. Ruben de Ronde’s set from the Prague celebration has now been uploaded as <strong>“Ruben de Ronde – Live at Find Your Harmony 500, Prague”</strong> on the Find Your Harmony YouTube channel.</p>`,
+        },
+        {
+          heading: 'How to enjoy it',
+          body: `<p>This is an emotional, melodic style of trance that rewards a proper listen. Put on headphones or play it through a good speaker, turn the volume up, and let it run from the start rather than skipping around. Sets like this are built to develop slowly, and the best moments tend to arrive when you have been listening for a while.</p><p>It also works well as background music for a long evening, since the energy stays warm and uplifting rather than harsh.</p>`,
+        },
+        {
+          heading: 'Watch the full set',
+          body: `<p><a href="https://www.youtube.com/watch?v=GbFsO5PvHek" target="_blank" rel="noopener">Watch Ruben de Ronde – Live at Find Your Harmony 500, Prague on YouTube</a></p><p>Looking for more from the same community? Andrew Rayel’s ADE 2026 party for the 500th episode is covered by <a href="https://www.iamsterdam.com/en/whats-on/calendar/nightlife/clubbing/find-your-harmony-ade-2026-fyh-500" target="_blank" rel="noopener">I amsterdam</a>.</p>`,
+        },
+      ],
+    },
+    ja: {
+      title: 'Ruben de Ronde「Live at Find Your Harmony 500, Prague」：ライブセットを観る',
+      description: 'Ruben de Rondeの「Live at Find Your Harmony 500, Prague」がYouTubeに公開されました。観る前に知っておきたいポイントと楽しみ方を紹介します。',
+      excerpt: 'Ruben de Rondeの「Live at Find Your Harmony 500, Prague」がFind Your HarmonyのYouTubeチャンネルで公開されています。楽しみ方を紹介します。',
+      content: [
+        {
+          heading: '500回記念のために用意されたセット',
+          body: `<p>Find Your Harmonyは、Andrew Rayelが続けている人気ラジオ番組で、第500回はコミュニティ全体で祝っている節目です。そのプラハでの記念公演からRuben de Rondeのセットが、Find Your HarmonyのYouTubeチャンネルに<strong>「Ruben de Ronde – Live at Find Your Harmony 500, Prague」</strong>として公開されました。</p>`,
+        },
+        {
+          heading: '楽しみ方',
+          body: `<p>エモーショナルでメロディックなトランスで、じっくり聴くほど味わいが増すタイプです。ヘッドホンか良いスピーカーで音量を上げ、飛ばさずに最初から流してみてください。ゆっくり展開していく構成なので、聴き続けた先に一番いい瞬間が来ます。</p><p>温かく高揚感のあるサウンドなので、夜の作業用BGMにもおすすめです。</p>`,
+        },
+        {
+          heading: 'フルセットはこちら',
+          body: `<p><a href="https://www.youtube.com/watch?v=GbFsO5PvHek" target="_blank" rel="noopener">YouTubeでRuben de Ronde – Live at Find Your Harmony 500, Pragueを観る</a></p><p>同じコミュニティの話題として、Andrew RayelによるADE 2026の第500回記念パーティは<a href="https://www.iamsterdam.com/en/whats-on/calendar/nightlife/clubbing/find-your-harmony-ade-2026-fyh-500" target="_blank" rel="noopener">I amsterdam</a>でも紹介されています。</p>`,
+        },
+      ],
+    },
+  }
 ];
